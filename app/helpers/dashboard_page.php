@@ -30,7 +30,7 @@ class Dashboard_Page
             <!-- Agregamos LibroCSS -->
             <link rel="stylesheet" href="../../resources/css/style.css">
             <link rel="stylesheet" href="../../resources/css/vanilla-dataTables.min.css">
-            <title>Monte Sinai Home</title>
+            <title>Monte Sinai - '.$title.'</title>
             <link rel="shortcut icon" href="../../resources/img/logo_sinai.png" type="image/x-icon">
         </head>
         <body>  
