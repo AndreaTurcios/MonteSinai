@@ -46,7 +46,7 @@ class Dashboard_Page
                         <li><a href="/Colaboradores">Customers</a></li>
                         <li><a href="/ControlColaboradores">Reports</a></li>
                         <li><a href="/Login">Integrations</a></li>
-                        <li><a href="/Login">Login</a></li>
+                        <li><a href="../dashboard/login.php">Login</a></li>
                     </ul>
                 </div>
             </nav>
