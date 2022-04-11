@@ -38,14 +38,14 @@ class Dashboard_Page
  <nav>
                 <div class="menu">
                     <ul>
-                         <li><a href="/Default"><img src="../../resources/img/logo_sinai.png" width="60" height="60" class="top-center"></a></li>
+                         <li><a href="../dashboard/main.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
                     </ul>
                     <ul>
-                        <li><a href="../dashboard/libro1.php">Proyectos</a></li>
-                        <li><a href="/Clientes">Clientes</a></li>
-                        <li><a href="/Actividades">Actividades</a></li>
-                        <li><a href="/Colaboradores">Colaboradores</a></li>
-                        <li><a href="/ControlColaboradores">Control</a></li>
+                        <li><a href="/Clientes">Orders</a></li>
+                        <li><a href="/Actividades">Products</a></li>
+                        <li><a href="/Colaboradores">Customers</a></li>
+                        <li><a href="/ControlColaboradores">Reports</a></li>
+                        <li><a href="/Login">Integrations</a></li>
                         <li><a href="/Login">Login</a></li>
                     </ul>
                 </div>
@@ -84,24 +84,26 @@ class Dashboard_Page
     <div class="row">
       <div class="col-sm-12 col-md-6">
         <h6>Sobre nosotros</h6>
-        <p class="text-justify">MonteSinai <i>TIENE COMO OBJETIVO </i> brindar apoyo a empresas tanto grandes como peque;as.</p>
+        <p class="text-justify">MonteSinai es una gran ventana a la formacion en todos los sentidos,
+        nuestros libros le ayudan en la aventura del saber, del conocer, de convivir y descubrir. 
+        Es un recurso didáctico elaborado con la intención de facilitar los procesos de enseñanza y aprendizaje. 
+        Contamos con un portafolio de libros de texto curriculares y no curriculares</p>
       </div>
 
       <div class="col-xs-6 col-md-3">
-        <h6>Lenguajes con los que trabajamos: </h6>
+        <h6>Recursos para docentes: </h6>
         <ul class="footer-links">
-          <li><a href="">C</a></li>
-          <li><a href="">PHP</a></li>
-          <li><a href="">Java</a></li>
-          <li><a href="">Android</a></li>
-          <li><a href="">Templates</a></li>
+          <li><a href="">Inglés</a></li>
+          <li><a href="">Moral, urbanidad y civica</a></li>
+          <li><a href="">Ciencias Salud y Medio Ambiente</a></li>
+          <li><a href="">Lenguaje y Literatura</a></li>
+          <li><a href="">Estudios sociales</a></li>
         </ul>
       </div>
 
       <div class="col-xs-6 col-md-3">
         <h6>CONTACTO</h6>
         <ul class="footer-links">
-          <li><a href="">Sobre nosotros</a></li>
           <li><a href="">Contactanos</a></li>
         </ul>
       </div>
