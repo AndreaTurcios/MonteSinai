@@ -47,12 +47,6 @@ Dashboard_Page::headerTemplate('Libro 1');
                 <thead class="table-dark">
                         <tr>
                             <th scope="col">Nombre</th>
-                            <th scope="col">Teléfono</th>
-                            <th scope="col">NIT</th>
-                            <th scope="col">DUI</th>
-                            <th scope="col">Dirección</th>
-                            <th scope="col">Correo</th>
-                            <th scope="col">Estado pago</th>
                             <th scope="col">Controladores</th>
                         </tr>
                     </thead>
