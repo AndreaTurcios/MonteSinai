@@ -1,0 +1,8 @@
+ /* On mouse-over */
+  .btn:hover {background: rgb(117, 179, 175);}
+  
+  .success {color: green;}
+  .info {color: dodgerblue;}
+  .warning {color: orange;}
+  .danger {color: red;}
+  .default {color: black;}

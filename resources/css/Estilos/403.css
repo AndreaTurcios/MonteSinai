@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(90deg, #4BADB6, #2cafbb);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(109, 100, 100);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.flex-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}  
+
+.flex-container div{
+    width: 100%;
+    padding: 40px;
+    background: rgb(245, 241, 241);
+}
+
+#recarga{
+    font-size: 100px;
+    color: #2cafbb;
+}
+
+#recarga:hover{
+    color: #4BADB6;
+}
