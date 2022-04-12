@@ -34,13 +34,13 @@ class Dashboard_Page
             <link rel="shortcut icon" href="../../resources/img/logo_sinai.png" type="image/x-icon">
         </head>
         <body>  
-
- <nav>
+        <nav>
                 <div class="menu">
                     <ul>
-                         <li><a href="../dashboard/main.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+                         <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
                     </ul>
                     <ul>
+                        <li><a href="../dashboard/main.php">Libros</a></li>
                         <li><a href="/Clientes">Orders</a></li>
                         <li><a href="/Actividades">Products</a></li>
                         <li><a href="/Colaboradores">Customers</a></li>
@@ -50,6 +50,7 @@ class Dashboard_Page
                     </ul>
                 </div>
             </nav>
+            <div class="css-xfq28i"></div>
             <br>
             <main>   
             ');
@@ -80,15 +81,15 @@ class Dashboard_Page
         <hr />
         <div class="css-xfq28i"></div>
         <footer class="site-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <h6>Sobre nosotros</h6>
-        <p class="text-justify">MonteSinai es una gran ventana a la formacion en todos los sentidos,
-        nuestros libros le ayudan en la aventura del saber, del conocer, de convivir y descubrir. 
-        Es un recurso didáctico elaborado con la intención de facilitar los procesos de enseñanza y aprendizaje. 
-        Contamos con un portafolio de libros de texto curriculares y no curriculares</p>
-      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>Sobre nosotros</h6>
+              <p class="text-justify">MonteSinai es una gran ventana a la formacion en todos los sentidos,
+              nuestros libros le ayudan en la aventura del saber, del conocer, de convivir y descubrir. 
+              Es un recurso didáctico elaborado con la intención de facilitar los procesos de enseñanza y aprendizaje. 
+              Contamos con un portafolio de libros de texto curriculares y no curriculares</p>
+            </div>
 
       <div class="col-xs-6 col-md-3">
         <h6>Recursos para docentes: </h6>

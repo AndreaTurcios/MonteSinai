@@ -274,7 +274,20 @@ input::-moz-focus-inner {
 .main * {
     transition: 1s;
 }
+main .contenedor-img {
+    max-width: 60%;
+    margin-right: 40px;
+}
+@media screen and (max-width: 915px) {
+    main {
+         flex-direction: column;
+         text-align: center;
+    }
 
+    main .contenedor-img {
+         margin-bottom: 40px;
+    }
+}
 
 
 
@@ -461,9 +474,42 @@ ul li a {
     width: 100%;
 }
 
+.contenedor {
+	background-color: #fff;
+	width: 90%;
+	max-width: 1200px;
+	margin: 40px auto;
+	padding: 40px;
+	border-radius: 10px;
+}
 
 
+.contenedor-texto .titulo {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
 
+.contenedor-texto .materias {
+    font-weight: bold;
+    color: #934b17;
+    font-style: normal;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 30px;
+   border-radius: 100px;
+    margin-right: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+}
+
+.btn-link:hover,
+.btn-link.activo {
+   color: #fff;
+   background: #934b17;
+}
 
 
 
