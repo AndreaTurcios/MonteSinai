@@ -14,8 +14,8 @@ Dashboard_Page::headerTemplate('Home');
 					<h2 class="titulo">¿Quieres aprender <br>  <span class="typed"></span> ? </h2>
                     <p>MonteSinai es una gran ventana a la formacion en todos los sentidos, nuestros libros le ayudan en la aventura del saber, del conocer, de convivir y descubrir. Es un recurso didáctico elaborado con la intención de facilitar los procesos de enseñanza y aprendizaje. Contamos con un portafolio de libros de texto curriculares y no curriculares</p>
 
-                    <a href="#" class="btn-link activo">Reserva ahora</a>
-                    <a href="#" class="btn-link">Conocenos</a>
+                    <a href="../dashboard/login.php" class="btn-link activo">Nuestros Libros</a>
+                    <a href="../dashboard/sobre_nosotros.php" class="btn-link">Conocenos</a>
                </div>
           </main>
      </div>
