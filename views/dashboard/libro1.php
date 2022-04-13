@@ -69,7 +69,6 @@ Dashboard_Page::headerTemplate('Libro 1');
                 </div>
             </div>
         </div>
-        <input type="range" max="1" min="0" step="0.1" class="volumen">
     </div>
 
     <script src='../../resources/js/codigo.js'></script>
