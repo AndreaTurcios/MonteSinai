@@ -7,6 +7,7 @@ Dashboard_Page::headerTemplate('Home');
 		<link rel="stylesheet" type="text/css" href="../../resources/css/demo1.css" />
         <link rel="stylesheet" type="text/css" href="../../resources/css/bookblock.css" />
 		<script src="../../resources/js/modernizr.custom.js"></script>
+        <script src="../../resources/js/principal.js"></script>
 
 
 <div class="contenedor">
@@ -23,7 +24,8 @@ Dashboard_Page::headerTemplate('Home');
                </div>
           </main>
 </div>
-
+<div class="css-xfq28i"></div>
+<br>
 <div class="container">
 			<div class="main clearfix">
 				<div class="bb-custom-wrapper">
@@ -138,6 +140,18 @@ Dashboard_Page::headerTemplate('Home');
 		<script>
 				Page.init();
 		</script>
+        <div class="css-xfq28i"></div>
+        <br>
+      
+
+    <!-- quick cache hack -->
+    <img src="../../resources/img/1.jpg" style="display: none">
+    <img src="../../resources/img/2.jpg" style="display: none">
+    <img src="../../resources/img/3.jpg" style="display: none">
+    <img src="../../resources/img/4.jpg" style="display: none">
+    <img src="../../resources/img/5.jpg" style="display: none">
+
+
 
 	 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
      <script src="../../resources/js/main.js"></script>
