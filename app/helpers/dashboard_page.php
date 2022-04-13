@@ -31,7 +31,7 @@ class Dashboard_Page
             <link rel="stylesheet" href="../../resources/css/style.css">
             <link rel="stylesheet" href="../../resources/css/vanilla-dataTables.min.css">
             <title>Monte Sinai - '.$title.'</title>
-            <link rel="shortcut icon" href="../../resources/img/logo_sinai.png" type="image/x-icon">
+            <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
         </head>
         <body>  
         <nav>
