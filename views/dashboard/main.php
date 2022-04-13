@@ -51,70 +51,70 @@ Dashboard_Page::headerTemplate('Menu');
 
                         <tr>
                         <th scope="row">2</th>
-                            <td><A HREF="otra_pagina.html"> Book 2 </A></td>
+                            <td><A HREF="../dashboard/libro2.php"> Book 2 </A></td>
                             <td>420</td>
                             <td>1 H 5 min</td>
                         </tr>
 
                         <tr>
                         <th scope="row">3</th>
-                            <td><A HREF="otra_pagina.html"> Book 3 </A></td>
+                            <td><A HREF="../dashboard/libro3.php"> Book 3 </A></td>
                             <td>510</td>
                             <td>3 H 2 min</td>
                         </tr>
 
                         <tr>
                         <th scope="row">4</th>
-                            <td><A HREF="otra_pagina.html"> Book 4 </A></td>
+                            <td><A HREF="../dashboard/libro4.php"> Book 4 </A></td>
                             <td>420</td>
                             <td>5 min</td>
                         </tr>
                         
                         <tr>
                         <th scope="row">5</th>
-                            <td><A HREF="otra_pagina.html"> Book 5 </A></td>
+                            <td><A HREF="../dashboard/libro5.php"> Book 5 </A></td>
                             <td>175</td>
                             <td>50 min</td>
                         </tr>
 
                         <tr>
                         <th scope="row">6</th>
-                            <td><A HREF="otra_pagina.html"> Book 6 </A></td>
+                            <td><A HREF="../dashboard/libro6.php"> Book 6 </A></td>
                             <td>120</td>
                             <td>5 min</td>
                         </tr>
 
                         <tr>
                         <th scope="row">7</th>
-                            <td><A HREF="otra_pagina.html"> Book 7 </A></td>
+                            <td><A HREF="../dashboard/libro7.php"> Book 7 </A></td>
                             <td>260</td>
                             <td>1 min</td>
                         </tr>
 
                         <tr>
                         <th scope="row">8</th>
-                            <td><A HREF="otra_pagina.html"> Book 8 </A></td>
+                            <td><A HREF="../dashboard/libro8.php"> Book 8 </A></td>
                             <td>204</td>
                             <td>1 H</td>
                         </tr>
 
                         <tr>
                         <th scope="row">9</th>
-                        <td><A HREF="otra_pagina.html"> Book 9 </A></td>
+                        <td><A HREF="../dashboard/libro9.php"> Book 9 </A></td>
                             <td>62</td>
                             <td>1 min</td>
                         </tr>
 
                         <tr>
                         <th scope="row">10</th>
-                        <td><A HREF="otra_pagina.html"> Book 10 </A></td>
+                        <td><A HREF="../dashboard/libro10.php"> Book 10 </A></td>
                             <td>485</td>
                             <td>4 min</td>
                         </tr>
 
                         <tr>
                         <th scope="row">11</th>
-                        <td><A HREF="otra_pagina.html"> Book 11 </A></td>
+                        <td><A HREF="../dashboard/libro11.php"> Book 11 </A></td>
                             <td>50</td>
                             <td>1 H</td>
                         </tr>
