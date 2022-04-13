@@ -4,7 +4,9 @@ require_once('../../app/helpers/dashboard_page.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
 Dashboard_Page::headerTemplate('Libro 1');
 ?>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <section>
     <div class="container">
         <div class="row">
@@ -41,23 +43,39 @@ Dashboard_Page::headerTemplate('Libro 1');
         </div>
         </nav>
         <br>
-        <div class="row">
-            <div class="table-responsive" class="col scroll">
-                <table id="data-table" class="table table-bordered">
-                <thead class="table-dark">
-                        <tr>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Controladores</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tbody-rows">
-                        
-                    </tbody>
-                </table>
+        <h3>Example pronunciation</h3>
+        <div class="container">
+        <div class="listado-canciones">
+            <div class="cancion">
+                <div class="titulo">
+                    Head
+                </div>
+                <div class="play" id="head">
+                    <span class="material-icons">
+                        play_circle
+                    </span>
+                </div>
+                <div class="stop">
+                    <span class="material-icons">
+                        cancel
+                    </span>
+                </div>
+                <div class="descargar">
+                    <a href='../../resources/audio/head.mp3' download>
+                        <span class="material-icons">
+                            file_download
+                        </span>
+                    </a>
+                </div>
             </div>
-            </nav>
-            <br>
         </div>
+        <input type="range" max="1" min="0" step="0.1" class="volumen">
+    </div>
+
+    <script src='../../resources/js/codigo.js'></script>
+
+
+        <br>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">

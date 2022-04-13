@@ -511,7 +511,25 @@ ul li a {
    background: #934b17;
 }
 
+.listado-canciones{
+    width: 100%;
+}
+.cancion{
+    padding: 1rem 0rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
+}
+.titulo{
+    flex:6;
+}
+.play, .stop, .descargar{
+    flex: 1;
+    cursor: pointer;
+}
 
 
 
