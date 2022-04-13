@@ -18,7 +18,3 @@ for(elemento of stopCancion){
     })
 }
 
-volumen.addEventListener('click', function(){
-    let vol = this.value
-    audio.volume = vol
-})
