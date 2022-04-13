@@ -41,11 +41,11 @@ class Dashboard_Page
                     </ul>
                     <ul>
                         <li><a href="../dashboard/main.php">Libros</a></li>
-                        <li><a href="/Clientes">Orders</a></li>
-                        <li><a href="/Actividades">Products</a></li>
-                        <li><a href="/Colaboradores">Customers</a></li>
-                        <li><a href="/ControlColaboradores">Reports</a></li>
-                        <li><a href="/Login">Integrations</a></li>
+                        <li><a href="../dashboard/orders.php">Orders</a></li>
+                        <li><a href="../dashboard/products.php">Products</a></li>
+                        <li><a href="../dashboard/customers.php">Customers</a></li>
+                        <li><a href="../dashboard/reports.php">Reports</a></li>
+                        <li><a href="../dashboard/integrations.php">Integrations</a></li>
                         <li><a href="../dashboard/login.php">Login</a></li>
                     </ul>
                 </div>
