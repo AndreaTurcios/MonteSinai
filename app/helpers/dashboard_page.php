@@ -51,8 +51,7 @@ class Dashboard_Page
                 </div>
             </nav>
             <div class="css-xfq28i"></div>
-            <br>
-            <main>   
+            <br>  
             ');
     }
 
@@ -76,8 +75,6 @@ class Dashboard_Page
             ');
       
         print('
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        </asp:ContentPlaceHolder>
         <hr />
         <div class="css-xfq28i"></div>
         <footer class="site-footer">
