@@ -12,21 +12,11 @@ Dashboard_Page::headerTemplate('Menu');
                 <h1 class="center">Menú</h1>
             </div>
         </div>
+        
         <br>
         <!-- Navbar para los elementos de filtrado y agregar -->
         <div class="row">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 p-3">
-                <form class="d-flex" method="post" id="search-form">
-                    <input id="search" class="form-control me-2" type="text" name="search" required />
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
-
-            <div class="col-6 col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2 p-3 text-center" id="MuestraBTN">
-                <div class="form-group">
-
-                </div>
-            </div>
+            
         </div>
         </nav>
         <div class="row">
