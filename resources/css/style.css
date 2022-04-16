@@ -997,3 +997,8 @@ ul li a {
       border-color: transparent
     }
   }
+
+
+  #data-table {
+    color: rgb(0, 0, 0);
+  }

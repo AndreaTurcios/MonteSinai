@@ -49,11 +49,11 @@ class Dashboard_Page
                     </ul>
                     <ul>
                         <li><a href="../dashboard/main.php">Libros</a></li>
-                        <li><a href="../dashboard/orders.php">Orders</a></li>
+                        <li><a href="../dashboard/orders.php">Control</a></li>
                         <li><a href="../dashboard/products.php">Products</a></li>
-                        <li><a href="../dashboard/customers.php">Customers</a></li>
+                        <li><a href="../dashboard/customers.php">Clientes</a></li>
                         <li><a href="../dashboard/reports.php">Reports</a></li>
-                        <li><a href="../dashboard/integrations.php">Integrations</a></li>
+                        <li><a href="../dashboard/empleados.php">Empleados</a></li>
                         <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
                     </ul>
                 </div>
@@ -71,11 +71,11 @@ class Dashboard_Page
                         </ul>
                         <ul>
                             <li><a href="../dashboard/main.php">Libros</a></li>
-                            <li><a href="../dashboard/orders.php">Orders</a></li>
+                            <li><a href="../dashboard/orders.php">Control</a></li>
                             <li><a href="../dashboard/products.php">Products</a></li>
-                            <li><a href="../dashboard/customers.php">Customers</a></li>
+                            <li><a href="../dashboard/customers.php">Clientes</a></li>
                             <li><a href="../dashboard/reports.php">Reports</a></li>
-                            <li><a href="../dashboard/integrations.php">Integrations</a></li>
+                            <li><a href="../dashboard/empleados.php">Empleados</a></li>
                             <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
                         </ul>
                     </div>
@@ -93,11 +93,11 @@ class Dashboard_Page
                 </ul>
                 <ul>
                     <li><a href="../dashboard/main.php">Libros</a></li>
-                    <li><a href="../dashboard/orders.php">Orders</a></li>
+                    <li><a href="../dashboard/orders.php">Control</a></li>
                     <li><a href="../dashboard/products.php">Products</a></li>
-                    <li><a href="../dashboard/customers.php">Customers</a></li>
+                    <li><a href="../dashboard/customers.php">Clientes</a></li>
                     <li><a href="../dashboard/reports.php">Reports</a></li>
-                    <li><a href="../dashboard/integrations.php">Integrations</a></li>
+                    <li><a href="../dashboard/empleados.php">Empleados</a></li>
                     <li><a href="../dashboard/login.php">Login</a></li>
                 </ul>
             </div>

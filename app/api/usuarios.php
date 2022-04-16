@@ -56,9 +56,6 @@ if(isset($_GET['action'])) {
                             }
                         }
                         break;
-           
-           
-
                         case 'changePassword':
                             if ($usuario->setId($_SESSION['id_empleado'])) {
                                 $_POST = $usuario->validateForm($_POST);
