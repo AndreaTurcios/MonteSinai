@@ -4,7 +4,6 @@ require_once('../../app/helpers/dashboard_page.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
 Dashboard_Page::headerTemplate('Libro 1');
 ?>
-<script src="../../resources/js/login.js"></script>
 
 <div class="containerlogin">
   <div class="left">
@@ -34,17 +33,19 @@ Dashboard_Page::headerTemplate('Libro 1');
       </defs>
       <path d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
     </svg>
-    <div class="form">
+    <div class="form" id="CajaDatos">
+    <form method="post" id="session-form">
       <label for="email">Correo</label>
-      <input type="email" id="email">
+      <input class="form-control me-2" type="text" placeholder="Ingrese su nombre de usuario" aria-label="Usuario" name="username" class="validate" autocomplete="off" required>
       <label for="password">Contraseña</label>
-      <input type="password" id="password">
-      <input type="submit" id="submit" value="Iniciar sesión">
+      <input class="form-control me-2" type="password" placeholder="Ingrese su contraseña" aria-label="Usuario" name="clave" class="validate" autocomplete="off" required>
+      <input type="submit" id="submit" value="Iniciar sesión" data-tooltip="Ingresar" id='login'>
+    </form>
     </div>
   </div>
 </div>
 
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Dashboard_Page::footerTemplate('cont.js');
+Dashboard_Page::footerTemplate('login.js');
 ?>
