@@ -291,9 +291,10 @@ class Empleados extends Validator{
         $fechaHoy = date('Y-m-d');
         // Se encripta la clave por medio del algoritmo bcrypt que genera un string de 60 caracteres.
         $hash = password_hash($this->claveempleado, PASSWORD_DEFAULT);
-        $sql = 'INSERT INTO empleado (nombre_empleado, apellido_empleado,telefono_empleado,direccion_empleado,correo_empleado,usuario,clave,id_tipo_empleado,id_estado_empleado,id_libro)
+        $sql = 'INSERT INTO empleado empleado(nombre_empleado, apellido_empleado,telefono_empleado,direccion_empleado,correo_empleado,usuario,
+        clave,id_tipo_empleado,id_estado_empleado,id_libro)
         VALUES (? ,?, ?, ?, ?, ?, ?, ?, ?, ?)';
-        $params = array($this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->direccionemp,$this->correo,$this->nombreusuario,$hash,$this->idtipoempleado,$this->estado,$this->idlibro);
+        $params = array($this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->direccion_empleado,$this->correo,$this->nombreusuario,$hash,$this->idtipoempleado,$this->estado,$this->idlibro);
         return Database::executeRow($sql, $params);
     }
 
@@ -325,10 +326,13 @@ class Empleados extends Validator{
 
     public function readOne()
     {
-        $sql = 'SELECT nombre_empleado, apellido_empleado,telefono_empleado,direccion_empleado,correo_empleado,usuario,clave,id_tipo_empleado,id_estado_empleado,id_libro
-                FROM empleado 
-                INNER JOIN tipo_empleado USING(id_tipo_empleado)
-                WHERE id_empleado = ?';
+        $sql = 'SELECT em.id_empleado, em.usuario, em.correo_empleado, em.direccion_empleado,em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,ee.empleado,te.tipo_empleado, lib.nombre_libro 
+        FROM empleado em
+        INNER JOIN tipo_empleado te on em.id_tipo_empleado = te.id_tipo_empleado 
+		INNER JOIN estado_empleado ee on em.id_tipo_empleado = ee.id_estado_empleado 
+		INNER JOIN libro lib on em.id_tipo_empleado = lib.id_libro 
+		WHERE id_empleado = ?
+        ORDER BY usuario';
         $params = array($this->id);
         return Database::getRow($sql, $params);
     }

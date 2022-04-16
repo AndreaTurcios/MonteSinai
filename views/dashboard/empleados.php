@@ -112,6 +112,13 @@ Dashboard_Page::headerTemplate('Empleados');
                         </div>
 
                         <div class="form-group">
+                          <label for="direccion_emp">Direccion:</label>
+                          <input class="form-control" id="direccion_emp" type="text" name="direccion_emp"
+                            placeholder="Direccion" size="30" required
+                            minlength="3" maxlength="50" autocomplete="off"/>
+                        </div>
+
+                        <div class="form-group">
                           <label for="correo_emp">Correo:</label>
                           <input class="form-control" id="correo_emp" type="email" name="correo_emp"
                             placeholder="Correo" size="30" required
@@ -152,9 +159,7 @@ Dashboard_Page::headerTemplate('Empleados');
                         <div class="input-field col s12 m6">
                           <label>Estado: </label>
                           <select class="form-select" id="estado" name="estado">
-                            <option selected>Seleccione una opción</option>
-                            <option value="1">Activo</option>
-                            <option value="0">Bloqueado</option>
+                            <option selected></option>
                           </select>
 
                         </div>
@@ -169,6 +174,14 @@ Dashboard_Page::headerTemplate('Empleados');
                         </select>
 
                       </div>
+
+                      <div class="input-field col s12 m6">
+                        <label>Libro: </label>
+                        <select class="form-select" id="libro" name="libro">
+                          <option selected></option>
+                        </select>
+                      </div>
+
                       <br>
                     </div>
                       <!--Colocamos el div del footer -->

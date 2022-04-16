@@ -1,10 +1,14 @@
 // Constante para establecer la ruta y parámetros de comunicación con la API.
 const API_EMPLEADOS = '../../app/api/usuarios.php?action=';
 const ENDPOINT_TIPO = '../../app/api/tipo_empleado.php?action=readAll';
+const ENDPOINT_ESTADO_EMPLEADO = '../../app/api/estado_empleado.php?action=readAll';
+const ENDPOINT_LIBRO = '../../app/api/libros.php?action=readAll';
 
 document.addEventListener('DOMContentLoaded', function () {
     // Se llama a la función que obtiene los registros para llenar la tabla. Se encuentra en el archivo components.js
     fillSelect(ENDPOINT_TIPO,'tipoemp',null)
+    fillSelect(ENDPOINT_ESTADO_EMPLEADO,'estado',null)
+    fillSelect(ENDPOINT_LIBRO,'libro',null)
     readRows(API_EMPLEADOS);
     //readRows(ENDPOINT_TIPO);
 });
