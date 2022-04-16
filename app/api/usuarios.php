@@ -31,15 +31,7 @@ if(isset($_GET['action'])) {
                     $result['status'] = 1;
                     $result['message'] = 'Se ha cerrado la sesión';          
                 break;
-                case 'sessionTime':
-                    if((time() - $_SESSION['tiempo_usuario']) < 300){
-                        $_SESSION['tiempo_usuario'] = time();
-                    } else{
-                       unset($_SESSION['id_empleado'], $_SESSION['usuario'], $_SESSION['tiempo_usuario']);
-                        $result['status'] = 1;
-                        $result['message'] = 'Se ha cerrado la sesión por inactividad'; 
-                    }
-                break;
+               
 
                 case 'getDevices':
                     if ($result['dataset'] = $usuario->getDevices()) {
@@ -176,11 +168,12 @@ if(isset($_GET['action'])) {
                     $_POST = $usuario->validateForm($_POST);
                     if ($usuario->checkUser($_POST['username'])) {
                         if ($usuario->checkPassword($_POST['clave'])) {
+                                $_SESSION['id_empleado'] = $usuario->getId();
                                 $_SESSION['correo_empleado'] = $usuario->getCorreo();
                                 $_SESSION['usuario'] = $usuario->getNombreUsuario();
                                 $_SESSION['id_tipo_empleado'] = $usuario->getIDTipoEmpleado();  
                                 $result['status'] = 1;
-                                $result['message'] = 'Registro exitoso, '.$_SESSION['usuario'];
+                                $result['message'] = 'Registro exitoso, '.$_SESSION['usuario'].' tipo empleado '.$_SESSION['id_tipo_empleado'];
                         } else {
                             if (Database::getException()) {
                                 $result['exception'] = Database::getException();

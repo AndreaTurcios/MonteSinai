@@ -54,17 +54,14 @@ class Dashboard_Page
                         <li><a href="../dashboard/customers.php">Customers</a></li>
                         <li><a href="../dashboard/reports.php">Reports</a></li>
                         <li><a href="../dashboard/integrations.php">Integrations</a></li>
-                        <li><a href="../dashboard/login.php">Cerrar sesion</a></li>
-                        <button class="btn btncerrar" id="cerrar">
-                            <i href="#" id="fontmen" onclick="logOut()"><i class="fas fa-sign-out-alt"></i> Cerrar sesión</i>
-                            </button>
+                        <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="css-xfq28i"></div>
             <br>  
             ');
-        }else {
+        }else if($_SESSION['id_tipo_empleado']== 1) {
             print('
 
             <nav>
@@ -79,15 +76,14 @@ class Dashboard_Page
                             <li><a href="../dashboard/customers.php">Customers</a></li>
                             <li><a href="../dashboard/reports.php">Reports</a></li>
                             <li><a href="../dashboard/integrations.php">Integrations</a></li>
-                            <li><a href="../dashboard/login.php">Login</a></li>
+                            <li><a href="../dashboard/login.php">tyj</a></li>
                         </ul>
                     </div>
                 </nav>
                 <div class="css-xfq28i"></div>
                 <br> '
               );
-    }
-  }else {
+    }else {
     print('
 
     <nav>
@@ -110,7 +106,28 @@ class Dashboard_Page
         <br> '
       );
   }
-  
+}else {
+  print('
+  <nav>
+          <div class="menu">
+              <ul>
+                   <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+              </ul>
+              <ul>
+                  <li><a href="../dashboard/main.php">Libros</a></li>
+                  <li><a href="../dashboard/orders.php">Orders</a></li>
+                  <li><a href="../dashboard/products.php">Products</a></li>
+                  <li><a href="../dashboard/customers.php">Customers</a></li>
+                  <li><a href="../dashboard/reports.php">Reports</a></li>
+                  <li><a href="../dashboard/integrations.php">Integrations</a></li>
+                  <li><a href="../dashboard/login.php">Login</a></li>
+              </ul>
+          </div>
+      </nav>
+      <div class="css-xfq28i"></div>
+      <br> '
+    );
+}
 }
 
 
