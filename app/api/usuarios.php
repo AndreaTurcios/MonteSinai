@@ -29,7 +29,7 @@ if(isset($_GET['action'])) {
                 case 'logOut':
                     unset($_SESSION['id_empleado']);
                     $result['status'] = 1;
-                    $result['message'] = 'Se ha cerrado la sesión';          
+                    $result['message'] = 'Se ha cerrado la sesión para el usuario '.$_SESSION['usuario'];          
                 break;
                
 
@@ -173,7 +173,7 @@ if(isset($_GET['action'])) {
                                 $_SESSION['usuario'] = $usuario->getNombreUsuario();
                                 $_SESSION['id_tipo_empleado'] = $usuario->getIDTipoEmpleado();  
                                 $result['status'] = 1;
-                                $result['message'] = 'Registro exitoso, '.$_SESSION['usuario'].' tipo empleado '.$_SESSION['id_tipo_empleado'];
+                                $result['message'] = 'Welcome, '.$_SESSION['usuario'];
                         } else {
                             if (Database::getException()) {
                                 $result['exception'] = Database::getException();
