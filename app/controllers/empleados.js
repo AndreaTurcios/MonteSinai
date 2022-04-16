@@ -85,14 +85,14 @@ function openUpdateDialog(id) {
                 // Se comprueba si la respuesta es satisfactoria, de lo contrario se muestra un mensaje con la excepción.
                 if (response.status) {        
                 document.getElementById('id_empleado2').value = response.dataset.id_empleado;
-                document.getElementById('nombre_usuario2').value = response.dataset.nombre_usuario;
+                document.getElementById('nombre_usuario2').value = response.dataset.usuario;
                 document.getElementById('nombre_emp2').value = response.dataset.nombre_empleado;
                 document.getElementById('apellido_emp2').value = response.dataset.apellido_empleado;
-                document.getElementById('telefono_emp2').value = response.dataset.telefono_emp;
-                document.getElementById('correo_emp2').value = response.dataset.direccion_empleado;
+                document.getElementById('telefono_emp2').value = response.dataset.telefono_empleado;
                 document.getElementById('direccion_emp2').value = response.dataset.direccion_empleado;
+                document.getElementById('correo_emp2').value = response.dataset.correo_empleado;
                 fillSelect(ENDPOINT_TIPO,'tipoemp2',value = response.dataset.id_tipo_emp);
-                fillSelect(ENDPOINT_ESTADO_EMPLEADO,'estado2',value = response.dataset.id_tipo_emp);
+                fillSelect(ENDPOINT_ESTADO_EMPLEADO,'estado2',value = response.dataset.id_estado_emp);
                 fillSelect(ENDPOINT_LIBRO,'libro2',value = response.dataset.id_tipo_emp);
             } else {
                 sweetAlert(2, response.exception, null);

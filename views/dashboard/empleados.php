@@ -259,7 +259,6 @@ Dashboard_Page::headerTemplate('Empleados');
                             <option selected></option>
                           </select>
                         </div>
-                      <br>
 
                       <!--Colocamos los divs para el dropdown del filtro de búsqueda -->
                       <div class="input-field col s12 m6">
