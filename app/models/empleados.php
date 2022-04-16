@@ -32,6 +32,8 @@ class Empleados extends Validator{
     private $intentosC = null;
     private $idlibro = null;
 
+    private $direccion_empleado = null;
+
 
     /*
     *   Métodos para asignar valores a los atributos.
@@ -47,10 +49,10 @@ class Empleados extends Validator{
         }
     }
 
-    public function setDireccionEmp($value)
+    public function setDireccion($value)
     {
         if ($this->validateAlphabetic($value, 1, 50)) {
-            $this->direccionemp = $value;
+            $this->direccion_empleado = $value;
             return true;
         } else {
             return false;
@@ -265,7 +267,7 @@ class Empleados extends Validator{
 
     public function getDireccionEmp()
     {
-        return $this->direccionemp;
+        return $this->direccion_empleado;
     }
 
     /*

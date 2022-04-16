@@ -50,7 +50,7 @@ Dashboard_Page::headerTemplate('Empleados');
         <thead class="table-dark">
             <div id="bordes">
               <tr>
-                <th scope="col">Usuario</th>
+                <th scope="col">N°</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">Teléfono</th>

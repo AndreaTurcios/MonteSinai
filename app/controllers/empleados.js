@@ -23,7 +23,7 @@ function fillTable(dataset) {
                 <td>${row.apellido_empleado}</td> 
                 <td>${row.telefono_empleado}</td>
                 <td>${row.direccion_empleado}</td> 
-                <td>${row.correo}</td>  
+                <td>${row.correo_empleado}</td>  
                 <td>${row.nombre_usuario}</td>  
                 <td>
                     <a href="../../app/reports/empleado.php?id=${row.id_empleado}"class="btn" data-tooltip="Reporte">Reporte</a> /
