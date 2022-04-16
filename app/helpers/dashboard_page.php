@@ -61,7 +61,7 @@ class Dashboard_Page
             <div class="css-xfq28i"></div>
             <br>  
             ');
-        }else if($_SESSION['id_tipo_empleado']== 1) {
+        }else if($_SESSION['id_tipo_empleado']== 3) {
             print('
 
             <nav>
@@ -76,7 +76,7 @@ class Dashboard_Page
                             <li><a href="../dashboard/customers.php">Customers</a></li>
                             <li><a href="../dashboard/reports.php">Reports</a></li>
                             <li><a href="../dashboard/integrations.php">Integrations</a></li>
-                            <li><a href="../dashboard/login.php">tyj</a></li>
+                            <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -114,12 +114,11 @@ class Dashboard_Page
                    <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
               </ul>
               <ul>
-                  <li><a href="../dashboard/main.php">Libros</a></li>
-                  <li><a href="../dashboard/orders.php">Orders</a></li>
-                  <li><a href="../dashboard/products.php">Products</a></li>
-                  <li><a href="../dashboard/customers.php">Customers</a></li>
-                  <li><a href="../dashboard/reports.php">Reports</a></li>
-                  <li><a href="../dashboard/integrations.php">Integrations</a></li>
+                  <li></li><li></li><li></li><li></li><li></li>
+                  <li></li><li></li><li></li><li></li><li></li>
+                  <li></li><li></li><li></li><li></li><li></li>
+                  <li></li><li></li><li></li><li></li><li></li>
+                  <li></li><li></li>
                   <li><a href="../dashboard/login.php">Login</a></li>
               </ul>
           </div>
