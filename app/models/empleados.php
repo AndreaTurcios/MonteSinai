@@ -326,7 +326,7 @@ class Empleados extends Validator{
 
     public function readOne()
     {
-        $sql = '		SELECT em.id_empleado, em.usuario, em.correo_empleado, em.direccion_empleado,em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,ee.empleado,te.tipo_empleado, lib.nombre_libro 
+        $sql = 'SELECT em.id_empleado, em.usuario, em.correo_empleado, em.direccion_empleado,em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,ee.empleado,te.tipo_empleado, lib.nombre_libro 
         FROM empleado em
         INNER JOIN tipo_empleado te USING(id_tipo_empleado) 
 		INNER JOIN estado_empleado ee USING(id_estado_empleado)  
@@ -345,7 +345,7 @@ class Empleados extends Validator{
                 SET nombre_empleado= ?, apellido_empleado= ?,telefono_empleado= ?,direccion_empleado= ?,correo_empleado= ?,usuario= ?,clave= ?,id_tipo_empleado= ?,id_estado_empleado= ?,id_libro= ?
                 WHERE id_empleado = ?';
        //$params = array($this->nombreusuario, $this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->claveempleado,$this->estado,$this->idtipoempleado);
-       $params = array($this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->direccionemp,$this->correo,$this->nombreusuario,$hash,$this->idtipoempleado,$this->estado,$this->idlibro);
+       $params = array($this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->direccion_empleado,$this->correo,$this->nombreusuario,$hash,$this->idtipoempleado,$this->estado,$this->idlibro);
         return Database::executeRow($sql, $params);
     }
 

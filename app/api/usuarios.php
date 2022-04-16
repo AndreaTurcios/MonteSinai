@@ -14,6 +14,62 @@ if(isset($_GET['action'])) {
     // Se verifica si existe una sesión iniciada como administrador, de lo contrario se finaliza el script con un mensaje de error.
     if (isset($_SESSION['id_empleado'])) {
         switch ($_GET['action']) {
+            case 'readOne':
+                if ($usuario->setId($_POST['id_empleado'])) {
+                    if ($result['dataset'] = $usuario->readOne()) {
+                        $result['status'] = 1;
+                    } else {
+                        if (Database::getException()) {
+                            $result['exception'] = Database::getException();
+                        } else {
+                            $result['exception'] = 'No existe el respectivo empleado';
+                        }
+                    }
+                } else {
+                    $result['exception'] = 'Empleado erróneo';
+                }
+                break;
+            case 'update':
+                $_POST = $usuario->validateForm($_POST);
+                if ($usuario->setId($_POST['id_empleado2'])) {
+                if ($usuario->setNombreUsuario($_POST['nombre_usuario2'])) {
+                    if ($usuario->setNombreEmpleado($_POST['nombre_emp2'])) {
+                        if ($usuario->setApellidoEmpleado($_POST['apellido_emp2'])) {
+                            if ($usuario->setTelefonoEmpleado($_POST['telefono_emp2'])) {
+                                    if ($usuario->setEstado($_POST['estado2'])) {
+                                        if ($usuario->setDireccion($_POST['direccion2'])) {
+                                    if ($usuario->setIDTipoEmpleado($_POST['tipoemp2'])) {
+                                        if ($usuario->updateRow()) {
+                                            $result['status'] = 1;
+                                            $result['message'] = 'Empleado modificado exitosamente';                                                        
+                                        } else {
+                                            $result['exception'] = Database::getException();                                                        
+                                                }  
+                                            }else {
+                                                $result['exception'] ='Tipo empleado incorrecto';
+                                                  }
+                                    }else {
+                                        $result['exception'] ='Estado empleado incorrecto';
+                                          }
+                            } else {
+                                $result['exception'] = 'Teléfono incorrecto';
+                                    }
+                        } else {
+                            $result['exception'] = 'Claves diferentes';
+                                }
+                    }else {
+                        $result['exception'] ='Nombre de usuario incorrecto';
+                          }
+                }else {
+                    $result['exception'] ='Estado incorrecto';
+                      } 
+                    }else {
+                        $result['exception'] ='Estado incorrecto';
+                          } 
+                    }else {
+                        $result['exception'] ='Empleado incorrecto';
+                          }
+            break;
             case 'delete':
                 if ($usuario->setId($_POST['id_empleado'])) {
                     if ($data = $usuario->readOne()) {

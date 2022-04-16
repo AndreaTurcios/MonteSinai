@@ -232,29 +232,50 @@ Dashboard_Page::headerTemplate('Empleados');
                 onkeyup="this.value = mascara(this.value)" required minlength="9" maxlength="9"
                 onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;">
             </div>
+
+            <div class="form-group">
+                          <label for="direccion_emp">Direccion:</label>
+                          <input class="form-control" id="direccion_emp2" type="text" name="direccion_emp"
+                            placeholder="Direccion" size="30" required
+                            minlength="3" maxlength="50" autocomplete="off"/>
+            </div>
+
+            <div class="form-group">
+                          <label for="correo_emp2">Correo:</label>
+                          <input class="form-control" id="correo_emp2" type="email" name="correo_emp2"
+                            placeholder="Correo" size="30" required
+                            minlength="3" maxlength="50" autocomplete="off"/>
+                        </div>
+
             <div class="form-group">
               <label for="nombre_usuario2">Usuario:</label>
               <input type="text" class="form-control" id="nombre_usuario2" name="nombre_usuario2" placeholder="Usuario"
                 required />
             </div>
             <br>
-            <div class="form-group">
-              <div class="input-field col s12 m6">
-                <label>Estado: </label>
-                <select class="form-select" id="estado2" name="estado2" required>
-                  <option value="1">Activo</option>
-                  <option value="0">Bloqueado</option>
-                </select>
-              </div>
-            </div>
-            <br>
-            <!--Colocamos los divs para el dropdown del filtro de búsqueda -->
             <div class="input-field col s12 m6">
-              <label>Tipo empleado: </label>
-              <select class="form-select" id="tipoemp2" name="tipoemp2">
-                <option selected></option>
-              </select>
-            </div>
+                          <label>Estado: </label>
+                          <select class="form-select" id="estado2" name="estado2">
+                            <option selected></option>
+                          </select>
+                        </div>
+                      <br>
+
+                      <!--Colocamos los divs para el dropdown del filtro de búsqueda -->
+                      <div class="input-field col s12 m6">
+                        <label>Tipo empleado: </label>
+                        <select class="form-select" id="tipoemp2" name="tipoemp2">
+                          <option selected></option>
+                        </select>
+
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <label>Libro: </label>
+                        <select class="form-select" id="libro2" name="libro2">
+                          <option selected></option>
+                        </select>
+                      </div>
           </div>
           <br>
           <div class="modal-footer">
