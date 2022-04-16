@@ -13,9 +13,7 @@ if(isset($_GET['action'])) {
     $result = array('status' => 0, 'error' => 0, 'message' => null, 'exception' => null);
     // Se verifica si existe una sesión iniciada como administrador, de lo contrario se finaliza el script con un mensaje de error.
     if (isset($_SESSION['id_empleado'])) {
-
         switch ($_GET['action']) {
-            
         case 'readProfile':
                 if ($result['dataset'] = $usuario->readProfile()) {
                     $result['status'] = 1;
@@ -37,7 +35,7 @@ if(isset($_GET['action'])) {
                     if((time() - $_SESSION['tiempo_usuario']) < 300){
                         $_SESSION['tiempo_usuario'] = time();
                     } else{
-                       unset($_SESSION['id_empleado'], $_SESSION['nombre_usuario'], $_SESSION['tiempo_usuario']);
+                       unset($_SESSION['id_empleado'], $_SESSION['usuario'], $_SESSION['tiempo_usuario']);
                         $result['status'] = 1;
                         $result['message'] = 'Se ha cerrado la sesión por inactividad'; 
                     }

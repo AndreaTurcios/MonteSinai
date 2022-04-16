@@ -33,6 +33,27 @@ class Dashboard_Page
             <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
         </head>
         <body>  
+    ');
+ // Se comprueba si existe una sesión de administrador para mostrar el menú de opciones, de lo contrario se muestra un menú vacío.
+ if (isset($_SESSION['id_empleado'])) {
+   // En este apartado se corrobora que el id de tipo usuario corresponda a uno de la tabla tipo empleados, y muestre la vista respectiva a cada tipo de usuario
+        print('
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Agregamos Bootstrap -->
+            <link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+            <!-- Agregamos LibroCSS -->
+            <link rel="stylesheet" href="../../resources/css/style.css">
+            <link rel="stylesheet" href="../../resources/css/vanilla-dataTables.min.css">
+            <title>Monte Sinai - '.$title.'</title>
+            <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
+        </head>
+        <body>  
         <nav>
                 <div class="menu">
                     <ul>
@@ -45,14 +66,56 @@ class Dashboard_Page
                         <li><a href="../dashboard/customers.php">Customers</a></li>
                         <li><a href="../dashboard/reports.php">Reports</a></li>
                         <li><a href="../dashboard/integrations.php">Integrations</a></li>
-                        <li><a href="../dashboard/login.php">Login</a></li>
+                        <li><a href="../dashboard/login.php">Cerrar sesion</a></li>
+                        <button class="btn btncerrar" id="cerrar">
+                            <i href="#" id="fontmen" onclick="logOut()"><i class="fas fa-sign-out-alt"></i> Cerrar sesión</i>
+                            </button>
                     </ul>
                 </div>
             </nav>
             <div class="css-xfq28i"></div>
             <br>  
             ');
-    }
+        }else {
+            print('
+            <!DOCTYPE html>
+            <html lang="es">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!-- Agregamos Bootstrap -->
+                <link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+                <!-- Agregamos LibroCSS -->
+                <link rel="stylesheet" href="../../resources/css/style.css">
+                <link rel="stylesheet" href="../../resources/css/vanilla-dataTables.min.css">
+                <title>Monte Sinai - '.$title.'</title>
+                <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
+            </head>
+            <body>  
+            <nav>
+                    <div class="menu">
+                        <ul>
+                             <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="../dashboard/main.php">Libros</a></li>
+                            <li><a href="../dashboard/orders.php">Orders</a></li>
+                            <li><a href="../dashboard/products.php">Products</a></li>
+                            <li><a href="../dashboard/customers.php">Customers</a></li>
+                            <li><a href="../dashboard/reports.php">Reports</a></li>
+                            <li><a href="../dashboard/integrations.php">Integrations</a></li>
+                            <li><a href="../dashboard/login.php">Login</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="css-xfq28i"></div>
+                <br>  '
+              );
+  }
+}
+
 
     public static function footerTemplate($controller)
     {
