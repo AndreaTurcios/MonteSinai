@@ -19,7 +19,7 @@ function fillTable(dataset) {
         content += ` 
             <tr>       
                 <td>${row.id_libro}</td>
-                <td>${row.nombre_libro}</td>
+                <td><a href="../dashboard/${row.nombre_libro}.php">${row.nombre_libro}</a></td>
                 <td>${row.numero_paginas}</td> 
                 <td>${row.asignatura}</td>
                 <td>${row.indicador}</td> 
