@@ -51,12 +51,15 @@ Dashboard_Page::headerTemplate('Empleados');
             <div id="bordes">
               <tr>
                 <th scope="col">N°</th>
+                <th scope="col">Usuario</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Apellido</th>
                 <th scope="col">Teléfono</th>
-                <th scope="col">Estado</th>
-                <th scope="col">Tipo empleado</th>
+                <th scope="col">Direccion</th>
                 <th scope="col">Correo</th>
+                <th scope="col">Estado empleado</th>
+                <th scope="col">Tipo empleado</th>
+                <th scope="col">Nombre libro</th>
                 <th scope="col">Controlador</th>
             </div>
             </tr>

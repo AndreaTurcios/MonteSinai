@@ -313,9 +313,11 @@ class Empleados extends Validator{
 
     public function readAll()
     {
-        $sql = 'SELECT em.id_empleado, em.usuario, em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,em.id_estado_empleado,od.id_tipo_empleado 
+        $sql = 'SELECT em.id_empleado, em.usuario, em.correo_empleado, em.direccion_empleado,em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,ee.empleado,te.tipo_empleado, lib.nombre_libro 
         FROM empleado em
-        INNER JOIN tipo_empleado od on em.id_tipo_empleado = od.id_tipo_empleado 
+        INNER JOIN tipo_empleado te on em.id_tipo_empleado = te.id_tipo_empleado 
+		INNER JOIN estado_empleado ee on em.id_tipo_empleado = ee.id_estado_empleado 
+		INNER JOIN libro lib on em.id_tipo_empleado = lib.id_libro 
         ORDER BY usuario';
         $params = null;
         return Database::getRows($sql, $params);

@@ -19,12 +19,15 @@ function fillTable(dataset) {
         content += ` 
             <tr>       
                 <td>${row.id_empleado}</td>
+                <td>${row.usuario}</td>  
                 <td>${row.nombre_empleado}</td>
                 <td>${row.apellido_empleado}</td> 
                 <td>${row.telefono_empleado}</td>
                 <td>${row.direccion_empleado}</td> 
                 <td>${row.correo_empleado}</td>  
-                <td>${row.nombre_usuario}</td>  
+                <td>${row.empleado}</td>  
+                <td>${row.tipo_empleado}</td>  
+                <td>${row.nombre_libro}</td>  
                 <td>
                     <a href="../../app/reports/empleado.php?id=${row.id_empleado}"class="btn" data-tooltip="Reporte">Reporte</a> /
                     <a href="#" onclick="openUpdateDialog(${row.id_empleado})"class="btn"  data-bs-toggle="modal" data-bs-target="#exampleModal">Editar</a> /
