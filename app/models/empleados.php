@@ -326,11 +326,11 @@ class Empleados extends Validator{
 
     public function readOne()
     {
-        $sql = 'SELECT em.id_empleado, em.usuario, em.correo_empleado, em.direccion_empleado,em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,ee.empleado,te.tipo_empleado, lib.nombre_libro 
+        $sql = '		SELECT em.id_empleado, em.usuario, em.correo_empleado, em.direccion_empleado,em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,ee.empleado,te.tipo_empleado, lib.nombre_libro 
         FROM empleado em
-        INNER JOIN tipo_empleado te on em.id_tipo_empleado = te.id_tipo_empleado 
-		INNER JOIN estado_empleado ee on em.id_tipo_empleado = ee.id_estado_empleado 
-		INNER JOIN libro lib on em.id_tipo_empleado = lib.id_libro 
+        INNER JOIN tipo_empleado te USING(id_tipo_empleado) 
+		INNER JOIN estado_empleado ee USING(id_estado_empleado)  
+		INNER JOIN libro lib USING(id_libro)  
 		WHERE id_empleado = ?
         ORDER BY usuario';
         $params = array($this->id);

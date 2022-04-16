@@ -14,6 +14,23 @@ if(isset($_GET['action'])) {
     // Se verifica si existe una sesión iniciada como administrador, de lo contrario se finaliza el script con un mensaje de error.
     if (isset($_SESSION['id_empleado'])) {
         switch ($_GET['action']) {
+            case 'delete':
+                if ($usuario->setId($_POST['id_empleado'])) {
+                    if ($data = $usuario->readOne()) {
+                        if ($usuario->deleteRow()) {
+                            $result['status'] = 1;
+                            $result['message'] = 'Empleado eliminado correctamente'; 
+                           
+                        } else {
+                            $result['exception'] = Database::getException();
+                        }
+                    } else {
+                        $result['exception'] = 'Empleado inexistente';
+                    }
+                } else {
+                    $result['exception'] = 'Proveedor incorrecto';
+                }
+                break; 
         case 'readProfile':
                 if ($result['dataset'] = $usuario->readProfile()) {
                     $result['status'] = 1;
