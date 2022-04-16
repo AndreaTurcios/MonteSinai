@@ -90,7 +90,65 @@ if(isset($_GET['action'])) {
                                 $result['exception'] = 'Usuario incorrecto';
                             }
                             break;
-              
+                            case 'create':
+                                $_POST = $usuario->validateForm($_POST);
+                                if ($usuario->validatePasswordAlias($_POST['clave_emp'],$_POST['nombre_usuario'])) {
+                                    if ($usuario->setNombreUsuario($_POST['nombre_usuario'])) {
+                                        if ($usuario->setNombreEmpleado($_POST['nombre_emp'])) {
+                                            if ($usuario->setApellidoEmpleado($_POST['apellido_emp'])) {
+                                                if ($usuario->setTelefonoEmpleado($_POST['telefono_emp'])) {
+                                                    if ($usuario->setDireccion($_POST['direccion_emp'])) {
+                                                    if ($_POST['clave_emp'] == $_POST['claveconf']) {
+                                                        if ($usuario->setClaveEmpleado($_POST['clave_emp'])) {
+                                                            if ($usuario->setEstado($_POST['estado'])) {
+                                                                if ($usuario->setIDTipoEmpleado($_POST['tipoemp'])) {
+                                                                        if ($usuario->setCorreo($_POST['correo_emp'])) {
+                                                                            if ($usuario->setIdLibro($_POST['libro'])) {
+                                                                    if ($usuario->createRow()) {
+                                                                    $result['status'] = 1;
+                                                                    // Se indica que el empleado se registró existosamente en el caso de que los if se ejecuten automáticamente, caso contrario nos manda los siguientes mensajes
+                                                                    $result['message'] = 'Empleado registrado exitosamente';                                                        
+                                                                    } else {
+                                                                        $result['exception'] = Database::getException();                                                        
+                                                                    }  
+                                                                }else {
+                                                                    $result['exception'] ='Libro incorrecto';
+                                                                }
+                                                                }else {
+                                                                    $result['exception'] ='Correo incorrecto';
+                                                                }
+                                                                }else {
+                                                                    $result['exception'] ='Tipo empleado incorrecto';
+                                                                }
+                                                            }else {
+                                                                $result['exception'] ='Estado empleado incorrecto';
+                                                                }
+                                                        }else {
+                                                            $result['exception'] ='Clave demasiado corta';
+                                                            $result['exception'] = $empleados->getPasswordError();
+                                                            }
+                                                            }else {
+                                                                $result['exception'] ='Contraseñas no coinciden';
+                                                                }
+                                                    } else {
+                                                        $result['exception'] = 'Direccion incorrecta';
+                                                            }
+                                                        } else {
+                                                            $result['exception'] = 'Teléfono incorrecto';
+                                                                }
+                                                } else {
+                                                    $result['exception'] = 'Apellido de empleado incorrecto';
+                                                        }
+                                            }else {
+                                                $result['exception'] ='Nombre de empleado incorrecto';
+                                                }
+                                        }else {
+                                            $result['exception'] ='Nombre de usuario incorrecto';
+                                            }
+                                    }else {
+                                        $result['exception'] ='No utilice su nombre de usuario como contraseña';
+                                    }
+                            break;
                 default:
                     $result['exception'] = 'Acción no disponible dentro de la sesión';
             }    
@@ -117,11 +175,13 @@ if(isset($_GET['action'])) {
                             if ($usuario->setNombreEmpleado($_POST['nombre_emp'])) {
                                 if ($usuario->setApellidoEmpleado($_POST['apellido_emp'])) {
                                     if ($usuario->setTelefonoEmpleado($_POST['telefono_emp'])) {
+                                        if ($usuario->setDireccion($_POST['direccion_emp'])) {
                                         if ($_POST['clave_emp'] == $_POST['claveconf']) {
                                             if ($usuario->setClaveEmpleado($_POST['clave_emp'])) {
                                                 if ($usuario->setEstado($_POST['estado'])) {
                                                     if ($usuario->setIDTipoEmpleado($_POST['tipoemp'])) {
                                                             if ($usuario->setCorreo($_POST['correo_emp'])) {
+                                                                if ($usuario->setIdLibro($_POST['libro'])) {
                                                         if ($usuario->createRow()) {
                                                         $result['status'] = 1;
                                                         // Se indica que el empleado se registró existosamente en el caso de que los if se ejecuten automáticamente, caso contrario nos manda los siguientes mensajes
@@ -129,6 +189,9 @@ if(isset($_GET['action'])) {
                                                         } else {
                                                             $result['exception'] = Database::getException();                                                        
                                                         }  
+                                                    }else {
+                                                        $result['exception'] ='Libro incorrecto';
+                                                    }
                                                     }else {
                                                         $result['exception'] ='Correo incorrecto';
                                                     }
@@ -146,8 +209,11 @@ if(isset($_GET['action'])) {
                                                     $result['exception'] ='Contraseñas no coinciden';
                                                     }
                                         } else {
-                                            $result['exception'] = 'Teléfono incorrecto';
+                                            $result['exception'] = 'Direccion incorrecta';
                                                 }
+                                            } else {
+                                                $result['exception'] = 'Teléfono incorrecto';
+                                                    }
                                     } else {
                                         $result['exception'] = 'Apellido de empleado incorrecto';
                                             }

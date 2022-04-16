@@ -291,7 +291,7 @@ class Empleados extends Validator{
         $fechaHoy = date('Y-m-d');
         // Se encripta la clave por medio del algoritmo bcrypt que genera un string de 60 caracteres.
         $hash = password_hash($this->claveempleado, PASSWORD_DEFAULT);
-        $sql = 'INSERT INTO empleado empleado(nombre_empleado, apellido_empleado,telefono_empleado,direccion_empleado,correo_empleado,usuario,
+        $sql = 'INSERT INTO empleado(nombre_empleado, apellido_empleado,telefono_empleado,direccion_empleado,correo_empleado,usuario,
         clave,id_tipo_empleado,id_estado_empleado,id_libro)
         VALUES (? ,?, ?, ?, ?, ?, ?, ?, ?, ?)';
         $params = array($this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->direccion_empleado,$this->correo,$this->nombreusuario,$hash,$this->idtipoempleado,$this->estado,$this->idlibro);
@@ -316,9 +316,9 @@ class Empleados extends Validator{
     {
         $sql = 'SELECT em.id_empleado, em.usuario, em.correo_empleado, em.direccion_empleado,em.nombre_empleado,em.apellido_empleado,em.telefono_empleado,ee.empleado,te.tipo_empleado, lib.nombre_libro 
         FROM empleado em
-        INNER JOIN tipo_empleado te on em.id_tipo_empleado = te.id_tipo_empleado 
-		INNER JOIN estado_empleado ee on em.id_tipo_empleado = ee.id_estado_empleado 
-		INNER JOIN libro lib on em.id_tipo_empleado = lib.id_libro 
+        INNER JOIN tipo_empleado te USING(id_tipo_empleado) 
+		INNER JOIN estado_empleado ee USING(id_estado_empleado)  
+		INNER JOIN libro lib USING(id_libro)  
         ORDER BY usuario';
         $params = null;
         return Database::getRows($sql, $params);
