@@ -176,8 +176,11 @@ if(isset($_GET['action'])) {
                     $_POST = $usuario->validateForm($_POST);
                     if ($usuario->checkUser($_POST['username'])) {
                         if ($usuario->checkPassword($_POST['clave'])) {
+                                $_SESSION['correo_empleado'] = $usuario->getCorreo();
+                                $_SESSION['usuario'] = $usuario->getNombreUsuario();
+                                $_SESSION['id_tipo_empleado'] = $usuario->getIDTipoEmpleado();  
                                 $result['status'] = 1;
-                                $result['message'] = 'Registro exitoso, '/*.$_SESSION['usuario']*/;
+                                $result['message'] = 'Registro exitoso, '.$_SESSION['usuario'];
                         } else {
                             if (Database::getException()) {
                                 $result['exception'] = Database::getException();
