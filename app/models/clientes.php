@@ -7,6 +7,7 @@ class Clientes extends Validator
 
     private $id_cliente = null;
     private $nombre_cli = null;
+    private $apellido_cliente = null;
     private $telefono_cli = null;
     private $dui_cli = null;
     private $nit_cli = null;
@@ -167,16 +168,19 @@ class Clientes extends Validator
     public function updateRow()
     {
         $sql = 'UPDATE clientes 
-        SET nombre_cli = ?, telefono_cli = ?, dui_cli = ?, nit_cli = ?, 
-        direccion_cli = ?, correo_cli = ?, id_estado_pago = ? WHERE id_cliente = ?';
-        $params = array($this->nombre_cli,$this->telefono_cli, $this->dui_cli, $this->nit_cli, $this->direccion_cli, $this->correo_cli, $this->id_estado_pago, $this->id_cliente);
+        SET nombre_cliente = ?, apellido_cliente = ?, telefono_cliente = ?, dui_cliente = ?, 
+        direccion_cliente = ?, correo_cliente = ?, usuario_cliente = ?,
+        clave_cliente=?,foto_cliente=?,id_estado_cliente=?,id_libro=?,id_grado=? WHERE id_cliente = ?';
+        $params = array($this->nombre_cli,$this->apellido_cliente,$this->telefono_cli, $this->dui_cli, $this->nit_cli, $this->direccion_cli, $this->correo_cli, $this->id_estado_pago, $this->id_cliente);
         return Database::executeRow($sql, $params);
     }
 
     public function createRow()
     {
-        $sql = 'INSERT INTO clientes(nombre_cli, telefono_cli, dui_cli, nit_cli, direccion_cli, correo_cli, id_estado_pago) 
-        values (?,?,?,?,?,?,?)';
+        $sql = 'INSERT INTO cliente(nombre_cliente, apellido_cliente,telefono_cliente,dui_cliente,
+        direccion_cliente,correo_cliente,
+        usuario_cliente,clave_cliente,foto_cliente,id_estado_cliente,id_libro,id_grado)
+        VALUES (?,?,?,?,?,?,?,?,?,?,?,?)';
         $params = array($this->nombre_cli,$this->telefono_cli, $this->dui_cli, $this->nit_cli, $this->direccion_cli, $this->correo_cli, $this->id_estado_pago);
         return Database::executeRow($sql, $params);
     }

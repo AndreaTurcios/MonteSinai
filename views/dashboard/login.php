@@ -8,7 +8,9 @@ Dashboard_Page::headerTemplate('Libro 1');
 <div class="containerlogin">
   <div class="left">
     <div class="login">Login</div>
-    <div class="eula">Bienvenido al sistema de MonteSinai.</div>
+    <div class="eula">Bienvenido al sistema de MonteSinai.
+      Ingrese su usuario para disfrutar de las ventajas.
+    </div>
   </div>
   <div class="right">
     <svg viewBox="0 0 320 300">
