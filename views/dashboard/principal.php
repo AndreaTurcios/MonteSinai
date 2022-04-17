@@ -138,11 +138,11 @@ Dashboard_Page::headerTemplate('Home');
 			<div class="col-md-6 col-sm-6">
 				<div class="blog-card spring-fever">
 					<div class="title-content">
-						<h3><a href="#">Los mejores en educacion</a></h3>
-						<div class="intro"> <a href="#">Educacion</a> </div>
+						<h3><a href="#">Los mejores en educación</a></h3>
+						<div class="intro"> <a href="#">Educación</a> </div>
 						</div>
 						<div class="card-info">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+							Tenemos libros desde inglés, matemáticas y todo tema que se te venga a la mente.
 						</div>
 						<div class="gradient-overlay"></div>
 							<div class="color-overlay"></div>
@@ -151,11 +151,11 @@ Dashboard_Page::headerTemplate('Home');
 			<div class="col-md-6 col-sm-6">
 				<div class="blog-card2 spring-fever">
 					<div class="title-content">
-						<h3><a href="#">10 inspiring photos</a></h3>
-						<div class="intro"> <a href="#">Inspiration</a> </div>
+						<h3><a href="#">Enseñanza de primera</a></h3>
+						<div class="intro"> <a href="#">Enseñanza</a> </div>
 						</div>
 						<div class="card-info">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+							Los mejores en enseñanza de inglés, además de claro, el mejor material en libros del país.
 						</div>
 						<div class="gradient-overlay"></div>
 							<div class="color-overlay"></div>
@@ -165,26 +165,26 @@ Dashboard_Page::headerTemplate('Home');
 		<br>
 		<div class="row">
 			<div class="col-md-6 col-sm-6">
-				<div class="blog-card spring-fever">
+				<div class="blog-card3 spring-fever">
 					<div class="title-content">
-						<h3><a href="#">Los mejores en educacion</a></h3>
-						<div class="intro"> <a href="#">Educacion</a> </div>
+						<h3><a href="#">Te ayudamos a cumplir metas</a></h3>
+						<div class="intro"> <a href="#">Inspiración</a> </div>
 						</div>
 						<div class="card-info">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+							Toda meta que tengas de aprendizaje se te brinda fácilmente con una amplica variedad de libros disponibles.
 						</div>
 						<div class="gradient-overlay"></div>
 							<div class="color-overlay"></div>
 				</div>
 			</div>
 			<div class="col-md-6 col-sm-6">
-				<div class="blog-card2 spring-fever">
+				<div class="blog-card4 spring-fever">
 					<div class="title-content">
-						<h3><a href="#">10 inspiring photos</a></h3>
-						<div class="intro"> <a href="#">Inspiration</a> </div>
+						<h3><a href="#">Educación desde la comodidad de tu hogar</a></h3>
+						<div class="intro"> <a href="#">Prácticos</a> </div>
 						</div>
 						<div class="card-info">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+							Te ayudamos a aprender desde la comodidad de tu sofá, temas referentes a lo que te agrade, como matemáticas, y lo más importante en el siglo XX... ¡El inglés!
 						</div>
 						<div class="gradient-overlay"></div>
 							<div class="color-overlay"></div>

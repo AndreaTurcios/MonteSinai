@@ -454,7 +454,121 @@ ul li a {
     flex: 1;
     cursor: pointer;
 }
-
+/* blog card 4 */
+.blog-card4 {
+  max-width: 550px;
+  width:100%;
+  height: 500px;
+  position: relative;
+  font-family: 'Droid Serif', serif;
+  color:#fff;
+  top: 20%;
+  right: 0;  
+  left: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0px;
+  box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition:all 0.4s;
+  background: url(https://images.theconversation.com/files/422202/original/file-20210920-22-lrxza9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop) center no-repeat;
+  background-size: 100%;
+}
+.blog-card4 a{ 
+  color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+  }
+  .blog-card4 .color-overlay {
+    background: rgba(64, 84, 94,0.5);
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+  }
+  .blog-card4 .gradient-overlay {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+  }
+  .blog-card4:hover{
+      box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+  }
+  .blog-card4:hover .card-info {
+    opacity: 1;
+    bottom: 100px;
+  }
+  .blog-card4:hover .color-overlay {
+    background: rgba(64, 64, 70,0.8);
+  }
+  .blog-card4:hover .title-content{
+    margin-top:70px
+  }
+/* blog card 3*/
+.blog-card3 {
+  max-width: 550px;
+  width:100%;
+  height: 500px;
+  position: relative;
+  font-family: 'Droid Serif', serif;
+  color:#fff;
+  top: 20%;
+  right: 0;  
+  left: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 0px;
+  box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition:all 0.4s;
+  background: url(https://camaradellibro.cl/wp-content/uploads/2013/02/libros2.jpg) center no-repeat;
+  background-size: 100%;
+}
+.blog-card3 a{ 
+  color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+  }
+  .blog-card3 .color-overlay {
+    background: rgba(64, 84, 94,0.5);
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
+  }
+  .blog-card3 .gradient-overlay {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+  }
+  .blog-card3:hover{
+      box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+  }
+  .blog-card3:hover .card-info {
+    opacity: 1;
+    bottom: 100px;
+  }
+  .blog-card3:hover .color-overlay {
+    background: rgba(64, 64, 70,0.8);
+  }
+  .blog-card3:hover .title-content{
+    margin-top:70px
+  }
+/* blog card 2 */
 .blog-card2 {
     max-width: 550px;
     width:100%;

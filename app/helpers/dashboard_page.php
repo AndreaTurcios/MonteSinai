@@ -1,6 +1,6 @@
 <?php
 /*
-*	Clase para definir las plantillas de las páginas web del <SGC-MEGAFRIO class=""></SGC-MEGAFRIO>
+*	Clase para definir las plantillas de las páginas web
 */
 class Dashboard_Page
 {
@@ -142,7 +142,6 @@ class Dashboard_Page
         );
       } else if ($_SESSION['id_tipo_empleado'] == 6) { //Alumno
         print('
-
   <nav>
           <div class="menu">
               <ul>
