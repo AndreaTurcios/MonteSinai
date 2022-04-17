@@ -2,14 +2,14 @@
 //Se incluye la clase con las plantillas del documento
 require_once('../../app/helpers/dashboard_page.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Dashboard_Page::headerTemplate('Customers');
+Dashboard_Page::headerTemplate('Clientes');
 ?>
 
 <section>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">Customers</h1>
+                <h1 class="center">Gestión de Clientes</h1>
             </div>
         </div>
         <br>
@@ -44,16 +44,109 @@ Dashboard_Page::headerTemplate('Customers');
         <div class="row">
             <div class="table-responsive" class="col scroll">
                 <table id="data-table" class="table table-bordered">
-                <thead class="table-dark">
+                    <thead class="table-dark">
                         <tr>
-                            <th scope="col">Nombre</th>
+                            <th scope="col">N°</th>
+                            <th scope="col">Usuario</th>
+                            <th scope="col">Nombres</th>
+                            <th scope="col">Apellidos</th>
+                            <th scope="col">Teléfono</th>
+                            <th scope="col">DUI</th>
+                            <th scope="col">Dirección</th>
+                            <th scope="col">Correo</th>
+                            <th scope="col">Foto</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Libros</th>
+                            <th scope="col">Grado</th>
                             <th scope="col">Controladores</th>
                         </tr>
                     </thead>
                     <tbody id="tbody-rows">
-                        
                     </tbody>
                 </table>
+            </div>
+
+            <div class="row">
+                <nav>
+
+                    <div class="col-6 col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2 p-3"
+                        id="MuestraBTN">
+                        <div id="ModalAgregarCliente" class="modal fade">
+                            <div class="container-fluid">
+                                <form method="post" id="save-form">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-title">Agregar cliente</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                <div class="container">
+                                                    <div class="form-group">
+                                                        <label for="nombre_cli">Nombre</label>
+                                                        <input type="text" class="form-control" id="nombre_cli"
+                                                            name="nombre_cli" placeholder="Nombre cliente"
+                                                            pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1,50}" required
+                                                            minlength="3" maxlength="50" autocomplete="off" />
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <label for="telefono_cli">Teléfono</label>
+                                                        <input type="text" class="form-control" id="telefono_cli"
+                                                            name="telefono_cli" placeholder="0000-0000"
+                                                            pattern="[2,6,7]{1}[0-9]{3}[-][0-9]{4}" required
+                                                            minlength="9" maxlength="9" autocomplete="off" />
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <label for="nit_cli">NIT</label>
+                                                        <input type="text" class="form-control" id="nit_cli"
+                                                            name="nit_cli" placeholder="0000-000000-000-0" autocomplete="off" validate />
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <label for="dui_cli">Dui</label>
+                                                        <input type="text" class="form-control" id="dui_cli"
+                                                            name="dui_cli" placeholder="00000000-0" required
+                                                            minlength="10" maxlength="10" autocomplete="off" validate />
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <label for="direccion_cli">Direccion</label>
+                                                        <input type="text" class="form-control" id="direccion_cli"
+                                                            name="direccion_cli" placeholder="Ej: Av. Los heroes"
+                                                            required minlength="1" maxlength="300" autocomplete="off" />
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <label for="correo_cli">Correo</label>
+                                                        <input type="text" class="form-control" id="correo_cli"
+                                                            name="correo_cli" placeholder="usuario@gmail.com" autocomplete="off" validate
+                                                            required />
+                                                    </div>
+                                                    <br>
+                                                    <div class="form-group">
+                                                        <label for="estado_pago">Estado Pago</label>
+                                                        <select id="estado_pago" class="form-select" name="estado_pago">
+                                                            <option selected></option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <!-- Botones de Control -->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Cancelar</button>
+                                                    <button type="submit" class="btn waves-effect blue tooltipped"
+                                                        data-tooltip="Guardar">Guardar</button><br>
+                                                </div>
+                                </form>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
             </div>
             </nav>
             <br>
@@ -128,12 +221,15 @@ Dashboard_Page::headerTemplate('Customers');
                         </div>
                     </form>
                     </form>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Dashboard_Page::footerTemplate('cont.js');
+Dashboard_Page::footerTemplate('clientes.js');
 ?>
