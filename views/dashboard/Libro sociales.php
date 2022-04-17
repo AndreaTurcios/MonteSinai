@@ -9,7 +9,7 @@ Dashboard_Page::headerTemplate('Libro sociales');
     <div class="container">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">Libro 2</h1>
+                <h1 class="center">Libro sociales</h1>
             </div>
         </div>
         <br>
