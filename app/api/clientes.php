@@ -24,8 +24,8 @@ if (isset($_GET['action'])) {
                 }
                 break;
 
-            case 'readEstados':
-                if ($result['dataset'] = $clientes->readEstados()) {
+            case 'readEstadosCliente':
+                if ($result['dataset'] = $clientes->readEstadosCliente()) {
                         $result['status'] = 1;
                 } else {
                         if (Database::getException()) {
@@ -35,7 +35,6 @@ if (isset($_GET['action'])) {
                         }
                     }
                 break; 
-
                 case 'readOne':
                     if ($clientes->setId($_POST['id_cliente2'])) {   
                         if ($result['dataset'] = $clientes->readOne()) {
@@ -79,7 +78,7 @@ if (isset($_GET['action'])) {
                 $_POST = $clientes->validateForm($_POST);
                 if($clientes->setNombre($_POST['nombre_cli'])){
                     if(isset($_POST['estado_pago'])){
-                        if($clientes->setEstado($_POST['estado_pago'])){
+                        if($clientes->setEstadoCliente($_POST['estado_pago'])){
                                 if($clientes->setTelefono($_POST['telefono_cli'])){
                                     if($clientes->setDui($_POST['dui_cli'])){
                                         if($clientes->setNIT($_POST['nit_cli'])){
@@ -128,7 +127,7 @@ if (isset($_GET['action'])) {
                     if ($data = $clientes->readOne()) {
                         if($clientes->setNombre($_POST['nombre_cli2'])){
                             if(isset($_POST['estado_pago2'])){
-                                if($clientes->setEstado($_POST['estado_pago2'])){
+                                if($clientes->setEstadoCliente($_POST['estado_pago2'])){
                                         if($clientes->setTelefono($_POST['telefono_cli2'])){
                                             if($clientes->setDui($_POST['dui_cli2'])){
                                                 if($clientes->setNIT($_POST['nit_cli2'])){

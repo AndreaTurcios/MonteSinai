@@ -12,7 +12,7 @@ class Clientes extends Validator
     private $nit_cli = null;
     private $direccion_cli = null;
     private $correo_cli = null;
-    private $id_estado_pago = null;
+    private $id_estado_cliente = null;
 
     public function setId($value){
         if ($this->validateNaturalNumber($value)) {
@@ -78,9 +78,9 @@ class Clientes extends Validator
         }
     }
 
-    public function setEstado($value){
+    public function setEstadoCliente($value){
         if ($this->validateNaturalNumber($value)) {
-            $this->id_estado_pago = $value;
+            $this->id_estado_cliente = $value;
             return true;
         } else {
             return false;
@@ -115,14 +115,19 @@ class Clientes extends Validator
         return $this->correo_cli;
     }
 
-    public function getEstado(){
-        return $this->id_estado_pago;
+    public function getEstadoCliente(){
+        return $this->id_estado_cliente;
     }
 
     public function searchRows($value)
     {
-        $sql = 'SELECT id_cliente, nombre_cli, telefono_cli, dui_cli, nit_cli, direccion_cli, correo_cli, estado_pago  
-        FROM clientes INNER JOIN estado_pago using(id_estado_pago) WHERE nombre_cli ILIKE ?';
+        $sql = 'SELECT id_cliente, nombre_cliente, apellido_cliente,telefono_cliente, dui_cliente, direccion_cliente, correo_cliente, 
+        usuario_cliente, clave_cliente,foto_cliente, ec.estado, lib.nombre_libro, grad.grado
+        FROM cliente 
+        INNER JOIN estado_cliente ec using(id_estado_cliente) 
+        INNER JOIN libro lib using(id_libro) 
+        INNER JOIN grado grad using(id_grado) 
+        WHERE nombre_cliente ILIKE ?';
         $params = array("%$value%");
         return Database::getRows($sql, $params);
     }
@@ -142,16 +147,19 @@ class Clientes extends Validator
 
     public function readCliente()
     {
-        $sql = 'SELECT cli.id_cliente, cli.nombre_cli, cli.telefono_cli, cli.dui_cli, cli.nit_cli, cli.direccion_cli, cli.correo_cli, ep.estado_pago  
-        FROM clientes cli
-        INNER JOIN estado_pago ep on cli.id_estado_pago = ep.id_estado_pago
-        WHERE ep.id_estado_pago = ?';
-        $params = array($this->id_estado_pago);
+        $sql = 'SELECT id_cliente, nombre_cliente, apellido_cliente,telefono_cliente, dui_cliente, direccion_cliente, correo_cliente, 
+        usuario_cliente, clave_cliente,foto_cliente, ec.estado, lib.nombre_libro, grad.grado
+        FROM cliente 
+        INNER JOIN estado_cliente ec using(id_estado_cliente) 
+        INNER JOIN libro lib using(id_libro) 
+        INNER JOIN grado grad using(id_grado) 
+        WHERE ec.id_estado_cliente = ?';
+        $params = array($this->id_estado_cliente);
         return Database::getRows($sql, $params);
     }
-    public function readEstados()
+    public function readEstadosCliente()
     {
-        $sql = 'SELECT id_estado_pago, estado_pago FROM estado_pago';
+        $sql = 'SELECT id_estado_cliente, estado FROM estado_cliente';
         $params = null;
         return Database::getRows($sql, $params);
     }

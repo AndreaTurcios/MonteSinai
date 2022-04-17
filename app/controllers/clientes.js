@@ -1,5 +1,5 @@
 const API_CLIENTE = '../../app/api/clientes.php?action=';
-const ENDPOINT_ESTADO = '../../app/api/clientes.php?action=readEstadoCliente';
+const ENDPOINT_ESTADO = '../../app/api/clientes.php?action=readEstadosCliente';
 const ENDPOINT_LIBRO = '../../app/api/clientes.php?action=readLibroCliente';
 const ENDPOINT_GRADO = '../../app/api/clientes.php?action=readGradoCliente';
 
