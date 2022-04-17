@@ -235,7 +235,7 @@ Dashboard_Page::headerTemplate('Empleados');
 
             <div class="form-group">
                           <label for="direccion_emp">Direccion:</label>
-                          <input class="form-control" id="direccion_emp2" type="text" name="direccion_emp"
+                          <input class="form-control" id="direccion_emp2" type="text" name="direccion_emp2"
                             placeholder="Direccion" size="30" required
                             minlength="3" maxlength="50" autocomplete="off"/>
             </div>

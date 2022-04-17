@@ -319,7 +319,7 @@ class Empleados extends Validator{
         INNER JOIN tipo_empleado te USING(id_tipo_empleado) 
 		INNER JOIN estado_empleado ee USING(id_estado_empleado)  
 		INNER JOIN libro lib USING(id_libro)  
-        ORDER BY usuario';
+        ORDER BY id_empleado';
         $params = null;
         return Database::getRows($sql, $params);
     }
@@ -345,7 +345,7 @@ class Empleados extends Validator{
                 SET nombre_empleado= ?, apellido_empleado= ?,telefono_empleado= ?,direccion_empleado= ?,correo_empleado= ?,usuario= ?,clave= ?,id_tipo_empleado= ?,id_estado_empleado= ?,id_libro= ?
                 WHERE id_empleado = ?';
        //$params = array($this->nombreusuario, $this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->claveempleado,$this->estado,$this->idtipoempleado);
-       $params = array($this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->direccion_empleado,$this->correo,$this->nombreusuario,$hash,$this->idtipoempleado,$this->estado,$this->idlibro);
+       $params = array($this->nombreempleado, $this->apellidoempleado, $this->telefonoempleado,$this->direccion_empleado,$this->correo,$this->nombreusuario,$hash,$this->idtipoempleado,$this->estado,$this->idlibro,$this->id);
         return Database::executeRow($sql, $params);
     }
 

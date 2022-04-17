@@ -37,7 +37,9 @@ if(isset($_GET['action'])) {
                         if ($usuario->setApellidoEmpleado($_POST['apellido_emp2'])) {
                             if ($usuario->setTelefonoEmpleado($_POST['telefono_emp2'])) {
                                     if ($usuario->setEstado($_POST['estado2'])) {
-                                        if ($usuario->setDireccion($_POST['direccion2'])) {
+                                        if ($usuario->setCorreo($_POST['correo_emp2'])) {
+                                        if ($usuario->setDireccion($_POST['direccion_emp2'])) {
+                                            if ($usuario->setIdLibro($_POST['libro2'])) {
                                     if ($usuario->setIDTipoEmpleado($_POST['tipoemp2'])) {
                                         if ($usuario->updateRow()) {
                                             $result['status'] = 1;
@@ -48,9 +50,15 @@ if(isset($_GET['action'])) {
                                             }else {
                                                 $result['exception'] ='Tipo empleado incorrecto';
                                                   }
+                                                }else {
+                                                    $result['exception'] ='Libro incorrecto';
+                                                      }
                                     }else {
                                         $result['exception'] ='Estado empleado incorrecto';
                                           }
+                                        } else {
+                                            $result['exception'] = 'Correo incorrecto';
+                                                }
                             } else {
                                 $result['exception'] = 'Teléfono incorrecto';
                                     }

@@ -16,6 +16,13 @@ class Dashboard_Page
         // Se crea una sesión o se reanuda la actual para poder utilizar variables de sesión en las páginas web.
         session_start();
         // Se imprime el código HTML de la cabecera del documento.
+           // En este apartado se corrobora que el id de tipo usuario corresponda a uno de la tabla tipo empleados, y muestre la vista respectiva a cada tipo de usuario
+        /*	(1, 'Root'),--control total
+        (2, 'Administrador'),--control CASI total
+        (3, 'Profesor'),--como van las secciones, alumnos
+        (4, 'Director'),--como van las secciones, docentes y avance institucional
+        (5, 'Padre de familia'),--como va el alumno
+        (6, 'Alumno');--visualizar su libro*/ 
         print('
         <!DOCTYPE html>
         <html lang="es">
@@ -39,8 +46,8 @@ class Dashboard_Page
  // Se comprueba si existe una sesión de administrador para mostrar el menú de opciones, de lo contrario se muestra un menú vacío.
  if (isset($_SESSION['id_empleado'])) {
    // En este apartado se corrobora que el id de tipo usuario corresponda a uno de la tabla tipo empleados, y muestre la vista respectiva a cada tipo de usuario
-     if($_SESSION['id_tipo_empleado']== 1 || $_SESSION['id_tipo_empleado']== 2 ) {
-   // En este apartado se corrobora que el id de tipo usuario corresponda a uno de la tabla tipo empleados, y muestre la vista respectiva a cada tipo de usuario
+     if($_SESSION['id_tipo_empleado']== 1) {
+
         print('
         <nav>
                 <div class="menu">
@@ -50,7 +57,6 @@ class Dashboard_Page
                     <ul>
                         <li><a href="../dashboard/main.php">Libros</a></li>
                         <li><a href="../dashboard/orders.php">Control</a></li>
-                        <li><a href="../dashboard/products.php">Products</a></li>
                         <li><a href="../dashboard/customers.php">Clientes</a></li>
                         <li><a href="../dashboard/reports.php">Reports</a></li>
                         <li><a href="../dashboard/empleados.php">Empleados</a></li>
@@ -61,7 +67,7 @@ class Dashboard_Page
             <div class="css-xfq28i"></div>
             <br>  
             ');
-        }else if($_SESSION['id_tipo_empleado']== 3) {
+        }else if($_SESSION['id_tipo_empleado']== 2) {
             print('
 
             <nav>
@@ -70,20 +76,38 @@ class Dashboard_Page
                              <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
                         </ul>
                         <ul>
-                            <li><a href="../dashboard/main.php">Libros</a></li>
-                            <li><a href="../dashboard/orders.php">Control</a></li>
-                            <li><a href="../dashboard/products.php">Products</a></li>
-                            <li><a href="../dashboard/customers.php">Clientes</a></li>
-                            <li><a href="../dashboard/reports.php">Reports</a></li>
-                            <li><a href="../dashboard/empleados.php">Empleados</a></li>
-                            <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
+                          <li><a href="../dashboard/main.php">Libros</a></li>
+                          <li><a href="../dashboard/orders.php">Control</a></li>
+                          <li><a href="../dashboard/customers.php">Clientes</a></li>
+                          <li><a href="../dashboard/empleados.php">Empleados</a></li>
+                          <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
                         </ul>
                     </div>
                 </nav>
                 <div class="css-xfq28i"></div>
                 <br> '
               );
-    }else {
+     }else if($_SESSION['id_tipo_empleado']== 3) {
+      print('
+      <nav>
+              <div class="menu">
+                  <ul>
+                       <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+                  </ul>
+                  <ul>
+                      <li><a href="../dashboard/orders.php">Control</a></li>
+                      <li><a href="../dashboard/customers.php">Clientes</a></li>
+                      <li><a href="../dashboard/reports.php">Reports</a></li>
+                      <li></li><li></li><li></li><li></li><li></li>
+                      <li></li><li></li><li></li>
+                      <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
+                  </ul>
+              </div>
+          </nav>
+          <div class="css-xfq28i"></div>
+          <br> '
+        );
+  }else {
     print('
 
     <nav>
@@ -92,13 +116,12 @@ class Dashboard_Page
                      <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
                 </ul>
                 <ul>
-                    <li><a href="../dashboard/main.php">Libros</a></li>
-                    <li><a href="../dashboard/orders.php">Control</a></li>
-                    <li><a href="../dashboard/products.php">Products</a></li>
-                    <li><a href="../dashboard/customers.php">Clientes</a></li>
-                    <li><a href="../dashboard/reports.php">Reports</a></li>
-                    <li><a href="../dashboard/empleados.php">Empleados</a></li>
-                    <li><a href="../dashboard/login.php">Login</a></li>
+                <li><a href="../dashboard/main.php">Libros</a></li>
+                <li><a href="../dashboard/orders.php">Control</a></li>
+                <li><a href="../dashboard/customers.php">Clientes</a></li>
+                <li><a href="../dashboard/reports.php">Reports</a></li>
+                <li><a href="../dashboard/empleados.php">Empleados</a></li>
+                <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
                 </ul>
             </div>
         </nav>
