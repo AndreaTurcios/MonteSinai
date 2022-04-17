@@ -4,26 +4,24 @@
 */
 class Dashboard_Page
 {
-    /*
+  /*
     *   Método para imprimir la plantilla del encabezado.
     *
     *   Parámetros: $title (título de la página web y del contenido principal).
     *
     *   Retorno: ninguno.
     */
-    public static function headerTemplate($title)
-    {
-        // Se crea una sesión o se reanuda la actual para poder utilizar variables de sesión en las páginas web.
-        session_start();
-        // Se imprime el código HTML de la cabecera del documento.
-           // En este apartado se corrobora que el id de tipo usuario corresponda a uno de la tabla tipo empleados, y muestre la vista respectiva a cada tipo de usuario
-        /*	(1, 'Root'),--control total
+  public static function headerTemplate($title)
+  {
+    // Se crea una sesión o se reanuda la actual para poder utilizar variables de sesión en las páginas web.
+    session_start();
+    /*	(1, 'Root'),--control total
         (2, 'Administrador'),--control CASI total
         (3, 'Profesor'),--como van las secciones, alumnos
         (4, 'Director'),--como van las secciones, docentes y avance institucional
         (5, 'Padre de familia'),--como va el alumno
-        (6, 'Alumno');--visualizar su libro*/ 
-        print('
+        (6, 'Alumno');--visualizar su libro*/
+    print('
         <!DOCTYPE html>
         <html lang="es">
         <head>
@@ -36,18 +34,17 @@ class Dashboard_Page
             <!-- Agregamos LibroCSS -->
             <link rel="stylesheet" href="../../resources/css/style.css">
             <link rel="stylesheet" href="../../resources/css/vanilla-dataTables.min.css">
-            <title>Monte Sinai - '.$title.'</title>
+            <title>Monte Sinai - ' . $title . '</title>
             <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
         </head>
         <body>  
     ');
- // Se comprueba si existe una sesión de administrador para mostrar el menú de opciones, de lo contrario se muestra un menú vacío.
- $filename = basename($_SERVER['PHP_SELF']);
- // Se comprueba si existe una sesión de administrador para mostrar el menú de opciones, de lo contrario se muestra un menú vacío.
- if (isset($_SESSION['id_empleado'])) {
-   // En este apartado se corrobora que el id de tipo usuario corresponda a uno de la tabla tipo empleados, y muestre la vista respectiva a cada tipo de usuario
-     if($_SESSION['id_tipo_empleado']== 1) {
-
+    // Se comprueba si existe una sesión de administrador para mostrar el menú de opciones, de lo contrario se muestra un menú vacío.
+    $filename = basename($_SERVER['PHP_SELF']);
+    // Se comprueba si existe una sesión de administrador para mostrar el menú de opciones, de lo contrario se muestra un menú vacío.
+    if (isset($_SESSION['id_empleado'])) {
+      // En este apartado se corrobora que el id de tipo usuario corresponda a uno de la tabla tipo empleados, y muestre la vista respectiva a cada tipo de usuario
+      if ($_SESSION['id_tipo_empleado'] == 1) { //Root
         print('
         <nav>
                 <div class="menu">
@@ -67,8 +64,8 @@ class Dashboard_Page
             <div class="css-xfq28i"></div>
             <br>  
             ');
-        }else if($_SESSION['id_tipo_empleado']== 2) {
-            print('
+      } else if ($_SESSION['id_tipo_empleado'] == 2) { //Administrador
+        print('
 
             <nav>
                     <div class="menu">
@@ -86,9 +83,9 @@ class Dashboard_Page
                 </nav>
                 <div class="css-xfq28i"></div>
                 <br> '
-              );
-     }else if($_SESSION['id_tipo_empleado']== 3) {
-      print('
+        );
+      } else if ($_SESSION['id_tipo_empleado'] == 3) { //Profesor
+        print('
       <nav>
               <div class="menu">
                   <ul>
@@ -107,8 +104,61 @@ class Dashboard_Page
           <div class="css-xfq28i"></div>
           <br> '
         );
-  }else {
-    print('
+      } else if ($_SESSION['id_tipo_empleado'] == 4) { //Director
+        print('
+
+  <nav>
+          <div class="menu">
+              <ul>
+                   <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+              </ul>
+              <ul>
+                <li><a href="../dashboard/main.php">Libros</a></li>
+                <li><a href="../dashboard/orders.php">Control</a></li>
+                <li><a href="../dashboard/customers.php">Clientes</a></li>
+                <li><a href="../dashboard/reports.php">Reports</a></li>
+              </ul>
+          </div>
+      </nav>
+      <div class="css-xfq28i"></div>
+      <br> '
+        );
+      } else if ($_SESSION['id_tipo_empleado'] == 5) { //Padre de familia
+        print('
+
+  <nav>
+          <div class="menu">
+              <ul>
+                   <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+              </ul>
+              <ul>
+                <li><a href="../dashboard/orders.php">Control</a></li>
+                <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
+              </ul>
+          </div>
+      </nav>
+      <div class="css-xfq28i"></div>
+      <br> '
+        );
+      } else if ($_SESSION['id_tipo_empleado'] == 6) { //Alumno
+        print('
+
+  <nav>
+          <div class="menu">
+              <ul>
+                   <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+              </ul>
+              <ul>
+                <li><a href="../dashboard/orders.php">Control</a></li>
+                <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
+              </ul>
+          </div>
+      </nav>
+      <div class="css-xfq28i"></div>
+      <br> '
+        );
+      } else {
+        print('
 
     <nav>
             <div class="menu">
@@ -127,10 +177,10 @@ class Dashboard_Page
         </nav>
         <div class="css-xfq28i"></div>
         <br> '
-      );
-  }
-}else {
-  print('
+        );
+      }
+    } else {
+      print('
   <nav>
           <div class="menu">
               <ul>
@@ -148,15 +198,15 @@ class Dashboard_Page
       </nav>
       <div class="css-xfq28i"></div>
       <br> '
-    );
-}
-}
+      );
+    }
+  }
 
 
-    public static function footerTemplate($controller)
-    {
-        // Se comprueba si existe una sesión de administrador para imprimir el pie respectivo del documento.
-         $scripts = ('
+  public static function footerTemplate($controller)
+  {
+    // Se comprueba si existe una sesión de administrador para imprimir el pie respectivo del documento.
+    $scripts = ('
          <!-- Script de Fontawesome -->
          <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
          <!-- Script de Bootstrap -->
@@ -169,8 +219,8 @@ class Dashboard_Page
          <script type="text/javascript" src="../../app/controllers/account.js"></script>
          <script type="text/javascript" src="../../app/controllers/' . $controller . '"></script>
             ');
-      
-        print('
+
+    print('
         <hr />
         <div class="css-xfq28i"></div>
         <footer class="site-footer">
@@ -230,5 +280,5 @@ class Dashboard_Page
 </form>
 </body>
 </html>');
-    }    
+  }
 }
