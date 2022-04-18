@@ -93,6 +93,8 @@ function logOut() {
                     request.json().then(function (response) {
                         // Se comprueba si la respuesta es satisfactoria, de lo contrario se muestra un mensaje con la excepción.
                         if (response.status) {
+                                    audio = new Audio(`../../resources/audio/goodbye.mp3`)
+                                    audio.play()
                             sweetAlert(1, response.message, 'principal.php');
                         } else {
                             sweetAlert(2, response.exception, null);
