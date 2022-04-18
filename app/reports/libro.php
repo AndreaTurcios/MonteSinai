@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
             // Se instancia la clase para crear el reporte.
             $pdf = new Report;
             // Se inicia el reporte con el encabezado del documento.
-            $pdf->startReport('Reporte de datos de libro');
+            $pdf->startReport('Reporte de datos de libro " '.$rowLibros['nombre_libro'].'"');
             $pdf->SetFillColor(0, 188, 209);
             // Se verifica si existen registros (empleados) para mostrar, de lo contrario se imprime un mensaje.
             if ($libroo = $libro->readReport()) {// leer todos los registros
@@ -20,7 +20,7 @@ if (isset($_GET['id'])) {
                 // Se establece la fuente para los encabezados.
                 $pdf->Ln();  
                 $pdf->SetFont('Arial', 'B', 11);
-                $pdf->SetFillColor(174, 232, 251);
+                $pdf->SetFillColor(239, 155, 133);
                 // Se imprimen las celdas con los encabezados.
                 $pdf->Cell(193, 10, utf8_decode('Asignatura: '.$rowLibros['asignatura']), 1, 0, 'C', 1);
                 $pdf->Ln();
