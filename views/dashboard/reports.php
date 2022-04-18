@@ -9,7 +9,7 @@ Dashboard_Page::headerTemplate('Reportes');
     <br>
     <div class="row">
         <div class="col-12 text-center" id="Titulo1">
-            <h1>Generar Reportes</h1>
+            <h2 class="center">Generar reportes</h2>
         </div>
     </div>
     <br>

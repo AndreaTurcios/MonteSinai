@@ -9,7 +9,7 @@ Dashboard_Page::headerTemplate('Criterios');
     <div class="container">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">Gestión de criterios</h1>
+                <h2 class="center">Gestión de criterios</h2>
             </div>
         </div>
         <br>

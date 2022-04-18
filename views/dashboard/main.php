@@ -12,7 +12,7 @@ Dashboard_Page::headerTemplate('Libros');
       <!--Container con su respectivo título de pestaña, en este caso, proveedores -->
       <div class="col-12 text-center" id="Titulo1">
         <!-- Colocamos el h1 con su respectivo título, este caso la estión de empleados -->
-        <h1 class="center">Menu</h1>
+        <h2 class="center">Menu</h2>
       </div>
     </div>
     <br>

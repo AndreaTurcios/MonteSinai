@@ -9,7 +9,7 @@ Dashboard_Page::headerTemplate('Control');
     <div class="container">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">Control</h1>
+                <h2 class="center">Control</h2>
             </div>
         </div>
         <br>

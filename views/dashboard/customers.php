@@ -9,7 +9,7 @@ Dashboard_Page::headerTemplate('Clientes');
     <div class="container">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">Gestión de Clientes</h1>
+                <h2 class="center">Gestión de Clientes</h2>
             </div>
         </div>
         <br>
