@@ -26,7 +26,7 @@ function fillTable(dataset) {
                 <td>${row.asignatura}</td>
                 <td>${row.estado_libro}</td>  
                 <td>
-                    <a href="../../app/reports/empleado.php?id=${row.id_libro}"class="btn" data-tooltip="Reporte">Reporte</a> /
+                    <a href="../../app/reports/libro.php?id=${row.id_libro}"class="btn" data-tooltip="Reporte">Reporte</a> /
                     <a href="#" onclick="openUpdateDialog(${row.id_libro})"class="btn"  data-bs-toggle="modal" data-bs-target="#exampleModal">Editar</a> /
                     <a href="#" onclick="openDeleteDialog(${row.id_libro})"class="btn">Eliminar</a>
                 </td>

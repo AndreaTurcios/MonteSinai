@@ -110,14 +110,13 @@ class Libros extends Validator
 
     public function searchRows($value)
     {   
-        $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, indic.indicador, estadlib.estado_libro
+        $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, estadlib.estado_libro
         from libro lib
         inner join asignatura asig using (id_asignatura)
-        inner join indicador_logro indic using (id_indicador)
         inner join estado_libro  estadlib using (id_estado_libro)
-        where lib.nombre_libro = ?
-        order by lib.id_libro;';
-        $params = array("%$value%");
+        where lib.nombre_libro ILIKE ? OR asig.asignatura ILIKE ? 
+        order by lib.id_libro';
+        $params = array("%$value%","%$value%");
         return Database::getRows($sql, $params);
     }
 
