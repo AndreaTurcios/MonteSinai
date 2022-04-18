@@ -55,9 +55,9 @@ class Dashboard_Page
                         <li><a href="../dashboard/main.php">Libros</a></li>
                         <li><a href="../dashboard/orders.php">Control</a></li>
                         <li><a href="../dashboard/customers.php">Clientes</a></li>
-                        <li><a href="../dashboard/reports.php">Reports</a></li>
                         <li><a href="../dashboard/empleados.php">Empleados</a></li>
                         <li><a href="../dashboard/empleados.php">Criterios</a></li>
+                        <li><a href="../dashboard/reports.php">Reports</a></li>
                         <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
                     </ul>
                 </div>
