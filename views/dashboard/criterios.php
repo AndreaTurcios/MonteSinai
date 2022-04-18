@@ -47,17 +47,16 @@ Dashboard_Page::headerTemplate('Criterios');
                     <thead class="table-dark">
                         <tr>
                             <th scope="col">N°</th>
-                            <th scope="col">Libro</th>
-                            <th scope="col">Nombres</th>
-                            <th scope="col">Apellidos</th>
-                            <th scope="col">Teléfono</th>
-                            <th scope="col">DUI</th>
-                            <th scope="col">Dirección</th>
-                            <th scope="col">Correo</th>
-                            <th scope="col">Foto</th>
-                            <th scope="col">Estado</th>
-                            <th scope="col">Libros</th>
-                            <th scope="col">Grado</th>
+                            <th scope="col">Indicador 1</th>
+                            <th scope="col">Indicador 2</th>
+                            <th scope="col">Indicador 3</th>
+                            <th scope="col">Indicador 4</th>
+                            <th scope="col">Indicador 5</th>
+                            <th scope="col">Indicador 6</th>
+                            <th scope="col">Indicador 7</th>
+                            <th scope="col">Indicador 8</th>
+                            <th scope="col">Indicador 9</th>
+                            <th scope="col">Indicador 10</th>
                             <th scope="col">Controladores</th>
                         </tr>
                     </thead>
