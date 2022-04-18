@@ -114,9 +114,9 @@ class Libros extends Validator
         from libro lib
         inner join asignatura asig using (id_asignatura)
         inner join estado_libro  estadlib using (id_estado_libro)
-        where lib.nombre_libro ILIKE ? OR asig.asignatura ILIKE ? 
+        where lib.nombre_libro ILIKE ? OR asig.asignatura ILIKE ? OR estadlib.estado_libro ILIKE ? 
         order by lib.id_libro';
-        $params = array("%$value%","%$value%");
+        $params = array("%$value%","%$value%","%$value%");
         return Database::getRows($sql, $params);
     }
 
