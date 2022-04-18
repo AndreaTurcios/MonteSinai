@@ -198,7 +198,7 @@ Dashboard_Page::headerTemplate('Home');
 	<div class="container">
 		<blockquote>
 			<i class="fa fa-quote-left"></i>
-			<i class="fa fa-quote-right"></i>"Intenta aprender algo sobre todo y todo sobre algo"
+			<i class="fa fa-quote-right"></i>Intenta aprender algo sobre todo y todo sobre algo.
 			<span>Thomas Huxley</span>
 		</blockquote>
 	</div>

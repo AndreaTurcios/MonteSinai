@@ -2,14 +2,14 @@
 //Se incluye la clase con las plantillas del documento
 require_once('../../app/helpers/dashboard_page.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Dashboard_Page::headerTemplate('Orders');
+Dashboard_Page::headerTemplate('Control');
 ?>
 
 <section>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">Orders</h1>
+                <h1 class="center">Control</h1>
             </div>
         </div>
         <br>
@@ -62,7 +62,7 @@ Dashboard_Page::headerTemplate('Orders');
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title">Actualizar cliente</h5>
+                        <h5 class="modal-title" id="modal-title">Actualizar nota</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <!-- Partes del modal para hacer insert -->

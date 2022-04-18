@@ -106,10 +106,10 @@ document.getElementById('update-form').addEventListener('submit', function (even
     updateRow(API_LIBROS, 'update', 'update-form', 'update-modal');
 });
 
-function openDeleteDialog(id_libro) {
+function openDeleteDialog(id) {
     // Se define un objeto con los datos del registro seleccionado.
     const data = new FormData();
-    data.append('id_libro', id_libro);
+    data.append('id_libro', id);
     // Se confirma que se quiere eliminar un empleado en especifico en base al id
     confirmDelete(API_LIBROS, data);
 }
