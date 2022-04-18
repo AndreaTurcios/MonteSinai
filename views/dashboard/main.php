@@ -50,7 +50,6 @@ Dashboard_Page::headerTemplate('Empleados');
                             <th scope="col">Nombre libro</th>
                             <th scope="col">N° Páginas</th>
                             <th scope="col">Asignatura</th>
-                            <th scope="col">Indicador</th>
                             <th scope="col">Estado libro</th>
                             <th scope="col">Controlador</th>
                         </tr>
@@ -77,7 +76,7 @@ Dashboard_Page::headerTemplate('Empleados');
                                                 <div class="container">
                                                     <div class="form-group">
                                                         <label for="nombrelibro">Nombre libro:</label>
-                                                        <input type="text" class="form-control" id="nombrelibro" name="nombrelibro" placeholder="Nombre libro" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1,50}" required minlength="3" maxlength="50" autocomplete="off" />
+                                                        <input type="text" class="form-control" id="nombrelibro" name="nombrelibro" placeholder="Nombre libro" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
                                                     </div>
                                                     <br>
                                                     <div class="form-group">
@@ -124,7 +123,7 @@ Dashboard_Page::headerTemplate('Empleados');
                     <form id="update-form" method="post" enctype="multipart/form-data">
                         <div class="form-group ">
                             <label for="formGroupExampleInput" class="d-none">ID</label>
-                            <input type="text" class="form-control d-none" placeholder="" aria-describedby="basic-addon1" id="id_cliente2" type="text" name="id_cliente2" />
+                            <input type="text" class="form-control d-none" placeholder="" aria-describedby="basic-addon1" id="id_libro2" type="text" name="id_libro2" />
                         </div>
                         <div class="modal-body">
                             <form id="update-form" method="post" enctype="multipart/form-data">
@@ -135,7 +134,7 @@ Dashboard_Page::headerTemplate('Empleados');
                                 <br>
                                 <div class="form-group">
                                     <label for="numpaginas2">Numero páginas:</label>
-                                    <input type="text" class="form-control" id="numpaginas2" name="numpaginas2" placeholder="Número páginas:" pattern="[0-800]" required minlength="9" maxlength="9" autocomplete="off" />
+                                    <input type="number" class="form-control" id="numpaginas2" name="numpaginas2" placeholder="Número páginas:" required minlength="1" maxlength="5" autocomplete="off" />
                                 </div>
                                 <br>
                                 <div class="form-group">

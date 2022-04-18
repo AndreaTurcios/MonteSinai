@@ -57,7 +57,7 @@ if (isset($_GET['action'])) {
                             if ($libros->createRow()) {
                                 $result['status'] = 1;
                                 // Se indica que el empleado se registró existosamente en el caso de que los if se ejecuten automáticamente, caso contrario nos manda los siguientes mensajes
-                                $result['message'] = 'Libro registrado exitosamente';
+                                $result['message'] = 'Libro registrado exitosamente.';
                             } else {
                                 $result['exception'] = Database::getException();
                             }
@@ -78,7 +78,7 @@ if (isset($_GET['action'])) {
             //ejecuta la siguiente acción, en caso contrario nos indica que el empleado que se intenta 
             //seleccionar no existe
         case 'readOne':
-            if ($libros->setId($_POST['id_empleado'])) {
+            if ($libros->setId($_POST['id_libro'])) {
                 if ($result['dataset'] = $libros->readOne()) {
                     $result['status'] = 1;
                 } else {
@@ -93,20 +93,37 @@ if (isset($_GET['action'])) {
             }
             break;
             // Si el action detecta que se desea realizar un update se ejecuta lo siguiente
-            /*case 'update':
+            case 'update':
                     $_POST = $libros->validateForm($_POST);
-                    if ($libros->setId($_POST['id_empleado2'])) {
-                                            if ($libros->updateRow()) {
-                                                $result['status'] = 1;
-                                                $result['message'] = 'Empleado modificado exitosamente';                                                        
-                                            } else {
-                                                $result['exception'] = Database::getException();                                                        
-                                                    }  
-                                                }else {
-                                                    $result['exception'] ='Tipo empleado incorrecto';
-                    }
-                break;
-                */
+                    if ($libros->setNombreLibro($_POST['nombrelibro2'])) {
+                        if ($libros->setNumeroPaginas($_POST['numpaginas2'])) {
+                            if ($libros->setIdAsignatura($_POST['asignatura2'])) {
+                                if ($libros->setIdEstadoLibro($_POST['estadolibro2'])) {
+                                    if ($libros->setId($_POST['id_libro2'])) {
+                                    if ($libros->updateRow()) {
+                                        $result['status'] = 1;
+                                        // Se indica que el empleado se registró existosamente en el caso de que los if se ejecuten automáticamente, caso contrario nos manda los siguientes mensajes
+                                        $result['message'] = 'Libro modificado exitosamente.';
+                                    } else {
+                                        $result['exception'] = Database::getException();
+                                    }
+                                } else {
+                                    $result['exception'] = 'Libro incorrecto';
+                                }
+                                } else {
+                                    $result['exception'] = 'Estado libro incorrecto';
+                                }
+                            } else {
+                                $result['exception'] = 'Asignatura incorrecta';
+                            }
+                        } else {
+                            $result['exception'] = 'Número de páginas incorrecto';
+                        }
+                    } else {
+                        $result['exception'] = 'Nombre de libro incorrecto';
+                    } 
+                    break;
+                
             // Si el action detecta que se desea realizar un delete a un dato se ejecuta lo siguiente
         case 'delete':
             if ($libros->setId($_POST['id_libro'])) {

@@ -24,7 +24,6 @@ function fillTable(dataset) {
                 <td><a href="../dashboard/${row.nombre_libro}.php">${row.nombre_libro}</a></td>
                 <td>${row.numero_paginas}</td> 
                 <td>${row.asignatura}</td>
-                <td>${row.indicador}</td> 
                 <td>${row.estado_libro}</td>  
                 <td>
                     <a href="../../app/reports/empleado.php?id=${row.id_libro}"class="btn" data-tooltip="Reporte">Reporte</a> /
@@ -73,7 +72,7 @@ function openUpdateDialog(id) {
     // Se restauran los elementos del formulario.
     document.getElementById('update-form').reset();
     const data = new FormData();
-    data.append('id_empleado', id);
+    data.append('id_libro', id);
     fetch(API_LIBROS + 'readOne', {
         method: 'post',
         body: data
@@ -83,12 +82,11 @@ function openUpdateDialog(id) {
             request.json().then(function (response) {
                 // Se comprueba si la respuesta es satisfactoria, de lo contrario se muestra un mensaje con la excepción.
                 if (response.status) {        
-                document.getElementById('id_empleado2').value = response.dataset.id_empleado;
-                document.getElementById('nombre_usuario2').value = response.dataset.nombre_usuario;
-                document.getElementById('nombre_emp2').value = response.dataset.nombre_emp;
-                document.getElementById('apellido_emp2').value = response.dataset.apellido_emp;
-                document.getElementById('telefono_emp2').value = response.dataset.telefono_emp;
-                fillSelect(ENDPOINT_TIPO,'tipoemp2',value = response.dataset.id_tipo_emp);
+                document.getElementById('id_libro2').value = response.dataset.id_libro;
+                document.getElementById('nombrelibro2').value = response.dataset.nombre_libro;
+                document.getElementById('numpaginas2').value = response.dataset.numero_paginas;
+                fillSelect(ENDPOINT_ESTADO_LIBRO,'estadolibro2',value = response.dataset.id_estado_libro);
+                fillSelect(ENDPOINT_ASIGNATURA,'asignatura2',value = response.dataset.id_asignatura);
             } else {
                 sweetAlert(2, response.exception, null);
             }
@@ -101,21 +99,6 @@ function openUpdateDialog(id) {
 });
 }
 
-// Esto es para poder visualizar la contraseña y facilitar al usuario el ingreso de la misma
-  document.querySelector('.campo span').addEventListener('click', e => {
-    const passwordInput = document.querySelector('#clave_emp');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'Ocultar';
-        passwordInput.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'Mostrar';
-        passwordInput.type = 'password';
-    }
-});
-
-
 // Se agarra el elemento en base al id y se realiza un update, en el proceso se coloca el event.preventdefault para evitar que recargue la página
 document.getElementById('update-form').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -123,24 +106,11 @@ document.getElementById('update-form').addEventListener('submit', function (even
     updateRow(API_LIBROS, 'update', 'update-form', 'update-modal');
 });
 
-function openDeleteDialog(id) {
+function openDeleteDialog(id_libro) {
     // Se define un objeto con los datos del registro seleccionado.
     const data = new FormData();
-    data.append('id_libro', id);
+    data.append('id_libro', id_libro);
     // Se confirma que se quiere eliminar un empleado en especifico en base al id
     confirmDelete(API_LIBROS, data);
 }
 
-
-document.querySelector('.campo1 span').addEventListener('click', e => {
-    const passwordInput = document.querySelector('#claveconf');
-    if (e.target.classList.contains('show')) {
-        e.target.classList.remove('show');
-        e.target.textContent = 'OCULTAR';
-        passwordInput.type = 'text';
-    } else {
-        e.target.classList.add('show');
-        e.target.textContent = 'MOSTRAR';
-        passwordInput.type = 'password';
-    }
-});

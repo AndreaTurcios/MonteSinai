@@ -20,7 +20,7 @@ class Libros extends Validator
     }
 
     public function setNombreLibro($value){
-        if ($this->validateString($value,1,5)) {
+        if ($this->validateString($value,1,35)) {
             $this->nombre_libro = $value;
             return true;
         } else {
@@ -123,10 +123,9 @@ class Libros extends Validator
 
     public function readAll()
     {
-        $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, indic.indicador, estadlib.estado_libro
+        $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, estadlib.estado_libro
         from libro lib
         inner join asignatura asig using (id_asignatura)
-        inner join indicador_logro indic using (id_indicador)
         inner join estado_libro  estadlib using (id_estado_libro)
         order by lib.id_libro asc';
         $params = null;
@@ -170,10 +169,10 @@ class Libros extends Validator
         return Database::executeRow($sql, $params);
     }
 
-    public function updateRow($current_archivo)
+    public function updateRow()
     {
         // Se verifica si existe una nueva imagen para borrar la actual, de lo contrario se mantiene la actual.
-        ($this->archivo) ? $this->deleteFile($this->getDireccionLibro(), $current_archivo) : $this->archivo = $current_archivo;
+        //($this->archivo) ? $this->deleteFile($this->getDireccionLibro(), $current_archivo) : $this->archivo = $current_archivo;
 
         $sql = 'UPDATE libro 
         SET nombre_libro=?,numero_paginas = ?, id_asignatura = ?, id_indicador = ?, 
@@ -192,10 +191,9 @@ class Libros extends Validator
 
     public function readOne()
     {  
-        $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, indic.indicador, estadlib.estado_libro
+        $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, estadlib.estado_libro
         from libro lib
         inner join asignatura asig using (id_asignatura)
-        inner join indicador_logro indic using (id_indicador)
         inner join estado_libro  estadlib using (id_estado_libro)
         WHERE lib.id_libro = ?';
         $params = array($this->id_libro);
