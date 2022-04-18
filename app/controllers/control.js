@@ -21,16 +21,13 @@ function fillTable(dataset) {
         // Se crean y concatenan las filas de la tabla con los datos de cada registro. 
         content += ` 
             <tr>       
-                <td>${row.id_empleado}</td>
-                <td>${row.usuario}</td>  
-                <td>${row.nombre_empleado}</td>
-                <td>${row.apellido_empleado}</td> 
-                <td>${row.telefono_empleado}</td>
-                <td>${row.direccion_empleado}</td> 
-                <td>${row.correo_empleado}</td>  
-                <td>${row.empleado}</td>  
-                <td>${row.tipo_empleado}</td>  
-                <td>${row.nombre_libro}</td>  
+                <td>${row.id_nota}</td>
+                <td>${row.nombre_cliente+' '+row.apellido_cliente}</td>  
+                <td>${row.usuario_cliente}</td>
+                <td>${row.correo_cliente}</td> 
+                <td>${row.asignatura}</td> 
+                <td>${row.nota_libro}</td> 
+                <td>${row.nota_promedio}</td>
                 <td>
                     <a href="../../app/reports/empleado.php?id=${row.id_empleado}"class="btn" data-tooltip="Reporte">Reporte</a> /
                     <a href="#" onclick="openUpdateDialog(${row.id_empleado})"class="btn"  data-bs-toggle="modal" data-bs-target="#exampleModal">Editar</a> /
@@ -45,10 +42,10 @@ function fillTable(dataset) {
         // Se inicializa la tabla con DataTable.
  let dataTable = new DataTable('#data-table', {
     labels: {
-        placeholder: 'Buscar empleados...',
-        perPage: '{select} Empleados por página',
-        noRows: 'No se encontraron empleados',
-        info:'Mostrando {start} a {end} de {rows} empleados'
+        placeholder: 'Buscar estudiantes...',
+        perPage: '{select} Estudiantes por página',
+        noRows: 'No se encontraron estudiantes',
+        info:'Mostrando {start} a {end} de {rows} estudiantes'
     }
 });
 }

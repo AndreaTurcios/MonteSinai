@@ -422,6 +422,8 @@ class Empleados extends Validator
         }
     }
 
+
+    /*verificar*/
     public function checkPasswordCliente($passwordcliente)
     {
         $sql = 'SELECT clave_cliente FROM cliente WHERE id_cliente = ?';
@@ -433,7 +435,8 @@ class Empleados extends Validator
                 return false;
             }
     }
-
+    /* */
+    
     public function checkUserCorreo($correo)
     {
         $sql = 'SELECT id_empleado FROM empleado WHERE correo_empleado = ?';

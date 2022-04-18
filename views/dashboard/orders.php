@@ -50,7 +50,13 @@ Dashboard_Page::headerTemplate('Control');
                 <table id="data-table" class="table table-bordered">
                 <thead class="table-dark">
                         <tr>
-                            <th scope="col">Nombre</th>
+                            <th scope="col">N°</th>
+                            <th scope="col">Nompre completo</th>
+                            <th scope="col">Usuario</th>
+                            <th scope="col">Correo</th>
+                            <th scope="col">Asignatura</th>
+                            <th scope="col">Nota libro</th>
+                            <th scope="col">Promedio</th>
                             <th scope="col">Controladores</th>
                         </tr>
                     </thead>

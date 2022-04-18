@@ -98,7 +98,7 @@ class Notas extends Validator
     {
         $sql = 'SELECT cli.nombre_cliente, cli.apellido_cliente,cli.usuario_cliente,
 		nota.id_nota, nota.nota_libro, nota.nota_promedio, 
-		asig.asignatura
+		asig.asignatura, cli.correo_cliente
         from notas nota
         inner join asignatura asig using (id_asignatura)
         inner join cliente cli using (id_cliente)
