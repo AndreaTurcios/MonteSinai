@@ -1,10 +1,12 @@
 // Constante para establecer la ruta y parámetros de comunicación con la API.
 const API_LIBROS = '../../app/api/libros.php?action=';
 const ENDPOINT_ASIGNATURA = '../../app/api/asignatura.php?action=readAll';
+const ENDPOINT_ESTADO_LIBRO = '../../app/api/estado_libro.php?action=readAll';
 
 document.addEventListener('DOMContentLoaded', function () {
     // Se llama a la función que obtiene los registros para llenar la tabla. Se encuentra en el archivo components.js
     fillSelect(ENDPOINT_ASIGNATURA,'asignatura',null)
+    fillSelect(ENDPOINT_ESTADO_LIBRO,'estadolibro',null)
     readRows(API_LIBROS);
     //readRows(ENDPOINT_TIPO);
 });
@@ -48,13 +50,12 @@ function fillTable(dataset) {
 
 });
 }
-
 // Método manejador de eventos que se ejecuta cuando se envía el formulario de buscar.
 document.getElementById('search-form').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     // Se llama a la función que realiza la búsqueda. Se encuentra en el archivo components.js
-    searchRows(API_EMPLEADOS, 'search-form');
+    searchRows(API_LIBROS, 'search-form');
 });
 
 
@@ -62,7 +63,7 @@ document.getElementById('search-form').addEventListener('submit', function (even
 document.getElementById('save-form').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    saveRow(API_EMPLEADOS, 'create', 'save-form', null);
+    saveRow(API_LIBROS, 'create', 'save-form', null);
     document.getElementById('save-form').reset();
 });
 
@@ -73,7 +74,7 @@ function openUpdateDialog(id) {
     document.getElementById('update-form').reset();
     const data = new FormData();
     data.append('id_empleado', id);
-    fetch(API_EMPLEADOS + 'readOne', {
+    fetch(API_LIBROS + 'readOne', {
         method: 'post',
         body: data
     }).then(function (request) {
@@ -119,7 +120,7 @@ function openUpdateDialog(id) {
 document.getElementById('update-form').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    updateRow(API_EMPLEADOS, 'update', 'update-form', 'update-modal');
+    updateRow(API_LIBROS, 'update', 'update-form', 'update-modal');
 });
 
 function openDeleteDialog(id) {

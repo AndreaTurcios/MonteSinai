@@ -164,9 +164,9 @@ class Libros extends Validator
 
     public function createRow()
     {
-        $sql = 'INSERT INTO libro(nombre_libro, numero_paginas,id_asignatura,id_indicador,id_estado_libro) 
-        VALUES (?,?,?,?,?)';
-        $params = array($this->nombre_libro,$this->numero_paginas,$this->id_asignatura,$this->id_indicador,$this->id_estado_libro);
+        $sql = 'INSERT INTO libro(nombre_libro, numero_paginas,id_asignatura,id_estado_libro) 
+        VALUES (?,?,?,?)';
+        $params = array($this->nombre_libro,$this->numero_paginas,$this->id_asignatura,$this->id_estado_libro);
         return Database::executeRow($sql, $params);
     }
 
