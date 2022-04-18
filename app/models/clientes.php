@@ -14,6 +14,12 @@ class Clientes extends Validator
     private $direccion_cli = null;
     private $correo_cli = null;
     private $id_estado_cliente = null;
+    private $foto_cliente = null;
+
+    public function getFoto()
+    {
+        return $this->foto_cliente;
+    }
 
     public function setId($value){
         if ($this->validateNaturalNumber($value)) {
@@ -119,6 +125,12 @@ class Clientes extends Validator
     public function getEstadoCliente(){
         return $this->id_estado_cliente;
     }
+
+    public function getFotoCliente(){
+        return $this->foto_cliente;
+    }
+
+    
 
     public function searchRows($value)
     {
