@@ -12,15 +12,15 @@ if ($dataEmpleados = $templeados->readAll()) {
     // Se recorren los registros ($dataEmpleados) fila por fila ($rowEmpleados).
     foreach ($dataEmpleados as $rowEmpleados) {
         $pdf->SetFont('Arial', 'B', 11);
-        $pdf->SetFillColor(174, 232, 251);
+        $pdf->SetFillColor(239, 155, 133);
         // Se imprime una celda con el nombre de la categoría.
-        $pdf->Cell(193, 10, utf8_decode('Tipo empleado: '.$rowEmpleados['tipoemp']), 1, 1, 'C', 1);
+        $pdf->Cell(193, 10, utf8_decode('Tipo empleado: '.$rowEmpleados['tipo_empleado']), 1, 1, 'C', 1);
         // Se establece la categoría para obtener sus empleados, de lo contrario se imprime un mensaje de error.
-        if ($templeados->setId($rowEmpleados['id_tipo_emp'])) {
+        if ($templeados->setId($rowEmpleados['id_tipo_empleado'])) {
             // Se verifica si existen registros (empleados) para mostrar, de lo contrario se imprime un mensaje.
             if ($dataEmpleados = $templeados->readEmpleado()) {
                 // Se establece un color de relleno para los encabezados.
-                $pdf->SetFillColor(174, 232, 251);
+                $pdf->SetFillColor(239, 155, 133);
                 // Se establece la fuente para los encabezados.
                 $pdf->SetFont('Arial', 'B', 11);
                 // Se imprimen las celdas con los encabezados.
@@ -33,10 +33,10 @@ if ($dataEmpleados = $templeados->readAll()) {
                 $pdf->Ln();
                 // Se recorren los registros ($dataEmpleados) fila por fila ($rowEmpleados).
                 foreach ($dataEmpleados as $rowEmpleados) {
-                    $pdf->Cell(60, 10, utf8_decode($rowEmpleados['nombre_emp']), 1, 0);
-                    $pdf->Cell(60, 10, utf8_decode($rowEmpleados['apellido_emp']), 1, 0);
-                    $pdf->Cell(33, 10, utf8_decode($rowEmpleados['nombre_usuario']), 1, 0);
-                    $pdf->Cell(40, 10, utf8_decode($rowEmpleados['telefono_emp']), 1, 0);
+                    $pdf->Cell(60, 10, utf8_decode($rowEmpleados['nombre_empleado']), 1, 0);
+                    $pdf->Cell(60, 10, utf8_decode($rowEmpleados['apellido_empleado']), 1, 0);
+                    $pdf->Cell(33, 10, utf8_decode($rowEmpleados['usuario']), 1, 0);
+                    $pdf->Cell(40, 10, utf8_decode($rowEmpleados['telefono_empleado']), 1, 0);
                     $pdf->Ln();
                     }   
                 } else {
