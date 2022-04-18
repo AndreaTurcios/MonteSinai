@@ -107,14 +107,12 @@ document.getElementById('save-form').addEventListener('submit', function (event)
     saveRow(API_CLIENTE, 'create', 'save-form', 'save-modal');
 });
 
-
 document.getElementById('update-form').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     // Se llama a la función que realiza la búsqueda. Se encuentra en el archivo components.js
     updateRow(API_CLIENTE, 'update','update-form','update-modal');
 });
-
 
 // Función para establecer el registro a eliminar y abrir una caja de dialogo de confirmación.
 function openDeleteDialog(id) {
@@ -124,5 +122,3 @@ function openDeleteDialog(id) {
     // Se llama a la función que elimina un registro. Se encuentra en el archivo components.js
     confirmDelete(API_CLIENTE, data);
 }
-
-
