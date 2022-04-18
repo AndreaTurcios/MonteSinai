@@ -180,7 +180,27 @@ class Dashboard_Page
         <br> '
         );
       }
-    } else {
+    } else if (isset($_SESSION['id_cliente'])) {
+      print('
+  <nav>
+          <div class="menu">
+              <ul>
+                   <li><a href="../dashboard/principal.php"><img src="../../resources/img/logo_sinai.png" width="200" height="60" class="top-center"></a></li>
+              </ul>
+              <ul>
+                <li><a href="../dashboard/main.php">Libros</a></li>
+                <li><a href="../dashboard/orders.php">Control</a></li>
+                <li><a href="../dashboard/customers.php">Clientes</a></li>
+                <li><a href="../dashboard/reports.php">Reports</a></li>
+                <li><a href="../dashboard/empleados.php">Empleados</a></li>
+                <li><a href="#" onclick="logOut()">Cerrar sesión</a></li>
+              </ul>
+          </div>
+      </nav>
+      <div class="css-xfq28i"></div>
+      <br> '
+      );
+    }else {
       print('
   <nav>
           <div class="menu">

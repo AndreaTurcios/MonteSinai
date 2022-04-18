@@ -17,8 +17,10 @@ class Empleados extends Validator
 
     // Declaración de atributos (propiedades).
     private $id = null;
+    private $idcliente= null;
     private $direccionemp = null;
     private $nombreusuario = null;
+    private $nombreusuariocliente = null;
     private $nombreempleado = null;
     private $apellidoempleado = null;
     private $telefonoempleado = null;
@@ -44,6 +46,16 @@ class Empleados extends Validator
     {
         if ($this->validateNaturalNumber($value)) {
             $this->idlibro = $value;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function setIdCliente($value)
+    {
+        if ($this->validateNaturalNumber($value)) {
+            $this->idcliente = $value;
             return true;
         } else {
             return false;
@@ -103,6 +115,16 @@ class Empleados extends Validator
     {
         if ($this->validateAlphanumeric($value, 1, 50)) {
             $this->nombreusuario = $value;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function setNombreUsuarioCliente($value)
+    {
+        if ($this->validateAlphanumeric($value, 1, 50)) {
+            $this->nombreusuariocliente = $value;
             return true;
         } else {
             return false;
@@ -223,6 +245,11 @@ class Empleados extends Validator
         return $this->nombreusuario;
     }
 
+    public function getNombreUsuarioCliente()
+    {
+        return $this->nombreusuariocliente;
+    }
+
     public function getNombreEmpleado()
     {
         return $this->nombreempleado;
@@ -272,6 +299,12 @@ class Empleados extends Validator
     {
         return $this->direccion_empleado;
     }
+
+    public function getIdCliente()
+    {
+        return $this->idcliente;
+    }
+    
 
     /*
     *   Métodos para realizar las operaciones SCRUD (search, create, read, update, delete).
@@ -373,6 +406,32 @@ class Empleados extends Validator
         } else {
             return false;
         }
+    }
+
+    public function checkUserCliente($nombreusuariocliente)
+    {
+        $sql = 'SELECT id_cliente, usuario_cliente FROM cliente WHERE usuario_cliente = ?';
+        $params = array($nombreusuariocliente);
+        if ($data = Database::getRow($sql, $params)) {
+            $this->idcliente = $data['id_cliente'];
+            $this->nombreusuariocliente = $data['usuario_cliente'];
+            $this->nombreusuariocliente = $nombreusuariocliente;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function checkPasswordCliente($passwordcliente)
+    {
+        $sql = 'SELECT clave_cliente FROM cliente WHERE id_cliente = ?';
+        $params = array($this->idcliente);
+        $data = Database::getRow($sql, $params);
+            if (password_verify($passwordcliente, $data['clave_cliente'])) {
+                return true;
+            } else {
+                return false;
+            }
     }
 
     public function checkUserCorreo($correo)

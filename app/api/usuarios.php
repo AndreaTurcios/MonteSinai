@@ -131,9 +131,16 @@ if (isset($_GET['action'])) {
                 break;
 
             case 'logOut':
-                unset($_SESSION['id_empleado']);
-                $result['status'] = 1;
-                $result['message'] = 'Se ha cerrado la sesión para el usuario ' . $_SESSION['usuario'];
+                if($_SESSION['id_empleado']){
+                    unset($_SESSION['id_empleado']);
+                    $result['status'] = 1;
+                    $result['message'] = 'Se ha cerrado la sesión para el usuario ' . $_SESSION['usuario'];
+                }else{
+                    unset($_SESSION['id_cliente']);
+                    $result['status'] = 1;
+                    $result['message'] = 'Se ha cerrado la sesión para el usuario ' . $_SESSION['usuario_cliente'];
+                }
+                
                 break;
 
 
@@ -258,6 +265,18 @@ if (isset($_GET['action'])) {
     } else {
         // Se compara la acción a realizar cuando el administrador no ha iniciado sesión.
         switch ($_GET['action']) {
+            case 'logOut':
+                if(isset($_SESSION['id_empleado'])){
+                    unset($_SESSION['id_empleado']);
+                    $result['status'] = 1;
+                    $result['message'] = 'Se ha cerrado la sesión para el usuario ' . $_SESSION['usuario'];
+                }else if(isset($_SESSION['id_cliente'])){
+                    unset($_SESSION['id_cliente']);
+                    $result['status'] = 1;
+                    $result['message'] = 'Se ha cerrado la sesión para el usuario ' . $_SESSION['usuario_cliente'];
+                }
+                
+                break;
             case 'readAll':
                 if ($usuario->readAll()) {
                     $result['status'] = 1;
@@ -399,11 +418,19 @@ if (isset($_GET['action'])) {
                         }
                     }
                 } else {
-                    if (Database::getException()) {
-                        $result['exception'] = Database::getException();
-                    } else {
-                        $result['exception'] = 'Usuario incorrecto';
-                    }
+                        if (/*$usuario->checkPasswordCliente($_POST['clave']) && */$usuario->checkUserCliente($_POST['username'])) {
+                            $result['status'] = 1;
+                            $_SESSION['id_cliente'] = $usuario->getIdCliente();
+                            $_SESSION['usuario_cliente'] = $usuario->getNombreUsuarioCliente();
+                            $result['message'] = 'Welcome, ' . $_SESSION['usuario_cliente'];
+                        } else {
+                            $result['exception'] = 'Usuario y contraseña erróneos.';
+                        }
+                        if (Database::getException()) {
+                            $result['exception'] = Database::getException(); 
+                        } else {
+                            $result['exception'] = 'Usuario incorrecto';
+                        }
                 }
                 break;
             case 'tiempocontra':

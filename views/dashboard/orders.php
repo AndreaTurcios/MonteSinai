@@ -139,5 +139,5 @@ Dashboard_Page::headerTemplate('Control');
 </section>
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Dashboard_Page::footerTemplate('cont.js');
+Dashboard_Page::footerTemplate('control.js');
 ?>
