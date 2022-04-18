@@ -201,16 +201,11 @@ class Libros extends Validator
 
     public function readReport()
     {
-        $sql = 'SELECT nombre_cli, nombre_emp, fecha, hora, tiposervicio,
-        nombre_equipo, estado_equipo, tipo_pago, archivo, ubicacion from bitacora
-        INNER JOIN equipo using(id_equipo) 
-        INNER JOIN estado_equipo using(id_estado_equipo)
-        INNER JOIN clientes using(id_cliente)
-        INNER JOIN empleado using(id_empleado)
-        INNER JOIN tiposervicio using(id_tipo_servicio)
-        INNER JOIN tipo_pago using(id_tipo_pago)  
-        WHERE id_bitacora = ?';
-         $params = array($this->id_bitacora);
+        $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, estadlib.estado_libro
+        from libro lib
+        inner join asignatura asig using (id_asignatura)
+        inner join estado_libro  estadlib using (id_estado_libro)';
+         $params = array($this->id_libro);
          return Database::getRows($sql, $params);
     }
     
