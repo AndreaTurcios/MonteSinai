@@ -29,7 +29,6 @@ function fillTable(dataset) {
                 <td>${row.nota_libro}</td> 
                 <td>${row.nota_promedio}</td>
                 <td>
-                    <a href="../../app/reports/control.php?id=${row.id_empleado}"class="btn" data-tooltip="Reporte">Reporte</a> /
                     <a href="#" onclick="openUpdateDialog(${row.id_empleado})"class="btn"  data-bs-toggle="modal" data-bs-target="#exampleModal">Editar</a> /
                     <a href="#" onclick="openDeleteDialog(${row.id_empleado})"class="btn">Eliminar</a>
                 </td>
