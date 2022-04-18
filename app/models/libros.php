@@ -204,7 +204,8 @@ class Libros extends Validator
         $sql = 'SELECT lib.id_libro, lib.nombre_libro, lib.numero_paginas, asig.asignatura, estadlib.estado_libro
         from libro lib
         inner join asignatura asig using (id_asignatura)
-        inner join estado_libro  estadlib using (id_estado_libro)';
+        inner join estado_libro  estadlib using (id_estado_libro)
+        WHERE id_libro=?';
          $params = array($this->id_libro);
          return Database::getRows($sql, $params);
     }
