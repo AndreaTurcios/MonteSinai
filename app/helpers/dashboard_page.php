@@ -257,11 +257,11 @@ class Dashboard_Page
       <div class="col-xs-6 col-md-3">
         <h6>Recursos para docentes: </h6>
         <ul class="footer-links">
-          <li><a href="">Inglés</a></li>
-          <li><a href="">Moral, urbanidad y civica</a></li>
-          <li><a href="">Ciencias Salud y Medio Ambiente</a></li>
-          <li><a href="">Lenguaje y Literatura</a></li>
-          <li><a href="">Estudios sociales</a></li>
+          <li><a href="#">Inglés</a></li>
+          <li><a href="#">Moral, urbanidad y civica</a></li>
+          <li><a href="#">Ciencias Salud y Medio Ambiente</a></li>
+          <li><a href="#">Lenguaje y Literatura</a></li>
+          <li><a href="#">Estudios sociales</a></li>
         </ul>
       </div>
 
