@@ -27,7 +27,7 @@ class Report extends FPDF
         // Se crea una sesión o se reanuda la actual para poder utilizar variables de sesión en los reportes.
          session_start();
         // Se verifica si un administrador ha iniciado sesión para generar el documento, de lo contrario se direcciona a main.php
-        //    if (isset($_SESSION['idempleado'])) {
+            if (isset($_SESSION['id_empleado'])) {
             // Se asigna el título del documento a la propiedad de la clase.
             $this->title = $title;
             // Se establece el título del documento (true = utf-8).
@@ -38,9 +38,9 @@ class Report extends FPDF
             $this->AddPage('p', 'letter');
             // Se define un alias para el número total de páginas que se muestra en el pie del documento.
             $this->AliasNbPages();
-            // } else {
-            //   header('location: ../../../views/private/index.php');
-            //  }      
+             } else {
+               header('location: ../../views/dashboard/principal.php');
+          }      
     }
 
 
