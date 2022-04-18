@@ -52,7 +52,7 @@ Dashboard_Page::headerTemplate('Reportes');
                                     <img src="../../resources/img/materiales/clientes.png" alt="" class="img-fluid">
                                 </div>
                                 <div class="col-12" id="BoxInferior">
-                                    <h4>Integrations</h4>
+                                    <h4>Estudiantes</h4>
                                 </div>
                             </div>
                         </a>
