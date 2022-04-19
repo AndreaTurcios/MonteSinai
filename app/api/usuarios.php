@@ -410,7 +410,14 @@ if (isset($_GET['action'])) {
                         $_SESSION['id_tipo_empleado'] = $usuario->getIDTipoEmpleado();
                         $result['status'] = 1;
                         $result['message'] = 'Welcome, ' . $_SESSION['usuario'];
-                    } else {
+                    }
+                    else if ($usuario->checkPasswordCliente($_POST['clave'])) {
+                        $result['status'] = 1;
+                        $_SESSION['id_cliente'] = $usuario->getIdCliente();
+                        $_SESSION['usuario_cliente'] = $usuario->getNombreUsuarioCliente();
+                        $result['message'] = 'Welcome, ' . $_SESSION['usuario_cliente'];
+                    }
+                    else{
                         if (Database::getException()) {
                             $result['exception'] = Database::getException();
                         } else {
@@ -422,7 +429,7 @@ if (isset($_GET['action'])) {
                             $result['status'] = 1;
                             $_SESSION['id_cliente'] = $usuario->getIdCliente();
                             $_SESSION['usuario_cliente'] = $usuario->getNombreUsuarioCliente();
-                            $result['message'] = 'Welcome, ' . $_SESSION['usuario_cliente'];
+                           
                         } else {
                             $result['exception'] = 'Usuario y contraseña erróneos.';
                         }

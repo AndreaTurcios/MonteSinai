@@ -23,6 +23,7 @@ $pdf->startReports('Reporte de datos de estudiantes por grado');
                 $pdf->Cell(45, 10, utf8_decode('Dirección'), 1, 0, 'C', 1);
                 $pdf->Cell(55, 10, utf8_decode('Correo'), 1, 0, 'C', 1);
                 $pdf->Cell(63, 10, utf8_decode('Grado'), 1, 0, 'C', 1);
+                //$pdf->Cell(63, 10, utf8_decode('Notas'), 1, 0, 'C', 1);
                 // Se establece la fuente para los datos de agenda
                 $pdf->SetFont('Arial', '', 11);
                 $pdf->Ln();
