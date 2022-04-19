@@ -8,7 +8,7 @@ if (isset($_GET['action'])) {
     session_start();
     $notas = new Notas;
     $result = array('status' => 0, 'message' => null, 'exception' => null);
-    if (isset($_SESSION['id_empleado'])) {
+    if (isset($_SESSION['id_empleado']) || isset($_SESSION['id_cliente'])) {
         switch ($_GET['action']) {
                 // Esto se ejecuta en el caso del readall, ya sea al visualizar la tabla o en la accion que se indique que se quieren leer todos los datos de la tabla
             case 'readAll':
