@@ -17,7 +17,9 @@ class Database
         // Credenciales para establecer la conexión con la base de datos.
         $server = 'localhost';
         $database = 'dbmontesinai';   
+        //$username = 'root';
         $username = 'postgres';
+        //$password = '';
         $password = 'admin';
    
         // Se crea la conexión mediante la extensión PDO y el controlador para PostgreSQL.

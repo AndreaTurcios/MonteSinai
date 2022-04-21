@@ -92,7 +92,7 @@ document.getElementById('session-form').addEventListener('submit', function (eve
 document.getElementById('session-form').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-
+    
     fetch(API_USUARIOS12 + 'logIn', {
         method: 'post',
         body: new FormData(document.getElementById('session-form'))
@@ -113,9 +113,11 @@ document.getElementById('session-form').addEventListener('submit', function (eve
                 }
             });
         } else {
+            console.log('Verifica estatus');
             console.log(request.status + ' ' + request.statusText);
         }
     }).catch(function (error) {
+        console.log('Entra al catch');
         console.log(error);
     });
 

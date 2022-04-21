@@ -401,7 +401,7 @@ class Empleados extends Validator
             $this->id = $data['id_empleado'];
             $this->nombreusuario = $data['usuario'];
             $this->correo = $data['correo_empleado'];
-            $this->nombreusuario = $nombreusuario;
+           // $this->nombreusuario = $nombreusuario;
             return true;
         } else {
             return false;
