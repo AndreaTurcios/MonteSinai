@@ -277,7 +277,6 @@ class Dashboard_Page
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
-      
         <script type="text/javascript">
           copyright = new Date();
           update = copyright.getFullYear();
