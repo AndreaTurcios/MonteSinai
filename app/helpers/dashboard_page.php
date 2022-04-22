@@ -199,7 +199,7 @@ class Dashboard_Page
       <div class="css-xfq28i"></div>
       <br> '
       );
-    }else {
+    } else {
       print('
   <nav>
           <div class="menu">
@@ -277,20 +277,19 @@ class Dashboard_Page
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
+      
         <script type="text/javascript">
-          copyright=new Date();
-          update=copyright.getFullYear();
-          document.write("Todos los derechos reservados "+"© 2022 - " + update + " " + "MonteSinai");
-</script>
-        </p>
+          copyright = new Date();
+          update = copyright.getFullYear();
+          document.write("Todos los derechos reservados " + "© 2022 - " + update + " " + "MonteSinai  | Developer"); 
+        </script>
+        <a href="https://github.com/AndreaTurcios">Andrea Turcios</a>
       </div>
-
       <div class="col-md-4 col-sm-6 col-xs-12">
         <ul class="social-icons">
-          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="facebook" href="https://www.facebook.com/coleccionmontesinai/"><i class="fa fa-facebook"></i></a></li>
           <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          <li><a class="linkedin" href="https://sv.linkedin.com/in/andrea-turcios-bb8932219"><i class="fa fa-linkedin"></i></a></li>   
         </ul>
       </div>
     </div>
