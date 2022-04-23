@@ -26,7 +26,7 @@
             <div class="front">
                 <div id="f1" class="front-content">
                     <h1>Front 1</h1>
-
+                    <!--<img src="../../resources/img/BOOKS/FIRSTGRADE.JPG">-->
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroJuego">
                         Juego interactivo
