@@ -9,8 +9,8 @@ const paper3 = document.querySelector("#p3");
 const paper4 = document.querySelector("#p4");
 const paper5 = document.querySelector("#p5");
 const paper6 = document.querySelector("#p6");
-const paper7 = document.querySelector("#p6");
-const paper8 = document.querySelector("#p7");
+const paper7 = document.querySelector("#p7");
+const paper8 = document.querySelector("#p8");
 const paper9 = document.querySelector("#p9");
 const paper10 = document.querySelector("#p10");
 const paper11 = document.querySelector("#p11");
@@ -32,7 +32,7 @@ nextBtn.addEventListener("click", goNextPage);
 
 // Business Logic
 let currentLocation = 1;
-let numOfPapers = 22;
+let numOfPapers = 21;
 let maxLocation = numOfPapers + 1;
 
 function openBook() {
@@ -140,7 +140,7 @@ function goNextPage() {
                 paper21.classList.add("flipped");
                 paper21.style.zIndex = 21;
                 closeBook(false);
-                break;
+                break;           
             default:
                 throw new Error("unkown state");
         }
@@ -236,7 +236,7 @@ function goPrevPage() {
                 openBook();
                 paper21.classList.remove("flipped");
                 paper21.style.zIndex = 1;
-                break;
+                break;           
             default:
                 throw new Error("unkown state");
         }
