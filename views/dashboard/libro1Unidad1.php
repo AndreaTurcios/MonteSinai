@@ -19,87 +19,84 @@
     <button id="prev-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </button>
-    <!-- Book -->
-    <div id="book" class="book">
-        <!-- Paper 1 -->
-        <div id="p1" class="paper">
-            <div class="front">
-                <div id="f1" class="front-content">
-                    <h1>Front 1</h1>
-                    <!--<img src="../../resources/img/BOOKS/FIRSTGRADE.JPG">-->
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroJuego">
-                        Juego interactivo
-                    </button>
 
-                    <!-- Modal -->
-                    <!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
+    <div>
+        <!-- Book -->
+        <div id="book" class="book">
+            <!-- Paper 1 -->
+            <div id="p1" class="paper">
+                <div class="front">
+                    <div id="f1" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FIRSTGRADE.JPG" class="img-fluid">
+                        </div>
+                        <!-- <div class="col">
+                        //Button trigger modal 
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroJuego">
+                            Juego interactivo
+                        </button>
+                    </div> -->
+                    </div>
+                </div>
+                <div class="back">
+                    <div id="b1" class="back-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FistGradep2.JPG" width="450px" height="600px">
                         </div>
                     </div>
-                        -->
                 </div>
             </div>
-            <div class="back">
-                <div id="b1" class="back-content">
-                    <h1>Back 1</h1>
+            <!-- Paper 2 -->
+            <div id="p2" class="paper">
+                <div class="front">
+                    <div id="f2" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep3.JPG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div id="b2" class="back-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep4.JPG" width="450px" height="600px">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Paper 2 -->
-        <div id="p2" class="paper">
-            <div class="front">
-                <div id="f2" class="front-content">
-                    <h1>Front 2</h1>
+            <!-- Paper 3 -->
+            <div id="p3" class="paper">
+                <div class="front">
+                    <div id="f3" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep5.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div id="b3" class="back-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep6.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="back">
-                <div id="b2" class="back-content">
-                    <h1>Back 2</h1>
+            <!-- Paper 4 -->
+            <div id="p4" class="paper">
+                <div class="front">
+                    <div id="f4" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- Paper 3 -->
-        <div id="p3" class="paper">
-            <div class="front">
-                <div id="f3" class="front-content">
-                    <h1>Front 3</h1>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b3" class="back-content">
-                    <h1>Back 3</h1>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 4 -->
-        <div id="p4" class="paper">
-            <div class="front">
-                <div id="f4" class="front-content">
-                    <h1>Front 4</h1>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b4" class="back-content">
-                    <h1>Back 4</h1>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 
 
     <!-- Next Button -->
@@ -108,6 +105,7 @@
     </button>
 </body>
 
+<!--inicio modal #1 -->
 <div id="ModalLibroJuego" class="modal fade">
     <div class="container-fluid">
         <form method="post" id="save-form">
@@ -138,6 +136,8 @@
         </form>
     </div>
 </div>
+<!-- fin modal #1 -->
+
 </div>
 <script type="text/javascript" src="../../app/helpers/bookfix.js"></script>
 <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>

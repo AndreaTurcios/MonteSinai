@@ -5,6 +5,7 @@
 } */
 
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +16,12 @@ body {
 
 .book {
     margin-top: 25px;
+    margin-bottom: 25px;
     margin-right: 50px;
     margin-left: 25px;
     position: relative;
-    width: 500px;
-    height: 900px;
+    width: 450px;
+    height: 600px;
     transition: transform 0.5s;
 }
 
@@ -79,7 +81,7 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 10px;
+    margin: 15px;
     transition: transform 0.5s;
 }
 
