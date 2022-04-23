@@ -123,7 +123,7 @@
                         <div class="container">
                             <div class="form-group">
                                 <label for="nombrejuego">Aquí irá el juego:</label>
-                                <input type="text" class="form-control" id="nombrelibro" name="nombrelibro" placeholder="Nombre libro" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
+                                <input type="text" class="form-control" id="nombrejuego" name="nombrejuego" placeholder="El mejor juego del mundo xd" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
                             </div>
                             <br>
                         </div>
