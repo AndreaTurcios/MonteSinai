@@ -411,7 +411,7 @@ if (isset($_GET['action'])) {
                         $result['status'] = 1;
                         $result['message'] = 'Welcome, ' . $_SESSION['usuario'];
                     }
-                    else if ($usuario->checkPasswordCliente($_POST['clave'])) {
+                    else if ($usuario->checkPassword($_POST['clave'])) {
                         $result['status'] = 1;
                         $_SESSION['id_cliente'] = $usuario->getIdCliente();
                         $_SESSION['usuario_cliente'] = $usuario->getNombreUsuarioCliente();

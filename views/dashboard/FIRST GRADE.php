@@ -39,7 +39,7 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- Food and fruits
                     </div>
-                    <div><button type="button" class="btn btn-primary" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</button></div>
+                    <a class="btn btn-primary" href="libro1Unidad1.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
 
