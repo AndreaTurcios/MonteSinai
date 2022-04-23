@@ -83,5 +83,5 @@ Dashboard_Page::headerTemplate('Libro 1');
 
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Dashboard_Page::footerTemplate('cont.js');
+Dashboard_Page::footerTemplate('../../resources/js/script.js');
 ?>

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-        <html lang="es">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <!-- Agregamos Bootstrap -->
-            <link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">            
-            <title>Unit 1 - First Grade</title>
-            <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
-            <link rel="stylesheet" href="../../resources/css/bookstyles.css">
-        </head>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agregamos Bootstrap -->
+    <link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <title>Unit 1 - First Grade</title>
+    <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../resources/css/bookstyles.css">
+</head>
 
 <body>
     <!-- Previous Button -->
@@ -28,8 +29,8 @@
                     <h1>Front 1</h1>
 
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroJuego">
+                        Juego interactivo
                     </button>
 
                     <!-- Modal -->
@@ -100,11 +101,45 @@
         </div>
     </div>
 
+
+
     <!-- Next Button -->
     <button id="next-btn">
         <i class="fas fa-arrow-circle-right"></i>
     </button>
 </body>
+
+<div id="ModalLibroJuego" class="modal fade">
+    <div class="container-fluid">
+        <form method="post" id="save-form">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Juego super genial que te enseña mucho</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="form-group">
+                                <label for="nombrejuego">Aquí irá el juego:</label>
+                                <input type="text" class="form-control" id="nombrelibro" name="nombrelibro" placeholder="Nombre libro" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
+                            </div>
+                            <br>
+                        </div>
+                        <br>
+                        <!-- Botones de Control -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
+                        </div>
+                    </div>
+                </div>
+        </form>
+        </form>
+    </div>
+</div>
+</div>
 <script type="text/javascript" src="../../app/helpers/bookfix.js"></script>
 <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
 <!-- Script de Bootstrap -->
