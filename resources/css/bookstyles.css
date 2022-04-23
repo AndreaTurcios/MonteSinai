@@ -18,8 +18,8 @@ body {
     margin-right: 50px;
     margin-left: 25px;
     position: relative;
-    width: 490px;
-    height: 820px;
+    width: 500px;
+    height: 900px;
     transition: transform 0.5s;
 }
 
