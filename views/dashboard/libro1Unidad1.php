@@ -13,13 +13,12 @@
     <link rel="stylesheet" href="../../resources/css/bookstyles.css">
 </head>
 
+
 <body>
     <!-- Previous Button -->
     <button id="prev-btn">
         <i class="fas fa-arrow-circle-left"></i>
     </button>
-
-
     <!-- Book -->
     <div id="book" class="book">
         <!-- Paper 1 -->
@@ -34,7 +33,7 @@
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -51,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-
+                        -->
                 </div>
             </div>
             <div class="back">

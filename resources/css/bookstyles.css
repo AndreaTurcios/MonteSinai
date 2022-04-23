@@ -8,16 +8,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: sans-serif;
-    background-image: url("../../resources/img/BOOKS/back.jpg")
+    background-image: url("../../resources/img/parallax/parallax-bg-2.jpg")
 }
 
 
 .book {
+    margin-top: 25px;
     position: relative;
-    width: 450px;
-    height: 600px;
+    width: 490px;
+    height: 820px;
     transition: transform 0.5s;
 }
 
@@ -73,6 +73,7 @@ body {
 
 /* Controller Buttons */
 button {
+    display: flex;
     border: none;
     background-color: transparent;
     cursor: pointer;
