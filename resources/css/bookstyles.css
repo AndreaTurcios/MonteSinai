@@ -100,17 +100,86 @@ i {
 
 /* Paper stack order */
 #p1 {
-    z-index: 4;
+    z-index: 21;
 }
 
 #p2 {
-    z-index: 3;
+    z-index: 20;
 }
 
 #p3 {
-    z-index: 2;
+    z-index: 19;
 }
 
 #p4 {
+    z-index: 18;
+}
+
+#p5 {
+    z-index: 17;
+}
+
+#p6 {
+    z-index: 16;
+}
+
+#p7 {
+    z-index: 15;
+}
+
+#p8 {
+    z-index: 14;
+}
+
+#p9 {
+    z-index: 13;
+}
+
+#p10 {
+    z-index: 12;
+}
+
+#p11 {
+    z-index: 11;
+}
+
+#p12 {
+    z-index: 10;
+}
+
+#p13 {
+    z-index: 9;
+}
+
+#p14 {
+    z-index: 8;
+}
+
+#p15 {
+    z-index: 7;
+}
+
+#p16 {
+    z-index: 6;
+}
+
+#p17 {
+    z-index: 5;
+}
+
+#p18 {
+    z-index: 4;
+}
+
+#p19 {
+    z-index: 3;
+}
+
+#p20 {
+    z-index: 2;
+}
+
+#p21 {
     z-index: 1;
 }
+

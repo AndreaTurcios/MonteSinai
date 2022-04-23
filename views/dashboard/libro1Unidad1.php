@@ -95,6 +95,262 @@
                     </div>
                 </div>
             </div>
+            <!-- Paper 5 -->
+            <div id="p5" class="paper">
+                <div class="front">
+                    <div id="f5" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep9.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep10.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 6 -->
+            <div id="p6" class="paper">
+                <div class="front">
+                    <div id="f6" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 7 -->
+            <div id="p7" class="paper">
+                <div class="front">
+                    <div id="f7" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 8 -->
+            <div id="p8" class="paper">
+                <div class="front">
+                    <div id="f8" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 9 -->
+            <div id="p9" class="paper">
+                <div class="front">
+                    <div id="f9" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 10 -->
+            <div id="p10" class="paper">
+                <div class="front">
+                    <div id="f10" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 11 -->
+            <div id="p11" class="paper">
+                <div class="front">
+                    <div id="f11" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 12 -->
+            <div id="p12" class="paper">
+                <div class="front">
+                    <div id="f12" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 13 -->
+            <div id="p13" class="paper">
+                <div class="front">
+                    <div id="f13" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 14 -->
+            <div id="p14" class="paper">
+                <div class="front">
+                    <div id="f14" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+            <!-- Paper 15 -->
+            <div id="p15" class="paper">
+                <div class="front">
+                    <div id="f15" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+             <!-- Paper 16 -->
+             <div id="p16" class="paper">
+                <div class="front">
+                    <div id="f16" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+             <!-- Paper 17 -->
+             <div id="p17" class="paper">
+                <div class="front">
+                    <div id="f17" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+             <!-- Paper 18 -->
+             <div id="p18" class="paper">
+                <div class="front">
+                    <div id="f18" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+             <!-- Paper 19 -->
+             <div id="p19" class="paper">
+                <div class="front">
+                    <div id="f19" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+             <!-- Paper 20 -->
+             <div id="p20" class="paper">
+                <div class="front">
+                    <div id="f20" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+             <!-- Paper 21 -->
+             <div id="p21" class="paper">
+                <div class="front">
+                    <div id="f21" class="front-content">
+                        <div>
+                            <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>
+                        <img src="../../resources/img/BOOKS/FirstGradep8.PNG" width="450px" height="600px">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
