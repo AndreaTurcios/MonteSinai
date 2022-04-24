@@ -602,11 +602,40 @@
                     <div class="modal-body">
                         <div class="container">
                             <div class="form-group">
-                                    <!-- columna -->
-                                <div class="row">
-                                        
-                                   
+                                <!-- columna -->
+                                <div class="container">
+                                    <div class="row row-cols-4">
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>                                        
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                        <!-- <div class="col"></div> -->
+                                        <div class="col border border-success">col</div>
+                                    </div>
                                 </div>
+
                             </div>
                             <br>
                         </div>
