@@ -151,9 +151,9 @@
                             </div>
                             <!--  -->
                         </div>
-                        <div class="row  align-items-end">
+                        <div class="row  justify-content-md-center">
                             <!-- card content -->
-                            <div class="col-xl ">
+                            <div class="col-9 ">
                                 <div class="card border-0" style="width: 15rem;">
                                     <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/UnitOneFirstGrade.PNG" class="card-img-top">
                                 </div>
@@ -161,7 +161,7 @@
                                     <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1portrait.PNG" class="card-img-top">
                                 </div>
                             </div>
-                            <div class="row  align-items-end">
+                            <div class="row  justify-content-md-right">
                                 <div class="col-md-8">
                                     <!-- espacio -->
                                 </div>
@@ -186,18 +186,21 @@
                         <div class="row">
                             <!-- card content -->
                             <div class="col-md-8">
-                                <div class="card border-0" style="width: 10rem;">
+                                <div class="card border-0" style="width: 5rem;">
                                     <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderBackFirsGrade.PNG" class="card-img-top">
                                 </div>
                             </div>
                             <div class="col-6 col-md-4">
                                 <!-- espacio -->
                             </div>
+                            <div class="row">
+                                <!-- espacio -->
+                            </div>
                             <!--  -->
                         </div>
-                        <div class="row">
+                        <div class="row justify-content-md-center">
                             <!-- card content -->
-                            <div class="col-xl">
+                            <div class="col-9">
                                 <div class="card border-0" style="width: 27rem;">
                                     <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1p1FG.PNG" class="card-img-top">
                                 </div>
@@ -228,13 +231,15 @@
                             </div>
                             <!--  -->
                         </div>
-                        <div class="row  align-items-start">
+                        <div class="row justify-content-md-center">
                             <!-- card content -->
-                            <div class="col-xl ">
+                            <div class="col-md-7">
+                                <!-- espacio -->
+                            </div>
+                            <div class="col-6">
                                 <div class="card border-0" style="width: 15rem;">
                                     <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderExcercisesFGUO.PNG" class="card-img-top">
                                 </div>
-
                             </div>
                             <div class="row align-items-center">
                                 <div class="card border-0 align-items-center" style="width: 18rem;">
@@ -244,14 +249,19 @@
                                     <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/img1FGUOp1.PNG" class="card-img">
                                 </div>
                             </div>
-                            <div class="row  align-items-end">
-                                <div class="col-md-8">
+                            <div class="row  justify-content-md-center">
+                                <div class="col-9">
                                     <div class="col">
                                         <!-- //Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroJuego">
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroUno">
                                             Juego interactivo
                                         </button>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <!-- espacio -->
                                 </div>
                                 <div class="col-6 col-md-4">
                                     <div class="card border-0" style="width: 4rem; ">
@@ -545,10 +555,10 @@
 
 
 <!--inicio modal #1 -->
-<div id="ModalLibroJuego" class="modal fade">
+<!-- <div id="ModalLibroJuego" class="modal fade">
     <div class="container-fluid">
         <form method="post" id="save-form">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="modal-title">Juego super genial que te enseña mucho</h5>
@@ -564,7 +574,7 @@
                             <br>
                         </div>
                         <br>
-                        <!-- Botones de Control -->
+                        
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                             <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
@@ -574,8 +584,48 @@
         </form>
         </form>
     </div>
+</div> -->
+<!-- fin modal #1 -->
+
+
+<!--inicio modal #1 -->
+<div id="ModalLibroUno" class="modal fade">
+    <div class="container-fluid">
+        <form method="post" id="game-one-form">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-title">Complete the words</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="form-group">
+                                    <!-- columna -->
+                                <div class="row">
+                                        
+                                   
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                        <br>
+                        <!-- Botones de Control -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button><br>
+                        </div>
+                    </div>
+                </div>
+        </form>
+        </form>
+    </div>
 </div>
 <!-- fin modal #1 -->
+
+
+
 
 </div>
 <script type="text/javascript" src="../../app/helpers/bookfix.js"></script>
@@ -588,5 +638,6 @@
 <script type="text/javascript" src="../../resources/js/sweetalert.min.js"></script>
 <script type="text/javascript" src="../../app/helpers/components.js"></script>
 <script type="text/javascript" src="../../app/controllers/account.js"></script>
+<script type="text/javascript" src="../../app/controllers/unidadunoprimergrado.js"></script>
 
 </html>
