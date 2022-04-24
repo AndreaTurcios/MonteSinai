@@ -28,20 +28,14 @@
             <div class="front">
                 <div id="f1" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FIRSTGRADE.JPG" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FIRSTGRADE.JPG" class="img-fluid">
                     </div>
-                    <!-- <div class="col">
-                        //Button trigger modal 
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroJuego">
-                            Juego interactivo
-                        </button>
-                    </div> -->
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FistGradep2.JPG" width="450px" height="600px">
+                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FistGradep2.JPG" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -51,14 +45,14 @@
             <div class="front">
                 <div id="f2" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGradep3.JPG" width="450px" height="600px">
+                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep3.JPG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGradep4.JPG" width="450px" height="600px">
+                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep4.JPG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -68,15 +62,43 @@
             <div class="front">
                 <div id="f3" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGradep5.PNG" width="450px" height="600px">
+                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep5.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/FirstGradep6.PNG" width="450px" height="600px">
+                    <!-- container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="row">
+                                <!--  espacio -->
+                            </div>
+                            <div class="col-md-8">
+                                <!--  espacio -->
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <div class="card border-0" style="width: 10rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderFrontFirstGrade.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="col-xl">
+                                <div class="card border-0" style="width: 27rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirsGradep1.PNG" class="card-img-top">
+                                </div>
+                                <div class="card border-0" style="width: 27rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep2.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
                     </div>
+                    <!-- fin back-content  -->
                 </div>
             </div>
         </div>
@@ -84,16 +106,74 @@
         <div id="p4" class="paper">
             <div class="front">
                 <div id="f4" class="front-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/FirstGradep7.PNG" width="450px" height="600px">
+                    <!-- inicio contenedor -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="col-md-8">
+                                <div class="card border-0" style="width: 10rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderBackFirsGrade.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <!-- espacio -->
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="col-xl">
+                                <div class="card border-0" style="width: 27rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep3.PNG" class="card-img-top">
+                                </div>
+                                <div class="card border-0" style="width: 27rem; ">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep4.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- fin contenedor -->
                 </div>
             </div>
             <div class="back">
                 <div id="b4" class="back-content">
-                    <div>
-                        <h1>Back 4</h1>
+                    <!-- inicio contenedor -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="col-md-8">
+                                <!-- espacio -->
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <div class="card border-0" style="width: 10rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderfrontFirstGrade.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row  align-items-end">
+                            <!-- card content -->
+                            <div class="col-xl ">
+                                <div class="card border-0" style="width: 15rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/UnitOneFirstGrade.PNG" class="card-img-top">
+                                </div>
+                                <div class="card border-0" style="width: 27rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1portrait.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="row  align-items-end">
+                                <div class="col-md-8">
+                                    <!-- espacio -->
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <div class="card border-0" style="width: 4rem; ">
+                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag1.PNG" class="card-img-bottom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- fin contenedor -->
                 </div>
             </div>
         </div>
@@ -101,16 +181,87 @@
         <div id="p5" class="paper">
             <div class="front">
                 <div id="f5" class="front-content">
-                    <div>
-                        <h1>Front 5</h1>
+                    <!-- inicio contenedor -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="col-md-8">
+                                <div class="card border-0" style="width: 10rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderBackFirsGrade.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <!-- espacio -->
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="col-xl">
+                                <div class="card border-0" style="width: 27rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1p1FG.PNG" class="card-img-top">
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <div class="card border-0" style="width: 4rem; ">
+                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag2.PNG" class="card-img-bottom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- fin contenedor -->
                 </div>
             </div>
             <div class="back">
                 <div id="b5" class="back-content">
-                    <div>
-                        <h1>Back 5</h1>
+                    <!-- inicio contenedor -->
+                    <div class="container">
+                        <div class="row align-items-start">
+                            <!-- card content -->
+                            <div class="col-md-8">
+                                <!-- espacio -->
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <div class="card border-0" style="width: 10rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderfrontFirstGrade.PNG" class="card-img-top">
+                                </div>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row  align-items-start">
+                            <!-- card content -->
+                            <div class="col-xl ">
+                                <div class="card border-0" style="width: 15rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderExcercisesFGUO.PNG" class="card-img-top">
+                                </div>
+
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="card border-0 align-items-center" style="width: 18rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/imgFGUOp1.PNG" class="card-img">
+                                </div>
+                                <div class="card border-0 align-items-center" style="width: 10rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/img1FGUOp1.PNG" class="card-img">
+                                </div>
+                            </div>
+                            <div class="row  align-items-end">
+                                <div class="col-md-8">
+                                    <div class="col">
+                                        <!-- //Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroJuego">
+                                            Juego interactivo
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <div class="card border-0" style="width: 4rem; ">
+                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag3.PNG" class="card-img-bottom">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- fin contenedor -->
                 </div>
             </div>
         </div>
@@ -384,13 +535,14 @@
         </div>
     </div>
 
-
-
     <!-- Next Button -->
     <button id="next-btn">
         <i class="fas fa-arrow-circle-right"></i>
     </button>
 </body>
+
+
+
 
 <!--inicio modal #1 -->
 <div id="ModalLibroJuego" class="modal fade">
