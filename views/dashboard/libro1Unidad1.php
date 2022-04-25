@@ -13,10 +13,9 @@
     <link rel="stylesheet" href="../../resources/css/bookstyles.css">
 </head>
 
-
 <body>
     <!-- Previous Button -->
-    <button id="prev-btn">
+    <button id="prev-btn" class="align-items-end">
         <i class="fas fa-arrow-circle-left"></i>
     </button>
 
@@ -34,9 +33,28 @@
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FistGradep2.JPG" class="img-fluid">
+                    <!-- container -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- card content -->
+
+                            <!--  -->
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <!-- card content -->
+                            <div class="col-md-auto">
+                                <div class="card border-0 align-items-center" style="width: 30rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradebackportrait.PNG" class="card-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row  justify-content-md-center">
+                            <div class="col-md-auto">
+                                <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/footerbackportrait.PNG" class="card-img">
+                            </div>
+                        </div>
                     </div>
+                    <!-- fin back-content  -->
                 </div>
             </div>
         </div>
@@ -45,14 +63,14 @@
             <div class="front">
                 <div id="f2" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep3.JPG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep3.JPG" style="height:700px; width:550px; ">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep4.JPG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep4.JPG" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -79,101 +97,406 @@
                                 <!--  espacio -->
                             </div>
                             <div class="col-6 col-md-4">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderFrontFirstGrade.PNG" class="card-img-top">
-                                </div>
+                                <table class="table table-sm">
+                                    <p style="background-color: orange;" class="rounded-3"> Time to Learn English </p>
+                                </table>
                             </div>
                             <!--  -->
-                        </div>
-                        <div class="row">
                             <!-- card content -->
                             <div class="col-xl">
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirsGradep1.PNG" class="card-img-top">
-                                </div>
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep2.PNG" class="card-img-top">
+                                <div class="card border-0 text-center" style="width: 27rem;">
+                                    <h5 class="text-center fw-bold" style="color: purple;">Index</h5>
+                                    <p class="text-center" style="color:darkred; ">Unit One</p>
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col">My Body</th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                            <!--  -->
+                            <!-- card end -->
                         </div>
+                        <!-- end row -->
                     </div>
-                    <!-- fin back-content  -->
+                    <!-- fin Contenedor  -->
                 </div>
+                <!-- fin backpage -->
             </div>
         </div>
         <!-- Paper 4 -->
         <div id="p4" class="paper">
             <div class="front">
                 <div id="f4" class="front-content">
-                    <!-- inicio contenedor -->
+                    <!-- container -->
                     <div class="container">
                         <div class="row">
-                            <!-- card content -->
+                            <div class="row">
+                                <!--  espacio -->
+                            </div>
                             <div class="col-md-8">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderBackFirsGrade.PNG" class="card-img-top">
+                                <div class="col-6 col-md-4">
+                                    <table class="table table-sm">
+                                        <p style="background-color: orange;" class="rounded-3"> Beginning </p>
+                                    </table>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4">
                                 <!-- espacio -->
                             </div>
                             <!--  -->
-                        </div>
-                        <div class="row">
                             <!-- card content -->
                             <div class="col-xl">
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep3.PNG" class="card-img-top">
-                                </div>
-                                <div class="card border-0" style="width: 27rem; ">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep4.PNG" class="card-img-top">
+                                <div class="card border-0 text-center" style="width: 27rem;">
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobs</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col">Food and Fruits</th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobs</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
+                            <!-- card end -->
                         </div>
+                        <!-- end row -->
                     </div>
-                    <!-- fin contenedor -->
+                    <!-- fin Contenedor  -->
                 </div>
             </div>
             <div class="back">
                 <div id="b4" class="back-content">
-                    <!-- inicio contenedor -->
+                    <!-- container -->
                     <div class="container">
                         <div class="row">
                             <!-- card content -->
+                            <div class="row">
+                                <!--  espacio -->
+                            </div>
                             <div class="col-md-8">
-                                <!-- espacio -->
+                                <!--  espacio -->
                             </div>
                             <div class="col-6 col-md-4">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderfrontFirstGrade.PNG" class="card-img-top">
-                                </div>
+                                <table class="table table-sm">
+                                    <p style="background-color: orange;" class="rounded-3"> Time to Learn English </p>
+                                </table>
                             </div>
                             <!--  -->
-                        </div>
-                        <div class="row  justify-content-md-center">
                             <!-- card content -->
-                            <div class="col-9 ">
-                                <div class="card border-0" style="width: 15rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/UnitOneFirstGrade.PNG" class="card-img-top">
-                                </div>
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1portrait.PNG" class="card-img-top">
+                            <div class="col-xl">
+                                <div class="card border-0 text-center" style="width: 27rem;">
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobsd</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="text-center" style="color:darkred; ">Unit Two</p>
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col">My Family</th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobsd</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobsd</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                            <div class="row  justify-content-md-right">
-                                <div class="col-md-8">
-                                    <!-- espacio -->
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="card border-0" style="width: 4rem; ">
-                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag1.PNG" class="card-img-bottom">
-                                    </div>
-                                </div>
-                            </div>
+                            <!-- card end -->
                         </div>
+                        <!-- end row -->
                     </div>
-                    <!-- fin contenedor -->
+                    <!-- fin Contenedor  -->
                 </div>
             </div>
         </div>
@@ -185,32 +508,138 @@
                     <div class="container">
                         <div class="row">
                             <!-- card content -->
+                            <div class="row">
+                                <!--  espacio -->
+                            </div>
                             <div class="col-md-8">
-                                <div class="card border-0" style="width: 5rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderBackFirsGrade.PNG" class="card-img-top">
+                                <div class="col-6 col-md-4">
+                                    <table class="table table-sm">
+                                        <p style="background-color: orange;" class="rounded-3"> Beginning </p>
+                                    </table>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4">
                                 <!-- espacio -->
                             </div>
-                            <div class="row">
-                                <!-- espacio -->
-                            </div>
                             <!--  -->
-                        </div>
-                        <div class="row justify-content-md-center">
                             <!-- card content -->
-                            <div class="col-9">
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1p1FG.PNG" class="card-img-top">
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="card border-0" style="width: 4rem; ">
-                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag2.PNG" class="card-img-bottom">
-                                    </div>
+                            <div class="col-xl">
+                                <div class="card border-0 text-center" style="width: 27rem;">
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col">Busy People</th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
+                            <!-- card end -->
                         </div>
+                        <!-- end row -->
                     </div>
                     <!-- fin contenedor -->
                 </div>
@@ -219,57 +648,132 @@
                 <div id="b5" class="back-content">
                     <!-- inicio contenedor -->
                     <div class="container">
-                        <div class="row align-items-start">
+                        <div class="row">
                             <!-- card content -->
+                            <div class="row">
+                                <!--  espacio -->
+                            </div>
                             <div class="col-md-8">
                                 <!-- espacio -->
                             </div>
                             <div class="col-6 col-md-4">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderfrontFirstGrade.PNG" class="card-img-top">
-                                </div>
+                                <table class="table table-sm">
+                                    <p style="background-color: orange;" class="rounded-3"> Time to Learn English </p>
+                                </table>
                             </div>
                             <!--  -->
-                        </div>
-                        <div class="row justify-content-md-center">
                             <!-- card content -->
-                            <div class="col-md-7">
-                                <!-- espacio -->
-                            </div>
-                            <div class="col-6">
-                                <div class="card border-0" style="width: 15rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderExcercisesFGUO.PNG" class="card-img-top">
+                            <div class="col-xl">
+                                <div class="card border-0 text-center" style="width: 27rem;">
+                                    <p class="text-center" style="color:darkred; ">Unit Three</p>
+                                    <table class="table table-borderless table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                                <th scope="col">My Classroom</th>
+                                                <th scope="col"></th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="text-center">
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobsd</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobsd</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Mark</td>
+                                                <td>.......................</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobsd</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacobsd</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td>Jacob</td>
+                                                <td>.......................</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                            <div class="row align-items-center">
-                                <div class="card border-0 align-items-center" style="width: 18rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/imgFGUOp1.PNG" class="card-img">
-                                </div>
-                                <div class="card border-0 align-items-center" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/img1FGUOp1.PNG" class="card-img">
-                                </div>
-                            </div>
-                            <div class="row  justify-content-md-center">
-                                <div class="col-9">
-                                    <div class="col">
-                                        <!-- //Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroUno">
-                                            Juego interactivo
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <!-- espacio -->
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="card border-0" style="width: 4rem; ">
-                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag3.PNG" class="card-img-bottom">
-                                    </div>
-                                </div>
-                            </div>
+                            <!-- card end -->
                         </div>
+                        <!-- end row -->
                     </div>
                     <!-- fin contenedor -->
                 </div>
@@ -280,15 +784,157 @@
             <div class="front">
                 <div id="f6" class="front-content">
                     <div>
-                        <h1>Front 6</h1>
+                        <!-- inicio contenedor -->
+                        <div class="container">
+                            <div class="row">
+                                <!-- card content -->
+                                <div class="row">
+                                    <!--  espacio -->
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="col-6 col-md-4">
+                                        <table class="table table-sm">
+                                            <p style="background-color: orange;" class="rounded-3"> Beginning </p>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <!-- espacio -->
+                                </div>
+                                <!--  -->
+                                <!-- card content -->
+                                <div class="col-xl">
+                                    <div class="card border-0 text-center" style="width: 27rem;">
+                                        <table class="table table-borderless table-sm">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"></th>
+                                                    <th scope="col">My Toys</th>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Jacob</td>
+                                                    <td>.......................</td>
+                                                    <td>@fat</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Jacob</td>
+                                                    <td>.......................</td>
+                                                    <td>@fat</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Mark</td>
+                                                    <td>.......................</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Mark</td>
+                                                    <td>.......................</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Jacob</td>
+                                                    <td>.......................</td>
+                                                    <td>@fat</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Jacob</td>
+                                                    <td>.......................</td>
+                                                    <td>@fat</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Mark</td>
+                                                    <td>.......................</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Mark</td>
+                                                    <td>.......................</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Mark</td>
+                                                    <td>.......................</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Mark</td>
+                                                    <td>.......................</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td>Mark</td>
+                                                    <td>.......................</td>
+                                                    <td>@mdo</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- card end -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- fin contenedor -->
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b6" class="back-content">
-                    <div>
-                        <h1>Back 6</h1>
+                    <!-- inicio contenedor -->
+                    <div class="container">
+                        <div class="row">
+                            <!-- card content -->
+                            <div class="col-md-8">
+                                <!-- espacio -->
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <table class="table table-sm">
+                                    <p style="background-color: orange;" class="rounded-3"> Time to Learn English </p>
+                                </table>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <!-- card content -->
+                            <div class="col-9 ">
+                                <div class="card border-0" style="width: 15rem;">
+                                    <p class="fs-1 text-center" style="color: skyblue;"> UNIT ONE</p>
+                                </div>
+                                <div class="card border-0" style="width: 27rem;">
+                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1portrait.PNG" class="card-img">
+                                </div>
+                            </div>
+                            <div class="row  justify-content-md-right">
+                                <div class="col-md-8">
+                                    <!-- espacio -->
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <div class="card border-0 align-items-end" style="width: 3rem; ">
+                                        <table class="table table-sm rounded-circle text-center">
+                                            <p class="rounded-circle text-center" style="background-color: skyblue; color:white; width:25px; height: 25px;"> 1 </p>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- fin contenedor -->
                 </div>
             </div>
         </div>
@@ -296,9 +942,45 @@
         <div id="p7" class="paper">
             <div class="front">
                 <div id="f7" class="front-content">
-                    <div>
-                        <h1>Front 7</h1>
+                    <!-- inicio contenedor -->
+                    <div class="container">
+                        <div class="row justify-content-md-center">
+                            <!-- card content -->
+                            <div class="col-md-8">
+                                <div class="col col-6 col-md-4">
+                                    <table class="table table-sm">
+                                        <p style="background-color: orange;" class="rounded-3"> Beginning </p>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <!-- espacio -->
+                            </div>
+                            <div class="row">
+                                <!-- espacio -->
+                                <div class="col-6 col-md-4"></div>
+                            </div>
+                            <!--  -->
+                        </div>
+                        <div class="row justify-content-md-center">
+                            <!-- card content -->
+                            <div class="col-9">
+                                <div class="card border-0" style="width: 27rem;">
+                                    <table class="table table-sm">
+                                        <p style="background-color: orange;" class="rounded-3"> My Body </p>
+                                    </table>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <div class="card border-0 align-items-end" style="width: 3rem; ">
+                                        <table class="table table-sm rounded-circle text-center">
+                                            <p class="rounded-circle text-center" style="background-color: skyblue; color:white; width:25px; height: 25px;"> 2 </p>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- fin contenedor -->
                 </div>
             </div>
             <div class="back">
@@ -546,117 +1228,166 @@
     </div>
 
     <!-- Next Button -->
-    <button id="next-btn">
+    <button id="next-btn" class="align-items-center">
         <i class="fas fa-arrow-circle-right"></i>
     </button>
-</body>
 
 
+    <!--inicio modal -->
+    <div class="row">
+        <!-- espacio  -->
+        <div class="row">
+            <nav>
+                <div class="col-6 col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2 p-3" id="MuestraBTN">
+                    <div id="ModalAgregarCliente" class="modal fade">
+                        <div class="container-fluid">
+                            <form method="post" id="save-form">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modal-title">Agregar nuevo libro</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
 
-
-<!--inicio modal #1 -->
-<!-- <div id="ModalLibroJuego" class="modal fade">
-    <div class="container-fluid">
-        <form method="post" id="save-form">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title">Juego super genial que te enseña mucho</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="form-group">
-                                <label for="nombrejuego">Aquí irá el juego:</label>
-                                <input type="text" class="form-control" id="nombrejuego" name="nombrejuego" placeholder="El mejor juego del mundo xd" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
-                            </div>
-                            <br>
-                        </div>
-                        <br>
-                        
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                            <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
+                                        <div class="modal-body">
+                                            <div class="container">
+                                                <div class="form-group">
+                                                    <label for="nombrelibro">Nombre libro:</label>
+                                                    <input type="text" class="form-control" id="nombrelibro" name="nombrelibro" placeholder="Nombre libro" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="numpaginas">Número páginas:</label>
+                                                    <input type="number" class="form-control" id="numpaginas" name="numpaginas" placeholder="Número páginas" required minlength="1" maxlength="5" autocomplete="off" />
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="asignatura">Asignatura:</label>
+                                                    <select id="asignatura" class="form-select" name="asignatura">
+                                                        <option selected></option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="estadolibro">Estado libro:</label>
+                                                    <select id="estadolibro" class="form-select" name="estadolibro">
+                                                        <option selected></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <!-- Botones de Control -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
+                                            </div>
+                            </form>
+                            </form>
                         </div>
                     </div>
                 </div>
-        </form>
-        </form>
-    </div>
-</div> -->
-<!-- fin modal #1 -->
-
-
-<!--inicio modal #1 -->
-<div id="ModalLibroUno" class="modal fade">
-    <div class="container-fluid">
-        <form method="post" id="game-one-form">
-            <div class="modal-dialog modal-xl">
+        </div>
+        </nav>
+        <br>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title">Complete the words</h5>
+                        <h5 class="modal-title" id="modal-title">Actualizar libro</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                    <!-- Formulario -->
+                    <form id="update-form" method="post" enctype="multipart/form-data">
+                        <div class="form-group ">
+                            <label for="formGroupExampleInput" class="d-none">ID</label>
+                            <input type="text" class="form-control d-none" placeholder="" aria-describedby="basic-addon1" id="id_libro2" type="text" name="id_libro2" />
+                        </div>
+                        <div class="modal-body">
 
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="form-group">
-                                <!-- columna -->
-                                <div class="container">
-                                    <div class="row row-cols-4">
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>                                        
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                    </div>
-                                </div>
 
-                            </div>
-                            <br>
                         </div>
                         <br>
                         <!-- Botones de Control -->
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button><br>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
                         </div>
-                    </div>
+                    </form>
                 </div>
-        </form>
-        </form>
+            </div>
+        </div>
+        <div id="ModalLibroUno" class="modal fade">
+            <div class="container-fluid">
+                <form method="post" id="game-one-form">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modal-title">Complete the words</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="form-group">
+                                        <!-- columna -->
+                                        <div class="container">
+                                            <div class="row row-cols-4">
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <!-- espacio -->
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <!-- espacio -->
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <!-- espacio -->
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <!-- espacio -->
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <!-- espacio -->
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <div class="col"></div>
+                                                <!-- espacio -->
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                                <div class="col border border-dark">col</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <br>
+                                </div>
+                                <br>
+                                <!-- Botones de Control -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button><br>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+                </form>
+            </div>
+        </div>
     </div>
-</div>
-<!-- fin modal #1 -->
+    <!-- fin modale -->
 
+</body>
 
-
-
-</div>
 <script type="text/javascript" src="../../app/helpers/bookfix.js"></script>
 <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
 <!-- Script de Bootstrap -->

@@ -3,6 +3,7 @@ const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const book = document.querySelector("#book");
 
+
 const paper1 = document.querySelector("#p1");
 const paper2 = document.querySelector("#p2");
 const paper3 = document.querySelector("#p3");
@@ -25,10 +26,125 @@ const paper19 = document.querySelector("#p19");
 const paper20 = document.querySelector("#p20");
 const paper21 = document.querySelector("#p21");
 
+const f1 = document.getElementById("f1");
+const f2 = document.getElementById("f2");
+const f3 = document.getElementById("f3");
+const f4 = document.getElementById("f4");
+const f5 = document.getElementById("f5");
+const f6 = document.getElementById("f6");
+const f7 = document.getElementById("f7");
+const f8 = document.getElementById("f8");
+const f9 = document.getElementById("f9");
+const f10 = document.getElementById("f10");
+const f11 = document.getElementById("f11");
 
-// Event Listener
+const f12 = document.getElementById("f12");
+const f13 = document.getElementById("f13");
+const f14 = document.getElementById("f14");
+const f15 = document.getElementById("f15");
+const f16 = document.getElementById("f16");
+const f17 = document.getElementById("f17");
+const f18 = document.getElementById("f18");
+const f19 = document.getElementById("f19");
+const f20 = document.getElementById("f20");
+const f21 = document.getElementById("f21");
+
+
+const b1 = document.getElementById("b1");
+const b2 = document.getElementById("b2");
+const b3 = document.getElementById("b3");
+const b4 = document.getElementById("b4");
+const b5 = document.getElementById("b5");
+const b6 = document.getElementById("b6");
+const b7 = document.getElementById("b7");
+const b8 = document.getElementById("b8");
+const b9 = document.getElementById("b9");
+const b10 = document.getElementById("b10");
+const b11 = document.getElementById("b11");
+const b12 = document.querySelector("#b12");
+const b13 = document.getElementById("b13");
+const b14 = document.getElementById("b14");
+const b15 = document.getElementById("b15");
+const b16 = document.getElementById("b16");
+const b17 = document.getElementById("b17");
+const b18 = document.getElementById("b18");
+const b19 = document.getElementById("b19");
+const b20 = document.getElementById("b20");
+const b21 = document.getElementById("b21");
+
+var front = document.querySelector('.front-content');
+var back = document.querySelector('.front-content');
+
+// // Event Listener
 prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
+
+back.addEventListener("click", goPrevPage);
+front.addEventListener("click", goNextPage);
+
+
+b1.addEventListener("click", goPrevPage);
+f1.addEventListener("click", goNextPage);
+
+b2.addEventListener("click", goPrevPage);
+f2.addEventListener("click", goNextPage);
+
+b3.addEventListener("click", goPrevPage);
+f3.addEventListener("click", goNextPage);
+
+b4.addEventListener("click", goPrevPage);
+f4.addEventListener("click", goNextPage);
+
+b5.addEventListener("click", goPrevPage);
+f5.addEventListener("click", goNextPage);
+
+b6.addEventListener("click", goPrevPage);
+f6.addEventListener("click", goNextPage);
+
+b7.addEventListener("click", goPrevPage);
+f7.addEventListener("click", goNextPage);
+
+b8.addEventListener("click", goPrevPage);
+f8.addEventListener("click", goNextPage);
+
+b9.addEventListener("click", goPrevPage);
+f9.addEventListener("click", goNextPage);
+
+b10.addEventListener("click", goPrevPage);
+f10.addEventListener("click", goNextPage);
+
+b11.addEventListener("click", goPrevPage);
+f11.addEventListener("click", goNextPage);
+
+b12.addEventListener("click", goPrevPage);
+f12.addEventListener("click", goNextPage);
+
+b13.addEventListener("click", goPrevPage);
+f13.addEventListener("click", goNextPage);
+
+b14.addEventListener("click", goPrevPage);
+f14.addEventListener("click", goNextPage);
+
+b15.addEventListener("click", goPrevPage);
+f15.addEventListener("click", goNextPage);
+
+b16.addEventListener("click", goPrevPage);
+f16.addEventListener("click", goNextPage);
+
+b17.addEventListener("click", goPrevPage);
+f17.addEventListener("click", goNextPage);
+
+b18.addEventListener("click", goPrevPage);
+f18.addEventListener("click", goNextPage);
+
+b19.addEventListener("click", goPrevPage);
+f19.addEventListener("click", goNextPage);
+
+b20.addEventListener("click", goPrevPage);
+f20.addEventListener("click", goNextPage);
+
+b21.addEventListener("click", goPrevPage);
+f21.addEventListener("click", goNextPage);
 
 // Business Logic
 let currentLocation = 1;
