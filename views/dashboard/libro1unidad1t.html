@@ -36,9 +36,7 @@
 					<div ignore="1" class="previous-button"></div>
 				</div>
 			</div>
-		</div>
-
-		<!-- Thumbnails -->
+				<!-- Thumbnails -->
 		<div class="thumbnails">
 			<div>
 				<ul>
@@ -98,6 +96,8 @@
 						<div>
 						</div>
 			</div>
+		</div>
+
 
 
 			<script type="text/javascript">
@@ -494,11 +494,164 @@
 
 			</script>
 
+
+
+<!-- inicio modale -->
+<div class="row">
+	<!-- espacio  -->
+	<div class="row">
+		<nav>
+			<div class="col-6 col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 col-xxl-2 p-3" id="MuestraBTN">
+				<div id="ModalAgregarCliente" class="modal fade">
+					<div class="container-fluid">
+						<form method="post" id="save-form">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="modal-title">Agregar nuevo libro</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+
+									<div class="modal-body">
+										<div class="container">
+											<div class="form-group">
+												<label for="nombrelibro">Nombre libro:</label>
+												<input type="text" class="form-control" id="nombrelibro" name="nombrelibro" placeholder="Nombre libro" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
+											</div>
+											<br>
+											<div class="form-group">
+												<label for="numpaginas">Número páginas:</label>
+												<input type="number" class="form-control" id="numpaginas" name="numpaginas" placeholder="Número páginas" required minlength="1" maxlength="5" autocomplete="off" />
+											</div>
+											<br>
+											<div class="form-group">
+												<label for="asignatura">Asignatura:</label>
+												<select id="asignatura" class="form-select" name="asignatura">
+													<option selected></option>
+												</select>
+											</div>
+											<div class="form-group">
+												<label for="estadolibro">Estado libro:</label>
+												<select id="estadolibro" class="form-select" name="estadolibro">
+													<option selected></option>
+												</select>
+											</div>
+										</div>
+										<br>
+										<!-- Botones de Control -->
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+											<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
+										</div>
+						</form>
+						</form>
+					</div>
+				</div>
+			</div>
+	</div>
+	</nav>
+	<br>
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="modal-title">Actualizar libro</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<!-- Formulario -->
+				<form id="update-form" method="post" enctype="multipart/form-data">
+					<div class="form-group ">
+						<label for="formGroupExampleInput" class="d-none">ID</label>
+						<input type="text" class="form-control d-none" placeholder="" aria-describedby="basic-addon1" id="id_libro2" type="text" name="id_libro2" />
+					</div>
+					<div class="modal-body">
+
+
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="ModalLibroUno" class="modal fade">
+		<div class="container-fluid">
+			<form method="post" id="game-one-form">
+				<div class="modal-dialog modal-xl">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="modal-title">Complete the words</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+
+						<div class="modal-body">
+							<div class="container">
+								<div class="form-group">
+									<!-- columna -->
+									<div class="container">
+										<div class="row row-cols-4">
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<!-- espacio -->
+											<div class="col"></div>
+											<div class="col"></div>
+											<div class="col"></div>
+											<div class="col"></div>
+											<!-- espacio -->
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<!-- espacio -->
+											<div class="col"></div>
+											<div class="col"></div>
+											<div class="col"></div>
+											<div class="col"></div>
+											<!-- espacio -->
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<!-- espacio -->
+											<div class="col"></div>
+											<div class="col"></div>
+											<div class="col"></div>
+											<div class="col"></div>
+											<!-- espacio -->
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+											<div class="col border border-dark">col</div>
+										</div>
+									</div>
+
+								</div>
+								<br>
+							</div>
+							<br>
+							<!-- Botones de Control -->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+								<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button><br>
+							</div>
+						</div>
+					</div>
+			</form>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin modale -->
+
+
 </body>
-
 <!-- unidadunoprimergrado.js -->
-
-
 <!-- <script type="text/javascript" src="../../app/helpers/bookfix.js"></script> -->
 <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
 
