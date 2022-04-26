@@ -986,7 +986,64 @@
             <div class="back">
                 <div id="b7" class="back-content">
                     <div>
-                        <h1>Back 7</h1>
+                        <!-- inicio contenedor -->
+                        <div class="container">
+                            <div class="row align-items-start">
+                                <!-- card content -->
+                                <div class="col-md-8">
+                                    <!-- espacio -->
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <div class="card border-0" style="width: 10rem;">
+                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderfrontFirstGrade.PNG" class="card-img-top">
+                                    </div>
+                                </div>
+                                <!--  -->
+                            </div>
+                            <div class="row justify-content-md-center">
+                                <!-- card content -->
+                                <div class="col-md-7">
+                                    <!-- espacio -->
+                                </div>
+                                <div class="col-6">
+                                    <div class="card border-0" style="width: 15rem;">
+                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderExcercisesFGUO.PNG" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="card border-0 align-items-center" style="width: 16rem;">
+                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/imgFGUOp1.PNG" class="card-img">
+                                    </div>
+                                    <div class="card border-0 align-items-center" style="width: 10rem;">
+                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/img1FGUOp1.PNG" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="row  justify-content-md-center">
+                                    <div class="col-9">
+                                        <!-- //Button trigger modal -->
+                                        <div class="col text-center">
+                                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#ModalLibroUno">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                                                </svg>
+                                                Complete the activity
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <!-- espacio -->
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                        <div class="card border-0" style="width: 4rem; ">
+                                            <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag3.PNG" class="card-img-bottom">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin contenedor -->
                     </div>
                 </div>
             </div>
@@ -1328,45 +1385,257 @@
                             <div class="modal-body">
                                 <div class="container">
                                     <div class="form-group">
-                                        <!-- columna -->
-                                        <div class="container">
-                                            <div class="row row-cols-4">
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <!-- espacio -->
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <!-- espacio -->
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <!-- espacio -->
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <!-- espacio -->
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <!-- espacio -->
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <div class="col"></div>
-                                                <!-- espacio -->
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
-                                                <div class="col border border-dark">col</div>
+                                         <!-- columna -->
+                    <div class="container ">
+                        <div class="row align-items-center">
+                            <div class="row">
+                                <div class="col-md-8 align-items-center">
+                                    <p class="fs-1 fw-bold">Complete the activity</p>
+                                </div>
+                            </div>
+                            <div class="row row-cols-4">
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">H</div>
+                                            <div class="col">e</div>
+                                            <div class="col">
+                                                <input type="text" id="input-twohead" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">d</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">a</div>
+                                            <div class="col">
+                                                <input type="text" id="input-twoarm" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">m</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">e</div>
+                                            <div class="col">
+                                                <input type="text" id="input-twoear" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">r</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-6">
+                                            <div class="col">m</div>
+                                            <div class="col">
+                                                <input type="text" id="input-twomouth" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">o</div>
+                                            <div class="col">u</div>
+                                            <div class="col">t</div>
+                                            <div class="col">h</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <!-- espacio -->
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <!-- espacio -->
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">H</div>
+                                            <div class="col">e</div>
+                                            <div class="col">
+                                                <input type="text" id="input-twoheck" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">k</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">n</div>
+                                            <div class="col"><input type="text" id="input-twonose" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1"></div>
+                                            <div class="col">s</div>
+                                            <div class="col">e</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">h</div>
+                                            <div class="col">a</div>
+                                            <div class="col">n</div>
+                                            <div class="col">
+                                                <input type="text"  id="input-twohand" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
                                             </div>
                                         </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">
+                                                <input type="text" id="input-twoleg" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">e</div>
+                                            <div class="col">g</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <!-- espacio -->
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <!-- espacio -->
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">F</div>
+                                            <div class="col">o</div>
+                                            <div class="col">
+                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">t</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">
+                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">a</div>
+                                            <div class="col">i</div>
+                                            <div class="col">r</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-7">
+                                            <div class="col">s</div>
+                                            <div class="col">t</div>
+                                            <div class="col">
+                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">m</div>
+                                            <div class="col">a</div>
+                                            <div class="col">c</div>
+                                            <div class="col">h</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-6">
+                                            <div class="col">f</div>
+                                            <div class="col">i</div>
+                                            <div class="col">n</div>
+                                            <div class="col">
+                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">e</div>
+                                            <div class="col">r</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <!-- espacio -->
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <div class="col"></div>
+                                <!-- espacio -->
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col"> <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1"> </div>
+                                            <div class="col">a</div>
+                                            <div class="col">c</div>
+                                            <div class="col">e</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">
+                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">o</div>
+                                            <div class="col">e</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">e</div>
+                                            <div class="col">
+                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">e</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                                <div class="col border border-dark">
+                                    <!-- inicio group -->
+                                    <div class="input-group input-group-sm mb-3">
+                                        <div class="row row-cols-4">
+                                            <div class="col">k</div>
+                                            <div class="col">n</div>
+                                            <div class="col"><input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+                                            </div>
+                                            <div class="col">e</div>
+                                        </div>
+                                    </div>
+                                    <!-- fin group -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                                     </div>
                                     <br>
