@@ -81,7 +81,7 @@
 				</div>
 			</div>
 
-
+			<!-- <button type="button" onclick="getURL();">Get Page URL</button> -->
 
 			<script type="text/javascript">
 				function loadApp() {
@@ -568,35 +568,8 @@
 				</div>
 
 				<div id="ModalLibroUno" class="modal fade">
-					<div class="container-fluid">
-						<form method="post" id="game-one-form">
-							<div class="modal-dialog modal-xl">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="modal-title">Complete the words</h5>
-										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-									</div>
-									<div class="modal-body">
-										<div class="form-group" id="game-forms">
-											<!-- columna -->
-										
-										</div>
-										<br>
-										<br>
-										<!-- Botones de Control -->
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-											<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button><br>
-										</div>
-									</div>
-								</div>
-						</form>
-						</form>
-					</div>
-				</div>
-
 				
-
+				</div>
 				<!-- fin modales-->
 			</div>
 			<!-- fin modales-->
@@ -615,6 +588,6 @@
 <script type="text/javascript" src="../../resources/js/sweetalert.min.js"></script>
 <script type="text/javascript" src="../../app/helpers/components.js"></script>
 <script type="text/javascript" src="../../app/controllers/account.js"></script>
-<script type="text/javascript" src="../../app/controllers/juego1.js"></script>
+<script type="text/javascript" src="../../app/controllers/librounounidaduno/juego1.js"></script>
 
 </html>

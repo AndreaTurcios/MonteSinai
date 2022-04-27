@@ -161,7 +161,7 @@ function processRegion(region, regionType) {
 		case 'html':			
 			
 			var myModal = new bootstrap.Modal(document.getElementById(data.modal), {
-				keyboard: false
+				keyboard: true
 			})
 			myModal.handleUpdate()
 			myModal.toggle()
