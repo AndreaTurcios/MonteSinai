@@ -158,12 +158,9 @@ function processRegion(region, regionType) {
 			$('.magazine').turn('page', data.page);
 
 			break;
-		case 'html':
-
-			//html('<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#ModalLibroUno"></button>');
-			//var myModal = new bootstrap.Modal(document.getElementById('ModalLibroUno'))
+		case 'html':			
 			
-			var myModal = new bootstrap.Modal(document.getElementById('ModalLibroUno'), {
+			var myModal = new bootstrap.Modal(document.getElementById(data.modal), {
 				keyboard: false
 			})
 			myModal.handleUpdate()

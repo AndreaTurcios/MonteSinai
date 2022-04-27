@@ -3,7 +3,12 @@
 	"y":568,	
 	"width":130,
 	"height":12,
-	"class":"html"
+	"class":"html",
+	"data":
+		{
+			"modal":"#ModalLibroUno"
+		}
+	
 	
 }
 ]
