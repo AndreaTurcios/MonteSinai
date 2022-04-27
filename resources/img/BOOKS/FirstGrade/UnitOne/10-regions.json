@@ -3,10 +3,7 @@
 	"y":568,	
 	"width":130,
 	"height":12,
-	"class":"html",
-	"data":
-		{
-			"content": "<button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#ModalLibroUno\"></button>"
-		}
+	"class":"html"
+	
 }
 ]
