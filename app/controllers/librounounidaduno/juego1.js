@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-      
+    document.getElementById('charts').innerHTML = '<canvas id="chart1">sdfddsf</canvas>';
 });
 
 
@@ -9,7 +9,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
     event.preventDefault();
     //
     document.getElementById('id_input').value = '';
-    // Se define una variable para establecer la acción a realizar en la API.
+    
     
     
 });
