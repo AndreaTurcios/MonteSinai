@@ -160,11 +160,9 @@ function processRegion(region, regionType) {
 			break;
 		case 'html':			
 			
-			var myModal = new bootstrap.Modal(document.getElementById(data.modal), {
-				keyboard: true
-			})
-			myModal.handleUpdate()
-			myModal.toggle()
+			var myModal = new bootstrap.Modal(document.getElementById(data.modal))
+			// myModal.handleUpdate()
+			// myModal.toggle()
 			myModal.show()			
 
 			break;

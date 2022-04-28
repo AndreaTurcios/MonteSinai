@@ -1,12 +1,14 @@
 [{
-	"x":22,
-	"y":568,
+	"x":152,
+	"y":568,	
 	"width":130,
 	"height":12,
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroDos"
+			"modal":"ModalLibroTres"
 		}
+	
+	
 }
 ]

@@ -1,0 +1,95 @@
+body,
+html {
+    background: #e2e7ec url(https://turismoalmanzora.com/wp-content/uploads/foto-concurso2018-valle-del-almanzora-nevado-juan-manuel-diaz-rubio.jpg);
+  background-size:cover;
+    color:#666
+}
+.container-fluid{
+  perspective: 100px;
+}
+.btn{
+  cursor:pointer
+}
+.sign-box {
+    width: 100%;
+    max-width: 322px;
+    margin: 20vh auto;
+    background:rgba(255,255,255,0.7);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.43) 26%,rgba(255,255,255,0.9) 100%);
+    border: 1px solid #d8e2e7;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1rem;
+    position: relative;
+    max-height: 600px;
+    overflow: hidden;
+    opacity: 1;
+    text-align: center;
+    
+  transition: .3s cubic-bezier(.3,1.5,.7,1) transform;
+}
+.enters{
+  animation: slidedown 1.84s 1;
+}
+.sign-box .sign-avatar {
+    width: 200px;
+    margin: 10px auto;
+  filter: grayscale(1)
+}
+.sign-box .sign-avatar img {
+    display: block;
+    width: 100%;
+}
+.sign-box .btn {
+    display: block;
+    min-width: 108px;
+    margin: 16px auto 12px;
+    cursor:pointer
+}
+.sign-box .btn.sign-up {
+    margin-top: 18px
+}
+.sign-box .sign-note {
+    text-align: center
+}
+.sign-box a {
+    text-decoration: none;
+    color: #0082c6;
+    border-bottom: solid 1px transparent
+}
+.sign-box a:hover {
+    border-bottom-color: rgba(0, 130, 198, .5)
+}
+.sign-box .form-group {
+    margin-bottom: 12px;
+    zoom: 1
+}
+.sign-box .form-group:after,
+.sign-box .form-group:before {
+    content: " ";
+    display: table
+}
+.sign-box .form-group:after {
+    clear: both
+}
+.alert.hidden{
+  display:none !important
+}
+
+.sign-box .reset {
+    font-size: .875rem
+}
+.sign-box .close {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    opacity: 1;
+    color: #c5d6de
+}
+.sign-box .close:hover {
+    color: #00a8ff
+}
+
+::-webkit-input-placeholder {
+    color: #bbb !important;
+}
