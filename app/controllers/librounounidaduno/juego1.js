@@ -13,7 +13,7 @@ function getURL() {
 
 function openModal() {
 
-    if (currentPage == 1  ) {
+    if (page = 1  ) {
         
         let content = '';
         content = `<div class="modal-dialog">
@@ -42,7 +42,7 @@ function openModal() {
         </div>`
         document.getElementById('ModalLibroUno').innerHTML = content;
     }  
-    if (currentPage == 10 ) {
+    else if (page = 10 ) {
         let content = '';
         content = ` <div class="container-fluid">
     <form method="post" id="game-one-form">
