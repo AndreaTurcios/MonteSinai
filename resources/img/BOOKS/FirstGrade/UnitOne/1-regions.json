@@ -3,10 +3,10 @@
 	"y":568,
 	"width":130,
 	"height":12,
-	"class":"link",
+	"class":"html",
 	"data":
 		{
-			"url": "http://latimes.com/shopping/vegas"
+			"modal":"ModalLibroUno"
 		}
 }
 ]
