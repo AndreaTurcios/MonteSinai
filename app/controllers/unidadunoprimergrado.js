@@ -158,12 +158,13 @@ function processRegion(region, regionType) {
 			$('.magazine').turn('page', data.page);
 
 			break;
-		case 'html':			
-			
+		case 'html':
+
+			document.getElementById(data.form).reset();
 			var myModal = new bootstrap.Modal(document.getElementById(data.modal))
 			// myModal.handleUpdate()
 			// myModal.toggle()
-			myModal.show()			
+			myModal.show()
 
 			break;
 	}

@@ -6,7 +6,8 @@
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroDos"
+			"modal":"ModalLibrotest2",
+			"form":"game-one"
 		}
 }
 ]

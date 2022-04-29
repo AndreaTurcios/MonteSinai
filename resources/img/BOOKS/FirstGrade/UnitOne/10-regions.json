@@ -6,7 +6,8 @@
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroUno"
+			"modal":"ModalLibroUno",
+			"form":"game-one"
 		}
 	
 	

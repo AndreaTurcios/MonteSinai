@@ -1,20 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-
-    //openModal();
-
-});
-
 
 function getURL() {
     alert("The URL of this page is: " + window.location.href);
 }
 
-
-
 function openModal() {
 
-    if (page = 1  ) {
-        
+    if (page = 1) {
+
         let content = '';
         content = `<div class="modal-dialog">
     <div class="modal-content">
@@ -41,8 +33,8 @@ function openModal() {
     </div>
         </div>`
         document.getElementById('ModalLibroUno').innerHTML = content;
-    }  
-    else if (page = 10 ) {
+    }
+    else if (page = 10) {
         let content = '';
         content = ` <div class="container-fluid">
     <form method="post" id="game-one-form">
@@ -329,12 +321,94 @@ function openModal() {
 }
 
 
+document.getElementById('game-one').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //declaración de variables 
+    var one, five, nine, thirdteen, two, six,
+        ten, fourteen, three, seven, eleven, fifteen,
+        four, eight, twelve, sixteen;
+    //definición de variables 
+    one = document.getElementById('input-oneh').value;//a
+    five = document.getElementById('input-fivec').value;//r
+    nine = document.getElementById('input-niner').value;//a
+    thirdteen = document.getElementById('input-thirdteenu').value;//o
+    two = document.getElementById('input-twoe').value;//c
+    six = document.getElementById('input-sixn').value;//o
+    ten = document.getElementById('input-tend').value;//d
+    fourteen = document.getElementById('input-fourteenl').value;//l
+    three = document.getElementById('input-threef').value;//o
+    seven = document.getElementById('input-sevenh').value;//h
+    eleven = document.getElementById('input-elevench').value;//o
+    fifteen = document.getElementById('input-fifteenf').value;//g
+    four = document.getElementById('input-fourc').value;//f
+    eight = document.getElementById('input-eightt').value;//t
+    twelve = document.getElementById('input-twelvey').value;//e
+    sixteen = document.getElementById('input-sixteenk').value;//e
+    // declacración de variables de puntajes 
+    var puntos , promedio; 
+    // declaración de condicionales 
+    if (one === "" && five === "" && nine === "" && thirdteen === "" && two === "" && six === "" && ten === "" &&
+        fourteen === "" && three === "" && seven === "" && eleven === "" && fifteen === "" && four === ""
+        || eight === "" && twelve === "" && sixteen === "") {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
 
-// document.getElementById('form').addEventListener('submit', function (event) {
-//     // Se evita recargar la página web después de enviar el formulario.
-//     event.preventDefault();
-//     //
-//     document.getElementById('').value = '';
+    if(one==="a"){
+
+    }
+    if(five === "r"){
+
+    }
+    if(nine === "a"){
+
+    }
+    if(thirdteen === "o"){
+
+    }
+    if(two === "c"){
+
+    }
+    if(six === "o"){
+
+    }
+
+    
+
+    if (one === "a" && five === "r" && nine === "a" && thirdteen === "o" && two === "c" && six === "o"
+        && ten === "d" && fourteen === "l" && three === "o" && seven === "h" && eleven === "o"
+        && fifteen === "g" && four === "f" && eight === "t"
+        && twelve === "e" && sixteen === "e") {
+        sweetAlert(1, 'good job', null);
+        return true;
+    } else if (one !== "a" || five !== "r" || nine !== "a" || thirdteen !== "o" || two !== "c" || six !== "o"
+        || ten !== "d" || fourteen !== "l" || three !== "o" || seven !== "h" || eleven !== "o"
+        || fifteen !== "g" || four !== "f" || eight !== "t"
+        || twelve !== "e" || sixteen !== "e") {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return false;
+    }
+
+});
 
 
-// });
+
+
+document.getElementById('game-two').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //declaración de variables 
+    var one, five, nine, thirdteen, two, six,
+        ten, fourteen, three, seven, eleven, fifteen,
+        four, eight, twelve, sixteen;
+    //definición de variables 
+    one = document.getElementById('recipient-name').value;//a
+    // declaración de condicionales 
+    if (one = "  ") {
+        sweetAlert(2, 'Todos los campos son obligatorios', null);
+        return false;
+    }
+    
+});

@@ -6,7 +6,8 @@
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroTres"
+			"modal":"ModalLibroTres",
+			"form":"game-two"
 		}
 	
 	
