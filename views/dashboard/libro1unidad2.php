@@ -481,8 +481,6 @@
 				});
 			</script>
 
-
-
 			<!--inicio modales -->
 			<div class="row">
 				<!--inicio modales -->

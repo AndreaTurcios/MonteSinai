@@ -18,6 +18,7 @@
 	<script type="text/javascript" src="../../resources/js/turnjs4/lib/hash.js"></script>
 
 </head>
+<!--  ----------------------------------------- fin plantilla header --------------------------------  -->
 
 <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
 	<div id="canvas">
@@ -1100,6 +1101,8 @@
 
 	<!-- fin modales-->
 
+
+<!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 
 </body>
 <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
