@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,13 +17,12 @@
 	<script type="text/javascript" src="../../resources/js/turnjs4/lib/hash.js"></script>
 
 </head>
+<body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
 <!--  ----------------------------------------- fin plantilla header --------------------------------  -->
 
-<body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
-	<div id="canvas">
 
+<div id="canvas">
 		<div class="zoom-icon zoom-icon-in"></div>
-
 		<div class="magazine-viewport">
 			<div class="container">
 				<div class="magazine">
@@ -82,10 +80,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!-- <button type="button" onclick="getURL();">Get Page URL</button> -->
-	<!-- <button type="button" onclick="getPage();">Get Page</button> -->
+</div>
 
 	<script type="text/javascript">
 		function loadApp() {
@@ -491,10 +486,7 @@
 
 
 
-	<!--inicio modales -->
-
-	<!--inicio modales -->
-
+<!--inicio modales -->
 	<div id="ModalLibroDos" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog modal-xl">
 			<div class="modal-content">
@@ -1096,14 +1088,10 @@
 		</div>
 	</div>
 
-
-
-
-	<!-- fin modales-->
+<!-- fin modales-->
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
-
 </body>
 <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
 <!-- Script de Bootstrap -->
@@ -1116,5 +1104,4 @@
 <script type="text/javascript" src="../../app/controllers/account.js"></script>
 <script type="text/javascript" src="../../app/controllers/librounounidaduno/juego1.js"></script>
 <!-- <script type="text/javascript" src="../../app/controllers/unidadunoprimergrado.js"></script> -->
-
 </html>
