@@ -43,6 +43,7 @@ class Book_Page
                 
                 </head>
                 <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
+                <input class="d-none" id="users" name="users" value="'. $_SESSION['id_empleado'] .'"/>                
             ');
             } else if ($_SESSION['id_tipo_empleado'] == 2) { //Administrador
                 print(' <!DOCTYPE html>
@@ -156,27 +157,7 @@ class Book_Page
                 <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">'
                 );
             } else {
-                print(' <!DOCTYPE html>
-                <html lang="es">
-                <head>
-                    <meta charset="UTF-8">
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <!-- Agregamos Bootstrap -->
-                    <link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
-                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
-                    <title>Monte Sinai - ' . $title . '</title>
-                    <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
-                    <!-- old stylesheet  -->
-                    <!-- <link rel="stylesheet" href="../../resources/css/bookstyles.css"> -->
-                    <!-- turns.js librerias  -->
-                    <script type="text/javascript" src="../../resources/js/turnjs4/extras/jquery.min.1.7.js"></script>
-                    <script type="text/javascript" src="../../resources/js/turnjs4/extras/modernizr.2.5.3.min.js"></script>
-                    <script type="text/javascript" src="../../resources/js/turnjs4/lib/hash.js"></script>
-                
-                </head>
-                <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">'
-                );
+                header('location: principal.php');
             }
         } else if (isset($_SESSION['id_cliente'])) {
             print(' <!DOCTYPE html>
@@ -198,35 +179,18 @@ class Book_Page
                 <script type="text/javascript" src="../../resources/js/turnjs4/lib/hash.js"></script>
             
             </head>
-            <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">'
+            <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
+            <input type="hidden"  id="users" name="users" value="'. $_SESSION['id_cliente'] .'"/>
+            '
+            
             );
         } else {
-            print(' <!DOCTYPE html>
-            <html lang="es">
-            <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <!-- Agregamos Bootstrap -->
-                <link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
-                <title>Monte Sinai - ' . $title . '</title>
-                <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
-                <!-- old stylesheet  -->
-                <!-- <link rel="stylesheet" href="../../resources/css/bookstyles.css"> -->
-                <!-- turns.js librerias  -->
-                <script type="text/javascript" src="../../resources/js/turnjs4/extras/jquery.min.1.7.js"></script>
-                <script type="text/javascript" src="../../resources/js/turnjs4/extras/modernizr.2.5.3.min.js"></script>
-                <script type="text/javascript" src="../../resources/js/turnjs4/lib/hash.js"></script>
-            
-            </head>
-            <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">'
-            );
+            header('location: principal.php');
         }
     }
 
 
-    public static function footerTemplate($controller, $game)
+    public static function footerTemplate($game)
     {
         // Se comprueba si existe una sesión de administrador para imprimir el pie respectivo del documento.
        
@@ -242,7 +206,7 @@ class Book_Page
         <script type="text/javascript" src="../../app/helpers/components.js"></script>
         <script type="text/javascript" src="../../app/controllers/account.js"></script>
         <script type="text/javascript" src="../../app/controllers/librounounidaduno/' . $game . '"></script>
-        <!-- <script type="text/javascript" src="../../app/controllers/' . $controller . '"></script> -->
+        <!-- <script type="text/javascript" src="../../app/controllers/"></script> -->
         </html>');
     }
 }

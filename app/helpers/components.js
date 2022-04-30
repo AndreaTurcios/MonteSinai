@@ -103,6 +103,43 @@ function saveRow(api, action, form, modal) {
     
 }
 
+/*
+*   Función para crear o actualizar un registro en los mantenimientos de tablas (operación create y update).
+*
+*   Parámetros: api (ruta del servidor para enviar los datos), form (identificador del formulario) y modal (identificador de la caja de dialogo).
+*
+*   Retorno: ninguno.
+*/
+function saveRowActivity(api, action, form, modal) {
+    fetch(api + action, {
+        method: 'post',
+        body: new FormData(document.getElementById(form))
+    }).then(function (request) {
+        // Se verifica si la petición es correcta, de lo contrario se muestra un mensaje indicando el problema.
+        if (request.ok) {
+            request.json().then(function (response) {
+                // Se comprueba si la respuesta es satisfactoria, de lo contrario se muestra un mensaje con la excepción.
+                if (response.status) {
+                    // Se cierra la caja de dialogo (modal) del formulario.
+                  
+                    // instance.close();
+                    // Se cargan nuevamente las filas en la tabla de la vista después de agregar o modificar un registro.
+                    //readRows(api);
+                    sweetAlert(1, response.message, null);
+                } else {
+                    sweetAlert(2, response.exception, null);
+                }
+            });
+        } else {
+            console.log(request.status + ' ' + request.statusText);
+        }
+    }).catch(function (error) {
+        console.log(error);
+    });
+
+    
+}
+
 
 function updateRow(api, action, form, modal) {
     fetch(api + action, {

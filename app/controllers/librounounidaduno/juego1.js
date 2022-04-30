@@ -1,330 +1,9 @@
-
-function getURL() {
-    alert("The URL of this page is: " + window.location.href);
-}
-
-function openModal() {
-
-    if (page = 1) {
-
-        let content = '';
-        content = `<div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
-      </div>
-    </div>
-        </div>`
-        document.getElementById('ModalLibroUno').innerHTML = content;
-    }
-    else if (page = 10) {
-        let content = '';
-        content = ` <div class="container-fluid">
-    <form method="post" id="game-one-form">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modal-title">Complete the words</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="form-group">
-                            <!-- columna -->
-                            <div class="container-fluid">
-                            <div class="row align-items-center">
-                            <div class="row">
-                                <div class="col-md-8 align-items-center">
-                                    <p class="fs-1 fw-bold">Complete the activity</p>
-                                </div>
-                            </div>
-                            <div class="row row-cols-4">
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">H</div>
-                                            <div class="col">e</div>
-                                            <div class="col">
-                                                <input type="text" id="input-twohead" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">d</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">a</div>
-                                            <div class="col">
-                                                <input type="text" id="input-twoarm" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">m</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">e</div>
-                                            <div class="col">
-                                                <input type="text" id="input-twoear" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">r</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-6">
-                                            <div class="col">m</div>
-                                            <div class="col">
-                                                <input type="text" id="input-twomouth" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">o</div>
-                                            <div class="col">u</div>
-                                            <div class="col">t</div>
-                                            <div class="col">h</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <!-- espacio -->
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <!-- espacio -->
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">H</div>
-                                            <div class="col">e</div>
-                                            <div class="col">
-                                                <input type="text" id="input-twoheck" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">k</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">n</div>
-                                            <div class="col"><input type="text" id="input-twonose" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1"></div>
-                                            <div class="col">s</div>
-                                            <div class="col">e</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">h</div>
-                                            <div class="col">a</div>
-                                            <div class="col">n</div>
-                                            <div class="col">
-                                                <input type="text"  id="input-twohand" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">
-                                                <input type="text" id="input-twoleg" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">e</div>
-                                            <div class="col">g</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <!-- espacio -->
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <!-- espacio -->
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">F</div>
-                                            <div class="col">o</div>
-                                            <div class="col">
-                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">t</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">
-                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">a</div>
-                                            <div class="col">i</div>
-                                            <div class="col">r</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-7">
-                                            <div class="col">s</div>
-                                            <div class="col">t</div>
-                                            <div class="col">
-                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">m</div>
-                                            <div class="col">a</div>
-                                            <div class="col">c</div>
-                                            <div class="col">h</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-6">
-                                            <div class="col">f</div>
-                                            <div class="col">i</div>
-                                            <div class="col">n</div>
-                                            <div class="col">
-                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">e</div>
-                                            <div class="col">r</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <!-- espacio -->
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <div class="col"></div>
-                                <!-- espacio -->
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col"> <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1"> </div>
-                                            <div class="col">a</div>
-                                            <div class="col">c</div>
-                                            <div class="col">e</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">
-                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">o</div>
-                                            <div class="col">e</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">e</div>
-                                            <div class="col">
-                                                <input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">e</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                                <div class="col border border-dark">
-                                    <!-- inicio group -->
-                                    <div class="input-group input-group-sm mb-3">
-                                        <div class="row row-cols-4">
-                                            <div class="col">k</div>
-                                            <div class="col">n</div>
-                                            <div class="col"><input type="text" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
-                                            </div>
-                                            <div class="col">e</div>
-                                        </div>
-                                    </div>
-                                    <!-- fin group -->
-                                </div>
-                            </div>
-                        </div>
-                            </div>
-
-                        </div>
-                        <br>
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button><br>
-                    </div>
-                </div>
-            </div>
-    </form>
-    </form>
-         </div>`
-        document.getElementById('ModalLibroUno').innerHTML = content;
-    }
-
-
-}
+const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
 
 
 document.getElementById('game-one').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    //declaración de variables 
     var one, five, nine, thirdteen, two, six,
         ten, fourteen, three, seven, eleven, fifteen,
         four, eight, twelve, sixteen;
@@ -346,7 +25,8 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
     twelve = document.getElementById('input-twelvey').value;//e
     sixteen = document.getElementById('input-sixteenk').value;//e
     // declacración de variables de puntajes 
-    var puntos , promedio; 
+    let promedio; 
+    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12, pt13, pt12
     // declaración de condicionales 
     if (one === "" && five === "" && nine === "" && thirdteen === "" && two === "" && six === "" && ten === "" &&
         fourteen === "" && three === "" && seven === "" && eleven === "" && fifteen === "" && four === ""
@@ -354,34 +34,89 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
-
-    if(one==="a"){
-
-    }
-    if(five === "r"){
-
-    }
-    if(nine === "a"){
-
-    }
-    if(thirdteen === "o"){
-
-    }
-    if(two === "c"){
-
-    }
-    if(six === "o"){
-
-    }
-
-    
-
     if (one === "a" && five === "r" && nine === "a" && thirdteen === "o" && two === "c" && six === "o"
         && ten === "d" && fourteen === "l" && three === "o" && seven === "h" && eleven === "o"
         && fifteen === "g" && four === "f" && eight === "t"
         && twelve === "e" && sixteen === "e") {
-        sweetAlert(1, 'good job', null);
-        return true;
+            
+            if(one === "a"){
+                var pt1 =0.63;
+                console.log('0.63');
+             }
+             if(five === "r"){
+                var pt2 =0.63;
+                console.log('0.63');
+             }
+             if(nine === "a"){
+                var pt3 =0.63;
+                console.log('0.63');
+             }
+             if(thirdteen === "o"){
+                var pt4 =0.63;
+                console.log('0.63');
+             }
+             if(two === "c"){
+                var pt5 =0.63;
+                console.log('0.63');
+             }
+             if(six === "o"){
+                var pt6 =0.63;
+                console.log('0.63');
+             }
+             if(ten === "d"){
+                var pt7 =0.63;
+                console.log('0.63');
+            }
+            if(fourteen === "l"){
+                var pt8 =0.63;
+                console.log('0.63');
+            }
+            if(three === "o"){
+                var pt9 =0.63;
+                console.log('0.63');
+            }
+            if(seven === "h"){
+                var pt10 =0.63;
+                console.log('0.63');
+            }
+            if(eleven === "o"){
+                var pt11 =0.63;
+                console.log('0.63');
+            }
+            if(twelve === "e"){
+                var pt12 =0.63;
+                console.log('0.63');
+            }
+            if(sixteen === "o"){
+                var pt13 =0.63;
+                console.log('0.63');                
+            }
+            if(fifteen === "g"){
+                var pt14 =0.63;
+                console.log('0.63');
+            }
+            if(four === "f"){
+                var pt15 =0.63;
+                console.log('0.63');
+            }
+            if(eight === "t"){
+                var pt16 =0.63;
+                console.log('0.63');
+            }
+
+            let suma = parseFloat(pt1 + pt2 + pt3 + pt4 + pt5+ pt6 + pt7 + pt8 + pt9+ pt10+ pt11 + pt12+ pt13+ pt14 + pt15+ pt16)
+
+            promedio = 1.11;
+            var libro = 4; 
+            document.getElementById('idcliente').value=users.value ;
+            document.getElementById('points').value=promedio ;
+            document.getElementById('idlibro').value=libro ;
+            
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
+            // sweetAlert(1, 'good job', null);
+            // return true;
+            
     } else if (one !== "a" || five !== "r" || nine !== "a" || thirdteen !== "o" || two !== "c" || six !== "o"
         || ten !== "d" || fourteen !== "l" || three !== "o" || seven !== "h" || eleven !== "o"
         || fifteen !== "g" || four !== "f" || eight !== "t"
@@ -391,24 +126,24 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         return false;
     }
 
-});
-
-
-
-
-document.getElementById('game-two').addEventListener('submit', function (event) {
-    // Se evita recargar la página web después de enviar el formulario.
-    event.preventDefault();
-    //declaración de variables 
-    var one, five, nine, thirdteen, two, six,
-        ten, fourteen, three, seven, eleven, fifteen,
-        four, eight, twelve, sixteen;
-    //definición de variables 
-    one = document.getElementById('recipient-name').value;//a
-    // declaración de condicionales 
-    if (one = "  ") {
-        sweetAlert(2, 'Todos los campos son obligatorios', null);
-        return false;
-    }
     
 });
+
+
+
+
+// document.getElementById('game-two').addEventListener('submit', function (event) {
+//     // Se evita recargar la página web después de enviar el formulario.
+//     event.preventDefault();
+//     //declaración de variables
+//     var one, five, nine, thirdteen, two, six,
+//         ten, fourteen, three, seven, eleven, fifteen,
+//         four, eight, twelve, sixteen;
+//     //definición de variables
+//    // one = document.getElementById('recipient-name').value;//a
+//     // declaración de condicionales
+//     // if (one = "  ") {
+//     //     sweetAlert(2, 'Todos los campos son obligatorios', null);
+//     //     return false;
+//     // }
+// });
