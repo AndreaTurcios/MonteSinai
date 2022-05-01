@@ -839,7 +839,6 @@ Book_Page::headerTemplate('Unidad 1');
 </div>
 
 
-
 <div class="modal fade" id="ModalLibrotsestdodfdfd" tabindex="-10" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">

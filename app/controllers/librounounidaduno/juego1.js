@@ -138,8 +138,8 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
-        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
-        return false;
+        //sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        //return false; --- era esta linea, porque esto lo que indica es que trunca el resto de acciones 
     }
 
 

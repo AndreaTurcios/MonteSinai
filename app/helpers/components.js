@@ -120,8 +120,7 @@ function saveRowActivity(api, action, form, modal) {
             request.json().then(function (response) {
                 // Se comprueba si la respuesta es satisfactoria, de lo contrario se muestra un mensaje con la excepción.
                 if (response.status) {
-                    // Se cierra la caja de dialogo (modal) del formulario.
-                  
+                    // Se cierra la caja de dialogo (modal) del formulario.                  
                     // instance.close();
                     // Se cargan nuevamente las filas en la tabla de la vista después de agregar o modificar un registro.
                     //readRows(api);
