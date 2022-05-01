@@ -110,7 +110,7 @@ function saveRow(api, action, form, modal) {
 *
 *   Retorno: ninguno.
 */
-function saveRowActivity(api, action, form, modal) {
+function saveRowactivity(api, action, form, modal) {
     fetch(api + action, {
         method: 'post',
         body: new FormData(document.getElementById(form))
@@ -121,10 +121,7 @@ function saveRowActivity(api, action, form, modal) {
                 // Se comprueba si la respuesta es satisfactoria, de lo contrario se muestra un mensaje con la excepción.
                 if (response.status) {
                     // Se cierra la caja de dialogo (modal) del formulario.
-                  
-                    // instance.close();
-                    // Se cargan nuevamente las filas en la tabla de la vista después de agregar o modificar un registro.
-                    //readRows(api);
+                    // instance.close();                                        
                     sweetAlert(1, response.message, null);
                 } else {
                     sweetAlert(2, response.exception, null);

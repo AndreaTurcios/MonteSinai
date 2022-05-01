@@ -121,9 +121,9 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         document.getElementById('idlibro').value = libro;
 
         action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
-        // sweetAlert(1, 'good job', null);
-        // return true;
+        saveRowactivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
+        //sweetAlert(1, 'good job', null);
+        //return true;
 
     } else if (one !== "a" || five !== "r" || nine !== "a" || thirdteen !== "o" || two !== "c" || six !== "o"
         || ten !== "d" || fourteen !== "l" || three !== "o" || seven !== "h" || eleven !== "o"
@@ -137,9 +137,9 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         document.getElementById('idlibro').value = libro;
 
         action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
-        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
-        return false;
+        saveRowactivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
+        //sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        //return false;
     }
 
 
@@ -150,8 +150,6 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 document.getElementById('game-five').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-
-    
 
 
 });
