@@ -36,6 +36,8 @@ class Book_Page
                     <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
                     <!-- old stylesheet  -->
                     <!-- <link rel="stylesheet" href="../../resources/css/bookstyles.css"> -->
+                    <!-- new stylesheet  -->
+                    <link rel="stylesheet" href="../../resources/css/coloringstyles.css">
                     <!-- turns.js librerias  -->
                     <script type="text/javascript" src="../../resources/js/turnjs4/extras/jquery.min.1.7.js"></script>
                     <script type="text/javascript" src="../../resources/js/turnjs4/extras/modernizr.2.5.3.min.js"></script>

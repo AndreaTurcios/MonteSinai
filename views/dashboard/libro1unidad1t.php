@@ -531,7 +531,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>											
+											<p class="fs-1 fw-bold">Complete the activity</p>
 											<input type="text" class="d-none" id="points" name="points">
 											<input type="text" class="d-none" id="idcliente" name="idcliente">
 											<input type="text" class="d-none" id="idlibro" name="idlibro">
@@ -804,9 +804,93 @@ Book_Page::headerTemplate('Unidad 1');
 				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<div class="modal-body">
+			<form method="post" id="game-zero">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points" name="points">
+											<input type="text" class="d-none" id="idcliente" name="idcliente">
+											<input type="text" class="d-none" id="idlibro" name="idlibro">
+										</div>
+									</div>
 
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="modal fade" id="ModalLibrotsestdodfdfd" tabindex="-10" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Color the image</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
+			<form method="post" id="game-five">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points" name="points">
+											<input type="text" class="d-none" id="idcliente" name="idcliente">
+											<input type="text" class="d-none" id="idlibro" name="idlibro">
+										</div>
+									</div>
+									<!-- contenido  -->
+									<div id="game">
+										<section class="left-panel">
+											<div class="color-grid">
+												<div class="color-box span3">
+													<button id="clear">Clear</button>
+												</div>
+											</div>
+										</section>
+										<section class="right-panel">
+											<div class="canvas-grid" style="background-image: url(../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg); flex:100%;">
+											</div>
+										</section>
+									</div>
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
 		</div>
 	</div>
 </div>
