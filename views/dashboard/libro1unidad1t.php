@@ -856,9 +856,10 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points" name="points">
-											<input type="text" class="d-none" id="idcliente" name="idcliente">
-											<input type="text" class="d-none" id="idlibro" name="idlibro">
+											<!-- class="d-none" -->
+											<input type="text" id="points5" name="points5">
+											<input type="text" id="idcliente5" name="idcliente5">
+											<input type="text" id="idlibro5" name="idlibro5">
 										</div>
 									</div>
 									<!-- contenido  -->
@@ -871,7 +872,7 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 										</section>
 										<section class="right-panel">
-											<div class="canvas-grid" style="background-image: url(../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg);">
+											<div class="canvas-grid" style="background-image: url(../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg); width:100%; height:100%;">
 											</div>
 										</section>
 									</div>

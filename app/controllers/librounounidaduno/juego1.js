@@ -1,7 +1,7 @@
 const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
 
 document.addEventListener('DOMContentLoaded', function () {
-    
+
 
 
 });
@@ -150,8 +150,23 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 document.getElementById('game-five').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
+   
 
-    
+    if (canvasGrid.style.backgroundColor = pickedColor) {
+        alert("color");
+
+        promedio = 1.11;
+        var libro = 4;
+        document.getElementById('idcliente5').value = users.value;
+        document.getElementById('points5').value = promedio;
+        document.getElementById('idlibro5').value = libro;
+
+        action = 'createact5';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalLibrotsestdodfdfd');
+    }
+    if (canvasGrid.style.backgroundColor != pickedColor) {
+        alert("vacio");
+    }
 
 
 });
@@ -202,7 +217,7 @@ function createBoxes() {
 }
 
 function createCanvas() {
-    for (let i = 0; i < 1440; i++) {
+    for (let i = 0; i <= 12900; i++) {
         let canvasBox = document.createElement('div');
         canvasBox.classList.add('canvas-box', 'paint-on');
         canvasGrid.append(canvasBox);

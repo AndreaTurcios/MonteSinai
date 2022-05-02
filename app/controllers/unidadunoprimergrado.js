@@ -189,7 +189,7 @@ function loadLargePage(page, pageElement) {
 
 	// Loadnew page
 
-	img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitOne/' + page + '-large.jpg');
+	//img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitOne/' + page + '-large.jpg');
 }
 
 // Load small page
@@ -203,7 +203,7 @@ function loadSmallPage(page, pageElement) {
 	img.unbind('load');
 	// Loadnew page
 
-	img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitOne/' + page + '.jpg');
+	//img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitOne/' + page + '.jpg');
 }
 
 // http://code.google.com/p/chromium/issues/detail?id=128488
