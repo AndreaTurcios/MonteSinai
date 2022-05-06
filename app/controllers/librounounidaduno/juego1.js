@@ -160,26 +160,19 @@ document.getElementById('game-three').addEventListener('submit', function (event
     s2 = document.getElementById('sentence2').value;
     s3 = document.getElementById('sentence3').value;
     s4 = document.getElementById('sentence4').value;
-
+    // iteraciones 
     if (s1 === "" || s2 === "" || s3 === "" || s4 === "") {
 
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
-
     }
-    if (s1 === "Open your eyes" || s1 === "open your eyes"
-        && s2 === "Close your eyes" || s2 === "close your eyes"
-        && s3 === "Wash your face" || s3 === "wash your face"
-        && s4 === "Touch your eyes" || s4 === "touch your eyes") {
+    if (s1 === "OPEN your eyes" && s2 === "CLOSE your eyes"
+        && s3 === "WASH your face" && s4 === "TOUCH your eyes") {
 
         sweetAlert(1, 'good job', null);
         return true;
     }
-    else if (s1 !== "Open your eyes" || s1 !== "open your eyes"
-        && s2 !== "Close your eyes" || s2 !== "close your eyes"
-        && s3 !== "Wash your face" || s3 !== "wash your face"
-        && s4 !== "Touch your eyes" || s4 !== "touch your eyes") {
-
+    else {
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -189,16 +182,37 @@ document.getElementById('game-three').addEventListener('submit', function (event
 document.getElementById('game-four').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    var p1, p2, p3, p4 ;
+    // declaración de variables  
+    var p1, p2, p3, p4;
+    // 
     p1 = document.getElementById('sentence14').value;
     p2 = document.getElementById('sentence24').value;
     p3 = document.getElementById('sentence34').value;
-    p4 = document.getElementById('sentence14').value;
+    p4 = document.getElementById('sentence44').value;
+    // 
+    if (p1 === "" || p2 === "" || p3 === "" || p4 === "") {
 
-    
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (p1 === "I am Maricela" && p2 === "He is Boris" && p3 === "They are Classmates" && p4 === "She is Elsa") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
 
 });
 
+document.getElementById('game').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    
+});
 
 document.getElementById('game-five').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
