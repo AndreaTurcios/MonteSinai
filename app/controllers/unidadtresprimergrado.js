@@ -48,7 +48,7 @@ function loadPage(page, pageElement) {
 
 	// Load the page
 
-	img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitTwo/' + page + '.jpg');
+	img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitThree/' + page + '.jpg');
 
 	loadRegions(page, pageElement);
 
@@ -78,7 +78,7 @@ function zoomTo(event) {
 
 function loadRegions(page, element) {
 
-	$.getJSON('../../resources/img/BOOKS/FirstGrade/UnitTwo/' + page + '-regions.json').
+	$.getJSON('../../resources/img/BOOKS/FirstGrade/UnitOne/' + page + '-regions.json').
 		done(function (data) {
 
 			$.each(data, function (key, region) {
@@ -203,7 +203,7 @@ function loadSmallPage(page, pageElement) {
 	img.unbind('load');
 	// Loadnew page
 
-	img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitTwo/' + page + '.jpg');
+	//img.attr('src', '../../resources/img/BOOKS/FirstGrade/UnitOne/' + page + '.jpg');
 }
 
 // http://code.google.com/p/chromium/issues/detail?id=128488

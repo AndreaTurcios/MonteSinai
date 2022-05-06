@@ -2,9 +2,10 @@
 //Se incluye la clase con las plantillas del documento
 require_once("../../app/helpers/book_page.php");
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Book_Page::headerTemplate('Unidad 2');
+Book_Page::headerTemplate('Unidad 3');
 ?>
 <!--  ----------------------------------------- fin plantilla header --------------------------------  -->
+
 
 <div id="canvas">
 	<div class="zoom-icon zoom-icon-in"></div>
@@ -16,107 +17,10 @@ Book_Page::headerTemplate('Unidad 2');
 				<!-- Previous button -->
 				<div ignore="1" class="previous-button"></div>
 			</div>
-		</div>
-		<!-- Thumbnails -->
-		<div class="thumbnails">
-			<div>
-				<ul>
-					<li class="i">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/1.JPG" width="76" height="100" class="page-1">
-						<span>Inicio</span>
-					</li>
-					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/37.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/38.JPG" width="76" height="100" class="page-3">
-						<span>37-38</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/39.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/40.JPG" width="76" height="100" class="page-3">
-						<span>39-40</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/41.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/42.JPG" width="76" height="100" class="page-3">
-						<span>41-42</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/43.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/44.JPG" width="76" height="100" class="page-3">
-						<span>43-44</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/45.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/46.JPG" width="76" height="100" class="page-3">
-						<span>45-46</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/47.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/48.JPG" width="76" height="100" class="page-3">
-						<span>47-48</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/49.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/50.JPG" width="76" height="100" class="page-3">
-						<span>49-50</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/51.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/52.JPG" width="76" height="100" class="page-3">
-						<span>51-52</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/53.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/54.JPG" width="76" height="100" class="page-3">
-						<span>53-54</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/55.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/56.JPG" width="76" height="100" class="page-3">
-						<span>55-56</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/57.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/58.JPG" width="76" height="100" class="page-3">
-						<span>57-58</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/59.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/60.JPG" width="76" height="100" class="page-3">
-						<span>59-60</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/61.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/62.JPG" width="76" height="100" class="page-3">
-						<span>61-62</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/63.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/64.JPG" width="76" height="100" class="page-3">
-						<span>63-64</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/65.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/66.JPG" width="76" height="100" class="page-3">
-						<span>65-66</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/67.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/68.JPG" width="76" height="100" class="page-3">
-						<span>67-68</span>
-					</li>
-                    <li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitTwo/69.JPG" width="76" height="100" class="page-2">
-						<span>69</span>
-					</li>
-                    <li class="i">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/44.JPG" width="76" height="100" class="page-14">
-						<span>Fin<span>
-					</li>
-			</div>
-		</div>
+		</div>		
 	</div>
 </div>
+
 
 <script type="text/javascript">
 	function loadApp() {
@@ -166,7 +70,7 @@ Book_Page::headerTemplate('Unidad 2');
 
 			// The number of pages,
 
-			pages: 40,
+			pages: 44,
 
 			// Events
 
@@ -193,7 +97,11 @@ Book_Page::headerTemplate('Unidad 2');
 					$('.thumbnails .page-' + page).
 					parent().
 					addClass('current');
-				
+
+
+					//var estados = page
+					//alert(page);
+					//alert("CurrentPage"+currentPage+"Página"+page );
 
 
 				},
@@ -511,7 +419,15 @@ Book_Page::headerTemplate('Unidad 2');
 		test: Modernizr.csstransforms,
 		yep: ['../../resources/js/turnjs4/lib/turn.js'],
 		nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
-		both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidaddosprimergrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
+		both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidadunoprimergrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
 		complete: loadApp
 	});
 </script>
+
+
+
+<!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
+<?php
+// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
+Book_Page::footerTemplate('juego1.js');
+?>

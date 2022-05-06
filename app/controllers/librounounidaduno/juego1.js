@@ -6,9 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-
-
-
 document.getElementById('game-one').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -122,8 +119,8 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
-        // sweetAlert(1, 'good job', null);
-        // return true;
+        sweetAlert(1, 'good job', null);
+        return true;
 
     } else if (one !== "a" || five !== "r" || nine !== "a" || thirdteen !== "o" || two !== "c" || six !== "o"
         || ten !== "d" || fourteen !== "l" || three !== "o" || seven !== "h" || eleven !== "o"
@@ -138,22 +135,92 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
-        //sweetAlert(2, 'Some of the answers are wrong, try it again', null);
-        //return false; --- era esta linea, porque esto lo que indica es que trunca el resto de acciones 
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        //return false;
+        // --- era esta linea, porque esto lo que indica es que trunca el resto de acciones 
     }
 
 
 });
 
+// document.getElementById('game').addEventListener('submit', function (event) {
+//     // Se evita recargar la página web después de enviar el formulario.
+//     event.preventDefault();
 
+
+// });
+
+document.getElementById('game-three').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    // variables declaradas
+    var s1, s2, s3, s4
+    // igualación de valores de inputs de form 
+    s1 = document.getElementById('sentence1').value;
+    s2 = document.getElementById('sentence2').value;
+    s3 = document.getElementById('sentence3').value;
+    s4 = document.getElementById('sentence4').value;
+    // iteraciones 
+    if (s1 === "" || s2 === "" || s3 === "" || s4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (s1 === "OPEN your eyes" && s2 === "CLOSE your eyes"
+        && s3 === "WASH your face" && s4 === "TOUCH your eyes") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+});
+
+
+document.getElementById('game-four').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    // declaración de variables  
+    var p1, p2, p3, p4;
+    // 
+    p1 = document.getElementById('sentence14').value;
+    p2 = document.getElementById('sentence24').value;
+    p3 = document.getElementById('sentence34').value;
+    p4 = document.getElementById('sentence44').value;
+    // 
+    if (p1 === "" || p2 === "" || p3 === "" || p4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (p1 === "I am Maricela" && p2 === "He is Boris" && p3 === "They are Classmates" && p4 === "She is Elsa") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
+document.getElementById('game').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    
+});
 
 document.getElementById('game-five').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-   
+
 
     if (canvasGrid.style.backgroundColor = pickedColor) {
-        alert("color");
+        //alert("color");
 
         promedio = 1.11;
         var libro = 4;
@@ -165,7 +232,7 @@ document.getElementById('game-five').addEventListener('submit', function (event)
         saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalLibrotsestdodfdfd');
     }
     if (canvasGrid.style.backgroundColor != pickedColor) {
-        alert("vacio");
+        //alert("vacio");
     }
 
 
