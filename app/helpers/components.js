@@ -124,9 +124,11 @@ function saveRowActivity(api, action, form, modal) {
                     // instance.close();
                     // Se cargan nuevamente las filas en la tabla de la vista después de agregar o modificar un registro.
                     //readRows(api);
-                    sweetAlert(1, response.message, null);
+                    console.log(response.message);
+                    //sweetAlert(1, response.message, null);
                 } else {
-                    sweetAlert(2, response.exception, null);
+                    //sweetAlert(2, response.exception, null);
+                    console.log(response.exception);
                 }
             });
         } else {
