@@ -872,7 +872,7 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 										</section>
 										<section class="right-panel">
-											<div class="canvas-grid" style="background-image: url(../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg); width:100%; height:100%;">
+											<div class="canvas-grid">
 											</div>
 										</section>
 									</div>
