@@ -208,11 +208,68 @@ document.getElementById('game-four').addEventListener('submit', function (event)
 
 });
 
-document.getElementById('game').addEventListener('submit', function (event) {
+document.getElementById('game-six').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    
+
+    var w1, w2, w3, w4;
+
+    w1 = document.getElementById('words11').value;
+    w2 = document.getElementById('words12').value;
+    w3 = document.getElementById('words2').value;
+    w4 = document.getElementById('words3').value;
+
+    if (w1 === "" || w2 === "" || w3 === "" || w4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (w1 === "I" && w2 === "You" && w3 === "I am a student" && w4 === "You are a teacher") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
 });
+
+document.getElementById('game-seven').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var ss1, ss2, ss3, ss4, ss5, ss6;
+    //
+    ss1 = document.getElementById('words-act6-11').value;
+    ss2 = document.getElementById('words-act6-22').value;
+    ss3 = document.getElementById('words-act6-33').value;
+    ss4 = document.getElementById('words-act6-44').value;
+    ss5 = document.getElementById('words-act6-55').value;
+    ss6 = document.getElementById('words-act6-66').value;
+
+    if (ss1 === "" || ss2 === "" || ss3 === "" || ss4 === "" || ss5 === "" || ss6 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (ss1 === "This is a mouth" && ss2 === "This is a nose" && ss3 === "This is a head"
+        && ss4 === "These are feet" && ss5 === "These are hands" && ss6 === "These are eyes") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+
+});
+
 
 document.getElementById('game-five').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
