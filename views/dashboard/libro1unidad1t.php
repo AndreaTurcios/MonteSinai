@@ -921,7 +921,7 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 									</div>
 									<div class="row row-cols-2">
-									
+
 
 										<div class="col">
 											<div class="col">
@@ -999,7 +999,7 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 									</div>
 									<div class="row row-cols-2">
-									
+
 
 										<div class="col">
 											<div class="col">
@@ -1178,7 +1178,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="col">
 												<input type="text" id="words3" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>										
+										</div>
 										<!-- fin cols  -->
 									</div>
 								</div>
@@ -1226,7 +1226,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<div class="col">
 												<input type="text" id="words-act6-11" class="form-control" aria-label="Sizing example input" maxlength="100">
-											</div>											
+											</div>
 										</div>
 										<div class="col">
 											<div class="col">
@@ -1237,22 +1237,22 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="col">
 												<input type="text" id="words-act6-33" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>	
+										</div>
 										<div class="col">
 											<div class="col">
 												<input type="text" id="words-act6-44" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>	
+										</div>
 										<div class="col">
 											<div class="col">
 												<input type="text" id="words-act6-55" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>	
+										</div>
 										<div class="col">
 											<div class="col">
 												<input type="text" id="words-act6-66" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>										
+										</div>
 										<!-- fin cols  -->
 									</div>
 								</div>
@@ -1300,7 +1300,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<div class="col">
 												<input type="text" id="word-acty7-01" class="form-control" aria-label="Sizing example input" maxlength="100">
-											</div>											
+											</div>
 										</div>
 										<div class="col">
 											<div class="col">
@@ -1311,12 +1311,12 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="col">
 												<input type="text" id="word-acty7-03" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>	
+										</div>
 										<div class="col">
 											<div class="col">
 												<input type="text" id="word-acty7-04" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>																			
+										</div>
 										<!-- fin cols  -->
 									</div>
 								</div>
@@ -1364,7 +1364,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<div class="col">
 												<input type="text" id="word-acto8-11" class="form-control" aria-label="Sizing example input" maxlength="100">
-											</div>											
+											</div>
 										</div>
 										<div class="col">
 											<div class="col">
@@ -1375,12 +1375,12 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="col">
 												<input type="text" id="word-acto8-13" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>	
+										</div>
 										<div class="col">
 											<div class="col">
 												<input type="text" id="word-acto8-14" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>																			
+										</div>
 										<!-- fin cols  -->
 									</div>
 								</div>
@@ -1428,23 +1428,146 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<div class="col">
 												<input type="text" id="word-actyo10-21" class="form-control" aria-label="Sizing example input" maxlength="100">
-											</div>											
+											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acto10-22" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo10-22" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
 												<input type="text" id="word-actyo10-23" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>	
+										</div>
 										<div class="col">
 											<div class="col">
 												<input type="text" id="word-actyo10-24" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>																			
+										</div>
+										<!-- fin cols  -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalLibroOnce" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-eleven">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points10" name="points10">
+											<input type="text" class="d-none" id="idcliente10" name="idcliente10">
+											<input type="text" class="d-none" id="idlibro10" name="idlibro10">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div class="col">
+												<input type="text" id="word-actyo11-31" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="word-actyo11-32" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="word-actyo11-33" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<!-- fin cols  -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalLibroDoce" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twelve">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points12" name="points12">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente12">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro12">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div class="col">
+												<input type="text" id="word-actyo12-41" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="word-actyo12-42" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="word-actyo12-43" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="word-actyo12-44" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
 										<!-- fin cols  -->
 									</div>
 								</div>

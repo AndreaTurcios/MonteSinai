@@ -6,13 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-// document.getElementById('game').addEventListener('submit', function (event) {
-//     // Se evita recargar la página web después de enviar el formulario.
-//     event.preventDefault();
-
-
-// });
-
 document.getElementById('game-one').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -334,11 +327,98 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
-    var se1, se2, se4, se5 ;
+    var se1, se2, se4, se5;
     // 
-    
+    se1 = document.getElementById('word-actyo10-21').value;
+    se2 = document.getElementById('word-actyo10-22').value;
+    se3 = document.getElementById('word-actyo10-23').value;
+    se4 = document.getElementById('word-actyo10-24').value;
+    // 
+    if (se1 === "" || se2 === "" || se3 === "" || se4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (se1 === "My" && se2 === "Your" && se3 === "His" && se4 === "Her") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
 
 });
+
+
+// document.getElementById('game').addEventListener('submit', function (event) {
+//     // Se evita recargar la página web después de enviar el formulario.
+//     event.preventDefault();
+
+
+// });
+
+
+document.getElementById('game-eleven').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    // 
+    var stc1, stc2, stc3;
+    // 
+    stc1 = document.getElementById('word-actyo11-31').value;
+    stc2 = document.getElementById('word-actyo11-32').value;
+    stc3 = document.getElementById('word-actyo11-33').value;
+    // 
+    if (stc1 === "" || stc2 === "" || stc3 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (stc1 === "This is your watch" && stc2 === "This is his watch" && stc3 === "This is her watch") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+});
+
+
+document.getElementById('game-twelve').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var ste1, ste2, ste3, ste4;
+    // 
+    ste1 = document.getElementById('word-actyo12-41').value;
+    ste2 = document.getElementById('word-actyo12-42').value;
+    ste3 = document.getElementById('word-actyo12-43').value;
+    ste4 = document.getElementById('word-actyo12-44').value;
+    // 
+    if (ste1 === "" || ste2 === "" || ste3 === "" || ste4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (ste1 === "Short" && ste2 === "Tall" && ste3 === "I am short" && ste4 === "You are tall") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+
+});
+
 
 
 document.getElementById('game-five').addEventListener('submit', function (event) {
