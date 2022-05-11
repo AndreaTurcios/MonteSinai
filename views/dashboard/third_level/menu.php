@@ -53,7 +53,7 @@
       <td>
       <div class="starter-template">
         <div class="card" style="width: 18rem;">
-        <div align="center"><img src="img/mybody.png" alt="..." width="88%" height="384" class="card-img-top">        </div>
+        <div align="center"><img src="img/mybody.png" alt="..." width="" height="" class="card-img-top">        </div>
         <div class="card-body">
         <h5 class="card-title">UNIT ONE</h5>
         <p class="card-text">-I LIKE TO EAT.<br>-A BUSY FAMILY</p>
