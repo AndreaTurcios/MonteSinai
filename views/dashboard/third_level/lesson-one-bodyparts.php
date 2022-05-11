@@ -18,8 +18,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet">
-</head>
+    <link href="css/starter-template.css" rel="stylesheet"></head>
 
   <body>
 
@@ -47,33 +46,13 @@
        
       </div>
     </nav>
-
+<br>
+<br>
     <main role="main" class="container">
-<table width="48%" class="table table-borderless">
-  <tr>
-      <td width="27%">
-        <div align="center"><strong>Write the name in each part of the body.</strong><br>
-          <br>
-          <img src="img/bodyparts.png">        </div></td>
-   <td width="73%">   
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </td>    
-   
- </tr>
-</table>
-     
- 
-</div>
-        <h3></h3>
-        <p class="lead"></p>
-      </div>
-     
-
-
-
-
-
+      <h3>Drag the name of the parts of the body</h3>
+<br>
+  <br>
+      
 
 
 
@@ -92,3 +71,86 @@
 <map name="Map">
   <area shape="rect" coords="119,30,143,40" href="#" target="_self" alt="Hair">
 </map></body></html>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Drag-and-Drop Example</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <script src="js/script.js"></script>
+
+<div class="example-parent">
+  <div class="example-origin">
+    <div
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+      Hair
+    </div>
+    <div
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+      Head
+    </div>
+  <div
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+      Eye
+    </div>
+    <div
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+      Mouth
+    </div>
+    <div
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+      Nose
+    </div>
+    <div
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+      Leg
+    </div>
+<div
+      id="draggable-1"
+      class="example-draggable"
+      draggable="true"
+      ondragstart="onDragStart(event);"
+    >
+      Foot
+    </div>
+
+
+  </div>
+  <div
+    class="bodyparts"
+    ondragover="onDragOver(event);"
+    ondrop="onDrop(event);"
+  >
+    Parts of the body
+  </div>
+</div>
+
+  </body>
+</html>
