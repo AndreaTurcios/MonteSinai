@@ -18,7 +18,10 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/starter-template.css" rel="stylesheet"></head>
+    <link href="css/starter-template.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="css/style.css" />
+  </head>
 
   <body>
 
@@ -53,34 +56,7 @@
 <br>
   <br>
       
-
-
-
-    </main><!-- /.container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="css/jquery-3.2.1.slim.min.js.descarga" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="./Starter Template for Bootstrap_files/popper.min.js.descarga"></script>
-    <script src="./Starter Template for Bootstrap_files/bootstrap.min.js.descarga"></script>
-  
-
-
-<map name="Map">
-  <area shape="rect" coords="119,30,143,40" href="#" target="_self" alt="Hair">
-</map></body></html>
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My Drag-and-Drop Example</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 
 <div class="example-parent">
   <div class="example-origin">
@@ -152,5 +128,24 @@
   </div>
 </div>
 
-  </body>
+
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="css/jquery-3.2.1.slim.min.js.descarga" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./Starter Template for Bootstrap_files/popper.min.js.descarga"></script>
+    <script src="./Starter Template for Bootstrap_files/bootstrap.min.js.descarga"></script>
+  
+
+
+<map name="Map">
+  <area shape="rect" coords="119,30,143,40" href="#" target="_self" alt="Hair">
+</map></body></html>
+
+
+
 </html>
