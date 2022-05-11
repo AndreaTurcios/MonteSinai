@@ -415,9 +415,37 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
+});
+
+
+document.getElementById('game-thirdteen').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var stcn1, stcn2, stcn3;
+    // 
+    stcn1 = document.getElementById('word-actyo13-51').value;
+    stcn2 = document.getElementById('word-actyo13-52').value;
+    stcn3 = document.getElementById('word-actyo13-53').value;
+    //
+    if (stcn1 === "" || stcn2 === "" || stcn3 === "") {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (stcn1 === "What?" && stcn2 === "What is this?" && stcn3 === "What is your name?") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
 
 
 });
+
 
 
 
