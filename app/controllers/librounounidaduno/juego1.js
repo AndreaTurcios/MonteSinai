@@ -518,36 +518,41 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
     choice14 = document.getElementById('flexCheckDefault14');
     choice15 = document.getElementById('flexCheckDefault15');
     //
-    
-    if (choice3.checked === false || choice5.checked === false || choice7.checked === false || choice12.checked === false || choice14.checked === false ) {
+
+    if (choice3.checked === false && choice5.checked === false && choice7.checked === false && choice12.checked === false && choice14.checked === false) {
         sweetAlert(2, 'Select one choice, none of them are selected', null);
         return false;
     }
-    if (choice1.checked === true || choice2.checked === true ||  choice4.checked === true
-        || choice6.checked === true || choice8.checked === true || choice9.checked === true
-        || choice10.checked === true || choice11.checked === true  || choice13.checked === true || choice15.checked === true) {
-        sweetAlert(2, 'Select one choice per excercise', null);
-        return false;
-    }
-    if (choice3.checked === true && choice5.checked === true) {
+    // if (choice1.checked === true || choice2.checked === true || choice4.checked === true
+    //     || choice6.checked === true || choice8.checked === true || choice9.checked === true
+    //     || choice10.checked === true || choice11.checked === true || choice13.checked === true || choice15.checked === true) {
+    //     sweetAlert(2, 'Select one choice per excercise', null);
+    //     return false;
+    // }
+    if (choice3.checked === true && choice5.checked === true && choice3.checked === true
+        && choice5.checked === true && choice7.checked === true && choice12.checked === true
+        && choice14.checked === true) {
 
         sweetAlert(1, 'good job', null);
         return true;
     }
-    else {
+    else if (choice3.checked === false && choice5.checked === false
+        && choice7.checked === false && choice12.checked === false && choice14.checked === false || choice1.checked === true || choice2.checked === true || choice4.checked === true
+            || choice6.checked === true || choice8.checked === true || choice9.checked === true
+            || choice10.checked === true || choice11.checked === true || choice13.checked === true || choice15.checked === true ) {
 
-        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
-        return true;
-    }
+    sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+    return true;
+}
 
 });
 
 
 document.getElementById('game').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
-   event.preventDefault();
-   //
-   
+    event.preventDefault();
+    //
+
 });
 
 
