@@ -2,8 +2,6 @@ const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
 
 document.addEventListener('DOMContentLoaded', function () {
 
-
-
 });
 
 document.getElementById('game-one').addEventListener('submit', function (event) {
@@ -448,6 +446,111 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
 
 
 
+document.getElementById('game-fourhteen').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    // creación de arrays para comparación
+    var arr1 = ['Red', 'Red', 'Red', 'Red', 'Red', 'Red'];
+    var comp_arr1 = [];
+    var arr2 = ['Green', 'Green', 'Green', 'Green', 'Green', 'Green'];
+    var comp_arr2 = [];
+    var arr3 = ['Blue', 'Blue', 'Blue', 'Blue', 'Blue', 'Blue'];
+    var comp_arr3 = [];
+    var arr4 = ['Black', 'Black', 'Black', 'Black', 'Black', 'Black'];
+    var comp_arr4 = [];
+    var arr4 = ['Brown', 'Brown', 'Brown', 'Brown', 'Brown', 'Brown'];
+    var comp_arr5 = [];
+    var arr4 = ['Yellow', 'Yellow', 'Yellow', 'Yellow', 'Yellow', 'Yellow'];
+    var comp_arr6 = [];
+    //
+    var stcne1, stcne2, stcne3, stcne4, stcne5, stcne6;
+    //
+    stcne1 = document.getElementById('colors-actyo14-61').value;
+    stcne2 = document.getElementById('colors-actyo14-62').value;
+    stcne3 = document.getElementById('colors-actyo14-63').value;
+    stcne4 = document.getElementById('colors-actyo14-64').value;
+    stcne5 = document.getElementById('colors-actyo14-65').value;
+    stcne6 = document.getElementById('colors-actyo14-66').value;
+    //
+    if (stcne1 === "" || stcne2 === "" || stcne3 === ""
+        || stcne4 === "" || stcne5 === "" || stcne6 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (stcne1 === "Red" && stcne2 === "Green" && stcne3 === "Blue"
+        && stcne4 === "Black" && stcne5 === "Brown" && stcne6 === "Yellow") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+
+});
+
+
+document.getElementById('game-twentyfive').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    // 
+    var choice1, choice2, choice3, choice4, choice5, choice6,
+        choice7, choice8, choice9, choice10, choice11, choice12,
+        choice13, choice14, choice15;
+    //
+    choice1 = document.getElementById('flexCheckDefault1');
+    choice2 = document.getElementById('flexCheckDefault2');
+    choice3 = document.getElementById('flexCheckDefault3');
+    choice4 = document.getElementById('flexCheckDefault4');
+    choice5 = document.getElementById('flexCheckDefault5');
+    choice6 = document.getElementById('flexCheckDefault6');
+    choice7 = document.getElementById('flexCheckDefault7');
+    choice8 = document.getElementById('flexCheckDefault8');
+    choice9 = document.getElementById('flexCheckDefault9');
+    choice10 = document.getElementById('flexCheckDefault10');
+    choice11 = document.getElementById('flexCheckDefault11');
+    choice12 = document.getElementById('flexCheckDefault12');
+    choice13 = document.getElementById('flexCheckDefault13');
+    choice14 = document.getElementById('flexCheckDefault14');
+    choice15 = document.getElementById('flexCheckDefault15');
+    //
+    
+    if (choice3.checked === false || choice5.checked === false || choice7.checked === false || choice12.checked === false || choice14.checked === false ) {
+        sweetAlert(2, 'Select one choice, none of them are selected', null);
+        return false;
+    }
+    if (choice1.checked === true || choice2.checked === true ||  choice4.checked === true
+        || choice6.checked === true || choice8.checked === true || choice9.checked === true
+        || choice10.checked === true || choice11.checked === true  || choice13.checked === true || choice15.checked === true) {
+        sweetAlert(2, 'Select one choice per excercise', null);
+        return false;
+    }
+    if (choice3.checked === true && choice5.checked === true) {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    }
+    else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
+
+document.getElementById('game').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+   event.preventDefault();
+   //
+   
+});
+
+
 
 document.getElementById('game-five').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -475,7 +578,6 @@ document.getElementById('game-five').addEventListener('submit', function (event)
 
 
 // coloreo ----------------------------------
-
 // variables
 const colorGrid = document.querySelector('.color-grid');
 const canvasGrid = document.querySelector('.canvas-grid');

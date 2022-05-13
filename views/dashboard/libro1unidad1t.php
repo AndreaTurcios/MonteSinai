@@ -1606,9 +1606,9 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points12" name="points12">
-											<input type="text" class="d-none" id="idcliente12" name="idcliente12">
-											<input type="text" class="d-none" id="idlibro12" name="idlibro12">
+											<input type="text" class="d-none" id="points13" name="points13">
+											<input type="text" class="d-none" id="idcliente13" name="idcliente13">
+											<input type="text" class="d-none" id="idlibro13" name="idlibro13">
 										</div>
 									</div>
 									<div class="row row-cols-2">
@@ -1626,7 +1626,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="col">
 												<input type="text" id="word-actyo13-53" class="form-control" aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>										
+										</div>
 										<!-- fin cols  -->
 									</div>
 								</div>
@@ -1646,6 +1646,490 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
+
+
+<div id="ModalLibroVeinticinco" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyfive">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points25" name="points25">
+											<input type="text" class="d-none" id="idcliente25" name="idcliente25">
+											<input type="text" class="d-none" id="idlibro25" name="idlibro25">
+										</div>
+									</div>
+									<div class="row row-cols-4">
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+														<label class="form-check-label" for="flexCheckDefault1">
+															TWO
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+														<label class="form-check-label" for="flexCheckDefault2">
+															ONE
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+														<label class="form-check-label" for="flexCheckDefault3">
+															SEVEN
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<!-- espacio -->
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<!-- espacio -->
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+														<label class="form-check-label" for="flexCheckDefault4">
+															FIVE
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+														<label class="form-check-label" for="flexCheckDefault5">
+															ONE
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+														<label class="form-check-label" for="flexCheckDefault6">
+															FOUR
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<!-- espacio -->
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<!-- espacio -->
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+														<label class="form-check-label" for="flexCheckDefault7">
+															SIX
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+														<label class="form-check-label" for="flexCheckDefault8">
+															THREE
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+														<label class="form-check-label" for="flexCheckDefault9">
+															EIGHT
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<!-- espacio -->
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<!-- espacio -->
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+														<label class="form-check-label" for="flexCheckDefault10">
+															NINE
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+														<label class="form-check-label" for="flexCheckDefault11">
+															SIX
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+														<label class="form-check-label" for="flexCheckDefault12">
+															TEN
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<!-- espacio -->
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<div class="col"></div>
+										<!-- espacio -->
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+														<label class="form-check-label" for="flexCheckDefault13">
+															NINE
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+														<label class="form-check-label" for="flexCheckDefault14">
+															TWO
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="form-check">
+												<div class="row">
+													<div class="col">
+														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+														<label class="form-check-label" for="flexCheckDefault15">
+															FIVE
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalLibroCatorce" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fourhteen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points14" name="points14">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente14">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro14">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div class="col">
+												<input type="text" id="colors-actyo14-61" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="colors-actyo14-62" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="colors-actyo14-63" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="colors-actyo14-64" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="colors-actyo14-65" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="colors-actyo14-66" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<!-- fin cols  -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalLibroVeintiseis" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentysix">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points26" name="points26">
+											<input type="text" class="d-none" id="idcliente26" name="idcliente26">
+											<input type="text" class="d-none" id="idlibro26" name="idlibro26">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-261" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-262" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-263" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-264" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-265" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-266" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-267" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-268" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-269" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="numbers-actyo26-2610" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<!-- fin cols  -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
