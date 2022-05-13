@@ -2130,6 +2130,161 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<div id="ModalLibroVeintinueve" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentynine">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points29" name="points29">
+											<input type="text" class="d-none" id="idcliente29" name="idcliente29">
+											<input type="text" class="d-none" id="idlibro29" name="idlibro29">
+										</div>
+									</div>
+									<div class="row row-cols-2 row-cols-lg-3">
+										<div class="col border border-dark col-4">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row row-cols-3">
+													<div class="col">
+														<h4>B</h4>
+													</div>
+													<div class="col">
+														<h4>y</h4>
+													</div>
+													<div class="col">
+														<input type="text" id="input-actp1" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-4">
+											<!-- inicio group -->
+											<div class="input-group">
+												<div class="row row-cols-2">
+													<div class="col">
+														<h4>see</h4>
+													</div>
+													<div class="col">
+														<input type="text" id="input-actp2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-4">
+											<!-- inicio group -->
+											<div class="input-group">
+												<div class="row row-cols-2">
+													<div class="col">
+														<input type="text" id="input-actp3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>much</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row">
+													<div class="col">
+														<h4>How</h4>
+													</div>
+													<div class="col">
+														<input type="text" id="input-actp4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>you ?</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-lg-8">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row row-cols-5">
+													<div class="col">
+														<h4>Fine,</h4>
+													</div>
+													<div class="col">
+														<input type="text" id="input-actp5" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>,</h4>
+													</div>
+													<div class="col">
+														<input type="text" id="input-actp6" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>you ?</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-lg-8">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row">
+													<div class="col">
+														<input type="text" id="input-actp7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>Karla !</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row">
+													<div class="col">
+														<h4>What's</h4>
+													</div>
+													<div class="col">
+														<input type="text" id="input-actp8" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->

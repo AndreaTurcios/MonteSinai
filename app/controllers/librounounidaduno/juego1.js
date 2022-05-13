@@ -538,20 +538,85 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
     }
     else if (choice3.checked === false && choice5.checked === false
         && choice7.checked === false && choice12.checked === false && choice14.checked === false || choice1.checked === true || choice2.checked === true || choice4.checked === true
-            || choice6.checked === true || choice8.checked === true || choice9.checked === true
-            || choice10.checked === true || choice11.checked === true || choice13.checked === true || choice15.checked === true ) {
+        || choice6.checked === true || choice8.checked === true || choice9.checked === true
+        || choice10.checked === true || choice11.checked === true || choice13.checked === true || choice15.checked === true) {
 
-    sweetAlert(2, 'Some of the answers are wrong, try it again', null);
-    return true;
-}
+        sweetAlert(2, 'Some of the answers are wrong, try it again or select one choice per excercise ', null);
+        return true;
+    }
 
 });
 
 
-document.getElementById('game').addEventListener('submit', function (event) {
+document.getElementById('game-twentysix').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
+    var nums1, nums2, nums3, nums4, nums5, nums6, nums7, nums8, nums9, nums10;
+    // 
+    nums1 = document.getElementById('numbers-actyo26-261').value;
+    nums2 = document.getElementById('numbers-actyo26-262').value;
+    nums3 = document.getElementById('numbers-actyo26-263').value;
+    nums4 = document.getElementById('numbers-actyo26-264').value;
+    nums5 = document.getElementById('numbers-actyo26-265').value;
+    nums6 = document.getElementById('numbers-actyo26-266').value;
+    nums7 = document.getElementById('numbers-actyo26-267').value;
+    nums8 = document.getElementById('numbers-actyo26-268').value;
+    nums9 = document.getElementById('numbers-actyo26-269').value;
+    nums10 = document.getElementById('numbers-actyo26-2610').value;
+    // 
+    if (nums1 === "" || nums2 === "" || nums3 === "" || nums4 === "" || nums5 === ""
+        || nums6 === "" || nums7 === "" || nums8 === "" || nums9 === "" || nums10 === "") {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (nums1 === "One" && nums2 === "Two" && nums3 === "Three" && nums4 === "Four" && nums5 === "Five"
+        && nums6 === "Six" && nums7 === "Seven" && nums8 === "Eight" && nums9 === "Nine" && nums10 === "Ten") {
+        sweetAlert(1, 'good job', null);
+        return true;
+    } else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+
+});
+
+
+document.getElementById('game-twentynine').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var actp1, actp2, actp3, actp4, actp5, actp6, actp7, actp8
+    //
+    actp1 = document.getElementById('input-actp1').value;
+    actp2 = document.getElementById('input-actp2').value;
+    actp3 = document.getElementById('input-actp3').value;
+    actp4 = document.getElementById('input-actp4').value;
+    actp5 = document.getElementById('input-actp5').value;
+    actp6 = document.getElementById('input-actp6').value;
+    actp7 = document.getElementById('input-actp7').value;
+    actp8 = document.getElementById('input-actp8').value;
+    //
+    if (actp1 === "" || actp2 === "" || actp3 === "" || actp3 === ""
+        || actp4 === "" || actp5 === "" || actp5 === "" || actp6 === ""
+        || actp7 === "" || actp8 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (actp1 === "e" && actp2 === "you" && actp3 === "Not" && actp4 === "are"
+        && actp5 === "Thank you" && actp6 === "and" && actp7 === "Hi" && actp8 === "new") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    } else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
 
 });
 
