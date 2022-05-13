@@ -621,6 +621,44 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
 });
 
 
+document.getElementById('game-thirty').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var comp1, comp2, comp3, comp4, comp5, comp6;
+    // 
+    comp1 = document.getElementById('input-actp301').value;
+    comp2 = document.getElementById('input-actp302').value;
+    comp3 = document.getElementById('input-actp303').value;
+    comp4 = document.getElementById('input-actp304').value;
+    comp5 = document.getElementById('input-actp305').value;
+    comp6 = document.getElementById('input-actp306').value;
+    // 
+    if (comp1 === "" || comp2 === "" || comp3 === ""
+        || comp4 === "" || comp5 === "" || comp6 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (comp1 === "Miss" && comp2 === "Hello" && comp3 === "do"
+        && comp4 === "you" && comp5 === "bad" && comp6 === "later") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    } else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
+
+document.getElementById('game').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+ });
+
 
 document.getElementById('game-five').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
