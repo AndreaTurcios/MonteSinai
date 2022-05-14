@@ -55,7 +55,15 @@
       <h3>Drag the name of the parts of the body</h3>
 <br>
   <br>
-      
+<table>
+<tr>
+  <td>
+  prueba
+  </td>
+
+</tr>
+
+</table>
 <script src="js/script.js"></script>
 
 <div class="example-parent">

@@ -28,10 +28,11 @@ Dashboard_Page::headerTemplate('Libro 3');
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
-                    <img src="img/mybody.png">
-                        <div style="margin-top: 10px; font-weight: bold; 
+                      <div align="center"><img src="img/mybody.png">
+                      </div>
+                      <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;" align="center">UNIT ONE</div>
-                    </div>
+                  </div>
 
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My Body</span>
                     <div style="font-size: 18px;">- I LIKE TO EAT
@@ -47,10 +48,11 @@ Dashboard_Page::headerTemplate('Libro 3');
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
-                    <img src="img/unit2.png" width="320px" heigth="">
-                    <div style="margin-top: 10px; font-weight: bold; 
+                      <div align="center"><img src="img/unit2.png" width="320px" heigth="">
+                        </div>
+                      <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;" align="center">UNIT TWO</div>
-                    </div>
+                  </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My Family</span>
                     <div style="
                         font-size: 18px;">- A HAPPY PARTY
@@ -66,10 +68,11 @@ Dashboard_Page::headerTemplate('Libro 3');
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
-                    <img src="img/unit3.png" width="336px">
-                        <div style="margin-top: 10px; font-weight: bold; 
+                      <div align="center"><img src="img/unit3.png" width="336px">
+                      </div>
+                      <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;" align="center">UNIT THREE</div>
-                    </div>
+                  </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My School</span>
                     <div style="font-size: 18px;">- TELLING THE TIME
                     </div>
