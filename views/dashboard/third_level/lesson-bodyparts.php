@@ -51,45 +51,21 @@
     </nav>
 <br>
 <br>
-  <main role="main" class="container">
+    <main role="main" class="container">
       <h3>Drag the name of the parts of the body</h3>
-      <p>&nbsp;</p>
-      <table width="200" border="1" align="center">
-        <tr>
-          <td colspan="5"><div align="center"><img src="img/bodyparts.png" width="221" height="340"></div></td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    <br>
+<br>
   <br>
+
+<script src="js/script.js"></script>
 <table>
 <tr>
   <td>
-  prueba  </td>
-</tr>
-</table>
-<script src="js/script.js"></script>
+  prueba
+  </td>
 
+</tr>
+
+</table>
 <div class="example-parent">
   <div class="example-origin">
     <div
@@ -98,59 +74,71 @@
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Hair    </div>
+      Hair
+    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Head    </div>
+      Head
+    </div>
   <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Eye    </div>
+      Eye
+    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Mouth    </div>
+      Mouth
+    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Nose    </div>
+      Nose
+    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Leg    </div>
+      Leg
+    </div>
 <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Foot    </div>
+      Foot
+    </div>
+
+
   </div>
   <div
     class="bodyparts"
     ondragover="onDragOver(event);"
     ondrop="onDrop(event);"
   >
-    Parts of the body  </div>
+    Parts of the body
+  </div>
 </div>
-    </main>
-  <!-- /.container -->
+
+
+
+    </main><!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -164,8 +152,7 @@
 
 <map name="Map">
   <area shape="rect" coords="119,30,143,40" href="#" target="_self" alt="Hair">
-</map>
-  </body></html>
+</map></body></html>
 
 
 

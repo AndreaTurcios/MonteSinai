@@ -55,6 +55,8 @@
       <h3>Drag the name of the parts of the body</h3>
 <br>
   <br>
+
+<script src="js/script.js"></script>
 <table>
 <tr>
   <td>
@@ -64,8 +66,6 @@
 </tr>
 
 </table>
-<script src="js/script.js"></script>
-
 <div class="example-parent">
   <div class="example-origin">
     <div

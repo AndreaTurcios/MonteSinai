@@ -13,7 +13,7 @@ Dashboard_Page::headerTemplate('Libro 3');
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">THIRD BOOK: <br />TIME TO LEARN ENGLISH</h1>
+                <h1 class="center">THIRD BOOK <br />TIME TO LEARN ENGLISH</h1>
                 <br />
                 <h3 class="center">THIRD GRADE</h3>
             </div>
@@ -40,7 +40,7 @@ Dashboard_Page::headerTemplate('Libro 3');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- A BUSY FAMILY
                     </div>
-                    <a class="btn btn-primary" href="lesson-one-bodyparts.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
+                    <a class="btn btn-primary" href="lesson-bodyparts.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
 
