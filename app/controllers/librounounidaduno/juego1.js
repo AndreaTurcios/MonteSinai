@@ -351,14 +351,6 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
 });
 
 
-// document.getElementById('game').addEventListener('submit', function (event) {
-//     // Se evita recargar la página web después de enviar el formulario.
-//     event.preventDefault();
-
-
-// });
-
-
 document.getElementById('game-eleven').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -654,10 +646,37 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
 });
 
 
-document.getElementById('game').addEventListener('submit', function (event) {
+document.getElementById('game-thirtyone').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
- });
+    // 
+    var fills1, fills2, fills3, fills4, fills5, fills6;
+    //
+    fills1 = document.getElementById('input-actp311').value;
+    fills2 = document.getElementById('input-actp312').value;
+    fills3 = document.getElementById('input-actp313').value;
+    fills4 = document.getElementById('input-actp314').value;
+    fills5 = document.getElementById('input-actp315').value;
+    fills6 = document.getElementById('input-actp316').value;
+    //
+    if (fills1 === "" || fills2 === "" || fills3 === ""
+        || fills4 === "" || fills4 === "" || fills5 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (fills1 === "ent" && fills2 === "good!" && fills3 === "od"
+        && fills4 === "Well" && fills5 === "All" && fills6 === "Good") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    } else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
 
 
 document.getElementById('game-five').addEventListener('submit', function (event) {
@@ -683,6 +702,79 @@ document.getElementById('game-five').addEventListener('submit', function (event)
 
 
 });
+
+
+// document.getElementById('game').addEventListener('submit', function (event) {
+//     // Se evita recargar la página web después de enviar el formulario.
+//     event.preventDefault();
+// });
+
+document.getElementById('game-thirtytwo').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var f1, f2, f3, f4, f5, f6, f7, f8, f9, f10;
+    //
+    f1 = document.getElementById('food-actyo32-61').value;
+    f2 = document.getElementById('food-actyo32-62').value;
+    f3 = document.getElementById('food-actyo32-63').value;
+    f4 = document.getElementById('food-actyo32-64').value;
+    f5 = document.getElementById('food-actyo32-65').value;
+    f6 = document.getElementById('food-actyo32-66').value;
+    f7 = document.getElementById('food-actyo32-67').value;
+    f8 = document.getElementById('food-actyo32-68"').value;
+    f9 = document.getElementById('food-actyo32-69').value;
+    f10 = document.getElementById('food-actyo32-610').value;
+    //
+    if (f1 === "" || f2 === "" || f3 === "" || f4 === ""
+        || f5 === "" || f6 === "" || f7 === "" || f8 === ""
+        || f9 === "" || f10 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (f1 === "rice" && f2 === "eggs" && f3 === "chicken" && f4 === "beans" && f5 === "oranges"
+        && f6 === "potatoes" && f7 === "fish" && f8 === "meat" && f9 === "bread" && f10 === "shrimps") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    } else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+});
+
+
+document.getElementById('game-thirtythree').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var frt1, frt2, frt3, frt4;
+    //
+    frt1 = document.getElementById('food-actyo33-71').value;
+    frt2 = document.getElementById('food-actyo33-72').value;
+    frt3 = document.getElementById('food-actyo33-73').value;
+    frt4 = document.getElementById('food-actyo33-74').value;
+    //
+    if (frt1 === "" || frt2 === "" || frt3 === "" || frt4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (frt1 === "Orange" && frt2 === "Melon" && frt3 === "Coconut" && frt4 === "Tomato") {
+
+        sweetAlert(1, 'good job', null);
+        return true;
+    } else {
+
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
+
 
 
 // coloreo ----------------------------------

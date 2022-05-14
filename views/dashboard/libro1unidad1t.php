@@ -2364,10 +2364,10 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="row row-cols-3">
 													<div class="col">
 														<h4>See</h4>
-													</div>													
+													</div>
 													<div class="col">
 														<input type="text" id="input-actp304" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-													</div>													
+													</div>
 												</div>
 											</div>
 											<!-- fin group -->
@@ -2376,12 +2376,12 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row">
-												<div class="col">
+													<div class="col">
 														<h4>Not</h4>
 													</div>
 													<div class="col">
 														<input type="text" id="input-actp305" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-													</div>													
+													</div>
 												</div>
 											</div>
 											<!-- fin group -->
@@ -2419,6 +2419,308 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<div id="ModalLibroTreintayuno" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirtyone">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points31" name="points31">
+											<input type="text" class="d-none" id="idcliente31" name="idcliente31">
+											<input type="text" class="d-none" id="idlibro31" name="idlibro31">
+										</div>
+									</div>
+									<div class="row row-cols-2 row-cols-lg-3">
+										<div class="col border border-dark col-lg-8">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row row-cols-10">
+													<div class="col">
+														<h4>E</h4>
+													</div>
+													<div class="col">
+														<h4>x</h4>
+													</div>
+													<div class="col">
+														<h4>c</h4>
+													</div>
+													<div class="col">
+														<h4>e</h4>
+													</div>
+													<div class="col">
+														<h4>l</h4>
+													</div>
+													<div class="col">
+														<h4>l</h4>
+													</div>
+													<div class="col col-4">
+														<input type="text" id="input-actp311" class="form-control">
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row rows-cols-4">
+													<div class="col">
+														<h4>Very</h4>
+													</div>
+													<div class="col">
+														<input type="text" id="input-actp312" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-lg-8">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row row-cols-5">
+													<div class="col">
+														<h4>G</h4>
+													</div>
+													<div class="col">
+														<h4>o</h4>
+													</div>
+													<div class="col ">
+														<input type="text" id="input-actp313" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col col-4">
+														<h4>!</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row row-cols-4">
+													<div class="col">
+														<input type="text" id="input-actp314" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>done</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-lg-8">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row">
+													<div class="col">
+														<input type="text" id="input-actp315" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>Right!</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3">
+												<div class="row">
+													<div class="col">
+														<input type="text" id="input-actp316" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>Job!</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalLibroTreintaydos" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirtytwo">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points32" name="points32">
+											<input type="text" class="d-none" id="idcliente32" name="idcliente32">
+											<input type="text" class="d-none" id="idlibro32" name="idlibro32">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-61" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-62" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-63" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-64" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-65" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-66" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-67" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-68" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-69" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo32-610" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+											<!-- fin cols  -->
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalLibroTreintaytres" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirtythree">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points33" name="points33">
+											<input type="text" class="d-none" id="idcliente33" name="idcliente33">
+											<input type="text" class="d-none" id="idlibro33" name="idlibro33">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo33-71" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo33-72" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo33-73" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<input type="text" id="food-actyo33-74" class="form-control" aria-label="Sizing example input" maxlength="100">
+											</div>
+										</div>										
+									</div>
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+			</form>
+		</div>
+	</div>
+</div>
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
