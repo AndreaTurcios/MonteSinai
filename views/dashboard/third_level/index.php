@@ -4,7 +4,7 @@ session_start();
 
 
 if(isset($_POST['submit'])){
-	header("Location:libro3.php");
+	header("Location:thirdgrade.php");
 }
 
 ?>
