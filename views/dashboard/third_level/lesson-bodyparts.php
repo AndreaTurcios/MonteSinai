@@ -52,19 +52,121 @@
 <br>
 <br>
     <main role="main" class="container">
-      <h3>Drag the name of the parts of the body</h3>
-<br>
-  <br>
-
-<script src="js/script.js"></script>
-<table>
+      <h3 align="center">Drag, Paste and Match the same word of the body parts. </h3>
+      <p><br></p>
+      <p align="center">&nbsp;</p>
+      <table width="472" height="430" border="1" align="center" background="img/bodyparts.png" style="background-repeat:no-repeat; background-position: center center">
+        <tr>
+          <th height="46" scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+        </tr>
+        <tr>
+          <th height="46" scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
+        </tr>
+        <tr>
+          <th width="72" height="46" scope="col">&nbsp;</th>
+          <th width="72" scope="col">&nbsp;</th>
+          <th width="72" scope="col">&nbsp;</th>
+          <th width="72" scope="col">&nbsp;</th>
+          <th width="72" scope="col">&nbsp;</th>
+          <th width="72" scope="col">&nbsp;</th>
+          <th width="72" scope="col">&nbsp;</th>
+          <th width="72" scope="col">&nbsp;</th>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p><br>
+      <script src="js/script.js"></script>
+      </p>
+      
+      <table>
 <tr>
   <td>
-  prueba
-  </td>
-
+  prueba  </td>
 </tr>
-
 </table>
 <div class="example-parent">
   <div class="example-origin">
@@ -74,71 +176,59 @@
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Hair
-    </div>
+      Hair    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Head
-    </div>
+      Head    </div>
   <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Eye
-    </div>
+      Eye    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Mouth
-    </div>
+      Mouth    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Nose
-    </div>
+      Nose    </div>
     <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Leg
-    </div>
+      Leg    </div>
 <div
       id="draggable-1"
       class="example-draggable"
       draggable="true"
       ondragstart="onDragStart(event);"
     >
-      Foot
-    </div>
-
-
+      Foot    </div>
   </div>
   <div
     class="bodyparts"
     ondragover="onDragOver(event);"
     ondrop="onDrop(event);"
   >
-    Parts of the body
-  </div>
+    Parts of the body  </div>
 </div>
-
-
-
-    </main><!-- /.container -->
+    </main>
+    <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
