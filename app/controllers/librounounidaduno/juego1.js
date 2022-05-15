@@ -294,6 +294,8 @@ document.getElementById('game-four').addEventListener('submit', function (event)
     event.preventDefault();
     // declaración de variables  
     var p1, p2, p3, p4;
+    let promedio4, promedios;
+    var ptact41, ptact42, ptact43, ptact44 ;
     // 
     p1 = document.getElementById('sentence14').value;
     p2 = document.getElementById('sentence24').value;
@@ -307,11 +309,54 @@ document.getElementById('game-four').addEventListener('submit', function (event)
     }
     if (p1 === "I am Maricela" && p2 === "He is Boris" && p3 === "They are Classmates" && p4 === "She is Elsa") {
 
+        if(p1 = "I am Maricela"){
+            ptact41 = 0.25;
+        } 
+        if(p2 = "He is Boris"){
+            ptact42 = 0.25;
+        }
+        if(p3 = "They are Classmates"){
+            ptact43 = 0.25;
+        }
+        if(p4 = "She is Elsa"){
+            ptact44 = 0.25;
+        }
+
+        promedio4 = Math.round(parseFloat(ptact41 + ptact42 + ptact43 + ptact44));
+        var libro = 4;
+        document.getElementById('idcliente4').value = users.value;
+        document.getElementById('points4').value = promedio4;
+        document.getElementById('idlibro4').value = libro;
+        action = 'createact4';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact41 = 4;
+
+        if(p1 != "I am Maricela"){
+            puntosact41--
+        } 
+        if(p2 != "He is Boris"){
+            puntosact41--
+        }
+        if(p3 != "They are Classmates"){
+            puntosact41--
+        }
+        if(p4 != "She is Elsa"){
+            puntosact41--
+
+        }
+
+        var conteofinal21 = puntosact41 / 4;
+        document.getElementById('idcliente4').value = users.value;
+        document.getElementById('points4').value = conteofinal21;
+        document.getElementById('idlibro4').value = libro;
+        action = 'createact4';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
