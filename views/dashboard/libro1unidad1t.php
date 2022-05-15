@@ -1069,9 +1069,10 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points5" name="points5">
-											<input type="text" class="d-none" id="idcliente5" name="idcliente5">
-											<input type="text" class="d-none" id="idlibro5" name="idlibro5">
+											<!-- class="d-none" -->
+											<input type="text"  id="points5" name="points5">
+											<input type="text"  id="idcliente5" name="idcliente5">
+											<input type="text"  id="idlibro5" name="idlibro5">
 										</div>
 									</div>
 									<div class="row row-cols-2">

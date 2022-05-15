@@ -220,7 +220,7 @@ document.getElementById('game-three').addEventListener('submit', function (event
     // variables declaradas
     var s1, s2, s3, s4
     let promedio, promedios;
-    var ptact21, ptact22, ptact23, ptact24 ;
+    var ptact21, ptact22, ptact23, ptact24;
     // igualación de valores de inputs de form 
     s1 = document.getElementById('sentence1').value;
     s2 = document.getElementById('sentence2').value;
@@ -235,16 +235,16 @@ document.getElementById('game-three').addEventListener('submit', function (event
     if (s1 === "OPEN your eyes" && s2 === "CLOSE your eyes"
         && s3 === "WASH your face" && s4 === "TOUCH your eyes") {
 
-        if(s1 = "OPEN your eyes"){
+        if (s1 = "OPEN your eyes") {
             ptact21 = 0.25;
-        } 
-        if(s2 = "CLOSE your eyes"){
+        }
+        if (s2 = "CLOSE your eyes") {
             ptact22 = 0.25;
         }
-        if(s3 = "WASH your face"){
+        if (s3 = "WASH your face") {
             ptact23 = 0.25;
         }
-        if(s4 = "TOUCH your eyes"){
+        if (s4 = "TOUCH your eyes") {
             ptact24 = 0.25;
         }
 
@@ -263,16 +263,16 @@ document.getElementById('game-three').addEventListener('submit', function (event
         var libro = 4;
         var puntosact21 = 4;
 
-        if(s1 != "OPEN your eyes"){
-            puntosact21--
-        } 
-        if(s2 != "CLOSE your eyes"){
+        if (s1 != "OPEN your eyes") {
             puntosact21--
         }
-        if(s3 != "WASH your face"){
+        if (s2 != "CLOSE your eyes") {
             puntosact21--
         }
-        if(s4 != "TOUCH your eyes"){
+        if (s3 != "WASH your face") {
+            puntosact21--
+        }
+        if (s4 != "TOUCH your eyes") {
             puntosact21--
 
         }
@@ -295,7 +295,7 @@ document.getElementById('game-four').addEventListener('submit', function (event)
     // declaración de variables  
     var p1, p2, p3, p4;
     let promedio4, promedios;
-    var ptact41, ptact42, ptact43, ptact44 ;
+    var ptact41, ptact42, ptact43, ptact44;
     // 
     p1 = document.getElementById('sentence14').value;
     p2 = document.getElementById('sentence24').value;
@@ -309,16 +309,16 @@ document.getElementById('game-four').addEventListener('submit', function (event)
     }
     if (p1 === "I am Maricela" && p2 === "He is Boris" && p3 === "They are Classmates" && p4 === "She is Elsa") {
 
-        if(p1 = "I am Maricela"){
+        if (p1 = "I am Maricela") {
             ptact41 = 0.25;
-        } 
-        if(p2 = "He is Boris"){
+        }
+        if (p2 = "He is Boris") {
             ptact42 = 0.25;
         }
-        if(p3 = "They are Classmates"){
+        if (p3 = "They are Classmates") {
             ptact43 = 0.25;
         }
-        if(p4 = "She is Elsa"){
+        if (p4 = "She is Elsa") {
             ptact44 = 0.25;
         }
 
@@ -337,23 +337,23 @@ document.getElementById('game-four').addEventListener('submit', function (event)
         var libro = 4;
         var puntosact41 = 4;
 
-        if(p1 != "I am Maricela"){
-            puntosact41--
-        } 
-        if(p2 != "He is Boris"){
+        if (p1 != "I am Maricela") {
             puntosact41--
         }
-        if(p3 != "They are Classmates"){
+        if (p2 != "He is Boris") {
             puntosact41--
         }
-        if(p4 != "She is Elsa"){
+        if (p3 != "They are Classmates") {
+            puntosact41--
+        }
+        if (p4 != "She is Elsa") {
             puntosact41--
 
         }
 
-        var conteofinal21 = puntosact41 / 4;
+        var conteofinal41 = puntosact41 / 4;
         document.getElementById('idcliente4').value = users.value;
-        document.getElementById('points4').value = conteofinal21;
+        document.getElementById('points4').value = conteofinal41;
         document.getElementById('idlibro4').value = libro;
         action = 'createact4';
         saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
@@ -366,14 +366,16 @@ document.getElementById('game-four').addEventListener('submit', function (event)
 document.getElementById('game-six').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-
+    //
+    let promedio5, promedios;
+    var ptact51, ptact52, ptact53, ptact54;
     var w1, w2, w3, w4;
-
+    //
     w1 = document.getElementById('words11').value;
     w2 = document.getElementById('words12').value;
     w3 = document.getElementById('words2').value;
     w4 = document.getElementById('words3').value;
-
+    //
     if (w1 === "" || w2 === "" || w3 === "" || w4 === "") {
 
         sweetAlert(2, 'Complete the missing fields', null);
@@ -381,10 +383,54 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
     }
     if (w1 === "I" && w2 === "You" && w3 === "I am a student" && w4 === "You are a teacher") {
 
+        if (w1 = "I") {
+            ptact51 = 0.25;
+        }
+        if (w2 = "You") {
+            ptact52 = 0.25;
+        }
+        if (w3 = "I am a student") {
+            ptact53 = 0.25;
+        }
+        if (w4 = "You are a teacher") {
+            ptact54 = 0.25;
+        }
+
+        promedio5 = Math.round(parseFloat(ptact51 + ptact52 + ptact53 + ptact54));
+        var libro = 4;
+        document.getElementById('idcliente6').value = users.value;
+        document.getElementById('points6').value = promedio5;
+        document.getElementById('idlibro6').value = libro;
+        action = 'createact6';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');        
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
+
+        var libro = 4;
+        var puntosact51 = 4;
+
+        if (w1 != "I") {
+            puntosact51--
+        }
+        if (w2 != "You") {
+            puntosact51--
+        }
+        if (w3 != "I am a student") {
+            puntosact51--
+        }
+        if (w4 != "You are a teacher") {
+            puntosact51--
+
+        }
+
+        var conteofinal51 = puntosact51 / 4;
+        document.getElementById('idcliente6').value = users.value;
+        document.getElementById('points6').value = conteofinal51;
+        document.getElementById('idlibro6').value = libro;
+        action = 'createact6';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');
 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
