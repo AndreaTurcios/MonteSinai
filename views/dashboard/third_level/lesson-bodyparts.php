@@ -54,174 +54,168 @@
     </nav>
 <br>
 <br>
-    <main role="main" class="container">
+  <main role="main" class="container">
       <h3 align="center">BODY PARTS . </h3>
-      <p><br></p>
-      <p align="center">&nbsp;</p>
-      <table width="599" height="430" border="1" align="center" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat:no-repeat; background-position: center center">
-        <tr>
-          <th height="46" bordercolor="#000000" scope="col">&nbsp;</th>
-          <th bordercolor="#000000" scope="col">&nbsp;</th>
-          <th width="73" bordercolor="#000000" scope="col">&nbsp;</th>
-          <td width="67" bordercolor="#000000" scope="col">&nbsp;</td>
-          <th width="70" bordercolor="#000000" scope="col">&nbsp;</th>
-          <th width="64" bordercolor="#000000" scope="col">&nbsp;</th>
-          <th bordercolor="#000000" scope="col">&nbsp;</th>
-          <th bordercolor="#000000" scope="col">&nbsp;</th>
-        </tr>
-        <tr>
-          <th height="46" bordercolor="#000000" scope="col">Match</th>
-          <th bordercolor="#000000" scope="col">Word</th>
-          <td colspan="4" rowspan="12" bordercolor="#000000" scope="col">&nbsp;</td>
-          <th bordercolor="#000000" scope="col">Word</th>
-          <th bordercolor="#000000" scope="col">Match</th>
-        </tr>
-        <tr>
-          <th height="46" bordercolor="#000000" scope="col">&nbsp;</th>
-          <th bordercolor="#000000" scope="col">&nbsp;</th>
-          <td bordercolor="#000000" scope="col">HEAD</td>
-          <th bordercolor="#000000" scope="col">&nbsp;</th>
-        </tr>
-        <tr>
-          <th height="46" bordercolor="#000000" scope="col">&nbsp;</th>
-          <td bordercolor="#000000" scope="col">EYE</td>
-          <td bordercolor="#000000" scope="col">HAIR</td>
-          <th bordercolor="#000000" scope="col">&nbsp;</th>
-        </tr>
-        <tr>
-          <td width="71" height="46" bordercolor="#000000" scope="col">&nbsp;</td>
-          <td width="76" bordercolor="#000000" scope="col">EAR</td>
-          <td width="65" bordercolor="#000000" scope="col">NOSE</td>
-          <th width="61" bordercolor="#000000" scope="col">&nbsp;</th>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">ARM</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">HAND</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">LEG</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">FOOT</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-          <td bordercolor="#000000">&nbsp;</td>
-        </tr>
-        <tr>
-          <td colspan="8"><div align="center">
-            <p class="Estilo1">Drag, Paste and Match the  word over the image of body parts. </p>
-          </div></td>
-        </tr>
+      <table width="926" border="1" align="center" bordercolor="#FFFFFF" 
+     background="img/bodyparts.png" style="background-repeat:no-repeat; background-position: 30% 60%; 
+     background-attachment: fixed;">
+      <tr>
+        <th colspan="6" rowspan="14" bordercolor="#000000" scope="col">&nbsp;</th>
+        <th bordercolor="#000000" scope="col">Image</th>
+        <th bordercolor="#000000" scope="col">Match</th>
+        <th bordercolor="#000000" scope="col">Image</th>
+        <th bordercolor="#000000" scope="col">Match</th>
+      </tr>
+      <tr>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000" scope="col">HAIR </td>
+        <td bordercolor="#000000" scope="col">
+        <div
+          class="bodyparts"
+          ondragover="onDragOver(event);"
+          ondrop="onDrop(event);"
+        >        </div>        </td>
+        <td bordercolor="#000000" scope="col">EYE</td>
+        <td bordercolor="#000000" scope="col">OK</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col"><div></td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">HEAD</td>
+        <td bordercolor="#000000" scope="col">OK</td>
+        <td bordercolor="#000000" scope="col">EAR</td>
+        <td width="129" bordercolor="#000000" scope="col">OK</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td width="92" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">NOSE</td>
+        <td bordercolor="#000000">OK</td>
+        <td bordercolor="#000000" scope="col">ARM</td>
+        <td bordercolor="#000000">OK</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td width="91" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">HAND</td>
+        <td bordercolor="#000000">OK</td>
+        <td width="91" bordercolor="#000000" scope="col">LEG</td>
+        <td bordercolor="#000000">OK</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">FOOT</td>
+        <td bordercolor="#000000">OK</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
         
-        <tr>
-          <td bordercolor="#000000"><div align="center">
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="71" bordercolor="#000000"><div align="center">
           <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-          HAIR</div></div></td>
-          <td bordercolor="#000000"><div align="center">
+        HAIR</div></div></td>
+        <td width="77" bordercolor="#000000"><div align="center">
           <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-          HEAD</div></div></td>
-          <td bordercolor="#000000"><div align="center">
+        HEAD</div></div></td>
+        <td width="65" bordercolor="#000000"><div align="center">
           <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-          EYE</div></div></td>
-          <td bordercolor="#000000"><div align="center">
+        EYE</div></div></td>
+        <td width="90" bordercolor="#000000"><div align="center">
           <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-          MOUTH</div></div></td>
-          <td bordercolor="#000000"><div align="center">
+        MOUTH</div></div></td>
+        <td width="76" bordercolor="#000000"><div align="center">
           <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-          NOSE</div></div></td>
-          <td bordercolor="#000000"><div align="center">
+        NOSE</div></div></td>
+        <td width="111" bordercolor="#000000"><div align="center">
           <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-          LEG</div></div></td>
-          <td bordercolor="#000000"><div align="center">
+        LEG</div></div></td>
+        <td bordercolor="#000000"><div align="center">
           <div
           id="draggable-1"
           class="example-draggable"
           draggable="true"
           ondragstart="onDragStart(event);"
         >
-          FOOT</div></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-        </tr>
-        <tr>
-          <td bordercolor="#000000"><div align="center"></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-          <td bordercolor="#000000"><div align="center"></div></td>
-        </tr>
-      </table>
-      <p>&nbsp;</p>
-      <p><br>
+        FOOT</div></div></td>
+        <td bordercolor="#000000"><div align="center"></div></td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p><br>
       <script src="js/script.js"></script>
-      </p>
+    </p>
       
      
   </div>
@@ -232,7 +226,7 @@
   >
     Parts of the body  </div>
 </div>
-    </main>
+  </main>
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
@@ -247,7 +241,8 @@
 
 <map name="Map">
   <area shape="rect" coords="119,30,143,40" href="#" target="_self" alt="Hair">
-</map></body></html>
+</map>
+  </body></html>
 
 
 
