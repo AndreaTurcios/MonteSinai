@@ -21,7 +21,10 @@
     <link href="css/starter-template.css" rel="stylesheet">
 
      <link rel="stylesheet" href="css/style.css" />
-  </head>
+     <style type="text/css">
+
+     </style>
+</head>
 
   <body>
 
@@ -51,94 +54,180 @@
     </nav>
 <br>
 <br>
-    <main role="main" class="container">
-      <h3>Drag the name of the parts of the body</h3>
-<br>
-  <br>
-
-<script src="js/script.js"></script>
-<table>
-<tr>
-  <td>
-  prueba
-  </td>
-
-</tr>
-
-</table>
-<div class="example-parent">
-  <div class="example-origin">
-    <div
-      id="draggable-1"
-      class="example-draggable"
-      draggable="true"
-      ondragstart="onDragStart(event);"
-    >
-      Hair
-    </div>
-    <div
-      id="draggable-1"
-      class="example-draggable"
-      draggable="true"
-      ondragstart="onDragStart(event);"
-    >
-      Head
-    </div>
-  <div
-      id="draggable-1"
-      class="example-draggable"
-      draggable="true"
-      ondragstart="onDragStart(event);"
-    >
-      Eye
-    </div>
-    <div
-      id="draggable-1"
-      class="example-draggable"
-      draggable="true"
-      ondragstart="onDragStart(event);"
-    >
-      Mouth
-    </div>
-    <div
-      id="draggable-1"
-      class="example-draggable"
-      draggable="true"
-      ondragstart="onDragStart(event);"
-    >
-      Nose
-    </div>
-    <div
-      id="draggable-1"
-      class="example-draggable"
-      draggable="true"
-      ondragstart="onDragStart(event);"
-    >
-      Leg
-    </div>
-<div
-      id="draggable-1"
-      class="example-draggable"
-      draggable="true"
-      ondragstart="onDragStart(event);"
-    >
-      Foot
-    </div>
-
-
+  <main role="main" class="container">
+      <h3 align="center">BODY PARTS . </h3>
+      <table width="926" border="1" align="center" bordercolor="#FFFFFF" 
+     background="img/bodyparts.png" style="background-repeat:no-repeat; background-position: 30% 60%; 
+     background-attachment: fixed;">
+      <tr>
+        <th colspan="6" rowspan="14" bordercolor="#000000" scope="col">&nbsp;</th>
+        <th bordercolor="#000000" scope="col">Image</th>
+        <th bordercolor="#000000" scope="col">Match</th>
+        <th bordercolor="#000000" scope="col">Image</th>
+        <th bordercolor="#000000" scope="col">Match</th>
+      </tr>
+      <tr>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000" scope="col">HAIR </td>
+        <td bordercolor="#000000" scope="col">
+        <div
+          class="bodyparts"
+          ondragover="onDragOver(event);"
+          ondrop="onDrop(event);"
+        >        </div>        </td>
+        <td bordercolor="#000000" scope="col">EYE</td>
+        <td bordercolor="#000000" scope="col">OK</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col"><div></td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">HEAD</td>
+        <td bordercolor="#000000" scope="col">OK</td>
+        <td bordercolor="#000000" scope="col">EAR</td>
+        <td width="129" bordercolor="#000000" scope="col">OK</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td width="92" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="60" bordercolor="#000000" scope="col">NOSE</td>
+        <td bordercolor="#000000">OK</td>
+        <td bordercolor="#000000" scope="col">ARM</td>
+        <td bordercolor="#000000">OK</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td width="91" bordercolor="#000000" scope="col">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">HAND</td>
+        <td bordercolor="#000000">OK</td>
+        <td width="91" bordercolor="#000000" scope="col">LEG</td>
+        <td bordercolor="#000000">OK</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">FOOT</td>
+        <td bordercolor="#000000">OK</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+        
+      <tr>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="71" bordercolor="#000000"><div align="center">
+          <div
+          id="draggable-1"
+          class="example-draggable"
+          draggable="true"
+          ondragstart="onDragStart(event);"
+        >
+        HAIR</div></div></td>
+        <td width="77" bordercolor="#000000"><div align="center">
+          <div
+          id="draggable-1"
+          class="example-draggable"
+          draggable="true"
+          ondragstart="onDragStart(event);"
+        >
+        HEAD</div></div></td>
+        <td width="65" bordercolor="#000000"><div align="center">
+          <div
+          id="draggable-1"
+          class="example-draggable"
+          draggable="true"
+          ondragstart="onDragStart(event);"
+        >
+        EYE</div></div></td>
+        <td width="90" bordercolor="#000000"><div align="center">
+          <div
+          id="draggable-1"
+          class="example-draggable"
+          draggable="true"
+          ondragstart="onDragStart(event);"
+        >
+        MOUTH</div></div></td>
+        <td width="76" bordercolor="#000000"><div align="center">
+          <div
+          id="draggable-1"
+          class="example-draggable"
+          draggable="true"
+          ondragstart="onDragStart(event);"
+        >
+        NOSE</div></div></td>
+        <td width="111" bordercolor="#000000"><div align="center">
+          <div
+          id="draggable-1"
+          class="example-draggable"
+          draggable="true"
+          ondragstart="onDragStart(event);"
+        >
+        LEG</div></div></td>
+        <td bordercolor="#000000"><div align="center">
+          <div
+          id="draggable-1"
+          class="example-draggable"
+          draggable="true"
+          ondragstart="onDragStart(event);"
+        >
+        FOOT</div></div></td>
+        <td bordercolor="#000000"><div align="center"></div></td>
+        <td bordercolor="#000000">&nbsp;</td>
+        <td bordercolor="#000000">&nbsp;</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p><br>
+      <script src="js/script.js"></script>
+    </p>
+      
+     
   </div>
   <div
     class="bodyparts"
     ondragover="onDragOver(event);"
     ondrop="onDrop(event);"
   >
-    Parts of the body
-  </div>
+    Parts of the body  </div>
 </div>
-
-
-
-    </main><!-- /.container -->
+  </main>
+    <!-- /.container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -152,7 +241,8 @@
 
 <map name="Map">
   <area shape="rect" coords="119,30,143,40" href="#" target="_self" alt="Hair">
-</map></body></html>
+</map>
+  </body></html>
 
 
 
