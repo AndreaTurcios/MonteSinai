@@ -130,7 +130,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 					// Update the current URI
 
-					Hash.go('../../resources/js/turnjs4/samples/magazine/pages/' + page).update();
+					Hash.go('/page/' + page).update();
 
 					// Show and hide navigation buttons
 
@@ -533,6 +533,7 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points" name="points">
 											<input type="text" class="d-none" id="idcliente" name="idcliente">
 											<input type="text" class="d-none" id="idlibro" name="idlibro">

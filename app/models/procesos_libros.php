@@ -78,9 +78,8 @@ class Procesos_libros extends Validator{
     
     public function createRow()
     {
-        $sql = 'INSERT INTO control_libro  (numero_actividades_trabajadas, id_asignatura, id_libro, id_cliente, id_estado_libro) 
-                VALUES (?,1,?,?,(select id_estado_libro from libro where id_libro = ? ))';
-        $params = array($this->promedio,$this->libro,$this->id,$this->libro);
+        $sql = 'SELECT * FROM Procesos_control_libros (?,?,?)';
+        $params = array($this->id,$this->libro,$this->promedio);
         return Database::executeRow($sql, $params);
     }
 

@@ -28,8 +28,8 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
     twelve = document.getElementById('input-twelvey').value;//e
     sixteen = document.getElementById('input-sixteenk').value;//e
     // declacración de variables de puntajes 
-    let promedio;
-    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12, pt13, pt12
+    let promedio, promedios;
+    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12, pt13, pt14, pt15, pt16, pt17;
     // declaración de condicionales 
     if (one === "" && five === "" && nine === "" && thirdteen === "" && two === "" && six === "" && ten === "" &&
         fourteen === "" && three === "" && seven === "" && eleven === "" && fifteen === "" && four === ""
@@ -42,74 +42,74 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         && fifteen === "g" && four === "f" && eight === "t"
         && twelve === "e" && sixteen === "e") {
 
-        if (one === "a") {
-            var pt1 = 0.63;
+        if (one = "a") {
+            pt1 = 0.0625;
             console.log('0.63');
         }
-        if (five === "r") {
-            var pt2 = 0.63;
+        if (five = "r") {
+            pt2 = 0.0625;
             console.log('0.63');
         }
-        if (nine === "a") {
-            var pt3 = 0.63;
+        if (nine = "a") {
+            pt3 = 0.0625;
             console.log('0.63');
         }
-        if (thirdteen === "o") {
-            var pt4 = 0.63;
+        if (thirdteen = "o") {
+            pt4 = 0.0625;
             console.log('0.63');
         }
-        if (two === "c") {
-            var pt5 = 0.63;
+        if (two = "c") {
+            pt5 = 0.0625;
             console.log('0.63');
         }
-        if (six === "o") {
-            var pt6 = 0.63;
+        if (six = "o") {
+            pt6 = 0.0625;
             console.log('0.63');
         }
-        if (ten === "d") {
-            var pt7 = 0.63;
+        if (ten = "d") {
+            pt7 = 0.0625;
             console.log('0.63');
         }
-        if (fourteen === "l") {
-            var pt8 = 0.63;
+        if (fourteen = "l") {
+            pt8 = 0.0625;
             console.log('0.63');
         }
-        if (three === "o") {
-            var pt9 = 0.63;
+        if (three = "o") {
+            pt9 = 0.0625;
             console.log('0.63');
         }
-        if (seven === "h") {
-            var pt10 = 0.63;
+        if (seven = "h") {
+            pt10 = 0.0625;
             console.log('0.63');
         }
-        if (eleven === "o") {
-            var pt11 = 0.63;
+        if (eleven = "o") {
+            pt11 = 0.0625;
             console.log('0.63');
         }
-        if (twelve === "e") {
-            var pt12 = 0.63;
+        if (twelve = "e") {
+            pt12 = 0.063;
             console.log('0.63');
         }
-        if (sixteen === "o") {
-            var pt13 = 0.63;
+        if (sixteen = "o") {
+            pt13 = 0.063;
             console.log('0.63');
         }
-        if (fifteen === "g") {
-            var pt14 = 0.63;
+        if (fifteen = "g") {
+            pt14 = 0.063;
             console.log('0.63');
         }
-        if (four === "f") {
-            var pt15 = 0.63;
+        if (four = "f") {
+            pt15 = 0.0625;
             console.log('0.63');
         }
-        if (eight === "t") {
-            var pt16 = 0.63;
+        if (eight = "t") {
+            pt16 = 0.0625;
             console.log('0.63');
         }
 
-        let suma = parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16)
+        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16)) ;
 
-        promedio = 1.11;
+        promedios = 1.11;
         var libro = 4;
         document.getElementById('idcliente').value = users.value;
         document.getElementById('points').value = promedio;
@@ -125,10 +125,83 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         || fifteen !== "g" || four !== "f" || eight !== "t"
         || twelve !== "e" || sixteen !== "e") {
 
-        promedio = 1.11;
+        promedios = 1;
         var libro = 4;
+        var puntosact1 = 16;
+        ///
+        if (one != "a") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (five != "r") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (nine != "a") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (thirdteen != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (two != "c") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (six != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (ten != "d") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (fourteen != "l") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (three != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (seven != "h") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (eleven != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (twelve != "e") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (sixteen != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (fifteen != "g") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (four != "f") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (eight != "t") {
+            puntosact1--
+            console.log('0.63');
+        }
+
+        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16)) ;
+
+        console.log()
+        console.log();
+        var conteofinal1 = puntosact1/16;
+
         document.getElementById('idcliente').value = users.value;
-        document.getElementById('points').value = promedio;
+        document.getElementById('points').value = conteofinal1;
         document.getElementById('idlibro').value = libro;
 
         action = 'create';
