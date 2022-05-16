@@ -277,7 +277,9 @@ document.getElementById('game-three').addEventListener('submit', function (event
 
         }
 
-        var conteofinal21 = puntosact21 / 4;
+        //
+        var conteos2 = puntosact21 / 4;
+        var conteofinal21 = conteos2.toFixed(2);
         document.getElementById('idcliente3').value = users.value;
         document.getElementById('points3').value = conteofinal21;
         document.getElementById('idlibro3').value = libro;
@@ -350,8 +352,10 @@ document.getElementById('game-four').addEventListener('submit', function (event)
             puntosact41--
 
         }
-
-        var conteofinal41 = puntosact41 / 4;
+        // redondeo de variables
+        var conteos4 = puntosact41 / 4;
+        var conteofinal41 = conteos4.toFixed(2);
+        // Ejecución 
         document.getElementById('idcliente4').value = users.value;
         document.getElementById('points4').value = conteofinal41;
         document.getElementById('idlibro4').value = libro;
@@ -369,20 +373,21 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
     //
     let promedio5, promedios;
     var ptact51, ptact52, ptact53, ptact54;
+    // variables de actividad 
     var w1, w2, w3, w4;
-    //
+    // asignación de valores a variables
     w1 = document.getElementById('words11').value;
     w2 = document.getElementById('words12').value;
     w3 = document.getElementById('words2').value;
     w4 = document.getElementById('words3').value;
-    //
+    // declaración de condiciones
     if (w1 === "" || w2 === "" || w3 === "" || w4 === "") {
 
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
     if (w1 === "I" && w2 === "You" && w3 === "I am a student" && w4 === "You are a teacher") {
-
+        // asignación de puntajes
         if (w1 = "I") {
             ptact51 = 0.25;
         }
@@ -395,14 +400,14 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
         if (w4 = "You are a teacher") {
             ptact54 = 0.25;
         }
-
+        // ejecución y envío de variables a API 
         promedio5 = Math.round(parseFloat(ptact51 + ptact52 + ptact53 + ptact54));
         var libro = 4;
         document.getElementById('idcliente6').value = users.value;
         document.getElementById('points6').value = promedio5;
         document.getElementById('idlibro6').value = libro;
         action = 'createact6';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');        
+        saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');
         sweetAlert(1, 'good job', null);
         return true;
     }
@@ -410,7 +415,7 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
 
         var libro = 4;
         var puntosact51 = 4;
-
+        // asignación de puntajes
         if (w1 != "I") {
             puntosact51--
         }
@@ -424,8 +429,10 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
             puntosact51--
 
         }
-
-        var conteofinal51 = puntosact51 / 4;
+        // redondeo de variables
+        var conteos5 = puntosact51 / 4;
+        var conteofinal51 = conteos5.toFixed(2);
+        // ejecución y envío de variables a API 
         document.getElementById('idcliente6').value = users.value;
         document.getElementById('points6').value = conteofinal51;
         document.getElementById('idlibro6').value = libro;
@@ -443,6 +450,8 @@ document.getElementById('game-seven').addEventListener('submit', function (event
     event.preventDefault();
     //
     var ss1, ss2, ss3, ss4, ss5, ss6;
+    let promedio6, promedios;
+    //var ptact61, ptact62, ptact63, ptact64;
     //
     ss1 = document.getElementById('words-act6-11').value;
     ss2 = document.getElementById('words-act6-22').value;
@@ -459,11 +468,50 @@ document.getElementById('game-seven').addEventListener('submit', function (event
     if (ss1 === "This is a mouth" && ss2 === "This is a nose" && ss3 === "This is a head"
         && ss4 === "These are feet" && ss5 === "These are hands" && ss6 === "These are eyes") {
 
+        // ejecución y envío de variables a API 
+        promedio6 = 1;
+        var libro = 4;
+        document.getElementById('idcliente7').value = users.value;
+        document.getElementById('points7').value = promedio6;
+        document.getElementById('idlibro7').value = libro;
+        action = 'createact7';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-seven', 'ModalLibroSiete');
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact61 = 6;
+        // asignación de puntajes
+        if (ss1 != "This is a mouth") {
+            puntosact61--
+        }
+        if (ss2 != "This is a nose") {
+            puntosact61--
+        }
+        if (ss3 != "This is a head") {
+            puntosact61--
+        }
+        if (ss4 != "These are feet") {
+            puntosact61--
+        }
+        if (ss5 != "These are hands") {
+            puntosact61--
+        }
+        if (ss6 != "These are eyes") {
+            puntosact61--
+        }
+
+        // seteo de valor de puntajes 
+        var conteos6 = puntosact61 / 6;
+        var conteofinal61 = conteos6.toFixed(2);
+        document.getElementById('idcliente7').value = users.value;
+        document.getElementById('points7').value = conteofinal61;
+        document.getElementById('idlibro7').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact7';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-seven', 'ModalLibroSiete');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
