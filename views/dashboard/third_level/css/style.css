@@ -1,18 +1,18 @@
 #zonasDeSoltar, #arrastrables{display:flex;}  
-#arrastrables div{margin:10px 17px 0 10px;}
+#arrastrables div{margin:0px 0px 0 0px;}
 .arrastrable {
-    flex:0 0 100px;
-    height: 160px;
+    flex:0 0 0px;
+    height: 2px;
     text-align: center;
     background: white;
-    border:1px solid;
+   
  
   }
 
-  .zona-de-soltar {
-    flex:0 0 100px;
-    height: 160px;
-    background: blueviolet;
-    padding: 10px;
-    margin:10px 10px 0 0 ;
+  .soltar {
+    flex:0 0 0px;
+    height: 0px;
+    background: white;
+    padding: 1px;
+    margin:1px 1px 0 0 ;
   }

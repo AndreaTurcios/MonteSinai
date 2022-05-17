@@ -43,6 +43,7 @@
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="css/jquery-3.2.1.slim.min.js.descarga" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     </div>
+    <div id="zonasDeSoltar">
     <table width="843" height="340"  border="1" align="center" cellspacing="5" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat: no-repeat; background-position: center center;">
       <tr>
         <th width="53" scope="col">&nbsp;</th>
@@ -51,7 +52,7 @@
         <th width="54" scope="col">&nbsp;</th>
         <th width="103" scope="col">&nbsp;</th>
         <th width="199" rowspan="10" scope="col">&nbsp;</th>
-        <td width="100" bgcolor="#FFCC66">HEAD</td>
+        <td width="100" bgcolor="#FFCC66"><div class="soltar">HEAD</div></td>
         <th width="79" scope="col">&nbsp;</th>
         <th width="53" scope="col">&nbsp;</th>
         <th width="65" scope="col">&nbsp;</th>
@@ -61,8 +62,8 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td bgcolor="#FFCC66">EYE</td>
-        <td bgcolor="#FFCC66">HAIR</td>
+        <td bgcolor="#FFCC66"><div class="soltar">EYE</div></td>
+        <td bgcolor="#FFCC66"><div class="soltar">HAIR</div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -72,8 +73,8 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td bgcolor="#FFCC66">EYELASH</td>
-        <td bgcolor="#FFCC66">EAR</td>
+        <td bgcolor="#FFCC66"><div class="soltar">EYELASH</div></td>
+        <td bgcolor="#FFCC66"><div class="soltar">EAR</div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -83,30 +84,8 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td bgcolor="#FFCC66">SHOULDER</td>
-        <td bgcolor="#FFCC66">MOUTH</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td bgcolor="#FFCC66">ARM</td>
-        <td bgcolor="#FFCC66">HAND</td>
+        <td bgcolor="#FFCC66"><div class="soltar">SHOULDER</div></td>
+        <td bgcolor="#FFCC66"><div class="soltar">MOUTH</div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -127,8 +106,8 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td bgcolor="#FFCC66">KNEE</td>
-        <td bgcolor="#FFCC66">LEG</td>
+        <td bgcolor="#FFCC66"><div class="soltar">ARM</div></td>
+        <td bgcolor="#FFCC66"><div class="soltar">HAND</div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -139,7 +118,29 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
-        <td bgcolor="#FFCC66">FOOT</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td bgcolor="#FFCC66"><div class="soltar">KNEE</div></td>
+        <td bgcolor="#FFCC66"><div class="soltar">LEG</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row">&nbsp;</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td bgcolor="#FFCC66"><div class="soltar">FOOT</div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -156,24 +157,27 @@
         <td>&nbsp;</td>
       </tr>
   </table>
-    
+</div>
         <p>&nbsp;</p>
         <form name="form1" method="post" action="">
           <h3 align="center">My Body </h3>
-          <table width="1040" border="1" align="center">
+          
+          <table width="1120" border="1" align="center">
             <tr>
-              <th width="76" scope="col"><div align="center">HEAD</div></th>
-              <th width="66" scope="col"><div align="center">HAIR</div></th>
-              <th width="83" scope="col"><div align="center">EYE</div></th>
-              <th width="81" scope="col"><div align="center">EYELASH</div></th>
-              <th width="141" scope="col"><div align="center">SHOULDER</div></th>
-              <th width="74" scope="col"><div align="center">NOSE</div></th>
-              <th width="102" scope="col"><div align="center">MOUTH</div></th>
-              <th width="62" scope="col"><div align="center">ARM</div></th>
-              <th width="82" scope="col"><div align="center">HAND</div></th>
-              <th width="71" scope="col"><div align="center">KNEE</div></th>
-              <th width="49" scope="col"><div align="center">LEG</div></th>
-              <th width="77" scope="col"><div align="center">FOOT</div></th>
+            <div id="arrastrables">
+              <th width="76" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HEAD</div></div></th>
+              <th width="66" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HAIR</div></div></th>
+              <th width="83" scope="col"><div align="center"><div class="arrastrable" draggable="true" >EYE</div></div></th>
+              <th width="81" scope="col"><div align="center"><div class="arrastrable" draggable="true" >EYELASH</div></div></th>
+              <th width="141" scope="col"><div align="center"><div class="arrastrable" draggable="true" >SHOULDER</div></div></th>
+              <th width="74" scope="col"><div align="center"><div class="arrastrable" draggable="true" >NOSE</div></div></th>
+              <th width="102" scope="col"><div align="center"><div class="arrastrable" draggable="true" >MOUTH</div></div></th>
+              <th width="62" scope="col"><div align="center"><div class="arrastrable" draggable="true" >ARM</div></div></th>
+              <th width="82" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HAND</div></div></th>
+              <th width="129" scope="col"><div align="center"><div class="arrastrable" draggable="true" >KNEE</div></div></th>
+              <th width="63" scope="col"><div align="center"><div class="arrastrable" draggable="true" >LEG</div></div></th>
+              <th width="146" scope="col"><div align="center"><div class="arrastrable" draggable="true" >FOOT</div></div></th>
+            </div>
             </tr>
             <tr>
               <td>&nbsp;</td>
@@ -202,11 +206,13 @@
           
           
             </div>
+</div>
         </p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <p>&nbsp;      </p>
-  </body></html>
+        <p>&nbsp;</p>
+        <script  src="js/script.js"></script>
+  </body>
 
 
 
