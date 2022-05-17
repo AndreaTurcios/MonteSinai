@@ -194,12 +194,8 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
             console.log('0.63');
         }
 
-        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16));
-
-        console.log()
-        console.log();
-        var conteofinal1 = puntosact1 / 16;
-
+        var conteos1 = puntosact1 / 16;
+        var conteofinal1 = conteos1.toFixed(2);
         document.getElementById('idcliente').value = users.value;
         document.getElementById('points').value = conteofinal1;
         document.getElementById('idlibro').value = libro;
@@ -289,7 +285,6 @@ document.getElementById('game-three').addEventListener('submit', function (event
         return true;
     }
 });
-
 
 document.getElementById('game-four').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -524,6 +519,7 @@ document.getElementById('game-eight').addEventListener('submit', function (event
     event.preventDefault();
     // variables 
     var r1, r2, r3, r4;
+    let promedio7;
     // 
     r1 = document.getElementById('word-acty7-01').value;
     r2 = document.getElementById('word-acty7-02').value;
@@ -538,11 +534,48 @@ document.getElementById('game-eight').addEventListener('submit', function (event
     if (r1 === "You are my friend" && r2 === "We are friends"
         && r3 === "They are friends" && r4 === "It is a watch") {
 
+        // envío de variables a API 
+        promedio7 = 1;
+        var libro = 4;
+        document.getElementById('idcliente8').value = users.value;
+        document.getElementById('points8').value = promedio7;
+        document.getElementById('idlibro8').value = libro;
+        // acciones 
+        action = 'createact8';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalLibroOcho');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact71 = 4;
+        // asignación de puntajes
+        if (r1 != "You are my friend") {
+            puntosact71--
+        }
+        if (r2 != "We are friends") {
+            puntosact71--
+        }
+        if (r3 != "They are friends") {
+            puntosact71--
+        }
+        if (r4 != "It is a watch") {
+            puntosact71--
+        }
+
+        // seteo de valor de puntajes 
+        var conteos7 = puntosact71 / 4;
+        var conteofinal71 = conteos7.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente8').value = users.value;
+        document.getElementById('points8').value = conteofinal71;
+        document.getElementById('idlibro8').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact8';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalLibroOcho');
+        //alert
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -554,7 +587,8 @@ document.getElementById('game-nines').addEventListener('submit', function (event
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
-    var wor1, wor2, wor3, wo4;
+    var wor1, wor2, wor3, wor4;
+    let promedio8;
     // 
     wor1 = document.getElementById('word-acto8-11').value;
     wor2 = document.getElementById('word-acto8-12').value;
@@ -568,11 +602,48 @@ document.getElementById('game-nines').addEventListener('submit', function (event
     }
     if (wor1 === "It" && wor2 === "We" && wor3 === "You" && wor4 === "They") {
 
+        // envío de variables a API 
+        promedio8 = 1;
+        var libro = 4;
+        document.getElementById('idcliente9').value = users.value;
+        document.getElementById('points9').value = promedio8;
+        document.getElementById('idlibro9').value = libro;
+        // acciones 
+        action = 'createact9';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-nine', 'ModalLibroNueve');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact81 = 4;
+        // asignación de puntajes
+        if (wor1 != "It") {
+            puntosact81--
+        }
+        if (wor2 != "We") {
+            puntosact81--
+        }
+        if (wor3 != "You") {
+            puntosact81--
+        }
+        if (wor4 != "They") {
+            puntosact81--
+        }
+
+        // seteo de valor de puntajes 
+        var conteos8 = puntosact81 / 4;
+        var conteofinal81 = conteos8.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente9').value = users.value;
+        document.getElementById('points9').value = conteofinal81;
+        document.getElementById('idlibro9').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact9';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalLibroOcho');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
