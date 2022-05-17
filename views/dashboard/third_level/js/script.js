@@ -29,18 +29,18 @@ var elementoArrastrado;
 
   document.addEventListener("dragenter", function( event ) {
       // comprueba si el event.target es una zona de soltar  
-      if ( event.target.className == "zona-de-soltar" ) {
+      if ( event.target.className == "soltar" ) {
         // y di lo és cambia el color de fondo
-          event.target.style.background = "purple";
+          event.target.style.background = "white";
       }
 
   }, false);
 
   document.addEventListener("dragleave", function( event ) {
       // comprueba si el event.target es una zona de soltar  
-      if ( event.target.className == "zona-de-soltar"  ) {
+      if ( event.target.className == "soltar"  ) {
         // y si lo és, reestablece el valor inicial
-          event.target.style.background = "";
+          event.target.style.background = "white";
       }
   }, false);
 
@@ -49,9 +49,9 @@ var elementoArrastrado;
       // Para que esto no pase hay que utilizar: 
       event.preventDefault();
       // comprueba si el event.target es una zona de soltar
-      if ( event.target.className == "zona-de-soltar"  ) {
+      if ( event.target.className == "soltar"  ) {
           // reestablece el valor inicial para el background
-          event.target.style.background = "";
+          event.target.style.background = "white";
           // elimina el elemento arrastrado del del elemento padre
           elementoArrastrado.parentNode.removeChild( elementoArrastrado );
           // y lo agrega al elemento de destino
