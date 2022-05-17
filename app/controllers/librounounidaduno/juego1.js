@@ -28,8 +28,8 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
     twelve = document.getElementById('input-twelvey').value;//e
     sixteen = document.getElementById('input-sixteenk').value;//e
     // declacración de variables de puntajes 
-    let promedio;
-    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12, pt13, pt12
+    let promedio, promedios;
+    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12, pt13, pt14, pt15, pt16, pt17;
     // declaración de condicionales 
     if (one === "" && five === "" && nine === "" && thirdteen === "" && two === "" && six === "" && ten === "" &&
         fourteen === "" && three === "" && seven === "" && eleven === "" && fifteen === "" && four === ""
@@ -42,74 +42,74 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         && fifteen === "g" && four === "f" && eight === "t"
         && twelve === "e" && sixteen === "e") {
 
-        if (one === "a") {
-            var pt1 = 0.63;
+        if (one = "a") {
+            pt1 = 0.0625;
             console.log('0.63');
         }
-        if (five === "r") {
-            var pt2 = 0.63;
+        if (five = "r") {
+            pt2 = 0.0625;
             console.log('0.63');
         }
-        if (nine === "a") {
-            var pt3 = 0.63;
+        if (nine = "a") {
+            pt3 = 0.0625;
             console.log('0.63');
         }
-        if (thirdteen === "o") {
-            var pt4 = 0.63;
+        if (thirdteen = "o") {
+            pt4 = 0.0625;
             console.log('0.63');
         }
-        if (two === "c") {
-            var pt5 = 0.63;
+        if (two = "c") {
+            pt5 = 0.0625;
             console.log('0.63');
         }
-        if (six === "o") {
-            var pt6 = 0.63;
+        if (six = "o") {
+            pt6 = 0.0625;
             console.log('0.63');
         }
-        if (ten === "d") {
-            var pt7 = 0.63;
+        if (ten = "d") {
+            pt7 = 0.0625;
             console.log('0.63');
         }
-        if (fourteen === "l") {
-            var pt8 = 0.63;
+        if (fourteen = "l") {
+            pt8 = 0.0625;
             console.log('0.63');
         }
-        if (three === "o") {
-            var pt9 = 0.63;
+        if (three = "o") {
+            pt9 = 0.0625;
             console.log('0.63');
         }
-        if (seven === "h") {
-            var pt10 = 0.63;
+        if (seven = "h") {
+            pt10 = 0.0625;
             console.log('0.63');
         }
-        if (eleven === "o") {
-            var pt11 = 0.63;
+        if (eleven = "o") {
+            pt11 = 0.0625;
             console.log('0.63');
         }
-        if (twelve === "e") {
-            var pt12 = 0.63;
+        if (twelve = "e") {
+            pt12 = 0.063;
             console.log('0.63');
         }
-        if (sixteen === "o") {
-            var pt13 = 0.63;
+        if (sixteen = "o") {
+            pt13 = 0.063;
             console.log('0.63');
         }
-        if (fifteen === "g") {
-            var pt14 = 0.63;
+        if (fifteen = "g") {
+            pt14 = 0.063;
             console.log('0.63');
         }
-        if (four === "f") {
-            var pt15 = 0.63;
+        if (four = "f") {
+            pt15 = 0.0625;
             console.log('0.63');
         }
-        if (eight === "t") {
-            var pt16 = 0.63;
+        if (eight = "t") {
+            pt16 = 0.0625;
             console.log('0.63');
         }
 
-        let suma = parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16)
+        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16));
 
-        promedio = 1.11;
+        promedios = 1.11;
         var libro = 4;
         document.getElementById('idcliente').value = users.value;
         document.getElementById('points').value = promedio;
@@ -125,10 +125,83 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         || fifteen !== "g" || four !== "f" || eight !== "t"
         || twelve !== "e" || sixteen !== "e") {
 
-        promedio = 1.11;
+        promedios = 1;
         var libro = 4;
+        var puntosact1 = 16;
+        ///
+        if (one != "a") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (five != "r") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (nine != "a") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (thirdteen != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (two != "c") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (six != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (ten != "d") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (fourteen != "l") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (three != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (seven != "h") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (eleven != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (twelve != "e") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (sixteen != "o") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (fifteen != "g") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (four != "f") {
+            puntosact1--
+            console.log('0.63');
+        }
+        if (eight != "t") {
+            puntosact1--
+            console.log('0.63');
+        }
+
+        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16));
+
+        console.log()
+        console.log();
+        var conteofinal1 = puntosact1 / 16;
+
         document.getElementById('idcliente').value = users.value;
-        document.getElementById('points').value = promedio;
+        document.getElementById('points').value = conteofinal1;
         document.getElementById('idlibro').value = libro;
 
         action = 'create';
@@ -146,6 +219,8 @@ document.getElementById('game-three').addEventListener('submit', function (event
     event.preventDefault();
     // variables declaradas
     var s1, s2, s3, s4
+    let promedio, promedios;
+    var ptact21, ptact22, ptact23, ptact24;
     // igualación de valores de inputs de form 
     s1 = document.getElementById('sentence1').value;
     s2 = document.getElementById('sentence2').value;
@@ -160,10 +235,56 @@ document.getElementById('game-three').addEventListener('submit', function (event
     if (s1 === "OPEN your eyes" && s2 === "CLOSE your eyes"
         && s3 === "WASH your face" && s4 === "TOUCH your eyes") {
 
+        if (s1 = "OPEN your eyes") {
+            ptact21 = 0.25;
+        }
+        if (s2 = "CLOSE your eyes") {
+            ptact22 = 0.25;
+        }
+        if (s3 = "WASH your face") {
+            ptact23 = 0.25;
+        }
+        if (s4 = "TOUCH your eyes") {
+            ptact24 = 0.25;
+        }
+
+        promedio = Math.round(parseFloat(ptact21 + ptact22 + ptact23 + ptact24));
+        var libro = 4;
+        document.getElementById('idcliente3').value = users.value;
+        document.getElementById('points3').value = promedio;
+        document.getElementById('idlibro3').value = libro;
+        action = 'createact2';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
+
+        var libro = 4;
+        var puntosact21 = 4;
+
+        if (s1 != "OPEN your eyes") {
+            puntosact21--
+        }
+        if (s2 != "CLOSE your eyes") {
+            puntosact21--
+        }
+        if (s3 != "WASH your face") {
+            puntosact21--
+        }
+        if (s4 != "TOUCH your eyes") {
+            puntosact21--
+
+        }
+
+        //
+        var conteos2 = puntosact21 / 4;
+        var conteofinal21 = conteos2.toFixed(2);
+        document.getElementById('idcliente3').value = users.value;
+        document.getElementById('points3').value = conteofinal21;
+        document.getElementById('idlibro3').value = libro;
+        action = 'createact2';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -175,6 +296,8 @@ document.getElementById('game-four').addEventListener('submit', function (event)
     event.preventDefault();
     // declaración de variables  
     var p1, p2, p3, p4;
+    let promedio4, promedios;
+    var ptact41, ptact42, ptact43, ptact44;
     // 
     p1 = document.getElementById('sentence14').value;
     p2 = document.getElementById('sentence24').value;
@@ -188,11 +311,56 @@ document.getElementById('game-four').addEventListener('submit', function (event)
     }
     if (p1 === "I am Maricela" && p2 === "He is Boris" && p3 === "They are Classmates" && p4 === "She is Elsa") {
 
+        if (p1 = "I am Maricela") {
+            ptact41 = 0.25;
+        }
+        if (p2 = "He is Boris") {
+            ptact42 = 0.25;
+        }
+        if (p3 = "They are Classmates") {
+            ptact43 = 0.25;
+        }
+        if (p4 = "She is Elsa") {
+            ptact44 = 0.25;
+        }
+
+        promedio4 = Math.round(parseFloat(ptact41 + ptact42 + ptact43 + ptact44));
+        var libro = 4;
+        document.getElementById('idcliente4').value = users.value;
+        document.getElementById('points4').value = promedio4;
+        document.getElementById('idlibro4').value = libro;
+        action = 'createact4';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact41 = 4;
+
+        if (p1 != "I am Maricela") {
+            puntosact41--
+        }
+        if (p2 != "He is Boris") {
+            puntosact41--
+        }
+        if (p3 != "They are Classmates") {
+            puntosact41--
+        }
+        if (p4 != "She is Elsa") {
+            puntosact41--
+
+        }
+        // redondeo de variables
+        var conteos4 = puntosact41 / 4;
+        var conteofinal41 = conteos4.toFixed(2);
+        // Ejecución 
+        document.getElementById('idcliente4').value = users.value;
+        document.getElementById('points4').value = conteofinal41;
+        document.getElementById('idlibro4').value = libro;
+        action = 'createact4';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -202,25 +370,74 @@ document.getElementById('game-four').addEventListener('submit', function (event)
 document.getElementById('game-six').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-
+    //
+    let promedio5, promedios;
+    var ptact51, ptact52, ptact53, ptact54;
+    // variables de actividad 
     var w1, w2, w3, w4;
-
+    // asignación de valores a variables
     w1 = document.getElementById('words11').value;
     w2 = document.getElementById('words12').value;
     w3 = document.getElementById('words2').value;
     w4 = document.getElementById('words3').value;
-
+    // declaración de condiciones
     if (w1 === "" || w2 === "" || w3 === "" || w4 === "") {
 
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
     if (w1 === "I" && w2 === "You" && w3 === "I am a student" && w4 === "You are a teacher") {
-
+        // asignación de puntajes
+        if (w1 = "I") {
+            ptact51 = 0.25;
+        }
+        if (w2 = "You") {
+            ptact52 = 0.25;
+        }
+        if (w3 = "I am a student") {
+            ptact53 = 0.25;
+        }
+        if (w4 = "You are a teacher") {
+            ptact54 = 0.25;
+        }
+        // ejecución y envío de variables a API 
+        promedio5 = Math.round(parseFloat(ptact51 + ptact52 + ptact53 + ptact54));
+        var libro = 4;
+        document.getElementById('idcliente6').value = users.value;
+        document.getElementById('points6').value = promedio5;
+        document.getElementById('idlibro6').value = libro;
+        action = 'createact6';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
+
+        var libro = 4;
+        var puntosact51 = 4;
+        // asignación de puntajes
+        if (w1 != "I") {
+            puntosact51--
+        }
+        if (w2 != "You") {
+            puntosact51--
+        }
+        if (w3 != "I am a student") {
+            puntosact51--
+        }
+        if (w4 != "You are a teacher") {
+            puntosact51--
+
+        }
+        // redondeo de variables
+        var conteos5 = puntosact51 / 4;
+        var conteofinal51 = conteos5.toFixed(2);
+        // ejecución y envío de variables a API 
+        document.getElementById('idcliente6').value = users.value;
+        document.getElementById('points6').value = conteofinal51;
+        document.getElementById('idlibro6').value = libro;
+        action = 'createact6';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');
 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -233,6 +450,8 @@ document.getElementById('game-seven').addEventListener('submit', function (event
     event.preventDefault();
     //
     var ss1, ss2, ss3, ss4, ss5, ss6;
+    let promedio6, promedios;
+    //var ptact61, ptact62, ptact63, ptact64;
     //
     ss1 = document.getElementById('words-act6-11').value;
     ss2 = document.getElementById('words-act6-22').value;
@@ -249,11 +468,50 @@ document.getElementById('game-seven').addEventListener('submit', function (event
     if (ss1 === "This is a mouth" && ss2 === "This is a nose" && ss3 === "This is a head"
         && ss4 === "These are feet" && ss5 === "These are hands" && ss6 === "These are eyes") {
 
+        // ejecución y envío de variables a API 
+        promedio6 = 1;
+        var libro = 4;
+        document.getElementById('idcliente7').value = users.value;
+        document.getElementById('points7').value = promedio6;
+        document.getElementById('idlibro7').value = libro;
+        action = 'createact7';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-seven', 'ModalLibroSiete');
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact61 = 6;
+        // asignación de puntajes
+        if (ss1 != "This is a mouth") {
+            puntosact61--
+        }
+        if (ss2 != "This is a nose") {
+            puntosact61--
+        }
+        if (ss3 != "This is a head") {
+            puntosact61--
+        }
+        if (ss4 != "These are feet") {
+            puntosact61--
+        }
+        if (ss5 != "These are hands") {
+            puntosact61--
+        }
+        if (ss6 != "These are eyes") {
+            puntosact61--
+        }
+
+        // seteo de valor de puntajes 
+        var conteos6 = puntosact61 / 6;
+        var conteofinal61 = conteos6.toFixed(2);
+        document.getElementById('idcliente7').value = users.value;
+        document.getElementById('points7').value = conteofinal61;
+        document.getElementById('idlibro7').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact7';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-seven', 'ModalLibroSiete');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }

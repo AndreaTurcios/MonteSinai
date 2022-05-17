@@ -68,7 +68,6 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-
 <script type="text/javascript">
 	function loadApp() {
 
@@ -130,7 +129,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 					// Update the current URI
 
-					Hash.go('../../resources/js/turnjs4/samples/magazine/pages/' + page).update();
+					Hash.go('/page/' + page).update();
 
 					// Show and hide navigation buttons
 
@@ -471,8 +470,6 @@ Book_Page::headerTemplate('Unidad 1');
 	});
 </script>
 
-
-
 <!--inicio modales -->
 <div id="ModalLibroDos" class="modal fade" tabindex="-1" role="dialog">
 	<div class="modal-dialog modal-xl">
@@ -484,7 +481,6 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
-
 
 <div class="modal fade" id="ModalLibroTrest" tabindex="-3" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
@@ -533,6 +529,7 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points" name="points">
 											<input type="text" class="d-none" id="idcliente" name="idcliente">
 											<input type="text" class="d-none" id="idlibro" name="idlibro">
@@ -915,9 +912,10 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points3" name="points3">
 											<input type="text" class="d-none" id="idcliente3" name="idcliente3">
-											<input type="text" class="d-none" id="idlibro3" name="idlibro3">
+											<input type="text" class="d-none"  id="idlibro3" name="idlibro3">
 										</div>
 									</div>
 									<div class="row row-cols-2">
@@ -1071,9 +1069,10 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points5" name="points5">
-											<input type="text" class="d-none" id="idcliente5" name="idcliente5">
-											<input type="text" class="d-none" id="idlibro5" name="idlibro5">
+											<!-- class="d-none" -->
+											<input type="text"  id="points5" name="points5">
+											<input type="text"  id="idcliente5" name="idcliente5">
+											<input type="text"  id="idlibro5" name="idlibro5">
 										</div>
 									</div>
 									<div class="row row-cols-2">
@@ -1217,9 +1216,10 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points7" name="points7">
-											<input type="text" class="d-none" id="idcliente7" name="idcliente7">
-											<input type="text" class="d-none" id="idlibro7" name="idlibro7">
+											<!-- class="d-none" -->
+											<input type="text" id="points7" name="points7">
+											<input type="text" id="idcliente7" name="idcliente7">
+											<input type="text" id="idlibro7" name="idlibro7">
 										</div>
 									</div>
 									<div class="row row-cols-2">
