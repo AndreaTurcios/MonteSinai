@@ -44,7 +44,7 @@
       <script src="css/jquery-3.2.1.slim.min.js.descarga" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     </div>
     <div id="zonasDeSoltar">
-    <table width="843" height="340"  border="1" align="center" cellspacing="5" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat: no-repeat; background-position: center center;">
+    <table width="1015" height="340"  border="1" align="center" cellspacing="5" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat: no-repeat; background-position: center center;">
       <tr>
         <th width="53" scope="col">&nbsp;</th>
         <th width="53" scope="col">&nbsp;</th>
@@ -184,9 +184,9 @@
 </div>
         <p>&nbsp;</p>
         <form name="form1" method="post" action="">
-          <h3 align="center">My Body </h3>
+          <h3 align="center">Drag the Word of each Body Parts and Drop over the image above. </h3>
           
-          <table width="856" border="1" align="center">
+          <table width="856" border="1" align="center" cellspacing="5">
             <tr>
             <div id="arrastrables">
               <td width="136" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HEAD</div></div></td>
