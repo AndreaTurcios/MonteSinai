@@ -2304,9 +2304,9 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points31" name="points31">
-											<input type="text" class="d-none" id="idcliente31" name="idcliente31">
-											<input type="text" class="d-none" id="idlibro31" name="idlibro31">
+											<input type="text" class="d-none" id="points30" name="points30">
+											<input type="text" class="d-none" id="idcliente30" name="idcliente30">
+											<input type="text" class="d-none" id="idlibro30" name="idlibro30">
 										</div>
 									</div>
 									<div class="row row-cols-2 row-cols-lg-3">
@@ -2659,8 +2659,9 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
+</div>
 
-<div id="ModalLibroTreintaytres" class="modal fade" tabindex="-4">
+<div id="ModalLibroTreintaytres" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
