@@ -582,7 +582,6 @@ document.getElementById('game-eight').addEventListener('submit', function (event
 
 });
 
-
 document.getElementById('game-nines').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -642,19 +641,19 @@ document.getElementById('game-nines').addEventListener('submit', function (event
         document.getElementById('idlibro9').value = libro;
         // ejecución y envío de variables a API 
         action = 'createact9';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalLibroOcho');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-nine', 'ModalLibroNueve');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
 });
 
-
 document.getElementById('game-ten').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
     var se1, se2, se4, se5;
+    let promedio9;
     // 
     se1 = document.getElementById('word-actyo10-21').value;
     se2 = document.getElementById('word-actyo10-22').value;
@@ -668,23 +667,59 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
     }
     if (se1 === "My" && se2 === "Your" && se3 === "His" && se4 === "Her") {
 
+        // envío de variables a API 
+        promedio9 = 1;
+        var libro = 4;
+        document.getElementById('idcliente10').value = users.value;
+        document.getElementById('points10').value = promedio9;
+        document.getElementById('idlibro10').value = libro;
+        // acciones 
+        action = 'createact10';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-ten', 'ModalLibroDiez');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact91 = 4;
+        // asignación de puntajes
+        if (se1 != "My") {
+            puntosact91--
+        }
+        if (se2 != "Your") {
+            puntosact91--
+        }
+        if (se3 != "His") {
+            puntosact91--
+        }
+        if (se4 != "They") {
+            puntosact91--
+        }
+        // seteo de valor de puntajes 
+        var conteos9 = puntosact91 / 4;
+        var conteofinal91 = conteos9.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente10').value = users.value;
+        document.getElementById('points10').value = conteofinal91;
+        document.getElementById('idlibro10').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact10';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-ten', 'ModalLibroDiez');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
 
 });
 
-
 document.getElementById('game-eleven').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     // 
     var stc1, stc2, stc3;
+    let promedio10;
     // 
     stc1 = document.getElementById('word-actyo11-31').value;
     stc2 = document.getElementById('word-actyo11-32').value;
@@ -697,22 +732,55 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
     }
     if (stc1 === "This is your watch" && stc2 === "This is his watch" && stc3 === "This is her watch") {
 
+        // envío de variables a API 
+        promedio10 = 1;
+        var libro = 4;
+        document.getElementById('idcliente11').value = users.value;
+        document.getElementById('points11').value = promedio10;
+        document.getElementById('idlibro11').value = libro;
+        // acciones 
+        action = 'createact11';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-eleven', 'ModalLibroOnce');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact10 = 3;
+        // asignación de puntajes
+        if (stc1 != "This is your watch") {
+            puntosact10--
+        }
+        if (stc2 != "This is his watch") {
+            puntosact10--
+        }
+        if (stc3 != "This is her watch") {
+            puntosact10--
+        }
+        // seteo de valor de puntajes 
+        var conteos10 = puntosact10 / 3;
+        var conteofinal10 = conteos10.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente11').value = users.value;
+        document.getElementById('points11').value = conteofinal10;
+        document.getElementById('idlibro11').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact11';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-eleven', 'ModalLibroOnce');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
 });
-
 
 document.getElementById('game-twelve').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
     var ste1, ste2, ste3, ste4;
+    let promedio12;
     // 
     ste1 = document.getElementById('word-actyo12-41').value;
     ste2 = document.getElementById('word-actyo12-42').value;
@@ -726,46 +794,117 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
     }
     if (ste1 === "Short" && ste2 === "Tall" && ste3 === "I am short" && ste4 === "You are tall") {
 
+        // envío de variables a API 
+        promedio12 = 1;
+        var libro = 4;
+        document.getElementById('idcliente12').value = users.value;
+        document.getElementById('points12').value = promedio12;
+        document.getElementById('idlibro12').value = libro;
+        // acciones 
+        action = 'createact12';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalLibroDoce');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact12 = 4;
+        // asignación de puntajes
+        if (ste1 != "Short") {
+            puntosact12--
+        }
+        if (ste2 != "Tall") {
+            puntosact12--
+        }
+        if (ste3 != "I am short") {
+            puntosact12--
+        }
+        if (ste4 != "You are tall") {
+            puntosact12--
+        }
+        // seteo de valor de puntajes 
+        var conteos12 = puntosact12 / 4;
+        var conteofinal12 = conteos12.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente12').value = users.value;
+        document.getElementById('points12').value = conteofinal12;
+        document.getElementById('idlibro12').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact12';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalLibroDoce');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
 });
-
 
 document.getElementById('game-thirdteen').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
     var stcn1, stcn2, stcn3;
+    let promedio13;
     // 
     stcn1 = document.getElementById('word-actyo13-51').value;
     stcn2 = document.getElementById('word-actyo13-52').value;
     stcn3 = document.getElementById('word-actyo13-53').value;
     //
     if (stcn1 === "" || stcn2 === "" || stcn3 === "") {
+
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
     if (stcn1 === "What?" && stcn2 === "What is this?" && stcn3 === "What is your name?") {
 
+        // envío de variables a API 
+        promedio13 = 1;
+        var libro = 4;
+        document.getElementById('idcliente13').value = users.value;
+        document.getElementById('points13').value = promedio13;
+        document.getElementById('idlibro13').value = libro;
+        // acciones 
+        action = 'createact13';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact13 = 4;
+        // asignación de puntajes
+        if (ste1 != "Short") {
+            puntosact13--
+        }
+        if (ste2 != "Tall") {
+            puntosact13--
+        }
+        if (ste3 != "I am short") {
+            puntosact13--
+        }
+        if (ste4 != "You are tall") {
+            puntosact13--
+        }
+        // seteo de valor de puntajes 
+        var conteos13 = puntosact13 / 4;
+        var conteofinal13 = conteos13.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente13').value = users.value;
+        document.getElementById('points13').value = conteofinal13;
+        document.getElementById('idlibro13').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact13';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
 
 
 });
-
-
 
 document.getElementById('game-fourhteen').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -785,6 +924,7 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
     var comp_arr6 = [];
     //
     var stcne1, stcne2, stcne3, stcne4, stcne5, stcne6;
+    let promedio14;
     //
     stcne1 = document.getElementById('colors-actyo14-61').value;
     stcne2 = document.getElementById('colors-actyo14-62').value;
@@ -802,18 +942,59 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
     if (stcne1 === "Red" && stcne2 === "Green" && stcne3 === "Blue"
         && stcne4 === "Black" && stcne5 === "Brown" && stcne6 === "Yellow") {
 
+        // envío de variables a API 
+        promedio14 = 1;
+        var libro = 4;
+        document.getElementById('idcliente14').value = users.value;
+        document.getElementById('points14').value = promedio14;
+        document.getElementById('idlibro14').value = libro;
+        // acciones 
+        action = 'createact14';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
+        var libro = 4;
+        var puntosact14 = 6;
+        // asignación de puntajes
+        if (stcne1 != "Red") {
+            puntosact14--
+        }
+        if (stcne2 != "Green") {
+            puntosact14--
+        }
+        if (stcne3 != "Blue") {
+            puntosact14--
+        }
+        if (stcne4 != "Black") {
+            puntosact14--
+        }
+        if (stcne5 != "Brown") {
+            puntosact14--
+        }
+        if (stcne6 != "Yellow") {
+            puntosact14--
+        }
+        // seteo de valor de puntajes 
+        var conteos14 = puntosact14 / 6;
+        var conteofinal14 = conteos14.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente14').value = users.value;
+        document.getElementById('points14').value = conteofinal14;
+        document.getElementById('idlibro14').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact14';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
 
 
 });
-
 
 document.getElementById('game-twentyfive').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -822,6 +1003,7 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
     var choice1, choice2, choice3, choice4, choice5, choice6,
         choice7, choice8, choice9, choice10, choice11, choice12,
         choice13, choice14, choice15;
+    let promedio25;
     //
     choice1 = document.getElementById('flexCheckDefault1');
     choice2 = document.getElementById('flexCheckDefault2');
@@ -844,30 +1026,35 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
         sweetAlert(2, 'Select one choice, none of them are selected', null);
         return false;
     }
-    // if (choice1.checked === true || choice2.checked === true || choice4.checked === true
-    //     || choice6.checked === true || choice8.checked === true || choice9.checked === true
-    //     || choice10.checked === true || choice11.checked === true || choice13.checked === true || choice15.checked === true) {
-    //     sweetAlert(2, 'Select one choice per excercise', null);
-    //     return false;
-    // }
     if (choice3.checked === true && choice5.checked === true && choice3.checked === true
         && choice5.checked === true && choice7.checked === true && choice12.checked === true
         && choice14.checked === true) {
 
+        // envío de variables a API 
+        promedio25 = 1;
+        var libro = 4;
+        document.getElementById('idcliente25').value = users.value;
+        document.getElementById('points25').value = promedio24;
+        document.getElementById('idlibro25').value = libro;
+        // acciones
+        action = 'createact14';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     }
     else if (choice3.checked === false && choice5.checked === false
-        && choice7.checked === false && choice12.checked === false && choice14.checked === false || choice1.checked === true || choice2.checked === true || choice4.checked === true
+        && choice7.checked === false && choice12.checked === false && choice14.checked === false 
+        || choice1.checked === true || choice2.checked === true || choice4.checked === true
         || choice6.checked === true || choice8.checked === true || choice9.checked === true
-        || choice10.checked === true || choice11.checked === true || choice13.checked === true || choice15.checked === true) {
+        || choice10.checked === true || choice11.checked === true || choice13.checked === true 
+        || choice15.checked === true) {
 
         sweetAlert(2, 'Some of the answers are wrong, try it again or select one choice per excercise ', null);
         return true;
     }
 
 });
-
 
 document.getElementById('game-twentysix').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -903,7 +1090,6 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
 
 
 });
-
 
 document.getElementById('game-twentynine').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -941,7 +1127,6 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
 
 });
 
-
 document.getElementById('game-thirty').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -974,7 +1159,6 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
 
 });
 
-
 document.getElementById('game-thirtyone').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1006,32 +1190,6 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
     }
 
 });
-
-
-document.getElementById('game-five').addEventListener('submit', function (event) {
-    // Se evita recargar la página web después de enviar el formulario.
-    event.preventDefault();
-
-
-    if (canvasGrid.style.backgroundColor = pickedColor) {
-        //alert("color");
-
-        promedio = 1.11;
-        var libro = 4;
-        document.getElementById('idcliente5').value = users.value;
-        document.getElementById('points5').value = promedio;
-        document.getElementById('idlibro5').value = libro;
-
-        action = 'createact5';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalLibrotsestdodfdfd');
-    }
-    if (canvasGrid.style.backgroundColor != pickedColor) {
-        //alert("vacio");
-    }
-
-
-});
-
 
 // document.getElementById('game').addEventListener('submit', function (event) {
 //     // Se evita recargar la página web después de enviar el formulario.
@@ -1074,7 +1232,6 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
     }
 });
 
-
 document.getElementById('game-thirtythree').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1103,9 +1260,29 @@ document.getElementById('game-thirtythree').addEventListener('submit', function 
 
 });
 
+document.getElementById('game-five').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
 
 
+    if (canvasGrid.style.backgroundColor = pickedColor) {
+        //alert("color");
 
+        promedio = 1.11;
+        var libro = 4;
+        document.getElementById('idcliente5').value = users.value;
+        document.getElementById('points5').value = promedio;
+        document.getElementById('idlibro5').value = libro;
+
+        action = 'createact5';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalLibrotsestdodfdfd');
+    }
+    if (canvasGrid.style.backgroundColor != pickedColor) {
+        //alert("vacio");
+    }
+
+
+});
 // coloreo ----------------------------------
 // variables
 const colorGrid = document.querySelector('.color-grid');
