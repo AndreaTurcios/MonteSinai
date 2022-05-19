@@ -31,8 +31,8 @@ Dashboard_Page::headerTemplate('Libro 11');
                         text-transform: uppercase; font-size: 18px;">UNIT 1</div>
                     </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My School</span>
-                    <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="margin-top: 5px; width: 100%; background-color: #c92920; border-color: #c92920; " >View contents</a>
-                    <a class="btn btn-primary" href="../libro11Unidad1.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
+                    <a class="btn btn-primary" href="../libro6Unidad1.php" role="button" style="margin-top: 5px; width: 100%; background-color: #c92920; border-color: #c92920; " >View contents</a>
+                    <a class="btn btn-primary" href="../libro6Unidad1.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
 
@@ -45,8 +45,8 @@ Dashboard_Page::headerTemplate('Libro 11');
                         text-transform: uppercase; font-size: 18px;">UNIT 2</div>
                     </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My Neighborhood</span>
-                    <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="margin-top: 5px; width: 100%; background-color: #c92920; border-color: #c92920; " >View contents</a>
-                    <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
+                    <a class="btn btn-primary" href="../libro6Unidad2.php" role="button" style="margin-top: 5px; width: 100%; background-color: #c92920; border-color: #c92920; " >View contents</a>
+                    <a class="btn btn-primary" href="../libro6Unidad2.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
 
@@ -59,8 +59,8 @@ Dashboard_Page::headerTemplate('Libro 11');
                         text-transform: uppercase; font-size: 18px;">UNIT 3</div>
                     </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My City</span>
-                    <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="margin-top: 5px; width: 100%; background-color: #c92920; border-color: #c92920; " >View contents</a>
-                    <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
+                    <a class="btn btn-primary" href="../libro6Unidad3.php" role="button" style="margin-top: 5px; width: 100%; background-color: #c92920; border-color: #c92920; " >View contents</a>
+                    <a class="btn btn-primary" href="../libro6Unidad3.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
         </div>

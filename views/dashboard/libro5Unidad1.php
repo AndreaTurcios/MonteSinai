@@ -431,5 +431,5 @@ yepnope({
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('controladorlibro11.js');
+Book_Page::footerTemplate('controladorlibro5.js');
 ?>

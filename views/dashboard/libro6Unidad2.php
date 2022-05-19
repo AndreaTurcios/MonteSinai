@@ -68,7 +68,7 @@ function loadApp() {
 
         // The number of pages,
 
-        pages: 33,
+        pages: 40,
 
         // Events
 
@@ -418,7 +418,7 @@ yepnope({
     yep: ['../../resources/js/turnjs4/lib/turn.js'],
     nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
     both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css',
-        '../../app/controllers/unidadtresquintogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'
+        '../../app/controllers/unidaddossextogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'
     ],
     complete: loadApp
 });
@@ -426,8 +426,10 @@ yepnope({
 
 <!--Espacio para modal -->
 
+
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('controladorlibro5.js');
+Book_Page::footerTemplate('controladorlibro6.js');
 ?>
