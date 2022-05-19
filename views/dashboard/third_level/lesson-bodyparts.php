@@ -28,7 +28,7 @@
       <div align="center"><a class="navbar-brand" href="#"><img src="img/logosinai.png" width="250px" height=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
+        </button>
       </div>
    </nav>
    <div align="left"><br>
@@ -43,8 +43,9 @@
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="css/jquery-3.2.1.slim.min.js.descarga" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     </div>
+    <div id="posicion-izquierda" class="posicion-izquierda">
     <div id="zonasDeSoltar">
-    <table width="1015" height="340"  border="1" align="center" cellspacing="5" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat: no-repeat; background-position: center center;">
+    <table width="1015" height="602"  border="1" align="center" cellspacing="5" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat: no-repeat; background-position: center center;">
       <tr>
         <th width="53" scope="col">&nbsp;</th>
         <th width="53" scope="col">&nbsp;</th>
@@ -65,7 +66,7 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td><div class="soltar">
-          <div align="center">EYE</div>
+          <div align="center"><img src="img/bodyparts/eye.png" width="40px" height="20px" id="eye" name="eye"></div>
         </div></td>
         <td><div class="soltar">
           <div align="center">HAIR</div>
@@ -75,15 +76,15 @@
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
+        <th height="68" scope="row">&nbsp;</th>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td><div class="soltar">
-          <div align="center">EYELASH</div>
+          <div align="center"><img src="img/bodyparts/ear.png" width="40px" height="40px"></div>
         </div></td>
         <td><div class="soltar">
-          <div align="center">EAR</div>
+          <div align="center">ok</div>
         </div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -124,7 +125,7 @@
           <div align="center">ARM</div>
         </div></td>
         <td><div class="soltar">
-          <div align="center">HAND</div>
+          <div align="center"><img src="img/bodyparts/hand.png" width="40px" height="40px"></div>
         </div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -163,7 +164,7 @@
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td><div class="soltar">
-          <div align="center">FOOT</div>
+          <div align="center"><img src="img/bodyparts/foot.png" width="60px" height="40px"></div>
         </div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -182,32 +183,40 @@
       </tr>
   </table>
 </div>
+</div>
         <p>&nbsp;</p>
         <form name="form1" method="post" action="">
           <h3 align="center">Drag the Word of each Body Parts and Drop over the image above. </h3>
-          
+    <div id="posicion-derecha" class="posicion-derecha">
           <table width="856" border="1" align="center" cellspacing="5">
             <tr>
             <div id="arrastrables">
-              <td width="136" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HEAD</div></div></td>
-              <td width="136" scope="col"><div align="center"><div class="arrastrable" draggable="true" >EYE</div></div></td>
-              <td width="136" scope="col"><div align="center"><div class="arrastrable" draggable="true" >SHOULDER</div></div></td>
-              <td width="136" scope="col"><div align="center"><div class="arrastrable" draggable="true" >MOUTH</div></div></td>
-              <td width="136" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HAND</div></div></td>
-              <td width="136" scope="col"><div align="center"><div class="arrastrable" draggable="true" >LEG</div></div></td>
-              </div>
+              <td width="437" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HEAD</div></div></td>
+              <td width="274" scope="col"><div align="center"><div class="arrastrable" draggable="true" >EYE</div></div></td>
             </tr>
             <tr>
-              <td><div class="arrastrable" draggable="true" >HAIR</div></td>
-              <td><div class="arrastrable" draggable="true" >EYELASH</div></td>
-              <td><div class="arrastrable" draggable="true" >NOSE</div></td>
-              <td><div class="arrastrable" draggable="true" >ARM</div></td>
-              <td><div class="arrastrable" draggable="true" >KNEE</div></td>
-              <td><div class="arrastrable" draggable="true" >FOOT</div></td>
+            <td width="111" scope="col"><div align="center"><div class="arrastrable" draggable="true" >SHOULDER</div></div></td>
+              <td width="437" scope="col"><div align="center"><div class="arrastrable" draggable="true" >MOUTH</div></div></td> 
+            </tr>
+             
+              <td width="111" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HAND</div></div></td>
+              <td width="437" scope="col"><div align="center"><div class="arrastrable" draggable="true" >LEG</div></div></td>
+              
+            </tr>
+            <tr>
+              <td width="111"><div class="arrastrable" draggable="true" >HAIR</div></td>
+              <td width="437"><div class="arrastrable" draggable="true" >EYEBROW</div></td>
+            </tr>
+              <td width="111"><div class="arrastrable" draggable="true" >NOSE</div></td>
+              <td width="437"><div class="arrastrable" draggable="true" >ARM</div></td>
+            <tr>
+              <td width="111"><div class="arrastrable" draggable="true" >KNEE</div></td>
+              <td width="437"><div class="arrastrable" draggable="true" >FOOT</div></td>
             </tr>
           </table>
   </form>
-        <p>&nbsp;</p>
+</div>
+  <p>&nbsp;</p>
         <p>
           <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
           <script src="./Starter Template for Bootstrap_files/popper.min.js.descarga"></script>
