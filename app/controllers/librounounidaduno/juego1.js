@@ -609,7 +609,7 @@ document.getElementById('game-nines').addEventListener('submit', function (event
         document.getElementById('idlibro9').value = libro;
         // acciones 
         action = 'createact9';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-nine', 'ModalLibroNueve');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-nines', 'ModalLibroNueve');
         //alert
         sweetAlert(1, 'good job', null);
         return true;
@@ -641,7 +641,7 @@ document.getElementById('game-nines').addEventListener('submit', function (event
         document.getElementById('idlibro9').value = libro;
         // ejecución y envío de variables a API 
         action = 'createact9';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-nine', 'ModalLibroNueve');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-nines', 'ModalLibroNueve');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -874,22 +874,19 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
     else {
 
         var libro = 4;
-        var puntosact13 = 4;
+        var puntosact13 = 3;
         // asignación de puntajes
-        if (ste1 != "Short") {
+        if (stcn1 != "What?") {
             puntosact13--
         }
-        if (ste2 != "Tall") {
+        if (stcn2 != "What is this?") {
             puntosact13--
         }
-        if (ste3 != "I am short") {
-            puntosact13--
-        }
-        if (ste4 != "You are tall") {
+        if (stcn3 != "What is your name?") {
             puntosact13--
         }
         // seteo de valor de puntajes 
-        var conteos13 = puntosact13 / 4;
+        var conteos13 = puntosact13 / 3;
         var conteofinal13 = conteos13.toFixed(2);
         //asignación de valores 
         document.getElementById('idcliente13').value = users.value;
@@ -950,7 +947,7 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
         document.getElementById('idlibro14').value = libro;
         // acciones 
         action = 'createact14';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-fourhteen', 'ModalLibroCatorce');
         //alert
         sweetAlert(1, 'good job', null);
         return true;
@@ -987,7 +984,7 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
         document.getElementById('idlibro14').value = libro;
         // ejecución y envío de variables a API 
         action = 'createact14';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-fourhteen', 'ModalLibroCatorce');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -1044,10 +1041,10 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
         return true;
     }
     else if (choice3.checked === false && choice5.checked === false
-        && choice7.checked === false && choice12.checked === false && choice14.checked === false 
+        && choice7.checked === false && choice12.checked === false && choice14.checked === false
         || choice1.checked === true || choice2.checked === true || choice4.checked === true
         || choice6.checked === true || choice8.checked === true || choice9.checked === true
-        || choice10.checked === true || choice11.checked === true || choice13.checked === true 
+        || choice10.checked === true || choice11.checked === true || choice13.checked === true
         || choice15.checked === true) {
 
         sweetAlert(2, 'Some of the answers are wrong, try it again or select one choice per excercise ', null);
@@ -1061,6 +1058,7 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
     event.preventDefault();
     //
     var nums1, nums2, nums3, nums4, nums5, nums6, nums7, nums8, nums9, nums10;
+    let promedio26;
     // 
     nums1 = document.getElementById('numbers-actyo26-261').value;
     nums2 = document.getElementById('numbers-actyo26-262').value;
@@ -1080,10 +1078,65 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
     }
     if (nums1 === "One" && nums2 === "Two" && nums3 === "Three" && nums4 === "Four" && nums5 === "Five"
         && nums6 === "Six" && nums7 === "Seven" && nums8 === "Eight" && nums9 === "Nine" && nums10 === "Ten") {
+
+        // envío de variables a API 
+        promedio26 = 1;
+        var libro = 4;
+        document.getElementById('idcliente26').value = users.value;
+        document.getElementById('points26').value = promedio26;
+        document.getElementById('idlibro26').value = libro;
+        // acciones 
+        action = 'createact26';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalLibroVeintiseis');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     } else {
 
+        var libro = 4;
+        var puntosact26 = 10;
+        // asignación de puntajes
+        if (nums1 != "One") {
+            puntosact26--
+        }
+        if (nums2 != "Two") {
+            puntosact26--
+        }
+        if (nums3 != "Three") {
+            puntosact26--
+        }
+        if (nums4 != "Four") {
+            puntosact26--
+        }
+        if (nums5 != "Five") {
+            puntosact26--
+        }
+        if (nums6 != "Six") {
+            puntosact26--
+        }
+        if (nums7 != "Seven") {
+            puntosact26--
+        }
+        if (nums8 != "Eight") {
+            puntosact26--
+        }
+        if (nums9 != "Nine") {
+            puntosact26--
+        }
+        if (nums10 != "Ten") {
+            puntosact26--
+        }
+        // seteo de valor de puntajes 
+        var conteos26 = puntosact26 / 10;
+        var conteofinal26 = conteos26.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente26').value = users.value;
+        document.getElementById('points26').value = conteofinal26;
+        document.getElementById('idlibro26').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact26';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalLibroVeintiseis');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -1095,7 +1148,8 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
-    var actp1, actp2, actp3, actp4, actp5, actp6, actp7, actp8
+    var actp1, actp2, actp3, actp4, actp5, actp6, actp7, actp8;
+    let promedio29;
     //
     actp1 = document.getElementById('input-actp1').value;
     actp2 = document.getElementById('input-actp2').value;
@@ -1116,10 +1170,58 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
     if (actp1 === "e" && actp2 === "you" && actp3 === "Not" && actp4 === "are"
         && actp5 === "Thank you" && actp6 === "and" && actp7 === "Hi" && actp8 === "new") {
 
+        // envío de variables a API 
+        promedio29 = 1;
+        var libro = 4;
+        document.getElementById('idcliente29').value = users.value;
+        document.getElementById('points29').value = promedio29;
+        document.getElementById('idlibro29').value = libro;
+        // acciones 
+        action = 'createact29';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twentynine', 'ModalLibroVeintinueve');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     } else {
 
+        var libro = 4;
+        var puntosact29 = 8;
+        // asignación de puntajes
+        if (actp1 != "e") {
+            puntosact29--
+        }
+        if (actp2 != "you") {
+            puntosact29--
+        }
+        if (actp3 != "Not") {
+            puntosact29--
+        }
+        if (actp4 != "are") {
+            puntosact29--
+        }
+        if (actp5 != "Thank you") {
+            puntosact29--
+        }
+        if (actp6 != "and") {
+            puntosact29--
+        }
+        if (actp7 != "Hi") {
+            puntosact29--
+        }
+        if (actp8 != "new") {
+            puntosact29--
+        }
+        // seteo de valor de puntajes 
+        var conteos29 = puntosact29 / 8;
+        var conteofinal29 = conteos29.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente29').value = users.value;
+        document.getElementById('points29').value = conteofinal29;
+        document.getElementById('idlibro29').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact29';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twentynine', 'ModalLibroVeintinueve');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -1132,6 +1234,7 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
     event.preventDefault();
     //
     var comp1, comp2, comp3, comp4, comp5, comp6;
+    let promedio30;
     // 
     comp1 = document.getElementById('input-actp301').value;
     comp2 = document.getElementById('input-actp302').value;
@@ -1149,10 +1252,52 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
     if (comp1 === "Miss" && comp2 === "Hello" && comp3 === "do"
         && comp4 === "you" && comp5 === "bad" && comp6 === "later") {
 
+        // envío de variables a API 
+        promedio30 = 1;
+        var libro = 4;
+        document.getElementById('idcliente30').value = users.value;
+        document.getElementById('points30').value = promedio30;
+        document.getElementById('idlibro30').value = libro;
+        // acciones 
+        action = 'createact30';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirty', 'ModalLibroTreinta');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     } else {
 
+        var libro = 4;
+        var puntosact30 = 6;
+        // asignación de puntajes
+        if (comp1 != "Miss") {
+            puntosact30--
+        }
+        if (comp2 != "Hello") {
+            puntosact30--
+        }
+        if (comp3 != "do") {
+            puntosact30--
+        }
+        if (comp4 != "you") {
+            puntosact30--
+        }
+        if (comp5 != "bad") {
+            puntosact30--
+        }
+        if (comp6 != "later") {
+            puntosact30--
+        }
+        // seteo de valor de puntajes 
+        var conteos30 = puntosact30 / 6;
+        var conteofinal30 = conteos30.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente30').value = users.value;
+        document.getElementById('points30').value = conteofinal30;
+        document.getElementById('idlibro30').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact30';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirty', 'ModalLibroTreinta');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -1164,6 +1309,7 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
     event.preventDefault();
     // 
     var fills1, fills2, fills3, fills4, fills5, fills6;
+    let promedio31;
     //
     fills1 = document.getElementById('input-actp311').value;
     fills2 = document.getElementById('input-actp312').value;
@@ -1181,10 +1327,52 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
     if (fills1 === "ent" && fills2 === "good!" && fills3 === "od"
         && fills4 === "Well" && fills5 === "All" && fills6 === "Good") {
 
+        // envío de variables a API 
+        promedio31 = 1;
+        var libro = 4;
+        document.getElementById('idcliente31').value = users.value;
+        document.getElementById('points31').value = promedio31;
+        document.getElementById('idlibro31').value = libro;
+        // acciones 
+        action = 'createact31';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyone', 'ModalLibroTreintayuno');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
     } else {
 
+        var libro = 4;
+        var puntosact31 = 6;
+        // asignación de puntajes
+        if (fills1 != "ent") {
+            puntosact31--
+        }
+        if (fills2 != "good!") {
+            puntosact31--
+        }
+        if (fills3 != "od") {
+            puntosact31--
+        }
+        if (fills4 != "Well") {
+            puntosact31--
+        }
+        if (fills5 != "All") {
+            puntosact31--
+        }
+        if (fills6 != "Good") {
+            puntosact31--
+        }
+        // seteo de valor de puntajes 
+        var conteos31 = puntosact31 / 6;
+        var conteofinal31 = conteos31.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente31').value = users.value;
+        document.getElementById('points31').value = conteofinal31;
+        document.getElementById('idlibro31').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact31';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyone', 'ModalLibroTreintayuno');
+        //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -1201,6 +1389,7 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
     event.preventDefault();
     //
     var f1, f2, f3, f4, f5, f6, f7, f8, f9, f10;
+    let promedio32;
     //
     f1 = document.getElementById('food-actyo32-61').value;
     f2 = document.getElementById('food-actyo32-62').value;
@@ -1209,7 +1398,7 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
     f5 = document.getElementById('food-actyo32-65').value;
     f6 = document.getElementById('food-actyo32-66').value;
     f7 = document.getElementById('food-actyo32-67').value;
-    f8 = document.getElementById('food-actyo32-68"').value;
+    f8 = document.getElementById('food-actyo32-68').value;
     f9 = document.getElementById('food-actyo32-69').value;
     f10 = document.getElementById('food-actyo32-610').value;
     //
@@ -1223,15 +1412,71 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
     if (f1 === "rice" && f2 === "eggs" && f3 === "chicken" && f4 === "beans" && f5 === "oranges"
         && f6 === "potatoes" && f7 === "fish" && f8 === "meat" && f9 === "bread" && f10 === "shrimps") {
 
+        // envío de variables a API 
+        promedio32 = 1;
+        var libro = 4;
+        document.getElementById('idcliente32').value = users.value;
+        document.getElementById('points32').value = promedio32;
+        document.getElementById('idlibro32').value = libro;
+        // acciones 
+        action = 'createact32';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
+        //alert
         sweetAlert(1, 'good job', null);
         return true;
+
     } else {
 
+        var libro = 4;
+        var puntosact32 = 10;
+        // asignación de puntajes
+        if (f1 != "rice") {
+            puntosact32--
+        }
+        if (f2 != "eggs") {
+            puntosact32--
+        }
+        if (f3 != "chicken") {
+            puntosact32--
+        }
+        if (f4 != "beans") {
+            puntosact32--
+        }
+        if (f5 != "oranges") {
+            puntosact32--
+        }
+        if (f6 != "potatoes") {
+            puntosact32--
+        }
+        if (f7 != "fish") {
+            puntosact32--
+        }
+        if (f8 != "meat") {
+            puntosact32--
+        }
+        if (f9 != "bread") {
+            puntosact32--
+        }
+        if (f10 != "shrimps") {
+            puntosact32--
+        }        
+        // seteo de valor de puntajes 
+        var conteos32 = puntosact32 / 10;
+        var conteofinal32 = conteos32.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente32').value = users.value;
+        document.getElementById('points32').value = conteofinal32;
+        document.getElementById('idlibro32').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact32';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
+        //alert
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
 });
 
+// no implementado
 document.getElementById('game-thirtythree').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
