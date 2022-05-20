@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -21,6 +21,15 @@
     <link href="css/starter-template.css" rel="stylesheet">
 
      <link rel="stylesheet" href="css/style.css" />
+
+<style type="text/css">
+<!--
+body {
+	background-image: url(img/fondo.png);
+  background-attachment: fixed;
+}
+-->
+</style>
 </head>
   <body>
 
@@ -45,70 +54,55 @@
     </div>
     <div id="posicion-izquierda" class="posicion-izquierda">
     <div id="zonasDeSoltar">
-    <table width="1015" height="602"  border="1" align="center" cellspacing="5" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat: no-repeat; background-position: center center;">
+    <table width="834" height="602"  border="0" align="center" cellspacing="5" bordercolor="#FFFFFF" background="img/bodyparts.png" style="background-repeat: no-repeat; background-position: center center;">
       <tr>
-        <th width="53" scope="col">&nbsp;</th>
-        <th width="53" scope="col">&nbsp;</th>
-        <th width="20" scope="col">&nbsp;</th>
-        <th width="54" scope="col">&nbsp;</th>
-        <th width="103" scope="col">&nbsp;</th>
-        <th width="199" rowspan="10" scope="col">&nbsp;</th>
-        <td width="100"><div class="soltar">
+        <th width="50" scope="col">&nbsp;</th>
+        <th width="90" scope="col">&nbsp;</th>
+        <th width="123" scope="col">&nbsp;</th>
+        <th width="238" rowspan="10" scope="col">&nbsp;</th>
+        <td width="120"><div class="soltar">
           <div align="center">HEAD</div>
         </div></td>
-        <th width="79" scope="col">&nbsp;</th>
-        <th width="53" scope="col">&nbsp;</th>
-        <th width="65" scope="col">&nbsp;</th>
+        <th width="95" class="soltar" scope="col">&nbsp;</th>
+        <th width="64" scope="col">&nbsp;</th>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td bordercolor="#000000" class="soltar">&nbsp;</td>
         <td><div class="soltar">
           <div align="center"><img src="img/bodyparts/eye.png" width="40px" height="20px" id="eye" name="eye"></div>
         </div></td>
         <td><div class="soltar">
           <div align="center">HAIR</div>
         </div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th height="68" scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td height="68">&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td><div class="soltar">
           <div align="center"><img src="img/bodyparts/ear.png" width="40px" height="40px"></div>
         </div></td>
         <td><div class="soltar">
           <div align="center">EYEBROW</div>
         </div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td><div class="soltar">
           <div align="center">SHOULDER</div>
         </div></td>
         <td><div class="soltar">
           <div align="center">MOUTH</div>
         </div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -117,24 +111,18 @@
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td><div class="soltar">
           <div align="center">ARM</div>
         </div></td>
         <td><div class="soltar">
           <div align="center"><img src="img/bodyparts/hand.png" width="40px" height="40px"></div>
         </div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -143,37 +131,28 @@
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
         <td>&nbsp;</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td><div class="soltar">
           <div align="center">KNEE</div>
         </div></td>
         <td><div class="soltar">
           <div align="center">LEG</div>
         </div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td><div class="soltar">
           <div align="center"><img src="img/bodyparts/foot.png" width="60px" height="40px"></div>
         </div></td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td class="soltar">&nbsp;</td>
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <th scope="row">&nbsp;</th>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -185,10 +164,10 @@
 </div>
 </div>
         <p>&nbsp;</p>
-        <form name="form1" method="post" action="">
+  <form name="form1" method="post" action="">
           <h3 align="center"></h3>
     <div id="posicion-derecha" class="posicion-derecha">
-          <table width="" border="1" align="center" cellspacing="5">
+          <table width="276" height="365" border="0" align="left" cellpadding="10" cellspacing="10">
             <tr>
             <div id="arrastrables">
               <td width="" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HEAD</div></div></td>
@@ -213,21 +192,13 @@
               <td width=""><div class="arrastrable" draggable="true" >KNEE</div></td>
               <td width=""><div class="arrastrable" draggable="true" >FOOT</div></td>
             </tr>
-          </table>
+    </table>
   </form>
-</div>
-  <p>&nbsp;</p>
-        <p>
+<p>&nbsp;</p>
+  <p>
           <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
           <script src="./Starter Template for Bootstrap_files/popper.min.js.descarga"></script>
           <script src="./Starter Template for Bootstrap_files/bootstrap.min.js.descarga"></script>
-          
-          
-          
-          
-          
-            </div>
-</div>
         </p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
