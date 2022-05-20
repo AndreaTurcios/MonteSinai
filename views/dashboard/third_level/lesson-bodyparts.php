@@ -84,7 +84,7 @@
           <div align="center"><img src="img/bodyparts/ear.png" width="40px" height="40px"></div>
         </div></td>
         <td><div class="soltar">
-          <div align="center">ok</div>
+          <div align="center">EYEBROW</div>
         </div></td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -186,32 +186,32 @@
 </div>
         <p>&nbsp;</p>
         <form name="form1" method="post" action="">
-          <h3 align="center">Drag the Word of each Body Parts and Drop over the image above. </h3>
+          <h3 align="center"></h3>
     <div id="posicion-derecha" class="posicion-derecha">
-          <table width="856" border="1" align="center" cellspacing="5">
+          <table width="" border="1" align="center" cellspacing="5">
             <tr>
             <div id="arrastrables">
-              <td width="437" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HEAD</div></div></td>
-              <td width="274" scope="col"><div align="center"><div class="arrastrable" draggable="true" >EYE</div></div></td>
+              <td width="" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HEAD</div></div></td>
+              <td width="" scope="col"><div align="center"><div class="arrastrable" draggable="true" >EYE</div></div></td>
             </tr>
             <tr>
-            <td width="111" scope="col"><div align="center"><div class="arrastrable" draggable="true" >SHOULDER</div></div></td>
-              <td width="437" scope="col"><div align="center"><div class="arrastrable" draggable="true" >MOUTH</div></div></td> 
+            <td width="" scope="col"><div align="center"><div class="arrastrable" draggable="true" >SHOULDER</div></div></td>
+              <td width="" scope="col"><div align="center"><div class="arrastrable" draggable="true" >MOUTH</div></div></td> 
             </tr>
              
-              <td width="111" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HAND</div></div></td>
-              <td width="437" scope="col"><div align="center"><div class="arrastrable" draggable="true" >LEG</div></div></td>
+              <td width="" scope="col"><div align="center"><div class="arrastrable" draggable="true" >HAND</div></div></td>
+              <td width="" scope="col"><div align="center"><div class="arrastrable" draggable="true" >LEG</div></div></td>
               
             </tr>
             <tr>
-              <td width="111"><div class="arrastrable" draggable="true" >HAIR</div></td>
-              <td width="437"><div class="arrastrable" draggable="true" >EYEBROW</div></td>
+              <td width=""><div class="arrastrable" draggable="true" >HAIR</div></td>
+              <td width=""><div class="arrastrable" draggable="true" >EYEBROW</div></td>
             </tr>
-              <td width="111"><div class="arrastrable" draggable="true" >NOSE</div></td>
-              <td width="437"><div class="arrastrable" draggable="true" >ARM</div></td>
+              <td width=""><div class="arrastrable" draggable="true" >NOSE</div></td>
+              <td width=""><div class="arrastrable" draggable="true" >ARM</div></td>
             <tr>
-              <td width="111"><div class="arrastrable" draggable="true" >KNEE</div></td>
-              <td width="437"><div class="arrastrable" draggable="true" >FOOT</div></td>
+              <td width=""><div class="arrastrable" draggable="true" >KNEE</div></td>
+              <td width=""><div class="arrastrable" draggable="true" >FOOT</div></td>
             </tr>
           </table>
   </form>

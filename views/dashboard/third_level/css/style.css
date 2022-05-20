@@ -27,19 +27,20 @@
 
   #posicion-izquierda{
   position: absolute;
-  top: 150px; left: 700px;
-  
+  top: 100px; left: 600px;
+  width: 50%;
   
   }
 
   #posicion-derecha{
     position: absolute;
-    top: 200px; right: 590px;
-    
+    top: 250px; right: 1000px;
+    width: 300px;
+    height: 200px;
 
-    }
+   }
 
+.body{
+  background: url("img/fondo.png");
 
-.table, td{
-  width: -1%;
 }
