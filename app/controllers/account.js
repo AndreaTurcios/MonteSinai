@@ -1,5 +1,5 @@
 // Constante para establecer la ruta y parámetros de comunicación con la API.
-const API_USUARIOS = '../../../app/api/usuarios.php?action=';
+const API_USUARIOS = '../../app/api/usuarios.php?action=';
 
 function openDevicesDialog() {
     fetch(API_USUARIOS + 'getDevices', {
