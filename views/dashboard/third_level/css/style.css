@@ -2,7 +2,7 @@
 #arrastrables div{margin:10px 17px 0 10px;}
 .arrastrable {
     flex:0 0 100px;
-    height: 75px;
+    height: 45px;
     background: #FFCC66;
     text-align: center;
     
@@ -11,9 +11,36 @@
   }
 
   .soltar {
-    flex:0 0 0px;
-    height: 75px;
-    background: #c0e9ae;
-    padding: 1px;
-    margin:1px 1px 0 0 ;
+	flex:0 0 0px;
+	height: 55px;
+	padding: 1px;
+	margin:1px 1px 0 0;
+	border-color: #000000;
   }
+
+
+  .eye{
+    border-color: #000000;
+   
+    
+  }
+
+  #posicion-izquierda{
+  position: absolute;
+  top: 100px; left: 600px;
+  width: 50%;
+  
+  }
+
+  #posicion-derecha{
+    position: absolute;
+    top: 200px; right: 1000px;
+    width: 300px;
+    height: 200px;
+
+   }
+
+.body{
+  background-image: url("img/fondo.png");
+
+}
