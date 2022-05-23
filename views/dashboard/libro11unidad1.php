@@ -429,12 +429,20 @@ yepnope({
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Write questions and answers about the biography</h5>
+                <h5 class="modal-title" id="modal-title">Complete the activity - Write questions and answers about the biography</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="game-one">
                 <div class="modal-body">
                     <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  id="pointsL11" name="pointsL11">
+                                <input type="text"  id="idlibroL11" name="idlibroL11">
+								<input type="text"  id="idclienteL11" name="idclienteL11">
+							</div>
+						</div>
                         <div class="row">
                             <div class="col-6">
 								<div class="pregunta">
@@ -453,15 +461,15 @@ yepnope({
 							<div class="col-6">
 								<div class="respuesta">
 									<h5>Answer 1</h5>
-									<input id="a1" type="text" style="width:450px">
+									<input id="a1" type="text">
 								</div>
 								<div class="respuesta">
 									<h5>Answer 2</h5>
-									<input id="a2" type="text" style="width:450px">
+									<input id="a2" type="text">
 								</div>
 								<div class="respuesta">
 									<h5>Answer 3</h5>
-									<input id="a3" type="text" style="width:450px">
+									<input id="a3" type="text">
 								</div>
 							</div>
                         </div>
