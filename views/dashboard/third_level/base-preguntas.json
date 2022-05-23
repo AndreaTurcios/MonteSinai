@@ -1,0 +1,32 @@
+[
+    {
+        "categoria": "Word - 1",
+        "Pregunta" : "WHICH BODY PART IS THIS?",
+        "respuesta": "NOSE",
+        "incorrecta1": "HEAD",
+        "incorrecta2": "EAR",
+        "incorrecta3": "MOUTH",
+        "imagen": "img/bodyparts/nose.png",
+        "object_fit": "cover"
+    },
+    {
+        "categoria": "Word - 2",
+        "Pregunta" : "WHICH BODY PART IS THIS?",
+        "respuesta": "EAR",
+        "incorrecta1": "HEAD",
+        "incorrecta2": "LEG",
+        "incorrecta3": "MOUTH",
+        "imagen": "img/bodyparts/ear.png",
+        "object_fit": "cover"
+    },
+    {
+        "categoria": "Word - 3",
+        "Pregunta" : "WHICH BODY PART IS THIS?",
+        "respuesta": "FOOT",
+        "incorrecta1": "HEAD",
+        "incorrecta2": "EAR",
+        "incorrecta3": "ARM",
+        "imagen": "img/bodyparts/foot.png",
+        "object_fit": "cover"
+    }
+]

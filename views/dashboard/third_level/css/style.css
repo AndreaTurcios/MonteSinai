@@ -44,3 +44,8 @@
   background-image: url("img/fondo.png");
 
 }
+#title #scores .score #time{
+	font-size: 2em;
+	margin: -20px 0px 0px 0px;
+
+}

@@ -21,18 +21,21 @@
     <link href="css/starter-template.css" rel="stylesheet">
 
      <link rel="stylesheet" href="css/style.css" />
+     <link rel="stylesheet" href="css/normalize.css">
+     <script src="js/modernizr.custom.60251.js"></script>
+     <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'> 
 
-<style type="text/css">
-<!--
-body {
-	background-image: url(img/fondo.png);
-  background-attachment: fixed;
-}
--->
-</style>
+
+
+
 </head>
   <body>
 
+  
+<div class="score">
+  <p>Time</p>
+  <p id="time"><span id="minutes">00</span>:<span id="seconds">50</span></p>
+</div>
    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <div align="center"><a class="navbar-brand" href="#"><img src="img/logosinai.png" width="250px" height=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +88,7 @@ body {
           <div align="center"><img src="img/bodyparts/ear.png" width="40px" height="40px"></div>
         </div></td>
         <td><div class="soltar">
-          <div align="center">EYEBROW</div>
+          <div align="center"><img src="img/bodyparts/nose.png" width="40px" height="40px"></div>
         </div></td>
         <td class="soltar">&nbsp;</td>
         <td>&nbsp;</td>
@@ -204,6 +207,13 @@ body {
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <script  src="js/script.js"></script>
+        <script  src="js/time_manager.js"></script>
+        <script  src="js/autoplay.js"></script>
+
+
+
+
+
   </body>
 
 
