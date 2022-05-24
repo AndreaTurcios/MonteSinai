@@ -2,7 +2,7 @@
 //Se incluye la clase con las plantillas del documento
 require_once("../../app/helpers/book_page.php");
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Book_Page::headerTemplate('UNIT ONE "MY BODY"');
+Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 ?>
 <!--  ----------------------------------------- fin plantilla header --------------------------------  -->
 
@@ -23,42 +23,42 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 			<div>
 				<ul>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/1.PNG" width="76" height="100" class="page-1">
-						<span>1</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/44.PNG" width="76" height="100" class="page-1">
+						<span>44</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/2.PNG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/3.PNG" width="76" height="100" class="page-3">
-						<span>2-3</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/45.PNG" width="76" height="100" class="page-2">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/46.PNG" width="76" height="100" class="page-3">
+						<span>45-46</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/4.PNG" width="76" height="100" class="page-4">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/5.PNG" width="76" height="100" class="page-5">
-						<span>4-5</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/47.PNG" width="76" height="100" class="page-4">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/48.PNG" width="76" height="100" class="page-5">
+						<span>47-48</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/6.PNG" width="76" height="100" class="page-6">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/7.PNG" width="76" height="100" class="page-7">
-						<span>6-7</span>
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/49.PNG" width="76" height="100" class="page-6">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/50.PNG" width="76" height="100" class="page-7">
+						<span>49-50</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/8.PNG" width="76" height="100" class="page-8">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/9.PNG" width="76" height="100" class="page-9">
-						<span>8-9</span>
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/51.PNG" width="76" height="100" class="page-8">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/52.PNG" width="76" height="100" class="page-9">
+						<span>51-52</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/10.PNG" width="76" height="100" class="page-10">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/11.PNG" width="76" height="100" class="page-11">
-						<span>10-11</span>
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/53.PNG" width="76" height="100" class="page-10">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/54.PNG" width="76" height="100" class="page-11">
+						<span>53-54</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/12.JPG" width="76" height="100" class="page-12">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/13.JPG" width="76" height="100" class="page-13">
-						<span>12-13</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/55.JPG" width="76" height="100" class="page-12">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/56.JPG" width="76" height="100" class="page-13">
+						<span>55-56</span>
 					</li>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/14.JPG" width="76" height="100" class="page-14">
-						<span>14<span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/57.JPG" width="76" height="100" class="page-14">
+						<span>57<span>
 					</li>
 					<ul>
 						<div>
@@ -465,7 +465,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		test: Modernizr.csstransforms,
 		yep: ['../../resources/js/turnjs4/lib/turn.js'],
 		nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
-		both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidadunosegundogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
+		both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidaddossegundogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
 		complete: loadApp
 	});
 </script>
@@ -476,35 +476,6 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel">New message</h5>
-
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="ModalLibroTrest" tabindex="-3" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="ModalLibrotest" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-body">
 
 			</div>
 		</div>
