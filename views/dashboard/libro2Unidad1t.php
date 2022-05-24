@@ -8,6 +8,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 
 
 <div id="canvas">
+	<div class="exit"></div>
 	<div class="zoom-icon zoom-icon-in"></div>
 	<div class="magazine-viewport">
 		<div class="container">
