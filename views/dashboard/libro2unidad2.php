@@ -82,7 +82,7 @@
             <div class="back">
                 <div id="b4" class="back-content">
                     <div>
-                    <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/8.PNG" class="img-fluid float-start">
+                    <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/44.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>

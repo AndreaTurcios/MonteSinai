@@ -23,42 +23,42 @@ Book_Page::headerTemplate('UNIT THREE "MY SCHOOL"');
 			<div>
 				<ul>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/79.PNG" width="76" height="100" class="page-1">
-						<span>79</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/1.PNG" width="76" height="100" class="page-1">
+						<span>1</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/80.PNG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/81.PNG" width="76" height="100" class="page-3">
-						<span>80-81</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/2.PNG" width="76" height="100" class="page-2">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/3.PNG" width="76" height="100" class="page-3">
+						<span>2-3</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/82.PNG" width="76" height="100" class="page-4">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/83.PNG" width="76" height="100" class="page-5">
-						<span>82-83</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/4.PNG" width="76" height="100" class="page-4">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/5.PNG" width="76" height="100" class="page-5">
+						<span>4-5</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/84.PNG" width="76" height="100" class="page-6">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/85.PNG" width="76" height="100" class="page-7">
-						<span>84-85</span>
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/6.PNG" width="76" height="100" class="page-6">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/7.PNG" width="76" height="100" class="page-7">
+						<span>6-7</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/86.PNG" width="76" height="100" class="page-8">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/87.PNG" width="76" height="100" class="page-9">
-						<span>86-87</span>
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/8.PNG" width="76" height="100" class="page-8">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/9.PNG" width="76" height="100" class="page-9">
+						<span>8-9</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/88.PNG" width="76" height="100" class="page-10">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/89.PNG" width="76" height="100" class="page-11">
-						<span>88-89</span>
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitThree/10.PNG" width="76" height="100" class="page-10">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/11.PNG" width="76" height="100" class="page-11">
+						<span>10-11</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/90.PNG" width="76" height="100" class="page-12">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/91.PNG" width="76" height="100" class="page-13">
-						<span>90-91</span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/12.PNG" width="76" height="100" class="page-12">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/13.PNG" width="76" height="100" class="page-13">
+						<span>12-13</span>
 					</li>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/92.PNG" width="76" height="100" class="page-14">
-						<span>92<span>
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitThree/14.PNG" width="76" height="100" class="page-14">
+						<span>14<span>
 					</li>
 					<ul>
 						<div>
@@ -116,7 +116,7 @@ Book_Page::headerTemplate('UNIT THREE "MY SCHOOL"');
 
 			// The number of pages,
 
-			pages: 44,
+			pages: 40,
 
 			// Events
 
