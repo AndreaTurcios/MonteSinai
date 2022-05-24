@@ -28,14 +28,14 @@
             <div class="front">
                 <div id="f1" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FIRSTGRADE.JPG" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/SECONDGRADE.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FistGradep2.JPG" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/SECONDGRADE.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -45,14 +45,14 @@
             <div class="front">
                 <div id="f2" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep3.JPG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/2.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep4.JPG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/3.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="front">
                 <div id="f3" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep5.PNG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/4.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
