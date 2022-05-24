@@ -28,14 +28,14 @@
             <div class="front">
                 <div id="f1" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page1.png" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page1.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page2.png" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page2.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -45,14 +45,14 @@
             <div class="front">
                 <div id="f2" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page3.png" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page3.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page4.png" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page4.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -62,13 +62,13 @@
             <div class="front">
                 <div id="f3" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page5.png" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page5.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
-                    <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page6.png" class="img-fluid float-start">
+                    <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page6.PNG" class="img-fluid float-start">
                 </div>
             </div>
         </div>
@@ -76,13 +76,13 @@
         <div id="p4" class="paper">
             <div class="front">
                 <div id="f4" class="front-content">
-                <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page7.png" class="img-fluid float-start">
+                <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page7.PNG" class="img-fluid float-start">
                 </div>
             </div>
             <div class="back">
                 <div id="b4" class="back-content">
                     <div>
-                    <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page8.png" class="img-fluid float-start">
+                    <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page8.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>

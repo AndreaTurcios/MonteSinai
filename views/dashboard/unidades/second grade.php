@@ -41,7 +41,7 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- Delicious Foods
                     </div>
-                    <a class="btn btn-primary" href="libro2Unidad1.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</a>
+                    <a class="btn btn-primary" href="../libro2Unidad1t.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</a>
                 </div>
             </div>
 
