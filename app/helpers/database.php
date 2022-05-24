@@ -21,13 +21,11 @@ class Database
         $username = 'postgres';
         //Cambiar dependiendo de la persona, pero si pueden de un solo denle git ignore 
         //para no estar cambiando a cada rato
-        $passwordAndreaAndMaza = 'admin';
-        $password = 'admin';
-        $password1 = 'jkl555';
+        $passwordAndreaAndMazaandMajo = 'admin';
 
         // Se crea la conexión mediante la extensión PDO y el controlador para PostgreSQL.
         self::$connection = new PDO('pgsql:  host='.$server.';dbname='.$database.
-        ';port=5432', $username, $password);
+        ';port=5432', $username, $passwordAndreaAndMazaandMajo);
     }
 
     /*

@@ -1,3 +1,9 @@
+const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
+
+document.addEventListener('DOMContentLoaded', function () {
+
+});
+
 document.getElementById('game-one').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -34,12 +40,32 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
     //Se hace un for dentro de otro for, el primero hace bucles segun el numero de campos a revisar
     //El segundo recorre cada array del array total en busca de una palabra de las posibles.
+
+    let notatotal = 0;
+
     for (var j = 0; j < 6; j++){
         for (var i = 0; i < respuestas.length; i++) {
             indice = arraytotal[j].indexOf(respuestas[i])
             if (arraytotal[j][indice] === respuestas[i]) {
-                
+                nota = 1.7;
+                notatotal = notatotal + nota;
+            }else{
+                nota = 0;
+                notatotal = notatotal + nota;
             }
-        }
+        } 
     }
+    
+    if(notatotal === 10.2){
+        notatotal = 10;
+    }
+
+    var libro = 11;
+    document.getElementById('idclienteL11').value = users.value;
+    document.getElementById('pointsL11').value = notatotal;
+    document.getElementById('idlibroL11').value = libro;
+    action = 'createactA1U1L11';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
+    sweetAlert(1, 'Resultados ingresados', null);
+    return true;
 });
