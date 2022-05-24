@@ -28,14 +28,14 @@
             <div class="front">
                 <div id="f1" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/1.PNG" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/44.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/2.PNG" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/43.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -45,14 +45,14 @@
             <div class="front">
                 <div id="f2" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/3.PNG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/44.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/4.PNG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/45.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -62,13 +62,13 @@
             <div class="front">
                 <div id="f3" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/5.PNG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/46.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
-                    <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/6.PNG" class="img-fluid float-start">
+                    <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/47.PNG" class="img-fluid float-start">
                 </div>
             </div>
         </div>
@@ -76,13 +76,13 @@
         <div id="p4" class="paper">
             <div class="front">
                 <div id="f4" class="front-content">
-                <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/7.PNG" class="img-fluid float-start">
+                <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/48.PNG" class="img-fluid float-start">
                 </div>
             </div>
             <div class="back">
                 <div id="b4" class="back-content">
                     <div>
-                    <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/8.PNG" class="img-fluid float-start">
+                    <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/49.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -496,6 +496,6 @@
 <script type="text/javascript" src="../../resources/js/sweetalert.min.js"></script>
 <script type="text/javascript" src="../../app/helpers/components.js"></script>
 <script type="text/javascript" src="../../app/controllers/account.js"></script>
-<script type="text/javascript" src="../../app/controllers/unidadunosegundogrado.js"></script>
+<script type="text/javascript" src="../../app/controllers/unidaddossegundogrado.js"></script>
 
 </html>
