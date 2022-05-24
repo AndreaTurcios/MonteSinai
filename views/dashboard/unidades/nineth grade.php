@@ -3,6 +3,7 @@
 require_once('../../../app/helpers/dashboard_unidad.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
 Dashboard_Page::headerTemplate('Libro 1');
+//ejemplo de cambio 
 ?>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

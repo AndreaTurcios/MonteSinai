@@ -82,7 +82,4 @@ class Procesos_libros extends Validator{
         $params = array($this->id,$this->libro,$this->promedio);
         return Database::executeRow($sql, $params);
     }
-
-    
-
 }
