@@ -24,41 +24,41 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 			<div>
 				<ul>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/SecondGrade/Unit1/page1.PNG" width="76" height="100" class="page-1">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/1.PNG" width="76" height="100" class="page-1">
 						<span>1</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/Unit1/page2.PNG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/SecondGrade/Unit1/page3.PNG" width="76" height="100" class="page-3">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/2.PNG" width="76" height="100" class="page-2">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/3.PNG" width="76" height="100" class="page-3">
 						<span>2-3</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/Unit1/page4.PNG" width="76" height="100" class="page-4">
-						<img src="../../resources/img/BOOKS/SecondGrade/Unit1/page5.PNG" width="76" height="100" class="page-5">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/4.PNG" width="76" height="100" class="page-4">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/5.PNG" width="76" height="100" class="page-5">
 						<span>4-5</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page6.PNG" width="76" height="100" class="page-6">
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page7.PNG" width="76" height="100" class="page-7">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/6.PNG" width="76" height="100" class="page-6">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/7.PNG" width="76" height="100" class="page-7">
 						<span>6-7</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page8.PNG" width="76" height="100" class="page-8">
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page9.PNG" width="76" height="100" class="page-9">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/8.PNG" width="76" height="100" class="page-8">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/9.PNG" width="76" height="100" class="page-9">
 						<span>8-9</span>
 					</li>
 					<li class="d">
-                        <img src="../../resources/img/BOOKS/SecondGrade/Unit1/page10.PNG" width="76" height="100" class="page-10">
-						<img src="../../resources/img/BOOKS/SecondGrade/Unit1/page11.PNG" width="76" height="100" class="page-11">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/10.PNG" width="76" height="100" class="page-10">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/11.PNG" width="76" height="100" class="page-11">
 						<span>10-11</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/12.JPG" width="76" height="100" class="page-12">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/13.JPG" width="76" height="100" class="page-13">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/12.JPG" width="76" height="100" class="page-12">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/13.JPG" width="76" height="100" class="page-13">
 						<span>12-13</span>
 					</li>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/14.JPG" width="76" height="100" class="page-14">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitOne/14.JPG" width="76" height="100" class="page-14">
 						<span>14<span>
 					</li>
 					<ul>

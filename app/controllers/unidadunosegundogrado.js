@@ -48,7 +48,7 @@ function loadPage(page, pageElement) {
 
 	// Load the page
 
-	img.attr('src', '../../resources/img/BOOKS/SecondGrade/Unit1/page' + page + '.PNG');
+	img.attr('src', '../../resources/img/BOOKS/SecondGrade/UnitOne/' + page + '.PNG');
 
 	loadRegions(page, pageElement);
 
@@ -78,7 +78,7 @@ function zoomTo(event) {
 
 function loadRegions(page, element) {
 
-	$.getJSON('../../resources/img/BOOKS/SecondGrade/Unit1/' + page + '-regions.json').
+	$.getJSON('../../resources/img/BOOKS/SecondGrade/UnitOne/' + page + '-regions.json').
 		done(function (data) {
 
 			$.each(data, function (key, region) {
