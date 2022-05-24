@@ -2,7 +2,7 @@
 //Se incluye la clase con las plantillas del documento
 require_once('../../../app/helpers/dashboard_unidad.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Dashboard_Page::headerTemplate('Libro 1');
+Dashboard_Page::headerTemplate('Libro 2');
 ?>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -61,7 +61,7 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- Work Places
                     </div>
-                    <a class="btn btn-primary" href="../libro2Unidad2t.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</a>
+                    <a class="btn btn-primary" href="../libro2unidad2t.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</a>
                 </div>
             </div>
 
@@ -80,7 +80,7 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- Months of year
                     </div>
-                    <a class="btn btn-primary" href="../libro2Unidad3t.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</a>
+                    <a class="btn btn-primary" href="../libro2unidad3t.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</a>
                 </div>
             </div>
         </div>
