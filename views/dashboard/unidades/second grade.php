@@ -11,7 +11,7 @@ Dashboard_Page::headerTemplate('Libro 2');
 
 <section>
     <div class="container-fluid">
-        <div class="row" style= "background-color: #f99d52;">
+        <div class="row" style= "background-color: #26272b;">
             <div class="col-12 text-center" id="Titulo1">
                 <h1 class="center">SECOND GRADE: <br />Time to learn english</h1>
                 <br />
