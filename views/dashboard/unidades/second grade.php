@@ -10,7 +10,7 @@ Dashboard_Page::headerTemplate('Libro 2');
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 <section>
-    <div class="container-fluid" style= "background-color:#f99d52;">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
                 <h1 class="center">SECOND GRADE: <br />Time to learn english</h1>
