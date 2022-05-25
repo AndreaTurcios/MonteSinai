@@ -26,7 +26,7 @@ Dashboard_Page::headerTemplate('Libro 2');
         <div class="row">
             <!--Unidad 1 -->
             <div class="col-sm-4" style=" padding: 10px;">
-                <div style="background-color: #26272b;; border-radius: 10px; padding: 10px;">
+                <div style="background-color: #E4E4E4;; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
                         <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 1</div>
