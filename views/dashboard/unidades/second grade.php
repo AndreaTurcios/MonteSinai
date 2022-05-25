@@ -18,7 +18,7 @@ Dashboard_Page::headerTemplate('Libro 2');
                 <h3 class="center">Second Grade</h3>
             </div>
         </div>
-        <div class="row" style="padding: 10px; background-color: #f99d52; margin-top: 10px; 
+        <div class="row" style="padding: 10px; background-color: #26272b; margin-top: 10px; 
             margin-bottom: 10px; border-radius: 10px;">
             <div class="col-12" style="color: white; font-weight: bold;">UNITS</div>
         </div>
@@ -26,7 +26,7 @@ Dashboard_Page::headerTemplate('Libro 2');
         <div class="row">
             <!--Unidad 1 -->
             <div class="col-sm-4" style=" padding: 10px;">
-                <div style="background-color: #f99d52;; border-radius: 10px; padding: 10px;">
+                <div style="background-color: #26272b;; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
                         <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 1</div>
