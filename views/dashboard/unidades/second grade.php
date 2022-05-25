@@ -68,7 +68,7 @@ Dashboard_Page::headerTemplate('Libro 2');
             <!--Unidad 3 -->
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
-                    <div style="border-bottom-color: black;  ">
+                    <div style="border-bottom-color: #f99d52;  ">
                         <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 3</div>
                     </div>
