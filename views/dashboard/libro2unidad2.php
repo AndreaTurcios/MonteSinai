@@ -28,14 +28,14 @@
             <div class="front">
                 <div id="f1" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FIRSTGRADE.JPG" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/1.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b1" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FistGradep2.JPG" class="img-fluid">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/2.PNG" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -45,14 +45,14 @@
             <div class="front">
                 <div id="f2" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep3.JPG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/3.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b2" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep4.JPG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/4.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -62,43 +62,13 @@
             <div class="front">
                 <div id="f3" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/FirstGradep5.PNG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/5.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
-                    <!-- container -->
-                    <div class="container">
-                        <div class="row">
-                            <!-- card content -->
-                            <div class="row">
-                                <!--  espacio -->
-                            </div>
-                            <div class="col-md-8">
-                                <!--  espacio -->
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderFrontFirstGrade.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <!--  -->
-                        </div>
-                        <div class="row">
-                            <!-- card content -->
-                            <div class="col-xl">
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirsGradep1.PNG" class="card-img-top">
-                                </div>
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep2.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <!--  -->
-                        </div>
-                    </div>
-                    <!-- fin back-content  -->
+                    <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/6.PNG" class="img-fluid float-start">
                 </div>
             </div>
         </div>
@@ -106,74 +76,14 @@
         <div id="p4" class="paper">
             <div class="front">
                 <div id="f4" class="front-content">
-                    <!-- inicio contenedor -->
-                    <div class="container">
-                        <div class="row">
-                            <!-- card content -->
-                            <div class="col-md-8">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderBackFirsGrade.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <!-- espacio -->
-                            </div>
-                            <!--  -->
-                        </div>
-                        <div class="row">
-                            <!-- card content -->
-                            <div class="col-xl">
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep3.PNG" class="card-img-top">
-                                </div>
-                                <div class="card border-0" style="width: 27rem; ">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/IndexFirstGradep4.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- fin contenedor -->
+                <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/7.PNG" class="img-fluid float-start">
                 </div>
             </div>
             <div class="back">
                 <div id="b4" class="back-content">
-                    <!-- inicio contenedor -->
-                    <div class="container">
-                        <div class="row">
-                            <!-- card content -->
-                            <div class="col-md-8">
-                                <!-- espacio -->
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderfrontFirstGrade.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <!--  -->
-                        </div>
-                        <div class="row  justify-content-md-center">
-                            <!-- card content -->
-                            <div class="col-9 ">
-                                <div class="card border-0" style="width: 15rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/UnitOneFirstGrade.PNG" class="card-img-top">
-                                </div>
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1portrait.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <div class="row  justify-content-md-right">
-                                <div class="col-md-8">
-                                    <!-- espacio -->
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="card border-0" style="width: 4rem; ">
-                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag1.PNG" class="card-img-bottom">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                    <img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/44.PNG" class="img-fluid float-start">
                     </div>
-                    <!-- fin contenedor -->
                 </div>
             </div>
         </div>
@@ -182,95 +92,14 @@
             <div class="front">
                 <div id="f5" class="front-content">
                     <!-- inicio contenedor -->
-                    <div class="container">
-                        <div class="row">
-                            <!-- card content -->
-                            <div class="col-md-8">
-                                <div class="card border-0" style="width: 5rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderBackFirsGrade.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <!-- espacio -->
-                            </div>
-                            <div class="row">
-                                <!-- espacio -->
-                            </div>
-                            <!--  -->
-                        </div>
-                        <div class="row justify-content-md-center">
-                            <!-- card content -->
-                            <div class="col-9">
-                                <div class="card border-0" style="width: 27rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/unit1p1FG.PNG" class="card-img-top">
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="card border-0" style="width: 4rem; ">
-                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag2.PNG" class="card-img-bottom">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h1>Page</h1>
                     <!-- fin contenedor -->
                 </div>
             </div>
             <div class="back">
                 <div id="b5" class="back-content">
                     <!-- inicio contenedor -->
-                    <div class="container">
-                        <div class="row align-items-start">
-                            <!-- card content -->
-                            <div class="col-md-8">
-                                <!-- espacio -->
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <div class="card border-0" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderfrontFirstGrade.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <!--  -->
-                        </div>
-                        <div class="row justify-content-md-center">
-                            <!-- card content -->
-                            <div class="col-md-7">
-                                <!-- espacio -->
-                            </div>
-                            <div class="col-6">
-                                <div class="card border-0" style="width: 15rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/HeaderExcercisesFGUO.PNG" class="card-img-top">
-                                </div>
-                            </div>
-                            <div class="row align-items-center">
-                                <div class="card border-0 align-items-center" style="width: 18rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/imgFGUOp1.PNG" class="card-img">
-                                </div>
-                                <div class="card border-0 align-items-center" style="width: 10rem;">
-                                    <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/img1FGUOp1.PNG" class="card-img">
-                                </div>
-                            </div>
-                            <div class="row  justify-content-md-center">
-                                <div class="col-9">
-                                    <div class="col">
-                                        <!-- //Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLibroUno">
-                                            Juego interactivo
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <!-- espacio -->
-                                </div>
-                                <div class="col-6 col-md-4">
-                                    <div class="card border-0" style="width: 4rem; ">
-                                        <img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Footerpag3.PNG" class="card-img-bottom">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h1>page</h1>
                     <!-- fin contenedor -->
                 </div>
             </div>
@@ -611,7 +440,7 @@
                                         <!-- <div class="col"></div> -->
                                         <div class="col border border-success">col</div>
                                         <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>                                        
+                                        <div class="col border border-success">col</div>
                                         <div class="col border border-success">col</div>
                                         <!-- <div class="col"></div> -->
                                         <div class="col border border-success">col</div>
@@ -667,6 +496,6 @@
 <script type="text/javascript" src="../../resources/js/sweetalert.min.js"></script>
 <script type="text/javascript" src="../../app/helpers/components.js"></script>
 <script type="text/javascript" src="../../app/controllers/account.js"></script>
-<script type="text/javascript" src="../../app/controllers/unidadunoprimergrado.js"></script>
+<script type="text/javascript" src="../../app/controllers/unidaddossegundogrado.js"></script>
 
 </html>

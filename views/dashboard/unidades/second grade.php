@@ -1,8 +1,8 @@
 <?php
 //Se incluye la clase con las plantillas del documento
-require_once('../../../app/helpers/dashboard_page.php');
+require_once('../../../app/helpers/dashboard_unidad.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Dashboard_Page::headerTemplate('Libro 1');
+Dashboard_Page::headerTemplate('Libro 2');
 ?>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,14 +11,14 @@ Dashboard_Page::headerTemplate('Libro 1');
 
 <section>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" style= "background-color:#f99d52;">
             <div class="col-12 text-center" id="Titulo1">
                 <h1 class="center">SECOND GRADE: <br />Time to learn english</h1>
                 <br />
                 <h3 class="center">Second Grade</h3>
             </div>
         </div>
-        <div class="row" style="padding: 10px; background-color: #26272b; margin-top: 10px; 
+        <div class="row" style="padding: 10px; background-color: #f99d52; margin-top: 10px; 
             margin-bottom: 10px; border-radius: 10px;">
             <div class="col-12" style="color: white; font-weight: bold;">UNITS</div>
         </div>
@@ -26,7 +26,7 @@ Dashboard_Page::headerTemplate('Libro 1');
         <div class="row">
             <!--Unidad 1 -->
             <div class="col-sm-4" style=" padding: 10px;">
-                <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
+                <div style="background-color: #E4E4E4;; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
                         <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 1</div>
@@ -41,7 +41,7 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- Delicious Foods
                     </div>
-                    <a class="btn btn-primary" href="libro2Unidad1.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</a>
+                    <a class="btn btn-primary" href="../libro2Unidad1t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                 </div>
             </div>
 
@@ -61,14 +61,14 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- Work Places
                     </div>
-                    <div><button type="button" class="btn btn-primary" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</button></div>
+                    <a class="btn btn-primary" href="../libro2unidad2t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                 </div>
             </div>
 
             <!--Unidad 3 -->
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
-                    <div style="border-bottom-color: black;  ">
+                    <div style="border-bottom-color: #f99d52;  ">
                         <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 3</div>
                     </div>
@@ -80,7 +80,7 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- Months of year
                     </div>
-                    <div><button type="button" class="btn btn-primary" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</button></div>
+                    <a class="btn btn-primary" href="../libro2unidad3t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                 </div>
             </div>
         </div>
