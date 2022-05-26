@@ -438,9 +438,9 @@ yepnope({
                         <div class="row">
 							<div class="col-md-8 align-items-center">
 								<!-- class="d-none" -->
-								<input type="text"  id="pointsL11" name="pointsL11">
-                                <input type="text"  id="idlibroL11" name="idlibroL11">
-								<input type="text"  id="idclienteL11" name="idclienteL11">
+								<input type="text"  class="d-none" id="pointsL11" name="pointsL11">
+                                <input type="text"  class="d-none" id="idlibroL11" name="idlibroL11">
+								<input type="text"  class="d-none" id="idclienteL11" name="idclienteL11">
 							</div>
 						</div>
                         <div class="row">

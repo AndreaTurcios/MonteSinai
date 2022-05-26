@@ -47,7 +47,7 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         for (var i = 0; i < respuestas.length; i++) {
             indice = arraytotal[j].indexOf(respuestas[i])
             if (arraytotal[j][indice] === respuestas[i]) {
-                nota = 1.7;
+                nota = 0.17;
                 notatotal = notatotal + nota;
             }else{
                 nota = 0;
@@ -56,8 +56,8 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         } 
     }
     
-    if(notatotal === 10.2){
-        notatotal = 10;
+    if(notatotal === 1.02){
+        notatotal = 1.0;
     }
 
     var libro = 11;
@@ -65,7 +65,7 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
     document.getElementById('pointsL11').value = notatotal;
     document.getElementById('idlibroL11').value = libro;
     action = 'createactA1U1L11';
-    saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
+    saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno')
     sweetAlert(1, 'Resultados ingresados', null);
     return true;
 });
