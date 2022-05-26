@@ -132,14 +132,15 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
     console.log("Total " + totalPunto );
     }
 
-    var notatotal = totalPunto;
+    var notatotal = totalPunto.toFixed(2);
     var libro = 5;
     document.getElementById('idcliente').value = users.value;
     document.getElementById('points').value = notatotal;
     document.getElementById('idlibro').value = libro;
     action = 'create';
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
     saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroCinco1');
-    sweetAlert(1, 'Resultados ingresados', null);
+    sweetAlert(1, 'Resultados ingresados' + users.value + 'sera', null);
     return true;
 
 
