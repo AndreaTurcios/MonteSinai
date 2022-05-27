@@ -502,46 +502,46 @@ yepnope({
                         <div class="row">
 							<div class="col-md-8 align-items-center">
 								<!-- class="d-none" -->
-								<input type="text"  class="d-none" id="pointsA2U1L11" name="pointsL11">
-                                <input type="text"  class="d-none" id="idlibroA2U1L11" name="idlibroL11">
-								<input type="text"  class="d-none" id="idclienteA2U1L11" name="idclienteL11">
+								<input type="text"  class="d-none" id="pointsA2U1L11" name="pointsA2U1L11">
+                                <input type="text"  class="d-none" id="idlibroA2U1L11" name="idlibroA2U1L11">
+								<input type="text"  class="d-none" id="idclienteA2U1L11" name="idclienteA2U1L11">
 							</div>
 						</div>
                         <div class="row">
                             <div class="col-6">
 								<div class="pregunta">
 									<h5>Question 1</h5>
-									<input id="q1"type="text" style = "width:60%">
+									<input id="p1"type="text" style = "width:60%">
 								</div>
 								<div class="pregunta">
 									<h5>Question 2</h5>
-									<input id="q2" type="text" style = "width:60%">
+									<input id="p2" type="text" style = "width:60%">
 								</div>
 								<div class="pregunta">
 									<h5>Question 3</h5>
-									<input id="q3" type="text" style = "width:60%">
+									<input id="p3" type="text" style = "width:60%">
 								</div>
                                 <div class="pregunta">
 									<h5>Question 4</h5>
-									<input id="q4" type="text" style = "width:60%">
+									<input id="p4" type="text" style = "width:60%">
 								</div>
 							</div>
 							<div class="col-6">
 								<div class="respuesta">
 									<h5>Answer 1</h5>
-									<input id="a1" type="text" style = "width:60%">
+									<input id="r1" type="text" style = "width:60%">
 								</div>
 								<div class="respuesta">
 									<h5>Answer 2</h5>
-									<input id="a2" type="text" style = "width:60%">
+									<input id="r2" type="text" style = "width:60%">
 								</div>
 								<div class="respuesta">
 									<h5>Answer 3</h5>
-									<input id="a3" type="text" style = "width:60%">
+									<input id="r3" type="text" style = "width:60%">
 								</div>
                                 <div class="respuesta">
 									<h5>Answer 4</h5>
-									<input id="a4" type="text" style = "width:60%">
+									<input id="r4" type="text" style = "width:60%">
 								</div>
 							</div>
                         </div>

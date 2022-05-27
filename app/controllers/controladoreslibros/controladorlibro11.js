@@ -77,14 +77,23 @@ document.getElementById('game-two').addEventListener('submit', function (event) 
     //Se declaran las variables segun el numero de campos, a evaluar.
     let q1, q2, q3, q4, a1, a2, a3, a4;
     //Se igualan las variables a el campo de texto de la vista mediante el id.
-    q1 = document.getElementById('q1').value;
-    q2 = document.getElementById('q2').value;
-    q3 = document.getElementById('q3').value;
-    q4 = document.getElementById('q4').value;
-    a1 = document.getElementById('a1').value;
-    a2 = document.getElementById('a2').value;
-    a3 = document.getElementById('a3').value;
-    a4 = document.getElementById('a4').value;
+    q1 = document.getElementById('p1').value;
+    q2 = document.getElementById('p2').value;
+    q3 = document.getElementById('p3').value;
+    q4 = document.getElementById('p4').value;
+    a1 = document.getElementById('r1').value;
+    a2 = document.getElementById('r2').value;
+    a3 = document.getElementById('r3').value;
+    a4 = document.getElementById('r4').value;
+
+    console.log(document.getElementById('p1').value);
+    console.log(document.getElementById('p2').value);
+    console.log(document.getElementById('p3').value);
+    console.log(document.getElementById('p4').value);
+    console.log(document.getElementById('r1').value);
+    console.log(document.getElementById('r2').value);
+    console.log(document.getElementById('r3').value);
+    console.log(document.getElementById('r4').value);
 
     //Se crea un array con las posibles respuestas en base al texto del libro (Palabras clave)
     let respuestas = ["achievement", "greatness", "disciplined", "perseverant", "Pablo Picasso", "1973",
