@@ -52,7 +52,7 @@
             <div class="back">
                 <div id="b2" class="back-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/4.PNG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/4.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -62,13 +62,13 @@
             <div class="front">
                 <div id="f3" class="front-content">
                     <div>
-                        <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/5.PNG" class="img-fluid float-start">
+                        <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/5.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b3" class="back-content">
-                    <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/6.PNG" class="img-fluid float-start">
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/6.PNG" class="img-fluid float-start">
                 </div>
             </div>
         </div>
@@ -76,13 +76,13 @@
         <div id="p4" class="paper">
             <div class="front">
                 <div id="f4" class="front-content">
-                <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/7.PNG" class="img-fluid float-start">
+                <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/7.PNG" class="img-fluid float-start">
                 </div>
             </div>
             <div class="back">
                 <div id="b4" class="back-content">
                     <div>
-                    <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/8.PNG" class="img-fluid float-start">
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/8.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -91,16 +91,16 @@
         <div id="p5" class="paper">
             <div class="front">
                 <div id="f5" class="front-content">
-                    <!-- inicio contenedor -->
-                    <h1>Page</h1>
-                    <!-- fin contenedor -->
+                    <div>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/9.PNG" class="img-fluid float-start">
+                    </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b5" class="back-content">
-                    <!-- inicio contenedor -->
-                    <h1>page</h1>
-                    <!-- fin contenedor -->
+                <div>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/10.PNG" class="img-fluid float-start">
+                    </div>
                 </div>
             </div>
         </div>
@@ -108,16 +108,16 @@
         <div id="p6" class="paper">
             <div class="front">
                 <div id="f6" class="front-content">
-                    <div>
-                        <h1>Front 6</h1>
+                <div>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/11.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b6" class="back-content">
-                    <div>
-                        <h1>Back 6</h1>
-                    </div>
+                <div>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/12.PNG" class="img-fluid float-start">
+                </div>
                 </div>
             </div>
         </div>
@@ -125,16 +125,16 @@
         <div id="p7" class="paper">
             <div class="front">
                 <div id="f7" class="front-content">
-                    <div>
-                        <h1>Front 7</h1>
-                    </div>
+                <div>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/13.PNG" class="img-fluid float-start">
+                    </div>  
                 </div>
             </div>
             <div class="back">
                 <div id="b7" class="back-content">
-                    <div>
-                        <h1>Back 7</h1>
-                    </div>
+                <div>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/14.PNG" class="img-fluid float-start">
+                    </div>  
                 </div>
             </div>
         </div>
@@ -143,14 +143,14 @@
             <div class="front">
                 <div id="f8" class="front-content">
                     <div>
-                        <h1>Front 8</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/15.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b8" class="back-content">
                     <div>
-                        <h1>Back 8</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/16.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -160,14 +160,14 @@
             <div class="front">
                 <div id="f9" class="front-content">
                     <div>
-                        <h1>Front 9</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/17.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b9" class="back-content">
                     <div>
-                        <h1>Back 9</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/18.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -177,14 +177,14 @@
             <div class="front">
                 <div id="f10" class="front-content">
                     <div>
-                        <h1>Front 10</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/19.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b10" class="back-content">
                     <div>
-                        <h1>Back 10</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/20.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -194,14 +194,15 @@
             <div class="front">
                 <div id="f11" class="front-content">
                     <div>
-                        <h1>Front 11</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/21.PNG" class="img-fluid float-start">
+                        
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b11" class="back-content">
                     <div>
-                        <h1>Back 11</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/22.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -211,14 +212,14 @@
             <div class="front">
                 <div id="f12" class="front-content">
                     <div>
-                        <h1>Front 12</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/23.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b12" class="back-content">
                     <div>
-                        <h1>Back 12</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/24.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -228,14 +229,14 @@
             <div class="front">
                 <div id="f13" class="front-content">
                     <div>
-                        <h1>Front 13</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/25.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
             <div class="back">
                 <div id="b13" class="back-content">
                     <div>
-                        <h1>Back 13</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/26.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
@@ -245,7 +246,7 @@
             <div class="front">
                 <div id="f14" class="front-content">
                     <div>
-                        <h1>Front 14</h1>
+                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/27.PNG" class="img-fluid float-start">
                     </div>
                 </div>
             </div>
