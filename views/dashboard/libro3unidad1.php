@@ -2,492 +2,501 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Agregamos Bootstrap -->
-    <link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
-    <title>Unit 1 - Third Grade</title>
-    <link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
-    <link rel="stylesheet" href="../../resources/css/bookstyles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Agregamos Bootstrap -->
+	<link rel="stylesheet" href="../../resources/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+	<title>Unit 1 - Third Grade</title>
+	<link rel="shortcut icon" href="../../resources/img/logosinai.png" type="image/x-icon">
+	<!-- old stylesheet  -->
+	<!-- <link rel="stylesheet" href="../../resources/css/bookstyles.css"> -->
+	<!-- turns.js librerias  -->
+	<script type="text/javascript" src="../../resources/js/turnjs4/extras/jquery.min.1.7.js"></script>
+	<script type="text/javascript" src="../../resources/js/turnjs4/extras/modernizr.2.5.3.min.js"></script>
+	<script type="text/javascript" src="../../resources/js/turnjs4/lib/hash.js"></script>
+
 </head>
 
+<body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
+	<div id="canvas">
 
-<body>
-    <!-- Previous Button -->
-    <button id="prev-btn">
-        <i class="fas fa-arrow-circle-left"></i>
-    </button>
+		<div class="zoom-icon zoom-icon-in"></div>
+
+		<div class="magazine-viewport">
+			<div class="container">
+				<div class="magazine">
+					<!-- Next button -->
+					<div ignore="1" class="next-button"></div>
+					<!-- Previous button -->
+					<div ignore="1" class="previous-button"></div>
+				</div>
+			</div>
+			<!-- Thumbnails -->
+			<div class="thumbnails">
+				<div>
+					<ul>
+						<li class="i">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/1.PNG" width="76" height="100" class="page-1">
+							<span>1</span>
+						</li>
+						<li class="d">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/2.PNG" width="76" height="100" class="page-2">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/3.PNG" width="76" height="100" class="page-3">
+							<span>2-3</span>
+						</li>
+						<li class="d">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/4.JPG" width="76" height="100" class="page-4">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/5.JPG" width="76" height="100" class="page-5">
+							<span>4-5</span>
+						</li>
+						<li class="d">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/6.JPG" width="76" height="100" class="page-6">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/7.JPG" width="76" height="100" class="page-7">
+							<span>6-7</span>
+						</li>
+						<li class="d">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/8.JPG" width="76" height="100" class="page-8">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/9.JPG" width="76" height="100" class="page-9">
+							<span>8-9</span>
+						</li>
+						<li class="d">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/10.JPG" width="76" height="100" class="page-10">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/11.JPG" width="76" height="100" class="page-11">
+							<span>10-11</span>
+						</li>
+						<li class="d">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/12.JPG" width="76" height="100" class="page-12">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/13.JPG" width="76" height="100" class="page-13">
+							<span>12-13</span>
+						</li>
+						<li class="i">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/14.JPG" width="76" height="100" class="page-14">
+							<span>14<span>
+						</li>
+						<ul>
+							<div>
+							</div>
+				</div>
+			</div>
+
+			<!-- <button type="button" onclick="getURL();">Get Page URL</button> -->
+
+			<script type="text/javascript">
+				function loadApp() {
+
+					$('#canvas').fadeIn(1000);
+
+					var flipbook = $('.magazine');
+
+					// Check if the CSS was already loaded
+
+					if (flipbook.width() == 0 || flipbook.height() == 0) {
+						setTimeout(loadApp, 10);
+						return;
+					}
+
+					// Create the flipbook
+
+					flipbook.turn({
+
+						// Magazine width
+
+						width: 922,
+
+						// Magazine height
+
+						height: 600,
+
+						// Duration in millisecond
+
+						duration: 1000,
+
+						// Hardware acceleration
+
+						acceleration: !isChrome(),
+
+						// Enables gradients
+
+						gradients: true,
+
+						// Auto center this flipbook
+
+						autoCenter: true,
+
+						// Elevation from the edge of the flipbook when turning a page
+
+						elevation: 50,
+
+						// The number of pages,
+
+						pages: 44,
+
+						// Events
+
+						when: {
+							turning: function(event, page, view) {
+
+								var book = $(this),
+									currentPage = book.turn('page'),
+									pages = book.turn('pages');
+
+								// Update the current URI
+
+								Hash.go('../../resources/js/turnjs4/samples/magazine/pages/' + page).update();
+
+								// Show and hide navigation buttons
+
+								disableControls(page);
 
 
-    <!-- Book -->
-    <div id="book" class="book">
-        <!-- Paper 1 -->
-        <div id="p1" class="paper">
-            <div class="front">
-                <div id="f1" class="front-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/1.PNG" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b1" class="back-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/2.PNG" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 2 -->
-        <div id="p2" class="paper">
-            <div class="front">
-                <div id="f2" class="front-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/3.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b2" class="back-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/4.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 3 -->
-        <div id="p3" class="paper">
-            <div class="front">
-                <div id="f3" class="front-content">
-                    <div>
-                        <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/5.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b3" class="back-content">
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/6.PNG" class="img-fluid float-start">
-                </div>
-            </div>
-        </div>
-        <!-- Paper 4 -->
-        <div id="p4" class="paper">
-            <div class="front">
-                <div id="f4" class="front-content">
-                <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/7.PNG" class="img-fluid float-start">
-                </div>
-            </div>
-            <div class="back">
-                <div id="b4" class="back-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/8.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 5 -->
-        <div id="p5" class="paper">
-            <div class="front">
-                <div id="f5" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/9.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b5" class="back-content">
-                <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/10.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 6 -->
-        <div id="p6" class="paper">
-            <div class="front">
-                <div id="f6" class="front-content">
-                <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/11.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b6" class="back-content">
-                <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/12.PNG" class="img-fluid float-start">
-                </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 7 -->
-        <div id="p7" class="paper">
-            <div class="front">
-                <div id="f7" class="front-content">
-                <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/13.PNG" class="img-fluid float-start">
-                    </div>  
-                </div>
-            </div>
-            <div class="back">
-                <div id="b7" class="back-content">
-                <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/14.PNG" class="img-fluid float-start">
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <!-- Paper 8 -->
-        <div id="p8" class="paper">
-            <div class="front">
-                <div id="f8" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/15.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b8" class="back-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/16.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 9 -->
-        <div id="p9" class="paper">
-            <div class="front">
-                <div id="f9" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/17.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b9" class="back-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/18.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 10 -->
-        <div id="p10" class="paper">
-            <div class="front">
-                <div id="f10" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/19.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b10" class="back-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/20.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 11 -->
-        <div id="p11" class="paper">
-            <div class="front">
-                <div id="f11" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/21.PNG" class="img-fluid float-start">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b11" class="back-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/22.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 12 -->
-        <div id="p12" class="paper">
-            <div class="front">
-                <div id="f12" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/23.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b12" class="back-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/24.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 13 -->
-        <div id="p13" class="paper">
-            <div class="front">
-                <div id="f13" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/25.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b13" class="back-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/26.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 14 -->
-        <div id="p14" class="paper">
-            <div class="front">
-                <div id="f14" class="front-content">
-                    <div>
-                    <img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/27.PNG" class="img-fluid float-start">
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b14" class="back-content">
-                    <div>
-                        <h1>Back 14</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 15 -->
-        <div id="p15" class="paper">
-            <div class="front">
-                <div id="f15" class="front-content">
-                    <div>
-                        <h1>Front 15</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b15" class="back-content">
-                    <div>
-                        <h1>Back 15</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 16 -->
-        <div id="p16" class="paper">
-            <div class="front">
-                <div id="f16" class="front-content">
-                    <div>
-                        <h1>Front 16</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b16" class="back-content">
-                    <div>
-                        <h1>Back 16</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 17 -->
-        <div id="p17" class="paper">
-            <div class="front">
-                <div id="f17" class="front-content">
-                    <div>
-                        <h1>Front 17</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b17" class="back-content">
-                    <div>
-                        <h1>Back 17</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 18 -->
-        <div id="p18" class="paper">
-            <div class="front">
-                <div id="f18" class="front-content">
-                    <div>
-                        <h1>Front 18</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b18" class="back-content">
-                    <div>
-                        <h1>Back 18</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 19 -->
-        <div id="p19" class="paper">
-            <div class="front">
-                <div id="f19" class="front-content">
-                    <div>
-                        <h1>Front 19</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b19" class="back-content">
-                    <div>
-                        <h1>Back 19</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 20 -->
-        <div id="p20" class="paper">
-            <div class="front">
-                <div id="f20" class="front-content">
-                    <div>
-                        <h1>Front 20</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b20" class="back-content">
-                    <h1>Back 20</h1>
-                </div>
-            </div>
-        </div>
-        <!-- Paper 21 -->
-        <div id="p21" class="paper">
-            <div class="front">
-                <div id="f21" class="front-content">
-                    <div>
-                        <h1>Front 21</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="back">
-                <div id="b21" class="back-content">
-                    <h1>Back 21</h1>
-                </div>
-            </div>
-        </div>
-    </div>
+								$('.thumbnails .page-' + currentPage).
+								parent().
+								removeClass('current');
 
-    <!-- Next Button -->
-    <button id="next-btn">
-        <i class="fas fa-arrow-circle-right"></i>
-    </button>
+								$('.thumbnails .page-' + page).
+								parent().
+								addClass('current');
+
+
+
+							},
+
+							turned: function(event, page, view) {
+
+								disableControls(page);
+
+								$(this).turn('center');
+
+								if (page == 1) {
+									$(this).turn('peel', 'br');
+								}
+
+							},
+
+							missing: function(event, pages) {
+
+								// Add pages that aren't in the magazine
+
+								for (var i = 0; i < pages.length; i++)
+									addPage(pages[i], $(this));
+
+							}
+						}
+
+					});
+
+					// Zoom.js
+
+					$('.magazine-viewport').zoom({
+						flipbook: $('.magazine'),
+
+						max: function() {
+
+							return largeMagazineWidth() / $('.magazine').width();
+
+						},
+
+						when: {
+
+							swipeLeft: function() {
+
+								$(this).zoom('flipbook').turn('next');
+
+							},
+
+							swipeRight: function() {
+
+								$(this).zoom('flipbook').turn('previous');
+
+							},
+
+							resize: function(event, scale, page, pageElement) {
+
+								if (scale == 1)
+									loadSmallPage(page, pageElement);
+								else
+									loadLargePage(page, pageElement);
+
+							},
+
+							zoomIn: function() {
+
+								$('.thumbnails').hide();
+								$('.made').hide();
+								$('.magazine').removeClass('animated').addClass('zoom-in');
+								$('.zoom-icon').removeClass('zoom-icon-in').addClass('zoom-icon-out');
+
+								if (!window.escTip && !$.isTouch) {
+									escTip = true;
+
+									$('<div />', {
+										'class': 'exit-message'
+									}).
+									html('<div>Press ESC to exit</div>').
+									appendTo($('body')).
+									delay(2000).
+									animate({
+										opacity: 0
+									}, 500, function() {
+										$(this).remove();
+									});
+								}
+							},
+
+							zoomOut: function() {
+
+								$('.exit-message').hide();
+								$('.thumbnails').fadeIn();
+								$('.made').fadeIn();
+								$('.zoom-icon').removeClass('zoom-icon-out').addClass('zoom-icon-in');
+
+								setTimeout(function() {
+									$('.magazine').addClass('animated').removeClass('zoom-in');
+									resizeViewport();
+								}, 0);
+
+							}
+						}
+					});
+
+					// Zoom event
+
+					if ($.isTouch)
+						$('.magazine-viewport').bind('zoom.doubleTap', zoomTo);
+					else
+						$('.magazine-viewport').bind('zoom.tap', zoomTo);
+
+
+					// Using arrow keys to turn the page
+
+					$(document).keydown(function(e) {
+
+						var previous = 37,
+							next = 39,
+							esc = 27;
+
+						switch (e.keyCode) {
+							case previous:
+
+								// left arrow
+								$('.magazine').turn('previous');
+								e.preventDefault();
+
+								break;
+							case next:
+
+								//right arrow
+								$('.magazine').turn('next');
+								e.preventDefault();
+
+								break;
+							case esc:
+
+								$('.magazine-viewport').zoom('zoomOut');
+								e.preventDefault();
+
+								break;
+						}
+					});
+
+					// URIs - Format #/page/1 
+
+					Hash.on('^page\/([0-9]*)$', {
+						yep: function(path, parts) {
+							var page = parts[1];
+
+							if (page !== undefined) {
+								if ($('.magazine').turn('is'))
+									$('.magazine').turn('page', page);
+							}
+
+						},
+						nop: function(path) {
+
+							if ($('.magazine').turn('is'))
+								$('.magazine').turn('page', 1);
+						}
+					});
+
+
+					$(window).resize(function() {
+						resizeViewport();
+					}).bind('orientationchange', function() {
+						resizeViewport();
+					});
+
+					// Events for thumbnails
+
+					$('.thumbnails').click(function(event) {
+
+						var page;
+
+						if (event.target && (page = /page-([0-9]+)/.exec($(event.target).attr('class')))) {
+
+							$('.magazine').turn('page', page[1]);
+						}
+					});
+
+					$('.thumbnails li').
+					bind($.mouseEvents.over, function() {
+
+						$(this).addClass('thumb-hover');
+
+					}).bind($.mouseEvents.out, function() {
+
+						$(this).removeClass('thumb-hover');
+
+					});
+
+					if ($.isTouch) {
+
+						$('.thumbnails').
+						addClass('thumbanils-touch').
+						bind($.mouseEvents.move, function(event) {
+							event.preventDefault();
+						});
+
+					} else {
+
+						$('.thumbnails ul').mouseover(function() {
+
+							$('.thumbnails').addClass('thumbnails-hover');
+
+						}).mousedown(function() {
+
+							return false;
+
+						}).mouseout(function() {
+
+							$('.thumbnails').removeClass('thumbnails-hover');
+
+						});
+
+					}
+
+
+					// Regions
+
+					if ($.isTouch) {
+						$('.magazine').bind('touchstart', regionClick);
+					} else {
+						$('.magazine').click(regionClick);
+					}
+
+					// Events for the next button
+
+					$('.next-button').bind($.mouseEvents.over, function() {
+
+						$(this).addClass('next-button-hover');
+
+					}).bind($.mouseEvents.out, function() {
+
+						$(this).removeClass('next-button-hover');
+
+					}).bind($.mouseEvents.down, function() {
+
+						$(this).addClass('next-button-down');
+
+					}).bind($.mouseEvents.up, function() {
+
+						$(this).removeClass('next-button-down');
+
+					}).click(function() {
+
+						$('.magazine').turn('next');
+
+					});
+
+					// Events for the next button
+
+					$('.previous-button').bind($.mouseEvents.over, function() {
+
+						$(this).addClass('previous-button-hover');
+
+					}).bind($.mouseEvents.out, function() {
+
+						$(this).removeClass('previous-button-hover');
+
+					}).bind($.mouseEvents.down, function() {
+
+						$(this).addClass('previous-button-down');
+
+					}).bind($.mouseEvents.up, function() {
+
+						$(this).removeClass('previous-button-down');
+
+					}).click(function() {
+
+						$('.magazine').turn('previous');
+
+					});
+
+
+					resizeViewport();
+
+					$('.magazine').addClass('animated');
+
+				}
+
+				// Zoom icon
+
+				$('.zoom-icon').bind('mouseover', function() {
+
+					if ($(this).hasClass('zoom-icon-in'))
+						$(this).addClass('zoom-icon-in-hover');
+
+					if ($(this).hasClass('zoom-icon-out'))
+						$(this).addClass('zoom-icon-out-hover');
+
+				}).bind('mouseout', function() {
+
+					if ($(this).hasClass('zoom-icon-in'))
+						$(this).removeClass('zoom-icon-in-hover');
+
+					if ($(this).hasClass('zoom-icon-out'))
+						$(this).removeClass('zoom-icon-out-hover');
+
+				}).bind('click', function() {
+
+					if ($(this).hasClass('zoom-icon-in'))
+						$('.magazine-viewport').zoom('zoomIn');
+					else if ($(this).hasClass('zoom-icon-out'))
+						$('.magazine-viewport').zoom('zoomOut');
+
+				});
+
+				$('#canvas').hide();
+
+
+				// Load the HTML4 version if there's not CSS transform
+
+				yepnope({
+					test: Modernizr.csstransforms,
+					yep: ['../../resources/js/turnjs4/lib/turn.js'],
+					nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
+					both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidadunoprimergrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
+					complete: loadApp
+				});
+			</script>
+
+			<!--inicio modales -->
+			<div class="row">
+				<!--inicio modales -->
+				<!-- espacio  -->
+				<div id="ModalLibroUno" class="modal fade">
+				
+				</div>
+				<!-- fin modales-->
+			</div>
+			<!-- fin modales-->
+
+		</div>
+	</div>
+
+
 </body>
-
-
-
-
-<!--inicio modal #1 -->
-<!-- <div id="ModalLibroJuego" class="modal fade">
-    <div class="container-fluid">
-        <form method="post" id="save-form">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title">Juego super genial que te enseña mucho</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="form-group">
-                                <label for="nombrejuego">Aquí irá el juego:</label>
-                                <input type="text" class="form-control" id="nombrejuego" name="nombrejuego" placeholder="El mejor juego del mundo xd" pattern="[a-zA-ZñÑáÁéÉíÍóÓúÚ\s]{1-50}" required minlength="3" maxlength="50" autocomplete="off" />
-                            </div>
-                            <br>
-                        </div>
-                        <br>
-                        
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                            <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Guardar</button><br>
-                        </div>
-                    </div>
-                </div>
-        </form>
-        </form>
-    </div>
-</div> -->
-<!-- fin modal #1 -->
-
-
-<!--inicio modal #1 -->
-<div id="ModalLibroUno" class="modal fade">
-    <div class="container-fluid">
-        <form method="post" id="game-one-form">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="modal-title">Complete the words</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="form-group">
-                                <!-- columna -->
-                                <div class="container">
-                                    <div class="row row-cols-4">
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                        <!-- <div class="col"></div> -->
-                                        <div class="col border border-success">col</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <br>
-                        </div>
-                        <br>
-                        <!-- Botones de Control -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button><br>
-                        </div>
-                    </div>
-                </div>
-        </form>
-        </form>
-    </div>
-</div>
-<!-- fin modal #1 -->
-
-
-
-
-</div>
-<script type="text/javascript" src="../../app/helpers/bookfix.js"></script>
 <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
 <!-- Script de Bootstrap -->
 <script type="text/javascript" src="../../resources/js/autocomplete.js"></script>
@@ -497,6 +506,6 @@
 <script type="text/javascript" src="../../resources/js/sweetalert.min.js"></script>
 <script type="text/javascript" src="../../app/helpers/components.js"></script>
 <script type="text/javascript" src="../../app/controllers/account.js"></script>
-<script type="text/javascript" src="../../app/controllers/unidadunosegundogrado.js"></script>
+<script type="text/javascript" src="../../app/controllers/librounounidaduno/juego1.js"></script>
 
 </html>
