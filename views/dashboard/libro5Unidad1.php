@@ -424,6 +424,8 @@ yepnope({
 </script>
 
 <!--Espacio para modal -->
+<!-- Pagina 5 -->
+<!-- Region 12-->
 <!--Funcionando-->
 <div id="ModalLibroCinco1" class="modal fade" tabindex="-1">
 	<!-- <div class="container-fluid"> -->
@@ -791,6 +793,64 @@ yepnope({
 	</div>
 </div>
 
+<!-- Pagina  6-->
+<!-- Region  13-->
+<div id="ModalLibroCinco6" class="modal fade" tabindex="-2">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Greetings And Leave-Takings</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-6">
+				<div class="modal-body">
+					<div class="container-fluid">
+						
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Pagina  7-->
+<!-- Region  14-->
+<div id="ModalLibroCinco7" class="modal fade" tabindex="-2">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Greetings And Leave-Takings</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-7">
+				<div class="modal-body">
+					<div class="container-fluid">
+						
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Pagina  8-->
+<!-- Region  15-->
 <div id="ModalLibroCinco3" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -817,7 +877,8 @@ yepnope({
 	</div>
 </div>
 
-
+<!-- Pagina  -->
+<!-- Region  16-->
 <div id="ModalLibroCinco4" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -1151,7 +1212,7 @@ yepnope({
 </div>
 
 <!-- Pagina 21 -->
-<!-- Region 27 -->
+<!-- Region 28 -->
 <div id="ModalLibroCinco21" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -1179,7 +1240,7 @@ yepnope({
 </div>
 
 <!-- Pagina 22 -->
-<!-- Region 28 -->
+<!-- Region 29 -->
 <div id="ModalLibroCinco22" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -1207,7 +1268,7 @@ yepnope({
 </div>
 
 <!-- Pagina 23 -->
-<!-- Region 29 -->
+<!-- Region 30 -->
 <div id="ModalLibroCinco23" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -1235,7 +1296,7 @@ yepnope({
 </div>
 
 <!-- Pagina 24 -->
-<!-- Region 30 -->
+<!-- Region 31 -->
 <div id="ModalLibroCinco24" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -1269,7 +1330,7 @@ yepnope({
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Riddles</h5>
+				<h5 class="modal-title" id="modal-title">Birthday Celebrations</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-27">
@@ -1297,7 +1358,7 @@ yepnope({
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Riddles</h5>
+				<h5 class="modal-title" id="modal-title">Happy Birthday! Song</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-28">
@@ -1325,7 +1386,7 @@ yepnope({
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Riddles</h5>
+				<h5 class="modal-title" id="modal-title">Months of the Year</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-29">
@@ -1353,7 +1414,7 @@ yepnope({
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Riddles</h5>
+				<h5 class="modal-title" id="modal-title">Frequency Adverbs</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-30">
@@ -1459,17 +1520,17 @@ yepnope({
 	</div>
 </div>
 
-<!-- Pagina 34 -->
-<!-- Region 41 -->
-<div id="ModalLibroCinco34" class="modal fade" tabindex="-2">
+<!-- Pagina 35 -->
+<!-- Region 42 -->
+<div id="ModalLibroCinco35" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Possessive: 's</h5>
+				<h5 class="modal-title" id="modal-title">Talking About Ages</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="game-34">
+			<form method="post" id="game-35">
 				<div class="modal-body">
 					<div class="container-fluid">
 						
@@ -1517,7 +1578,7 @@ yepnope({
 
 <!-- Pagina 37 -->
 <!-- Region 44 -->
-<div id="ModalLibroCinco36" class="modal fade" tabindex="-2">
+<div id="ModalLibroCinco37" class="modal fade" tabindex="-2">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
@@ -1525,7 +1586,7 @@ yepnope({
 				<h5 class="modal-title" id="modal-title">All About My Holiday</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="game-36">
+			<form method="post" id="game-37">
 				<div class="modal-body">
 					<div class="container-fluid">
 						
@@ -1550,7 +1611,7 @@ yepnope({
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">All About My Holiday</h5>
+				<h5 class="modal-title" id="modal-title">How Many Sentences Can You Make???</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-42">
@@ -1578,7 +1639,7 @@ yepnope({
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">All About My Holiday</h5>
+				<h5 class="modal-title" id="modal-title">Crossword Using The Months of The Year</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-43">
@@ -1607,7 +1668,7 @@ yepnope({
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Crossword Using The Months of The Year</h5>
+				<h5 class="modal-title" id="modal-title">Find And Write Words About</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-44">
