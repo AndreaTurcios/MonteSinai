@@ -38,7 +38,7 @@
 				<div>
 					<ul>
 						<li class="i">
-							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/1.PNG" width="76" height="100" class="page-1">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/1.JPG" width="76" height="100" class="page-1">
 							<span>1</span>
 						</li>
 						<li class="d">
