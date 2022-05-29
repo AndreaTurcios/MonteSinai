@@ -1,3 +1,10 @@
+<?php
+//Se incluye la clase con las plantillas del documento
+require_once("../../app/helpers/book_page.php");
+//Se imprime la plantilla del encabezado y se envía el titulo para la página web
+Book_Page::headerTemplate('Unidad 1');
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -38,7 +45,7 @@
 				<div>
 					<ul>
 						<li class="i">
-							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/1.JPG" width="76" height="100" class="page-1">
+							<img src="../../resources/img/BOOKS/ThirdGrade/UnitOne/1.jpg" width="76" height="100" class="page-1">
 							<span>1</span>
 						</li>
 						<li class="d">
