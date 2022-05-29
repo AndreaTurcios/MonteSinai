@@ -417,16 +417,405 @@ yepnope({
     test: Modernizr.csstransforms,
     yep: ['../../resources/js/turnjs4/lib/turn.js'],
     nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
-    both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css',
-        '../../app/controllers/unidadunosextogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'
+    both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidadunosextogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'
     ],
     complete: loadApp
 });
 </script>
 
 <!--Espacio para modal -->
+<!-- Pagina Libro 3-->
+<!-- Region   12-regions.json-->
+<div id="ModalLibroSeis3" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">New Year's Day</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-3">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 4-->
+<!-- Region   13-regions.json-->
+<div id="ModalLibroSeis4" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Valentine's Day</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-4">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 5-->
+<!-- Region   14-regions.json-->
+<div id="ModalLibroSeis5" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Holy Week</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-5">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 6-->
+<!-- Region   15-regions.json-->
+<div id="ModalLibroSeis6" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Labor Day</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-6">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 7-->
+<!-- Region   16-regions.json-->
+<div id="ModalLibroSeis7" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Day of The Cross</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-7">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 8-->
+<!-- Region   17-regions.json-->
+<div id="ModalLibroSeis8" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Mother's Day</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-8">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 9-->
+<!-- Region   18-regions.json-->
+<div id="ModalLibroSeis9" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Father's Day</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-9">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 10 -->
+<!-- Region   19-regions.json-->
+<div id="ModalLibroSeis10" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Teacher's Day (Poem)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-10">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 11 -->
+<!-- Region   20-regions.json-->
+<div id="ModalLibroSeis11" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Independence Day In Central America</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-11">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 12-->
+<!-- Region   21-regions.json-->
+<div id="ModalLibroSeis12" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Columbus Day</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-12">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 13-->
+<!-- Region   22-regions.json-->
+<div id="ModalLibroSeis13" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">All Soul's Day</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-13">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 14-->
+<!-- Region   23-regions.json-->
+<div id="ModalLibroSeis14" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Christmas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-14">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 15-->
+<!-- Region   24-regions.json-->
+<div id="ModalLibroSeis15" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Aqui</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-15">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
+<!-- Pagina Libro -->
+<!-- Region   -regions.json-->
+<div id="ModalLibroSeis" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Aqui</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
