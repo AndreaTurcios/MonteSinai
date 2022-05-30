@@ -198,9 +198,9 @@ document.getElementById('game-three').addEventListener('submit',function(event){
 
     for (var j = 0; j < respuestas.length ; j++){
         for (var i = 0; i < arraytotal.length; i++) {
-            console.log("respuesta " + respuestas[j]);
-            console.log("iput " +arraytotal[i]);
-            console.log("iput " +respuestas[j].toUpperCase().localeCompare(arraytotal[i]));
+            //console.log("respuesta " + respuestas[j]);
+            //console.log("iput " +arraytotal[i]);
+            //console.log("iput " +respuestas[j].toUpperCase().localeCompare(arraytotal[i]));
             if (respuestas[j].localeCompare(arraytotal[i].toUpperCase()) == 0) {
             //if (respuestas[j].toUpperCase().localeCompare(arraytotal[i]) == 0) {
                 totalPunto = totalPunto + punto;
@@ -224,4 +224,27 @@ document.getElementById('game-three').addEventListener('submit',function(event){
     return true;
 
     
+});
+
+document.getElementById('').addEventListener('submit', function(event){
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //Se declaran las variables segun el numero de campos, a evaluar.
+
+    let punto = 1/26;
+    let totalPunto = 0;
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 5;
+    document.getElementById('idcliente7').value = users.value;
+    document.getElementById('points7').value = notatotal;
+    document.getElementById('idlibro7').value = libro;
+    action = 'create7';
+    console.log("idcliente" + users.value);
+    console.log("idcliente" + notatotal);
+    console.log("libro" + libro);
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, 'game-7', 'ModalLibroCinco7');
+    sweetAlert(1, 'Resultados ingresados' + users.value + 'TOTAL' + notatotal + 'sera', null);
+    return true;
 });

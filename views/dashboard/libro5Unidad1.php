@@ -834,7 +834,20 @@ yepnope({
 			<form method="post" id="game-7">
 				<div class="modal-body">
 					<div class="container-fluid">
+						<!-- Container-fluid-->
+						<!-- Indicaciones -->
 						
+						<div class="row">
+								<div class="col-md-12 align-items-center">
+										<p class="fs-1 fw-bold">Write the names that you read</p>
+										<!-- class="d-none" -->
+										<input type="text" class="d-none" id="points7" name="points3">
+										<input type="text" class="d-none" id="idcliente7" name="idcliente3">
+										<input type="text" class="d-none" id="idlibro7" name="idlibro3">	
+								</div>
+							</div>
+						</div>
+						<!-- Fin Container-fluid-->
 					</div>
 					<br>
 					<!-- Botones de Control -->
