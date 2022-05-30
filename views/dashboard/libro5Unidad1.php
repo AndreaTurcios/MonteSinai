@@ -862,7 +862,256 @@ yepnope({
 			<form method="post" id="game-three">
 				<div class="modal-body">
 					<div class="container-fluid">
+						<!-- Container-fluid-->
+						<!-- Indicaciones -->
 						
+							<div class="row">
+								<div class="col-md-12 align-items-center">
+										<p class="fs-1 fw-bold">Write the names that you read</p>
+										<!-- class="d-none" -->
+										<input type="text" class="d-none" id="points3" name="points3">
+										<input type="text" class="d-none" id="idcliente3" name="idcliente3">
+										<input type="text" class="d-none" id="idlibro3" name="idlibro3">	
+								</div>
+							</div>
+
+							<div class="row justify-content-md-center" >
+								<div class="col-md-8  ">
+									<img class="img-fluid img-thumbnail" src="../../resources/img/BOOKS/FifthGradeModal/imgModalLibroCinco3.png" alt="">
+								</div>
+							</div>
+
+							<div class="row" style="margin-top:5px">
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>1</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req1">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5" >
+									<div class="num">
+										<span>2</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req2">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>3</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req3">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>4</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req4">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>5</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req5">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>6</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req6">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>7</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req7">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>8</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req8">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>9</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req9">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>10</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req10">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>12</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req11">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>12</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req12">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>13</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req13">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>14</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req14">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>15</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req15">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>16</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req16">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>17</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req17">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>18</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req18">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>19</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req19">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>20</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req20">
+									</div>	
+								</div>
+
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>21</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req21">
+									</div>	
+								</div>
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>22</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req22">
+									</div>	
+								</div>
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>23</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req23">
+									</div>	
+								</div>
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>24</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req24">
+									</div>	
+								</div>
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>25</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req25">
+									</div>	
+								</div>
+								<div class="col-6 col-lg-3 flex-container-5">
+									<div class="num">
+										<span>26</span>
+									</div>
+									<div class="req">
+										<input type="text" id="pag8-req26">
+									</div>	
+								</div>
+							</div>
+						<!-- Fin Container-fluid-->
 					</div>
 					<br>
 					<!-- Botones de Control -->

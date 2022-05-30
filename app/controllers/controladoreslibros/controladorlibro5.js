@@ -145,3 +145,83 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
 
 });
+
+document.getElementById('game-three').addEventListener('submit',function(event){
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //Se declaran las variables segun el numero de campos, a evaluar.
+    let req1, req2, req3, req4, req5, req6, req7, req8, req9, req10,
+        req11, req12, req13, req14, req15, req16, req17, req18, req19, req20,
+        req21, req22, req23, req24, req25, req26;
+
+    req1  = document.getElementById('pag8-req1').value;
+    req2  = document.getElementById('pag8-req2').value;
+    req3  = document.getElementById('pag8-req3').value;
+    req4  = document.getElementById('pag8-req4').value;
+    req5  = document.getElementById('pag8-req5').value;
+    req6  = document.getElementById('pag8-req6').value;
+    req7  = document.getElementById('pag8-req7').value;
+    req8  = document.getElementById('pag8-req8').value;
+    req9  = document.getElementById('pag8-req9').value;
+    req10  = document.getElementById('pag8-req10').value;
+
+    req11  = document.getElementById('pag8-req11').value;
+    req12  = document.getElementById('pag8-req12').value;
+    req13  = document.getElementById('pag8-req13').value;
+    req14  = document.getElementById('pag8-req14').value;
+    req15  = document.getElementById('pag8-req15').value;
+    req16  = document.getElementById('pag8-req16').value;
+    req17  = document.getElementById('pag8-req17').value;
+    req18  = document.getElementById('pag8-req18').value;
+    req19  = document.getElementById('pag8-req19').value;
+    req20  = document.getElementById('pag8-req20').value;
+
+    req21  = document.getElementById('pag8-req21').value;
+    req22  = document.getElementById('pag8-req22').value;
+    req23  = document.getElementById('pag8-req23').value;
+    req24  = document.getElementById('pag8-req24').value;
+    req25  = document.getElementById('pag8-req25').value;
+    req26  = document.getElementById('pag8-req26').value;
+
+     //Se crea un array con las posibles respuestas en base al texto del libro (Palabras clave)
+     let respuestas = ["WINDOWS", "MAP", "CLOCK", "WHITE BOARD", "PENCIL SHARPENER", "SCISSORS",
+     "RULER", "GLUE", "BOOKCASE", "CRAYON", "TABLE", "CHAIR", "BOOK BAG", "STUDENT", "NOTEBOOK",
+     "PENCIL", "PAPER", "DESK", "MARKER", "BOOK", "PEN", "DOOR", "ERASER","CHALK", "TEACHER", "BLACKBOARD" ];
+    
+     let arraytotal =  [req1, req2, req3, req4, req5, req6, req7, req8, req9, req10,
+                        req11, req12, req13, req14, req15, req16, req17, req18, req19, req20,
+                        req21, req22, req23, req24, req25, req26];
+    
+    let punto = 1/26;
+    let totalPunto = 0;
+
+
+    for (var j = 0; j < respuestas.length ; j++){
+        for (var i = 0; i < arraytotal.length; i++) {
+            console.log("respuesta " + respuestas[j]);
+            console.log("iput " +arraytotal[i]);
+            console.log("iput " +respuestas[j].toUpperCase().localeCompare(arraytotal[i]));
+            if (respuestas[j].localeCompare(arraytotal[i].toUpperCase()) == 0) {
+            //if (respuestas[j].toUpperCase().localeCompare(arraytotal[i]) == 0) {
+                totalPunto = totalPunto + punto;
+                i = arraytotal.length;
+            }
+        } 
+    }
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 5;
+    document.getElementById('idcliente3').value = users.value;
+    document.getElementById('points3').value = notatotal;
+    document.getElementById('idlibro3').value = libro;
+    action = 'create3';
+    console.log("idcliente" + users.value);
+    console.log("idcliente" + notatotal);
+    console.log("libro" + libro);
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroCinco3');
+    sweetAlert(1, 'Resultados ingresados' + users.value + 'TOTAL' + notatotal + 'sera', null);
+    return true;
+
+    
+});

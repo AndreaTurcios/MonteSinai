@@ -72,3 +72,20 @@
     border-collapse: collapse;
   }
   
+  .flex-container-5 {
+    display: flex;
+    margin-bottom: 5px ;
+  }
+  
+  .flex-container-5 .num{
+    width: 10px; 
+    padding-right: 20px
+  }
+
+  .flex-container-5 .req{
+    width: 85%;
+  }
+
+  .flex-container-5 .req input{
+    width: 100%;
+  } 
