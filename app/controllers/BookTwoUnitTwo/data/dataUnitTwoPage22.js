@@ -5,23 +5,23 @@ export const data = [
     answer: "work",
   },
   {
-    question: "He ____ my father",
+    question: "Yesenia ia a dentist. She ____ at the hospital",
     choices: ["work", "works"],
-    answer: "IS",
+    answer: "works",
   },
   {
-    question: "She ____ my sister",
+    question: "Silvia is an architect. She ____ at her office",
     choices: ["work", "works"],
-    answer: "IS",
+    answer: "works",
   },
   {
-    question: "She ____ my mother",
+    question: "Sara ia a teacher. She ____ at the school",
     choices: ["work", "works"],
-    answer: "IS",
+    answer: "works",
   },
   {
-    question: "They ____ my parents",
+    question: "Martha is a eaitress. She ____ at the restaurant",
     choices: ["work", "works"],
-    answer: "ARE",
+    answer: "works",
   },
 ];
