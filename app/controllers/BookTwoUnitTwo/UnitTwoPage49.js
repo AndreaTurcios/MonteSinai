@@ -1,13 +1,7 @@
 //@ts-check
-<<<<<<< HEAD
-import { Quiz } from "./models/QuizPage48.js";
-import { UI } from "./models/UIPage48.js";
-import { questions } from "./data/questionsPage48.js";
-=======
-import { Quiz } from "./models/QuizPage48.js";
-import { UI } from "./models/UIPage48.js";
-import { questions } from "./data/questions.js";
->>>>>>> 0a3ee4900ba05c6ac6982f0f765fbb00742442ca
+import { Quiz } from "./models/QuizPage49.js";
+import { UI } from "./models/UIPage49.js";
+import { questions } from "./data/questionsPage49.js";
 
 // Renderring the page
 const renderPage = (quiz, ui) => {
