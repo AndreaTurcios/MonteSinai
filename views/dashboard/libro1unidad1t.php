@@ -23,46 +23,58 @@ Book_Page::headerTemplate('Unidad 1');
 			<div>
 				<ul>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/1.JPG" width="76" height="100" class="page-1">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/1.JPG" width="76" height="100"
+							class="page-1">
 						<span>1</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/2.JPG" width="76" height="100" class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/3.JPG" width="76" height="100" class="page-3">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/2.JPG" width="76" height="100"
+							class="page-2">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/3.JPG" width="76" height="100"
+							class="page-3">
 						<span>2-3</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/4.JPG" width="76" height="100" class="page-4">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/5.JPG" width="76" height="100" class="page-5">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/4.JPG" width="76" height="100"
+							class="page-4">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/5.JPG" width="76" height="100"
+							class="page-5">
 						<span>4-5</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/6.JPG" width="76" height="100" class="page-6">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/7.JPG" width="76" height="100" class="page-7">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/6.JPG" width="76" height="100"
+							class="page-6">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/7.JPG" width="76" height="100"
+							class="page-7">
 						<span>6-7</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/8.JPG" width="76" height="100" class="page-8">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/9.JPG" width="76" height="100" class="page-9">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/8.JPG" width="76" height="100"
+							class="page-8">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/9.JPG" width="76" height="100"
+							class="page-9">
 						<span>8-9</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/10.JPG" width="76" height="100" class="page-10">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/11.JPG" width="76" height="100" class="page-11">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/10.JPG" width="76" height="100"
+							class="page-10">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/11.JPG" width="76" height="100"
+							class="page-11">
 						<span>10-11</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/12.JPG" width="76" height="100" class="page-12">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/13.JPG" width="76" height="100" class="page-13">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/12.JPG" width="76" height="100"
+							class="page-12">
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/13.JPG" width="76" height="100"
+							class="page-13">
 						<span>12-13</span>
 					</li>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/14.JPG" width="76" height="100" class="page-14">
-						<span>14<span>
+						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/14.JPG" width="76" height="100"
+							class="page-14">
+						<span>14</span>
 					</li>
-					<ul>
-						<div>
-						</div>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -121,7 +133,7 @@ Book_Page::headerTemplate('Unidad 1');
 			// Events
 
 			when: {
-				turning: function(event, page, view) {
+				turning: function (event, page, view) {
 
 					var book = $(this),
 						currentPage = book.turn('page'),
@@ -137,12 +149,12 @@ Book_Page::headerTemplate('Unidad 1');
 
 
 					$('.thumbnails .page-' + currentPage).
-					parent().
-					removeClass('current');
+						parent().
+						removeClass('current');
 
 					$('.thumbnails .page-' + page).
-					parent().
-					addClass('current');
+						parent().
+						addClass('current');
 
 
 					//var estados = page
@@ -152,7 +164,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 				},
 
-				turned: function(event, page, view) {
+				turned: function (event, page, view) {
 
 					disableControls(page);
 
@@ -164,7 +176,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 				},
 
-				missing: function(event, pages) {
+				missing: function (event, pages) {
 
 					// Add pages that aren't in the magazine
 
@@ -181,7 +193,7 @@ Book_Page::headerTemplate('Unidad 1');
 		$('.magazine-viewport').zoom({
 			flipbook: $('.magazine'),
 
-			max: function() {
+			max: function () {
 
 				return largeMagazineWidth() / $('.magazine').width();
 
@@ -189,19 +201,19 @@ Book_Page::headerTemplate('Unidad 1');
 
 			when: {
 
-				swipeLeft: function() {
+				swipeLeft: function () {
 
 					$(this).zoom('flipbook').turn('next');
 
 				},
 
-				swipeRight: function() {
+				swipeRight: function () {
 
 					$(this).zoom('flipbook').turn('previous');
 
 				},
 
-				resize: function(event, scale, page, pageElement) {
+				resize: function (event, scale, page, pageElement) {
 
 					if (scale == 1)
 						loadSmallPage(page, pageElement);
@@ -210,7 +222,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 				},
 
-				zoomIn: function() {
+				zoomIn: function () {
 
 					$('.thumbnails').hide();
 					$('.made').hide();
@@ -223,25 +235,25 @@ Book_Page::headerTemplate('Unidad 1');
 						$('<div />', {
 							'class': 'exit-message'
 						}).
-						html('<div>Press ESC to exit</div>').
-						appendTo($('body')).
-						delay(2000).
-						animate({
-							opacity: 0
-						}, 500, function() {
-							$(this).remove();
-						});
+							html('<div>Press ESC to exit</div>').
+							appendTo($('body')).
+							delay(2000).
+							animate({
+								opacity: 0
+							}, 500, function () {
+								$(this).remove();
+							});
 					}
 				},
 
-				zoomOut: function() {
+				zoomOut: function () {
 
 					$('.exit-message').hide();
 					$('.thumbnails').fadeIn();
 					$('.made').fadeIn();
 					$('.zoom-icon').removeClass('zoom-icon-out').addClass('zoom-icon-in');
 
-					setTimeout(function() {
+					setTimeout(function () {
 						$('.magazine').addClass('animated').removeClass('zoom-in');
 						resizeViewport();
 					}, 0);
@@ -260,7 +272,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 		// Using arrow keys to turn the page
 
-		$(document).keydown(function(e) {
+		$(document).keydown(function (e) {
 
 			var previous = 37,
 				next = 39,
@@ -293,7 +305,7 @@ Book_Page::headerTemplate('Unidad 1');
 		// URIs - Format #/page/1 
 
 		Hash.on('^page\/([0-9]*)$', {
-			yep: function(path, parts) {
+			yep: function (path, parts) {
 				var page = parts[1];
 
 				if (page !== undefined) {
@@ -302,7 +314,7 @@ Book_Page::headerTemplate('Unidad 1');
 				}
 
 			},
-			nop: function(path) {
+			nop: function (path) {
 
 				if ($('.magazine').turn('is'))
 					$('.magazine').turn('page', 1);
@@ -310,15 +322,15 @@ Book_Page::headerTemplate('Unidad 1');
 		});
 
 
-		$(window).resize(function() {
+		$(window).resize(function () {
 			resizeViewport();
-		}).bind('orientationchange', function() {
+		}).bind('orientationchange', function () {
 			resizeViewport();
 		});
 
 		// Events for thumbnails
 
-		$('.thumbnails').click(function(event) {
+		$('.thumbnails').click(function (event) {
 
 			var page;
 
@@ -329,35 +341,35 @@ Book_Page::headerTemplate('Unidad 1');
 		});
 
 		$('.thumbnails li').
-		bind($.mouseEvents.over, function() {
+			bind($.mouseEvents.over, function () {
 
-			$(this).addClass('thumb-hover');
+				$(this).addClass('thumb-hover');
 
-		}).bind($.mouseEvents.out, function() {
+			}).bind($.mouseEvents.out, function () {
 
-			$(this).removeClass('thumb-hover');
+				$(this).removeClass('thumb-hover');
 
-		});
+			});
 
 		if ($.isTouch) {
 
 			$('.thumbnails').
-			addClass('thumbanils-touch').
-			bind($.mouseEvents.move, function(event) {
-				event.preventDefault();
-			});
+				addClass('thumbanils-touch').
+				bind($.mouseEvents.move, function (event) {
+					event.preventDefault();
+				});
 
 		} else {
 
-			$('.thumbnails ul').mouseover(function() {
+			$('.thumbnails ul').mouseover(function () {
 
 				$('.thumbnails').addClass('thumbnails-hover');
 
-			}).mousedown(function() {
+			}).mousedown(function () {
 
 				return false;
 
-			}).mouseout(function() {
+			}).mouseout(function () {
 
 				$('.thumbnails').removeClass('thumbnails-hover');
 
@@ -376,23 +388,23 @@ Book_Page::headerTemplate('Unidad 1');
 
 		// Events for the next button
 
-		$('.next-button').bind($.mouseEvents.over, function() {
+		$('.next-button').bind($.mouseEvents.over, function () {
 
 			$(this).addClass('next-button-hover');
 
-		}).bind($.mouseEvents.out, function() {
+		}).bind($.mouseEvents.out, function () {
 
 			$(this).removeClass('next-button-hover');
 
-		}).bind($.mouseEvents.down, function() {
+		}).bind($.mouseEvents.down, function () {
 
 			$(this).addClass('next-button-down');
 
-		}).bind($.mouseEvents.up, function() {
+		}).bind($.mouseEvents.up, function () {
 
 			$(this).removeClass('next-button-down');
 
-		}).click(function() {
+		}).click(function () {
 
 			$('.magazine').turn('next');
 
@@ -400,23 +412,23 @@ Book_Page::headerTemplate('Unidad 1');
 
 		// Events for the next button
 
-		$('.previous-button').bind($.mouseEvents.over, function() {
+		$('.previous-button').bind($.mouseEvents.over, function () {
 
 			$(this).addClass('previous-button-hover');
 
-		}).bind($.mouseEvents.out, function() {
+		}).bind($.mouseEvents.out, function () {
 
 			$(this).removeClass('previous-button-hover');
 
-		}).bind($.mouseEvents.down, function() {
+		}).bind($.mouseEvents.down, function () {
 
 			$(this).addClass('previous-button-down');
 
-		}).bind($.mouseEvents.up, function() {
+		}).bind($.mouseEvents.up, function () {
 
 			$(this).removeClass('previous-button-down');
 
-		}).click(function() {
+		}).click(function () {
 
 			$('.magazine').turn('previous');
 
@@ -431,7 +443,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 	// Zoom icon
 
-	$('.zoom-icon').bind('mouseover', function() {
+	$('.zoom-icon').bind('mouseover', function () {
 
 		if ($(this).hasClass('zoom-icon-in'))
 			$(this).addClass('zoom-icon-in-hover');
@@ -439,7 +451,7 @@ Book_Page::headerTemplate('Unidad 1');
 		if ($(this).hasClass('zoom-icon-out'))
 			$(this).addClass('zoom-icon-out-hover');
 
-	}).bind('mouseout', function() {
+	}).bind('mouseout', function () {
 
 		if ($(this).hasClass('zoom-icon-in'))
 			$(this).removeClass('zoom-icon-in-hover');
@@ -447,7 +459,7 @@ Book_Page::headerTemplate('Unidad 1');
 		if ($(this).hasClass('zoom-icon-out'))
 			$(this).removeClass('zoom-icon-out-hover');
 
-	}).bind('click', function() {
+	}).bind('click', function () {
 
 		if ($(this).hasClass('zoom-icon-in'))
 			$('.magazine-viewport').zoom('zoomIn');
@@ -543,7 +555,10 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">H</div>
 													<div class="col">e</div>
 													<div class="col">
-														<input type="text" id="input-oneh" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-oneh"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">d</div>
 												</div>
@@ -556,7 +571,10 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="row row-cols-4">
 													<div class="col">a</div>
 													<div class="col">
-														<input type="text" id="input-fivec" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-fivec"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">m</div>
 												</div>
@@ -569,7 +587,10 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="row row-cols-4">
 													<div class="col">e</div>
 													<div class="col">
-														<input type="text" id="input-niner" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-niner"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">r</div>
 												</div>
@@ -582,7 +603,10 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="row row-cols-4">
 													<div class="col">m</div>
 													<div class="col">
-														<input type="text" id="input-thirdteenu" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-thirdteenu"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">u</div>
 													<div class="col">t</div>
@@ -604,7 +628,10 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">H</div>
 													<div class="col">e</div>
 													<div class="col">
-														<input type="text" id="input-twoe" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-twoe"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">k</div>
 												</div>
@@ -616,7 +643,10 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
 													<div class="col">n</div>
-													<div class="col"><input type="text" id="input-sixn" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1"></div>
+													<div class="col"><input type="text" id="input-sixn"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"></div>
 													<div class="col">s</div>
 													<div class="col">e</div>
 												</div>
@@ -631,7 +661,10 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">a</div>
 													<div class="col">n</div>
 													<div class="col">
-														<input type="text" id="input-tend" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-tend"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 												</div>
 											</div>
@@ -642,7 +675,10 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
 													<div class="col">
-														<input type="text" id="input-fourteenl" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-fourteenl"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">e</div>
 													<div class="col">g</div>
@@ -663,7 +699,10 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">F</div>
 													<div class="col">o</div>
 													<div class="col">
-														<input type="text" id="input-threef" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-threef"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">t</div>
 												</div>
@@ -675,7 +714,10 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
 													<div class="col">
-														<input type="text" id="input-sevenh" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-sevenh"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">a</div>
 													<div class="col">i</div>
@@ -691,7 +733,9 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">s</div>
 													<div class="col">t</div>
 													<div class="col">
-														<input type="text" id="input-elevench" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-elevench" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">m</div>
 													<div class="col">a</div>
@@ -709,7 +753,10 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">i</div>
 													<div class="col">n</div>
 													<div class="col">
-														<input type="text" id="input-fifteenf" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-fifteenf"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">e</div>
 													<div class="col">r</div>
@@ -727,7 +774,11 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col"> <input type="text" id="input-fourc" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1"> </div>
+													<div class="col"> <input type="text" id="input-fourc"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+													</div>
 													<div class="col">a</div>
 													<div class="col">c</div>
 													<div class="col">e</div>
@@ -740,7 +791,10 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
 													<div class="col">
-														<input type="text" id="input-eightt" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-eightt"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">o</div>
 													<div class="col">e</div>
@@ -753,7 +807,10 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
 													<div class="col">
-														<input type="text" id="input-twelvey" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-twelvey"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">y</div>
 													<div class="col">e</div>
@@ -767,7 +824,10 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="row row-cols-4">
 													<div class="col">k</div>
 													<div class="col">n</div>
-													<div class="col"><input type="text" id="input-sixteenk" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+													<div class="col"><input type="text" id="input-sixteenk"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 													<div class="col">e</div>
 												</div>
@@ -784,7 +844,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -826,7 +887,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -836,7 +898,8 @@ Book_Page::headerTemplate('Unidad 1');
 </div>
 
 
-<div class="modal fade" id="ModalLibrotsestdodfdfd" tabindex="-10" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="ModalLibrotsestdodfdfd" tabindex="-10" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -860,18 +923,37 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 									</div>
 									<!-- contenido  -->
-									<div id="game">
-										<section class="left-panel">
-											<div class="color-grid">
-												<div class="color-box span3">
-													<button id="clear">Clear</button>
-												</div>
-											</div>
-										</section>
-										<section class="right-panel">
-											<div class="canvas-grid">
-											</div>
-										</section>
+
+									<link rel="stylesheet" type="text/css" href="../../resources/css/imagen.css" />
+									<style type="text/css">
+										#main {
+											width: 800px;
+											margin: auto;
+											box-sizing: border-box;
+											padding: 20px;
+											border: 2px solid black;
+										}
+
+										#canvas {
+											border: 2px solid black;
+											margin-top: 20px;
+										}
+									</style>
+									</head>
+									<div id="imagen">
+										<center>
+											<section id="main">
+												Color de linea: <input type="color" onchange="colorLinea(this)">
+												Ancho de linea: <input type="range" onchange="anchoLinea(this)" max="20"
+													min="1" value="1"><span id="valor">1</span>
+												<input type="button" value="Limpiar" onclick="limpiar()">
+											</section>
+											<canvas id="canvas" width="800" height="500">
+												No funciona canvas
+											</canvas>
+
+										</center>
+										<script src="../../resources/js/jsgamesFirstgrade/app.js"></script>
 									</div>
 									<!-- contenido  -->
 								</div>
@@ -883,7 +965,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -915,7 +998,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points3" name="points3">
 											<input type="text" class="d-none" id="idcliente3" name="idcliente3">
-											<input type="text" class="d-none"  id="idlibro3" name="idlibro3">
+											<input type="text" class="d-none" id="idlibro3" name="idlibro3">
 										</div>
 									</div>
 									<div class="row row-cols-2">
@@ -923,7 +1006,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence1" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence1" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -932,7 +1016,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence2" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence2" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -941,7 +1026,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence3" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence3" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -950,7 +1036,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence4" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence4" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -964,7 +1051,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1001,7 +1089,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence14" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence14" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1010,7 +1099,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence24" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence24" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1019,7 +1109,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence34" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence34" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1028,7 +1119,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentence44" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentence44" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1042,7 +1134,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1070,15 +1163,16 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
 											<!-- class="d-none" -->
-											<input type="text"  id="points5" name="points5">
-											<input type="text"  id="idcliente5" name="idcliente5">
-											<input type="text"  id="idlibro5" name="idlibro5">
+											<input type="text" id="points5" name="points5">
+											<input type="text" id="idcliente5" name="idcliente5">
+											<input type="text" id="idlibro5" name="idlibro5">
 										</div>
 									</div>
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentences1" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentences1" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1087,7 +1181,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentences2" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentences2" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1096,7 +1191,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentences3" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentences3" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1105,7 +1201,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="sentences4" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="sentences4" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1119,7 +1216,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1154,10 +1252,12 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words11" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words11" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 											<div class="col">
-												<input type="text" id="words12" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words12" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1166,7 +1266,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words2" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words2" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 
@@ -1175,7 +1276,8 @@ Book_Page::headerTemplate('Unidad 1');
 
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words3" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words3" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1189,7 +1291,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1225,32 +1328,38 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words-act6-11" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words-act6-11" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words-act6-22" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words-act6-22" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words-act6-33" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words-act6-33" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words-act6-44" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words-act6-44" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words-act6-55" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words-act6-55" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="words-act6-66" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="words-act6-66" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1264,7 +1373,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1299,22 +1409,26 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acty7-01" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acty7-01" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acty7-02" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acty7-02" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acty7-03" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acty7-03" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acty7-04" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acty7-04" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1328,7 +1442,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1363,22 +1478,26 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acto8-11" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acto8-11" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acto8-12" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acto8-12" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acto8-13" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acto8-13" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-acto8-14" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-acto8-14" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1392,7 +1511,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1427,22 +1547,26 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo10-21" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo10-21" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo10-22" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo10-22" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo10-23" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo10-23" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo10-24" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo10-24" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1456,7 +1580,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1491,17 +1616,20 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo11-31" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo11-31" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo11-32" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo11-32" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo11-33" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo11-33" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1515,7 +1643,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1550,22 +1679,26 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo12-41" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo12-41" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo12-42" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo12-42" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo12-43" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo12-43" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo12-44" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo12-44" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1579,7 +1712,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1614,17 +1748,20 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo13-51" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo13-51" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo13-52" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo13-52" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="word-actyo13-53" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="word-actyo13-53" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -1638,7 +1775,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1684,7 +1822,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault1">
 														<label class="form-check-label" for="flexCheckDefault1">
 															TWO
 														</label>
@@ -1698,7 +1837,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault2">
 														<label class="form-check-label" for="flexCheckDefault2">
 															ONE
 														</label>
@@ -1712,7 +1852,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault3">
 														<label class="form-check-label" for="flexCheckDefault3">
 															SEVEN
 														</label>
@@ -1739,7 +1880,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault4">
 														<label class="form-check-label" for="flexCheckDefault4">
 															FIVE
 														</label>
@@ -1753,7 +1895,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault5">
 														<label class="form-check-label" for="flexCheckDefault5">
 															ONE
 														</label>
@@ -1767,7 +1910,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault6">
 														<label class="form-check-label" for="flexCheckDefault6">
 															FOUR
 														</label>
@@ -1794,7 +1938,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault7">
 														<label class="form-check-label" for="flexCheckDefault7">
 															SIX
 														</label>
@@ -1808,7 +1953,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault8">
 														<label class="form-check-label" for="flexCheckDefault8">
 															THREE
 														</label>
@@ -1822,7 +1968,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault9">
 														<label class="form-check-label" for="flexCheckDefault9">
 															EIGHT
 														</label>
@@ -1849,7 +1996,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault10">
 														<label class="form-check-label" for="flexCheckDefault10">
 															NINE
 														</label>
@@ -1863,7 +2011,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault11">
 														<label class="form-check-label" for="flexCheckDefault11">
 															SIX
 														</label>
@@ -1877,7 +2026,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault12">
 														<label class="form-check-label" for="flexCheckDefault12">
 															TEN
 														</label>
@@ -1904,7 +2054,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault13">
 														<label class="form-check-label" for="flexCheckDefault13">
 															NINE
 														</label>
@@ -1918,7 +2069,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault14">
 														<label class="form-check-label" for="flexCheckDefault14">
 															TWO
 														</label>
@@ -1932,7 +2084,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="form-check">
 												<div class="row">
 													<div class="col">
-														<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+														<input class="form-check-input" type="checkbox" value=""
+															id="flexCheckDefault15">
 														<label class="form-check-label" for="flexCheckDefault15">
 															FIVE
 														</label>
@@ -1951,7 +2104,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -1987,32 +2141,38 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="colors-actyo14-61" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="colors-actyo14-61" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="colors-actyo14-62" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="colors-actyo14-62" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="colors-actyo14-63" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="colors-actyo14-63" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="colors-actyo14-64" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="colors-actyo14-64" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="colors-actyo14-65" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="colors-actyo14-65" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="colors-actyo14-66" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="colors-actyo14-66" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -2026,7 +2186,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -2062,52 +2223,62 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-261" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-261" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-262" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-262" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-263" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-263" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-264" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-264" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-265" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-265" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-266" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-266" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-267" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-267" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-268" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-268" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-269" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-269" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="numbers-actyo26-2610" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="numbers-actyo26-2610" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<!-- fin cols  -->
@@ -2121,7 +2292,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -2165,7 +2337,10 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>y</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp1" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" maxlength="1">
+														<input type="text" id="input-actp1"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1">
 													</div>
 												</div>
 											</div>
@@ -2179,7 +2354,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>see</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp2" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 												</div>
 											</div>
@@ -2190,7 +2367,9 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group">
 												<div class="row row-cols-2">
 													<div class="col">
-														<input type="text" id="input-actp3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp3" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>much</h4>
@@ -2207,7 +2386,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>How</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp4" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>you ?</h4>
@@ -2224,13 +2405,17 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>Fine,</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp5" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp5" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>,</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp6" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp6" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>you ?</h4>
@@ -2244,7 +2429,9 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row">
 													<div class="col">
-														<input type="text" id="input-actp7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp7" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>Karla !</h4>
@@ -2261,7 +2448,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>What's</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp8" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp8" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 												</div>
 											</div>
@@ -2277,7 +2466,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -2318,7 +2508,10 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>Hello</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp301" class="col-6 col-md-4 form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp301"
+															class="col-6 col-md-4 form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>Williams!</h4>
@@ -2332,7 +2525,9 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-2">
 													<div class="col">
-														<input type="text" id="input-actp302" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp302" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>Mrs. Jackson</h4>
@@ -2349,7 +2544,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>How do you</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp303" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp303" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>?</h4>
@@ -2366,7 +2563,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>See</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp304" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp304" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 												</div>
 											</div>
@@ -2380,7 +2579,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>Not</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp305" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp305" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 												</div>
 											</div>
@@ -2394,7 +2595,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>See you</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp306" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp306" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 												</div>
 											</div>
@@ -2410,7 +2613,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -2480,7 +2684,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>Very</h4>
 													</div>
 													<div class="col">
-														<input type="text" id="input-actp312" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp312" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 												</div>
 											</div>
@@ -2497,7 +2703,9 @@ Book_Page::headerTemplate('Unidad 1');
 														<h4>o</h4>
 													</div>
 													<div class="col ">
-														<input type="text" id="input-actp313" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp313" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col col-4">
 														<h4>!</h4>
@@ -2511,7 +2719,9 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
 													<div class="col">
-														<input type="text" id="input-actp314" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp314" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>done</h4>
@@ -2525,7 +2735,9 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row">
 													<div class="col">
-														<input type="text" id="input-actp315" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp315" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>Right!</h4>
@@ -2539,7 +2751,9 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="input-group input-group-sm mb-3">
 												<div class="row">
 													<div class="col">
-														<input type="text" id="input-actp316" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+														<input type="text" id="input-actp316" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
 														<h4>Job!</h4>
@@ -2558,7 +2772,8 @@ Book_Page::headerTemplate('Unidad 1');
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
 				</div>
@@ -2593,52 +2808,62 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-61" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-61" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-62" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-62" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-63" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-63" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-64" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-64" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-65" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-65" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-66" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-66" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-67" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-67" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-68" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-68" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-69" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-69" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo32-610" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo32-610" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 											<!-- fin cols  -->
 										</div>
@@ -2651,7 +2876,8 @@ Book_Page::headerTemplate('Unidad 1');
 						<!-- Botones de Control -->
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-							<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
 							<br>
 						</div>
 					</div>
@@ -2687,24 +2913,28 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo33-71" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo33-71" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo33-72" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo33-72" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo33-73" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo33-73" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo33-74" class="form-control" aria-label="Sizing example input" maxlength="100">
+												<input type="text" id="food-actyo33-74" class="form-control"
+													aria-label="Sizing example input" maxlength="100">
 											</div>
-										</div>										
+										</div>
 									</div>
 								</div>
 							</div>
@@ -2714,7 +2944,8 @@ Book_Page::headerTemplate('Unidad 1');
 						<!-- Botones de Control -->
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-							<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
 							<br>
 						</div>
 					</div>

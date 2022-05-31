@@ -159,7 +159,7 @@ function processRegion(region, regionType) {
 
 			break;
 		case 'html':
-
+			//console.log('Entro ' + data.form);		
 			document.getElementById(data.form).reset();
 			var myModal = new bootstrap.Modal(document.getElementById(data.modal))
 			// myModal.handleUpdate()

@@ -40,7 +40,7 @@ Dashboard_Page::headerTemplate('Libro 3');
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- A BUSY FAMILY
                     </div>
-                    <a class="btn btn-primary" href="../libro3unidad1.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
+                    <a class="btn btn-primary" href="lesson-bodyparts.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
 
