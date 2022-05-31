@@ -1,6 +1,6 @@
 //@ts-check
 import { Quiz } from "./models/QuizPage48.js";
-import { UI } from "./models/UIPage48.js";
+import { UI } from "./models/UI.js";
 import { questions } from "./data/questionsPage48.js";
 
 // Renderring the page

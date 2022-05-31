@@ -1,5 +1,5 @@
 //@ts-check
-import { Question } from "./QuestionPage49.js";
+import { Question } from "./Question.js";
 
 export class Quiz {
   score = 0;
