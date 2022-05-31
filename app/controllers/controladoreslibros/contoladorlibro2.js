@@ -61,9 +61,9 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
     }
 
     var libro = 11;
-    document.getElementById('idclienteL11').value = users.value;
-    document.getElementById('pointsL11').value = notatotal;
-    document.getElementById('idlibroL11').value = libro;
+    document.getElementById('idclienteL2').value = users.value;
+    document.getElementById('pointsL2').value = notatotal;
+    document.getElementById('idlibroL2').value = libro;
     action = 'createactA1U1L11';
     saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroDos')
     sweetAlert(1, 'Resultados ingresados', null);
