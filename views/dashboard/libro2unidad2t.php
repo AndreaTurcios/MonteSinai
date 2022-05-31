@@ -481,9 +481,32 @@ Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 		</div>
 	</div>
 </div>
-
-<!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
-<?php
-// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('juego1.js');
-?>
+<input type="checkbox" id="btn-modal">
+	<label for="btn-modal" class="lbl-modal">Abrir Modal</label>
+	<div class="modal">
+		<div class="contenedor">
+			<header>¡Bienvenidos!</header>
+			<label for="btn-modal">X</label>
+			<div class="contenido">
+				<div id="quiz" class="quiz">
+					<h1>Quiz</h1>
+					<hr />
+			  
+					<h1 id="question"></h1>
+			  
+					<div id="choices"></div>
+			  
+					<hr style="margin-top: 50px" />
+			  
+					<footer>
+					  <p id="progress">Questions x of y</p>
+					</footer>
+				  </div>
+			  
+				  <!-- Scripts -->
+				  <script src="./app/controllers/BookTwoUnitTwo/UnitTwoPage48.js" type="module"></script>
+				<h3><!-- Agregar un titulo --></h3>
+				<p><!-- Agregar un mensaje --></p>
+			</div>
+		</div>
+	</div>
