@@ -548,7 +548,7 @@ Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 					<footer>
 					  <p id="progress">Questions x of y</p>
 					</footer>
-				  </div>
+				</div>
 			  
 				  <!-- Scripts -->
 				  <script src="../../app/controllers/BookTwoUnitTwo/UnitTwoPage21.js" type="module"></script>
