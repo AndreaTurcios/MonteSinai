@@ -52,12 +52,12 @@ Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 						<span>10-11</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/12.JPG" width="76" height="100" class="page-12">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/13.JPG" width="76" height="100" class="page-13">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/12.PNG" width="76" height="100" class="page-12">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/13.PNG" width="76" height="100" class="page-13">
 						<span>12-13</span>
 					</li>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/14.JPG" width="76" height="100" class="page-14">
+						<img src="../../resources/img/BOOKS/SecondGrade/UnitTwo/14.PNG" width="76" height="100" class="page-14">
 						<span>14<span>
 					</li>
 					<ul>
