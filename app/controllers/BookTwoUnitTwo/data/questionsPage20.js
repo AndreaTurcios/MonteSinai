@@ -1,4 +1,4 @@
-import { Question } from "../models/QuestionPage20.js";
+import { Question } from "../models/Question.js";
 import { data } from "./dataUnitTwoPage20.js";
 
 export const questions = data.map(

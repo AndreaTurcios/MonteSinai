@@ -36,6 +36,7 @@ export class UI {
     // <h2 id="score">presenta el puntaje: ${quiz.score}</h2>
 
     const element = document.getElementById("quiz");
+    document.getElementById("points").value= document.getElementById("quiz").value;
     element.innerHTML = gameOverHTML;
   }
 

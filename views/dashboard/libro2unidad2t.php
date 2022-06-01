@@ -470,26 +470,25 @@ Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 	});
 </script>
 
-<!--inicio modales -->
-<div id="ModalLibroDos" class="modal fade" tabindex="-1" role="dialog">
+<!--zona de modales-->
+<!-- Pagina 47 -->
+<!-- Region 20 -->
+<div id="ModalLibroDos47" class="modal fade" tabindex="-2">
+	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">New message</h5>
-
+				<h5 class="modal-title" id="modal-title">Verb to Be</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-		</div>
-	</div>
-</div>
-<input type="checkbox" id="btn-modal">
-	<label for="btn-modal" class="lbl-modal">Abrir Modal</label>
-	<div class="modal">
-		<div class="contenedor">
-			<header>¡Bienvenidos!</header>
-			<label for="btn-modal">X</label>
-			<div class="contenido">
+			<form method="post" id="game-47">
+				<div class="modal-body">
+				<div class="contenido">
 				<div id="quiz" class="quiz">
-					<h1>Quiz</h1>
+					<p class="fw-bold">Write the missing words.</p>
+					<input type="text" class="d-none" id="points" name="points">
+					<input type="text" class="d-none" id="idcliente" name="idcliente">
+					<input type="text" class="d-none" id="idlibro" name="idlibro">
 					<hr />
 			  
 					<h1 id="question"></h1>
@@ -504,9 +503,74 @@ Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 				  </div>
 			  
 				  <!-- Scripts -->
-				  <script src="./app/controllers/BookTwoUnitTwo/UnitTwoPage48.js" type="module"></script>
+				  <script src="../../app/controllers/BookTwoUnitTwo/UnitTwoPage20.js" type="module"></script>
 				<h3><!-- Agregar un titulo --></h3>
 				<p><!-- Agregar un mensaje --></p>
 			</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
 		</div>
 	</div>
+</div>
+<!-- Pagina 48 -->
+<!-- Region 21 -->
+<div id="ModalLibroDos48" class="modal fade" tabindex="-2">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Verb to Be</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<form method="post" id="game-48">
+				<div class="modal-body">
+				<div class="contenido">
+				<div id="quiz" class="quiz">
+					<p class="fw-bold">Write the missing words.</p>
+					<input type="text" class="d-none" id="points" name="points">
+					<input type="text" class="d-none" id="idcliente" name="idcliente">
+					<input type="text" class="d-none" id="idlibro" name="idlibro">
+					<hr />
+			  
+					<h1 id="question"></h1>
+			  
+					<div id="choices"></div>
+			  
+					<hr style="margin-top: 50px" />
+			  
+					<footer>
+					  <p id="progress">Questions x of y</p>
+					</footer>
+				  </div>
+			  
+				  <!-- Scripts -->
+				  <script src="../../app/controllers/BookTwoUnitTwo/UnitTwoPage21.js" type="module"></script>
+				<h3><!-- Agregar un titulo --></h3>
+				<p><!-- Agregar un mensaje --></p>
+			</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
+<?php
+// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
+Book_Page::footerTemplate('controladorlibro2.js');
+?>
