@@ -1,5 +1,5 @@
 //@ts-check
-import { Quiz } from "./models/QuizPage20.js";
+import { Quiz } from "./models/Quiz.js";
 import { UI } from "./models/UI.js";
 import { questions } from "./data/questionsPage20.js";
 
