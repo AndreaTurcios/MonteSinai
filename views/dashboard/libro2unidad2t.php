@@ -2,7 +2,7 @@
 //Se incluye la clase con las plantillas del documento
 require_once("../../app/helpers/book_page.php");
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
+Book_Page::headerTemplate('UNIT TWO "MY FAMILY"');
 ?>
 <!--  ----------------------------------------- fin plantilla header --------------------------------  -->
 
