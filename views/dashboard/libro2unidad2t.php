@@ -534,7 +534,7 @@ Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 				<div class="modal-body">
 				<div class="contenido">
 				<div id="quiz" class="quiz">
-					<p class="fw-bold">Write the missing words.</p>
+					<p class="fw-bold">Complete the sentences.</p>
 					<input type="text" class="d-none" id="points" name="points">
 					<input type="text" class="d-none" id="idcliente" name="idcliente">
 					<input type="text" class="d-none" id="idlibro" name="idlibro">
@@ -553,6 +553,55 @@ Book_Page::headerTemplate('UNIT ONE "MY FAMILY"');
 			  
 				  <!-- Scripts -->
 				  <script src="../../app/controllers/BookTwoUnitTwo/UnitTwoPage21.js" type="module"></script>
+				<h3><!-- Agregar un titulo --></h3>
+				<p><!-- Agregar un mensaje --></p>
+			</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Pagina 49 -->
+<!-- Region 22 -->
+<div id="ModalLibroDos49" class="modal fade" tabindex="-2">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Verb to Be</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-49">
+				<div class="modal-body">
+				<div class="contenido">
+				<div id="quiz" class="quiz">
+					<p class="fw-bold">Write the missing words.</p>
+					<input type="text" class="d-none" id="points" name="points">
+					<input type="text" class="d-none" id="idcliente" name="idcliente">
+					<input type="text" class="d-none" id="idlibro" name="idlibro">
+					<hr />
+			  
+					<h1 id="question"></h1>
+			  
+					<div id="choices"></div>
+			  
+					<hr style="margin-top: 50px" />
+			  
+					<footer>
+					  <p id="progress">Questions x of y</p>
+					</footer>
+				  </div>
+			  
+				  <!-- Scripts -->
+				  <script src="../../app/controllers/BookTwoUnitTwo/UnitTwoPage22.js" type="module"></script>
 				<h3><!-- Agregar un titulo --></h3>
 				<p><!-- Agregar un mensaje --></p>
 			</div>
