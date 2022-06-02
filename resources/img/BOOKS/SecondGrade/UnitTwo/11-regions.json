@@ -1,13 +1,13 @@
 [{
 	"x":322,
-	"y":125,
+	"y":112,
 	"width":130,
 	"height":12,
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroDosPortada",
-			"form":"audio1"
+			"modal":"ModalLibroDos38",
+			"form":"audio38"
 		}
 }
 ]

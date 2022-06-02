@@ -33,3 +33,18 @@ document.getElementById('game-48').addEventListener('submit', function (event) {
     sweetAlert(1, 'Resultados ingresados', null);
     return true;
 });
+
+document.getElementById('game-49').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    
+    //let nota =document.getElementById('points').value;
+    var libro = 2;
+    document.getElementById('idcliente').value = users.value;
+    document.getElementById('points').value = 0;
+    document.getElementById('idlibro').value = libro;
+    action = 'create';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-49', 'ModalLibroDos49')
+    sweetAlert(1, 'Resultados ingresados', null);
+    return true;
+});
