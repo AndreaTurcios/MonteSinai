@@ -5,7 +5,7 @@ export const data = [
     answer: "work",
   },
   {
-    question: "Yesenia ia a dentist. She ____ at the hospital",
+    question: "Yesenia is a dentist. She ____ at the hospital",
     choices: ["work", "works"],
     answer: "works",
   },
@@ -15,7 +15,7 @@ export const data = [
     answer: "works",
   },
   {
-    question: "Sara ia a teacher. She ____ at the school",
+    question: "Sara is a teacher. She ____ at the school",
     choices: ["work", "works"],
     answer: "works",
   },
