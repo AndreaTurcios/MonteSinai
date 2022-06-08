@@ -1,0 +1,26 @@
+[{
+	"x":335,
+	"y":140,
+	"width":110,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos13",
+			"form":"audiopag13"
+		}
+}
+,
+{
+	"x":175,
+	"y":550,
+	"width":140,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos13",
+			"form":"game-13"
+		}
+}
+]

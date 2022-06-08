@@ -1,0 +1,26 @@
+[{
+	"x":150,
+	"y":158,
+	"width":135,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos11",
+			"form":"game-11a"
+		}
+}
+,
+{
+	"x":150,
+	"y":410,
+	"width":140,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos11",
+			"form":"game-11b"
+		}
+}
+]

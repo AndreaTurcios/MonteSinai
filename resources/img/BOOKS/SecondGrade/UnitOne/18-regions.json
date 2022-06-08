@@ -1,0 +1,26 @@
+[{
+	"x":315,
+	"y":110,
+	"width":135,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos10",
+			"form":"audiopag10"
+		}
+}
+,
+{
+	"x":180,
+	"y":565,
+	"width":140,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos10",
+			"form":"game-10"
+		}
+}
+]
