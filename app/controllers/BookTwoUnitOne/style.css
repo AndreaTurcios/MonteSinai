@@ -20,26 +20,6 @@ html {
     font-family: var(--fontsans);
 }
 
-input,
-table {
-    margin: 0;
-    padding: 0
-    !important} 
-td {
-    margin: 0;
-    padding: 0;
-    color:#f99d52
-    !important}
-tbody {
-    margin: 0;
-    padding: 0
-    !important
-}
-tr {
-    margin: 0;
-    padding: 0
-    !important}
-
 .body {
     height: 100vh;
     width: 100%;
@@ -57,11 +37,6 @@ tr {
 .title {
     font-family: var(--fontserif);
     font-size: 2.3rem;
-}
-.main {
-    ;
-    flex-direction: column;
-    margin: 0 auto 4rem;
 }
 
 .dialog {
@@ -124,12 +99,6 @@ tr {
     font-size: 1.1rem;
     display: block;
     margin: 0 auto;
-}
-
-.form {
-    ;
-    flex-direction: column;
-    align-content: center;
 }
 
 .table {
