@@ -12,53 +12,58 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
         four, eight, twelve, sixteen;
     //definición de variables 
     one = document.getElementById('input-one').value;//shirt
-    two = document.getElementById('input-two').value;//gloves
+    two = document.getElementById('input-two').value;//hat
     three = document.getElementById('input-three').value;//pants
     four = document.getElementById('input-four').value;//necktie
-    five = document.getElementById('input-five').value;//o
-    six = document.getElementById('input-sixn').value;//o
-    ten = document.getElementById('input-tend').value;//d
-    fourteen = document.getElementById('input-fourteenl').value;//l
-    seven = document.getElementById('input-sevenh').value;//h
-    eleven = document.getElementById('input-elevench').value;//o
-    fifteen = document.getElementById('input-fifteenf').value;//g
-    eight = document.getElementById('input-eightt').value;//t
-    twelve = document.getElementById('input-twelvey').value;//e
-    sixteen = document.getElementById('input-sixteenk').value;//e
+    five = document.getElementById('input-five').value;//socks
+    six = document.getElementById('input-six').value;//gloves
+    seven = document.getElementById('input-seven').value;//belt
+    eight = document.getElementById('input-eight').value;//polish shoes
     // declacración de variables de puntajes 
     let promedio, promedios;
-    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12, pt13, pt14, pt15, pt16, pt17;
+    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8;
     // declaración de condicionales 
-    if (one === "" && two === "" && three === "" && four === "" && six === "" && ten === "" &&
-        fourteen === "" && seven === "" && eleven === "" && fifteen === "" || eight === "" && twelve === "" && sixteen === "") {
+    if (one === "" && two === "" && three === "" && four === "" && five === "" && six === "" &&
+         seven === "" ||eight === "" ) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
-    if (one === "shirt" && two === "gloves" && three === "pants" && four === "necktie" && eight === "t"
-        && twelve === "e" && sixteen === "e") {
+    if (one === "shirt" && two === "hat" && three === "pants" && four === "necktie" && five === "socks"
+        && six === "gloves" && seven === "belt" && eight === "polish shoes") {
 
         if (one = "shirt") {
             pt1 = 0.125;
             console.log('0.125');
         }
-        if (two = "gloves") {
+        if (two = "hat") {
             pt2 = 0.125;
             console.log('0.125');
         }
         if (three = "pants") {
-            pt9 = 0.125;
+            pt3 = 0.125;
             console.log('0.125');
         }
         if (four = "necktie") {
-            pt15 = 0.125;
+            pt4 = 0.125;
             console.log('0.125');
         }
-        if (eight = "t") {
-            pt16 = 0.0625;
-            console.log('0.63');
+        if (five = "socks") {
+            pt5 = 0.125;
+            console.log('0.125');
         }
-
-        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16));
+        if (six = "gloves") {
+            pt5 = 0.125;
+            console.log('0.125');
+        }
+        if (seven = "belt") {
+            pt5 = 0.125;
+            console.log('0.125');
+        }
+        if (eight = "polish shoes") {
+            pt5 = 0.125;
+            console.log('0.125');
+        }
+        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8));
 
         promedios = 1.11;
         var libro = 4;
@@ -71,8 +76,9 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
         sweetAlert(1, 'good job', null);
         return true;
 
-    } else if (one !== "shirt" || two !== "gloves" || three !== "pants" || four !== "necktie" || eight !== "t"
-        || twelve !== "e" || sixteen !== "e") {
+    } else if (one !== "shirt" || two !== "gloves" || three !== "pants" || four !== "necktie" || five !== "socks"
+
+        || six !== "gloves" || seven !== "belt" || eight !== "polish shoes") {
 
         promedios = 1;
         var libro = 4;
@@ -82,7 +88,7 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
             puntosact1--
             console.log('0.125');
         }
-        if (two != "gloves") {
+        if (two != "hat") {
             puntosact1--
             console.log('0.125');
         }
@@ -94,11 +100,22 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
             puntosact1--
             console.log('0.125');
         }
-        if (eight != "t") {
+        if (five != "socks") {
             puntosact1--
-            console.log('0.63');
+            console.log('0.125');
         }
-
+        if (six != "gloves") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (seven != "belt") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (eight != "polish shoes") {
+            puntosact1--
+            console.log('0.125');
+        }
         var conteos1 = puntosact1 / 16;
         var conteofinal1 = conteos1.toFixed(2);
         document.getElementById('idcliente').value = users.value;
@@ -115,82 +132,133 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
 
 });
 
-document.getElementById('game-three').addEventListener('submit', function (event) {
+document.getElementById('game-6').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    // variables declaradas
-    var s1, s2, s3, s4
+    var one, two, six,
+        ten, fourteen, three, seven, eleven, fifteen,
+        four, eight, twelve, sixteen;
+    //definición de variables 
+    one = document.getElementById('input-one').value;//shirt
+    two = document.getElementById('input-two').value;//hat
+    three = document.getElementById('input-three').value;//pants
+    four = document.getElementById('input-four').value;//necktie
+    five = document.getElementById('input-five').value;//socks
+    six = document.getElementById('input-six').value;//gloves
+    seven = document.getElementById('input-seven').value;//belt
+    eight = document.getElementById('input-eight').value;//polish shoes
+    // declacración de variables de puntajes 
     let promedio, promedios;
-    var ptact21, ptact22, ptact23, ptact24;
-    // igualación de valores de inputs de form 
-    s1 = document.getElementById('sentence1').value;
-    s2 = document.getElementById('sentence2').value;
-    s3 = document.getElementById('sentence3').value;
-    s4 = document.getElementById('sentence4').value;
-    // iteraciones 
-    if (s1 === "" || s2 === "" || s3 === "" || s4 === "") {
-
+    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8;
+    // declaración de condicionales 
+    if (one === "" && two === "" && three === "" && four === "" && five === "" && six === "" &&
+         seven === "" ||eight === "" ) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
-    if (s1 === "OPEN your eyes" && s2 === "CLOSE your eyes"
-        && s3 === "WASH your face" && s4 === "TOUCH your eyes") {
+    if (one === "shirt" && two === "hat" && three === "pants" && four === "necktie" && five === "socks"
+        && six === "gloves" && seven === "belt" && eight === "polish shoes") {
 
-        if (s1 = "OPEN your eyes") {
-            ptact21 = 0.25;
+        if (one = "shirt") {
+            pt1 = 0.125;
+            console.log('0.125');
         }
-        if (s2 = "CLOSE your eyes") {
-            ptact22 = 0.25;
+        if (two = "hat") {
+            pt2 = 0.125;
+            console.log('0.125');
         }
-        if (s3 = "WASH your face") {
-            ptact23 = 0.25;
+        if (three = "pants") {
+            pt3 = 0.125;
+            console.log('0.125');
         }
-        if (s4 = "TOUCH your eyes") {
-            ptact24 = 0.25;
+        if (four = "necktie") {
+            pt4 = 0.125;
+            console.log('0.125');
         }
+        if (five = "socks") {
+            pt5 = 0.125;
+            console.log('0.125');
+        }
+        if (six = "gloves") {
+            pt5 = 0.125;
+            console.log('0.125');
+        }
+        if (seven = "belt") {
+            pt5 = 0.125;
+            console.log('0.125');
+        }
+        if (eight = "polish shoes") {
+            pt5 = 0.125;
+            console.log('0.125');
+        }
+        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8));
 
-        promedio = Math.round(parseFloat(ptact21 + ptact22 + ptact23 + ptact24));
+        promedios = 1.11;
         var libro = 4;
-        document.getElementById('idcliente3').value = users.value;
-        document.getElementById('points3').value = promedio;
-        document.getElementById('idlibro3').value = libro;
-        action = 'createact2';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
+        document.getElementById('idcliente').value = users.value;
+        document.getElementById('points').value = promedio;
+        document.getElementById('idlibro').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-5', 'ModalLibroDos5');
         sweetAlert(1, 'good job', null);
         return true;
-    }
-    else {
 
+    } else if (one !== "shirt" || two !== "gloves" || three !== "pants" || four !== "necktie" || five !== "socks"
+
+        || six !== "gloves" || seven !== "belt" || eight !== "polish shoes") {
+
+        promedios = 1;
         var libro = 4;
-        var puntosact21 = 4;
+        var puntosact1 = 16;
+        ///
+        if (one != "shirt") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (two != "hat") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (three != "pants") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (four != "necktie") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (five != "socks") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (six != "gloves") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (seven != "belt") {
+            puntosact1--
+            console.log('0.125');
+        }
+        if (eight != "polish shoes") {
+            puntosact1--
+            console.log('0.125');
+        }
+        var conteos1 = puntosact1 / 16;
+        var conteofinal1 = conteos1.toFixed(2);
+        document.getElementById('idcliente').value = users.value;
+        document.getElementById('points').value = conteofinal1;
+        document.getElementById('idlibro').value = libro;
 
-        if (s1 != "OPEN your eyes") {
-            puntosact21--
-        }
-        if (s2 != "CLOSE your eyes") {
-            puntosact21--
-        }
-        if (s3 != "WASH your face") {
-            puntosact21--
-        }
-        if (s4 != "TOUCH your eyes") {
-            puntosact21--
-
-        }
-
-        //
-        var conteos2 = puntosact21 / 4;
-        var conteofinal21 = conteos2.toFixed(2);
-        document.getElementById('idcliente3').value = users.value;
-        document.getElementById('points3').value = conteofinal21;
-        document.getElementById('idlibro3').value = libro;
-        action = 'createact2';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-5', 'ModalLibroDos5');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
-        return true;
+        //return false;
+        // --- era esta linea, porque esto lo que indica es que trunca el resto de acciones 
     }
-});
 
+
+});
 document.getElementById('game-four').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();

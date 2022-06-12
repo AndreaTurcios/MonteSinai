@@ -24,21 +24,21 @@ input,
 table {
     margin: 0;
     padding: 0
-    !important} 
+    } 
 td {
     margin: 0;
     padding: 0;
     color:#f99d52
-    !important}
+    }
 tbody {
     margin: 0;
     padding: 0
-    !important
+    
 }
 tr {
     margin: 0;
     padding: 0
-    !important}
+    }
 
 .body {
     height: 100vh;

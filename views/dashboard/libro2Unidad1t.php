@@ -476,10 +476,11 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 <!-- Portada -->
 <!-- Region 1 -->
 <div id="ModalLibroDosPortada" class="modal fade" tabindex="-2">
-    <form method="post" id="audio1">
-                <!-- <reproducción de audio> -->
-                <audio id="audio1" controls>
-                <source type="audio/mp3" src="../../resources/audio/welcome.mp3">           </audio>
+    <form   action="reproducir" method="post">
+    <audio controls>
+    <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+        Tu navegador no soporta audio HTML5.
+    </audio>
     </form>
 </div>
 <!-- Portada -->
@@ -501,188 +502,199 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 							<div class="container-fluid">
 								<div class="row align-items-center">
 									<div class="row">
-										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the sentences:</p>
+										<div class="col-md-8 align-items-center" align="center">
+											<p class="fs-1 fw-bold">   Complete the sentences:</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points" name="points">
 											<input type="text" class="d-none" id="idcliente" name="idcliente">
 											<input type="text" class="d-none" id="idlibro" name="idlibro">
 										</div>
 									</div>
-									<div class="row row-cols-4">
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3" nowrap>
-												<div class="row row-cols-4">
-													<div class="col">His</div>
-													<div class="col">
-														<input type="text" id="input-one"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="5">
-													</div>
-													<div class="col" nowrap>is yellow.</div>
-												</div>
-											</div>
-											<!-- fin group -->
+									<div>
+                                    <div align="center"> <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/img pag 5.png"> </div> 
+                                    <br>
+                                    <table style="width:95%;">
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    
+                                                    His <input type="text" id="input-one" size="5" maxlength="5"> is yellow.
+                                                        </div>
+                                                    </div>
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-two" size="5" maxlength="3"> is white.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-three" size="5"  maxlength="5"> are brown.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        His <input type="text" id="input-four" size="5" maxlength="7"> is blue.</div>
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                        </Tr>
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    
+                                                    His <input type="text" id="input-five" size="5" maxlength="5"> are brown.
+                                                        </div>
+                                                    </div>
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-six" size="5" maxlength="6"> are white.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-seven" size="5"  maxlength="4"> is black.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        His <input type="text" id="input-eight" size="8" maxlength="12"> are black.</div>
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                        </Tr>
+                                    </table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="ModalLibroDos6" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">CLOTHES HE WEARS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-6">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center" align="center">
+											<p class="fs-1 fw-bold">   Complete the sentences:</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points" name="points">
+											<input type="text" class="d-none" id="idcliente" name="idcliente">
+											<input type="text" class="d-none" id="idlibro" name="idlibro">
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">His </div>
-													<div class="col">
-														<input type="text" id="input-two"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="6">
-													</div>
-													<div class="col">is white.</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">His </div>
-													
-													<div class="col">
-														<input type="text" id="input-three"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="5">
-													</div>
-													<div class="col">are brown.</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-												<div class="col">His </div>	
-                                                <div class="col">
-														<input type="text" id="input-four"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="7">
-													</div>
-													<div class="col">is blue.</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">s</div>
-													<div class="col">t</div>
-													<div class="col">
-														<input type="text" id="input-elevench" class="form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">m</div>
-													<div class="col">a</div>
-													<div class="col">c</div>
-													<div class="col">h</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">f</div>
-													<div class="col">i</div>
-													<div class="col">n</div>
-													<div class="col">
-														<input type="text" id="input-fifteenf"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">e</div>
-													<div class="col">r</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<!-- espacio -->
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col"> <input type="text" id="input-fourc"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">a</div>
-													<div class="col">c</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">
-														<input type="text" id="input-eightt"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">o</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">
-														<input type="text" id="input-twelvey"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">y</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">k</div>
-													<div class="col">n</div>
-													<div class="col"><input type="text" id="input-sixteenk"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
+									</div>
+									<div>
+                                    <div align="center"> <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/img pag 6.png"> </div> 
+                                    <br>
+                                    <table style="width:95%;">
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    
+                                                    His <input type="text" id="input-one" size="5" maxlength="5"> is yellow.
+                                                        </div>
+                                                    </div>
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-two" size="5" maxlength="3"> is white.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-three" size="5"  maxlength="5"> are brown.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        His <input type="text" id="input-four" size="5" maxlength="7"> is blue.</div>
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                        </Tr>
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    
+                                                    His <input type="text" id="input-five" size="5" maxlength="5"> are brown.
+                                                        </div>
+                                                    </div>
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-six" size="5" maxlength="6"> are white.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    His <input type="text" id="input-seven" size="5"  maxlength="4"> is black.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        His <input type="text" id="input-eight" size="8" maxlength="12"> are black.</div>
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                        </Tr>
+                                    </table>
 									</div>
 								</div>
 							</div>
