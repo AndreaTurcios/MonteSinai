@@ -1346,7 +1346,7 @@
 }
 
 .d-flex {
-  display: flex !important;
+   !important;
 }
 
 .d-inline-flex {
@@ -1949,7 +1949,7 @@
   }
 
   .d-sm-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-sm-inline-flex {
@@ -2552,7 +2552,7 @@
   }
 
   .d-md-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-md-inline-flex {
@@ -3155,7 +3155,7 @@
   }
 
   .d-lg-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-lg-inline-flex {
@@ -3758,7 +3758,7 @@
   }
 
   .d-xl-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-xl-inline-flex {
@@ -4361,7 +4361,7 @@
   }
 
   .d-xxl-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-xxl-inline-flex {
@@ -4964,7 +4964,7 @@
   }
 
   .d-print-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-print-inline-flex {

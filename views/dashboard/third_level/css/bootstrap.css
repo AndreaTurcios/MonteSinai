@@ -597,7 +597,7 @@ pre code {
 
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -2124,7 +2124,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-row {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -5px;
@@ -2372,7 +2372,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-inline {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
@@ -2390,7 +2390,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   .form-inline label {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    ;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -2402,7 +2402,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   .form-inline .form-group {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    ;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -2429,7 +2429,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   .form-inline .form-check {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    ;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -3350,7 +3350,7 @@ tbody.collapse.show {
 .btn-toolbar {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: start;
@@ -3453,7 +3453,7 @@ tbody.collapse.show {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: stretch;
@@ -3506,7 +3506,7 @@ tbody.collapse.show {
 .input-group > .custom-file {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -3528,7 +3528,7 @@ tbody.collapse.show {
 .input-group-append {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
 }
 
 .input-group-prepend .btn,
@@ -3559,7 +3559,7 @@ tbody.collapse.show {
 .input-group-text {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -3842,7 +3842,7 @@ tbody.collapse.show {
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding-left: 0;
@@ -3938,7 +3938,7 @@ tbody.collapse.show {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: center;
@@ -3954,7 +3954,7 @@ tbody.collapse.show {
 .navbar > .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: center;
@@ -3982,7 +3982,7 @@ tbody.collapse.show {
 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -4089,7 +4089,7 @@ tbody.collapse.show {
   .navbar-expand-sm .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
@@ -4145,7 +4145,7 @@ tbody.collapse.show {
   .navbar-expand-md .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
@@ -4201,7 +4201,7 @@ tbody.collapse.show {
   .navbar-expand-lg .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
@@ -4257,7 +4257,7 @@ tbody.collapse.show {
   .navbar-expand-xl .navbar-collapse {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
@@ -4316,7 +4316,7 @@ tbody.collapse.show {
 .navbar-expand .navbar-collapse {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important;
+   !important;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
 }
@@ -4430,7 +4430,7 @@ tbody.collapse.show {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -4552,7 +4552,7 @@ tbody.collapse.show {
 .card-deck {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -4575,7 +4575,7 @@ tbody.collapse.show {
   .card-deck .card {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    ;
     -webkit-box-flex: 1;
     -ms-flex: 1 0 0%;
     flex: 1 0 0%;
@@ -4592,7 +4592,7 @@ tbody.collapse.show {
 .card-group {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -4690,7 +4690,7 @@ tbody.collapse.show {
 .breadcrumb {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0.75rem 1rem;
@@ -4723,7 +4723,7 @@ tbody.collapse.show {
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   padding-left: 0;
   list-style: none;
   border-radius: 0.25rem;
@@ -5110,7 +5110,7 @@ tbody.collapse.show {
 .progress {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   height: 1rem;
   overflow: hidden;
   font-size: 0.75rem;
@@ -5121,7 +5121,7 @@ tbody.collapse.show {
 .progress-bar {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -5148,7 +5148,7 @@ tbody.collapse.show {
 .media {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -5163,7 +5163,7 @@ tbody.collapse.show {
 .list-group {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -5439,7 +5439,7 @@ button.close {
 .modal-dialog-centered {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -5450,7 +5450,7 @@ button.close {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -5485,7 +5485,7 @@ button.close {
 .modal-header {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -5519,7 +5519,7 @@ button.close {
 .modal-footer {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -5937,7 +5937,7 @@ button.close {
   bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -5992,7 +5992,7 @@ button.close {
   z-index: 15;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -6308,7 +6308,7 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important;
+   !important;
 }
 
 .d-inline-flex {
@@ -6342,7 +6342,7 @@ button.bg-dark:focus {
   .d-sm-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-sm-inline-flex {
     display: -webkit-inline-box !important;
@@ -6376,7 +6376,7 @@ button.bg-dark:focus {
   .d-md-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-md-inline-flex {
     display: -webkit-inline-box !important;
@@ -6410,7 +6410,7 @@ button.bg-dark:focus {
   .d-lg-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-lg-inline-flex {
     display: -webkit-inline-box !important;
@@ -6444,7 +6444,7 @@ button.bg-dark:focus {
   .d-xl-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-xl-inline-flex {
     display: -webkit-inline-box !important;
@@ -6478,7 +6478,7 @@ button.bg-dark:focus {
   .d-print-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-print-inline-flex {
     display: -webkit-inline-box !important;

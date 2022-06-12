@@ -27,7 +27,7 @@
             -webkit-perspective: 1000;
             background: powdergreen;
             min-height: 100vh;
-            display: flex;
+            ;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -59,7 +59,7 @@
             backface-visibility: hidden;
             box-shadow: inset 0 0 0 5px white;
             font-size: 500%;
-            display: flex;
+            ;
             justify-content: center;
             align-items: center;
         }

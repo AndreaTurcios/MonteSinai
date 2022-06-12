@@ -62,7 +62,7 @@ html {
 
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  ;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -1163,7 +1163,7 @@ html {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important;
+   !important;
 }
 
 .d-inline-flex {
@@ -1197,7 +1197,7 @@ html {
   .d-sm-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-sm-inline-flex {
     display: -webkit-inline-box !important;
@@ -1231,7 +1231,7 @@ html {
   .d-md-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-md-inline-flex {
     display: -webkit-inline-box !important;
@@ -1265,7 +1265,7 @@ html {
   .d-lg-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-lg-inline-flex {
     display: -webkit-inline-box !important;
@@ -1299,7 +1299,7 @@ html {
   .d-xl-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-xl-inline-flex {
     display: -webkit-inline-box !important;
@@ -1333,7 +1333,7 @@ html {
   .d-print-flex {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
-    display: flex !important;
+     !important;
   }
   .d-print-inline-flex {
     display: -webkit-inline-box !important;

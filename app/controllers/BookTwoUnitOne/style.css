@@ -59,7 +59,7 @@ tr {
     font-size: 2.3rem;
 }
 .main {
-    display: flex;
+    ;
     flex-direction: column;
     margin: 0 auto 4rem;
 }
@@ -68,7 +68,7 @@ tr {
     background-color: var(--green);
     border: 1px solid var(--blue);
     color: var(--blue);
-    display: flex;
+    ;
     flex-direction: column;
     text-align: center;
     z-index: 2;
@@ -127,7 +127,7 @@ tr {
 }
 
 .form {
-    display: flex;
+    ;
     flex-direction: column;
     align-content: center;
 }
@@ -185,7 +185,7 @@ tr {
     margin-top: 2.2rem;
     margin-bottom: 0.5rem;
     font-size: 0.5rem;
-    display: flex;
+    ;
     justify-content: space-evenly;
 }
 

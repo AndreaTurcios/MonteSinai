@@ -6,7 +6,7 @@
 
 body {
     height: 115vh;
-    display: flex;
+    ;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
@@ -62,7 +62,7 @@ body {
 .back-content {
     width: 100%;
     height: 100%;
-    display: flex;
+    ;
     justify-content: center;
     align-items: center;
 }

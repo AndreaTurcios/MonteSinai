@@ -10,7 +10,7 @@
     height: 98vh;
     margin: 5px auto;
     padding: 5px;
-    display: flex;
+    ;
     align-items: center;
     justify-content: space-between;
   }
@@ -77,7 +77,7 @@
   **/
   
   .flex-container-5 {
-    display: flex;
+    ;
     margin-bottom: 5px ;
   }
   

@@ -281,7 +281,7 @@ a:hover{
     color: black;
     font-size: 26px;
     font-family: sans-serif;
-    display: flex;
+    ;
     justify-content: space-between;
 }
 

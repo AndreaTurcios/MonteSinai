@@ -2613,7 +2613,7 @@ textarea.form-control-lg {
 
 .input-group {
   position: relative;
-  display: flex;
+  ;
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%;
@@ -2638,7 +2638,7 @@ textarea.form-control-lg {
 }
 
 .input-group-text {
-  display: flex;
+  ;
   align-items: center;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -3719,7 +3719,7 @@ textarea.form-control-lg {
 }
 
 .btn-toolbar {
-  display: flex;
+  ;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
@@ -3789,7 +3789,7 @@ textarea.form-control-lg {
 }
 
 .nav {
-  display: flex;
+  ;
   flex-wrap: wrap;
   padding-right: 0;
   margin-bottom: 0;
@@ -3882,7 +3882,7 @@ textarea.form-control-lg {
 
 .navbar {
   position: relative;
-  display: flex;
+  ;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -3896,7 +3896,7 @@ textarea.form-control-lg {
 .navbar > .container-lg,
 .navbar > .container-xl,
 .navbar > .container-xxl {
-  display: flex;
+  ;
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
@@ -3910,7 +3910,7 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .navbar-nav {
-  display: flex;
+  ;
   flex-direction: column;
   padding-right: 0;
   margin-bottom: 0;
@@ -3992,7 +3992,7 @@ textarea.form-control-lg {
     overflow: visible;
   }
   .navbar-expand-sm .navbar-collapse {
-    display: flex !important;
+     !important;
     flex-basis: auto;
   }
   .navbar-expand-sm .navbar-toggler {
@@ -4018,7 +4018,7 @@ textarea.form-control-lg {
     overflow: visible;
   }
   .navbar-expand-md .navbar-collapse {
-    display: flex !important;
+     !important;
     flex-basis: auto;
   }
   .navbar-expand-md .navbar-toggler {
@@ -4044,7 +4044,7 @@ textarea.form-control-lg {
     overflow: visible;
   }
   .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
+     !important;
     flex-basis: auto;
   }
   .navbar-expand-lg .navbar-toggler {
@@ -4070,7 +4070,7 @@ textarea.form-control-lg {
     overflow: visible;
   }
   .navbar-expand-xl .navbar-collapse {
-    display: flex !important;
+     !important;
     flex-basis: auto;
   }
   .navbar-expand-xl .navbar-toggler {
@@ -4096,7 +4096,7 @@ textarea.form-control-lg {
     overflow: visible;
   }
   .navbar-expand-xxl .navbar-collapse {
-    display: flex !important;
+     !important;
     flex-basis: auto;
   }
   .navbar-expand-xxl .navbar-toggler {
@@ -4121,7 +4121,7 @@ textarea.form-control-lg {
   overflow: visible;
 }
 .navbar-expand .navbar-collapse {
-  display: flex !important;
+   !important;
   flex-basis: auto;
 }
 .navbar-expand .navbar-toggler {
@@ -4200,7 +4200,7 @@ textarea.form-control-lg {
 
 .card {
   position: relative;
-  display: flex;
+  ;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -4321,7 +4321,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 576px) {
   .card-group {
-    display: flex;
+    ;
     flex-flow: row wrap;
   }
   .card-group > .card {
@@ -4360,7 +4360,7 @@ textarea.form-control-lg {
 
 .accordion-button {
   position: relative;
-  display: flex;
+  ;
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
@@ -4467,7 +4467,7 @@ textarea.form-control-lg {
 }
 
 .breadcrumb {
-  display: flex;
+  ;
   flex-wrap: wrap;
   padding: 0 0;
   margin-bottom: 1rem;
@@ -4488,7 +4488,7 @@ textarea.form-control-lg {
 }
 
 .pagination {
-  display: flex;
+  ;
   padding-right: 0;
   list-style: none;
 }
@@ -4708,7 +4708,7 @@ textarea.form-control-lg {
   }
 }
 .progress {
-  display: flex;
+  ;
   height: 1rem;
   overflow: hidden;
   font-size: 0.75rem;
@@ -4717,7 +4717,7 @@ textarea.form-control-lg {
 }
 
 .progress-bar {
-  display: flex;
+  ;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
@@ -4750,7 +4750,7 @@ textarea.form-control-lg {
 }
 
 .list-group {
-  display: flex;
+  ;
   flex-direction: column;
   padding-right: 0;
   margin-bottom: 0;
@@ -5146,7 +5146,7 @@ textarea.form-control-lg {
 }
 
 .toast-header {
-  display: flex;
+  ;
   align-items: center;
   padding: 0.5rem 0.75rem;
   color: #6c757d;
@@ -5220,14 +5220,14 @@ textarea.form-control-lg {
 }
 
 .modal-dialog-centered {
-  display: flex;
+  ;
   align-items: center;
   min-height: calc(100% - 1rem);
 }
 
 .modal-content {
   position: relative;
-  display: flex;
+  ;
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
@@ -5255,7 +5255,7 @@ textarea.form-control-lg {
 }
 
 .modal-header {
-  display: flex;
+  ;
   flex-shrink: 0;
   align-items: center;
   justify-content: space-between;
@@ -5281,7 +5281,7 @@ textarea.form-control-lg {
 }
 
 .modal-footer {
-  display: flex;
+  ;
   flex-wrap: wrap;
   flex-shrink: 0;
   align-items: center;
@@ -5772,7 +5772,7 @@ textarea.form-control-lg {
   top: 0;
   bottom: 0;
   z-index: 1;
-  display: flex;
+  ;
   align-items: center;
   justify-content: center;
   width: 15%;
@@ -5830,7 +5830,7 @@ textarea.form-control-lg {
   bottom: 0;
   right: 0;
   z-index: 2;
-  display: flex;
+  ;
   justify-content: center;
   padding: 0;
   margin-left: 15%;
@@ -5963,7 +5963,7 @@ textarea.form-control-lg {
   position: fixed;
   bottom: 0;
   z-index: 1040;
-  display: flex;
+  ;
   flex-direction: column;
   max-width: 100%;
   visibility: hidden;
@@ -5979,7 +5979,7 @@ textarea.form-control-lg {
 }
 
 .offcanvas-header {
-  display: flex;
+  ;
   justify-content: space-between;
   padding: 1rem 1rem;
 }
@@ -6307,7 +6307,7 @@ textarea.form-control-lg {
 }
 
 .d-flex {
-  display: flex !important;
+   !important;
 }
 
 .d-inline-flex {
@@ -7504,7 +7504,7 @@ textarea.form-control-lg {
   }
 
   .d-sm-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-sm-inline-flex {
@@ -8155,7 +8155,7 @@ textarea.form-control-lg {
   }
 
   .d-md-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-md-inline-flex {
@@ -8806,7 +8806,7 @@ textarea.form-control-lg {
   }
 
   .d-lg-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-lg-inline-flex {
@@ -9457,7 +9457,7 @@ textarea.form-control-lg {
   }
 
   .d-xl-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-xl-inline-flex {
@@ -10108,7 +10108,7 @@ textarea.form-control-lg {
   }
 
   .d-xxl-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-xxl-inline-flex {
@@ -10764,7 +10764,7 @@ textarea.form-control-lg {
   }
 
   .d-print-flex {
-    display: flex !important;
+     !important;
   }
 
   .d-print-inline-flex {
