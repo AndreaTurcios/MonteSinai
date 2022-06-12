@@ -46,9 +46,8 @@ Dashboard_Page::headerTemplate('Libro 2');
                 </div>
             </div>
             </td>
-
+<!--Unidad 2 -->
             <td>
-            <!--Unidad 2 -->
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
@@ -69,24 +68,24 @@ Dashboard_Page::headerTemplate('Libro 2');
             </div>
             </td>
             <td>
-            <!--Unidad 3 -->
-            <div class="col-sm-4" style=" padding: 10px;">
-                <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
-                    <div style="border-bottom-color: #f99d52;  ">
-                        <div style="margin-top: 10px; font-weight: bold; 
-                        text-transform: uppercase; font-size: 18px;">UNIT 3</div>
+                <!--Unidad 3 -->
+                <div class="col-sm-4" style=" padding: 10px;">
+                    <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
+                        <div style="border-bottom-color: #f99d52;  ">
+                            <div style="margin-top: 10px; font-weight: bold; 
+                            text-transform: uppercase; font-size: 18px;">UNIT 3</div>
+                        </div>
+                        <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">
+                            My School
+                        </span>
+                        <div style="font-size: 18px;">- I like my classroom
+                        </div>
+                        <div style="margin-bottom: 25px; 
+                            font-size: 18px;">- Months of year
+                        </div>
+                        <a class="btn btn-primary" href="../libro2unidad3t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                     </div>
-                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">
-                        My School
-                    </span>
-                    <div style="font-size: 18px;">- I like my classroom
-                    </div>
-                    <div style="margin-bottom: 25px; 
-                        font-size: 18px;">- Months of year
-                    </div>
-                    <a class="btn btn-primary" href="../libro2unidad3t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                 </div>
-            </div>
             </td>
             </tr>
         </div>
