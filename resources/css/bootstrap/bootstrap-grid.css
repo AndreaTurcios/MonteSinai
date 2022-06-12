@@ -43,6 +43,7 @@
     max-width: 1320px;
   }
 }
+/*
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -61,7 +62,7 @@
   padding-left: calc(var(--bs-gutter-x) / 2);
   margin-top: var(--bs-gutter-y);
 }
-
+*/
 .col {
   flex: 1 0 0%;
 }
