@@ -1,0 +1,13 @@
+[{
+	"x":310,
+	"y":40,
+	"width":140,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos3",
+			"form":"audiopag3"
+		}
+}
+]
