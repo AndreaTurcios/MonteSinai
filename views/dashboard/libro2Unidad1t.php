@@ -726,12 +726,6 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                         href="../../app/controllers/BookTwoUnitOne/assets/polyfill/dialog-polyfill.css"/>
                     <link rel="stylesheet" href="../../app/controllers/BookTwoUnitOne/style.css" />
                     <body class="body">
-                        <header class="header wrapper">
-                            <h1 class="title">Crossword about numbers <br /> from eleven to twenty</h1>
-                            <p class="text" text-align: center>
-                                Write the correct number:
-                            </p>
-                        </header>
                         <main class="main">
                             <dialog class="dialog">
                                 <h1 class="dialog-title">¡lo lograste, muy bien!<br /></h1>

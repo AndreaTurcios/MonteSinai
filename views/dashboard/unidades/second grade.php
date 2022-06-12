@@ -24,7 +24,8 @@ Dashboard_Page::headerTemplate('Libro 2');
         </div>
 
         <div class="row">
-            <!--Unidad 1 -->
+           <tr class="row"> <!--Unidad 1 -->
+           <td>
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4;; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
@@ -44,7 +45,9 @@ Dashboard_Page::headerTemplate('Libro 2');
                     <a class="btn btn-primary" href="../libro2Unidad1t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                 </div>
             </div>
+            </td>
 
+            <td>
             <!--Unidad 2 -->
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
@@ -64,7 +67,8 @@ Dashboard_Page::headerTemplate('Libro 2');
                     <a class="btn btn-primary" href="../libro2unidad2t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                 </div>
             </div>
-
+            </td>
+            <td>
             <!--Unidad 3 -->
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
@@ -83,6 +87,8 @@ Dashboard_Page::headerTemplate('Libro 2');
                     <a class="btn btn-primary" href="../libro2unidad3t.php" role="button" style="width: 100%; background-color: #f99d52; border-color: #f99d52; ">Enter</a>
                 </div>
             </div>
+            </td>
+            </tr>
         </div>
     </div>
 </section>
