@@ -1,0 +1,252 @@
+
+:root {
+    --green: #eef5dc;
+    --blue: #063477;
+    --fadeblue: #f99d52;
+    --white: #ffffff;
+    --colorerror: #063477;
+    --fontserif: Solitas, Cambria, Georgia, serif;
+    --fontsans: Archia, Helvetica, Arial, sans-serif;
+    --highlighter: #c3effc;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--green);
+    color: var(--blue);
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: var(--fontsans);
+}
+
+input,
+table {
+    margin: 0;
+    padding: 0
+    !important} 
+td {
+    margin: 0;
+    padding: 0;
+    color:#f99d52
+    !important}
+tbody {
+    margin: 0;
+    padding: 0
+    !important
+}
+tr {
+    margin: 0;
+    padding: 0
+    !important}
+
+.body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 1.5rem;
+}
+
+.header {
+    padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.title {
+    font-family: var(--fontserif);
+    font-size: 2.3rem;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 4rem;
+}
+
+.dialog {
+    background-color: var(--green);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 2;
+    padding: 0 1.5rem 1.5rem;
+    width: 45vh;
+}
+
+.dialog > h1 {
+    font-size: 1.4rem;
+    margin: 3rem auto 1rem;
+}
+
+.dialog > p {
+    margin: 0.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+.dialog > span:not(.score) {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+
+.score {
+    font-weight: 700;
+}
+
+.btn-share {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.dialog-close-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.dialog-close-btn > img {
+    width: 1.2rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1em;
+}
+
+.btn {
+    width: auto;
+    margin: auto;
+}
+
+.timer {
+    font-size: 1.1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0.5rem auto 0;
+}
+
+.cell {
+    border: 1px solid var(--fadeblue);
+    background-color: var(--white);
+}
+
+.cell-black {
+    background-color: var(--fadeblue);
+}
+
+.word-number {
+    text-align: right;
+    font-size: 0.4rem;
+    vertical-align: top;
+    color: var(--blue);
+    position: absolute;
+    padding: 0.1rem 0 0 0.1rem;
+}
+
+.letter {
+    background: none;
+    height: 1.8rem;
+    width: 1.8rem;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: var(--blue);
+}
+
+.highlight {
+    background-color: var(--highlighter);
+}
+
+.clue-box {
+    margin: 1.2rem auto 2rem;
+    font-size: 1rem;
+    height: 1.5rem;
+    line-height: 1.2rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.btn-group {
+    margin-top: 2.2rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: var(--white);
+    color: var(--blue);
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 0 var(--blue);
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: translate(2px, 2px);
+}
+
+.letter:invalid {
+    /*By default, --colorerror is blue. Changes to red when "show errors" button is pressed */
+    color: var(--colorerror);
+}
+
+.clue {
+    font-family: var(--fontserif);
+}
+
+@media all and (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+
+    .letter {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .wrapper {
+        margin: 0 5rem;
+    }
+}
+@media all and (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .header,
+    .form {
+        margin-left: 40%;
+    }
+
+    .hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+        width: 35%;
+        height: 100vh;
+    }
+}
