@@ -71,6 +71,10 @@
     border: 1px solid transparent;
     border-collapse: collapse;
   }
+
+  /*
+  *Libro 5
+  **/
   
   .flex-container-5 {
     display: flex;
@@ -89,3 +93,14 @@
   .flex-container-5 .req input{
     width: 100%;
   } 
+
+  .box-select-5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .box-select-5 div{
+    padding: 20px !important;
+  }
