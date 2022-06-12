@@ -88,7 +88,6 @@ Dashboard_Page::headerTemplate('Libro 2');
                 </div>
             </td>
             </tr>
-        </div>
     </div>
 </section>
 
