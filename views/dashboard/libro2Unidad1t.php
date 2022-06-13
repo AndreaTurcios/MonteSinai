@@ -593,7 +593,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                             <td>
                                                 <div class="col border border-dark">
                                                         <!-- inicio group -->
-                                                        His <input type="text" id="input-four" size="5" maxlength="7"> is blue.</div>
+                                                        His <input type="text" id="input-four" size="5" maxlength="7"> is blue.
                                                         <!-- fin group -->
                                                     </div>
                                             </td>
@@ -624,7 +624,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                             <td>
                                                 <div class="col border border-dark">
                                                         <!-- inicio group -->
-                                                        His <input type="text" id="input-eight" size="8" maxlength="12"> are black.</div>
+                                                        His <input type="text" id="input-eight" size="8" maxlength="12"> are black.
                                                         <!-- fin group -->
                                                     </div>
                                             </td>
@@ -660,7 +660,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
             Tu navegador no soporta audio HTML5.
             </audio>         
 		</form>
-        </div>
+    </div>
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -691,28 +691,28 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                             <Td>
                                                 <div class="col border border-dark" class="input-group input-group-sm mb-3">    
                                                     <!-- inicio group -->
-                                                    Her <input type="text" id="input-one" size="5" maxlength="6"> is red.
+                                                    Her <input type="text" id="input-one6" size="5" maxlength="6"> is red.
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <Td>
                                                 <div class="col border border-dark">
                                                     <!-- inicio group -->
-                                                    Her <input type="text" id="input-two" size="5" maxlength="4"> is black.
+                                                    Her <input type="text" id="input-two6" size="5" maxlength="4"> is black.
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <Td>
                                                 <div class="col border border-dark">
                                                     <!-- inicio group -->
-                                                    Her <input type="text" id="input-three" size="5"  maxlength="9"> are blue.
+                                                    Her <input type="text" id="input-three6" size="5"  maxlength="9"> are blue.
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <td>
                                                 <div class="col border border-dark">
                                                         <!-- inicio group -->
-                                                        Her <input type="text" id="input-four" size="5" maxlength="6"> are white.</div>
+                                                        Her <input type="text" id="input-four6" size="5" maxlength="6"> are white.
                                                         <!-- fin group -->
                                                     </div>
                                             </td>
@@ -722,28 +722,28 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                                 <div class="col border border-dark" class="input-group input-group-sm mb-3">    
                                                     <!-- inicio group -->
                                                     
-                                                    Her <input type="text" id="input-five" size="5" maxlength="5"> is blue.
+                                                    Her <input type="text" id="input-five6" size="5" maxlength="5"> is blue.
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <Td>
                                                 <div class="col border border-dark">
                                                     <!-- inicio group -->
-                                                    Her <input type="text" id="input-six" size="5" maxlength="7"> is blue.
+                                                    Her <input type="text" id="input-six6" size="5" maxlength="7"> is blue.
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <Td>
                                                 <div class="col border border-dark">
                                                     <!-- inicio group -->
-                                                    Her <input type="text" id="input-seven" size="5"  maxlength="5"> are black.
+                                                    Her <input type="text" id="input-seven6" size="5"  maxlength="5"> are black.
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <td>
                                                 <div class="col border border-dark">
                                                         <!-- inicio group -->
-                                                        Her <input type="text" id="input-eight" size="5" maxlength="6"> is pink.</div>
+                                                        Her <input type="text" id="input-eight6" size="5" maxlength="6"> is pink.
                                                         <!-- fin group -->
                                                     </div>
                                             </td>

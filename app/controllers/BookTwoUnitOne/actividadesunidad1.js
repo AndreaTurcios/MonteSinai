@@ -135,14 +135,14 @@ document.getElementById('game-6').addEventListener('submit', function (event) {
     event.preventDefault();
     var one, two, six, three, four, five, seven, eight;
     //definición de variables 
-    one = document.getElementById('input-one').value;//blouse
-    two = document.getElementById('input-two').value;//belt
-    three = document.getElementById('input-three').value;//stockings
-    four = document.getElementById('input-four').value;//gloves
-    five = document.getElementById('input-five').value;//skirt
-    six = document.getElementById('input-six').value;//necktie
-    seven = document.getElementById('input-seven').value;//shoes
-    eight = document.getElementById('input-eight').value;//diadem
+    one = document.getElementById('input-one6').value;//blouse
+    two = document.getElementById('input-two6').value;//belt
+    three = document.getElementById('input-three6').value;//stockings
+    four = document.getElementById('input-four6').value;//gloves
+    five = document.getElementById('input-five6').value;//skirt
+    six = document.getElementById('input-six6').value;//necktie
+    seven = document.getElementById('input-seven6').value;//shoes
+    eight = document.getElementById('input-eight6').value;//diadem
     // declacración de variables de puntajes 
     let promedio, promedios;
     var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8;
