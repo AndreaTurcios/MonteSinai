@@ -133,7 +133,7 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
 document.getElementById('game-6').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    var one, two, six, three, four, five, six, seven, eight;
+    var one, two, six, three, four, five, seven, eight;
     //definición de variables 
     one = document.getElementById('input-one').value;//blouse
     two = document.getElementById('input-two').value;//belt
