@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.getElementById('game-5').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    var one, two, six,
-        ten, fourteen, three, seven, eleven, fifteen,
-        four, eight, twelve, sixteen;
+    var one, two, six, three, seven, four, eight;
     //definición de variables 
     one = document.getElementById('input-one').value;//shirt
     two = document.getElementById('input-two').value;//hat
@@ -135,18 +133,16 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
 document.getElementById('game-6').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    var one, two, six,
-        ten, fourteen, three, seven, eleven, fifteen,
-        four, eight, twelve, sixteen;
+    var one, two, six, three, four, five, six, seven, eight;
     //definición de variables 
-    one = document.getElementById('input-one').value;//shirt
-    two = document.getElementById('input-two').value;//hat
-    three = document.getElementById('input-three').value;//pants
-    four = document.getElementById('input-four').value;//necktie
-    five = document.getElementById('input-five').value;//socks
-    six = document.getElementById('input-six').value;//gloves
-    seven = document.getElementById('input-seven').value;//belt
-    eight = document.getElementById('input-eight').value;//polish shoes
+    one = document.getElementById('input-one').value;//blouse
+    two = document.getElementById('input-two').value;//belt
+    three = document.getElementById('input-three').value;//stockings
+    four = document.getElementById('input-four').value;//gloves
+    five = document.getElementById('input-five').value;//skirt
+    six = document.getElementById('input-six').value;//necktie
+    seven = document.getElementById('input-seven').value;//shoes
+    eight = document.getElementById('input-eight').value;//diadem
     // declacración de variables de puntajes 
     let promedio, promedios;
     var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8;
@@ -156,38 +152,38 @@ document.getElementById('game-6').addEventListener('submit', function (event) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
-    if (one === "shirt" && two === "hat" && three === "pants" && four === "necktie" && five === "socks"
-        && six === "gloves" && seven === "belt" && eight === "polish shoes") {
+    if (one === "blouse" && two === "belt" && three === "stockings" && four === "gloves" && five === "skirt"
+        && six === "necktie" && seven === "shoes" && eight === "diadem") {
 
-        if (one = "shirt") {
+        if (one = "blouse") {
             pt1 = 0.125;
             console.log('0.125');
         }
-        if (two = "hat") {
+        if (two = "belt") {
             pt2 = 0.125;
             console.log('0.125');
         }
-        if (three = "pants") {
+        if (three = "stockings") {
             pt3 = 0.125;
             console.log('0.125');
         }
-        if (four = "necktie") {
+        if (four = "gloves") {
             pt4 = 0.125;
             console.log('0.125');
         }
-        if (five = "socks") {
+        if (five = "skirt") {
             pt5 = 0.125;
             console.log('0.125');
         }
-        if (six = "gloves") {
+        if (six = "necktie") {
             pt5 = 0.125;
             console.log('0.125');
         }
-        if (seven = "belt") {
+        if (seven = "shoes") {
             pt5 = 0.125;
             console.log('0.125');
         }
-        if (eight = "polish shoes") {
+        if (eight = "diadem") {
             pt5 = 0.125;
             console.log('0.125');
         }
@@ -200,47 +196,47 @@ document.getElementById('game-6').addEventListener('submit', function (event) {
         document.getElementById('idlibro').value = libro;
 
         action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-5', 'ModalLibroDos5');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-6', 'ModalLibroDos6');
         sweetAlert(1, 'good job', null);
         return true;
 
-    } else if (one !== "shirt" || two !== "gloves" || three !== "pants" || four !== "necktie" || five !== "socks"
+    } else if (one !== "blouse" || two !== "belt" || three !== "stockings" || four !== "gloves" || five !== "skirt"
 
-        || six !== "gloves" || seven !== "belt" || eight !== "polish shoes") {
+        || six !== "necktie" || seven !== "shoes" || eight !== "diadem") {
 
         promedios = 1;
         var libro = 4;
         var puntosact1 = 16;
         ///
-        if (one != "shirt") {
+        if (one != "blouse") {
             puntosact1--
             console.log('0.125');
         }
-        if (two != "hat") {
+        if (two != "belt") {
             puntosact1--
             console.log('0.125');
         }
-        if (three != "pants") {
+        if (three != "stockings") {
             puntosact1--
             console.log('0.125');
         }
-        if (four != "necktie") {
+        if (four != "gloves") {
             puntosact1--
             console.log('0.125');
         }
-        if (five != "socks") {
+        if (five != "skirt") {
             puntosact1--
             console.log('0.125');
         }
-        if (six != "gloves") {
+        if (six != "necktie") {
             puntosact1--
             console.log('0.125');
         }
-        if (seven != "belt") {
+        if (seven != "shoes") {
             puntosact1--
             console.log('0.125');
         }
-        if (eight != "polish shoes") {
+        if (eight != "diadem") {
             puntosact1--
             console.log('0.125');
         }
@@ -251,7 +247,7 @@ document.getElementById('game-6').addEventListener('submit', function (event) {
         document.getElementById('idlibro').value = libro;
 
         action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-5', 'ModalLibroDos5');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-6', 'ModalLibroDos6');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         //return false;
         // --- era esta linea, porque esto lo que indica es que trunca el resto de acciones 

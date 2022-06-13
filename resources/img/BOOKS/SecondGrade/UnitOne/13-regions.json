@@ -1,16 +1,4 @@
-[{
-	"x":310,
-	"y":40,
-	"width":140,
-	"height":12,
-	"class":"html",
-	"data":
-		{
-			"modal":"ModalLibroDos5",
-			"form":"audiopag5"
-		}
-}
-,
+[
 {
 	"x":152,
 	"y":568,

@@ -475,19 +475,72 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 <!--zona de modales-->
 <!-- Portada -->
 <!-- Region 1 -->
-<div id="ModalLibroDosPortada" class="modal fade" tabindex="-2">
-    <form   action="reproducir" method="post">
-    <audio controls>
-    <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
-        Tu navegador no soporta audio HTML5.
-    </audio>
-    </form>
+<div id="ModalLibroDosPortada" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio1">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
 </div>
-<!-- Portada -->
+
+<!-- Region 9 -->
+<div id="ModalLibroDosUnidad1" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio2">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<!-- Region 11 -->
+<div id="ModalLibroDos3" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio3">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<!-- Region 12 -->
+<div id="ModalLibroDos4" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio4">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
 <!-- Region 13 -->
 
 <div id="ModalLibroDos5" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
+        <div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio5">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -520,8 +573,6 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                                     <!-- inicio group -->
                                                     
                                                     His <input type="text" id="input-one" size="5" maxlength="5"> is yellow.
-                                                        </div>
-                                                    </div>
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
@@ -553,8 +604,6 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                                     <!-- inicio group -->
                                                     
                                                     His <input type="text" id="input-five" size="5" maxlength="5"> are brown.
-                                                        </div>
-                                                    </div>
                                                     <!-- fin group -->
                                                 </div>
                                             </Td>
@@ -600,15 +649,144 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		</div>
 	</div>
 </div>
+
+<!-- Region 14 -->
 <div id="ModalLibroDos6" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
+    <div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio6">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">CLOTHES SHE WEARS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-6">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">   Complete the sentences:</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points" name="points">
+											<input type="text" class="d-none" id="idcliente" name="idcliente">
+											<input type="text" class="d-none" id="idlibro" name="idlibro">
+										</div>
+									</div>
+									<div>
+                                    <div align="center"> <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/img pag 6.png"> </div> 
+                                    <br>
+                                    <table style="width:95%;">
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    Her <input type="text" id="input-one" size="5" maxlength="6"> is red.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    Her <input type="text" id="input-two" size="5" maxlength="4"> is black.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    Her <input type="text" id="input-three" size="5"  maxlength="9"> are blue.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        Her <input type="text" id="input-four" size="5" maxlength="6"> are white.</div>
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                        </Tr>
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    
+                                                    Her <input type="text" id="input-five" size="5" maxlength="5"> is blue.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    Her <input type="text" id="input-six" size="5" maxlength="7"> is blue.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    Her <input type="text" id="input-seven" size="5"  maxlength="5"> are black.
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        Her <input type="text" id="input-eight" size="5" maxlength="6"> is pink.</div>
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                        </Tr>
+                                    </table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Region 15 -->
+<div id="ModalLibroDos7" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+    <div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio5">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">CLOTHES HE WEARS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="game-6">
+			<form method="post" id="game-7">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -714,7 +892,6 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		</div>
 	</div>
 </div>
-
 
 <!--modal crusigrama pag14 -->
 <div id="ModalLibroDos14" class="modal fade" tabindex="-2">	
