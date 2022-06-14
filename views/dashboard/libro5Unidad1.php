@@ -1244,7 +1244,19 @@ Book_Page::headerTemplate('Unidad 2');
 			<form method="post" id="game-14">
 				<div class="modal-body">
 					<div class="container-fluid">
+						<!--inidio de container-fluid-->
+						<div class="row" style="margin-top:5px">
+							<?php
+							for ($i = 1; $i <= 40; $i++) {
+								echo "<div class=\"col-6 col-lg-3 flex-container-5\">";
+								echo "<div class=\"num\"><span>" . $i . "</span></div>";
+								echo "<div class =\"req\"><input type=\"text\" id=\"pag14-req" . $i . "\">  </div>";
+								echo "</div>";
+							}
+							?>
+						</div>
 
+						<!-- Fin Container-fluid-->
 					</div>
 					<br>
 					<!-- Botones de Control -->
@@ -1272,7 +1284,19 @@ Book_Page::headerTemplate('Unidad 2');
 			<form method="post" id="game-15">
 				<div class="modal-body">
 					<div class="container-fluid">
+						<!--inidio de container-fluid-->
+						<div class="row" style="margin-top:5px">
+							<?php
+							for ($i = 41; $i <= 80; $i++) {
+								echo "<div class=\"col-6 col-lg-3 flex-container-5\">";
+								echo "<div class=\"num\"><span>" . $i . "</span></div>";
+								echo "<div class =\"req\"><input type=\"text\" id=\"pag14-req" . $i . "\">  </div>";
+								echo "</div>";
+							}
+							?>
+						</div>
 
+						<!-- Fin Container-fluid-->
 					</div>
 					<br>
 					<!-- Botones de Control -->
@@ -1664,6 +1688,19 @@ Book_Page::headerTemplate('Unidad 2');
 			<form method="post" id="game-32">
 				<div class="modal-body">
 					<div class="container-fluid">
+						<!--inidio de container-fluid-->
+						<div class="row" style="margin-top:5px">
+							<?php
+							for ($i = 81; $i <= 100; $i++) {
+								echo "<div class=\"col-6 col-lg-3 flex-container-5\">";
+								echo "<div class=\"num\"><span>" . $i . "</span></div>";
+								echo "<div class =\"req\"><input type=\"text\" id=\"pag14-req" . $i . "\">  </div>";
+								echo "</div>";
+							}
+							?>
+						</div>
+
+						<!-- Fin Container-fluid-->
 
 					</div>
 					<br>

@@ -1,5 +1,5 @@
 /*!
- * Bootstrap Utilities v5.0.0-beta3 (https://getbootstrap.com/)
+ * Bootstrap Utilities v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -272,7 +272,7 @@
 }
 
 .d-flex {
-   !important;
+  display: flex !important;
 }
 
 .d-inline-flex {
@@ -1477,7 +1477,7 @@
   }
 
   .d-sm-flex {
-     !important;
+    display: flex !important;
   }
 
   .d-sm-inline-flex {
@@ -2128,7 +2128,7 @@
   }
 
   .d-md-flex {
-     !important;
+    display: flex !important;
   }
 
   .d-md-inline-flex {
@@ -2779,7 +2779,7 @@
   }
 
   .d-lg-flex {
-     !important;
+    display: flex !important;
   }
 
   .d-lg-inline-flex {
@@ -3430,7 +3430,7 @@
   }
 
   .d-xl-flex {
-     !important;
+    display: flex !important;
   }
 
   .d-xl-inline-flex {
@@ -4081,7 +4081,7 @@
   }
 
   .d-xxl-flex {
-     !important;
+    display: flex !important;
   }
 
   .d-xxl-inline-flex {
@@ -4737,7 +4737,7 @@
   }
 
   .d-print-flex {
-     !important;
+    display: flex !important;
   }
 
   .d-print-inline-flex {
