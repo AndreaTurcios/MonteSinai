@@ -1,25 +1,26 @@
 [{
-	"x":10,
+	"x":315,
 	"y":110,
-	"width":90,
+	"width":135,
 	"height":12,
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroDos9audio",
-			"form":"audio9"
+			"modal":"ModalLibroDos10",
+			"form":"audiopag10"
 		}
-},
+}
+,
 {
-	"x":152,
-	"y":450,
+	"x":180,
+	"y":565,
 	"width":140,
 	"height":12,
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroDos9",
-			"form":"game-9"
+			"modal":"ModalLibroDos10",
+			"form":"game-10"
 		}
 }
 ]

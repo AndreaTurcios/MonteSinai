@@ -1,13 +1,13 @@
 [{
-	"x":350,
-	"y":200,
-	"width":100,
+	"x":335,
+	"y":140,
+	"width":110,
 	"height":12,
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroDos12",
-			"form":"audiopag12"
+			"modal":"ModalLibroDos13",
+			"form":"audiopag13"
 		}
 }
 ,
@@ -19,8 +19,8 @@
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroDos12",
-			"form":"game-12"
+			"modal":"ModalLibroDos13",
+			"form":"game-13"
 		}
 }
 ]
