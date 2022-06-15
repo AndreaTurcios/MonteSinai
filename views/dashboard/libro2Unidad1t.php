@@ -664,16 +664,21 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 </div>
 
 <!-- Region 14 -->
-<div id="ModalLibroDos6" class="modal fade" tabindex="-4">
-	<!-- <div class="container-fluid"> -->
-    <div class="modal-content">
+
+<div id="ModalLibroDos6audio" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
         <form class="form" autocomplete="off" method="post" novalidate id="audio6">
             <audio controls>
-            <source src="../../resources/audio/ingles_segundo/Portada.mp3" type="audio/mp3">
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
             Tu navegador no soporta audio HTML5.
             </audio>         
 		</form>
+        </div>
     </div>
+</div>
+<div id="ModalLibroDos6" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -783,16 +788,21 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 </div>
 
 <!-- Region 15 -->
-<div id="ModalLibroDos7" class="modal fade" tabindex="-4">
-	<!-- <div class="container-fluid"> -->
-    <div class="modal-content">
-        <form class="form" autocomplete="off" method="post" novalidate id="audio5">
+
+<div id="ModalLibroDos7audio" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio7">
             <audio controls>
             <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
             Tu navegador no soporta audio HTML5.
             </audio>         
 		</form>
         </div>
+    </div>
+</div>
+<div id="ModalLibroDos7" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">

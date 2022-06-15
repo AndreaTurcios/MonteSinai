@@ -1,4 +1,15 @@
-[
+[{
+	"x":305,
+	"y":40,
+	"width":115,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDos6audio",
+			"form":"audio6"
+		}
+},
 {
 	"x":152,
 	"y":568,
