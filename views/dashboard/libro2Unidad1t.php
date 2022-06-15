@@ -480,7 +480,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		<div class="modal-content">
         <form class="form" autocomplete="off" method="post" novalidate id="audio1">
             <audio controls>
-            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            <source src="../../resources/audio/ingles_segundo/Portada.mp3" type="audio/mp3">
             Tu navegador no soporta audio HTML5.
             </audio>         
 		</form>
@@ -494,7 +494,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		<div class="modal-content">
         <form class="form" autocomplete="off" method="post" novalidate id="audio2">
             <audio controls>
-            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            <source src="../../resources/audio/ingles_segundo/Pag1.mp3" type="audio/mp3">
             Tu navegador no soporta audio HTML5.
             </audio>         
 		</form>
@@ -656,7 +656,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
     <div class="modal-content">
         <form class="form" autocomplete="off" method="post" novalidate id="audio6">
             <audio controls>
-            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            <source src="../../resources/audio/ingles_segundo/Portada.mp3" type="audio/mp3">
             Tu navegador no soporta audio HTML5.
             </audio>         
 		</form>
