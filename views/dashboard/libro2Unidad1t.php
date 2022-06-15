@@ -516,19 +516,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
     </div>
 </div>
 
-<!-- Region 12 -->
-<div id="ModalLibroDos4" class="modal fade" tabindex="-2">	
-    <div class="modal-dialog modal-xl">
-		<div class="modal-content">
-        <form class="form" autocomplete="off" method="post" novalidate id="audio4">
-            <audio controls>
-            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
-            Tu navegador no soporta audio HTML5.
-            </audio>         
-		</form>
-        </div>
-    </div>
-</div>
+
 <!-- Region 13 -->
 
 <div id="ModalLibroDos5audio" class="modal fade" tabindex="-2">	
