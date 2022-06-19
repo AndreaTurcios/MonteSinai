@@ -117,7 +117,7 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job!', null);
         return true;
 
     } else if (one !== "a" || five !== "r" || nine !== "a" || thirdteen !== "o" || two !== "c" || six !== "o"
@@ -255,7 +255,7 @@ document.getElementById('game-three').addEventListener('submit', function (event
         document.getElementById('idlibro3').value = libro;
         action = 'createact2';
         saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -329,7 +329,7 @@ document.getElementById('game-four').addEventListener('submit', function (event)
         document.getElementById('idlibro4').value = libro;
         action = 'createact4';
         saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -403,7 +403,7 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
         document.getElementById('idlibro6').value = libro;
         action = 'createact6';
         saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');        
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -459,7 +459,7 @@ document.getElementById('game-seven').addEventListener('submit', function (event
     if (ss1 === "This is a mouth" && ss2 === "This is a nose" && ss3 === "This is a head"
         && ss4 === "These are feet" && ss5 === "These are hands" && ss6 === "These are eyes") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -490,7 +490,7 @@ document.getElementById('game-eight').addEventListener('submit', function (event
     if (r1 === "You are my friend" && r2 === "We are friends"
         && r3 === "They are friends" && r4 === "It is a watch") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -520,7 +520,7 @@ document.getElementById('game-nines').addEventListener('submit', function (event
     }
     if (wor1 === "It" && wor2 === "We" && wor3 === "You" && wor4 === "They") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -549,7 +549,7 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
     }
     if (se1 === "My" && se2 === "Your" && se3 === "His" && se4 === "Her") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -578,7 +578,7 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
     }
     if (stc1 === "This is your watch" && stc2 === "This is his watch" && stc3 === "This is her watch") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -607,7 +607,7 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
     }
     if (ste1 === "Short" && ste2 === "Tall" && ste3 === "I am short" && ste4 === "You are tall") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -634,7 +634,7 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
     }
     if (stcn1 === "What?" && stcn2 === "What is this?" && stcn3 === "What is your name?") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -683,7 +683,7 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
     if (stcne1 === "Red" && stcne2 === "Green" && stcne3 === "Blue"
         && stcne4 === "Black" && stcne5 === "Brown" && stcne6 === "Yellow") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
@@ -735,7 +735,7 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
         && choice5.checked === true && choice7.checked === true && choice12.checked === true
         && choice14.checked === true) {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     }
     else if (choice3.checked === false && choice5.checked === false
@@ -774,7 +774,7 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
     }
     if (nums1 === "One" && nums2 === "Two" && nums3 === "Three" && nums4 === "Four" && nums5 === "Five"
         && nums6 === "Six" && nums7 === "Seven" && nums8 === "Eight" && nums9 === "Nine" && nums10 === "Ten") {
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
@@ -811,7 +811,7 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
     if (actp1 === "e" && actp2 === "you" && actp3 === "Not" && actp4 === "are"
         && actp5 === "Thank you" && actp6 === "and" && actp7 === "Hi" && actp8 === "new") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
@@ -845,7 +845,7 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
     if (comp1 === "Miss" && comp2 === "Hello" && comp3 === "do"
         && comp4 === "you" && comp5 === "bad" && comp6 === "later") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
@@ -946,7 +946,7 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
     if (f1 === "rice" && f2 === "eggs" && f3 === "chicken" && f4 === "beans" && f5 === "oranges"
         && f6 === "potatoes" && f7 === "fish" && f8 === "meat" && f9 === "bread" && f10 === "shrimps") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
@@ -974,7 +974,7 @@ document.getElementById('game-thirtythree').addEventListener('submit', function 
     }
     if (frt1 === "Orange" && frt2 === "Melon" && frt3 === "Coconut" && frt4 === "Tomato") {
 
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     } else {
 

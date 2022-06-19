@@ -552,13 +552,15 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
+													<!-- Head -->
 													<div class="col">H</div>
 													<div class="col">e</div>
 													<div class="col">
 														<input type="text" id="input-oneh"
 															class="col-6 col-md-4 form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
 													<div class="col">d</div>
 												</div>
@@ -569,12 +571,14 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">a</div>
+													<!-- Arm -->
+													<div class="col">A</div>
 													<div class="col">
 														<input type="text" id="input-fivec"
 															class="col-6 col-md-4 form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
 													<div class="col">m</div>
 												</div>
@@ -585,7 +589,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">e</div>
+													<!-- Ear -->
+													<div class="col">E</div>
 													<div class="col">
 														<input type="text" id="input-niner"
 															class="col-6 col-md-4 form-control"
@@ -601,7 +606,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">m</div>
+													<!-- Mouth -->
+													<div class="col">M</div>
 													<div class="col">
 														<input type="text" id="input-thirdteenu"
 															class="col-6 col-md-4 form-control"
@@ -625,7 +631,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">H</div>
+													<!-- Neck -->
+													<div class="col">N</div>
 													<div class="col">e</div>
 													<div class="col">
 														<input type="text" id="input-twoe"
@@ -642,7 +649,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">n</div>
+													<!-- Nose -->
+													<div class="col">N</div>
 													<div class="col"><input type="text" id="input-sixn"
 															class="col-6 col-md-4 form-control"
 															aria-label="Sizing example input"
@@ -657,7 +665,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">h</div>
+													<!-- Hand -->
+													<div class="col">H</div>
 													<div class="col">a</div>
 													<div class="col">n</div>
 													<div class="col">
@@ -674,6 +683,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
+													<!-- Leg -->
 													<div class="col">
 														<input type="text" id="input-fourteenl"
 															class="col-6 col-md-4 form-control"
@@ -696,6 +706,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
+													<!-- Foot -->
 													<div class="col">F</div>
 													<div class="col">o</div>
 													<div class="col">
@@ -713,6 +724,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
+													<!-- Hair -->
 													<div class="col">
 														<input type="text" id="input-sevenh"
 															class="col-6 col-md-4 form-control"
@@ -730,7 +742,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">s</div>
+													<!-- Stomach -->
+													<div class="col">S</div>
 													<div class="col">t</div>
 													<div class="col">
 														<input type="text" id="input-elevench" class="form-control"
@@ -749,7 +762,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">f</div>
+													<!-- Finger -->
+													<div class="col">F</div>
 													<div class="col">i</div>
 													<div class="col">n</div>
 													<div class="col">
@@ -773,6 +787,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
+												<!-- Face -->
 												<div class="row row-cols-4">
 													<div class="col"> <input type="text" id="input-fourc"
 															class="col-6 col-md-4 form-control"
@@ -790,6 +805,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
+													<!-- Toe -->
 													<div class="col">
 														<input type="text" id="input-eightt"
 															class="col-6 col-md-4 form-control"
@@ -806,6 +822,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
+													<!-- Eye -->
 													<div class="col">
 														<input type="text" id="input-twelvey"
 															class="col-6 col-md-4 form-control"
@@ -822,7 +839,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- inicio group -->
 											<div class="input-group input-group-sm mb-3">
 												<div class="row row-cols-4">
-													<div class="col">k</div>
+													<!-- Knee -->
+													<div class="col">K</div>
 													<div class="col">n</div>
 													<div class="col"><input type="text" id="input-sixteenk"
 															class="col-6 col-md-4 form-control"
@@ -891,13 +909,13 @@ Book_Page::headerTemplate('Unidad 1');
 							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
-				</div>
+				</div>class
 			</form>
 		</div>
 	</div>
 </div>
 
-
+<!-- Página 12 - Actividad 1 (Canvas) -->
 <div class="modal fade" id="ModalLibrotsestdodfdfd" tabindex="-10" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
 	<div class="modal-dialog modal-xl">
@@ -924,37 +942,179 @@ Book_Page::headerTemplate('Unidad 1');
 									</div>
 									<!-- contenido  -->
 
-									<link rel="stylesheet" type="text/css" href="../../resources/css/imagen.css" />
+									
 									<style type="text/css">
-										#main {
-											width: 800px;
-											margin: auto;
-											box-sizing: border-box;
-											padding: 20px;
-											border: 2px solid black;
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
 										}
 
-										#canvas {
-											border: 2px solid black;
-											margin-top: 20px;
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										}
+
+										canvas1 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
 										}
 									</style>
-									</head>
-									<div id="imagen">
-										<center>
-											<section id="main">
-												Color de linea: <input type="color" onchange="colorLinea(this)">
-												Ancho de linea: <input type="range" onchange="anchoLinea(this)" max="20"
-													min="1" value="1"><span id="valor">1</span>
-												<input type="button" value="Limpiar" onclick="limpiar()">
-											</section>
-											<canvas id="canvas" width="800" height="500">
-												No funciona canvas
-											</canvas>
+									
+									<header>
+										<h1>Dibuja con tu raton</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Escoger un color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Cambiar anchura del lápiz:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Limpiar pantalla</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn">Limpiar pantalla</a>
+												</div>
+											</div>
+										</div>
+									</header>
+									
+									<div class="col-12">
+										<div class="container-fluid">
+											<canvas id="canvas1" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/Cuadro.png')"
+											width="775" height="400">
 
-										</center>
-										<script src="../../resources/js/jsgamesFirstgrade/app.js"></script>
+											</canvas>
+										</div>
 									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+									<script>	
+										// Check out PaperJs' Docs: http://paperjs.org/tutorials/
+
+										paper.install(window);
+
+										$(window).on('load', function() {
+										// Set it up
+											paper.setup('canvas1');
+
+										var canvas1 = document.getElementById("canvas1");
+
+										const context = canvas1.getContext('2d');
+
+											// Create a simple drawing tool:
+											var tool = new Tool();
+											var path;
+
+										// Get elements from DOM and define properties
+										var colorPicker = document.getElementById("colorPicker");
+										var colorStroke;
+										var widthStrokePicker = document.getElementById("strokeWidthPicker");
+										var widthStroke;
+										var clearButton = document.getElementById("clearBtn");
+
+										// Clear event listener
+										clearBtn.addEventListener("click", function() {
+										// Clear canvas1
+										paper.project.activeLayer.removeChildren();
+										paper.view.draw();
+										});
+
+										// Update 
+										function update() {
+										colorStroke = colorPicker.value;
+										widthStroke = widthStrokePicker.value;
+										}
+
+										// Check for new color value each second
+										setInterval(update, 1000);
+
+											// Define a mousedown and mousedrag handler
+											tool.onMouseDown = function(event) {
+												path = new Path();
+										path.strokeWidth = widthStroke;
+												path.strokeColor = colorStroke;
+										// Draw
+												path.add(event.point);
+											}
+
+											tool.onMouseDrag = function(event) {
+										// Draw
+												path.add(event.point);
+											}
+										});
+									</script>
 									<!-- contenido  -->
 								</div>
 							</div>
@@ -977,12 +1137,13 @@ Book_Page::headerTemplate('Unidad 1');
 
 <!-- fin modales-->
 
+<!-- Página 4 -->
 <div id="ModalLibroTres" class="modal fade" tabindex="-6">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">VERBS: OPEN, CLOSE, WASH, TOUCH</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-three">
@@ -1001,47 +1162,59 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro3" name="idlibro3">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+									
 
 
+									<div class="col-6">										
 										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence1" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag4/Group1.jpg"
+											class="rounded mx-auto d-block">
+											<input type="text" id="sentence1" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												style="margin-bottom: 30px; margin-top: 25px;">
 										</div>
-
-										<div class="col"></div>
-										<div class="col"></div>
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence2" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-
-										<!-- <div class="col"></div>
-										<div class="col"></div> -->
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence3" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-
-										<div class="col"></div>
-										<div class="col"></div>
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence4" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									
+
+									<div class="col-6">										
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag4/Group2.jpg"
+											class="rounded mx-auto d-block">
+											<input type="text" id="sentence2" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												style="margin-bottom: 30px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<!-- <div class="col"></div>
+									<div class="col"></div> -->
+
+									<div class="col-6">
+										
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag4/Group3.jpg"
+											class="rounded mx-auto d-block">
+											<input type="text" id="sentence3" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												style="margin-top: 25px;">
+										</div>
+									</div>
+
+									
+
+									<div class="col-6">
+										
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag4/Group4.jpg"
+											class="rounded mx-auto d-block">
+											<input type="text" id="sentence4" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												style="margin-top: 25px;">
+										</div>
+									</div>
+									<!-- fin cols  -->
+									
 								</div>
 							</div>
 						</div>
@@ -1061,12 +1234,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 5 -->
 <div id="ModalLibroCuatro" class="modal fade" tabindex="-7">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">VERB BE: AM, IS, ARE</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-four">
@@ -1079,52 +1253,76 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points4" name="points4">
 											<input type="text" class="d-none" id="idcliente4" name="idcliente4">
 											<input type="text" class="d-none" id="idlibro4" name="idlibro4">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+									
 
 
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence14" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="sentence14" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="I ___ am Maricela"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-
-										<div class="col"></div>
-										<div class="col"></div>
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence24" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-
-										<!-- <div class="col"></div>
-										<div class="col"></div> -->
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence34" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-
-										<div class="col"></div>
-										<div class="col"></div>
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="sentence44" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence24.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->
+										
+										<div class="col">	
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence24.png"
+											class="rounded mx-auto d-block">										
+											<input type="text" id="sentence24" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="He ___ Boris"
+												style="margin-bottom: 30px;  margin-top: 25px;">
+										</div>
+									</div>
+
+									<!-- <div class="col"></div>
+									<div class="col"></div> -->
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence34.png"
+										style="margin-left: 110px; margin-bottom: 15px;">-->
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence34.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="sentence34" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="They ___ are classmates"
+												style="margin-top: 25px;">
+										</div>
+									</div>
+
+									
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence44.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence44.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="sentence44" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="She ___ Elsa"
+												style="margin-top: 25px;">
+										</div>
+									</div>
+									<!-- fin cols  -->
+										
 								</div>
 							</div>
 						</div>
@@ -1144,9 +1342,11 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+
+<!-- No está siendo ocupado este modal en ninguna pagina -->
 <div id="ModalLibroFive" class="modal fade" tabindex="-8">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
@@ -1226,12 +1426,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 6 -->
 <div id="ModalLibroSeis" class="modal fade" tabindex="-9">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">PRONOUNS: I, YOU</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-six">
@@ -1241,47 +1442,69 @@ Book_Page::headerTemplate('Unidad 1');
 							<!-- columna -->
 							<div class="container-fluid">
 								<div class="row align-items-center">
+									
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points6" name="points6">
 											<input type="text" class="d-none" id="idcliente6" name="idcliente6">
 											<input type="text" class="d-none" id="idlibro6" name="idlibro6">
 										</div>
+									</div>																			
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag6/words11.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words11" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="I"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
 									</div>
-									<div class="row row-cols-2">
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="words11" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-											<div class="col">
-												<input type="text" id="words12" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag6/words12.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words12" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="You"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-
-										<div class="col"></div>
-										<div class="col"></div>
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="words2" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-
-										<!-- <div class="col"></div>
-										<div class="col"></div> -->
-
-										<div class="col">
-											<div class="col">
-												<input type="text" id="words3" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag6/words3.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words3" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="___ am a student" 	
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag6/words4.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words4" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="___ are my teacher" 	
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>									
+									
 								</div>
 							</div>
 						</div>
@@ -1301,12 +1524,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 7 -->
 <div id="ModalLibroSiete" class="modal fade" tabindex="-11">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">DEMOSTRATIVE ADJECTIVES: THIS, THESE</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-seven">
@@ -1320,50 +1544,90 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
 											<!-- class="d-none" -->
-											<input type="text" id="points7" name="points7">
-											<input type="text" id="idcliente7" name="idcliente7">
-											<input type="text" id="idlibro7" name="idlibro7">
+											<input type="text" class="d-none" id="points7" name="points7">
+											<input type="text" class="d-none" id="idcliente7" name="idcliente7">
+											<input type="text" class="d-none" id="idlibro7" name="idlibro7">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+									
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="words-act6-11" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag7/words-act6-11.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words-act6-11" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="______ is a mouth"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="words-act6-22" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="words-act6-33" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="words-act6-44" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="words-act6-55" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="words-act6-66" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag7/words-act6-12.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words-act6-22" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="______ is a nose"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag7/words-act6-13.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words-act6-33" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="______ is a head"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag7/words-act6-14.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words-act6-44" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="______ are feet"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+									
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag7/words-act6-15.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words-act6-55" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="______ are hands"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag7/words-act6-16.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="words-act6-66" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="______ are eyes"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -1383,12 +1647,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 8 - Actividad 2 -->
 <div id="ModalLibroOcho" class="modal fade" tabindex="-12">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">PRONOUNS: IT, WE, YOU, THEY</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-eight">
@@ -1397,42 +1662,69 @@ Book_Page::headerTemplate('Unidad 1');
 						<div class="form-group">
 							<!-- columna -->
 							<div class="container-fluid">
-								<div class="row align-items-center">
+								<div class="row align-items-center">									
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points8" name="points8">
 											<input type="text" class="d-none" id="idcliente8" name="idcliente8">
 											<input type="text" class="d-none" id="idlibro8" name="idlibro8">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acty7-01" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acty7-01.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acty7-01" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="___ are my friend"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acty7-02" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acty7-03" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acty7-04" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acty7-02.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acty7-02" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="___ are friends"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acty7-03.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acty7-03" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="___ are my friends"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acty7-04.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acty7-04" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="___ is his watch"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -1452,12 +1744,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 8 - Actividad 1 -->
 <div id="ModalLibroNueve" class="modal fade" tabindex="-13">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-md">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">PRONOUNS: IT, WE, YOU, THEY</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-nines">
@@ -1475,33 +1768,59 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro9" name="idlibro9">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acto8-11" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acto8-11.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acto8-11" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="It"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acto8-12" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acto8-13" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-acto8-14" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acto8-12.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acto8-12" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="We"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acto8-13.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acto8-13" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="You"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag8/word-acto8-14.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-acto8-14" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="They"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -1521,12 +1840,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 9 - Actividad 2 -->
 <div id="ModalLibroDiez" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-md">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">POSSESIVE ADJECTIVES: MY, YOUR, HIS, HER</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-ten">
@@ -1544,33 +1864,59 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro10" name="idlibro10">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo10-21" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo10-21.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo10-21" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="My"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo10-22" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo10-23" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo10-24" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo10-22.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo10-22" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="Your"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo10-23.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo10-23" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="His"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo10-24.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo10-24" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="Her"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -1590,12 +1936,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 9 - Actividad 1 -->
 <div id="ModalLibroOnce" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-md">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">POSSESIVE ADJECTIVES: MY, YOUR, HIS, HER	</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-eleven">
@@ -1613,27 +1960,46 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro11" name="idlibro11">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+									
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo11-31" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo11-31.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo11-31" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="This is your watch"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo11-32" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo11-33" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo11-32.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo11-32" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="This is his watch"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo11-33.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo11-31" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="This is her watch"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -1653,12 +2019,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 10 -->
 <div id="ModalLibroDoce" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">ADJECTIVES: SHORT, TALL</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-twelve">
@@ -1676,33 +2043,50 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro12" name="idlibro12">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo12-41" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag10/word-actyo12-41.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo12-41" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="Short"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo12-42" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo12-43" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo12-44" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag10/word-actyo12-42.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo12-42" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="Tall"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag10/word-actyo12-43-44.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo12-43" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="I am ___"
+												style="margin-bottom: 25px; margin-top: 25px;">
+											<input type="text" id="word-actyo12-44" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="You are ___"
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -1722,12 +2106,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Pagina 11 -->
 <div id="ModalLibroTrece" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">QUESTION WORD: WHAT?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirdteen">
@@ -1745,27 +2130,46 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro13" name="idlibro13">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+									
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo13-51" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag11/word-actyo13-51.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo13-51" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder="What?"
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo13-52" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="word-actyo13-53" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+									
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag11/word-actyo13-52.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo13-52" class="form-control"
+												aria-label="Sizing example input" maxlength="100"	
+												placeholder="___ is this?"											
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag11/word-actyo13-53.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="word-actyo13-53" class="form-control"
+												aria-label="Sizing example input" maxlength="100"	
+												placeholder="___ is your name?"											
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
 								</div>
 							</div>
 						</div>
@@ -1785,13 +2189,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-
+<!-- Pagina 18 -->
 <div id="ModalLibroVeinticinco" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">SAYING THE NUMBERS FROM ONE TO FIVE</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-twentyfive">
@@ -1813,7 +2217,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
-												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag18/seven.png">
 											</div>
 											<!-- fin group -->
 										</div>
@@ -1871,7 +2275,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
-												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag18/one.png">
 											</div>
 											<!-- fin group -->
 										</div>
@@ -1929,7 +2333,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
-												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag18/six.png">
 											</div>
 											<!-- fin group -->
 										</div>
@@ -1987,7 +2391,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
-												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag18/ten.png">
 											</div>
 											<!-- fin group -->
 										</div>
@@ -2045,7 +2449,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
-												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/19-act.jpg">
+												<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag18/two.png">
 											</div>
 											<!-- fin group -->
 										</div>
@@ -2114,13 +2518,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-
+<!-- Página 12 - Actividad 2 -->
 <div id="ModalLibroCatorce" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">COLORS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-fourhteen">
@@ -2138,45 +2542,79 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro14" name="idlibro14">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="colors-actyo14-61" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/colors-actyo14-61.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="colors-actyo14-61" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="colors-actyo14-62" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="colors-actyo14-63" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="colors-actyo14-64" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="colors-actyo14-65" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="colors-actyo14-66" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/colors-actyo14-62.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="colors-actyo14-62" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/colors-actyo14-63.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="colors-actyo14-63" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/colors-actyo14-64.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="colors-actyo14-64" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/colors-actyo14-65.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="colors-actyo14-65" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/colors-actyo14-66.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="colors-actyo14-66" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+																	
 								</div>
 							</div>
 						</div>
@@ -2196,13 +2634,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-
+<!-- Página 19 -->
 <div id="ModalLibroVeintiseis" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Rewrite the Sentences</h5>
+				<h5 class="modal-title" id="modal-title">LET'S COUNT FROM ONE TO TEN</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-twentysix">
@@ -2220,69 +2658,127 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro26" name="idlibro26">
 										</div>
 									</div>
-									<div class="row row-cols-2">
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
 										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-261" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-261.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-261" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-262" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-263" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-264" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-265" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-266" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-267" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-268" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-269" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="numbers-actyo26-2610" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<!-- fin cols  -->
 									</div>
+									
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-262.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-262" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-263.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-263" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-264.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-264" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-265.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-265" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-266.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-266" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-267.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-267" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-268.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-268" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-269.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-269" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<!--<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag5/Sentence14.png"
+										style="margin-left: 140px; margin-bottom: 15px;">-->								
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag19/numbers-actyo26-2610.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="numbers-actyo26-2610" class="form-control"
+												aria-label="Sizing example input" maxlength="100"												
+												style="margin-bottom: 25px; margin-top: 25px;">
+										</div>
+									</div>
+
 								</div>
 							</div>
 						</div>
