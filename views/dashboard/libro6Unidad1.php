@@ -21,406 +21,405 @@ Book_Page::headerTemplate('Unidad 2');
 </div>
 
 <script type="text/javascript">
-function loadApp() {
+    function loadApp() {
 
-    $('#canvas').fadeIn(1000);
+        $('#canvas').fadeIn(1000);
 
-    var flipbook = $('.magazine');
+        var flipbook = $('.magazine');
 
-    // Check if the CSS was already loaded
+        // Check if the CSS was already loaded
 
-    if (flipbook.width() == 0 || flipbook.height() == 0) {
-        setTimeout(loadApp, 10);
-        return;
-    }
+        if (flipbook.width() == 0 || flipbook.height() == 0) {
+            setTimeout(loadApp, 10);
+            return;
+        }
 
-    // Create the flipbook
+        // Create the flipbook
 
-    flipbook.turn({
+        flipbook.turn({
 
-        // Magazine width
+            // Magazine width
 
-        width: 922,
+            width: 922,
 
-        // Magazine height
+            // Magazine height
 
-        height: 600,
+            height: 600,
 
-        // Duration in millisecond
+            // Duration in millisecond
 
-        duration: 1000,
+            duration: 1000,
 
-        // Hardware acceleration
+            // Hardware acceleration
 
-        acceleration: !isChrome(),
+            acceleration: !isChrome(),
 
-        // Enables gradients
+            // Enables gradients
 
-        gradients: true,
+            gradients: true,
 
-        // Auto center this flipbook
+            // Auto center this flipbook
 
-        autoCenter: true,
+            autoCenter: true,
 
-        // Elevation from the edge of the flipbook when turning a page
+            // Elevation from the edge of the flipbook when turning a page
 
-        elevation: 50,
+            elevation: 50,
 
-        // The number of pages,
+            // The number of pages,
 
-        pages: 48,
+            pages: 48,
 
-        // Events
+            // Events
 
-        when: {
-            turning: function(event, page, view) {
+            when: {
+                turning: function(event, page, view) {
 
-                var book = $(this),
-                    currentPage = book.turn('page'),
-                    pages = book.turn('pages');
+                    var book = $(this),
+                        currentPage = book.turn('page'),
+                        pages = book.turn('pages');
 
-                // Update the current URI
+                    // Update the current URI
 
-                Hash.go('../../resources/js/turnjs4/samples/magazine/pages/' + page).update();
+                    Hash.go('../../resources/js/turnjs4/samples/magazine/pages/' + page).update();
 
-                // Show and hide navigation buttons
+                    // Show and hide navigation buttons
 
-                disableControls(page);
-
-
-                $('.thumbnails .page-' + currentPage).
-                parent().
-                removeClass('current');
-
-                $('.thumbnails .page-' + page).
-                parent().
-                addClass('current');
+                    disableControls(page);
 
 
-                //var estados = page
-                //alert(page);
-                //alert("CurrentPage"+currentPage+"Página"+page );
+                    $('.thumbnails .page-' + currentPage).
+                    parent().
+                    removeClass('current');
 
+                    $('.thumbnails .page-' + page).
+                    parent().
+                    addClass('current');
+
+
+                    //var estados = page
+                    //alert(page);
+                    //alert("CurrentPage"+currentPage+"Página"+page );
+
+
+                },
+
+                turned: function(event, page, view) {
+
+                    disableControls(page);
+
+                    $(this).turn('center');
+
+                    if (page == 1) {
+                        $(this).turn('peel', 'br');
+                    }
+
+                },
+
+                missing: function(event, pages) {
+
+                    // Add pages that aren't in the magazine
+
+                    for (var i = 0; i < pages.length; i++)
+                        addPage(pages[i], $(this));
+
+                }
+            }
+
+        });
+
+        // Zoom.js
+
+        $('.magazine-viewport').zoom({
+            flipbook: $('.magazine'),
+
+            max: function() {
+
+                return largeMagazineWidth() / $('.magazine').width();
 
             },
 
-            turned: function(event, page, view) {
+            when: {
 
-                disableControls(page);
+                swipeLeft: function() {
 
-                $(this).turn('center');
+                    $(this).zoom('flipbook').turn('next');
 
-                if (page == 1) {
-                    $(this).turn('peel', 'br');
+                },
+
+                swipeRight: function() {
+
+                    $(this).zoom('flipbook').turn('previous');
+
+                },
+
+                resize: function(event, scale, page, pageElement) {
+
+                    if (scale == 1)
+                        loadSmallPage(page, pageElement);
+                    else
+                        loadLargePage(page, pageElement);
+
+                },
+
+                zoomIn: function() {
+
+                    $('.thumbnails').hide();
+                    $('.made').hide();
+                    $('.magazine').removeClass('animated').addClass('zoom-in');
+                    $('.zoom-icon').removeClass('zoom-icon-in').addClass('zoom-icon-out');
+
+                    if (!window.escTip && !$.isTouch) {
+                        escTip = true;
+
+                        $('<div />', {
+                            'class': 'exit-message'
+                        }).
+                        html('<div>Press ESC to exit</div>').
+                        appendTo($('body')).
+                        delay(2000).
+                        animate({
+                            opacity: 0
+                        }, 500, function() {
+                            $(this).remove();
+                        });
+                    }
+                },
+
+                zoomOut: function() {
+
+                    $('.exit-message').hide();
+                    $('.thumbnails').fadeIn();
+                    $('.made').fadeIn();
+                    $('.zoom-icon').removeClass('zoom-icon-out').addClass('zoom-icon-in');
+
+                    setTimeout(function() {
+                        $('.magazine').addClass('animated').removeClass('zoom-in');
+                        resizeViewport();
+                    }, 0);
+
+                }
+            }
+        });
+
+        // Zoom event
+
+        if ($.isTouch)
+            $('.magazine-viewport').bind('zoom.doubleTap', zoomTo);
+        else
+            $('.magazine-viewport').bind('zoom.tap', zoomTo);
+
+
+        // Using arrow keys to turn the page
+
+        $(document).keydown(function(e) {
+
+            var previous = 37,
+                next = 39,
+                esc = 27;
+
+            switch (e.keyCode) {
+                case previous:
+
+                    // left arrow
+                    $('.magazine').turn('previous');
+                    e.preventDefault();
+
+                    break;
+                case next:
+
+                    //right arrow
+                    $('.magazine').turn('next');
+                    e.preventDefault();
+
+                    break;
+                case esc:
+
+                    $('.magazine-viewport').zoom('zoomOut');
+                    e.preventDefault();
+
+                    break;
+            }
+        });
+
+        // URIs - Format #/page/1 
+
+        Hash.on('^page\/([0-9]*)$', {
+            yep: function(path, parts) {
+                var page = parts[1];
+
+                if (page !== undefined) {
+                    if ($('.magazine').turn('is'))
+                        $('.magazine').turn('page', page);
                 }
 
             },
+            nop: function(path) {
 
-            missing: function(event, pages) {
-
-                // Add pages that aren't in the magazine
-
-                for (var i = 0; i < pages.length; i++)
-                    addPage(pages[i], $(this));
-
-            }
-        }
-
-    });
-
-    // Zoom.js
-
-    $('.magazine-viewport').zoom({
-        flipbook: $('.magazine'),
-
-        max: function() {
-
-            return largeMagazineWidth() / $('.magazine').width();
-
-        },
-
-        when: {
-
-            swipeLeft: function() {
-
-                $(this).zoom('flipbook').turn('next');
-
-            },
-
-            swipeRight: function() {
-
-                $(this).zoom('flipbook').turn('previous');
-
-            },
-
-            resize: function(event, scale, page, pageElement) {
-
-                if (scale == 1)
-                    loadSmallPage(page, pageElement);
-                else
-                    loadLargePage(page, pageElement);
-
-            },
-
-            zoomIn: function() {
-
-                $('.thumbnails').hide();
-                $('.made').hide();
-                $('.magazine').removeClass('animated').addClass('zoom-in');
-                $('.zoom-icon').removeClass('zoom-icon-in').addClass('zoom-icon-out');
-
-                if (!window.escTip && !$.isTouch) {
-                    escTip = true;
-
-                    $('<div />', {
-                        'class': 'exit-message'
-                    }).
-                    html('<div>Press ESC to exit</div>').
-                    appendTo($('body')).
-                    delay(2000).
-                    animate({
-                        opacity: 0
-                    }, 500, function() {
-                        $(this).remove();
-                    });
-                }
-            },
-
-            zoomOut: function() {
-
-                $('.exit-message').hide();
-                $('.thumbnails').fadeIn();
-                $('.made').fadeIn();
-                $('.zoom-icon').removeClass('zoom-icon-out').addClass('zoom-icon-in');
-
-                setTimeout(function() {
-                    $('.magazine').addClass('animated').removeClass('zoom-in');
-                    resizeViewport();
-                }, 0);
-
-            }
-        }
-    });
-
-    // Zoom event
-
-    if ($.isTouch)
-        $('.magazine-viewport').bind('zoom.doubleTap', zoomTo);
-    else
-        $('.magazine-viewport').bind('zoom.tap', zoomTo);
-
-
-    // Using arrow keys to turn the page
-
-    $(document).keydown(function(e) {
-
-        var previous = 37,
-            next = 39,
-            esc = 27;
-
-        switch (e.keyCode) {
-            case previous:
-
-                // left arrow
-                $('.magazine').turn('previous');
-                e.preventDefault();
-
-                break;
-            case next:
-
-                //right arrow
-                $('.magazine').turn('next');
-                e.preventDefault();
-
-                break;
-            case esc:
-
-                $('.magazine-viewport').zoom('zoomOut');
-                e.preventDefault();
-
-                break;
-        }
-    });
-
-    // URIs - Format #/page/1 
-
-    Hash.on('^page\/([0-9]*)$', {
-        yep: function(path, parts) {
-            var page = parts[1];
-
-            if (page !== undefined) {
                 if ($('.magazine').turn('is'))
-                    $('.magazine').turn('page', page);
+                    $('.magazine').turn('page', 1);
             }
-
-        },
-        nop: function(path) {
-
-            if ($('.magazine').turn('is'))
-                $('.magazine').turn('page', 1);
-        }
-    });
-
-
-    $(window).resize(function() {
-        resizeViewport();
-    }).bind('orientationchange', function() {
-        resizeViewport();
-    });
-
-    // Events for thumbnails
-
-    $('.thumbnails').click(function(event) {
-
-        var page;
-
-        if (event.target && (page = /page-([0-9]+)/.exec($(event.target).attr('class')))) {
-
-            $('.magazine').turn('page', page[1]);
-        }
-    });
-
-    $('.thumbnails li').
-    bind($.mouseEvents.over, function() {
-
-        $(this).addClass('thumb-hover');
-
-    }).bind($.mouseEvents.out, function() {
-
-        $(this).removeClass('thumb-hover');
-
-    });
-
-    if ($.isTouch) {
-
-        $('.thumbnails').
-        addClass('thumbanils-touch').
-        bind($.mouseEvents.move, function(event) {
-            event.preventDefault();
         });
 
-    } else {
 
-        $('.thumbnails ul').mouseover(function() {
+        $(window).resize(function() {
+            resizeViewport();
+        }).bind('orientationchange', function() {
+            resizeViewport();
+        });
 
-            $('.thumbnails').addClass('thumbnails-hover');
+        // Events for thumbnails
 
-        }).mousedown(function() {
+        $('.thumbnails').click(function(event) {
 
-            return false;
+            var page;
 
-        }).mouseout(function() {
+            if (event.target && (page = /page-([0-9]+)/.exec($(event.target).attr('class')))) {
 
-            $('.thumbnails').removeClass('thumbnails-hover');
+                $('.magazine').turn('page', page[1]);
+            }
+        });
+
+        $('.thumbnails li').
+        bind($.mouseEvents.over, function() {
+
+            $(this).addClass('thumb-hover');
+
+        }).bind($.mouseEvents.out, function() {
+
+            $(this).removeClass('thumb-hover');
 
         });
 
+        if ($.isTouch) {
+
+            $('.thumbnails').
+            addClass('thumbanils-touch').
+            bind($.mouseEvents.move, function(event) {
+                event.preventDefault();
+            });
+
+        } else {
+
+            $('.thumbnails ul').mouseover(function() {
+
+                $('.thumbnails').addClass('thumbnails-hover');
+
+            }).mousedown(function() {
+
+                return false;
+
+            }).mouseout(function() {
+
+                $('.thumbnails').removeClass('thumbnails-hover');
+
+            });
+
+        }
+
+
+        // Regions
+
+        if ($.isTouch) {
+            $('.magazine').bind('touchstart', regionClick);
+        } else {
+            $('.magazine').click(regionClick);
+        }
+
+        // Events for the next button
+
+        $('.next-button').bind($.mouseEvents.over, function() {
+
+            $(this).addClass('next-button-hover');
+
+        }).bind($.mouseEvents.out, function() {
+
+            $(this).removeClass('next-button-hover');
+
+        }).bind($.mouseEvents.down, function() {
+
+            $(this).addClass('next-button-down');
+
+        }).bind($.mouseEvents.up, function() {
+
+            $(this).removeClass('next-button-down');
+
+        }).click(function() {
+
+            $('.magazine').turn('next');
+
+        });
+
+        // Events for the next button
+
+        $('.previous-button').bind($.mouseEvents.over, function() {
+
+            $(this).addClass('previous-button-hover');
+
+        }).bind($.mouseEvents.out, function() {
+
+            $(this).removeClass('previous-button-hover');
+
+        }).bind($.mouseEvents.down, function() {
+
+            $(this).addClass('previous-button-down');
+
+        }).bind($.mouseEvents.up, function() {
+
+            $(this).removeClass('previous-button-down');
+
+        }).click(function() {
+
+            $('.magazine').turn('previous');
+
+        });
+
+
+        resizeViewport();
+
+        $('.magazine').addClass('animated');
+
     }
 
+    // Zoom icon
 
-    // Regions
+    $('.zoom-icon').bind('mouseover', function() {
 
-    if ($.isTouch) {
-        $('.magazine').bind('touchstart', regionClick);
-    } else {
-        $('.magazine').click(regionClick);
-    }
+        if ($(this).hasClass('zoom-icon-in'))
+            $(this).addClass('zoom-icon-in-hover');
 
-    // Events for the next button
+        if ($(this).hasClass('zoom-icon-out'))
+            $(this).addClass('zoom-icon-out-hover');
 
-    $('.next-button').bind($.mouseEvents.over, function() {
+    }).bind('mouseout', function() {
 
-        $(this).addClass('next-button-hover');
+        if ($(this).hasClass('zoom-icon-in'))
+            $(this).removeClass('zoom-icon-in-hover');
 
-    }).bind($.mouseEvents.out, function() {
+        if ($(this).hasClass('zoom-icon-out'))
+            $(this).removeClass('zoom-icon-out-hover');
 
-        $(this).removeClass('next-button-hover');
+    }).bind('click', function() {
 
-    }).bind($.mouseEvents.down, function() {
-
-        $(this).addClass('next-button-down');
-
-    }).bind($.mouseEvents.up, function() {
-
-        $(this).removeClass('next-button-down');
-
-    }).click(function() {
-
-        $('.magazine').turn('next');
+        if ($(this).hasClass('zoom-icon-in'))
+            $('.magazine-viewport').zoom('zoomIn');
+        else if ($(this).hasClass('zoom-icon-out'))
+            $('.magazine-viewport').zoom('zoomOut');
 
     });
 
-    // Events for the next button
+    $('#canvas').hide();
 
-    $('.previous-button').bind($.mouseEvents.over, function() {
 
-        $(this).addClass('previous-button-hover');
+    // Load the HTML4 version if there's not CSS transform
 
-    }).bind($.mouseEvents.out, function() {
-
-        $(this).removeClass('previous-button-hover');
-
-    }).bind($.mouseEvents.down, function() {
-
-        $(this).addClass('previous-button-down');
-
-    }).bind($.mouseEvents.up, function() {
-
-        $(this).removeClass('previous-button-down');
-
-    }).click(function() {
-
-        $('.magazine').turn('previous');
-
+    yepnope({
+        test: Modernizr.csstransforms,
+        yep: ['../../resources/js/turnjs4/lib/turn.js'],
+        nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
+        both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidadunosextogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
+        complete: loadApp
     });
-
-
-    resizeViewport();
-
-    $('.magazine').addClass('animated');
-
-}
-
-// Zoom icon
-
-$('.zoom-icon').bind('mouseover', function() {
-
-    if ($(this).hasClass('zoom-icon-in'))
-        $(this).addClass('zoom-icon-in-hover');
-
-    if ($(this).hasClass('zoom-icon-out'))
-        $(this).addClass('zoom-icon-out-hover');
-
-}).bind('mouseout', function() {
-
-    if ($(this).hasClass('zoom-icon-in'))
-        $(this).removeClass('zoom-icon-in-hover');
-
-    if ($(this).hasClass('zoom-icon-out'))
-        $(this).removeClass('zoom-icon-out-hover');
-
-}).bind('click', function() {
-
-    if ($(this).hasClass('zoom-icon-in'))
-        $('.magazine-viewport').zoom('zoomIn');
-    else if ($(this).hasClass('zoom-icon-out'))
-        $('.magazine-viewport').zoom('zoomOut');
-
-});
-
-$('#canvas').hide();
-
-
-// Load the HTML4 version if there's not CSS transform
-
-yepnope({
-    test: Modernizr.csstransforms,
-    yep: ['../../resources/js/turnjs4/lib/turn.js'],
-    nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
-    both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidadunosextogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'
-    ],
-    complete: loadApp
-});
 </script>
 
 <!--Espacio para modal -->
@@ -437,7 +436,41 @@ yepnope({
             <form method="post" id="game-3">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points3" name="points3">
+                                <input type="text" class="d-none" id="idcliente3" name="idcliente3">
+                                <input type="text" class="d-none" id="idlibro3" name="idlibro3">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. What do you mean by merriment?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-3-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. What’s the meaning of slate?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-3-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. What’s a resolution?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-3-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. When is celebrated New Year’s Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-3-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. Do you enjoy making New Year’s resolutions?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-3-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -465,7 +498,41 @@ yepnope({
             <form method="post" id="game-4">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points4" name="points4">
+                                <input type="text" class="d-none" id="idcliente4" name="idcliente4">
+                                <input type="text" class="d-none" id="idlibro4" name="idlibro4">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. When is Valentine’s Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-4-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. What do people do on that day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-4-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. Who is Cupid?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-4-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. Can you tell me the common symbols of Valentine’s Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-4-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What is the Meaning of winged?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-4-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -493,7 +560,41 @@ yepnope({
             <form method="post" id="game-5">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points5" name="points5">
+                                <input type="text" class="d-none" id="idcliente5" name="idcliente5">
+                                <input type="text" class="d-none" id="idlibro5" name="idlibro5">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. What is Holy Week?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-5-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. What is Lent?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-5-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. What do Christians remember on Good Friday?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-5-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. What does Maundy Thursday mean?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-5-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What do you do on Easter Sunday?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-5-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -521,7 +622,41 @@ yepnope({
             <form method="post" id="game-6">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points6" name="points6">
+                                <input type="text" class="d-none" id="idcliente6" name="idcliente6">
+                                <input type="text" class="d-none" id="idlibro6" name="idlibro6">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. When is Labor Day for American workers?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-6-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. When is Labor Day in your country?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-6-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. How is also known May Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-6-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. What is a parade?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-6-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What do you think about Labor Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-6-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -549,7 +684,41 @@ yepnope({
             <form method="post" id="game-7">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points7" name="points7">
+                                <input type="text" class="d-none" id="idcliente7" name="idcliente7">
+                                <input type="text" class="d-none" id="idlibro7" name="idlibro7">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. What is celebrated on May 3rd?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-7-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. How do Mexicans celebrate that day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-7-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. When is Day of the Cross in El Salvador?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-7-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. Do you enjoy the Day of the Cross?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-7-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. Can you tell me why?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-7-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -577,7 +746,41 @@ yepnope({
             <form method="post" id="game-8">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points8" name="points8">
+                                <input type="text" class="d-none" id="idcliente8" name="idcliente8">
+                                <input type="text" class="d-none" id="idlibro8" name="idlibro8">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. When is Mother’s Day in your country?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-8-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. When is Mother’s Day in Canada?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-8-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. Can you tell me one way to celebrate it?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-8-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. Do Chinese celebrate Mother’s Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-8-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What do you do for Mother’s Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-8-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -605,7 +808,41 @@ yepnope({
             <form method="post" id="game-9">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points9" name="points9">
+                                <input type="text" class="d-none" id="idcliente9" name="idcliente9">
+                                <input type="text" class="d-none" id="idlibro9" name="idlibro9">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. When is Father’s Day in El Salvador and Guatemala?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-9-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. Who is a Daddy?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-9-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. When was inaugurated Father’s Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-9-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. What is fatherhood?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-9-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What do you do for Father’s Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-9-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -633,7 +870,7 @@ yepnope({
             <form method="post" id="game-10">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -661,7 +898,41 @@ yepnope({
             <form method="post" id="game-11">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points11" name="points11">
+                                <input type="text" class="d-none" id="idcliente11" name="idcliente11">
+                                <input type="text" class="d-none" id="idlibro11" name="idlibro11">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. When was the independence in Central America?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-11-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. Can you tell me of what consisted the Spanish colony?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-11-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. How many years did Spain rule?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-11-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. What is anthem?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-11-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. Do you enjoy independence time?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-11-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -689,7 +960,41 @@ yepnope({
             <form method="post" id="game-12">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points12" name="points12">
+                                <input type="text" class="d-none" id="idcliente12" name="idcliente12">
+                                <input type="text" class="d-none" id="idlibro12" name="idlibro12">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. When is Columbus Day in your country?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-12-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. What did Columbus and his contemporaries assume?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-12-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. Can you tell me another name for Columbus Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-12-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. When did Columbus land in America?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-12-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What do you think about Columbus Day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-12-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -717,7 +1022,41 @@ yepnope({
             <form method="post" id="game-13">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points13" name="points13">
+                                <input type="text" class="d-none" id="idcliente13" name="idcliente13">
+                                <input type="text" class="d-none" id="idlibro13" name="idlibro13">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. When is All Souls’ Day in your country?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-13-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. How is All Souls’ Day in the United States?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-13-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. What is customary in El Salvador?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-13-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. What is tomb?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-13-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What do you do that day?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-13-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -745,7 +1084,43 @@ yepnope({
             <form method="post" id="game-14">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <div class="modal-body">
+                            <!-- Inicio de modal body-->
+                            <div class="row">
+                                <div class="col-md-8 align-items-center" align="letf">
+                                    <p class="fs-1 fw-bold">Answer these questions.</p>
+                                    <!-- class="d-none" -->
+                                    <input type="text" class="d-none" id="points14" name="points14">
+                                    <input type="text" class="d-none" id="idcliente14" name="idcliente14">
+                                    <input type="text" class="d-none" id="idlibro14" name="idlibro14">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="">1. When is Christmas Day?</label>
+                                        <input type="text" class="form-control" placeholder="" id="game-14-q1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">2. How is Christmas celebrated in your country?</label>
+                                        <input type="text" class="form-control" placeholder="" id="game-14-q2">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">3. What is celebrated in El Salvador on December 24th?</label>
+                                        <input type="text" class="form-control" placeholder="" id="game-14-q3">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">4. What do you commemorate on Christmas Eve?</label>
+                                        <input type="text" class="form-control" placeholder="" id="game-14-q4">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">5. Do you enjoy Christmas time?</label>
+                                        <input type="text" class="form-control" placeholder="" id="game-14-q5">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Modal Body -->
+                        </div>
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -773,7 +1148,7 @@ yepnope({
             <form method="post" id="game-15">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -801,7 +1176,7 @@ yepnope({
             <form method="post" id="game-16">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -829,7 +1204,7 @@ yepnope({
             <form method="post" id="game-17">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -857,7 +1232,7 @@ yepnope({
             <form method="post" id="game-18">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -885,7 +1260,41 @@ yepnope({
             <form method="post" id="game-20">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Answer these questions.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points20" name="points20">
+                                <input type="text" class="d-none" id="idcliente20" name="idcliente20">
+                                <input type="text" class="d-none" id="idlibro20" name="idlibro20">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="">1. Where can you have a view of Christ the Redeemer?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-20-q1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">2. What is the Suchitlan Lake?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-20-q2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">3. What is Planetarium?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-20-q3">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">4. Can you tell me the former capital of the Inca Empire?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-20-q4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">5. What can you see in Costa Rica?</label>
+                                    <input type="text" class="form-control" placeholder="" id="game-20-q5">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Modal Body -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -913,7 +1322,7 @@ yepnope({
             <form method="post" id="game-21">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -941,7 +1350,7 @@ yepnope({
             <form method="post" id="game-22">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -969,7 +1378,7 @@ yepnope({
             <form method="post" id="game-23">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -997,7 +1406,7 @@ yepnope({
             <form method="post" id="game-24">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1025,7 +1434,7 @@ yepnope({
             <form method="post" id="game-25">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1053,7 +1462,7 @@ yepnope({
             <form method="post" id="game-26">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1081,7 +1490,7 @@ yepnope({
             <form method="post" id="game-27">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1109,7 +1518,7 @@ yepnope({
             <form method="post" id="game-28">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1137,7 +1546,7 @@ yepnope({
             <form method="post" id="game-29">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1165,7 +1574,7 @@ yepnope({
             <form method="post" id="game-30">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1194,7 +1603,7 @@ yepnope({
             <form method="post" id="game-31">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1222,7 +1631,7 @@ yepnope({
             <form method="post" id="game-32">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1250,7 +1659,7 @@ yepnope({
             <form method="post" id="game-33">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1278,7 +1687,7 @@ yepnope({
             <form method="post" id="game-34">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1306,7 +1715,7 @@ yepnope({
             <form method="post" id="game-35">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1334,7 +1743,7 @@ yepnope({
             <form method="post" id="game-36">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -1362,7 +1771,7 @@ yepnope({
             <form method="post" id="game-">
                 <div class="modal-body">
                     <div class="container-fluid">
-                       
+
                     </div>
                     <br>
                     <!-- Botones de Control -->
