@@ -12,6 +12,7 @@ class Database
     /*
     *   Método para establecer la conexión con el servidor de base de datos.
     */  
+    
     private static function connect()
     {
         // Credenciales para establecer la conexión con la base de datos.
