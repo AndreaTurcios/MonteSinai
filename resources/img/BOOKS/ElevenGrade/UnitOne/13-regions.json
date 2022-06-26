@@ -6,8 +6,8 @@
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroUno",
-			"form":"game-one"
+			"modal":"ModalLibroTres",
+			"form":"game-three"
 		}
 }
 ]
