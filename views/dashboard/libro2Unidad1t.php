@@ -1116,6 +1116,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
     			</header>
                     <link rel="stylesheet" href="../../app/controllers/BookTwoUnitOne/style.css" />
                     <body class="body">
+                    <div align="center"> <img src="../../resources/img/BOOKS/SecondGrade/UnitOne/img pag 14.png"> </div> 
                         <main align="center">
                             <dialog class="dialog">
                                 <h1 class="dialog-title">¡lo lograste, muy bien!<br /></h1>
