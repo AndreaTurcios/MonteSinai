@@ -560,6 +560,64 @@ yepnope({
     </div>
 </div>
 
+<div id="ModalLibroTres" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the activity - Select the correct sentences using clauses in the past</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-three">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="pointsA3U1L11" name="pointsA3U1L11">
+                                <input type="text"  class="d-none" id="idlibroA3U1L11" name="idlibroA3U1L11">
+								<input type="text"  class="d-none" id="idclienteA3U1L11" name="idclienteA3U1L11">
+							</div>
+						</div>
+                        <div class="row">
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1"> While I was reading, he was watching tv</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2"> Before I was singing, he was cleaning the house</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3"> He could get a new job if he really tried</label>
+                                </div>
+							</div>
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4"> If I had got the job, we might be living in Paris now</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5"> Right after his death, she learned Spanish</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6"> If I had seen him, I would have spoken to him</label>
+                                </div>
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
