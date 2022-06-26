@@ -1012,63 +1012,63 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 
                                         <tr>
                                         <th width="30" height="30">A</th>
-                                            <th width="30" height="30"id="celdaF2" onclick="comprobarF2()">T</th>
-                                            <th width="30" height="30">M</th>
+                                            <th width="30" height="30" id="celdaF2" onclick="comprobarF2()">T</th>
+                                            <th width="30" height="30" id="celdaF3" onclick="comprobarF3()">M</th>
                                             <th width="30" height="30">A</th>
                                             <th width="30" height="30">N</th>
                                             <th width="30" height="30" id="celdaF6" onclick="comprobarF6()">R</th>
                                             <th width="30" height="30">I</th>
-                                            <th width="30" height="30">N</th>
-                                            <th width="30" height="30">E</th>
+                                            <th width="30" height="30"id="celdaF8" onclick="comprobarF8()">N</th>
+                                            <th width="30" height="30"id="celdaF9" onclick="comprobarF9()">E</th>
                                             <th width="30" height="30">E</th>
                                         </tr>
 
                                         <tr>
                                             <th width="30" height="30">U</th>
-                                            <th width="30" height="30"id="celdaG2" onclick="comprobarG2()">I</th>
+                                            <th width="30" height="30">I</th>
+                                            <th width="30" height="30"id="celdaG3" onclick="comprobarG3()">O</th>
                                             <th width="30" height="30">O</th>
-                                            <th width="30" height="30"id="celdaG4" onclick="comprobarG4()">O</th>
-                                            <th width="30" height="30"id="celdaG5" onclick="comprobarG5()">O</th>
+                                            <th width="30" height="30">O</th>
                                             <th width="30" height="30" id="celdaG6" onclick="comprobarG6()">M</th>
-                                            <th width="30" height="30"id="celdaG7" onclick="comprobarG7()">U</th>
+                                            <th width="30" height="30">U</th>
                                             <th width="30" height="30"id="celdaG8" onclick="comprobarG8()">O</th>
                                             <th width="30" height="30"id="celdaG9" onclick="comprobarG9()">G</th>
-                                            <th width="30" height="30"id="celdaG10" onclick="comprobarG10()">N</th>
+                                            <th width="30" height="30">N</th>
                                         </tr>
 
                                         <tr>
                                             <th width="30" height="30">I</th>
-                                            <th width="30" height="30"id="celdaH2" onclick="comprobarH2()">U</th>
                                             <th width="30" height="30">U</th>
+                                            <th width="30" height="30"id="celdaH3" onclick="comprobarH3()">U</th>
                                             <th width="30" height="30">A</th>
                                             <th width="30" height="30">E</th>
-                                            <th width="30" height="30" >E</th>
-                                            <th width="30" height="30"id="celdaH7" onclick="comprobarH7()">E</th>
+                                            <th width="30" height="30">E</th>
+                                            <th width="30" height="30">E</th>
                                             <th width="30" height="30"id="celdaH8" onclick="comprobarH8()">S</th>
-                                            <th width="30" height="30"id="celdaH9" onclick="comprobarH9()">A</th>
-                                            <th width="30" height="30"id="celdaH10" onclick="comprobarH10()">I</th>
+                                            <th width="30" height="30">A</th>
+                                            <th width="30" height="30">I</th>
                                         </tr>
 
                                         <tr>
                                             <th width="30" height="30">E</th>
-                                            <th width="30" height="30"id="celdaI2" onclick="comprobarI2()">O</th>
+                                            <th width="30" height="30">O</th>
                                             <th width="30" height="30" id="celdaI3" onclick="comprobarI3()">T</th>
-                                            <th width="30" height="30" id="celdaI4" onclick="comprobarI4()">I</th>
-                                            <th width="30" height="30" id="celdaI5" onclick="comprobarI5()">A</th>
-                                            <th width="30" height="30" id="celdaI6" onclick="comprobarI6()">U</th>
-                                            <th width="30" height="30" id="celdaI7" onclick="comprobarI7()">U</th>
+                                            <th width="30" height="30">I</th>
+                                            <th width="30" height="30">A</th>
+                                            <th width="30" height="30">U</th>
+                                            <th width="30" height="30">U</th>
                                             <th width="30" height="30" id="celdaI8" onclick="comprobarI8()">E</th>
-                                            <th width="30" height="30" id="celdaI9" onclick="comprobarI9()">O</th>
+                                            <th width="30" height="30">O</th>
                                             <th width="30" height="30">O</th>
                                         </tr>
 
                                         <tr>
                                         <th width="30" height="30">O</th>
-                                            <th width="30" height="30"id="celdaJ2" onclick="comprobarJ2()">U</th>
-                                            <th width="30" height="30">H</th>
+                                            <th width="30" height="30">U</th>
+                                            <th width="30" height="30"id="celdaJ3" onclick="comprobarJ3()">H</th>
                                             <th width="30" height="30">I</th>
                                             <th width="30" height="30">O</th>
-                                            <th width="30" height="30" id="celdaJ6" onclick="comprobarJ6()">O</th>
+                                            <th width="30" height="30">O</th>
                                             <th width="30" height="30">U</th>
                                             <th width="30" height="30">U</th>
                                             <th width="30" height="30">I</th>
@@ -1105,7 +1105,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		<div class="modal-content">
 		<body class="body">
 			<div class="modal-header">
-				<h1 class="modal-title" id="modal-title">Crossword about numbers <br /> from eleven to twenty</h1>
+				<h1 class="modal-title" id="modal-title">Crossword about numbers from eleven to twenty</h1>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-14">
@@ -1114,25 +1114,53 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 				<header class="header wrapper">
            			 <h5 class="text" text-align: center>Write the correct number:</h5>
     			</header>
-                    <link
-                        rel="stylesheet"
-                        type="text/css"
-                        href="../../app/controllers/BookTwoUnitOne/assets/polyfill/dialog-polyfill.css"/>
                     <link rel="stylesheet" href="../../app/controllers/BookTwoUnitOne/style.css" />
                     <body class="body">
-                        <main class="main">
+                        <main align="center">
                             <dialog class="dialog">
                                 <h1 class="dialog-title">¡lo lograste, muy bien!<br /></h1>
                             </dialog>
                             <form class="form" autocomplete="off" method="post" novalidate>
-                                <div class="timer">
-                                    <span class="minutes">00</span>:<span class="seconds"
-                                        >00</span
-                                    >
-                                </div>
-                                <link rel="stylesheet" href="../../app/controllers/BookTwoUnitOne/stylecrossword.css"/>
-                                <table class="table">
-                                    <tr class="row row-1">
+                                <table>
+                                    <tr>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td  class="cell cell-black"></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td  class="cell cell-black"></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                    </tr>
+                                    <tr>
                                         <td class="cell cell-black" id="1"></td>
                                         <td class="cell cell-black" id="2"></td>
                                         <td class="cell cell-black" id="3"></td>
@@ -1162,7 +1190,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="16"></td>
                                         <td class="cell cell-black" id="17"></td>
                                     </tr>
-                                    <tr class="row row-2">
+                                    <tr>
                                         <td class="cell cell-black" id="18"></td>
                                         <td class="cell cell-black" id="19"></td>
                                         <td class="cell cell-black" id="20"></td>
@@ -1191,7 +1219,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="33"></td>
                                         <td class="cell cell-black" id="34"></td>                       
                                     </tr>
-                                    <tr class="row row-3">
+                                    <tr>
                                         <td class="cell cell-black" id="37"></td>
                                         <td class="cell cell-black" id="38"></td>
                                         <td class="cell cell-black" id="39"></td>
@@ -1220,7 +1248,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="52"></td>
                                         <td class="cell cell-black" id="53"></td>
                                     </tr>
-                                    <tr class="row row-4">
+                                    <tr>
                                         <td class="cell cell-black" id="54"></td>
                                         <td class="cell cell-black" id="55"></td>
                                         <td class="cell cell-black" id="56"></td>
@@ -1320,7 +1348,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="69"></td>
                                         <td class="cell cell-black" id="70"></td>
                                     </tr>
-                                    <tr class="row row-5">
+                                    <tr>
                                         <td class="cell cell-black" id="71"></td>
                                         <td class="cell cell-black" id="72"></td>
                                         <td class="cell cell-black" id="73"></td>
@@ -1349,7 +1377,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="86"></td>
                                         <td class="cell cell-black" id="87"></td>
                                     </tr>
-                                    <tr class="row row-6">
+                                    <tr>
                                         <td class="cell cell-black" id="88"></td>
                                         <td class="cell cell-black" id="89"></td>
                                         <td class="cell cell-black" id="90"></td>
@@ -1411,7 +1439,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="103"></td>
                                         <td class="cell cell-black" id="104"></td>
                                     </tr>
-                                    <tr class="row row-7">
+                                    <tr>
                                         <td class="cell cell-black" id="105"></td>
                                         <td class="cell cell-black" id="106"></td>
                                         <td class="cell">
@@ -1532,7 +1560,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="120"></td>
                                         <td class="cell cell-black" id="121"></td>
                                     </tr>
-                                    <tr class="row row-8">
+                                    <tr>
                                         <td class="cell cell-black" id="122"></td>
                                         <td class="cell cell-black" id="123"></td>
                                         <td class="cell">
@@ -1602,7 +1630,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="138"></td>
                                         
                                     </tr>
-                                    <tr class="row row-9">
+                                    <tr>
                                         <td class="cell cell-black" id="139"></td>
                                         <td class="cell cell-black" id="140"></td>
                                         
@@ -1663,7 +1691,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="154"></td>
                                         <td class="cell cell-black" id="155"></td>
                                     </tr>
-                                    <tr class="row row-10">
+                                    <tr>
                                         <td class="cell cell-black" id="156"></td>
                                         <td class="cell cell-black" id="157"></td>
                                         
@@ -1724,7 +1752,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="171"></td>
                                         <td class="cell cell-black" id="172"></td>
                                     </tr>
-                                    <tr class="row row-11">
+                                    <tr>
                                         <td class="cell cell-black" id="173"></td>
                                         <td class="cell cell-black" id="174"></td>
                                         <td class="cell">
@@ -1878,7 +1906,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         </td>
                                         <td class="cell cell-black" id="189"></td>
                                     </tr>
-                                    <tr class="row row-12">
+                                    <tr>
                                         <td class="cell cell-black" id="191"></td>
                                         <td class="cell cell-black" id="192"></td>
                                         
@@ -1939,7 +1967,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="206"></td>
                                         <td class="cell cell-black" id="207"></td>
                                     </tr>
-                                    <tr class="row row-13">
+                                    <tr>
                                         <td class="cell cell-black" id="208"></td>
                                         <td class="cell cell-black" id="209"></td>
                                         <td class="cell cell-black" id="210"></td>
@@ -2030,7 +2058,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="224"></td>
                                         <td class="cell cell-black" id="190"></td>
                                     </tr>
-                                    <tr class="row row-14">
+                                    <tr>
                                         <td class="cell cell-black" id="225"></td>
                                         <td class="cell cell-black" id="226"></td>
                                         <td class="cell cell-black" id="227"></td>
@@ -2059,15 +2087,46 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" id="240"></td>
                                         <td class="cell cell-black" id="241"></td>
                                     </tr>
+                                    <tr>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td  class="cell cell-black"></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td  class="cell cell-black"></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                        <td class="cell cell-black" ></td>
+                                    </tr>
                                 </table>
-                                <div class="clue-box-container">
-                                    <p class="clue-box"></p>
-                                </div>
-                               
                                 <div class="btn-group wrapper">     
-                                    <button class="btn btn-check" type="button">
-                                        Mostrar errores
-                                    </button>
                                     <button class="btn btn-clear" type="reset">
                                         Borrar todo
                                     </button>
