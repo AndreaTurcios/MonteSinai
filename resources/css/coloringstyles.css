@@ -104,3 +104,62 @@
   .box-select-5 div{
     padding: 20px !important;
   }
+
+   /*
+  *Libro 6
+  **/
+
+  .libro6-contenedor {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: -1px;
+    text-align: center;
+    background-color: #b6c5c8;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .libro6-hijo {
+    margin: 0px;
+  }
+
+  .libro6-padre {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: #ECF7F9;
+    border-radius: 20px;
+  }
+
+  .libro6-padre .libro6-hijo {
+    margin: 10px;
+  }
+
+  .libro6-padre2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: #ECF7F9;
+    border-radius: 20px;
+  }
+
+  .libro6-padre2 .libro6-hijo2 {
+    margin: 10px;
+  }
+
+  .libro6-padre .libro6-hijo2 {
+    margin: -1px;
+  }
+
+  .libro6-placeholder {
+    width: 100px;
+    height: 25px;
+    transition: 1s;
+    margin: -1px;
+  }
+
+  .libro6-placeholder.hover {
+    background-color: orange;
+  }
