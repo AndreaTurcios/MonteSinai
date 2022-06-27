@@ -429,49 +429,50 @@ yepnope({
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Complete the activity - Write questions and answers about the biography</h5>
+                <h5 class="modal-title" id="modal-title">Complete the activity - Write questions and answers about the
+                    biography</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="game-one">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-							<div class="col-md-8 align-items-center">
-								<!-- class="d-none" -->
-								<input type="text"  class="d-none" id="pointsL11" name="pointsL11">
-                                <input type="text"  class="d-none" id="idlibroL11" name="idlibroL11">
-								<input type="text"  class="d-none" id="idclienteL11" name="idclienteL11">
-							</div>
-						</div>
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsL11" name="pointsL11">
+                                <input type="text" class="d-none" id="idlibroL11" name="idlibroL11">
+                                <input type="text" class="d-none" id="idclienteL11" name="idclienteL11">
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-6">
-								<div class="pregunta">
-									<h5>Question 1</h5>
-									<input id="q1"type="text" style="width:450px">
-								</div>
-								<div class="pregunta">
-									<h5>Question 2</h5>
-									<input id="q2" type="text" style="width:450px">
-								</div>
-								<div class="pregunta">
-									<h5>Question 3</h5>
-									<input id="q3" type="text" style="width:450px">
-								</div>
-							</div>
-							<div class="col-6">
-								<div class="respuesta">
-									<h5>Answer 1</h5>
-									<input id="a1" type="text">
-								</div>
-								<div class="respuesta">
-									<h5>Answer 2</h5>
-									<input id="a2" type="text">
-								</div>
-								<div class="respuesta">
-									<h5>Answer 3</h5>
-									<input id="a3" type="text">
-								</div>
-							</div>
+                                <div class="pregunta">
+                                    <h5>Question 1</h5>
+                                    <input id="q1" type="text" style="width:450px">
+                                </div>
+                                <div class="pregunta">
+                                    <h5>Question 2</h5>
+                                    <input id="q2" type="text" style="width:450px">
+                                </div>
+                                <div class="pregunta">
+                                    <h5>Question 3</h5>
+                                    <input id="q3" type="text" style="width:450px">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="respuesta">
+                                    <h5>Answer 1</h5>
+                                    <input id="a1" type="text">
+                                </div>
+                                <div class="respuesta">
+                                    <h5>Answer 2</h5>
+                                    <input id="a2" type="text">
+                                </div>
+                                <div class="respuesta">
+                                    <h5>Answer 3</h5>
+                                    <input id="a3" type="text">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <br>
@@ -493,57 +494,58 @@ yepnope({
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Complete the activity - Write question and answers expressing thoughts about famous people.</h5>
+                <h5 class="modal-title" id="modal-title">Complete the activity - Write question and answers expressing
+                    thoughts about famous people.</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="game-two">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-							<div class="col-md-8 align-items-center">
-								<!-- class="d-none" -->
-								<input type="text"  class="d-none" id="pointsA2U1L11" name="pointsA2U1L11">
-                                <input type="text"  class="d-none" id="idlibroA2U1L11" name="idlibroA2U1L11">
-								<input type="text"  class="d-none" id="idclienteA2U1L11" name="idclienteA2U1L11">
-							</div>
-						</div>
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA2U1L11" name="pointsA2U1L11">
+                                <input type="text" class="d-none" id="idlibroA2U1L11" name="idlibroA2U1L11">
+                                <input type="text" class="d-none" id="idclienteA2U1L11" name="idclienteA2U1L11">
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-6">
-								<div class="pregunta">
-									<h5>Question 1</h5>
-									<input id="p1"type="text" style = "width:60%">
-								</div>
-								<div class="pregunta">
-									<h5>Question 2</h5>
-									<input id="p2" type="text" style = "width:60%">
-								</div>
-								<div class="pregunta">
-									<h5>Question 3</h5>
-									<input id="p3" type="text" style = "width:60%">
-								</div>
                                 <div class="pregunta">
-									<h5>Question 4</h5>
-									<input id="p4" type="text" style = "width:60%">
-								</div>
-							</div>
-							<div class="col-6">
-								<div class="respuesta">
-									<h5>Answer 1</h5>
-									<input id="r1" type="text" style = "width:60%">
-								</div>
-								<div class="respuesta">
-									<h5>Answer 2</h5>
-									<input id="r2" type="text" style = "width:60%">
-								</div>
-								<div class="respuesta">
-									<h5>Answer 3</h5>
-									<input id="r3" type="text" style = "width:60%">
-								</div>
+                                    <h5>Question 1</h5>
+                                    <input id="p1" type="text" style="width:60%">
+                                </div>
+                                <div class="pregunta">
+                                    <h5>Question 2</h5>
+                                    <input id="p2" type="text" style="width:60%">
+                                </div>
+                                <div class="pregunta">
+                                    <h5>Question 3</h5>
+                                    <input id="p3" type="text" style="width:60%">
+                                </div>
+                                <div class="pregunta">
+                                    <h5>Question 4</h5>
+                                    <input id="p4" type="text" style="width:60%">
+                                </div>
+                            </div>
+                            <div class="col-6">
                                 <div class="respuesta">
-									<h5>Answer 4</h5>
-									<input id="r4" type="text" style = "width:60%">
-								</div>
-							</div>
+                                    <h5>Answer 1</h5>
+                                    <input id="r1" type="text" style="width:60%">
+                                </div>
+                                <div class="respuesta">
+                                    <h5>Answer 2</h5>
+                                    <input id="r2" type="text" style="width:60%">
+                                </div>
+                                <div class="respuesta">
+                                    <h5>Answer 3</h5>
+                                    <input id="r3" type="text" style="width:60%">
+                                </div>
+                                <div class="respuesta">
+                                    <h5>Answer 4</h5>
+                                    <input id="r4" type="text" style="width:60%">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <br>
@@ -565,43 +567,50 @@ yepnope({
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Complete the activity - Select the correct sentences using clauses in the past (Only choose four)</h5>
+                <h5 class="modal-title" id="modal-title">Complete the activity - Select the correct sentences using
+                    clauses in the past (Only choose four)</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="game-three">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-							<div class="col-md-8 align-items-center">
-								<!-- class="d-none" -->
-								<input type="text"  class="d-none" id="pointsA3U1L11" name="pointsA3U1L11">
-                                <input type="text"  class="d-none" id="idlibroA3U1L11" name="idlibroA3U1L11">
-								<input type="text"  class="d-none" id="idclienteA3U1L11" name="idclienteA3U1L11">
-							</div>
-						</div>
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA3U1L11" name="pointsA3U1L11">
+                                <input type="text" class="d-none" id="idlibroA3U1L11" name="idlibroA3U1L11">
+                                <input type="text" class="d-none" id="idclienteA3U1L11" name="idclienteA3U1L11">
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-6">
-								<div class = oracion>
-                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1"> While I was reading, he was watching tv</label>
+                                <div class=oracion>
+                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1"> While
+                                        I was reading, he was watching tv</label>
                                 </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2"> Before I was singing, he was cleaning the house</label>
+                                <div class=oracion>
+                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2"> Before
+                                        I was singing, he was cleaning the house</label>
                                 </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3"> He could get a new job if he really tried</label>
+                                <div class=oracion>
+                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3"> He
+                                        could get a new job if he really tried</label>
                                 </div>
-							</div>
+                            </div>
                             <div class="col-6">
-								<div class = oracion>
-                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4"> If I had got the job, we might be living in Paris now</label>
+                                <div class=oracion>
+                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4"> If I
+                                        had got the job, we might be living in Paris now</label>
                                 </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5"> Right after his death, she learned Spanish</label>
+                                <div class=oracion>
+                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5"> Right
+                                        after his death, she learned Spanish</label>
                                 </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6"> Daniel has created a book of history</label>
+                                <div class=oracion>
+                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6"> Daniel
+                                        has created a book of history</label>
                                 </div>
-							</div>
+                            </div>
                         </div>
                     </div>
                     <br>
@@ -618,6 +627,51 @@ yepnope({
     </div>
 </div>
 
+<div id="ModalLibroCuatro" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the activity - Select the sentence related to the
+                    paragraph</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-four">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA4U1L11" name="pointsA4U1L11">
+                                <input type="text" class="d-none" id="idlibroA4U1L11" name="idlibroA4U1L11">
+                                <input type="text" class="d-none" id="idclienteA4U1L11" name="idclienteA4U1L11">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="sentences">Choose an option:</label>
+                                <select name="sentences" id="sentences">
+                                    <option value="1">There are still people missing, and as night fell, family members gathered at a hotel over the road</option>
+                                    <option value="2">The central-eastern city of Kremenchuk is located about 130km (81 miles) from Russian areas of control.</option>
+                                    <option value="3">Technology has significantly transformed education at several major turning points in our history</option>
+                                    <option value="4">The missile strike took place as the leaders of Canada</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php

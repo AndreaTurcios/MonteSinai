@@ -162,22 +162,22 @@ document.getElementById('game-three').addEventListener('submit', function (event
                 switch (i) {
                     case 1:
                         if (document.getElementById('cbox1').checked) {
-                            notatotal = notatotal + 2.5;
+                            notatotal = notatotal + 0.25;
                         }
                         break;
                     case 2:
                         if (document.getElementById('cbox2').checked) {
-                            notatotal = notatotal + 2.5;
+                            notatotal = notatotal + 0.25;
                         }
                         break;
                     case 4:
                         if (document.getElementById('cbox4').checked) {
-                            notatotal = notatotal + 2.5;
+                            notatotal = notatotal + 0.25;
                         }
                         break;
                     case 5:
                         if (document.getElementById('cbox5').checked) {
-                            notatotal = notatotal + 2.5;
+                            notatotal = notatotal + 0.25;
                         }
                         break;
                     default:
@@ -196,5 +196,29 @@ document.getElementById('game-three').addEventListener('submit', function (event
     } else {
         sweetAlert(2, 'Select the sentences', null);
     }
-    
+
+});
+
+document.getElementById('game-four').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    notatotal = 0;
+    var cod = document.getElementById("sentences").value;
+    if(cod == 3){
+        notatotal = 1;
+    }
+    else{
+        notatotal = 0;
+    }
+
+    var libro = 11;
+    document.getElementById('idclienteA4U1L11').value = users.value;
+    document.getElementById('pointsA4U1L11').value = notatotal;
+    document.getElementById('idlibroA4U1L11').value = libro;
+    action = 'createactA4U1L11';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro')
+    sweetAlert(1, 'Resultados ingresados', null);
+    return true;
+
 });
