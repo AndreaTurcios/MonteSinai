@@ -1076,6 +1076,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         </tr>
                                     </table>
 									</div>
+                                    <script  src="../../app/controllers/BookTwoUnitOne/wordfindpage7.js"></script>
 								</div>
 							</div>
 						</div>
@@ -1093,7 +1094,6 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 			</form>
 		</div>
 	</div>
-<script  src="../../app/controllers/BookTwoUnitOne/wordfindpage7.js"></script>
 		</div>
 	</div>
 </div>
@@ -1109,6 +1109,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-11a">
+                
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
