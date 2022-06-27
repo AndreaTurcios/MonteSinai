@@ -2,7 +2,7 @@
 //Se incluye la clase con las plantillas del documento
 require_once('../../../app/helpers/dashboard_unidad.php');
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Dashboard_Page::headerTemplate('Libro 1');
+Dashboard_Page::headerTemplate('Libro 8');
 ?>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,9 +13,9 @@ Dashboard_Page::headerTemplate('Libro 1');
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center" id="Titulo1">
-                <h1 class="center">FIRST BOOK: <br />Time to learn english</h1>
+                <h1 class="center">EIGHTH BOOK: <br />Time to learn english</h1>
                 <br />
-                <h3 class="center">First grade</h3>
+                <h3 class="center">Eighth grade</h3>
             </div>
         </div>
         <div class="row" style="padding: 10px; background-color: #26272b; margin-top: 10px; 
@@ -31,15 +31,10 @@ Dashboard_Page::headerTemplate('Libro 1');
                         <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 1</div>
                     </div>
-
-                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My Body</span>
-                    <div style="
-                        font-size: 18px;">- My body
-                    </div>
-                    <div style="margin-bottom: 25px; 
-                        font-size: 18px;">- Food and fruits
-                    </div>
-                    <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
+                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">Getting to know my classmates</span>
+                    <div style="font-size: 18px;">- My body</div>
+                    <div style="margin-bottom: 25px;font-size: 18px;">- Food and fruits</div>
+                    <a class="btn btn-primary" href="../libro8Unidad1.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
 
@@ -50,7 +45,7 @@ Dashboard_Page::headerTemplate('Libro 1');
                     <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 2</div>
                     </div>
-                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My Family</span>
+                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My school</span>
                     <div style="
                         font-size: 18px;">- My family
                     </div>
@@ -68,12 +63,27 @@ Dashboard_Page::headerTemplate('Libro 1');
                         <div style="margin-top: 10px; font-weight: bold; 
                         text-transform: uppercase; font-size: 18px;">UNIT 3</div>
                     </div>
-                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My School</span>
+                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">My home</span>
                     <div style="font-size: 18px;">- My Classroom
                     </div>
                     <div style="margin-bottom: 25px; 
                         font-size: 18px;">- My Toys
                     </div>
+                    <div><button type="button" class="btn btn-primary" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</button></div>
+                </div>
+            </div>
+
+            <!--Unidad 4 -->
+            <div class="col-sm-4" style=" padding: 10px;">
+                <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
+                    <div style="border-bottom-color: black;  ">
+                        <div style="margin-top: 10px; font-weight: bold; 
+                        text-transform: uppercase; font-size: 18px;">UNIT 4</div>
+                    </div>
+                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">Let's go shopping</span>
+                    <div style="font-size: 18px;">- Clothing and personal care items
+                    </div>
+                    <div style="margin-bottom: 25px; font-size: 18px;">- Home appliances</div>
                     <div><button type="button" class="btn btn-primary" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</button></div>
                 </div>
             </div>

@@ -74,7 +74,7 @@ Dashboard_Page::headerTemplate('Libro 11');
                     </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">Eating habits</span>
                     <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="margin-top: 5px; width: 100%; background-color: #c92920; border-color: #c92920; " >View contents</a>
-                    <a class="btn btn-primary" href="../libro1Unidad1t.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
+                    <a class="btn btn-primary" href="../libro11Unidad4.php" role="button" style="margin-top: 5px; width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
 
