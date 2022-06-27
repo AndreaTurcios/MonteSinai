@@ -1314,78 +1314,39 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 									<div>
                                     <table style="width:95%;">
                                         <Tr>
-                                            <Td>
-                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
-                                                    <!-- inicio group -->
-                                                    
+                                            <Td>    
                                                     1 <input type="text" id="input-one" size="5" maxlength="3">
-                                                    <!-- fin group -->
-                                                </div>
                                             </Td>
                                             <Td>
-                                                <div class="col border border-dark">
-                                                    <!-- inicio group -->
                                                     2 <input type="text" id="input-two" size="5" maxlength="3">
-                                                    <!-- fin group -->
-                                                </div>
                                             </Td>
                                             <Td>
-                                                <div class="col border border-dark">
-                                                    <!-- inicio group -->
                                                     3 <input type="text" id="input-three" size="5"  maxlength="5">
-                                                    <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <td>
-                                                <div class="col border border-dark">
-                                                        <!-- inicio group -->
                                                     4 <input type="text" id="input-four" size="5" maxlength="4">
-                                                        <!-- fin group -->
-                                                    </div>
                                             </td>
                                             <Td>
-                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
-                                                    <!-- inicio group -->
-                                                    
                                                     5 <input type="text" id="input-five" size="5" maxlength="4">
-                                                    <!-- fin group -->
-                                                </div>
                                             </Td>
                                         </Tr>
                                         <Tr>
                                             <Td>
-                                                <div class="col border border-dark">
-                                                    <!-- inicio group -->
                                                     6 <input type="text" id="input-six" size="5" maxlength="3">
-                                                    <!-- fin group -->
-                                                </div>
                                             </Td>
                                             <Td>
-                                                <div class="col border border-dark">
-                                                    <!-- inicio group -->
                                                     7 <input type="text" id="input-seven" size="5"  maxlength="5">
-                                                    <!-- fin group -->
-                                                </div>
                                             </Td>
                                             <td>
-                                                <div class="col border border-dark">
-                                                        <!-- inicio group -->
                                                         8 <input type="text" id="input-eight" size="5" maxlength="5">
-                                                        <!-- fin group -->
-                                                    </div>
                                             </td>
                                             <Td>
-                                                <div class="col border border-dark">
-                                                    <!-- inicio group -->
                                                     9 <input type="text" id="input-nine" size="5"  maxlength="4">
-                                                    <!-- fin group -->
                                                 </div>
                                             </Td>
                                             <td>
-                                                <div class="col border border-dark">
-                                                        <!-- inicio group -->
                                                         10 <input type="text" id="input-ten" size="5" maxlength="3">
-                                                        <!-- fin group -->
                                                     </div>
                                             </td>
                                         </Tr>
