@@ -565,7 +565,7 @@ yepnope({
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Complete the activity - Select the correct sentences using clauses in the past</h5>
+                <h5 class="modal-title" id="modal-title">Complete the activity - Select the correct sentences using clauses in the past (Only choose four)</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="game-three">
@@ -599,7 +599,7 @@ yepnope({
                                     <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5"> Right after his death, she learned Spanish</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6"> If I had seen him, I would have spoken to him</label>
+                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6"> Daniel has created a book of history</label>
                                 </div>
 							</div>
                         </div>

@@ -43,20 +43,20 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
     let notatotal = 0;
 
-    for (var j = 0; j < 6; j++){
+    for (var j = 0; j < 6; j++) {
         for (var i = 0; i < respuestas.length; i++) {
             indice = arraytotal[j].indexOf(respuestas[i])
             if (arraytotal[j][indice] === respuestas[i]) {
                 nota = 0.17;
                 notatotal = notatotal + nota;
-            }else{
+            } else {
                 nota = 0;
                 notatotal = notatotal + nota;
             }
-        } 
+        }
     }
-    
-    if(notatotal === 1.02){
+
+    if (notatotal === 1.02) {
         notatotal = 1.0;
     }
 
@@ -97,14 +97,14 @@ document.getElementById('game-two').addEventListener('submit', function (event) 
 
     //Se crea un array con las posibles respuestas en base al texto del libro (Palabras clave)
     let respuestas = ["achievement", "greatness", "disciplined", "perseverant", "Pablo Picasso", "1973",
-    "creative", "artist", "passion", "Pablo", "enduring", "work", "great", "achievers", "personality", "traits", "strong", "determination"];
+        "creative", "artist", "passion", "Pablo", "enduring", "work", "great", "achievers", "personality", "traits", "strong", "determination"];
 
     //Se verifica que todos los campos esten llenos
     if (q1 === "" || q2 === "" || q3 === "" || q4 === "" || a1 === "" || a2 === "" || a3 === "" || a4 === "") {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
-    
+
     //Se convierten los campos a arrays para poder evaluar palabra por palabra.
     let arrayq0 = q1.split(' ')
     let arrayq1 = q2.split(' ')
@@ -122,17 +122,17 @@ document.getElementById('game-two').addEventListener('submit', function (event) 
 
     let notatotal = 0;
 
-    for (var j = 0; j < 8; j++){
+    for (var j = 0; j < 8; j++) {
         for (var i = 0; i < respuestas.length; i++) {
             indice = arraytotal[j].indexOf(respuestas[i])
             if (arraytotal[j][indice] === respuestas[i]) {
                 nota = 0.125;
                 notatotal = notatotal + nota;
-            }else{
+            } else {
                 nota = 0;
                 notatotal = notatotal + nota;
             }
-        } 
+        }
     }
 
     var libro = 11;
@@ -149,14 +149,52 @@ document.getElementById('game-three').addEventListener('submit', function (event
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
+    notatotal = 0;
 
+    if (document.getElementById('cbox1').checked || document.getElementById('cbox2').checked || document.getElementById('cbox3').checked ||
+        document.getElementById('cbox4').checked || document.getElementById('cbox5').checked || document.getElementById('cbox6').checked) {
 
-    var libro = 11;
-    document.getElementById('idclienteA3U1L11').value = users.value;
-    document.getElementById('pointsA3U1L11').value = notatotal;
-    document.getElementById('idlibroA3U1L11').value = libro;
-    action = 'createactA2U1L11';
-    saveRowActivity(API_ACTIVIDADES, action, 'game-two', 'ModalLibroDos')
-    sweetAlert(1, 'Resultados ingresados', null);
-    return true;
+        if (document.getElementById('cbox1').checked && document.getElementById('cbox2').checked && document.getElementById('cbox3').checked
+            && document.getElementById('cbox4').checked && document.getElementById('cbox5').checked && document.getElementById('cbox6').checked) {
+            sweetAlert(2, 'It is not valid to select all answers', null);
+        } else {
+            for (i = 1; i < 7; i++) {
+                switch (i) {
+                    case 1:
+                        if (document.getElementById('cbox1').checked) {
+                            notatotal = notatotal + 2.5;
+                        }
+                        break;
+                    case 2:
+                        if (document.getElementById('cbox2').checked) {
+                            notatotal = notatotal + 2.5;
+                        }
+                        break;
+                    case 4:
+                        if (document.getElementById('cbox4').checked) {
+                            notatotal = notatotal + 2.5;
+                        }
+                        break;
+                    case 5:
+                        if (document.getElementById('cbox5').checked) {
+                            notatotal = notatotal + 2.5;
+                        }
+                        break;
+                    default:
+                }
+            }
+
+            var libro = 11;
+            document.getElementById('idclienteA3U1L11').value = users.value;
+            document.getElementById('pointsA3U1L11').value = notatotal;
+            document.getElementById('idlibroA3U1L11').value = libro;
+            action = 'createactA3U1L11';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres')
+            sweetAlert(1, 'Resultados ingresados', null);
+            return true;
+        }
+    } else {
+        sweetAlert(2, 'Select the sentences', null);
+    }
+    
 });
