@@ -1034,7 +1034,7 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
         document.getElementById('points25').value = promedio24;
         document.getElementById('idlibro25').value = libro;
         // acciones
-        action = 'createact14';
+        action = 'createact25';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
         //alert
         sweetAlert(1, 'good job', null);
@@ -1250,7 +1250,7 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
         return false;
     }
     if (comp1 === "Miss" && comp2 === "Hello" && comp3 === "do"
-        && comp4 === "you" && comp5 === "bad" && comp6 === "later") {
+        && comp4 === "you" && comp5 === "too" && comp6 === "later") {
 
         // envío de variables a API 
         promedio30 = 1;
@@ -1262,7 +1262,7 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
         action = 'createact30';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirty', 'ModalLibroTreinta');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
@@ -1281,7 +1281,7 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
         if (comp4 != "you") {
             puntosact30--
         }
-        if (comp5 != "bad") {
+        if (comp5 != "too") {
             puntosact30--
         }
         if (comp6 != "later") {
@@ -1298,7 +1298,9 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
         action = 'createact30';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirty', 'ModalLibroTreinta');
         //alert 
+        
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        
         return true;
     }
 
@@ -1337,7 +1339,7 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
         action = 'createact31';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyone', 'ModalLibroTreintayuno');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
@@ -1476,17 +1478,78 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
     }
 });
 
-// no implementado
+
 document.getElementById('game-thirtythree').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var frt1, frt2, frt3;
+    //este he estado modifcando
+    frt1 = document.getElementById('food-actyo33-71').value;
+    frt2 = document.getElementById('food-actyo33-72').value;
+    frt3 = document.getElementById('food-actyo33-73').value;
+    //
+    if (frt1 === "" || frt2 === "" || frt3 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (frt1 === "Just a minute, please" && frt2 === "I don't understand" && frt3 === "Can I go out?") {
+       
+        // envío de variables a API 
+        promedio33 = 1;
+        var libro = 4;
+        document.getElementById('idcliente33').value = users.value;
+        document.getElementById('points33').value = promedio32;
+        document.getElementById('idlibro33').value = libro;
+        // acciones 
+        action = 'createact33';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtythree', 'ModalLibroTreintaytres');
+        sweetAlert(1, 'Good job', null);
+        return true;
+
+    } else {
+
+        var libro = 4;
+        var puntosact33 = 10;
+        // asignación de puntajes
+        if (frt1 != "Just a minute, please") {
+            puntosact33--
+        }
+        if (frt2 != "I don't understand") {
+            puntosact33--
+        }
+        if (frt3 != "Can I go out?") {
+            puntosact33--
+        }
+
+        // seteo de valor de puntajes 
+        var conteos33 = puntosact33 / 10;
+        var conteofinal33 = conteos33.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente33').value = users.value;
+        document.getElementById('points33').value = conteofinal33;
+        document.getElementById('idlibro33').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact33';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtythree', 'ModalLibroTreintaytres');
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
+// no implementado
+document.getElementById('game-thirtyfour').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //
     var frt1, frt2, frt3, frt4;
     //
-    frt1 = document.getElementById('food-actyo33-71').value;
-    frt2 = document.getElementById('food-actyo33-72').value;
-    frt3 = document.getElementById('food-actyo33-73').value;
-    frt4 = document.getElementById('food-actyo33-74').value;
+    frt1 = document.getElementById('food-actyo34-81').value;
+    frt2 = document.getElementById('food-actyo34-82').value;
+    frt3 = document.getElementById('food-actyo34-83').value;
+    frt4 = document.getElementById('food-actyo34-84').value;
     //
     if (frt1 === "" || frt2 === "" || frt3 === "" || frt4 === "") {
 
@@ -1494,11 +1557,47 @@ document.getElementById('game-thirtythree').addEventListener('submit', function 
         return false;
     }
     if (frt1 === "Orange" && frt2 === "Melon" && frt3 === "Coconut" && frt4 === "Tomato") {
-
-        sweetAlert(1, 'good job', null);
+       
+        // envío de variables a API 
+        promedio34 = 1;
+        var libro = 4;
+        document.getElementById('idcliente34').value = users.value;
+        document.getElementById('points34').value = promedio32;
+        document.getElementById('idlibro34').value = libro;
+        // acciones 
+        action = 'createact34';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfour', 'ModalLibroTreintaycuatro');
+        sweetAlert(1, 'Good job', null);
         return true;
+
     } else {
 
+        var libro = 4;
+        var puntosact34 = 10;
+        // asignación de puntajes
+        if (frt1 != "Orange") {
+            puntosact34--
+        }
+        if (frt2 != "Melon") {
+            puntosact34--
+        }
+        if (frt3 != "Coconut") {
+            puntosact34--
+        }
+        if (frt4 != "Tomato") {
+            puntosact34--
+        }
+        
+        // seteo de valor de puntajes 
+        var conteos34 = puntosact34 / 10;
+        var conteofinal34 = conteos34.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente34').value = users.value;
+        document.getElementById('points34').value = conteofinal32;
+        document.getElementById('idlibro34').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact34';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfour', 'ModalLibroTreintaycuatro');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
@@ -1622,3 +1721,82 @@ clear.addEventListener('click', function () {
     pickedColor = undefined;
     console.log('all clear, we can start again')
 })
+
+//Página 12 - Canvas
+document.getElementById('game-five').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var stcne1, stcne2, stcne3, stcne4, stcne5, stcne6;
+    let promedio15;
+    //
+    stcne1 = document.getElementById('colors-actyo14-61').value;
+    stcne2 = document.getElementById('colors-actyo14-62').value;
+    stcne3 = document.getElementById('colors-actyo14-63').value;
+    stcne4 = document.getElementById('colors-actyo14-64').value;
+    stcne5 = document.getElementById('colors-actyo14-65').value;
+    stcne6 = document.getElementById('colors-actyo14-66').value;
+
+    //Debe de existir una sentencia donde identifique que el canvas esta vacio
+    if (stcne1 === "" || stcne2 === "" || stcne3 === ""
+        || stcne4 === "" || stcne5 === "" || stcne6 === "") {
+
+        sweetAlert(2, 'You have not draw something', null);
+        return false;
+    }
+    if (stcne1 === "Red" && stcne2 === "Green" && stcne3 === "Blue"
+        && stcne4 === "Black" && stcne5 === "Brown" && stcne6 === "Yellow") {
+
+        // envío de variables a API 
+        promedio15 = 1;
+        var libro = 4;
+        document.getElementById('idcliente15').value = users.value;
+        document.getElementById('points15').value = promedio15;
+        document.getElementById('idlibro15').value = libro;
+        // acciones 
+        action = 'createact15';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalLibrotsestdodfdfd');
+        //alert
+        sweetAlert(1, 'Good job', null);
+        return true;
+    }
+    else {
+
+        var libro = 4;
+        var puntosact14 = 6;
+        // asignación de puntajes
+        if (stcne1 != "Red") {
+            puntosact14--
+        }
+        if (stcne2 != "Green") {
+            puntosact14--
+        }
+        if (stcne3 != "Blue") {
+            puntosact14--
+        }
+        if (stcne4 != "Black") {
+            puntosact14--
+        }
+        if (stcne5 != "Brown") {
+            puntosact14--
+        }
+        if (stcne6 != "Yellow") {
+            puntosact14--
+        }
+        // seteo de valor de puntajes 
+        var conteos14 = puntosact14 / 6;
+        var conteofinal14 = conteos14.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente15').value = users.value;
+        document.getElementById('points15').value = conteofinal14;
+        document.getElementById('idlibro15').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact15';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-fifteen', 'ModalLibroQuince');
+        //alert 
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+
+});

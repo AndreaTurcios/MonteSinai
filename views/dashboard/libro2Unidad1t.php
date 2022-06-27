@@ -1121,6 +1121,8 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                             <dialog class="dialog">
                                 <h1 class="dialog-title">¡lo lograste, muy bien!<br /></h1>
                             </dialog>
+                            <script src="../../app/controllers/BookTwoUnitOne/assets/polyfill/dialog-polyfill.js"></script>
+                        <script type="text/javascript" src="../../app/controllers/BookTwoUnitOne/main.js"></script>
                             <form class="form" autocomplete="off" method="post" novalidate>
                                 <table>
                                     <tr>
@@ -2127,7 +2129,13 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" ></td>
                                     </tr>
                                 </table>
-                                <div class="btn-group wrapper">     
+                                <div class="clue-box-container">
+                                    <p class="clue-box"></p>
+                                </div>
+                                <div class="btn-group wrapper">
+                                    <button class="btn btn-check2" type="button">
+                                        Mostrar errores
+                                    </button>
                                     <button class="btn btn-clear" type="reset">
                                         Borrar todo
                                     </button>
@@ -2135,8 +2143,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                             </form>
                         </main>
                          <!-- Scripts -->
-                        <script src="../../app/controllers/BookTwoUnitOne/assets/polyfill/dialog-polyfill.js"></script>
-                        <script type="text/javascript" src="../../app/controllers/BookTwoUnitOne/main.js"></script>
+                       
                     </body>
                
 					<!-- Botones de Control -->

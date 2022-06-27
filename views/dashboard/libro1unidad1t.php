@@ -915,7 +915,7 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<!-- Página 12 - Actividad 1 (Canvas) -->
+<!-- Página 12 - Actividad 1 (Canvas) --> <!-- En este canvas no funciona el ClearBtn -->
 <div class="modal fade" id="ModalLibrotsestdodfdfd" tabindex="-10" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
 	<div class="modal-dialog modal-xl">
@@ -935,9 +935,9 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
 											<!-- class="d-none" -->
-											<input type="text" id="points5" name="points5">
-											<input type="text" id="idcliente5" name="idcliente5">
-											<input type="text" id="idlibro5" name="idlibro5">
+											<input type="text" id="points15" name="points15">
+											<input type="text" id="idcliente15" name="idcliente15">
+											<input type="text" id="idlibro15" name="idlibro15">
 										</div>
 									</div>
 									<!-- contenido  -->
@@ -1026,24 +1026,24 @@ Book_Page::headerTemplate('Unidad 1');
 									</style>
 									
 									<header>
-										<h1>Dibuja con tu raton</h1>
+										<h1>Draw with your mouse</h1>
 										<div class="grid">
 											<div class="color">
-												<p>Escoger un color:</p>
+												<p>Choose a color:</p>
 												<div class="colorPickerWrapper">
 													<input type="color" id="colorPicker" value="#55D0ED">
 												</div>
 											</div>
 											<div class="stroke">
-												<p>Cambiar anchura del lápiz:</p>
+												<p>Change the stroke's width::</p>
 												<div class="strokeWidthPickerWrapper">
 													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
 												</div>
 											</div>
 											<div class="clear">
-													<p>Limpiar pantalla</p>
+													<p>Clear the canvas</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn">Limpiar pantalla</a>
+													<a href="#" id="clearBtn">Clear the canvas</a>
 												</div>
 											</div>
 										</div>
@@ -1060,61 +1060,7 @@ Book_Page::headerTemplate('Unidad 1');
 									<!-- Librerias para el Canvas -->
 									<script src="https://s.cdpn.io/6859/paper.js"></script>
         							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
-									<script>	
-										// Check out PaperJs' Docs: http://paperjs.org/tutorials/
-
-										paper.install(window);
-
-										$(window).on('load', function() {
-										// Set it up
-											paper.setup('canvas1');
-
-										var canvas1 = document.getElementById("canvas1");
-
-										const context = canvas1.getContext('2d');
-
-											// Create a simple drawing tool:
-											var tool = new Tool();
-											var path;
-
-										// Get elements from DOM and define properties
-										var colorPicker = document.getElementById("colorPicker");
-										var colorStroke;
-										var widthStrokePicker = document.getElementById("strokeWidthPicker");
-										var widthStroke;
-										var clearButton = document.getElementById("clearBtn");
-
-										// Clear event listener
-										clearBtn.addEventListener("click", function() {
-										// Clear canvas1
-										paper.project.activeLayer.removeChildren();
-										paper.view.draw();
-										});
-
-										// Update 
-										function update() {
-										colorStroke = colorPicker.value;
-										widthStroke = widthStrokePicker.value;
-										}
-
-										// Check for new color value each second
-										setInterval(update, 1000);
-
-											// Define a mousedown and mousedrag handler
-											tool.onMouseDown = function(event) {
-												path = new Path();
-										path.strokeWidth = widthStroke;
-												path.strokeColor = colorStroke;
-										// Draw
-												path.add(event.point);
-											}
-
-											tool.onMouseDrag = function(event) {
-										// Draw
-												path.add(event.point);
-											}
-										});
-									</script>
+									<script type="text/javascript" src="../../app/controllers/librounounidaduno/canvas.js"></script>
 									<!-- contenido  -->
 								</div>
 							</div>
@@ -1485,7 +1431,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag6/words3.png"
 											class="rounded mx-auto d-block">
-											<input type="text" id="words3" class="form-control"
+											<input type="text" id="words2" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ am a student" 	
 												style="margin-bottom: 25px; margin-top: 25px;">
@@ -1498,7 +1444,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag6/words4.png"
 											class="rounded mx-auto d-block">
-											<input type="text" id="words4" class="form-control"
+											<input type="text" id="words3" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ are my teacher" 	
 												style="margin-bottom: 25px; margin-top: 25px;">
@@ -1993,7 +1939,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag9/word-actyo11-33.png"
 											class="rounded mx-auto d-block">
-											<input type="text" id="word-actyo11-31" class="form-control"
+											<input type="text" id="word-actyo11-33" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="This is her watch"
 												style="margin-bottom: 25px; margin-top: 25px;">
@@ -2213,6 +2159,93 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro25" name="idlibro25">
 										</div>
 									</div>
+									<style>
+										.container-checkboxes ul{
+											list-style: none;
+											margin: 0;
+											padding: 0;
+												overflow: auto;
+											}
+
+											ul li{
+											color: #AAAAAA;
+											display: block;
+											position: relative;
+											float: left;
+											width: 100%;
+											height: 100px;
+												border-bottom: 1px solid #333;
+											}
+
+											ul li input[type=radio]{
+											position: absolute;
+											visibility: hidden;
+											}
+
+											ul li label{
+											display: block;
+											position: relative;
+											font-weight: 300;
+											font-size: 1.35em;
+											padding: 25px 25px 25px 80px;
+											margin: 10px auto;
+											height: 30px;
+											z-index: 9;
+											cursor: pointer;
+											-webkit-transition: all 0.25s linear;
+											}
+
+											ul li:hover label{
+												color: #FFFFFF;
+											}
+
+											/* Circulo del checkbox */
+											ul li .check{
+											display: block;
+											position: absolute;
+											border: 5px solid #AAAAAA;
+											border-radius: 100%;
+											height: 20px;
+											width: 20px;
+											top: 30px;
+											left: 20px;
+											z-index: 5;
+											transition: border .25s linear;
+											-webkit-transition: border .25s linear;
+											}
+
+											ul li:hover .check {
+											border: 5px solid #FFFFFF;
+											}
+
+											/* Circulo verde de adentro luego de ser check */
+											ul li .check::before {
+											display: block;
+											position: absolute;
+											content: '';
+											border-radius: 100%;
+											height: 2px;
+											width: 2px;
+											top: 4px;
+											left: 4px;
+											margin: auto;
+											transition: background 0.25s linear;
+											-webkit-transition: background 0.25s linear;
+											}
+
+											input[type=radio]:checked ~ .check {
+											border: 5px solid #0DFF92;
+											}
+
+											input[type=radio]:checked ~ .check::before{
+											background: #0DFF92;
+											}
+
+											input[type=radio]:checked ~ label{
+											color: #0DFF92;
+											}
+									</style>
+									
 									<div class="row row-cols-4">
 										<div class="col border border-dark">
 											<!-- inicio group -->
@@ -2221,57 +2254,37 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault1">
-														<label class="form-check-label" for="flexCheckDefault1">
-															TWO
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
+										<div class="col">
+											<div class="container-checkboxes" style="margin-bottom: 60px">	
+													
+													
+												<ul>
+													<li>
+													<input type="radio" id="flexCheckDefault1" name="selector1">
+													<label for="flexCheckDefault1">Two</label>
+													
+													<div class="check"></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault2" name="selector1">
+													<label for="flexCheckDefault2">One</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault3" name="selector1">
+													<label for="flexCheckDefault3">Seven</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+												</ul>
+
+
+											</div>											
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault2">
-														<label class="form-check-label" for="flexCheckDefault2">
-															ONE
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault3">
-														<label class="form-check-label" for="flexCheckDefault3">
-															SEVEN
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<!-- espacio -->
+
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
@@ -2279,57 +2292,39 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault4">
-														<label class="form-check-label" for="flexCheckDefault4">
-															FIVE
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
+										<div class="col">
+											<div class="container-checkboxes" style="margin-bottom: 60px">	
+													
+													
+												<ul>
+													<li>
+													<input type="radio" id="flexCheckDefault4" name="selector2">
+													<label for="flexCheckDefault4">Five</label>
+													
+													<div class="check"></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault5" name="selector2">
+													<label for="flexCheckDefault5">One</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault6" name="selector2">
+													<label for="flexCheckDefault6">Four</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+												</ul>
+
+
+											</div>											
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault5">
-														<label class="form-check-label" for="flexCheckDefault5">
-															ONE
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault6">
-														<label class="form-check-label" for="flexCheckDefault6">
-															FOUR
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<!-- espacio -->
+																					
+										
+
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
@@ -2337,57 +2332,38 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault7">
-														<label class="form-check-label" for="flexCheckDefault7">
-															SIX
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
+										<div class="col">
+											<div class="container-checkboxes" style="margin-bottom: 60px">	
+													
+													
+												<ul>
+													<li>
+													<input type="radio" id="flexCheckDefault7" name="selector3">
+													<label for="flexCheckDefault7">Six</label>
+													
+													<div class="check"></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault8" name="selector3">
+													<label for="flexCheckDefault8">Three</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault9" name="selector3">
+													<label for="flexCheckDefault9">Eight</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+												</ul>
+
+
+											</div>											
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault8">
-														<label class="form-check-label" for="flexCheckDefault8">
-															THREE
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault9">
-														<label class="form-check-label" for="flexCheckDefault9">
-															EIGHT
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<!-- espacio -->
+										
+
 										<div class="col border border-dark">
 											<!-- inicio group -->
 											<div class="row">
@@ -2395,56 +2371,37 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault10">
-														<label class="form-check-label" for="flexCheckDefault10">
-															NINE
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
+										<div class="col">
+											<div class="container-checkboxes" style="margin-bottom: 60px">	
+													
+													
+												<ul>
+													<li>
+													<input type="radio" id="flexCheckDefault10" name="selector4">
+													<label for="flexCheckDefault10">Nine</label>
+													
+													<div class="check"></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault11" name="selector4">
+													<label for="flexCheckDefault11">Six</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault12" name="selector4">
+													<label for="flexCheckDefault12">Ten</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+												</ul>
+
+
+											</div>											
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault11">
-														<label class="form-check-label" for="flexCheckDefault11">
-															SIX
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault12">
-														<label class="form-check-label" for="flexCheckDefault12">
-															TEN
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
+
 										<!-- espacio -->
 										<div class="col border border-dark">
 											<!-- inicio group -->
@@ -2453,51 +2410,37 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault13">
-														<label class="form-check-label" for="flexCheckDefault13">
-															NINE
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
+										<div class="col">
+											<div class="container-checkboxes" style="margin-bottom: 60px">	
+													
+													
+												<ul>
+													<li>
+													<input type="radio" id="flexCheckDefault13" name="selector5">
+													<label for="flexCheckDefault13">Nine</label>
+													
+													<div class="check"></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault14" name="selector5">
+													<label for="flexCheckDefault14">Two</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+													
+													<li>
+													<input type="radio" id="flexCheckDefault15" name="selector5">
+													<label for="flexCheckDefault15">Five</label>
+													
+													<div class="check"><div class="inside"></div></div>
+													</li>
+												</ul>
+
+
+											</div>											
 										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault14">
-														<label class="form-check-label" for="flexCheckDefault14">
-															TWO
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="form-check">
-												<div class="row">
-													<div class="col">
-														<input class="form-check-input" type="checkbox" value=""
-															id="flexCheckDefault15">
-														<label class="form-check-label" for="flexCheckDefault15">
-															FIVE
-														</label>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
+
 									</div>
 								</div>
 							</div>
@@ -2637,7 +2580,7 @@ Book_Page::headerTemplate('Unidad 1');
 <!-- Página 19 -->
 <div id="ModalLibroVeintiseis" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">LET'S COUNT FROM ONE TO TEN</h5>
@@ -2798,12 +2741,178 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<div id="ModalLibroVeintinueve" class="modal fade" tabindex="-4">
+<!-- Página 20 --> <!-- En este canvas no funciona el color2Picker y  stroke2WidthPicker-->
+<div id="ModalLibroVeintisiete" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<h5 class="modal-title" id="modal-title">MATCHING THE NUMBER FROM ONE TO TEN</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyseven">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
+											<input type="text" id="points27" name="points27">
+											<input type="text" id="idcliente27" name="idcliente27">
+											<input type="text" id="idlibro27" name="idlibro27">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+									
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										}
+
+										canvas2 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clear2Btn {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+									
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="color2Picker" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="stroke2WidthPicker">
+												</div>
+											</div>
+											<div class="clear">
+												<p>clear2 the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clear2Btn">Clear canvas</a>
+												</div>
+											</div>
+										</div>
+										</header>
+
+										<div class="container">
+											<canvas id="canvas2" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag20/trace.png')"
+											width="815" height="550">
+
+											</canvas>
+										</div>
+									</header>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+									<script type="text/javascript" src="../../app/controllers/librounounidaduno/canvas2.js"></script>
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 22  -->
+<div id="ModalLibroVeintinueve" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">HELLO! HOW ARE YOU?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-twentynine">
@@ -2821,17 +2930,17 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro29" name="idlibro29">
 										</div>
 									</div>
-									<div class="row row-cols-2 row-cols-lg-3">
-										<div class="col border border-dark col-4">
+									
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-2">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row row-cols-2">
 													<div class="col">
-														<h4>B</h4>
+														<h4>By</h4>
+														
 													</div>
-													<div class="col">
-														<h4>y</h4>
-													</div>
+													
 													<div class="col">
 														<input type="text" id="input-actp1"
 															class="col-6 col-md-4 form-control"
@@ -2842,12 +2951,15 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
+									</div>
+									
+									<div class="row justify-content-md-center mb-3">
 										<div class="col border border-dark col-4">
 											<!-- inicio group -->
-											<div class="input-group">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row row-cols-2">
 													<div class="col">
-														<h4>see</h4>
+														<h4>See</h4>
 													</div>
 													<div class="col">
 														<input type="text" id="input-actp2" class="form-control"
@@ -2858,9 +2970,12 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
 										<div class="col border border-dark col-4">
 											<!-- inicio group -->
-											<div class="input-group">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row row-cols-2">
 													<div class="col">
 														<input type="text" id="input-actp3" class="form-control"
@@ -2874,9 +2989,12 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
 										<div class="col border border-dark col-6">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row">
 													<div class="col">
 														<h4>How</h4>
@@ -2887,15 +3005,18 @@ Book_Page::headerTemplate('Unidad 1');
 															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
-														<h4>you ?</h4>
+														<h4>you?</h4>
 													</div>
 												</div>
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-lg-8">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-11">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row row-cols-5">
 													<div class="col">
 														<h4>Fine,</h4>
@@ -2914,15 +3035,18 @@ Book_Page::headerTemplate('Unidad 1');
 															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
-														<h4>you ?</h4>
+														<h4>you?</h4>
 													</div>
 												</div>
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-lg-8">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-4">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row">
 													<div class="col">
 														<input type="text" id="input-actp7" class="form-control"
@@ -2936,9 +3060,12 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-6">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-4">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row">
 													<div class="col">
 														<h4>What's</h4>
@@ -2953,6 +3080,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- fin group -->
 										</div>
 									</div>
+
+									
 								</div>
 							</div>
 						</div>
@@ -2972,12 +3101,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Página 23  -->
 <div id="ModalLibroTreinta" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<h5 class="modal-title" id="modal-title">HOW DO YOU DO?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirty">
@@ -2995,32 +3125,36 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro30" name="idlibro30">
 										</div>
 									</div>
-									<div class="row row-cols-2 row-cols-lg-3">
-										<div class="col border border-dark col-lg-8">
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-5">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-3">
-													<div class="col">
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">
+													<div class="col-3">
 														<h4>Hello</h4>
 													</div>
-													<div class="col">
-														<input type="text" id="input-actp301"
-															class="col-6 col-md-4 form-control"
+													<div class="col-4">
+														<input type="text" id="input-actp301" class="form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm">
 													</div>
 													<div class="col">
-														<h4>Williams!</h4>
+														<h4>Williams</h4>
 													</div>
+													
 												</div>
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-6">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-5">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-2">
-													<div class="col">
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">
+													<div class="col-5">
 														<input type="text" id="input-actp302" class="form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm">
@@ -3032,14 +3166,17 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-lg-8">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-6">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row rows-cols-4">
-													<div class="col">
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">
+													<div class="col-6">
 														<h4>How do you</h4>
 													</div>
-													<div class="col">
+													<div class="col-3">
 														<input type="text" id="input-actp303" class="form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm">
@@ -3051,14 +3188,17 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-6">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-3">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">
 													<div class="col">
 														<h4>See</h4>
 													</div>
-													<div class="col">
+													<div class="col-6">
 														<input type="text" id="input-actp304" class="form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm">
@@ -3067,9 +3207,12 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-lg-8">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-5">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row">
 													<div class="col">
 														<h4>Not</h4>
@@ -3079,18 +3222,24 @@ Book_Page::headerTemplate('Unidad 1');
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm">
 													</div>
+													<div class="col">
+														<h4>bad</h4>
+													</div>
 												</div>
 											</div>
 											<!-- fin group -->
 										</div>
-										<div class="col border border-dark col-6">
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-4">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row">
 													<div class="col">
 														<h4>See you</h4>
 													</div>
-													<div class="col">
+													<div class="col-6">
 														<input type="text" id="input-actp306" class="form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm">
@@ -3100,6 +3249,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<!-- fin group -->
 										</div>
 									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -3119,12 +3269,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Página 24  -->
 <div id="ModalLibroTreintayuno" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-md">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<h5 class="modal-title" id="modal-title">EXPRESSIONS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirtyone">
@@ -3142,123 +3293,128 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro31" name="idlibro31">
 										</div>
 									</div>
-									<div class="row row-cols-2 row-cols-lg-3">
-										<div class="col border border-dark col-lg-8">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-10">
-													<div class="col">
-														<h4>E</h4>
-													</div>
-													<div class="col">
-														<h4>x</h4>
-													</div>
-													<div class="col">
-														<h4>c</h4>
-													</div>
-													<div class="col">
-														<h4>e</h4>
-													</div>
-													<div class="col">
-														<h4>l</h4>
-													</div>
-													<div class="col">
-														<h4>l</h4>
-													</div>
-													<div class="col col-4">
-														<input type="text" id="input-actp311" class="form-control">
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
+
+									<div class="row justify-content-md-center mb-3">
 										<div class="col border border-dark col-6">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row rows-cols-4">
-													<div class="col">
-														<h4>Very</h4>
-													</div>
-													<div class="col">
-														<input type="text" id="input-actp312" class="form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark col-lg-8">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-5">
-													<div class="col">
-														<h4>G</h4>
-													</div>
-													<div class="col">
-														<h4>o</h4>
-													</div>
-													<div class="col ">
-														<input type="text" id="input-actp313" class="form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
-													</div>
-													<div class="col col-4">
-														<h4>!</h4>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark col-6">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<div class="col">
-														<input type="text" id="input-actp314" class="form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
-													</div>
-													<div class="col">
-														<h4>done</h4>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark col-lg-8">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
+											<div class="input-group input-group-sm mb-3 mt-3">
 												<div class="row">
 													<div class="col">
-														<input type="text" id="input-actp315" class="form-control"
+														<h4>Excell</h4>
+														
+													</div>
+													
+													<div class="col">
+														<input type="text" id="input-actp311"
+															class="col-6 col-md-4 form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm">
-													</div>
-													<div class="col">
-														<h4>Right!</h4>
-													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark col-6">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row">
-													<div class="col">
-														<input type="text" id="input-actp316" class="form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
-													</div>
-													<div class="col">
-														<h4>Job!</h4>
 													</div>
 												</div>
 											</div>
 											<!-- fin group -->
 										</div>
 									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">
+													<div class="col">
+														<h4>Very</h4>
+													</div>
+													<div class="col-6">
+														<input type="text" id="input-actp312" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
+													</div>
+													
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-4">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">
+													<div class="col">
+														<h4>Go</h4>
+														
+													</div>
+													
+													<div class="col-6">
+														<input type="text" id="input-actp313"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">													
+													<div class="col-6">
+														<input type="text" id="input-actp314" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>done!</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">													
+													<div class="col-6">
+														<input type="text" id="input-actp315" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>right!</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+
+									<div class="row justify-content-md-center mb-3">
+										<div class="col border border-dark col-6">
+											<!-- inicio group -->
+											<div class="input-group input-group-sm mb-3 mt-3">
+												<div class="row">													
+													<div class="col-5">
+														<input type="text" id="input-actp316" class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm">
+													</div>
+													<div class="col">
+														<h4>job!</h4>
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -3383,12 +3539,13 @@ Book_Page::headerTemplate('Unidad 1');
 </div>
 </div>
 
+<!-- Página 27  -->
 <div id="ModalLibroTreintaytres" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<h5 class="modal-title" id="modal-title">Match the sentence with the picture</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirtythree">
@@ -3406,28 +3563,119 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro33" name="idlibro33">
 										</div>
 									</div>
+										
+									<div class="col">	
+										<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag27/food-actyo33-71.jpg"
+										class="rounded mx-auto d-block">										
+										<select class="form-select form-select-lg mt-3 mb-3" id="food-actyo33-71" name="food-actyo33-71">
+											
+											<option disabled selected>Select an option</option>
+											<option value="Just a minute, please">Just a minute, please</option>
+											<option value="I don't understand">I don't understand</option>
+											<option value="Can I go out?">Can I go out?</option>
+
+                                        </select>										
+									</div>
+
+									<div class="col">	
+										<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag27/food-actyo33-72.jpg"
+										class="rounded mx-auto d-block">										
+										<select class="form-select form-select-lg mt-3 mb-3" id="food-actyo33-72" name="food-actyo33-72">
+											
+											<option disabled selected>Select an option</option>
+											<option value="Just a minute, please">Just a minute, please</option>
+											<option value="I don't understand">I don't understand</option>
+											<option value="Can I go out?">Can I go out?</option>
+
+                                        </select>										
+									</div>
+
+									<div class="col">	
+										<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag27/food-actyo33-73.jpg"
+										class="rounded mx-auto d-block">										
+										<select class="form-select form-select-lg mt-3 mb-3" id="food-actyo33-73" name="food-actyo33-73">
+											
+											<option disabled selected>Select an option</option>
+											<option value="Just a minute, please">Just a minute, please</option>
+											<option value="I don't understand">I don't understand</option>
+											<option value="Can I go out?">Can I go out?</option>
+
+                                        </select>										
+									</div>
+
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 28, no agarra, why? -->
+<div id="ModalLibroTreintaycuatro" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">ADJECTIVES: DELICIOUS AND ROUND</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirtyfour">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points34" name="points34">
+											<input type="text" class="d-none" id="idcliente34" name="idcliente34">
+											<input type="text" class="d-none" id="idlibro34" name="idlibro34">
+										</div>
+									</div>
 									<div class="row row-cols-2">
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo33-71" class="form-control"
+												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-81.png"
+												class="rounded mx-auto d-block">	
+												<input type="text" id="food-actyo34-81" class="form-control"
+													aria-label="Sizing example input" maxlength="100">											
+                                        		</select>
+											</div>
+										</div>
+										<div class="col">
+											<div class="col">
+												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-82.png"
+												class="rounded mx-auto d-block">
+												<input type="text" id="food-actyo34-82" class="form-control"
 													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo33-72" class="form-control"
+												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-83.png"
+												class="rounded mx-auto d-block">
+												<input type="text" id="food-actyo34-83" class="form-control"
 													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
 										<div class="col">
 											<div class="col">
-												<input type="text" id="food-actyo33-73" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo33-74" class="form-control"
+												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-84.png"
+												class="rounded mx-auto d-block">
+												<input type="text" id="food-actyo34-84" class="form-control"
 													aria-label="Sizing example input" maxlength="100">
 											</div>
 										</div>
