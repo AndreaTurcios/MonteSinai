@@ -77,14 +77,38 @@ Dashboard_Page::headerTemplate('Libro 8');
             <div class="col-sm-4" style=" padding: 10px;">
                 <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
                     <div style="border-bottom-color: black;  ">
-                        <div style="margin-top: 10px; font-weight: bold; 
-                        text-transform: uppercase; font-size: 18px;">UNIT 4</div>
+                        <div style="margin-top: 10px; font-weight: bold; text-transform: uppercase; font-size: 18px;">UNIT 4</div>
                     </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">Let's go shopping</span>
-                    <div style="font-size: 18px;">- Clothing and personal care items
+                    <div style="font-size: 18px;">- Clothing and personal care items</div>
+                    <div style="font-size: 18px;">- Home appliances</div>
+                    <div style="font-size: 18px;">- Quantifiers</div>
+                    <div style="font-size: 18px;">- Groceries and produce</div>
+                    <div style="font-size: 18px;">- How much versus How many</div>
+                    <div style="font-size: 18px;">- Let's go shopping</div>
+                    <div style="font-size: 18px;">- Prices up to $1,000.00</div>
+                    <div style="font-size: 18px;">- Count and mass nouns</div>
+                    <div style="font-size: 18px;">- Some and any</div>
+                    <div style="font-size: 18px;">- Simple recipes</div>
+                    <div style="font-size: 18px;">- Review of colors</div>
+                    <div style="font-size: 18px;">- Present continuous tense</div>
+                    <div style="font-size: 18px;">- Describing people's clothes</div>
+                    <div style="margin-bottom: 25px; font-size: 18px;">- Asking questions about colors of items</div>
+                    <a class="btn btn-primary" href="../libro8Unidad4.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B;">Enter</a>
+                </div>
+            </div>
+
+            <!--Unidad 5 -->
+            <div class="col-sm-4" style=" padding: 10px;">
+                <div style="background-color: #E4E4E4; border-radius: 10px; padding: 10px;">
+                    <div style="border-bottom-color: black;  ">
+                        <div style="margin-top: 10px; font-weight: bold; 
+                        text-transform: uppercase; font-size: 18px;">UNIT 5</div>
                     </div>
-                    <div style="margin-bottom: 25px; font-size: 18px;">- Home appliances</div>
-                    <div><button type="button" class="btn btn-primary" style="width: 100%; background-color: #2A262B; border-color: #2A262B; ">Enter</button></div>
+                    <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">Party time</span>
+                    <div style="font-size: 18px;">- My body</div>
+                    <div style="margin-bottom: 25px;font-size: 18px;">- Food and fruits</div>
+                    <a class="btn btn-primary" href="../libro8Unidad1.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
         </div>
