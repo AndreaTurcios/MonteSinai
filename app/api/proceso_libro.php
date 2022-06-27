@@ -645,7 +645,7 @@ if (isset($_GET['action'])) {
                         } else {
                             $result['exception'] = 'puntos incorrecto';
                         }
-                        break;
+                        break;     
             default:
                 $result['exception'] = 'Acción no disponible dentro de la sesión';
         }
