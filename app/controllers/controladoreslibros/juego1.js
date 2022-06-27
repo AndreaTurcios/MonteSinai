@@ -1046,7 +1046,7 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
         document.getElementById('idlibro25').value = libro;
         // acciones
         action = 'createact25';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfive', 'ModalLibroVeinticinco');
         //alert
         sweetAlert(1, 'Good job', null);
         return true;
