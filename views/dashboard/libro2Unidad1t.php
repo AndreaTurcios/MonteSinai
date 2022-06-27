@@ -1280,6 +1280,135 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		</div>
 	</div>
 </div>
+<div id="ModalLibroDos11AC2" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+      	<!--  <div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio5">
+            <audio controls>
+            <source src="../../resources/audio/goodbye.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>-->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title"> Write the names of numbers that you found:</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-11b">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center" align="center">
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points" name="points">
+											<input type="text" class="d-none" id="idcliente" name="idcliente">
+											<input type="text" class="d-none" id="idlibro" name="idlibro">
+										</div>
+									</div>
+									<div>
+                                    <table style="width:95%;">
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    
+                                                    1 <input type="text" id="input-one" size="5" maxlength="3">
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    2 <input type="text" id="input-two" size="5" maxlength="3">
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    3 <input type="text" id="input-three" size="5"  maxlength="5">
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                    4 <input type="text" id="input-four" size="5" maxlength="4">
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                            <Td>
+                                                <div class="col border border-dark" class="input-group input-group-sm mb-3">    
+                                                    <!-- inicio group -->
+                                                    
+                                                    5 <input type="text" id="input-five" size="5" maxlength="4">
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                        </Tr>
+                                        <Tr>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    6 <input type="text" id="input-six" size="5" maxlength="3">
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    7 <input type="text" id="input-seven" size="5"  maxlength="5">
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        8 <input type="text" id="input-eight" size="5" maxlength="5">
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                            <Td>
+                                                <div class="col border border-dark">
+                                                    <!-- inicio group -->
+                                                    9 <input type="text" id="input-nine" size="5"  maxlength="4">
+                                                    <!-- fin group -->
+                                                </div>
+                                            </Td>
+                                            <td>
+                                                <div class="col border border-dark">
+                                                        <!-- inicio group -->
+                                                        10 <input type="text" id="input-ten" size="5" maxlength="3">
+                                                        <!-- fin group -->
+                                                    </div>
+                                            </td>
+                                        </Tr>
+                                    </table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 
 <!--modal crusigrama pag14 -->
 <div id="ModalLibroDos14" class="modal fade" tabindex="-2">	
