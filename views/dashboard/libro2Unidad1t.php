@@ -651,7 +651,7 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 	</div>
 </div>
 
-<!-- Region 13 -->
+<!-- Region 14 -->
 
 <div id="ModalLibroDos6audio" class="modal fade" tabindex="-2">	
     <div class="modal-dialog modal-xl">
@@ -1094,6 +1094,188 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 		</div>
 	</div>
 <script  src="../../app/controllers/BookTwoUnitOne/wordfindpage7.js"></script>
+		</div>
+	</div>
+</div>
+
+<!-- Region 18 -->
+
+<div id="ModalLibroDos11" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content" align="center">
+			<div class="modal-header" align="center">
+				<h5 class="modal-title" id="modal-title" align="center">WORDS SEARCH ABOUT NUMBERS FROM ONE TO TEN</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-11a">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center" align="center">
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points" name="points">
+											<input type="text" class="d-none" id="idcliente" name="idcliente">
+											<input type="text" class="d-none" id="idlibro" name="idlibro">
+										</div>
+									</div>
+									<div align="center">
+                                    <div align="center"><img src="../../resources/img/BOOKS/SecondGrade/UnitOne/img pag 10.png"></div>
+                                    <br>
+                                    <table border="2px" bordercolor="#f99d52" bgcolor="#AFEEEE" align="center">
+                                        <tr>
+                                            <th width="30" height="30" id="Ncelda1" onclick="comprobar1()">S</th>
+                                            <th width="30" height="30"id="Ncelda2" onclick="comprobar2()">T</th>
+                                            <th width="30" height="30">R</th>
+                                            <th width="30" height="30">D</th>
+                                            <th width="30" height="30">K</th>
+                                            <th width="30" height="30">D</th>
+                                            <th width="30" height="30">B</th>
+                                            <th width="30" height="30">O</th>
+                                            <th width="30" height="30">P</th>
+                                            <th width="30" height="30">P</th>
+                                            
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30" id="NceldaB1" onclick="comprobarB1()">E</th>
+                                            <th width="30" height="30" id="NceldaB2" onclick="comprobarB2()">E</th>
+                                            <th width="30" height="30" id="NceldaB3" onclick="comprobarB3()">F</th>
+                                            <th width="30" height="30">I </th>
+                                            <th width="30" height="30" id="NceldaB5" onclick="comprobarB5()">E</th>
+                                            <th width="30" height="30">I</th>
+                                            <th width="30" height="30">H</th>
+                                            <th width="30" height="30">U</th>
+                                            <th width="30" height="30">E</th>
+                                            <th width="30" height="30">C</th>
+
+                                        <tr>
+                                            <th width="30" height="30" id="NceldaC1" onclick="comprobarC1()">V</th>
+                                            <th width="30" height="30" id="NceldaC2" onclick="comprobarC2()">N</th>
+                                            <th width="30" height="30" id="NceldaC3" onclick="comprobarC3()">O</th>
+                                            <th width="30" height="30">P</th>
+                                            <th width="30" height="30" id="NceldaC5" onclick="comprobarC5()">I</th>
+                                            <th width="30" height="30">V</th>
+                                            <th width="30" height="30">J</th>
+                                            <th width="30" height="30">N</th>
+                                            <th width="30" height="30">Z</th>
+                                            <th width="30" height="30">B</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30" id="NceldaD1" onclick="comprobarD1()">E</th>
+                                            <th width="30" height="30">I</th>
+                                            <th width="30" height="30" id="NceldaD3" onclick="comprobarD3()">U</th>
+                                            <th width="30" height="30">I</th>
+                                            <th width="30" height="30" id="NceldaD5" onclick="comprobarD5()">G</th>
+                                            <th width="30" height="30">Q</th>
+                                            <th width="30" height="30">P</th>
+                                            <th width="30" height="30">H</th>
+                                            <th width="30" height="30" id="NceldaD9" onclick="comprobarD9()">N</th>
+                                            <th width="30" height="30">E</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30" id="NceldaE1" onclick="comprobarE1()">N</th>
+                                            <th width="30" height="30">E</th>
+                                            <th width="30" height="30" id="NceldaE3" onclick="comprobarE3()">R</th>
+                                            <th width="30" height="30">N</th>
+                                            <th width="30" height="30" id="NceldaE5" onclick="comprobarE5()">H</th>
+                                            <th width="30" height="30">F</th>
+                                            <th width="30" height="30">S</th>
+                                            <th width="30" height="30">Y</th>
+                                            <th width="30" height="30" id="NceldaE9" onclick="comprobarE9()">I</th>
+                                            <th width="30" height="30">P</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30">M</th>
+                                            <th width="30" height="30">W</th>
+                                            <th width="30" height="30">N</th>
+                                            <th width="30" height="30">L</th>
+                                            <th width="30" height="30" id="NceldaF5" onclick="comprobarF5()">T</th>
+                                            <th width="30" height="30">N</th>
+                                            <th width="30" height="30">Y</th>
+                                            <th width="30" height="30"id="NceldaF8" onclick="comprobarF8()">F</th>
+                                            <th width="30" height="30"id="NceldaF9" onclick="comprobarF9()">N</th>
+                                            <th width="30" height="30" id="NceldaF10" onclick="comprobarF10()">T</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30">T</th>
+                                            <th width="30" height="30">O</th>
+                                            <th width="30" height="30" id="NceldaG3" onclick="comprobarG3()">O</th>
+                                            <th width="30" height="30" id="NceldaG4" onclick="comprobarG4()">N</th>
+                                            <th width="30" height="30" id="NceldaG5" onclick="comprobarG5()">E</th>
+                                            <th width="30" height="30">G</th>
+                                            <th width="30" height="30">V</th>
+                                            <th width="30" height="30" id="NceldaG8" onclick="comprobarG8()">I</th>
+                                            <th width="30" height="30" id="NceldaG9" onclick="comprobarG9()">E</th>
+                                            <th width="30" height="30" id="NceldaG10" onclick="comprobarG10()">W</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30">E</th>
+                                            <th width="30" height="30">S</th>
+                                            <th width="30" height="30">S</th>
+                                            <th width="30" height="30">E</th>
+                                            <th width="30" height="30">B</th>
+                                            <th width="30" height="30">J</th>
+                                            <th width="30" height="30">M</th>
+                                            <th width="30" height="30" id="NceldaH8" onclick="comprobarH8()">V</th>
+                                            <th width="30" height="30">H</th>
+                                            <th width="30" height="30" id="NceldaH10" onclick="comprobarH10()">O</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30">M</th>
+                                            <th width="30" height="30">T</th>
+                                            <th width="30" height="30">F</th>
+                                            <th width="30" height="30" id="NceldaI4" onclick="comprobarI4()">T</th>
+                                            <th width="30" height="30" id="NceldaI5" onclick="comprobarI5()">H</th>
+                                            <th width="30" height="30" id="NceldaI6" onclick="comprobarI6()">R</th>
+                                            <th width="30" height="30" id="NceldaI7" onclick="comprobarI7()">E</th>
+                                            <th width="30" height="30" id="NceldaI8" onclick="comprobarI8()">E</th>
+                                            <th width="30" height="30">X</th>
+                                            <th width="30" height="30">T</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th width="30" height="30">S</th>
+                                            <th width="30" height="30">P</th>
+                                            <th width="30" height="30">J</th>
+                                            <th width="30" height="30">C</th>
+                                            <th width="30" height="30">G</th>
+                                            <th width="30" height="30" id="NceldaJ6" onclick="comprobarJ6()">S</th>
+                                            <th width="30" height="30" id="NceldaJ7" onclick="comprobarJ7()">I</th>
+                                            <th width="30" height="30" id="NceldaJ8" onclick="comprobarJ8()">X</th>
+                                            <th width="30" height="30">Y</th>
+                                            <th width="30" height="30">N</th>
+                                        </tr>
+                                    </table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+<script  src="../../app/controllers/BookTwoUnitOne/wordfindpage10.js"></script>
 		</div>
 	</div>
 </div>
