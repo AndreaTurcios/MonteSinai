@@ -483,55 +483,17 @@ Book_Page::headerTemplate('Unidad 1');
 </script>
 
 <!--inicio modales -->
-<div id="ModalLibroDos" class="modal fade" tabindex="-1" role="dialog">
-	<div class="modal-dialog modal-xl">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">New message</h5>
 
-			</div>
-		</div>
-	</div>
-</div>
 
-<div class="modal fade" id="ModalLibroTrest" tabindex="-3" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="ModalLibrotest" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<div class="modal-body">
-
-			</div>
-		</div>
-	</div>
-</div>
-
-<div id="ModalLibroUno" class="modal fade" tabindex="-4">
+<div id="ModalUnit1Act1" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="game-one">
+			<form method="post" id="unit1-act1">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -540,24 +502,262 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Complete the words:</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points" name="points">
 											<input type="text" class="d-none" id="idcliente" name="idcliente">
 											<input type="text" class="d-none" id="idlibro" name="idlibro">
 										</div>
 									</div>
-									<div class="row row-cols-4">
+									<div class="row row-cols-3">
 										<div class="col border border-dark">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Head -->
-													<div class="col">H</div>
-													<div class="col">e</div>
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- garage -->
+													<div class="col">G</div>
+													<div>
+														<input type="text" id="input-act1-1"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
 													<div class="col">
-														<input type="text" id="input-oneh"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-2"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-3"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-4"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">e</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Garden -->
+													<div class="col">G</div>
+													<div class="col">
+														<input type="text" id="input-act1-5"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">r</div>
+													<div>
+														<input type="text" id="input-act1-6"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-7"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-8"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Bedroom -->
+													<div class="col">B</div>
+													<div class="col">
+														<input type="text" id="input-act1-9"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-10"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-11"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-12"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">o</div>
+													<div class="col">m</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Living room -->
+													<div class="col">L</div>
+													<div class="col">
+														<input type="text" id="input-act1-13"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-14"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-15"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-16"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-17"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-18"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-19"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-20"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">m</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Bathroom -->
+													<div class="col">B</div>
+													<div class="col">
+														<input type="text" id="input-act1-21"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-22"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-23"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">r</div>
+													<div class="col">
+														<input type="text" id="input-act1-24"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-25"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">m</div>
+												</div>
+											</div>
+											<!-- fin group -->
+										</div>
+										<div class="col border border-dark">
+											<!-- inicio group -->
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Yard -->
+													<div class="col">Y</div>
+													<div class="col">
+														<input type="text" id="input-act1-26"
+															class=" form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-27"
+															class="form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm" maxlength="1"
 															autocomplete="off">
@@ -569,285 +769,126 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="col border border-dark">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Arm -->
-													<div class="col">A</div>
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Hall -->
+													<div class="col">H</div>
 													<div class="col">
-														<input type="text" id="input-fivec"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-28"
+															class=" form-control"
 															aria-label="Sizing example input"
 															aria-describedby="inputGroup-sizing-sm" maxlength="1"
 															autocomplete="off">
 													</div>
-													<div class="col">m</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Ear -->
-													<div class="col">E</div>
+													<div class="col">l</div>
 													<div class="col">
-														<input type="text" id="input-niner"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-29"
+															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">r</div>
 												</div>
 											</div>
 											<!-- fin group -->
 										</div>
 										<div class="col border border-dark">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Mouth -->
-													<div class="col">M</div>
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Dining room -->
+													<div class="col">D</div>
 													<div class="col">
-														<input type="text" id="input-thirdteenu"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-30"
+															class=" form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">u</div>
-													<div class="col">t</div>
-													<div class="col">h</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<!-- espacio -->
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Neck -->
-													<div class="col">N</div>
-													<div class="col">e</div>
 													<div class="col">
-														<input type="text" id="input-twoe"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-31"
+															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">k</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Nose -->
-													<div class="col">N</div>
-													<div class="col"><input type="text" id="input-sixn"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1"></div>
-													<div class="col">s</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Hand -->
-													<div class="col">H</div>
-													<div class="col">a</div>
-													<div class="col">n</div>
 													<div class="col">
-														<input type="text" id="input-tend"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-32"
+															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Leg -->
 													<div class="col">
-														<input type="text" id="input-fourteenl"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-33"
+															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">e</div>
-													<div class="col">g</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<!-- espacio -->
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Foot -->
-													<div class="col">F</div>
-													<div class="col">o</div>
 													<div class="col">
-														<input type="text" id="input-threef"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-34"
+															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">t</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Hair -->
+													<div>r</div>
 													<div class="col">
-														<input type="text" id="input-sevenh"
-															class="col-6 col-md-4 form-control"
+														<input type="text" id="input-act1-35"
+															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">a</div>
-													<div class="col">i</div>
-													<div class="col">r</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Stomach -->
-													<div class="col">S</div>
-													<div class="col">t</div>
 													<div class="col">
-														<input type="text" id="input-elevench" class="form-control"
+														<input type="text" id="input-act1-36"
+															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">m</div>
-													<div class="col">a</div>
-													<div class="col">c</div>
-													<div class="col">h</div>
+													<div>m</div>
 												</div>
 											</div>
 											<!-- fin group -->
 										</div>
 										<div class="col border border-dark">
 											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Finger -->
-													<div class="col">F</div>
-													<div class="col">i</div>
-													<div class="col">n</div>
-													<div class="col">
-														<input type="text" id="input-fifteenf"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">e</div>
-													<div class="col">r</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<!-- espacio -->
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<div class="col"></div>
-										<!-- espacio -->
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<!-- Face -->
-												<div class="row row-cols-4">
-													<div class="col"> <input type="text" id="input-fourc"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">a</div>
-													<div class="col">c</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Toe -->
-													<div class="col">
-														<input type="text" id="input-eightt"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">o</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Eye -->
-													<div class="col">
-														<input type="text" id="input-twelvey"
-															class="col-6 col-md-4 form-control"
-															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
-													</div>
-													<div class="col">y</div>
-													<div class="col">e</div>
-												</div>
-											</div>
-											<!-- fin group -->
-										</div>
-										<div class="col border border-dark">
-											<!-- inicio group -->
-											<div class="input-group input-group-sm mb-3">
-												<div class="row row-cols-4">
-													<!-- Knee -->
+											<div class="input-group d-flex mb-3">
+												<div class="row row-cols-6">
+													<!-- Kitchen -->
 													<div class="col">K</div>
-													<div class="col">n</div>
-													<div class="col"><input type="text" id="input-sixteenk"
-															class="col-6 col-md-4 form-control"
+													<div class="col">
+														<input type="text" id="input-act1-37"
+															class=" form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
-													<div class="col">e</div>
+													<div class="col">
+														<input type="text" id="input-act1-38"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-39"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div class="col">
+														<input type="text" id="input-act1-40"
+															class="form-control"
+															aria-label="Sizing example input"
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
+													</div>
+													<div>e</div>
+													<div>n</div>
 												</div>
 											</div>
 											<!-- fin group -->
