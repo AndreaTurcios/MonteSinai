@@ -63,8 +63,8 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
         }
         promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8));
 
-        promedios = 1.11;
-        var libro = 4;
+        promedios = 1;
+        var libro = 2;
         document.getElementById('idcliente').value = users.value;
         document.getElementById('points').value = promedio;
         document.getElementById('idlibro').value = libro;
@@ -79,8 +79,8 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
         || six !== "gloves" || seven !== "belt" || eight !== "polish shoes") {
 
         promedios = 1;
-        var libro = 4;
-        var puntosact1 = 16;
+        var libro = 2;
+        var puntosact1 = 10;
         ///
         if (one != "shirt") {
             puntosact1--
@@ -114,7 +114,7 @@ document.getElementById('game-5').addEventListener('submit', function (event) {
             puntosact1--
             console.log('0.125');
         }
-        var conteos1 = puntosact1 / 16;
+        var conteos1 = puntosact1 / 10;
         var conteofinal1 = conteos1.toFixed(2);
         document.getElementById('idcliente').value = users.value;
         document.getElementById('points').value = conteofinal1;
@@ -254,37 +254,145 @@ document.getElementById('game-6').addEventListener('submit', function (event) {
     }
 });
 
-document.getElementById('game-eleven').addEventListener('submit', function (event) {
+document.getElementById('game-11b').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    // 
-    var stc1, stc2, stc3;
-    let promedio10;
-    // 
-    stc1 = document.getElementById('word-actyo11-31').value;
-    stc2 = document.getElementById('word-actyo11-32').value;
-    stc3 = document.getElementById('word-actyo11-33').value;
-    // 
-    if (stc1 === "" || stc2 === "" || stc3 === "") {
-
+    var one, two, six, three, four, five, seven, eight, nine, ten;
+    //definición de variables 
+    one = document.getElementById('input-one11').value;//one
+    two = document.getElementById('input-two11').value;//two
+    three = document.getElementById('input-three11').value;//three
+    four = document.getElementById('input-four11').value;//four
+    five = document.getElementById('input-five11').value;//fivr
+    six = document.getElementById('input-six11').value;//six
+    seven = document.getElementById('input-seven11').value;//seven
+    eight = document.getElementById('input-eight11').value;//eight
+    nine = document.getElementById('input-nine11').value;//nine
+    ten = document.getElementById('input-ten11').value;//ten
+    // declacración de variables de puntajes 
+    let promedio, promedios;
+    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10;
+    // declaración de condicionales 
+    if (one === "" && two === "" && three === "" && four === "" && five === "" && six === "" &&
+        seven === "" && eight === "" && nine === ""||eight === "" ) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
-    if (stc1 === "This is your watch" && stc2 === "This is his watch" && stc3 === "This is her watch") {
+    if (one === "one" && two === "two" && three === "three" && four === "four" && five === "five"
+        && six === "six" && seven === "seven" && eight === "eight" && nine === "nine" && ten === "ten") {
 
-        // envío de variables a API 
-        promedio10 = 1;
-        var libro = 4;
-        document.getElementById('idcliente11').value = users.value;
-        document.getElementById('points11').value = promedio10;
-        document.getElementById('idlibro11').value = libro;
-        // acciones 
-        action = 'createact11';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-eleven', 'ModalLibroOnce');
-        //alert
+        if (one = "one") {
+            pt1 = 0.1;
+            console.log('0.1');
+        }
+        if (two = "two") {
+            pt2 = 0.1;
+            console.log('0.1');
+        }
+        if (three = "three") {
+            pt3 = 0.1;
+            console.log('0.1');
+        }
+        if (four = "four") {
+            pt4 = 0.1;
+            console.log('0.1');
+        }
+        if (five = "five") {
+            pt5 = 0.1;
+            console.log('0.1');
+        }
+        if (six = "six") {
+            pt6 = 0.1;
+            console.log('0.1');
+        }
+        if (seven = "seven") {
+            pt7 = 0.1;
+            console.log('0.1');
+        }
+        if (eight = "eight") {
+            pt8 = 0.1;
+            console.log('0.1');
+        }
+        if (nine = "nine") {
+            pt9 = 0.1;
+            console.log('0.1');
+        }
+        if (ten = "ten") {
+            pt10 = 0.1;
+            console.log('0.1');
+        }
+        promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10));
+
+        promedios = 1.;
+        var libro = 2;
+        document.getElementById('idcliente').value = users.value;
+        document.getElementById('points').value = promedio;
+        document.getElementById('idlibro').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-11b', 'ModalLibroDos11AC2');
         sweetAlert(1, 'good job', null);
         return true;
+
+    } else if (one !== "one" || two !== "two" || three !== "three" || four !== "four" || five !== "five"
+
+        || six !== "six" || seven !== "seven" || eight !== "eight" || nine !== "nine" || ten !== "ten") {
+
+        promedios = 1;
+        var libro = 2;
+        var puntosact1 = 10;
+        ///
+        if (one != "one") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (two != "two") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (three != "three") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (four != "four") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (five != "five") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (six != "six") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (seven != "seven") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (eight != "eight") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (nine != "nine") {
+            puntosact1--
+            console.log('0.1');
+        }
+        if (ten != "ten") {
+            puntosact1--
+            console.log('0.1');
+        }
+        var conteos1 = puntosact1 / 10;
+        var conteofinal1 = conteos1.toFixed(2);
+        document.getElementById('idcliente').value = users.value;
+        document.getElementById('points').value = conteofinal1;
+        document.getElementById('idlibro').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-11b', 'ModalLibroDos11AC2');
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        //return false;
+        // --- era esta linea, porque esto lo que indica es que trunca el resto de acciones 
     }
 });
-
 

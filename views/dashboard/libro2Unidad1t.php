@@ -1128,8 +1128,8 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                     <br>
                                     <table border="2px" bordercolor="#f99d52" bgcolor="#AFEEEE" align="center">
                                         <tr>
-                                            <th width="30" height="30" id="Ncelda1" onclick="comprobar1()">S</th>
-                                            <th width="30" height="30"id="Ncelda2" onclick="comprobar2()">T</th>
+                                            <th width="30" height="30" id="Ncelda1" onclick="Ncomprobar1()">S</th>
+                                            <th width="30" height="30"id="Ncelda2" onclick="Ncomprobar2()">T</th>
                                             <th width="30" height="30">R</th>
                                             <th width="30" height="30">D</th>
                                             <th width="30" height="30">K</th>
@@ -1142,11 +1142,11 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         </tr>
 
                                         <tr>
-                                            <th width="30" height="30" id="NceldaB1" onclick="comprobarB1()">E</th>
-                                            <th width="30" height="30" id="NceldaB2" onclick="comprobarB2()">E</th>
-                                            <th width="30" height="30" id="NceldaB3" onclick="comprobarB3()">F</th>
+                                            <th width="30" height="30" id="NceldaB1" onclick="NcomprobarB1()">E</th>
+                                            <th width="30" height="30" id="NceldaB2" onclick="NcomprobarB2()">E</th>
+                                            <th width="30" height="30" id="NceldaB3" onclick="NcomprobarB3()">F</th>
                                             <th width="30" height="30">I </th>
-                                            <th width="30" height="30" id="NceldaB5" onclick="comprobarB5()">E</th>
+                                            <th width="30" height="30" id="NceldaB5" onclick="NcomprobarB5()">E</th>
                                             <th width="30" height="30">I</th>
                                             <th width="30" height="30">H</th>
                                             <th width="30" height="30">U</th>
@@ -1154,11 +1154,11 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                             <th width="30" height="30">C</th>
 
                                         <tr>
-                                            <th width="30" height="30" id="NceldaC1" onclick="comprobarC1()">V</th>
-                                            <th width="30" height="30" id="NceldaC2" onclick="comprobarC2()">N</th>
-                                            <th width="30" height="30" id="NceldaC3" onclick="comprobarC3()">O</th>
+                                            <th width="30" height="30" id="NceldaC1" onclick="NcomprobarC1()">V</th>
+                                            <th width="30" height="30" id="NceldaC2" onclick="NcomprobarC2()">N</th>
+                                            <th width="30" height="30" id="NceldaC3" onclick="NcomprobarC3()">O</th>
                                             <th width="30" height="30">P</th>
-                                            <th width="30" height="30" id="NceldaC5" onclick="comprobarC5()">I</th>
+                                            <th width="30" height="30" id="NceldaC5" onclick="NcomprobarC5()">I</th>
                                             <th width="30" height="30">V</th>
                                             <th width="30" height="30">J</th>
                                             <th width="30" height="30">N</th>
@@ -1167,28 +1167,28 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         </tr>
 
                                         <tr>
-                                            <th width="30" height="30" id="NceldaD1" onclick="comprobarD1()">E</th>
+                                            <th width="30" height="30" id="NceldaD1" onclick="NcomprobarD1()">E</th>
                                             <th width="30" height="30">I</th>
-                                            <th width="30" height="30" id="NceldaD3" onclick="comprobarD3()">U</th>
+                                            <th width="30" height="30" id="NceldaD3" onclick="NcomprobarD3()">U</th>
                                             <th width="30" height="30">I</th>
-                                            <th width="30" height="30" id="NceldaD5" onclick="comprobarD5()">G</th>
+                                            <th width="30" height="30" id="NceldaD5" onclick="NcomprobarD5()">G</th>
                                             <th width="30" height="30">Q</th>
                                             <th width="30" height="30">P</th>
                                             <th width="30" height="30">H</th>
-                                            <th width="30" height="30" id="NceldaD9" onclick="comprobarD9()">N</th>
+                                            <th width="30" height="30" id="NceldaD9" onclick="NcomprobarD9()">N</th>
                                             <th width="30" height="30">E</th>
                                         </tr>
 
                                         <tr>
-                                            <th width="30" height="30" id="NceldaE1" onclick="comprobarE1()">N</th>
+                                            <th width="30" height="30" id="NceldaE1" onclick="NcomprobarE1()">N</th>
                                             <th width="30" height="30">E</th>
-                                            <th width="30" height="30" id="NceldaE3" onclick="comprobarE3()">R</th>
+                                            <th width="30" height="30" id="NceldaE3" onclick="NcomprobarE3()">R</th>
                                             <th width="30" height="30">N</th>
-                                            <th width="30" height="30" id="NceldaE5" onclick="comprobarE5()">H</th>
+                                            <th width="30" height="30" id="NceldaE5" onclick="NcomprobarE5()">H</th>
                                             <th width="30" height="30">F</th>
                                             <th width="30" height="30">S</th>
                                             <th width="30" height="30">Y</th>
-                                            <th width="30" height="30" id="NceldaE9" onclick="comprobarE9()">I</th>
+                                            <th width="30" height="30" id="NceldaE9" onclick="NcomprobarE9()">I</th>
                                             <th width="30" height="30">P</th>
                                         </tr>
 
@@ -1197,25 +1197,25 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                             <th width="30" height="30">W</th>
                                             <th width="30" height="30">N</th>
                                             <th width="30" height="30">L</th>
-                                            <th width="30" height="30" id="NceldaF5" onclick="comprobarF5()">T</th>
+                                            <th width="30" height="30" id="NceldaF5" onclick="NcomprobarF5()">T</th>
                                             <th width="30" height="30">N</th>
                                             <th width="30" height="30">Y</th>
-                                            <th width="30" height="30"id="NceldaF8" onclick="comprobarF8()">F</th>
-                                            <th width="30" height="30"id="NceldaF9" onclick="comprobarF9()">N</th>
-                                            <th width="30" height="30" id="NceldaF10" onclick="comprobarF10()">T</th>
+                                            <th width="30" height="30"id="NceldaF8" onclick="NcomprobarF8()">F</th>
+                                            <th width="30" height="30"id="NceldaF9" onclick="NcomprobarF9()">N</th>
+                                            <th width="30" height="30" id="NceldaF10" onclick="NcomprobarF10()">T</th>
                                         </tr>
 
                                         <tr>
                                             <th width="30" height="30">T</th>
                                             <th width="30" height="30">O</th>
-                                            <th width="30" height="30" id="NceldaG3" onclick="comprobarG3()">O</th>
-                                            <th width="30" height="30" id="NceldaG4" onclick="comprobarG4()">N</th>
-                                            <th width="30" height="30" id="NceldaG5" onclick="comprobarG5()">E</th>
+                                            <th width="30" height="30" id="NceldaG3" onclick="NcomprobarG3()">O</th>
+                                            <th width="30" height="30" id="NceldaG4" onclick="NcomprobarG4()">N</th>
+                                            <th width="30" height="30" id="NceldaG5" onclick="NcomprobarG5()">E</th>
                                             <th width="30" height="30">G</th>
                                             <th width="30" height="30">V</th>
-                                            <th width="30" height="30" id="NceldaG8" onclick="comprobarG8()">I</th>
-                                            <th width="30" height="30" id="NceldaG9" onclick="comprobarG9()">E</th>
-                                            <th width="30" height="30" id="NceldaG10" onclick="comprobarG10()">W</th>
+                                            <th width="30" height="30" id="NceldaG8" onclick="NcomprobarG8()">I</th>
+                                            <th width="30" height="30" id="NceldaG9" onclick="NcomprobarG9()">E</th>
+                                            <th width="30" height="30" id="NceldaG10" onclick="NcomprobarG10()">W</th>
                                         </tr>
 
                                         <tr>
@@ -1226,20 +1226,20 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                             <th width="30" height="30">B</th>
                                             <th width="30" height="30">J</th>
                                             <th width="30" height="30">M</th>
-                                            <th width="30" height="30" id="NceldaH8" onclick="comprobarH8()">V</th>
+                                            <th width="30" height="30" id="NceldaH8" onclick="NcomprobarH8()">V</th>
                                             <th width="30" height="30">H</th>
-                                            <th width="30" height="30" id="NceldaH10" onclick="comprobarH10()">O</th>
+                                            <th width="30" height="30" id="NceldaH10" onclick="NcomprobarH10()">O</th>
                                         </tr>
 
                                         <tr>
                                             <th width="30" height="30">M</th>
                                             <th width="30" height="30">T</th>
                                             <th width="30" height="30">F</th>
-                                            <th width="30" height="30" id="NceldaI4" onclick="comprobarI4()">T</th>
-                                            <th width="30" height="30" id="NceldaI5" onclick="comprobarI5()">H</th>
-                                            <th width="30" height="30" id="NceldaI6" onclick="comprobarI6()">R</th>
-                                            <th width="30" height="30" id="NceldaI7" onclick="comprobarI7()">E</th>
-                                            <th width="30" height="30" id="NceldaI8" onclick="comprobarI8()">E</th>
+                                            <th width="30" height="30" id="NceldaI4" onclick="NcomprobarI4()">T</th>
+                                            <th width="30" height="30" id="NceldaI5" onclick="NcomprobarI5()">H</th>
+                                            <th width="30" height="30" id="NceldaI6" onclick="NcomprobarI6()">R</th>
+                                            <th width="30" height="30" id="NceldaI7" onclick="NcomprobarI7()">E</th>
+                                            <th width="30" height="30" id="NceldaI8" onclick="NcomprobarI8()">E</th>
                                             <th width="30" height="30">X</th>
                                             <th width="30" height="30">T</th>
                                         </tr>
@@ -1250,9 +1250,9 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                             <th width="30" height="30">J</th>
                                             <th width="30" height="30">C</th>
                                             <th width="30" height="30">G</th>
-                                            <th width="30" height="30" id="NceldaJ6" onclick="comprobarJ6()">S</th>
-                                            <th width="30" height="30" id="NceldaJ7" onclick="comprobarJ7()">I</th>
-                                            <th width="30" height="30" id="NceldaJ8" onclick="comprobarJ8()">X</th>
+                                            <th width="30" height="30" id="NceldaJ6" onclick="NcomprobarJ6()">S</th>
+                                            <th width="30" height="30" id="NceldaJ7" onclick="NcomprobarJ7()">I</th>
+                                            <th width="30" height="30" id="NceldaJ8" onclick="NcomprobarJ8()">X</th>
                                             <th width="30" height="30">Y</th>
                                             <th width="30" height="30">N</th>
                                         </tr>
@@ -1280,6 +1280,87 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
 	</div>
 </div>
 
+<div id="ModalLibroDos11AC2" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title"> Write the name of numbers that found: </h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-11b">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points" name="points">
+											<input type="text" class="d-none" id="idcliente" name="idcliente">
+											<input type="text" class="d-none" id="idlibro" name="idlibro">
+										</div>
+									</div>
+									<div>
+                                    <table style="width:95%;" >
+                                        <Tr>
+                                            <Td>
+                                                    1 <input type="text" id="input-one11" size="5" maxlength="3">                                             
+                                            </Td>
+                                            <Td>                                                   
+                                                    2 <input type="text" id="input-two11" size="5" maxlength="3">
+                                            </Td>
+                                            <Td>
+                                                    3 <input type="text" id="input-three11" size="5"  maxlength="5">
+                                            </Td>
+                                            <td>
+                                                    4 <input type="text" id="input-four11" size="5" maxlength="4">
+                                            </td>
+                                            <Td>
+                                                    5 <input type="text" id="input-five11" size="5" maxlength="4">
+                                            </Td>
+                                        </Tr>
+                                        <Tr>
+                                            <Td>
+                                                    6 <input type="text" id="input-six11" size="5" maxlength="3">
+                                            </Td>
+                                            <Td>
+                                                    7 <input type="text" id="input-seven11" size="5"  maxlength="5">
+                                            </Td>
+                                            <td>
+                                                    8 <input type="text" id="input-eight11" size="5" maxlength="5">
+                                            </td>
+                                            <Td>
+                                                    9 <input type="text" id="input-nine11" size="5"  maxlength="4">
+                                            </Td>
+                                            <td>
+                                                    10 <input type="text" id="input-ten11" size="5" maxlength="3">
+                                            </td>
+                                        </Tr>
+                                    </table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
 <!--modal crusigrama pag14 -->
 <div id="ModalLibroDos14" class="modal fade" tabindex="-2">	
 	<!-- <div class="container-fluid"> -->
@@ -1306,7 +1387,8 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                             <script src="../../app/controllers/BookTwoUnitOne/assets/polyfill/dialog-polyfill.js"></script>
                         <script type="text/javascript" src="../../app/controllers/BookTwoUnitOne/main.js"></script>
                             <form class="form" autocomplete="off" method="post" novalidate>
-                                <table>
+                                <div align="center">    
+                                 <table style="width:50%;">
                                     <tr>
                                         <td class="cell cell-black" ></td>
                                         <td class="cell cell-black" ></td>
@@ -2310,18 +2392,19 @@ Book_Page::headerTemplate('UNIT ONE "MY BODY"');
                                         <td class="cell cell-black" ></td>
                                         <td class="cell cell-black" ></td>
                                     </tr>
-                                </table>
-                                <div class="clue-box-container">
-                                    <p class="clue-box"></p>
+                                 </table>
                                 </div>
-                                <div class="btn-group wrapper">
-                                    <button class="btn btn-check2" type="button">
-                                        Mostrar errores
-                                    </button>
-                                    <button class="btn btn-clear" type="reset">
-                                        Borrar todo
-                                    </button>
-                                </div>
+                                    <div class="clue-box-container">
+                                        <p class="clue-box"></p>
+                                    </div>
+                                    <div class="btn-group wrapper">
+                                        <button class="btn btn-check2" type="button">
+                                            Mostrar errores
+                                        </button>
+                                        <button class="btn btn-clear" type="reset">
+                                            Borrar todo
+                                        </button>
+                                    </div>
                             </form>
                         </main>
                          <!-- Scripts -->
