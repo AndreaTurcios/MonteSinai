@@ -3533,7 +3533,6 @@ Book_Page::headerTemplate('Unidad 1');
 							<br>
 						</div>
 					</div>
-				</div>
 			</form>
 		</div>
 	</div>
@@ -3617,114 +3616,13 @@ Book_Page::headerTemplate('Unidad 1');
 							<br>
 						</div>
 					</div>
-				</div>
 			</form>
 		</div>
 	</div>
 </div>
 
-<!-- Página 28  -->
+<!-- Página 28, no agarra, why? -->
 <div id="ModalLibroTreintaycuatro" class="modal fade" tabindex="-34">
-	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">ADJECTIVES: DELICIOUS AND ROUND</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="game-thirtyfour">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<!-- columna -->
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row">
-										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points34" name="points34">
-											<input type="text" class="d-none" id="idcliente34" name="idcliente34">
-											<input type="text" class="d-none" id="idlibro34" name="idlibro34">
-										</div>
-									</div>
-									
-									<div class="row align-items-center">
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-81.png"
-											class="rounded mx-auto d-block">	
-											<div class="row justify-content-md-center justify-content-sm-center">
-												<div class="col-md-8 col-sm-12">
-													<input type="text" id="food-actyo34-81" class="form-control "
-														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Orange">	
-												</div>	
-											</div>									
-																				
-										</div>
-
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-82.png"
-											class="rounded mx-auto d-block">
-											<div class="row justify-content-md-center justify-content-sm-center">	
-												<div class="col-md-8 col-sm-12">									
-													<input type="text" id="food-actyo34-82" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 25px; margin-top: 25px;"
-															placeholder="Melon">			
-												</div>
-											</div>							
-										</div>
-
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-83.png"
-											class="rounded mx-auto d-block">	
-											<div class="row justify-content-md-center justify-content-sm-center">	
-												<div class="col-md-8 col-sm-12">									
-													<input type="text" id="food-actyo34-83" class="form-control"
-														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Coconut">			
-												</div>
-											</div>								
-										</div>
-
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-84.png"
-											class="rounded mx-auto d-block">
-											<div class="row justify-content-md-center justify-content-sm-center">	
-												<div class="col-md-8 col-sm-12">									
-													<input type="text" id="food-actyo34-84" class="form-control"
-														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Tomato">			
-												</div>
-											</div>								
-										</div>
-									</div>
-									
-
-								</div>
-							</div>
-							<br>
-						</div>
-						<br>
-						<!-- Botones de Control -->
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-							<button type="submit" class="btn waves-effect blue tooltipped"
-								data-tooltip="Guardar">Submit</button>
-							<br>
-						</div>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<!-- Página 29, no agarra, why? -->
-<div id="ModalLibroTreintaycinco" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
@@ -3732,7 +3630,7 @@ Book_Page::headerTemplate('Unidad 1');
 				<h5 class="modal-title" id="modal-title">ADJECTIVES: DELICIOUS AND ROUND</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="game-thirtyfive">
+			<form method="post" id="game-thirtyfour">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -3795,11 +3693,11 @@ Book_Page::headerTemplate('Unidad 1');
 							<br>
 						</div>
 					</div>
-				</div>
 			</form>
 		</div>
 	</div>
 </div>
+
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php

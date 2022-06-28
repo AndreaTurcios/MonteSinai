@@ -1146,104 +1146,104 @@ Book_Page::headerTemplate('Unidad 2');
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="game-15">
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-8 align-items-center" align="letf">
-                            <p class="fs-1 fw-bold">Compare the short and the long form. Match the long with the short form of the ordinal numbers.</p>
-                            <!-- class="d-none" -->
-                            <input type="text" class="d-none" id="points15" name="points15">
-                            <input type="text" class="d-none" id="idcliente15" name="idcliente15">
-                            <input type="text" class="d-none" id="idlibro15" name="idlibro15">
+            <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Compare the short and the long form. Match the long with the short form of the ordinal numbers.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points15" name="points15">
+                                <input type="text" class="d-none" id="idcliente15" name="idcliente15">
+                                <input type="text" class="d-none" id="idlibro15" name="idlibro15">
+                            </div>
                         </div>
-                    </div>
-                    <!-- Inicio de modal body-->
-                    <div class="libro6-padre">
-                        <div class="libro6-hijo">
-                            <div class="text-center">fifth</div>
-                            <div id="game-15-num1" class="libro6-placeholder" data-id2="hola"></div>
+                        <!-- Inicio de modal body-->
+                        <div class="libro6-padre">
+                            <div class="libro6-hijo">
+                                <div class="text-center">fifth</div>
+                                <div id="game-15-num1" class="libro6-placeholder" data-id2="hola"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">tenth</div>
+                                <div id="game-15-num2" class="libro6-placeholder"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">eleventh</div>
+                                <div id="game-15-num3" class="libro6-placeholder"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">nineteenth</div>
+                                <div id="game-15-num4" class="libro6-placeholder"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">ninth</div>
+                                <div id="game-15-num5" class="libro6-placeholder"></div>
+                            </div>
                         </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">tenth</div>
-                            <div id="game-15-num2" class="libro6-placeholder"></div>
-                        </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">eleventh</div>
-                            <div id="game-15-num3" class="libro6-placeholder"></div>
-                        </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">nineteenth</div>
-                            <div id="game-15-num4" class="libro6-placeholder"></div>
-                        </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">ninth</div>
-                            <div id="game-15-num5" class="libro6-placeholder"></div>
-                        </div>
-                    </div>
-                    <div id="padre2" class="libro6-padre2">
-                        <div id="game-15-num-1" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="10th">
-                            10th
-                        </div>
-                        <div id="game-15-num-2" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="5th">
-                            5th
-                        </div>
-                        <div id="game-15-num-3" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="19th">
-                            19th
-                        </div>
-                        <div id="game-15-num-4" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="9th">
-                            9th
-                        </div>
-                        <div id="game-15-num-5" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="11th">
-                            11th
+                        <div id="padre2" class="libro6-padre2">
+                            <div id="game-15-num-1" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="10th">
+                                10th
+                            </div>
+                            <div id="game-15-num-2" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="5th">
+                                5th
+                            </div>
+                            <div id="game-15-num-3" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="19th">
+                                19th
+                            </div>
+                            <div id="game-15-num-4" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="9th">
+                                9th
+                            </div>
+                            <div id="game-15-num-5" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="11th">
+                                11th
+                            </div>
+
+                            <div class="contenedor0 libro6-hijo2">
+                            </div>
                         </div>
 
-                        <div class="contenedor0 libro6-hijo2">
+                        <div class="libro6-padre">
+                            <div class="libro6-hijo">
+                                <div class="text-center">first</div>
+                                <div id="game-15-num6" class="libro6-placeholder" data-id2="hola"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">thirteenth</div>
+                                <div id="game-15-num7" class="libro6-placeholder"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">twenty-fifth</div>
+                                <div id="game-15-num8" class="libro6-placeholder"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">twenty-third</div>
+                                <div id="game-15-num9" class="libro6-placeholder"></div>
+                            </div>
+                            <div class="libro6-hijo">
+                                <div class="text-center">seventh</div>
+                                <div id="game-15-num10" class="libro6-placeholder"></div>
+                            </div>
                         </div>
-                    </div>
+                        <div id="padre3" class="libro6-padre2">
+                            <div id="game-15-num-6" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="25th">
+                                25th
+                            </div>
+                            <div id="game-15-num-7" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="13th">
+                                13th
+                            </div>
+                            <div id="game-15-num-8" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="1st">
+                                1st
+                            </div>
+                            <div id="game-15-num-9" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="7th">
+                                7th
+                            </div>
+                            <div id="game-15-num-10" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="23th">
+                                23rd
+                            </div>
 
-                    <div class="libro6-padre">
-                        <div class="libro6-hijo">
-                            <div class="text-center">first</div>
-                            <div id="game-15-num6" class="libro6-placeholder" data-id2="hola"></div>
-                        </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">thirteenth</div>
-                            <div id="game-15-num7" class="libro6-placeholder"></div>
-                        </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">twenty-fifth</div>
-                            <div id="game-15-num8" class="libro6-placeholder"></div>
-                        </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">twenty-third</div>
-                            <div id="game-15-num9" class="libro6-placeholder"></div>
-                        </div>
-                        <div class="libro6-hijo">
-                            <div class="text-center">seventh</div>
-                            <div id="game-15-num10" class="libro6-placeholder"></div>
-                        </div>
-                    </div>
-                    <div id="padre3" class="libro6-padre2">
-                        <div id="game-15-num-6" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="25th">
-                            25th
-                        </div>
-                        <div id="game-15-num-7" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="13th">
-                            13th
-                        </div>
-                        <div id="game-15-num-8" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="1st">
-                            1st
-                        </div>
-                        <div id="game-15-num-9" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="7th">
-                            7th
-                        </div>
-                        <div id="game-15-num-10" class="libro6-contenedor libro6-hijo2" draggable="true" data-id="23th">
-                            23rd
+                            <div class="contenedor0 libro6-hijo2">
+                            </div>
                         </div>
 
-                        <div class="contenedor0 libro6-hijo2">
-                        </div>
                     </div>
-
-                </div>
                 <br>
                 <!-- Botones de Control -->
                 <div class="modal-footer">
@@ -1297,42 +1297,17 @@ Book_Page::headerTemplate('Unidad 2');
             </div>
             <form method="post" id="game-17">
                 <div class="modal-body">
-                    <!-- Inicio de modal body-->
-                    <div class="row">
-                        <div class="col-md-8 align-items-center" align="letf">
-                            <p class="fs-1 fw-bold">Find the words</p>
-                            <!-- class="d-none" -->
-                            <input type="text" class="d-none" id="points17" name="points17">
-                            <input type="text" class="d-none" id="idcliente17" name="idcliente17">
-                            <input type="text" class="d-none" id="idlibro17" name="idlibro17">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 align-items-center">
-                            <div id="words"></div>
-                            <div id="puzzle"></div>
-                        </div>
-                    </div>
+                    <div class="container-fluid">
 
-                    <div class="row">
-                        <div class="col-md-12 align-items-center" align="letf">
-                            <ul id="words">
-                                <li id="add-word">
-                                    <div id="add-word"></div>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
-                    <!--Modal Body -->
-                </div>
-                <br>
-                <!-- Botones de Control -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" id="bottom-game-17" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
                     <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
                 </div>
-
             </form>
         </div>
     </div>
@@ -1908,5 +1883,5 @@ Book_Page::headerTemplate('Unidad 2');
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate6('controladorlibro6.js');
+Book_Page::footerTemplate('controladorlibro6.js');
 ?>

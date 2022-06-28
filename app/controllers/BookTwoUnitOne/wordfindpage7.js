@@ -1,3 +1,4 @@
+var A1,J1
 
 //palabra neck color rojo
 function comprobar1(){
