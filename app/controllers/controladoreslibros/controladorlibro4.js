@@ -11,11 +11,8 @@ document.getElementById('unit1-act1').addEventListener('submit', function (event
         inputs[i] = document.getElementById('input-act1-' + (i+1)).value;
         console.log(inputs.length);
     }
-
-    let promedio, promedios;
-    var pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12, pt13, pt14, pt15, pt16, pt17;
     // declaración de condicionales 
-    if (inputs.includes(undefined)) {
+    if (inputs.includes("")) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }else{
