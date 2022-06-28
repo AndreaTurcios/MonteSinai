@@ -45,7 +45,7 @@ class Book_Page
                 
                 </head>
                 <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
-                <input class="d-none" id="users" name="users" value="' . $_SESSION['id_empleado'] . '"/>                
+                <input class="d-none" id="users" name="users" value="'. $_SESSION['id_empleado'] .'"/>                
             ');
             } else if ($_SESSION['id_tipo_empleado'] == 2) { //Administrador
                 print(' <!DOCTYPE html>
@@ -182,9 +182,9 @@ class Book_Page
             
             </head>
             <body style="background-image: url(../../resources/img/BOOKS/back.jpg);">
-            <input type="hidden"  id="users" name="users" value="' . $_SESSION['id_cliente'] . '"/>
+            <input type="hidden"  id="users" name="users" value="'. $_SESSION['id_cliente'] .'"/>
             '
-
+            
             );
         } else {
             header('location: principal.php');
@@ -195,7 +195,7 @@ class Book_Page
     public static function footerTemplate($game)
     {
         // Se comprueba si existe una sesión de administrador para imprimir el pie respectivo del documento.
-
+       
         print('
         </body>
         <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
@@ -219,6 +219,8 @@ class Book_Page
         print('
         </body>
         <link rel="stylesheet" href="../../resources/js/wordfind/wordfind.css">
+        <link rel="stylesheet" href="../../resources/css/libro/libro6.css">
+        <link rel="stylesheet" href="../../resources/css/libro/libro5.css">
         <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>
         <!-- Script de Bootstrap -->
         <script type="text/javascript" src="../../resources/js/autocomplete.js"></script>
@@ -238,7 +240,7 @@ class Book_Page
     public static function footerTemplateBook2($game)
     {
         // Se comprueba si existe una sesión de administrador para imprimir el pie respectivo del documento.
-
+       
         print('
         </body>
         <script src="https://kit.fontawesome.com/592eb2e9e3.js" crossorigin="anonymous"></script>

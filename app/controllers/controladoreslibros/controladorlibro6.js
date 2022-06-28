@@ -919,11 +919,10 @@ pnum10.addEventListener("dragover", (e) => {
 pnum10.addEventListener("dragleave", (e) => {
   e.target.classList.remove("hover");
 });
-
 /**************************************************
  ******************** GAME 17 **********************
  **************************************************/
-[
+ [
   "america",
   "baby",
   "celebration",
@@ -997,6 +996,7 @@ document.getElementById("game-17").addEventListener("submit", function (event) {
 
   return true;
 });
+
 
 /**************************************************
  ******************** GAME 20 **********************

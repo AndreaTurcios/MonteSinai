@@ -1325,14 +1325,12 @@ Book_Page::headerTemplate('Unidad 2');
                     </div>
                     <!--Modal Body -->
                 </div>
-                <br>
                 <!-- Botones de Control -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="submit" id="bottom-game-17" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
                     <br>
                 </div>
-
             </form>
         </div>
     </div>
