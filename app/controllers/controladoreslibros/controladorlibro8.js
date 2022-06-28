@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-//actividad 1
+//actividad 1 Unidad 4
 document.getElementById('game-1').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -51,9 +51,6 @@ document.getElementById('game-1').addEventListener('submit', function (event) {
             action = 'createact1';
             saveRowActivity(API_ACTIVIDADES, action, 'game-1', 'ModalLibroOcho11')
             sweetAlert(1, 'Good job', null);
-            // var modalregion11 = document.getElementById('ModalLibroOcho11');
-            // var modal11 = bootstrap.Modal.getInstance(modalregion11)
-            // modal11.hide();
             var ModalLibroOcho11 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho11'));
             ModalLibroOcho11.hide();
             return true;
