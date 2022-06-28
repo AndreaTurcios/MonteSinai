@@ -1,3 +1,5 @@
+/* ESTE CONTROLADOR NO SE ESTA OCUPANDO
+
 const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -1799,4 +1801,4 @@ document.getElementById('game-five').addEventListener('submit', function (event)
     }
 
 
-});
+});*/

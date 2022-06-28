@@ -1641,7 +1641,142 @@ document.getElementById('game-thirtyfour').addEventListener('submit', function (
 
 });
 
+document.getElementById('game-thirtyfive').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var answer1, answer2, answer3, answer4;
+    //
+    answer1 = document.getElementById('possesive-act35-1').value;
+    answer2 = document.getElementById('possesive-act35-2').value;
+    answer3 = document.getElementById('possesive-act35-3').value;
+    answer4 = document.getElementById('possesive-act35-4').value;
+    //
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "") {
 
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (answer1 === "This is my book" && answer2 === "This is his book" && answer3 === "My" && answer4 === "His") {
+       
+        // envío de variables a API 
+        promedio35 = 1;
+        var libro = 4;
+        document.getElementById('idcliente35').value = users.value;
+        document.getElementById('points35').value = promedio35;
+        document.getElementById('idlibro35').value = libro;
+        // acciones 
+        action = 'createact35';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfive', 'ModalLibroTreintaycinco');
+        sweetAlert(1, 'Good job', null);
+        return true;
+
+    } else {
+
+        var libro = 4;
+        var puntosact35 = 10;
+        // asignación de puntajes
+        if (answer1 != "This is my book") {
+            puntosact35--
+        }
+        if (answer2 != "This is his book") {
+            puntosact35--
+        }
+        if (answer3 != "My") {
+            puntosact35--
+        }
+        if (answer4 != "His") {
+            puntosact35--
+        }
+        
+        // seteo de valor de puntajes 
+        var conteos35 = puntosact35 / 10;
+        var conteofinal35 = conteos35.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente35').value = users.value;
+        document.getElementById('points35').value = conteofinal35;
+        document.getElementById('idlibro35').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact35';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfive', 'ModalLibroTreintaycinco');
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
+document.getElementById('game-thirtysix').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //
+    var answer1, answer2, answer3, answer4, answer5, answer6;
+    //
+    answer1 = document.getElementById('demostrative-act36-1').value;
+    answer2 = document.getElementById('demostrative-act36-2').value;
+    answer3 = document.getElementById('demostrative-act36-3').value;
+    answer4 = document.getElementById('demostrative-act36-4').value;
+    answer5 = document.getElementById('demostrative-act36-5').value;
+    answer6 = document.getElementById('demostrative-act36-6').value;
+    //
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (answer1 === "This is an apple" && answer2 === "This is a banana" && answer3 === "This is a strawberry" 
+    && answer4 === "That is a pencil" && answer5 === "That is a bag" && answer6 === "That is a dress") {
+       
+        // envío de variables a API 
+        promedio36 = 1;
+        var libro = 4;
+        document.getElementById('idcliente36').value = users.value;
+        document.getElementById('points36').value = promedio36;
+        document.getElementById('idlibro36').value = libro;
+        // acciones 
+        action = 'createact36';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtysix', 'ModalLibroTreintayseis');
+        sweetAlert(1, 'Good job', null);
+        return true;
+
+    } else {
+
+        var libro = 4;
+        var puntosact36 = 10;
+        // asignación de puntajes
+        if (answer1 != "This is an apple") {
+            puntosact36--
+        }
+        if (answer2 != "This is a banana") {
+            puntosact36--
+        }
+        if (answer3 != "This is a strawberry") {
+            puntosact36--
+        }
+        if (answer4 != "That is a pencil") {
+            puntosact36--
+        }
+        if (answer5 != "That is a bag") {
+            puntosact36--
+        }
+        if (answer6 != "That is a dress") {
+            puntosact36--
+        }
+        
+        // seteo de valor de puntajes 
+        var conteos36 = puntosact36 / 10;
+        var conteofinal36 = conteos36.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente36').value = users.value;
+        document.getElementById('points36').value = conteofinal36;
+        document.getElementById('idlibro36').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'createact36';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtysix', 'ModalLibroTreintayseis');
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
 // coloreo ----------------------------------
 // variables
 const colorGrid = document.querySelector('.color-grid');

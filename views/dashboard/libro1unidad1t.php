@@ -3533,10 +3533,10 @@ Book_Page::headerTemplate('Unidad 1');
 							<br>
 						</div>
 					</div>
+				</div>
 			</form>
 		</div>
 	</div>
-</div>
 </div>
 
 <!-- Página 27  -->
@@ -3616,15 +3616,16 @@ Book_Page::headerTemplate('Unidad 1');
 							<br>
 						</div>
 					</div>
+				</div>
 			</form>
 		</div>
 	</div>
 </div>
 
-<!-- Página 28, no agarra, why? -->
+<!-- Página 28 -->
 <div id="ModalLibroTreintaycuatro" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">ADJECTIVES: DELICIOUS AND ROUND</h5>
@@ -3645,41 +3646,63 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro34" name="idlibro34">
 										</div>
 									</div>
-									<div class="row row-cols-2">
-										<div class="col">
-											<div class="col">
-												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-81.png"
-												class="rounded mx-auto d-block">	
-												<input type="text" id="food-actyo34-81" class="form-control"
-													aria-label="Sizing example input" maxlength="100">											
-                                        		</select>
-											</div>
+
+									<div class="row align-items-center">
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-81.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="food-actyo34-81" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Orange">	
+												</div>	
+											</div>									
+
 										</div>
-										<div class="col">
-											<div class="col">
-												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-82.png"
-												class="rounded mx-auto d-block">
-												<input type="text" id="food-actyo34-82" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-82.png"
+											class="rounded mx-auto d-block">
+											<div class="row justify-content-md-center justify-content-sm-center">	
+												<div class="col-md-8 col-sm-12">									
+													<input type="text" id="food-actyo34-82" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Melon">			
+												</div>
+											</div>							
 										</div>
-										<div class="col">
-											<div class="col">
-												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-83.png"
-												class="rounded mx-auto d-block">
-												<input type="text" id="food-actyo34-83" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-83.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">	
+												<div class="col-md-8 col-sm-12">									
+													<input type="text" id="food-actyo34-83" class="form-control"
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Coconut">			
+												</div>
+											</div>								
 										</div>
-										<div class="col">
-											<div class="col">
-												<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-84.png"
-												class="rounded mx-auto d-block">
-												<input type="text" id="food-actyo34-84" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-84.png"
+											class="rounded mx-auto d-block">
+											<div class="row justify-content-md-center justify-content-sm-center">	
+												<div class="col-md-8 col-sm-12">									
+													<input type="text" id="food-actyo34-84" class="form-control"
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Tomato">			
+												</div>
+											</div>								
 										</div>
 									</div>
+
+
 								</div>
 							</div>
 							<br>
@@ -3693,12 +3716,450 @@ Book_Page::headerTemplate('Unidad 1');
 							<br>
 						</div>
 					</div>
+				</div>
 			</form>
 		</div>
 	</div>
 </div>
 
+<!-- Página 29 -->
+<div id="ModalLibroTreintaycinco" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">POSSESIVE: MY, HIS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirtyfive">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points35" name="points35">
+											<input type="text" class="d-none" id="idcliente35" name="idcliente35">
+											<input type="text" class="d-none" id="idlibro35" name="idlibro35">
+										</div>
+									</div>
 
+									<div class="row align-items-center">
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag29/possesive-act35-1.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="possesive-act35-1" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="This is ___ book">	
+												</div>	
+											</div>									
+
+										</div>
+
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag29/possesive-act35-2.png"
+											class="rounded mx-auto d-block">
+											<div class="row justify-content-md-center justify-content-sm-center">	
+												<div class="col-md-8 col-sm-12">									
+													<input type="text" id="possesive-act35-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="This is ___ book">			
+												</div>
+											</div>							
+										</div>
+
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag29/possesive-act35-3.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">	
+												<div class="col-md-8 col-sm-12">									
+													<input type="text" id="possesive-act35-3" class="form-control"
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="My">			
+												</div>
+											</div>								
+										</div>
+
+										<div class="col-6">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag29/possesive-act35-4.png"
+											class="rounded mx-auto d-block">
+											<div class="row justify-content-md-center justify-content-sm-center">	
+												<div class="col-md-8 col-sm-12">									
+													<input type="text" id="possesive-act35-4" class="form-control"
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="His">			
+												</div>
+											</div>								
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 30 -->
+<div id="ModalLibroTreintayseis" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">DEMOSTRATIVE ADJECTIVES: THIS, THAT</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirtysix">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points36" name="points36">
+											<input type="text" class="d-none" id="idcliente36" name="idcliente36">
+											<input type="text" class="d-none" id="idlibro36" name="idlibro36">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag30/demostrative-act36-1.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="demostrative-act36-1" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is an apple">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag30/demostrative-act36-2.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="demostrative-act36-2" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a banana">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag30/demostrative-act36-3.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="demostrative-act36-3" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a strawberry">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag30/demostrative-act36-4.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="demostrative-act36-4" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a pencil">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag30/demostrative-act36-5.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="demostrative-act36-5" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a bag">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag30/demostrative-act36-6.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="demostrative-act36-6" class="form-control"
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a dress">	
+												</div>	
+											</div>									
+										</div>
+
+									</div>
+
+
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 31 -->
+<div id="ModalLibroTreintaysiete" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">I LIKE FRUITS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirtyseven">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points37" name="points37">
+											<input type="text" class="d-none" id="idcliente37" name="idcliente37">
+											<input type="text" class="d-none" id="idlibro37" name="idlibro37">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+										
+										<div class="col-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/ai.png"
+											class="rounded mx-auto d-block">																				
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-1.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-1" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is an apple">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-2.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-2" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a banana">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-3.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-3" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a strawberry">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-4.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-4" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a pencil">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-5.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-5" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a bag">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-6.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-6" class="form-control"
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a dress">	
+												</div>	
+											</div>									
+										</div>
+
+									</div>
+
+									<div class="row align-items-center">
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-1.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-1" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is an apple">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-2.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-2" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a banana">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-3.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-3" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a strawberry">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-4.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-4" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a pencil">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-5.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-5" class="form-control "
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a bag">	
+												</div>	
+											</div>									
+										</div>
+
+										<div class="col-md-4 col-sm-6 col-xs-12">	
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag31/personal-act37-6.png"
+											class="rounded mx-auto d-block">	
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="col-md-8 col-sm-12">
+													<input type="text" id="personal-act37-6" class="form-control"
+														aria-label="Sizing example input" maxlength="100"												
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="___ is a dress">	
+												</div>	
+											</div>									
+										</div>
+
+									</div>
+
+
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
