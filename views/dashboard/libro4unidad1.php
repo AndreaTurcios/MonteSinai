@@ -914,14 +914,14 @@ Book_Page::headerTemplate('Unidad 1');
 </div>
 <!-- </div> -->
 
-<div class="modal fade" id="ModalLibrotestdos" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
+<div class="modal fade" id="ModalUnit1Act2" tabindex="-5">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="game-zero">
+			<form method="post" id="unit1-act2">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -929,14 +929,117 @@ Book_Page::headerTemplate('Unidad 1');
 							<div class="container-fluid">
 								<div class="row align-items-center">
 									<div class="row">
-										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points" name="points">
-											<input type="text" class="d-none" id="idcliente" name="idcliente">
-											<input type="text" class="d-none" id="idlibro" name="idlibro">
+										<div class="col align-items-center">
+											<p class="fs-3 fw-bold">Select the correct translation</p>
+											<input type="text" class="d-none" id="points2" name="points">
+											<input type="text" class="d-none" id="idcliente2" name="idcliente">
+											<input type="text" class="d-none" id="idlibro2" name="idlibro">
 										</div>
 									</div>
-
+									<div class="row row-cols-2">
+										<div class="col">
+											<p class="text-justify">
+											This is a pretty house. <br>
+											It has a <b>garage</b> for three cars. On outdoor is painted with pink color and has a 
+											beautiful <b>garden</b> in the front yard. The <b>backyard</b> is beautiful too in there is another
+											garden.
+											</p>
+										</div>
+										<div class="col">
+											<p class="text-justify" style="display: inline;">
+											Esta es una casa bonita. <br>
+											Tiene una </p> 
+												<select id="select-act2-1" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">cocina</option>
+													<option value="2">cochera</option>
+													<option value="3">baño</option>
+												</select>
+											<p style="display: inline;" class="text-justify"> para tres autos. Por fuera está pintada de color rosado y tiene
+											un </p>
+												<select id="select-act2-2" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="1">baño</option>
+													<option value="2">cuarto</option>
+													<option value="3">jardín</option>
+												</select>
+											<p style="display: inline;" class="text-justify"> hermoso en el patio delantero. El </p> 
+												<select id="select-act2-3" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="1">patio trasero</option>
+													<option value="2">sala de estar</option>
+													<option value="3">comedor</option>
+												</select>
+											<p style="display: inline;" class="text-justify">también es hermoso, ahí hay otro jardín.</p>
+											<br>
+											<br>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p class="text-justify">
+												Inside the house there are three <b>bedrooms</b> in each one, there is a bed, windows,
+												night table and chair.
+											</p>
+										</div>
+										<div class="col">
+											
+											<p class="text-justify" style="display: inline;"> Dentro de la casa hay tres </p>
+												<select id="select-act2-4" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="1">pasillos</option>
+													<option value="2">dormitorios</option>
+													<option value="3">cocheras</option>
+												</select>
+											<p class="text-justify" style="display: inline;">, en cada uno hay una cama, ventanas, mesa de noche y una silla.
+											</p>
+											<br>
+											<br>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p class="text-justify">
+												The <b>kitchen</b> has, in there a white refrigerator, a brown stove with pots over the 
+												burners, there is a table with three chairs around.
+											</p>
+										</div>
+										<div class="col">
+											<p class="text-justify" style="display: inline;">La </p>
+												<select id="select-act2-5" class="form-select" style="width:auto; display: inline-block;" >
+													<option selected disabled class="text-muted" style="color: white;" value="0">Choose</option>
+													<option value="1">sala de estar</option>
+													<option value="2">habitación</option>
+													<option value="3">cocina</option>
+												</select>
+											<p class="text-justify" style="display: inline;">
+												 tiene un refrigerador blanco, una estufa café con ollas sobre los 
+												quemadores, hay una mesa con tres sillas alrededor.
+											</p>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p class="text-justify">
+												The <b>living room</b> is very elegant and has a wonderful chimney, a big window with 
+												beautiful curtains the living room color is white, in there, are a arm chair, two sofas and
+												a center table over the living room's floor is a white carpet.
+											</p>
+										</div>
+										<div class="col">
+											<p class="text-justify" style="display: inline;">La </p>
+												<select id="select-act2-6" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="1">sala de estar</option>
+													<option value="2">cocina</option>
+													<option value="3">cochera</option>
+												</select> 
+											<p class="text-justify" style="display: inline;">es muy elegante y tiene una chimenea maravillosa, una gran ventana con
+												cortunas hermosas, el color de la sala es blanco, ahí hay un sillón, dos sofás y
+												una mesa de centro, sobre el suelo de la sala de estar hay una alformbra blanca.
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -950,7 +1053,7 @@ Book_Page::headerTemplate('Unidad 1');
 							data-tooltip="Guardar">Submit</button>
 						<br>
 					</div>
-				</div>class
+				</div>
 			</form>
 		</div>
 	</div>
