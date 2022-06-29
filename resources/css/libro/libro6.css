@@ -1,0 +1,90 @@
+.crucigrama-juego {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.crucigrama-palabras {
+    margin-top: 10px;
+}
+
+.crucigrama-color-pag36{
+    background-color: #E6ECEC;
+    border: none !important;
+}
+
+.crucigrama-color-pag36 button{
+    background-color: #E6ECEC;
+    color: #3F3D3F ;
+}
+
+.crucigrama-pag36 input{
+    background-color: #E6ECEC;
+    color: #3F3D3F;
+}
+
+/* .crucigrama-palabras ul{
+    column-count: 2;
+}
+*/
+.crucigrama-palabras input {
+    
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+
+
+.crucigrama-palabras li {
+    list-style: none;
+    font-size: 12px;
+}
+
+
+.libro6-indicaciones{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#puzzle-36{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3vw;
+  }
+  
+  #puzzle-36 > div { /* rows */
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 600px) {
+    #puzzle-36 {
+      float: left;
+      padding: 1rem;
+    }
+  }
+
+  /* indicates when a square has been selected */
+#puzzle-36 .selected {
+    background-color: orange;
+  }
+  
+  /* indicates that the square is part of a word that has been found */ 
+  #puzzle-36 .found {
+    background-color: blue;
+    color: white;
+  }
+  
+  #puzzle-36 .solved {
+    background-color: purple;
+    color: white;
+  }
+  
+  /* indicates that all words have been found */
+  #puzzle-36 .complete {
+    background-color: green;
+  }
