@@ -88,3 +88,18 @@
   #puzzle-36 .complete {
     background-color: green;
   }
+
+  .crucigrama-color-pag72{
+    background-color: #E6ECEC;
+    border: none !important;
+}
+
+.crucigrama-color-pag72 button{
+    background-color: #E6ECEC;
+    color: #3F3D3F ;
+}
+
+.crucigrama-pag72 input{
+    background-color: #E6ECEC;
+    color: #3F3D3F;
+}
