@@ -211,7 +211,7 @@ document.getElementById('unit1-act3').addEventListener('submit', function(event)
 
 });
 
-document.getElementById('unit1-act4').addEventListener('submit', function(event) {
+document.getElementById('unit1-act5').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
     
@@ -219,12 +219,12 @@ document.getElementById('unit1-act4').addEventListener('submit', function(event)
     event.preventDefault();
 
     //Arreglos para guardar las respuestas y los datos ingresados
-    let respuestas = ["1", "3", "4", "4", "4"];
+    let respuestas = ["1", "2", "1", "3", "1", "1", "3", "2", "1", "3"];
     let inputs = [];
 
     //Se obtienen los datos ingresados y se ingresan en inputs[]
     for (let i = 0; i < respuestas.length; i++) {
-        inputs[i] = document.getElementById('select-act4-' + (i+1)).value;
+        inputs[i] = document.getElementById('select-act5-' + (i+1)).value;
     }
 
     // declaración de condicionales 
@@ -246,12 +246,12 @@ document.getElementById('unit1-act4').addEventListener('submit', function(event)
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
             var libro = 4;
-            document.getElementById('idcliente2').value = users.value;
-            document.getElementById('points2').value = valorActividad;
-            document.getElementById('idlibro2').value = libro;
+            document.getElementById('idcliente5').value = users.value;
+            document.getElementById('points5').value = valorActividad;
+            document.getElementById('idlibro5').value = libro;
 
             action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act2', 'modal');
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act5', 'modal');
             sweetAlert(1, 'good job', null);
             return true;
         }else{
@@ -259,11 +259,11 @@ document.getElementById('unit1-act4').addEventListener('submit', function(event)
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
             var libro = 4;
-            document.getElementById('idcliente2').value = users.value;
-            document.getElementById('points2').value = points;
-            document.getElementById('idlibro2').value = libro;
+            document.getElementById('idcliente5').value = users.value;
+            document.getElementById('points5').value = points;
+            document.getElementById('idlibro5').value = libro;
             action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act2', 'modal');
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act5', 'modal');
             sweetAlert(4, conteo + '/' + respuestas.length +' answers right', null);
             return true;
         }

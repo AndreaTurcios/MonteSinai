@@ -1336,9 +1336,9 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col align-items-center">
 											<p class="fs-3 fw-bold">Select the correct answer</p>
-											<input type="text" class="d-none" id="points2" name="points">
-											<input type="text" class="d-none" id="idcliente2" name="idcliente">
-											<input type="text" class="d-none" id="idlibro2" name="idlibro">
+											<input type="text" class="d-none" id="points4" name="points">
+											<input type="text" class="d-none" id="idcliente4" name="idcliente">
+											<input type="text" class="d-none" id="idlibro4" name="idlibro">
 										</div>
 									</div>
 									<div class="row">
@@ -1346,7 +1346,7 @@ Book_Page::headerTemplate('Unidad 1');
 									</div>
 									<div class="row">
 										<div class="col">
-											<p style="display: inline;">Is there a sofa in the living room</p>
+											<p style="display: inline;">Is there a sofa in the living room?</p>
 											<select id="select-act4-1" class="form-select" style="width:auto; display: inline-block;" >
 												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
 												<option value="1">Yes, there is.</option>
@@ -1401,6 +1401,160 @@ Book_Page::headerTemplate('Unidad 1');
 												<option value="2">Yes, there are.</option>
 												<option value="3">No, there isn't.</option>
 												<option value="4">No, there aren't.</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act5" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act5">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col align-items-center">
+											<p class="fs-3 fw-bold">Select the correct answer</p>
+											<input type="text" class="d-none" id="points5" name="points">
+											<input type="text" class="d-none" id="idcliente5" name="idcliente">
+											<input type="text" class="d-none" id="idlibro5" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/17-2.jpg" alt="HouseB" class="img-fluid">
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a white kitchen.</p>
+											<select id="select-act5-1" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">Is there a kitchen in the house?</option>
+												<option value="2">Are there a kitchen in the house?</option>
+												<option value="3">There is a kitchen in the house?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a pink living room.</p>
+											<select id="select-act5-2" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">There are a living room in the house?</option>
+												<option value="2">Is there a pink living room in the house?</option>
+												<option value="3">Are there a pink living room in the house?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a blue bedroom.</p>
+											<select id="select-act5-3" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">Is there a blue bedroom in the house?</option>
+												<option value="2">Are there a blue bedroom in the house?</option>
+												<option value="3">There is a blue bedroom in the house?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a small yard.</p>
+											<select id="select-act5-4" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">There a yard in the house?</option>
+												<option value="2">Are there a yard in the house?</option>
+												<option value="3">Is there a yard in the house?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a green sofa.</p>
+											<select id="select-act5-5" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">Is there a green sofa in the living room?</option>
+												<option value="2">Are there a green sofa in the living room?</option>
+												<option value="3">There is a sofa in the living room?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a broadcasting station.</p>
+											<select id="select-act5-6" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">Is there a broadcasting station?</option>
+												<option value="2">There are a broadcasting station</option>
+												<option value="3">Are there a broadcasting station?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a blue dress.</p>
+											<select id="select-act5-7" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">There are a blue dress in the house?</option>
+												<option value="2">Are there a blue dress in the house?</option>
+												<option value="3">Is there a blue dress in the house?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There are brown pants.</p>
+											<select id="select-act5-8" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">Is there brown pants?</option>
+												<option value="2">Are there brown pants?</option>
+												<option value="3">There are brown pants?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a white shirt.</p>
+											<select id="select-act5-9" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">Is there a white shirt?</option>
+												<option value="2">Are there a white shirt?</option>
+												<option value="3">There is a white shirt?</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p style="display: inline;">There is a daughter in the living room.</p>
+											<select id="select-act5-10" class="form-select" style="width:auto; display: inline-block;" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">There are someone in the living room?</option>
+												<option value="2">Are there someone in the living room?</option>
+												<option value="3">Is there someone in the living room?</option>
 											</select>
 										</div>
 									</div>
