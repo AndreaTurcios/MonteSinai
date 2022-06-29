@@ -673,6 +673,80 @@ yepnope({
     </div>
 </div>
 
+<div id="ModalLibroSeis" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the activity - Solve doubts about the content of the page</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-six">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA6U1L11" name="pointsA6U1L11">
+                                <input type="text" class="d-none" id="idlibroA6U1L11" name="idlibroA6U1L11">
+                                <input type="text" class="d-none" id="idclienteA6U1L11" name="idclienteA6U1L11">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Where did Christopher Columbus land in the Americas</h5>
+                                <select name="sentences" id="sent1">
+                                    <option value="1">In the Caribbean</option>
+                                    <option value="2">In Central America</option>
+                                    <option value="3">In the Bahamas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>In which year was Cristopher Columbus born?</h5>
+                                <select name="sentences" id="sent2">
+                                    <option value="1">1456</option>
+                                    <option value="2">1451</option>
+                                    <option value="3">1444</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>The following are examples of famous peoples's lives and accomplishments:</h5>
+                                <select name="sentences" id="sent3">
+                                    <option value="1">Good personality and respectful</option>
+                                    <option value="2">Comfortable life and worldwide recognition</option>
+                                    <option value="3">Cars, big house, and a lot of money</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Achieved celebrity refers to:</h5>
+                                <select name="sentences" id="sent4">
+                                    <option value="1">People who attain intense bursts of fame</option>
+                                    <option value="2">Social impact that derives from recognized talents and accomplishments</option>
+                                    <option value="3">Anybody that has reached the top of fame</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <div id="ModalLibroSiete" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
     <div class="modal-dialog modal-xl">
