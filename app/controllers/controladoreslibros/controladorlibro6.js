@@ -1,7 +1,3 @@
-/**
- * Juegos Tipos
- * SL = Sopa de Letras
- */
 const API_ACTIVIDADES = "../../app/api/proceso_libro.php?action=";
 document.addEventListener("DOMContentLoaded", function () {});
 
@@ -933,8 +929,8 @@ pnum10.addEventListener("dragleave", (e) => {
   "christmas",
   "columbus",
   "cupid",
-  //"customs",
-  //"day",
+  "customs",
+  "day",
 ].map((word) => WordFindGame.insertWordBefore($("#add-word").parent(), word));
 
 function recreate() {
@@ -974,8 +970,8 @@ document.getElementById("game-17").addEventListener("submit", function (event) {
   console.log("respuesta ");
   event.preventDefault();
   if (verificarSummit == "Guardar") {
-    var encontradas = document.getElementsByClassName("wordFound1");
-    var totalPalabras = document.getElementsByClassName("word1");
+    var encontradas = document.getElementsByClassName("wordFound");
+    var totalPalabras = document.getElementsByClassName("word");
     let punto = 1 / totalPalabras.length;
     let totalPunto = 0;
 
@@ -1054,97 +1050,3 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
 
   return true;
 });
-
-/**************************************************
- ******************** GAME 36 **********************
- **************************************************/
-/**
- * Tipo:SL
- */
- [
-  'august',
-  'beautiful',
-  'cold',
-  'december',
-  'delicious',
-  'february',
-  //'friendly',
-  //'hot',
-  //'january',
-  //'july',
-  //'march',
-  //'may',
-  //'november',
-  //'october',
-  //'rainy',
-  //'safe',
-  //'september',
-  //'sunny',
-  //'weather',
-  //'windy'
-].map(word2 => wordfind2Game2.insertWordBefore($('#add-word-36').parent(), word2));
-
-function recreate2() {
-  $('#result-message').removeClass();
-  var fillBlanks, game;
-  try {
-      game = new wordfind2Game2('#puzzle-36', {
-          allowedMissingWords: +$('#allowed-missing-words').val(),
-          maxGridGrowth: +$('#max-grid-growth').val(),
-          fillBlanks: fillBlanks,
-          maxAttempts: 100,
-      });
-  } catch (error) {
-      $('#result-message').text(`😞 ${error}, try to specify less ones`).css({
-          color: 'red'
-      });
-      return;
-  }
-  wordfind2.print(game);
-  if (window.game) {
-      var emptySquaresCount = wordfind2Game2.emptySquaresCount();
-      $('#result-message').text(`😃 ${emptySquaresCount ? 'but there are empty squares' : ''}`).css({
-          color: ''
-      });
-  }
-  window.game = game;
-}
-recreate2();
-
-document.getElementById("game-36").addEventListener("submit", function (event) {
-  // Se evita recargar la página web después de enviar el formulario.
-  //console.log(event);
-  var verificarSummit = event.submitter.dataset.tooltip;
-  //console.log(event.submitter.dataset.tooltip);
-  //console.log("respuesta ");
-  event.preventDefault();
-  if (verificarSummit == "Guardar") {
-    var encontradas = document.getElementsByClassName("wordFound2");
-    var totalPalabras = document.getElementsByClassName("word2");
-    //var totalPalabras = word2.size;
-    let punto = 1 / totalPalabras.length;
-    let totalPunto = 0;
-
-    console.log(encontradas.length);
-    console.log("Total de palabras" + totalPalabras.length);
-    totalPunto = encontradas.length * punto;
-    console.log("Total de puntos " + totalPunto);
-    console.log("Total de puntos " + punto);
-    var notatotal = totalPunto.toFixed(2);
-    var libro = 6;
-    document.getElementById("idcliente36").value = users.value;
-    document.getElementById("points36").value = notatotal;
-    document.getElementById("idlibro36").value = libro;
-    action = "createact36";
-    //console.log("idcliente" + users.value);
-    //console.log("idcliente" + notatotal);
-    //console.log("libro" + libro);
-    //function saveRowActivity(api, action, form, modal) en componente.js helper
-    saveRowActivity(API_ACTIVIDADES, action, "game-36", "ModalLibroSeis36");
-    sweetAlert(1, "Resultados ingresados", null);
-  }
-
-  return true;
-});
-
-
