@@ -673,6 +673,72 @@ yepnope({
     </div>
 </div>
 
+<div id="ModalLibroSiete" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the activity - Interviewing celebrities</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-seven">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA7U1L11" name="pointsA7U1L11">
+                                <input type="text" class="d-none" id="idlibroA7U1L11" name="idlibroA7U1L11">
+                                <input type="text" class="d-none" id="idclienteA7U1L11" name="idclienteA7U1L11">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>What questions would you ask an actress?</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="sentences" id="sentences1">
+                                    <option value="1">Which car is the most difficult to repair?</option>
+                                    <option value="2">What is your favorite programming language?</option>
+                                    <option value="3">What was your first shoot?</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="sentences" id="sentences2">
+                                    <option value="1">What is the most complicated thing about flying?</option>
+                                    <option value="2">What has been your best movie?</option>
+                                    <option value="3">What inspires you when writing a book?</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="sentences" id="sentences3">
+                                    <option value="1">What inspires you to make music?</option>
+                                    <option value="2">Is it difficult to learn the script of the movie?</option>
+                                    <option value="3">What insecticide do you use on your crops?</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
