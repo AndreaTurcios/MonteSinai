@@ -1675,6 +1675,211 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<div class="modal fade" id="ModalUnit1Act7" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act7">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write questions and an answer using: What can I do ...? - I can...</p>
+											<input type="text" class="d-none" id="points7" name="points">
+											<input type="text" class="d-none" id="idcliente7" name="idcliente">
+											<input type="text" class="d-none" id="idlibro7" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p>What can I do in the garden?</p>
+										</div>
+										<div class="col">
+											<p>I can play in the garden</p>
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-1" placeholder="Write a question">
+										</div>
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-2" placeholder="Write an answer">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-3" placeholder="Write a question">
+										</div>
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-4" placeholder="Write an answer">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-5" placeholder="Write a question">
+										</div>
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-6" placeholder="Write an answer">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-7" placeholder="Write a question">
+										</div>
+										<div class="col">
+											<input type="text" autocomplete="off" class="form-control" id="input-act7-8" placeholder="Write an answer">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act8" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act8">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Look at the pictures and answer using the adjectives</p>
+											<input type="text" class="d-none" id="points8" name="points">
+											<input type="text" class="d-none" id="idcliente8" name="idcliente">
+											<input type="text" class="d-none" id="idlibro8" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/21.jpg" alt="Family members" class="img-fluid">
+									</div>
+									<div class="container-act8">
+										<div id="option-act8-1" class="box-act8 text-center m-3" draggable="true" data-id="small">
+											small
+										</div>
+										<div id="option-act8-2" class="box-act8 text-center m-3" draggable="true" data-id="large">
+											large
+										</div>
+										<div id="option-act8-3" class="box-act8 text-center m-3" draggable="true" data-id="big">
+											big
+										</div>
+										<div id="option-act8-4" class="box-act8 text-center m-3" draggable="true" data-id="beautiful">
+											beautiful
+										</div>
+									</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>1. How is the house A?</p>
+												<div id="text-act8-1" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>2. How is the house B?</p>
+												<div id="text-act8-2" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>3. How is the wall of the house A?</p>
+												<div id="text-act8-3" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>4. How is the wall of the house B?</p>
+												<div id="text-act8-4" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>5. How is the furniture of the house A?</p>
+												<div id="text-act8-5" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>6. How is the furniture of the house B?</p>
+												<div id="text-act8-6" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>7. How is the kitchen of the house A?</p>
+												<div id="text-act8-7" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>8. How is the kitchen of the house B?</p>
+												<div id="text-act8-8" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>9. How is your house?</p>
+												<div id="text-act8-9" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>10. How is your living house?</p>
+												<div id="text-act8-10" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>11. How is your bedroom?</p>
+												<div id="text-act8-11" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>12. How is your furniture?</p>
+												<div id="text-act8-12" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>13. How is your garden?</p>
+												<div id="text-act8-13" class="box-act8 text-center"></div>
+											</div>
+											<div class="col"></div>
+										</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 
 <!-- fin modales-->
 

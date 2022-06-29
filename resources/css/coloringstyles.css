@@ -73,6 +73,25 @@
   }
 
   /*
+  *Libro 4
+  **/
+
+  .box-act8{
+    height: 30px ;
+    width: 110px; 
+    background-color: rgb(255, 252, 230); 
+    border-radius: 5px; 
+    border: 1px solid #dbdbdb
+  }
+
+  .container-act8 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ECF7F9;
+    border-radius: 20px;
+  }
+
+  /*
   *Libro 5
   **/
   
