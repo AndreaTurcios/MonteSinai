@@ -278,7 +278,7 @@ Book_Page::headerTemplate('Unidad 4');
                 <h5 class="modal-title" id="modal-title">Select the correct sentences using clothing and personal care items</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form method="post" id="game-1">
+            <form method="post" id="unit4-act1">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
@@ -329,6 +329,93 @@ Book_Page::headerTemplate('Unidad 4');
 </div>
 <!-- fin Actividad 1-->
 <!-- fin Region 11-->
+
+<!-- Actividad 2-->
+<!-- Region 12-->
+<div id="ModalLibroOcho12" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers about more clothing and personal items</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act2">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points2" name="points2">
+                                <input type="text"  class="d-none" id="idlibro2" name="idlibro2">
+								<input type="text"  class="d-none" id="idcliente2" name="idcliente2">
+							</div>
+						</div>
+
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act2-q1">Hi! Maria, are your shoes new?</label>
+								<select name="act2-q1" id="act2-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Hi, Fernanda, how are you?</option>
+									<option value="2">Yes, I bought them yesterday</option><!-- correcto -->
+									<option value="3">I think I'm large</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select name="act2-q2" id="act2-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">What material is it?</option>
+									<option value="2">What color would you like?</option>
+									<option value="3">Do you have a pair of sneakers for me?</option><!-- correcto -->
+								</select>
+								<label for="act2-q2">Sure, I have these in your size</label>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act2-q3">What color do you want for your hat?</label>
+								<select name="act2-q3" id="act2-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">I think I'm large</option>
+									<option value="2">Blue, please</option><!-- correcto -->
+									<option value="3">Wool is fine</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select name="act2-q4" id="act2-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">What material is it?</option><!-- correcto -->
+									<option value="2">What color is it?</option>
+									<option value="3">What size is it?</option>
+								</select>
+								<label for="act2-q4">It's cotton</label>
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 2-->
+<!-- fin Region 12-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
