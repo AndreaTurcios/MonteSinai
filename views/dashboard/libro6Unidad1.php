@@ -1859,16 +1859,48 @@ Book_Page::headerTemplate('Unidad 2');
             </div>
             <form method="post" id="game-36">
                 <div class="modal-body">
-                    <div class="container-fluid">
+                    <!-- Inicio de modal body-->
+                    <div class="row">
+                        <div class="col-md-8 align-items-center" align="letf">
+                            <p class="libro6-indicaciones"> Adjectives, Weather and the Months Search - Find the words. They can be vertical, horizontal or diagonal</p>
+                            <!-- class="d-none" -->
+                            <input type="text" class="d-none" id="points36" name="points36">
+                            <input type="text" class="d-none" id="idcliente36" name="idcliente36">
+                            <input type="text" class="d-none" id="idlibro36" name="idlibro36">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 align-items-center">
+                            <div class="crucigrama-juego">
+                                <div id="words-36" class=""></div>
+                                <div id="puzzle-36" class="crucigrama-color-pag36"></div>
+                            </div>
 
+                        </div>
                     </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
+
+                    <div class="row">
+                        <div class="col-md-6 align-items-center" align="letf">
+                            <div class="crucigrama-palabras crucigrama-pag36">
+                                <ul>
+                                    <ul id="words-36">
+                                        <li id="add-word-36">
+                                            <div id="add-word-36"></div>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <div>
+
+                            </div>
+
+                        </div>
                     </div>
+                    <!--Modal Body -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" data-tooltip="Guardar">Submit</button>
                 </div>
             </form>
         </div>

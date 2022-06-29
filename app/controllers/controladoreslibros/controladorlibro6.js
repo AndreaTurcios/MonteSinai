@@ -928,9 +928,9 @@ pnum10.addEventListener("dragleave", (e) => {
   "celebration",
   "christmas",
   "columbus",
-  "cupid",
+  //"cupid",
   "customs",
-  "day",
+  //"day",
 ].map((word) => WordFindGame.insertWordBefore($("#add-word").parent(), word));
 
 function recreate() {
@@ -970,8 +970,8 @@ document.getElementById("game-17").addEventListener("submit", function (event) {
   console.log("respuesta ");
   event.preventDefault();
   if (verificarSummit == "Guardar") {
-    var encontradas = document.getElementsByClassName("wordFound");
-    var totalPalabras = document.getElementsByClassName("word");
+    var encontradas = document.getElementsByClassName("wordFound1");
+    var totalPalabras = document.getElementsByClassName("word1");
     let punto = 1 / totalPalabras.length;
     let totalPunto = 0;
 
@@ -996,7 +996,6 @@ document.getElementById("game-17").addEventListener("submit", function (event) {
 
   return true;
 });
-
 
 /**************************************************
  ******************** GAME 20 **********************
