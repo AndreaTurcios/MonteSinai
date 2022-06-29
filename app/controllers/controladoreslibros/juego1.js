@@ -110,7 +110,7 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16));
 
         promedios = 1.11;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente').value = users.value;
         document.getElementById('points').value = promedio;
         document.getElementById('idlibro').value = libro;
@@ -126,7 +126,7 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         || twelve !== "e" || sixteen !== "e") {
 
         promedios = 1;
-        var libro = 4;
+        var libro = 1;
         var puntosact1 = 16;
         ///
         if (one != "a") {
@@ -249,18 +249,18 @@ document.getElementById('game-three').addEventListener('submit', function (event
         }
 
         promedio = Math.round(parseFloat(ptact21 + ptact22 + ptact23 + ptact24));
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente3').value = users.value;
         document.getElementById('points3').value = promedio;
         document.getElementById('idlibro3').value = libro;
-        action = 'createact2';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
         sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact21 = 4;
 
         if (s1 != "OPEN your eyes") {
@@ -281,7 +281,7 @@ document.getElementById('game-three').addEventListener('submit', function (event
         document.getElementById('idcliente3').value = users.value;
         document.getElementById('points3').value = conteofinal21;
         document.getElementById('idlibro3').value = libro;
-        action = 'createact2';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -323,18 +323,18 @@ document.getElementById('game-four').addEventListener('submit', function (event)
         }
 
         promedio4 = Math.round(parseFloat(ptact41 + ptact42 + ptact43 + ptact44));
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente4').value = users.value;
         document.getElementById('points4').value = promedio4;
         document.getElementById('idlibro4').value = libro;
-        action = 'createact4';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
         sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact41 = 4;
 
         if (p1 != "I am Maricela") {
@@ -355,7 +355,7 @@ document.getElementById('game-four').addEventListener('submit', function (event)
         document.getElementById('idcliente4').value = users.value;
         document.getElementById('points4').value = conteofinal41;
         document.getElementById('idlibro4').value = libro;
-        action = 'createact4';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -397,18 +397,18 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
         }
 
         promedio5 = Math.round(parseFloat(ptact51 + ptact52 + ptact53 + ptact54));
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente6').value = users.value;
         document.getElementById('points6').value = promedio5;
         document.getElementById('idlibro6').value = libro;
-        action = 'createact6';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');        
         sweetAlert(1, 'Good job', null);
         return true;
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact51 = 4;
 
         if (w1 != "I") {
@@ -429,7 +429,7 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
         document.getElementById('idcliente6').value = users.value;
         document.getElementById('points6').value = conteofinal51;
         document.getElementById('idlibro6').value = libro;
-        action = 'createact6';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');
 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -463,18 +463,18 @@ document.getElementById('game-seven').addEventListener('submit', function (event
 
         // ejecución y envío de variables a API 
         promedio6 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente7').value = users.value;
         document.getElementById('points7').value = promedio6;
         document.getElementById('idlibro7').value = libro;
-        action = 'createact7';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-seven', 'ModalLibroSiete');
         sweetAlert(1, 'good job', null);
         return true;
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact61 = 6;
         // asignación de puntajes
         if (ss1 != "This is a mouth") {
@@ -503,7 +503,7 @@ document.getElementById('game-seven').addEventListener('submit', function (event
         document.getElementById('points7').value = conteofinal61;
         document.getElementById('idlibro7').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact7';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-seven', 'ModalLibroSiete');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -535,12 +535,12 @@ document.getElementById('game-eight').addEventListener('submit', function (event
 
         // envío de variables a API 
         promedio7 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente8').value = users.value;
         document.getElementById('points8').value = promedio7;
         document.getElementById('idlibro8').value = libro;
         // acciones 
-        action = 'createact8';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalLibroOcho');
         //alert
         sweetAlert(1, 'good job', null);
@@ -548,7 +548,7 @@ document.getElementById('game-eight').addEventListener('submit', function (event
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact71 = 4;
         // asignación de puntajes
         if (r1 != "You are my friend") {
@@ -572,7 +572,7 @@ document.getElementById('game-eight').addEventListener('submit', function (event
         document.getElementById('points8').value = conteofinal71;
         document.getElementById('idlibro8').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact8';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalLibroOcho');
         //alert
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -603,12 +603,12 @@ document.getElementById('game-nines').addEventListener('submit', function (event
 
         // envío de variables a API 
         promedio8 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente9').value = users.value;
         document.getElementById('points9').value = promedio8;
         document.getElementById('idlibro9').value = libro;
         // acciones 
-        action = 'createact9';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-nines', 'ModalLibroNueve');
         //alert
         sweetAlert(1, 'good job', null);
@@ -616,7 +616,7 @@ document.getElementById('game-nines').addEventListener('submit', function (event
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact81 = 4;
         // asignación de puntajes
         if (wor1 != "It") {
@@ -640,7 +640,7 @@ document.getElementById('game-nines').addEventListener('submit', function (event
         document.getElementById('points9').value = conteofinal81;
         document.getElementById('idlibro9').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact9';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-nines', 'ModalLibroNueve');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -670,12 +670,12 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
 
         // envío de variables a API 
         promedio9 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente10').value = users.value;
         document.getElementById('points10').value = promedio9;
         document.getElementById('idlibro10').value = libro;
         // acciones 
-        action = 'createact10';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-ten', 'ModalLibroDiez');
         //alert
         sweetAlert(1, 'good job', null);
@@ -683,7 +683,7 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact91 = 4;
         // asignación de puntajes
         if (se1 != "My") {
@@ -706,7 +706,7 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
         document.getElementById('points10').value = conteofinal91;
         document.getElementById('idlibro10').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact10';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-ten', 'ModalLibroDiez');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -735,12 +735,12 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
 
         // envío de variables a API 
         promedio10 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente11').value = users.value;
         document.getElementById('points11').value = promedio10;
         document.getElementById('idlibro11').value = libro;
         // acciones 
-        action = 'createact11';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-eleven', 'ModalLibroOnce');
         //alert
         sweetAlert(1, 'good job', null);
@@ -748,7 +748,7 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact10 = 3;
         // asignación de puntajes
         if (stc1 != "This is your watch") {
@@ -768,7 +768,7 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
         document.getElementById('points11').value = conteofinal10;
         document.getElementById('idlibro11').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact11';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-eleven', 'ModalLibroOnce');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -798,12 +798,12 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
 
         // envío de variables a API 
         promedio12 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente12').value = users.value;
         document.getElementById('points12').value = promedio12;
         document.getElementById('idlibro12').value = libro;
         // acciones 
-        action = 'createact12';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalLibroDoce');
         //alert
         sweetAlert(1, 'good job', null);
@@ -811,7 +811,7 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact12 = 4;
         // asignación de puntajes
         if (ste1 != "Short") {
@@ -834,7 +834,7 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
         document.getElementById('points12').value = conteofinal12;
         document.getElementById('idlibro12').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact12';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalLibroDoce');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -863,12 +863,12 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
 
         // envío de variables a API 
         promedio13 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente13').value = users.value;
         document.getElementById('points13').value = promedio13;
         document.getElementById('idlibro13').value = libro;
         // acciones 
-        action = 'createact13';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
         //alert
         sweetAlert(1, 'good job', null);
@@ -876,7 +876,7 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact13 = 3;
         // asignación de puntajes
         if (stcn1 != "What?") {
@@ -896,7 +896,7 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
         document.getElementById('points13').value = conteofinal13;
         document.getElementById('idlibro13').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact13';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -946,12 +946,12 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
 
         // envío de variables a API 
         promedio14 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente14').value = users.value;
         document.getElementById('points14').value = promedio14;
         document.getElementById('idlibro14').value = libro;
         // acciones 
-        action = 'createact14';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-fourhteen', 'ModalLibroCatorce');
         //alert
         sweetAlert(1, 'good job', null);
@@ -959,7 +959,7 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
     }
     else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact14 = 6;
         // asignación de puntajes
         if (stcne1 != "Red") {
@@ -988,7 +988,7 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
         document.getElementById('points14').value = conteofinal14;
         document.getElementById('idlibro14').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact14';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-fourhteen', 'ModalLibroCatorce');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -1040,12 +1040,12 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
 
         // envío de variables a API 
         promedio25 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente25').value = users.value;
         document.getElementById('points25').value = promedio25;
         document.getElementById('idlibro25').value = libro;
         // acciones
-        action = 'createact25';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
         //alert
         sweetAlert(1, 'Good job', null);
@@ -1091,19 +1091,19 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
 
         // envío de variables a API 
         promedio26 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente26').value = users.value;
         document.getElementById('points26').value = promedio26;
         document.getElementById('idlibro26').value = libro;
         // acciones 
-        action = 'createact26';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalLibroVeintiseis');
         //alert
         sweetAlert(1, 'good job', null);
         return true;
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact26 = 10;
         // asignación de puntajes
         if (nums1 != "One") {
@@ -1144,7 +1144,7 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
         document.getElementById('points26').value = conteofinal26;
         document.getElementById('idlibro26').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact26';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalLibroVeintiseis');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -1183,19 +1183,19 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
 
         // envío de variables a API 
         promedio29 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente29').value = users.value;
         document.getElementById('points29').value = promedio29;
         document.getElementById('idlibro29').value = libro;
         // acciones 
-        action = 'createact29';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twentynine', 'ModalLibroVeintinueve');
         //alert
         sweetAlert(1, 'good job', null);
         return true;
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact29 = 8;
         // asignación de puntajes
         if (actp1 != "e") {
@@ -1230,7 +1230,7 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
         document.getElementById('points29').value = conteofinal29;
         document.getElementById('idlibro29').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact29';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twentynine', 'ModalLibroVeintinueve');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -1266,19 +1266,19 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
 
         // envío de variables a API 
         promedio30 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente30').value = users.value;
         document.getElementById('points30').value = promedio30;
         document.getElementById('idlibro30').value = libro;
         // acciones 
-        action = 'createact30';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirty', 'ModalLibroTreinta');
         //alert
         sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact30 = 6;
         // asignación de puntajes
         if (comp1 != "Miss") {
@@ -1307,7 +1307,7 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
         document.getElementById('points30').value = conteofinal30;
         document.getElementById('idlibro30').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact30';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirty', 'ModalLibroTreinta');
         //alert 
         
@@ -1343,19 +1343,19 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
 
         // envío de variables a API 
         promedio31 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente31').value = users.value;
         document.getElementById('points31').value = promedio31;
         document.getElementById('idlibro31').value = libro;
         // acciones 
-        action = 'createact31';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyone', 'ModalLibroTreintayuno');
         //alert
         sweetAlert(1, 'Good job', null);
         return true;
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact31 = 6;
         // asignación de puntajes
         if (fills1 != "ent") {
@@ -1384,7 +1384,7 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
         document.getElementById('points31').value = conteofinal31;
         document.getElementById('idlibro31').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact31';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyone', 'ModalLibroTreintayuno');
         //alert 
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -1394,27 +1394,28 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
 });
 
 
-document.getElementById('game-five').addEventListener('submit', function (event) {
+document.getElementById('game-fifthteen').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
 
-    if (canvasGrid.style.backgroundColor = pickedColor) {
-        //alert("color");
-
-        promedio = 1.11;
-        var libro = 4;
+    if (document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'The canvas is empty', null);
+        return false;
+    }
+    else
+    {
+        promedio = 1;
+        var libro = 1;
         document.getElementById('idcliente5').value = users.value;
         document.getElementById('points5').value = promedio;
         document.getElementById('idlibro5').value = libro;
 
-        action = 'createact5';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalLibrotsestdodfdfd');
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-fifthteen', 'ModalLibroQuince');
+        sweetAlert(1, 'Good job', null);
+        return true;
     }
-    if (canvasGrid.style.backgroundColor != pickedColor) {
-        //alert("vacio");
-    }
-
 
 });
 
@@ -1454,12 +1455,12 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
 
         // envío de variables a API 
         promedio32 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente32').value = users.value;
         document.getElementById('points32').value = promedio32;
         document.getElementById('idlibro32').value = libro;
         // acciones 
-        action = 'createact32';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
         //alert
         sweetAlert(1, 'good job', null);
@@ -1467,7 +1468,7 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
 
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact32 = 10;
         // asignación de puntajes
         if (f1 != "rice") {
@@ -1508,7 +1509,7 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
         document.getElementById('points32').value = conteofinal32;
         document.getElementById('idlibro32').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact32';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
         //alert
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
@@ -1536,19 +1537,19 @@ document.getElementById('game-thirtythree').addEventListener('submit', function 
        
         // envío de variables a API 
         promedio33 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente33').value = users.value;
         document.getElementById('points33').value = promedio33;
         document.getElementById('idlibro33').value = libro;
         // acciones 
-        action = 'createact33';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtythree', 'ModalLibroTreintaytres');
         sweetAlert(1, 'Good job', null);
         return true;
 
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact33 = 10;
         // asignación de puntajes
         if (frt1 != "Just a minute, please") {
@@ -1569,7 +1570,7 @@ document.getElementById('game-thirtythree').addEventListener('submit', function 
         document.getElementById('points33').value = conteofinal33;
         document.getElementById('idlibro33').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact33';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtythree', 'ModalLibroTreintaytres');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -1597,19 +1598,19 @@ document.getElementById('game-thirtyfour').addEventListener('submit', function (
        
         // envío de variables a API 
         promedio34 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente34').value = users.value;
         document.getElementById('points34').value = promedio34;
         document.getElementById('idlibro34').value = libro;
         // acciones 
-        action = 'createact34';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfour', 'ModalLibroTreintaycuatro');
         sweetAlert(1, 'Good job', null);
         return true;
 
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact34 = 10;
         // asignación de puntajes
         if (frt1 != "Orange") {
@@ -1633,7 +1634,7 @@ document.getElementById('game-thirtyfour').addEventListener('submit', function (
         document.getElementById('points34').value = conteofinal34;
         document.getElementById('idlibro34').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact34';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfour', 'ModalLibroTreintaycuatro');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -1661,19 +1662,19 @@ document.getElementById('game-thirtyfive').addEventListener('submit', function (
        
         // envío de variables a API 
         promedio35 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente35').value = users.value;
         document.getElementById('points35').value = promedio35;
         document.getElementById('idlibro35').value = libro;
         // acciones 
-        action = 'createact35';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfive', 'ModalLibroTreintaycinco');
         sweetAlert(1, 'Good job', null);
         return true;
 
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact35 = 10;
         // asignación de puntajes
         if (answer1 != "This is my book") {
@@ -1697,7 +1698,7 @@ document.getElementById('game-thirtyfive').addEventListener('submit', function (
         document.getElementById('points35').value = conteofinal35;
         document.getElementById('idlibro35').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact35';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfive', 'ModalLibroTreintaycinco');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
@@ -1728,19 +1729,19 @@ document.getElementById('game-thirtysix').addEventListener('submit', function (e
        
         // envío de variables a API 
         promedio36 = 1;
-        var libro = 4;
+        var libro = 1;
         document.getElementById('idcliente36').value = users.value;
         document.getElementById('points36').value = promedio36;
         document.getElementById('idlibro36').value = libro;
         // acciones 
-        action = 'createact36';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtysix', 'ModalLibroTreintayseis');
         sweetAlert(1, 'Good job', null);
         return true;
 
     } else {
 
-        var libro = 4;
+        var libro = 1;
         var puntosact36 = 10;
         // asignación de puntajes
         if (answer1 != "This is an apple") {
@@ -1770,11 +1771,107 @@ document.getElementById('game-thirtysix').addEventListener('submit', function (e
         document.getElementById('points36').value = conteofinal36;
         document.getElementById('idlibro36').value = libro;
         // ejecución y envío de variables a API 
-        action = 'createact36';
+        action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtysix', 'ModalLibroTreintayseis');
         sweetAlert(2, 'Some of the answers are wrong, try it again', null);
         return true;
     }
+
+});
+
+document.getElementById('game-thirtyseven').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglo para guardar los inputs
+    /*let inputs = [];
+    //Llenar los inputs
+    for (let i = 0; i < 5; i++) {
+        inputs[i] = document.getElementById('personal-act37-' + (i + 1)).value;
+    }
+
+    
+    //
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }*/
+    var answer1, answer2, answer3, answer4, answer5, answer6;
+    //
+    answer1 = document.getElementById('personal-act37-1').value;
+    answer2 = document.getElementById('personal-act37-2').value;
+    answer3 = document.getElementById('personal-act37-3').value;
+    answer4 = document.getElementById('personal-act37-4').value;
+
+    //
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    else
+    {
+        // envío de variables a API 
+        promedio37 = 1;
+        var libro = 1;
+        document.getElementById('idcliente37').value = users.value;
+        document.getElementById('points37').value = promedio37;
+        document.getElementById('idlibro37').value = libro;
+        // acciones 
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyseven', 'ModalLibroTreintaysiete');
+        sweetAlert(1, 'Good job', null);
+        return true;
+    }    
+
+});
+
+//FALTA EL 38 
+
+document.getElementById('game-thirtynine').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglo para guardar los inputs
+    /*let inputs = [];
+    //Llenar los inputs
+    for (let i = 0; i < 5; i++) {
+        inputs[i] = document.getElementById('personal-act37-' + (i + 1)).value;
+    }
+
+    
+    //
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }*/
+    var answer1, answer2, answer3, answer4, answer5, answer6;
+    //
+    answer1 = document.getElementById('input-act39-1').value;
+    answer2 = document.getElementById('input-act39-2').value;
+    answer3 = document.getElementById('input-act39-3').value;
+    answer4 = document.getElementById('input-act39-4').value;
+
+    //
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    else
+    {
+        // envío de variables a API 
+        promedio37 = 1;
+        var libro = 1;
+        document.getElementById('idcliente39').value = users.value;
+        document.getElementById('points39').value = promedio37;
+        document.getElementById('idlibro39').value = libro;
+        // acciones 
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtynine', 'ModalLibroTreintaynueve');
+        sweetAlert(1, 'Good job', null);
+        return true;
+    }    
 
 });
 // coloreo ----------------------------------

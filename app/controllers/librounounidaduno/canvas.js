@@ -23,31 +23,33 @@ var clearButton = document.getElementById("clearBtn");
 
 // Clear event listener
 clearBtn.addEventListener("click", function() {
-// Clear canvas1
-paper.project.activeLayer.removeChildren();
-paper.view.draw();
+    // Clear canvas1
+    paper.project.activeLayer.removeChildren();
+    paper.view.draw();
+    document.getElementById("verify-canvas").value = 0;
 });
 
 // Update 
 function update() {
-colorStroke = colorPicker.value;
-widthStroke = widthStrokePicker.value;
+    colorStroke = colorPicker.value;
+    widthStroke = widthStrokePicker.value;
 }
 
 // Check for new color value each second
 setInterval(update, 1000);
 
-    // Define a mousedown and mousedrag handler
-    tool.onMouseDown = function(event) {
-        path = new Path();
-path.strokeWidth = widthStroke;
-        path.strokeColor = colorStroke;
+// Define a mousedown and mousedrag handler
+tool.onMouseDown = function(event) {
+    path = new Path();
+    path.strokeWidth = widthStroke;
+    path.strokeColor = colorStroke;
 // Draw
-        path.add(event.point);
-    }
+    path.add(event.point);
+}
 
-    tool.onMouseDrag = function(event) {
+tool.onMouseDrag = function(event) {
 // Draw
-        path.add(event.point);
-    }
+    path.add(event.point);
+    document.getElementById("verify-canvas").value = 1;
+}
 });
