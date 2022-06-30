@@ -1772,7 +1772,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Look at the pictures and answer using the adjectives</p>
+											<p class="fs-5 fw-bold">Look at the pictures and answer dragging the adjectives</p>
 											<input type="text" class="d-none" id="points8" name="points">
 											<input type="text" class="d-none" id="idcliente8" name="idcliente">
 											<input type="text" class="d-none" id="idlibro8" name="idlibro">
@@ -1862,6 +1862,409 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 											<div class="col"></div>
 										</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act9" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act9">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Look at the illustration of house A, and answer dragging the color.</p>
+											<input type="text" class="d-none" id="points9" name="points">
+											<input type="text" class="d-none" id="idcliente9" name="idcliente">
+											<input type="text" class="d-none" id="idlibro9" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/17-1.jpg" alt="House A" class="img-fluid">
+									</div>
+									<div class="container-act8 mb-2" style="background-color: white;">
+										<div id="option-act9-1" class="box-act8 text-center m-3" draggable="true" data-id="Red" style="background-color: #FF8A8A;">
+											Red
+										</div>
+										<div id="option-act9-2" class="box-act8 text-center m-3" draggable="true" data-id="Brown" style="background-color: #BD8A68;">
+											Brown
+										</div>
+										<div id="option-act9-3" class="box-act8 text-center m-3" draggable="true" data-id="Black" style="background-color: #454545; color: white;">
+											Black
+										</div>
+										<div id="option-act9-4" class="box-act8 text-center m-3" draggable="true" data-id="Orange" style="background-color: #FFB482;">
+											Orange
+										</div>
+										<div id="option-act9-5" class="box-act8 text-center m-3" draggable="true" data-id="Blue" style="background-color: #82A5FF;">
+											Blue
+										</div>
+										<div id="option-act9-6" class="box-act8 text-center m-3" draggable="true" data-id="Green" style="background-color: #A6FF9E;">
+											Green
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<p>What color is the living room?</p>
+											<div id="text-act9-1" class="box-act8 text-center"></div>
+										</div>
+										<div class="col">
+											<p>Whar color is the sofa?</p>
+											<div id="text-act9-2" class="box-act8 text-center"></div>
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<p>What color is the kitchen?</p>
+											<div id="text-act9-3" class="box-act8 text-center"></div>
+										</div>
+										<div class="col">
+											<p>What color are the curtains?</p>
+											<div id="text-act9-4" class="box-act8 text-center"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act10" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act10">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Look at the illustration of house B, and answer dragging the color.</p>
+											<input type="text" class="d-none" id="points10" name="points">
+											<input type="text" class="d-none" id="idcliente10" name="idcliente">
+											<input type="text" class="d-none" id="idlibro10" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/17-2.jpg" alt="House B" class="img-fluid">
+									</div>
+									<div class="container-act8 mb-2" style="background-color: white;">
+										<div id="option-act10-1" class="box-act8 text-center m-3" draggable="true" data-id="Red" style="background-color: #FF8A8A;">
+											Red
+										</div>
+										<div id="option-act10-2" class="box-act8 text-center m-3" draggable="true" data-id="Brown" style="background-color: #BD8A68;">
+											Brown
+										</div>
+										<div id="option-act10-3" class="box-act8 text-center m-3" draggable="true" data-id="Black" style="background-color: #454545; color: white;">
+											Black
+										</div>
+										<div id="option-act10-4" class="box-act8 text-center m-3" draggable="true" data-id="Orange" style="background-color: #FFB482;">
+											Orange
+										</div>
+										<div id="option-act10-5" class="box-act8 text-center m-3" draggable="true" data-id="Blue" style="background-color: #82A5FF;">
+											Blue
+										</div>
+										<div id="option-act10-6" class="box-act8 text-center m-3" draggable="true" data-id="Green" style="background-color: #A6FF9E;">
+											Green
+										</div>
+										<div id="option-act10-7" class="box-act8 text-center m-3" draggable="true" data-id="Green" style="background-color: white">
+											White
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<p>What color is the kitchen?</p>
+											<div id="text-act10-1" class="box-act8 text-center"></div>
+										</div>
+										<div class="col">
+											<p>Whar color is the living room?</p>
+											<div id="text-act10-2" class="box-act8 text-center"></div>
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<p>What color is the bedroom?</p>
+											<div id="text-act10-3" class="box-act8 text-center"></div>
+										</div>
+										<div class="col">
+											<p>What color is the sofa?</p>
+											<div id="text-act10-4" class="box-act8 text-center"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act11" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act11">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the name of the color</p>
+											<input type="text" class="d-none" id="points11" name="points">
+											<input type="text" class="d-none" id="idcliente11" name="idcliente">
+											<input type="text" class="d-none" id="idlibro11" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2" >
+										<div class="col">
+											<div class="row">
+												<div class="col-2" style="border-radius:100%; background-color: red; height:30px; width: 35px;"></div>
+												<div style="display: inline-block;" class="col-10">
+													<input  type="text" autocomplete="off" class="form-control" id="input-act11-1" placeholder="Write the name of the color">
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row">
+												<div class="col-2" style="border-radius:100%; background-color: orange; height:30px; width: 35px;"></div>
+												<div style="display: inline-block;" class="col-10">
+													<input  type="text" autocomplete="off" class="form-control" id="input-act11-2" placeholder="Write the name of the color">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2" >
+										<div class="col">
+											<div class="row">
+												<div class="col-2" style="border-radius:100%; background-color: brown; height:30px; width: 35px;"></div>
+												<div style="display: inline-block;" class="col-10">
+													<input  type="text" autocomplete="off" class="form-control" id="input-act11-3" placeholder="Write the name of the color">
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row">
+												<div class="col-2" style="border-radius:100%; background-color: blue; height:30px; width: 35px;"></div>
+												<div style="display: inline-block;" class="col-10">
+													<input  type="text" autocomplete="off" class="form-control" id="input-act11-4" placeholder="Write the name of the color">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2" >
+										<div class="col">
+											<div class="row">
+												<div class="col-2" style="border-radius:100%; background-color: black; height:30px; width: 35px;"></div>
+												<div style="display: inline-block;" class="col-10">
+													<input  type="text" autocomplete="off" class="form-control" id="input-act11-5" placeholder="Write the name of the color">
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row">
+												<div class="col-2" style="border-radius:100%; background-color: green; height:30px; width: 35px;"></div>
+												<div style="display: inline-block;" class="col-10">
+													<input  type="text" autocomplete="off" class="form-control" id="input-act11-6" placeholder="Write the name of the color">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act12" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act12">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using <b>this</b>, <b>that.</b></p>
+											<input type="text" class="d-none" id="points12" name="points">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act12-1" placeholder="This...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act12-2" placeholder="That...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act12-3" placeholder="This...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act12-4" placeholder="That...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act12-5" placeholder="This...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act12-6" placeholder="That...">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act13" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act13">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using <b>this</b>, <b>that.</b></p>
+											<input type="text" class="d-none" id="points13" name="points">
+											<input type="text" class="d-none" id="idcliente13" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act13-1" placeholder="Write a sentence using in...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act13-2" placeholder="Write a sentence using in...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act13-3" placeholder="Write a sentence using in...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act13-4" placeholder="Write a sentence using in...">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<input type="text" class="form-control mb-3" id="input-act13-5" placeholder="Write a sentence using in...">
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
