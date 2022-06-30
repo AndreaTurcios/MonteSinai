@@ -120,3 +120,19 @@
   background-color: #75C7C8;
   color: white;
 }
+
+/* Page 109**/
+.crucigrama-color-pag109{
+  background-color: #AD61FC;
+  border: none !important;
+}
+
+.crucigrama-color-pag109 button{
+  background-color: #AD61FC;
+  color: white ;
+}
+
+.crucigrama-pag109 input{
+  background-color: #AD61FC;
+  color: white;
+}
