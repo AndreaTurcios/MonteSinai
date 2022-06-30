@@ -631,6 +631,92 @@ Book_Page::headerTemplate('Unidad 4');
 <!-- fin Actividad 3-->
 <!-- fin Region 13-->
 
+<!-- Actividad 4-->
+<!-- Region 14-->
+<div id="ModalLibroOcho14" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers about home appliances prices</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act4">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points4" name="points4">
+                                <input type="text"  class="d-none" id="idlibro4" name="idlibro4">
+								<input type="text"  class="d-none" id="idcliente4" name="idcliente4">
+							</div>
+						</div>
+
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act4-q1">How much is that TV?</label>
+								<select name="act4-q1" id="act4-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">It's $900.00</option><!-- correcto -->
+									<option value="2">Yes, you can pay by credit card</option>
+									<option value="3">I'll take it</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select name="act4-q2" id="act4-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Can I help you?</option>
+									<option value="2">How much is it?</option>
+									<option value="3">Can I pay by credit card?</option><!-- correcto -->
+								</select>
+								<label for="act4-q2">Yes, you can pay with it</label>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act4-q3">Is that refrigerator for sale?</label>
+								<select name="act4-q3" id="act4-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Yes, it's also on sale</option><!-- correcto -->
+									<option value="2">It's $1000.00</option>
+									<option value="3">Yes, you can pay by credit card</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select name="act4-q4" id="act4-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Can I help you?</option><!-- correcto -->
+									<option value="2">Can I pay by credit card?</option>
+									<option value="3">How much is that TV?</option>
+								</select>
+								<label for="act4-q4">Yes, I'd like buy a stereo</label>
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 4-->
+<!-- fin Region 14-->
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
