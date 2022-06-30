@@ -89,6 +89,7 @@
     background-color: green;
   }
 
+  /* Pagina 72**/
   .crucigrama-color-pag72{
     background-color: #E6ECEC;
     border: none !important;
@@ -102,4 +103,20 @@
 .crucigrama-pag72 input{
     background-color: #E6ECEC;
     color: #3F3D3F;
+}
+
+/* Pagina 91**/
+.crucigrama-color-pag91{
+  background-color: #75C7C8;
+  border: none !important;
+}
+
+.crucigrama-color-pag91 button{
+  background-color: #75C7C8;
+  color: white ;
+}
+
+.crucigrama-pag91 input{
+  background-color: #75C7C8;
+  color: white;
 }
