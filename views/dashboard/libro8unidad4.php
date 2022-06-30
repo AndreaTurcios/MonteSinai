@@ -405,8 +405,7 @@ Book_Page::headerTemplate('Unidad 4');
                     <!-- Botones de Control -->
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped"
-                            data-tooltip="Guardar">Submit</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
                         <br>
                     </div>
                 </div>
@@ -416,6 +415,221 @@ Book_Page::headerTemplate('Unidad 4');
 </div>
 <!-- fin Actividad 2-->
 <!-- fin Region 12-->
+
+
+<!-- Actividad 3-->
+<!-- Region 13-->
+<div id="ModalLibroOcho13" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Recognize home appliances and prices</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act3">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<h5>Read and recognize home appliances and prices</h5>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points3" name="points3">
+											<input type="text" class="d-none" id="idcliente3" name="idcliente3">
+											<input type="text" class="d-none" id="idlibro3" name="idlibro3">
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej1.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q1" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Microwave</option>
+													<option value="2">TV on sale</option><!--correct-->
+													<option value="3">Cell phone</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej2.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q2" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Refrigerator</option>
+													<option value="2">Microwave</option><!--correct-->
+													<option value="3">Camcorder</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej3.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q3" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Stove</option>
+													<option value="2">Oven</option>
+													<option value="3">Refrigerator</option><!--correct-->
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej4.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q4" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">DVD</option>
+													<option value="2">Camcorder</option><!--correct-->
+													<option value="3">Cell phone</option>
+												</select>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">	
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej5.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q5" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Cell phone</option><!--correct-->
+													<option value="2">Camcorder</option>
+													<option value="3">DVD</option>
+												</select>
+											</div>
+										</div>
+									
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej6.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q6" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Stereo</option><!--correct-->
+													<option value="2">DVD</option>
+													<option value="3">Oven</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej7.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q7" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Stove</option>
+													<option value="2">Microwave</option>
+													<option value="3">Oven</option><!--correct-->
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej8.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q8" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Cell phone</option>
+													<option value="2">Stereo</option>
+													<option value="3">DVD</option><!--correct-->
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej9.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q9" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Microwave</option>
+													<option value="2">Stove</option><!--correct-->
+													<option value="3">Oven</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag13/act3-ej10.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q10" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">Iron</option><!--correct-->
+													<option value="2">Stove</option>
+													<option value="3">Oven</option>
+												</select>
+											</div>
+										</div>
+
+									
+										<div class="col-6">
+											<h5>Fill out the questionnaire</h5>
+											<div>
+												<label for="act3-q11">How much is the camcorder?</label>
+												<select id="act3-q11" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">$450.00</option>
+													<option value="2">$200.00</option>
+													<option value="3">$400.00</option><!--correct-->
+												</select>
+											</div>
+											<div>
+												<label for="act3-q12">How much is the refrigerator?</label>
+												<select id="act3-q12" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">$1000.00</option><!--correct-->
+													<option value="2">$900.00</option>
+													<option value="3">$600.00</option>
+												</select>
+											</div>
+											<div>
+												<label for="act3-q13">What can you buy with $125.00?</label>
+												<select id="act3-q13" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">An Iron</option>
+													<option value="2">A Stove</option>
+													<option value="3">An oven</option><!--correct-->
+												</select>
+											</div>
+										</div>
+						
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					 <!-- Botones de Control -->
+					 <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin Actividad 3-->
+<!-- fin Region 13-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
