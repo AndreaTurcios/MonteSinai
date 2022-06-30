@@ -4091,13 +4091,13 @@ Book_Page::headerTemplate('Unidad 1');
 
 									<div class="row align-items-center">
 										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-1-beta.png"
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-1.png"
 											class="rounded mx-auto d-block" style="margin-bottom: 10px; margin-top: 10px;">
 											<p class="fw-bold text-center">Is it a mango? </p> 
 
 											<div class="row justify-content-md-center justify-content-sm-center">												
 												<div class="col-4">
-													<p class="fst-normal">No, it is </p> 
+													<p class="fst-normal">No, it is a</p> 
 												</div>
 												<div class="col-4">
 													<input type="text" id="input-act39-1" class="form-control"
@@ -4108,13 +4108,13 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 
 										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-1-beta.png"
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-2.png"
 											class="rounded mx-auto d-block" style="margin-bottom: 10px; margin-top: 10px;">
 											<p class="fw-bold text-center">Is it a coconut? </p> 
 
 											<div class="row justify-content-md-center justify-content-sm-center">												
 												<div class="col-4">
-													<p class="fst-normal">Yes, it is </p> 
+													<p class="fst-normal">Yes, it is a</p> 
 												</div>
 												<div class="col-4">
 													<input type="text" id="input-act39-2" class="form-control"
@@ -4125,7 +4125,7 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 
 										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-1-beta.png"
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-3.png"
 											class="rounded mx-auto d-block" style="margin-bottom: 10px; margin-top: 10px;">
 											<p class="fw-bold text-center">Is it a balloon? </p> 
 
@@ -4137,13 +4137,13 @@ Book_Page::headerTemplate('Unidad 1');
 														style="margin-bottom: 5px;">
 												</div>	
 												<div class="col-4">
-													<p class="fst-normal">it is a balloon</p> 
+													<p class="fst-normal">,it is a balloon</p> 
 												</div>
 											</div>									
 										</div>
 
 										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-1-beta.png"
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-4.png"
 											class="rounded mx-auto d-block" style="margin-bottom: 10px; margin-top: 10px;">
 											<p class="fw-bold text-center">Is it an apple? </p> 
 
@@ -4155,24 +4155,24 @@ Book_Page::headerTemplate('Unidad 1');
 														style="margin-bottom: 5px;">
 												</div>	
 												<div class="col-4">
-													<p class="fst-normal">it is a mango</p> 
+													<p class="fst-normal">,it is a mango</p> 
 												</div>
 											</div>									
 										</div>
 
 										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-1-beta.png"
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag33/isit-act39-5.png"
 											class="rounded mx-auto d-block" style="margin-bottom: 10px; margin-top: 10px;">
 											<p class="fw-bold text-center">Is it an orange? </p> 
 
 											<div class="row justify-content-md-center justify-content-sm-center">												
 												<div class="col-4">
-													<p class="fst-normal">Yes, it is </p> 
+													<p class="fst-normal">Yes, it is an</p> 
 												</div>
 												<div class="col-4">
-													<input type="text" id="input-act39-4" class="form-control"
+													<input type="text" id="input-act39-5" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"> 
 												</div>	
 											</div>									
 										</div>
@@ -4180,6 +4180,1168 @@ Book_Page::headerTemplate('Unidad 1');
 									</div>
 
 
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 34 -->
+<div id="ModalLibroCuarenta" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">CLASSROOM EXPRESSIONS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-forty">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points40" name="points">
+											<input type="text" class="d-none" id="idcliente40" name="idcliente">
+											<input type="text" class="d-none" id="idlibro40" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+										
+										<div class="col-md-6 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag34/classroom-expressions.png"
+											class="rounded mx-auto d-block">																				
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											
+											<div class="row justify-content-md-center justify-content-sm-center">
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<input type="text" id="input-act40-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal"> to the classroom. </p> 
+													</div>		
+												</div>
+																						
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">Be quiet,  </p> 
+													</div>
+													<div class="col-4">
+														<input type="text" id="input-act40-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">Stand  </p> 
+													</div>
+													<div class="col-4">
+														<input type="text" id="input-act40-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<input type="text" id="input-act40-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal"> down.</p> 
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<input type="text" id="input-act40-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal"> at page 5.</p> 
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">Work in  </p> 
+													</div>
+													<div class="col-4">
+														<input type="text" id="input-act40-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>												
+												
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 35 -->
+<div id="ModalLibroCuarentayuno" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">FRUITS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fortyone">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<input type="text" class="d-none" id="points41" name="points">
+											<input type="text" class="d-none" id="idcliente41" name="idcliente">
+											<input type="text" class="d-none" id="idlibro41" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+										<link rel="stylesheet" href="../../app/controllers/BookTwoUnitOne/style.css" />
+										<div class="col-md-12 col-xs-12">
+										<script src="../../app/controllers/BookTwoUnitOne/assets/polyfill/dialog-polyfill.js"></script>
+                        				<script type="text/javascript" src="../../app/controllers/BookTwoUnitOne/main.js"></script>
+											<form class="form" autocomplete="off" method="post" novalidate>
+												<div align="center">    
+													<table style="width:50%;">
+														<tr>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black"></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+														</tr>
+														<tr>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black"></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">
+																<label class="word-number" for="1">1</label>
+																<input
+																	required
+																	id="1"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ww]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">
+																<label class="word-number" for="2">5</label>
+																<input
+																	required
+																	id="2"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Mm]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>															
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<label class="word-number" for="3">2</label>
+																<input
+																	required
+																	id="3"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Pp]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="4"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="5"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Pp]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="6"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="7"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Yy]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<label class="word-number" for="8">8</label>
+																<input
+																	required
+																	id="8"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="9"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Pp]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="10"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Pp]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="11"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ll]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">																
+																<input
+																	required
+																	id="12"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ee]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	              
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">
+																<input
+																	required
+																	id="13"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Tt]"
+																	data-down="1"
+																/>
+															</td>     
+															<td class="cell">
+																<label class="word-number" for="14">4</label>
+																<input
+																	required
+																	id="14"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ll]"
+																	data-down="1"
+																/>
+															</td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">																
+																<input
+																	required
+																	id="15"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Nn]"
+																	data-down="1"
+																/>
+															</td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="16"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ee]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="17"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Uu]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="18"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Gg]"
+																	data-down="1"
+																/>
+															</td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">
+																<label class="word-number" for="14">10</label>
+																<input
+																	required
+																	id="19"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>     
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="20"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Rr]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="21"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Mm]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell">
+																<label class="word-number" for="22">6</label>
+																<input
+																	required
+																	id="22"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Cc]"
+																	data-down="1"
+																/>
+															</td>   
+															<td class="cell">
+																<input
+																	required
+																	id="23"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Oo]"
+																	data-down="1"
+																/>
+															</td>  
+															<td class="cell">
+																<input
+																	required
+																	id="24"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Cc]"
+																	data-down="1"
+																/>
+															</td>   
+															<td class="cell">
+																<input
+																	required
+																	id="25"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Oo]"
+																	data-down="1"
+																/>
+															</td>  
+															<td class="cell">
+																<input
+																	required
+																	id="26"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Nn]"
+																	data-down="1"
+																/>
+															</td>  
+															<td class="cell">
+																<input
+																	required
+																	id="27"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Uu]"
+																	data-down="1"
+																/>
+															</td> 
+															<td class="cell">
+																<input
+																	required
+																	id="28"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Tt]"
+																	data-down="1"
+																/>
+															</td> 
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="29"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Mm]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="30"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ss]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">
+																<input
+																	required
+																	id="31"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Oo]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="32"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ee]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">
+																<input
+																	required
+																	id="33"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Nn]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+														
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="34"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ll]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell">
+																<input
+																	required
+																	id="35"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<label class="word-number" for="36">3</label>
+																<input
+																	required
+																	id="36"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Oo]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="37"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Rr]"
+																	data-down="1"
+																/>
+															</td>	
+															<td class="cell">
+																<input
+																	required
+																	id="38"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>    
+															<td class="cell">
+																<input
+																	required
+																	id="39"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Nn]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<label class="word-number" for="40">7</label>
+																<input
+																	required
+																	id="40"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Gg]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="41"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ee]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell">														
+																<input
+																	required
+																	id="42"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Nn]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="43"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Rr]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<label class="word-number" for="44">9</label>
+																<input
+																	required
+																	id="44"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Bb]"
+																	data-down="1"
+																/>
+															</td>	
+															<td class="cell">
+																<input
+																	required
+																	id="45"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="46"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Nn]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="47"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="48"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Nn]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell">
+																<input
+																	required
+																	id="49"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Aa]"
+																	data-down="1"
+																/>
+															</td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="50"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Pp]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+														<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="51"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ee]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell">
+																<input
+																	required
+																	id="52"
+																	class="letter"
+																	type="text"
+																	maxlength="1"
+																	pattern="[Ee]"
+																	data-down="1"
+																/>
+															</td>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+
+														<tr>
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>	     
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>   
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>
+															<td class="cell cell-black" ></td>    
+															<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>
+														</tr>
+													</table>
+												</div>
+													<div class="row justify-content-md-center justify-content-sm-center">
+														
+														<button class="btn btn-clear" type="reset">
+															Borrar todo
+														</button>
+													</div>
+											</form>																				
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											
+											<div class="row justify-content-md-center justify-content-sm-center">
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<input type="text" id="input-act40-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal"> to the classroom. </p> 
+													</div>		
+												</div>
+																						
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">Be quiet,  </p> 
+													</div>
+													<div class="col-4">
+														<input type="text" id="input-act40-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">Stand  </p> 
+													</div>
+													<div class="col-4">
+														<input type="text" id="input-act40-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<input type="text" id="input-act40-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal"> down.</p> 
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<input type="text" id="input-act40-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal"> at page 5.</p> 
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">Work in  </p> 
+													</div>
+													<div class="col-4">
+														<input type="text" id="input-act40-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>												
+												
+											</div>	
+
+										</div>
+
+									</div>									
 								</div>
 							</div>
 							<br>

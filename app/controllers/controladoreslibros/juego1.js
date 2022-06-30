@@ -1719,7 +1719,7 @@ document.getElementById('game-thirtysix').addEventListener('submit', function (e
     answer5 = document.getElementById('demostrative-act36-5').value;
     answer6 = document.getElementById('demostrative-act36-6').value;
     //
-    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "") {
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "" || answer5 === "" || answer6 === "") {
 
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
@@ -1832,7 +1832,91 @@ document.getElementById('game-thirtynine').addEventListener('submit', function (
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
-    //arreglo para guardar los inputs
+    //arreglo para guardar los inputs 
+    /*let inputs = [];
+    //Llenar los inputs
+    for (let i = 0; i < 5; i++) {
+        inputs[i] = document.getElementById('personal-act37-' + (i + 1)).value;
+    }
+
+    
+    //
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }*/
+    var answer1, answer2, answer3, answer4, answer5;
+    //
+    answer1 = document.getElementById('input-act39-1').value;
+    answer2 = document.getElementById('input-act39-2').value;
+    answer3 = document.getElementById('input-act39-3').value;
+    answer4 = document.getElementById('input-act39-4').value;
+    answer5 = document.getElementById('input-act39-5').value;
+
+    //
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "" || answer5 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (answer1 === "Lemon" && answer2 === "Coconut" && answer3 === "Yes" 
+        && answer4 === "No" && answer5 === "Orange") {
+       
+        // envío de variables a API 
+        promedio36 = 1;
+        var libro = 1;
+        document.getElementById('idcliente39').value = users.value;
+        document.getElementById('points39').value = promedio36;
+        document.getElementById('idlibro39').value = libro;
+        // acciones 
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtynine', 'ModalLibroTreintaynueve');
+        sweetAlert(1, 'Good job', null);
+        return true;
+
+    } else {
+
+        var libro = 1;
+        var puntosact39 = 10;
+        // asignación de puntajes
+        if (answer1 != "Lemon") {
+            puntosact39--
+        }
+        if (answer2 != "Coconut") {
+            puntosact39--
+        }
+        if (answer3 != "Yes") {
+            puntosact39--
+        }
+        if (answer4 != "No") {
+            puntosact39--
+        }
+        if (answer5 != "Orange") {
+            puntosact39--
+        }
+
+        
+        // seteo de valor de puntajes 
+        var conteos39 = puntosact39 / 10;
+        var conteofinal39 = conteos39.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente39').value = users.value;
+        document.getElementById('points39').value = conteofinal39;
+        document.getElementById('idlibro39').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtynine', 'ModalLibroTreintaynueve');
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
+document.getElementById('game-forty').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglo para guardar los inputs 
     /*let inputs = [];
     //Llenar los inputs
     for (let i = 0; i < 5; i++) {
@@ -1847,31 +1931,71 @@ document.getElementById('game-thirtynine').addEventListener('submit', function (
     }*/
     var answer1, answer2, answer3, answer4, answer5, answer6;
     //
-    answer1 = document.getElementById('input-act39-1').value;
-    answer2 = document.getElementById('input-act39-2').value;
-    answer3 = document.getElementById('input-act39-3').value;
-    answer4 = document.getElementById('input-act39-4').value;
-
+    answer1 = document.getElementById('input-act40-1').value;
+    answer2 = document.getElementById('input-act40-2').value;
+    answer3 = document.getElementById('input-act40-3').value;
+    answer4 = document.getElementById('input-act40-4').value;
+    answer5 = document.getElementById('input-act40-5').value;
+    answer6 = document.getElementById('input-act40-6').value;
     //
-    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "") {
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "" || answer5 === "" || answer6 === "") {
 
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }
-    else
-    {
+    if (answer1 === "Go" && answer2 === "please" && answer3 === "up" 
+        && answer4 === "Sit" && answer5 === "Look" && answer6 === "pairs") {
+       
         // envío de variables a API 
-        promedio37 = 1;
+        promedio40 = 1;
         var libro = 1;
-        document.getElementById('idcliente39').value = users.value;
-        document.getElementById('points39').value = promedio37;
-        document.getElementById('idlibro39').value = libro;
+        document.getElementById('idcliente40').value = users.value;
+        document.getElementById('points40').value = promedio40;
+        document.getElementById('idlibro40').value = libro;
         // acciones 
         action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtynine', 'ModalLibroTreintaynueve');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-forty', 'ModalLibroCuarenta');
         sweetAlert(1, 'Good job', null);
         return true;
-    }    
+
+    } else {
+
+        var libro = 1;
+        var puntosact40 = 10;
+        // asignación de puntajes
+        if (answer1 != "Go") {
+            puntosact40--
+        }
+        if (answer2 != "please") {
+            puntosact40--
+        }
+        if (answer3 != "up") {
+            puntosact40--
+        }
+        if (answer4 != "Sit") {
+            puntosact40--
+        }
+        if (answer5 != "Look") {
+            puntosact40--
+        }
+        if (answer6 != "pairs") {
+            puntosact40--
+        }
+
+        
+        // seteo de valor de puntajes 
+        var conteos40 = puntosact40 / 10;
+        var conteofinal40 = conteos40.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente40').value = users.value;
+        document.getElementById('points40').value = conteofinal40;
+        document.getElementById('idlibro40').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-forty', 'ModalLibroCuarenta');
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
 
 });
 // coloreo ----------------------------------
