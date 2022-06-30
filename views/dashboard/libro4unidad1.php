@@ -2534,6 +2534,652 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<div class="modal fade" id="ModalUnit1Act16" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act16">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using each verb</p>
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Eat</p>
+											<input type="text" class="form-control mb-3" id="input-act16-1" placeholder='Write a setence using "eat"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Wash</p>
+											<input type="text" class="form-control mb-3" id="input-act16-2" placeholder='Write a setence using "wash"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Sleep</p>
+											<input type="text" class="form-control mb-3" id="input-act16-3" placeholder='Write a setence using "sleep"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Sit down</p>
+											<input type="text" class="form-control mb-3" id="input-act16-4" placeholder='Write a setence using "sit down"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Take a shower</p>
+											<input type="text" class="form-control mb-3" id="input-act16-5" placeholder='Write a setence using "take a shower"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Study</p>
+											<input type="text" class="form-control mb-3" id="input-act16-6" placeholder='Write a setence using "study"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Play</p>
+											<input type="text" class="form-control mb-3" id="input-act16-7" placeholder='Write a setence using "play"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Talk</p>
+											<input type="text" class="form-control mb-3" id="input-act16-8" placeholder='Write a setence using "talk"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Read</p>
+											<input type="text" class="form-control mb-3" id="input-act16-9" placeholder='Write a setence using "read"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>Run</p>
+											<input type="text" class="form-control mb-3" id="input-act16-10" placeholder='Write a setence using "run"...' autocomplete="off">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act17" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act17">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using possessive adjectives</p>
+											<input type="text" class="d-none" id="points17" name="points">
+											<input type="text" class="d-none" id="idcliente17" name="idcliente">
+											<input type="text" class="d-none" id="idlibro17" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>my</p>
+											<input type="text" class="form-control mb-3" id="input-act17-1" placeholder='Write a setence using "my"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>my</p>
+											<input type="text" class="form-control mb-3" id="input-act17-2" placeholder='Write a setence using "my"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>your</p>
+											<input type="text" class="form-control mb-3" id="input-act17-3" placeholder='Write a setence using "your"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>your</p>
+											<input type="text" class="form-control mb-3" id="input-act17-4" placeholder='Write a setence using "your"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>his</p>
+											<input type="text" class="form-control mb-3" id="input-act17-5" placeholder='Write a setence using "his"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>his</p>
+											<input type="text" class="form-control mb-3" id="input-act17-6" placeholder='Write a setence using "his"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>her</p>
+											<input type="text" class="form-control mb-3" id="input-act17-7" placeholder='Write a setence using "her"...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>her</p>
+											<input type="text" class="form-control mb-3" id="input-act17-8" placeholder='Write a setence using "her"...' autocomplete="off">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act18" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act18">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points18" name="points">
+											<input type="text" class="d-none" id="idcliente18" name="idcliente">
+											<input type="text" class="d-none" id="idlibro18" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col">
+											<table class="table table-striped">
+												<tr class="mb-2" >
+													<td class=" text-center"> one </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 1</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-1"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+														<td>&nbsp;</td>
+													<td class=" text-center">19</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center">twenty</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-2"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center"> 2 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> eighteen</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">18</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center">twenty</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">three </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 3</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">seventeen</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 17 </td>
+													<td>&nbsp;</td>
+													<td class="text-center">=</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-3"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-4"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">4 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> sixteen</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">16</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">five </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 5</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-5"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">15</td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-6"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">6 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> fourteen</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">14</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">seven </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 7</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">thirteen</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 13 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-7"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">eight </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 8</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">twelve</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 12 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-8"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">nine </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 9</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-9"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">11</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">ten </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 10</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">ten</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 10 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-10"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-11"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">11 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> nine</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">9</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">twelve </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 12</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-12"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">8</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-13"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">13 </td>
+													<td>&nbsp;</td>
+													<td class="text-center">+</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> seven</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">7</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">fourteen </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 14</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">six</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 6 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-14"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-15"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">15 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> five</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">5</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">sixteen </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 16</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-16"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">4</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-17"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">17 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> three</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">3</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">eighteen </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 18</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-18"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">2</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act18-19"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">19 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> one</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">1</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">nineteen </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 19</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act18-20"
+														class=" form-control" maxlength="9"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">0</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> twenty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 20</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- fin modales-->
 
 +
