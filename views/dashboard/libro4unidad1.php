@@ -2171,32 +2171,32 @@ Book_Page::headerTemplate('Unidad 1');
 									</div>
 									<div class="row">
 										<div class="col">
-											<input type="text" class="form-control mb-3" id="input-act12-1" placeholder="This...">
+											<input type="text" class="form-control mb-3" id="input-act12-1" placeholder="This..." autocomplete="off">
 										</div>
 									</div>
 									<div class="row">
 										<div class="col">
-											<input type="text" class="form-control mb-3" id="input-act12-2" placeholder="That...">
+											<input type="text" class="form-control mb-3" id="input-act12-2" placeholder="That..." autocomplete="off">
 										</div>
 									</div>
 									<div class="row">
 										<div class="col">
-											<input type="text" class="form-control mb-3" id="input-act12-3" placeholder="This...">
+											<input type="text" class="form-control mb-3" id="input-act12-3" placeholder="This..." autocomplete="off">
 										</div>
 									</div>
 									<div class="row">
 										<div class="col">
-											<input type="text" class="form-control mb-3" id="input-act12-4" placeholder="That...">
+											<input type="text" class="form-control mb-3" id="input-act12-4" placeholder="That..." autocomplete="off">
 										</div>
 									</div>
 									<div class="row">
 										<div class="col">
-											<input type="text" class="form-control mb-3" id="input-act12-5" placeholder="This...">
+											<input type="text" class="form-control mb-3" id="input-act12-5" placeholder="This..." autocomplete="off">
 										</div>
 									</div>
 									<div class="row">
 										<div class="col">
-											<input type="text" class="form-control mb-3" id="input-act12-6" placeholder="That...">
+											<input type="text" class="form-control mb-3" id="input-act12-6" placeholder="That..." autocomplete="off">
 										</div>
 									</div>
 								</div>
@@ -2263,6 +2263,256 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col">
 											<input type="text" class="form-control mb-3" id="input-act13-5" placeholder="Write a sentence using in...">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act14" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act14">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the answers to the riddles</p>
+											<input type="text" class="d-none" id="points14" name="points">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col-4" style="position: relative;">
+											<div style="position: absolute; bottom: 0;">
+												<p> <b>Answer:</b></p>
+												<input type="text" class="form-control mb-3 align-bottom" id="input-act14-1" placeholder="Write your answer." autocomplete="off">
+											</div>
+										</div>
+										<div class="col-8">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/25-1.jpg" class="img-fluid" alt="">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-8">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/25-2.jpg" class="img-fluid" alt="">
+										</div>
+										<div class="col-4" style="position: relative;">
+											<div style="position: absolute; bottom: 40%;">
+												<p> <b>Answer:</b></p>
+												<input type="text" class="form-control mb-3 align-bottom" id="input-act14-2" placeholder="Write your answer." autocomplete="off">
+											</div>
+										</div>
+										
+									</div>
+									<div class="row">
+										<div class="col-4" style="position: relative;">
+											<div style="position: absolute; bottom: 0;">
+												<p> <b>Answer:</b></p>
+												<input type="text" class="form-control mb-3 align-bottom" id="input-act14-3" placeholder="Write your answer." autocomplete="off">
+											</div>
+										</div>
+										<div class="col-8">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/25-3.jpg" class="img-fluid" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act15" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act15">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the missing letters and match the images</p>
+											<input type="text" class="d-none" id="points15" name="points">
+											<input type="text" class="d-none" id="idcliente15" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<!-- bedroom -->
+											<table>
+													<tr>
+														<td class="col-1 text-center">B</td>
+														<td><input type="text" id="input-act15-1"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-2"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-3"
+															class=" form-control" maxlength="1"
+															autocomplete="off"></td>
+														<td><input type="text" id="input-act15-4"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-5"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td class="col-1 text-center">m</td>
+													</tr>
+												</table>
+										</div>
+										<div class="col ps-5" id="box-act15-1">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/26-1.jpg" alt="Kitchen" id="img-act15-1">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<!-- Sofa -->
+											<table>
+													<tr>
+														<td class="col-1"><input type="text" id="input-act15-6"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td class="col-1 text-center">o</td>
+														<td class="col-1"><input type="text" id="input-act15-7"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td class="col-1 text-center">a</td>
+													</tr>
+												</table>
+										</div>
+										<div class="col ps-5" id="box-act15-2">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/26-2.jpg" alt="Yard" id="img-act15-2">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<!-- kitchen -->
+											<table>
+													<tr>
+														<td class="col-1 text-center">K</td>
+														<td><input type="text" id="input-act15-8"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-9"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-10"
+															class=" form-control" maxlength="1"
+															autocomplete="off"></td>
+														<td><input type="text" id="input-act15-11"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-12"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td class="col-1 text-center">n</td>
+													</tr>
+												</table>
+										</div>
+										<div class="col ps-5" id="box-act15-3">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/26-3.jpg" alt="Living room" id="img-act15-3">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<!-- yard -->
+											<table>
+													<tr>
+														<td class="col-1 text-center">Y</td>
+														<td class="col-1"><input type="text" id="input-act15-13"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td class="col-1"><input type="text" id="input-act15-14"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td class="col-1 text-center">d</td>
+													</tr>
+												</table>
+										</div>
+										<div class="col ps-5" id="box-act15-4">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/26-4.jpg" alt="Sofa" id="img-act15-4">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<!-- Livingroom -->
+											<table>
+													<tr>
+														<td class="col-1 text-center">L</td>
+														<td><input type="text" id="input-act15-15"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-16"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-17"
+															class=" form-control" maxlength="1"
+															autocomplete="off"></td>
+														<td><input type="text" id="input-act15-18"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td>g</td>
+														<td><input type="text" id="input-act15-19"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td><input type="text" id="input-act15-20"
+															class=" form-control" maxlength="1"
+															autocomplete="off"></td>
+														<td><input type="text" id="input-act15-21"
+															class=" form-control" maxlength="1"
+															autocomplete="off" ></td>
+														<td class="col-1 text-center">m</td>
+													</tr>
+												</table>
+										</div>
+										<div class="col ps-5" id="box-act15-5">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/26-5.jpg" alt="Bedroom" id="img-act15-5">
 										</div>
 									</div>
 								</div>
