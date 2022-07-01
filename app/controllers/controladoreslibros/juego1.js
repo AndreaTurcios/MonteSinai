@@ -118,6 +118,7 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-one', 'ModalLibroUno');
         sweetAlert(1, 'Good job!', null);
+        $('#ModalLibroUno').modal('hide');
         return true;
 
     } else if (one !== "a" || five !== "r" || nine !== "a" || thirdteen !== "o" || two !== "c" || six !== "o"
@@ -196,8 +197,6 @@ document.getElementById('game-one').addEventListener('submit', function (event) 
 
         promedio = Math.round(parseFloat(pt1 + pt2 + pt3 + pt4 + pt5 + pt6 + pt7 + pt8 + pt9 + pt10 + pt11 + pt12 + pt13 + pt14 + pt15 + pt16));
 
-        console.log()
-        console.log();
         var conteofinal1 = puntosact1 / 16;
 
         document.getElementById('idcliente').value = users.value;
@@ -256,6 +255,7 @@ document.getElementById('game-three').addEventListener('submit', function (event
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalLibroTres');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTres').modal('hide');
         return true;
     }
     else {
@@ -287,7 +287,6 @@ document.getElementById('game-three').addEventListener('submit', function (event
         return true;
     }
 });
-
 
 document.getElementById('game-four').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -330,6 +329,7 @@ document.getElementById('game-four').addEventListener('submit', function (event)
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalLibroCuatro');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroCuatro').modal('hide');
         return true;
     }
     else {
@@ -404,6 +404,7 @@ document.getElementById('game-six').addEventListener('submit', function (event) 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-six', 'ModalLibroSeis');        
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroSeis').modal('hide');
         return true;
     }
     else {
@@ -469,7 +470,8 @@ document.getElementById('game-seven').addEventListener('submit', function (event
         document.getElementById('idlibro7').value = libro;
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-seven', 'ModalLibroSiete');
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroSiete').modal('hide');
         return true;
     }
     else {
@@ -543,7 +545,8 @@ document.getElementById('game-eight').addEventListener('submit', function (event
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalLibroOcho');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroOcho').modal('hide');
         return true;
     }
     else {
@@ -611,7 +614,8 @@ document.getElementById('game-nines').addEventListener('submit', function (event
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-nines', 'ModalLibroNueve');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroNueve').modal('hide');
         return true;
     }
     else {
@@ -678,7 +682,8 @@ document.getElementById('game-ten').addEventListener('submit', function (event) 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-ten', 'ModalLibroDiez');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroDiez').modal('hide');
         return true;
     }
     else {
@@ -744,6 +749,7 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
         saveRowActivity(API_ACTIVIDADES, action, 'game-eleven', 'ModalLibroOnce');
         //alert
         sweetAlert(1, 'good job', null);
+        $('#ModalLibroOnce').modal('hide');
         return true;
     }
     else {
@@ -806,7 +812,8 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalLibroDoce');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroDoce').modal('hide');
         return true;
     }
     else {
@@ -871,7 +878,8 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTrece').modal('hide');
         return true;
     }
     else {
@@ -906,24 +914,9 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
 
 });
 
-
-
 document.getElementById('game-fourhteen').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
-    // creación de arrays para comparación
-    var arr1 = ['Red', 'Red', 'Red', 'Red', 'Red', 'Red'];
-    var comp_arr1 = [];
-    var arr2 = ['Green', 'Green', 'Green', 'Green', 'Green', 'Green'];
-    var comp_arr2 = [];
-    var arr3 = ['Blue', 'Blue', 'Blue', 'Blue', 'Blue', 'Blue'];
-    var comp_arr3 = [];
-    var arr4 = ['Black', 'Black', 'Black', 'Black', 'Black', 'Black'];
-    var comp_arr4 = [];
-    var arr4 = ['Brown', 'Brown', 'Brown', 'Brown', 'Brown', 'Brown'];
-    var comp_arr5 = [];
-    var arr4 = ['Yellow', 'Yellow', 'Yellow', 'Yellow', 'Yellow', 'Yellow'];
-    var comp_arr6 = [];
     //
     var stcne1, stcne2, stcne3, stcne4, stcne5, stcne6;
     let promedio14;
@@ -954,7 +947,8 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-fourhteen', 'ModalLibroCatorce');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroCatorce').modal('hide');
         return true;
     }
     else {
@@ -1046,9 +1040,10 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
         document.getElementById('idlibro25').value = libro;
         // acciones
         action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece');
+        saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroVeinticinco');
         //alert
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroVeinticinco').modal('hide');
         return true;
     }
     else if (choice3.checked === false && choice5.checked === false
@@ -1061,7 +1056,6 @@ document.getElementById('game-twentyfive').addEventListener('submit', function (
     }
 
 });
-
 
 document.getElementById('game-twentysix').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -1099,7 +1093,8 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalLibroVeintiseis');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroVeintiseis').modal('hide');
         return true;
     } else {
 
@@ -1154,7 +1149,6 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
 
 });
 
-
 document.getElementById('game-twentynine').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1191,7 +1185,8 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-twentynine', 'ModalLibroVeintinueve');
         //alert
-        sweetAlert(1, 'good job', null);
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroVeintinueve').modal('hide');
         return true;
     } else {
 
@@ -1240,7 +1235,6 @@ document.getElementById('game-twentynine').addEventListener('submit', function (
 
 });
 
-
 document.getElementById('game-thirty').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1274,6 +1268,7 @@ document.getElementById('game-thirty').addEventListener('submit', function (even
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirty', 'ModalLibroTreinta');
         //alert
+        $('#ModalLibroTreinta').modal('hide');
         sweetAlert(1, 'Good job', null);
         return true;
     } else {
@@ -1352,6 +1347,7 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyone', 'ModalLibroTreintayuno');
         //alert
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTreintayuno').modal('hide');
         return true;
     } else {
 
@@ -1393,7 +1389,6 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
 
 });
 
-
 document.getElementById('game-fifthteen').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1414,6 +1409,7 @@ document.getElementById('game-fifthteen').addEventListener('submit', function (e
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-fifthteen', 'ModalLibroQuince');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroQuince').modal('hide');
         return true;
     }
 
@@ -1424,7 +1420,7 @@ document.getElementById('game-fifthteen').addEventListener('submit', function (e
 //     // Se evita recargar la página web después de enviar el formulario.
 //     event.preventDefault();
 // });
-
+//FALTA DE COMPLETAR
 document.getElementById('game-thirtytwo').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1462,6 +1458,7 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
         // acciones 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
+        $('#ModalLibroTreintaydos').modal('hide');
         //alert
         sweetAlert(1, 'good job', null);
         return true;
@@ -1517,7 +1514,6 @@ document.getElementById('game-thirtytwo').addEventListener('submit', function (e
     }
 });
 
-
 document.getElementById('game-thirtythree').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1545,6 +1541,7 @@ document.getElementById('game-thirtythree').addEventListener('submit', function 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtythree', 'ModalLibroTreintaytres');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTreintaytres').modal('hide');
         return true;
 
     } else {
@@ -1572,7 +1569,7 @@ document.getElementById('game-thirtythree').addEventListener('submit', function 
         // ejecución y envío de variables a API 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtythree', 'ModalLibroTreintaytres');
-        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);        
         return true;
     }
 
@@ -1606,6 +1603,7 @@ document.getElementById('game-thirtyfour').addEventListener('submit', function (
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfour', 'ModalLibroTreintaycuatro');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTreintaycuatro').modal('hide');
         return true;
 
     } else {
@@ -1670,6 +1668,7 @@ document.getElementById('game-thirtyfive').addEventListener('submit', function (
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyfive', 'ModalLibroTreintaycinco');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTreintaycinco').modal('hide');
         return true;
 
     } else {
@@ -1737,6 +1736,7 @@ document.getElementById('game-thirtysix').addEventListener('submit', function (e
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtysix', 'ModalLibroTreintayseis');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTreintayseis').modal('hide');
         return true;
 
     } else {
@@ -1821,6 +1821,7 @@ document.getElementById('game-thirtyseven').addEventListener('submit', function 
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyseven', 'ModalLibroTreintaysiete');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroTreintaysiete').modal('hide');
         return true;
     }    
 
@@ -1929,6 +1930,7 @@ document.getElementById('game-forty').addEventListener('submit', function (event
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     }*/
+
     var answer1, answer2, answer3, answer4, answer5, answer6;
     //
     answer1 = document.getElementById('input-act40-1').value;
@@ -1947,7 +1949,7 @@ document.getElementById('game-forty').addEventListener('submit', function (event
         && answer4 === "Sit" && answer5 === "Look" && answer6 === "pairs") {
        
         // envío de variables a API 
-        promedio40 = 1;
+        let promedio40 = 1;
         var libro = 1;
         document.getElementById('idcliente40').value = users.value;
         document.getElementById('points40').value = promedio40;
@@ -1956,6 +1958,7 @@ document.getElementById('game-forty').addEventListener('submit', function (event
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'game-forty', 'ModalLibroCuarenta');
         sweetAlert(1, 'Good job', null);
+        $('#ModalLibroCuarenta').modal('hide');
         return true;
 
     } else {
@@ -1998,6 +2001,144 @@ document.getElementById('game-forty').addEventListener('submit', function (event
     }
 
 });
+
+document.getElementById('game-fortyone').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    
+
+    var answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10, answer11, answer12, answer13, answer14, answer15, answer16, answer17, answer18, answer19, answer20;
+    //
+    answer1 = document.getElementById('input-act41-1').value;
+    answer2 = document.getElementById('input-act41-2').value;
+    answer3 = document.getElementById('input-act41-3').value;
+    answer4 = document.getElementById('input-act41-4').value;
+    answer5 = document.getElementById('input-act41-5').value;
+    answer6 = document.getElementById('input-act41-6').value;
+    answer7 = document.getElementById('input-act41-7').value;
+    answer8 = document.getElementById('input-act41-8').value;
+    answer9 = document.getElementById('input-act41-9').value;
+    answer10 = document.getElementById('input-act41-10').value;
+    answer11 = document.getElementById('input-act41-11').value;
+    answer12 = document.getElementById('input-act41-12').value;
+    answer13 = document.getElementById('input-act41-13').value;
+    answer14 = document.getElementById('input-act41-14').value;
+    answer15 = document.getElementById('input-act41-15').value;
+    answer16 = document.getElementById('input-act41-16').value;
+    answer17 = document.getElementById('input-act41-17').value;
+    answer18 = document.getElementById('input-act41-18').value;
+    answer19 = document.getElementById('input-act41-19').value;
+    answer20 = document.getElementById('input-act41-20').value;
+    //
+    if (answer1 === "" || answer2 === "" || answer3 === "" || answer4 === "" || answer5 === "" 
+        || answer6 === "" || answer7 === "" || answer8 === "" || answer9 === "" || answer10 === ""
+        || answer11 === "" || answer12 === "" || answer13 === "" || answer14 === "" || answer15 === "" 
+        || answer16 === "" || answer17 === "" || answer18 === "" || answer19 === "" || answer20 === "") {
+
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+    if (answer1 === "a" && answer2 === "a" && answer3 === "a" && answer4 === "a" && answer5 === "e"
+        && answer6 === "m" && answer7 === "n" && answer8 === "o" && answer9 === "o" && answer10 === "o"
+        && answer11 === "u" && answer12 === "a" && answer13 === "e" && answer14 === "e" && answer15 === "a"
+        && answer16 === "a" && answer17 === "a" && answer18 === "a" && answer19 === "o" && answer20 === "a") {
+       
+        // envío de variables a API 
+        promedio41 = 1;
+        var libro = 1;
+        document.getElementById('idcliente41').value = users.value;
+        document.getElementById('points41').value = promedio41;
+        document.getElementById('idlibro41').value = libro;
+        // acciones 
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-fortyone', 'ModalLibroCuarentayuno');
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroCuarenta').modal('hide');
+        return true;
+
+    } else {
+
+        var libro = 1;
+        var puntosact41 = 10;
+        // asignación de puntajes
+        if (answer1 != "a") {
+            puntosact41--
+        }
+        if (answer2 != "a") {
+            puntosact41--
+        }
+        if (answer3 != "a") {
+            puntosact41--
+        }
+        if (answer4 != "a") {
+            puntosact41--
+        }
+        if (answer5 != "e") {
+            puntosact41--
+        }
+        if (answer6 != "m") {
+            puntosact41--
+        }
+        if (answer7 != "n") {
+            puntosact41--
+        }
+        if (answer8 != "o") {
+            puntosact41--
+        }
+        if (answer9 != "o") {
+            puntosact41--
+        }
+        if (answer10 != "o") {
+            puntosact41--
+        }
+        if (answer11 != "u") {
+            puntosact41--
+        }
+        if (answer12 != "a") {
+            puntosact41--
+        }
+        if (answer13 != "e") {
+            puntosact41--
+        }
+        if (answer14 != "e") {
+            puntosact41--
+        }
+        if (answer15 != "a") {
+            puntosact41--
+        }
+        if (answer16 != "a") {
+            puntosact41--
+        }
+        if (answer17 != "a") {
+            puntosact41--
+        }
+        if (answer18 != "a") {
+            puntosact41--
+        }
+        if (answer19 != "o") {
+            puntosact41--
+        }
+        if (answer20 != "a") {
+            puntosact41--
+        }
+
+        
+        // seteo de valor de puntajes 
+        var conteos41 = puntosact41 / 10;
+        var conteofinal41 = conteos41.toFixed(2);
+        //asignación de valores 
+        document.getElementById('idcliente41').value = users.value;
+        document.getElementById('points41').value = conteofinal41;
+        document.getElementById('idlibro41').value = libro;
+        // ejecución y envío de variables a API 
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-fortyone', 'ModalLibroCuarentayuno');
+        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
+        return true;
+    }
+
+});
+
 // coloreo ----------------------------------
 // variables
 const colorGrid = document.querySelector('.color-grid');

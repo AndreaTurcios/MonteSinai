@@ -4351,10 +4351,10 @@ Book_Page::headerTemplate('Unidad 1');
 									</div>
 
 									<div class="row align-items-center">
-										<link rel="stylesheet" href="../../app/controllers/BookTwoUnitOne/style.css" />
+										<link rel="stylesheet" href="../../app/controllers/BookOneUnitOne/style.css" />
 										<div class="col-md-12 col-xs-12">
-										<script src="../../app/controllers/BookTwoUnitOne/assets/polyfill/dialog-polyfill.js"></script>
-                        				<script type="text/javascript" src="../../app/controllers/BookTwoUnitOne/main.js"></script>
+											<script src="../../app/controllers/BookOneUnitOne/assets/polyfill/dialog-polyfill.js"></script>
+                        					<!--Se elimino el script main.js aquí ya que tuvo conflicto con el canvas, hizo que dejara de funcionar -->
 											<form class="form" autocomplete="off" method="post" novalidate>
 												<div align="center">    
 													<table style="width:50%;">
@@ -5172,7 +5172,7 @@ Book_Page::headerTemplate('Unidad 1');
 														</tr>
 
 														<tr>
-														<td class="cell cell-black" ></td>	
+															<td class="cell cell-black" ></td>	
 															<td class="cell cell-black" ></td>
 															<td class="cell cell-black" ></td>
 															<td class="cell cell-black" ></td>	     
@@ -5220,7 +5220,7 @@ Book_Page::headerTemplate('Unidad 1');
 																	class="letter"
 																	type="text"
 																	maxlength="1"
-																	pattern="[Ee]"
+																	pattern="[Ss]"
 																	data-down="1"
 																/>
 															</td>
@@ -5260,82 +5260,255 @@ Book_Page::headerTemplate('Unidad 1');
 												</div>
 													<div class="row justify-content-md-center justify-content-sm-center">
 														
-														<button class="btn btn-clear" type="reset">
-															Borrar todo
+														<button class="btn btn-success btn-clear" type="reset" style="margin-top: 10px; margin-bottom: 10px;">
+															Clean
 														</button>
+
 													</div>
 											</form>																				
 										</div>
 
-										<div class="col-md-6 col-sm-12 col-xs-12">
+										<div class="col-md-12 col-sm-12 col-xs-12">
 											
 											<div class="row justify-content-md-center justify-content-sm-center">
-												
-												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-4">
-														<input type="text" id="input-act40-1" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
+
+												<div class="col-6">
+													
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">1.</p> 
+														</div>	
+														<div class="col-1">
+															<p class="fst-normal">W</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-1" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-3">
+															<p class="fst-normal">termelon</p> 
+														</div>		
+									 				</div>
+																							
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">2.</p> 
+														</div>	
+														<div class="col-1">
+															<p class="fst-normal">P</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-2" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">p</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-3" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">y</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-4" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
 													</div>
-													<div class="col-4">
-														<p class="fst-normal"> to the classroom. </p> 
-													</div>		
+													
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">3.</p> 
+														</div>	
+														<div class="col-2">
+															<p class="fst-normal">Orang</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-5" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>															
+													</div>
+
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">4.</p> 
+														</div>	
+														<div class="col-2">
+															<p class="fst-normal">Plu</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-6" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">s</p> 
+														</div>															
+													</div>
+
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">5.</p> 
+														</div>	
+														<div class="col-2">
+															<p class="fst-normal">Ma</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-7" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">g</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-8" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>														
+													</div>
+														
+												</div>
+
+												<div class="col-6">
+
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">6.</p> 
+														</div>	
+														<div class="col-1">
+															<p class="fst-normal">C</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-9" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">c</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-10" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">n</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-11" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">t</p> 
+														</div>
+													</div>
+																							
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">7.</p> 
+														</div>	
+														<div class="col-2">
+															<p class="fst-normal">Gr</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-12" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">p</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-13" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>	
+														<div class="col-1">
+															<p class="fst-normal">s</p> 
+														</div>													
+													</div>
+													
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">8.</p> 
+														</div>	
+														<div class="col-2">
+															<p class="fst-normal">Appl</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-14" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>															
+													</div>
+
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">9.</p> 
+														</div>	
+														<div class="col-1">
+															<p class="fst-normal">B</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-15" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">n</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-16" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">n</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-17" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>														
+													</div>
+
+													<div class="row justify-content-md-center justify-content-sm-center mb-2">
+														<div class="col-1">
+															<p class="fst-normal">10.</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-18" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">n</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-19" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+														<div class="col-1">
+															<p class="fst-normal">n</p> 
+														</div>	
+														<div class="col-2">
+															<input type="text" id="input-act41-20" class="form-control"
+																aria-label="Sizing example input" maxlength="1"												
+																style="margin-bottom: 5px;">
+														</div>
+													</div>
+														
 												</div>
 																						
-												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-4">
-														<p class="fst-normal">Be quiet,  </p> 
-													</div>
-													<div class="col-4">
-														<input type="text" id="input-act40-2" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
-													</div>
-												</div>
-												
-												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-4">
-														<p class="fst-normal">Stand  </p> 
-													</div>
-													<div class="col-4">
-														<input type="text" id="input-act40-3" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
-													</div>
-												</div>
-
-												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-4">
-														<input type="text" id="input-act40-4" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
-													</div>
-													<div class="col-4">
-														<p class="fst-normal"> down.</p> 
-													</div>
-												</div>
-
-												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-4">
-														<input type="text" id="input-act40-5" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
-													</div>
-													<div class="col-4">
-														<p class="fst-normal"> at page 5.</p> 
-													</div>
-												</div>
-
-												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-4">
-														<p class="fst-normal">Work in  </p> 
-													</div>
-													<div class="col-4">
-														<input type="text" id="input-act40-6" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
-													</div>
-												</div>												
 												
 											</div>	
 
