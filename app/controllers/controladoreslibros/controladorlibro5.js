@@ -288,7 +288,7 @@ function recreate() {
 }
 recreate();
 
-document.getElementById("game-23 ").addEventListener("submit", function (event) {
+document.getElementById("game-23").addEventListener("submit", function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     //console.log(event);
     var verificarSummit = event.submitter.dataset.tooltip;
@@ -296,8 +296,8 @@ document.getElementById("game-23 ").addEventListener("submit", function (event) 
     //console.log("respuesta ");
     event.preventDefault();
     if (verificarSummit == "Guardar") {
-      var encontradas = document.getElementsByClassName("wordFound");
-      var totalPalabras = document.getElementsByClassName("word");
+      var encontradas = document.getElementsByClassName("wordFound1");
+      var totalPalabras = document.getElementsByClassName("word1");
       let punto = 1 / totalPalabras.length;
       let totalPunto = 0;
   
@@ -307,7 +307,7 @@ document.getElementById("game-23 ").addEventListener("submit", function (event) 
       //console.log("Total de puntos " + totalPunto);
       //console.log("Total de puntos " + punto);
       var notatotal = totalPunto.toFixed(2);
-      var libro = 6;
+      var libro = 5;
       document.getElementById("idcliente23").value = users.value;
       document.getElementById("points23").value = notatotal;
       document.getElementById("idlibro23").value = libro;
@@ -316,7 +316,7 @@ document.getElementById("game-23 ").addEventListener("submit", function (event) 
       //console.log("idcliente" + notatotal);
       //console.log("libro" + libro);
       //function saveRowActivity(api, action, form, modal) en componente.js helper
-      //saveRowActivity(API_ACTIVIDADES, action, "game-23", "ModalLibroSeis23");
+      saveRowActivity(API_ACTIVIDADES, action, "game-23", "ModalLibroSeis23");
       sweetAlert(1, "Resultados ingresados", null);
     }
   

@@ -1,25 +1,40 @@
-.crucigrama-color5-23 {
-    background-color: #FCD8C9;
-    border: none !important;
+.crucigrama-juego {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.crucigrama-color5-23 button{
-    background-color: #FCD8C9;
-    color: #BB8EAE;
+.crucigrama-palabras {
+  margin-top: 10px;
 }
 
-/* Page 109**/
-.crucigrama-color-pag23{
-    background-color: #FCD8C9;
-    border: none !important;
-  }
-  
-  .crucigrama-color-pag23 button{
-    background-color: #FCD8C9;
-    color: white ;
-  }
-  
-  .crucigrama-pag23 input{
-    background-color: #FCD8C9;
-    color: white;
-  }
+.crucigrama-color{
+  background-color: #FCD8C9;
+  border: none !important;
+}
+
+.crucigrama-color button{
+  background-color: #FCD8C9;
+  color: #BB8EAE;
+}
+
+.crucigrama-palabras input {
+  background-color: #FCD8C9;
+  color: #BB8EAE;
+  border: none;
+  text-align: center;
+  border-radius: 20px;
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+.crucigrama-palabras li {
+  list-style: none;
+  font-size: 12px;
+}
+
+.crucigrama-palabras div {
+  display: flex;
+  flex-direction: row;
+}

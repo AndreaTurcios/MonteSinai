@@ -1522,7 +1522,7 @@ Book_Page::headerTemplate('Unidad 2');
                         <!-- Inicio de modal body-->
                         <div class="row">
                             <div class="col-md-8 align-items-center" align="letf">
-                                <p class="libro6-indicaciones">Find the words</p>
+                                <p class="libro6-indicaciones">Find and circle</p>
                                 <!-- class="d-none" -->
                                 <input type="text" class="d-none" id="points23" name="points23">
                                 <input type="text" class="d-none" id="idcliente23" name="idcliente23">
@@ -1533,7 +1533,7 @@ Book_Page::headerTemplate('Unidad 2');
                             <div class="col-lg-12 align-items-center">
                                 <div class="crucigrama-juego">
                                     <div id="words" class=""></div>
-                                    <div id="puzzle" class="crucigrama-pag23"></div>
+                                    <div id="puzzle" class="crucigrama-color"></div>
                                 </div>
 
                             </div>

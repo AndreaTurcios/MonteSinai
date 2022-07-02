@@ -425,9 +425,68 @@ yepnope({
 </script>
 
 <!--Espacio para modal -->
+<!-- Pagina 107 -->
+<!-- Region 30 -->
+<div id="ModalLibroCinco107" class="modal fade" tabindex="-2">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Find And Write Words About</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			< <form method="post" id="game-107">
+                    <div class="modal-body">
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="libro6-indicaciones">Find the words</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points107" name="points107">
+                                <input type="text" class="d-none" id="idcliente107" name="idcliente107">
+                                <input type="text" class="d-none" id="idlibro107" name="idlibro107">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 align-items-center">
+                                <div class="crucigrama-juego">
+                                    <div id="words" class=""></div>
+                                    <div id="puzzle" class="crucigrama-color"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 align-items-center" align="letf">
+                                <div class="crucigrama-palabras">
+                                    <ul>
+                                        <ul id="words">
+                                            <li id="add-word">
+                                                <div id="add-word"></div>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                                <div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Modal Body -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary" data-tooltip="Guardar">Submit</button>
+                    </div>
+                </form>
+		</div>
+	</div>
+</div>
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('controladorlibro5.js');
+Book_Page::footerTemplate6('controladorlibro5_u3.js');
 ?>
