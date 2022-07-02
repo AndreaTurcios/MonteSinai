@@ -332,3 +332,42 @@ document.getElementById('game-eight').addEventListener('submit', function (event
     sweetAlert(1, 'Resultados ingresados', null);
     return true;
 });
+
+document.getElementById('game-nine').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    notatotal = 0;
+    var cod1 = document.getElementById("se1").value;
+    var cod2 = document.getElementById("se2").value;
+    var cod3 = document.getElementById("se3").value;
+    var cod4 = document.getElementById("se4").value;
+    
+    if(cod1 == 2){
+        notatotal = 0.25;
+    }
+
+
+    if(cod2 == 3){
+        notatotal = notatotal + 0.25;
+    }
+
+
+    if(cod3 == 1){
+        notatotal = notatotal + 0.25;
+    }
+
+    if(cod4 == 2){
+        notatotal = notatotal + 0.25;
+    }
+
+    var libro = 11;
+    document.getElementById('idclienteA9U1L11').value = users.value;
+    document.getElementById('pointsA9U1L11').value = notatotal;
+    document.getElementById('idlibroA9U1L11').value = libro;
+    action = 'createactA9U1L11';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-nine', 'ModalLibroNueve')
+    sweetAlert(1, 'Resultados ingresados', null);
+    return true;
+});
+
