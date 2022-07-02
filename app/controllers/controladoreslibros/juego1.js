@@ -584,7 +584,6 @@ document.getElementById('game-eight').addEventListener('submit', function (event
 
 });
 
-
 document.getElementById('game-nines').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -651,7 +650,6 @@ document.getElementById('game-nines').addEventListener('submit', function (event
         return true;
     }
 });
-
 
 document.getElementById('game-ten').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -782,7 +780,6 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
     }
 });
 
-
 document.getElementById('game-twelve').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -848,7 +845,6 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
         return true;
     }
 });
-
 
 document.getElementById('game-thirdteen').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -991,7 +987,6 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
 
 
 });
-
 
 document.getElementById('game-twentyfive').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -1389,6 +1384,62 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
 
 });
 
+paper.install(window);
+
+paper.install(window);
+
+$('#ModalLibroQuince').on('shown.bs.modal', function (e){
+// Set it up
+    paper.setup('canvas1');
+
+    var canvas1 = document.getElementById("canvas1");
+
+    const context = canvas1.getContext('2d');
+
+    // Create a simple drawing tool:
+    var tool = new Tool();
+    var path;
+
+    // Get elements from DOM and define properties
+    var colorPicker = document.getElementById("colorPicker");
+    var colorStroke;
+    var widthStrokePicker = document.getElementById("strokeWidthPicker");
+    var widthStroke;
+    var clearButton = document.getElementById("clearBtn");
+
+    // Clear event listener
+    clearBtn.addEventListener("click", function() {
+        // Clear canvas1
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker.value;
+        widthStroke = widthStrokePicker.value;
+    }
+
+    // Check for new color value each second
+    setInterval(update, 1000);
+
+    // Define a mousedown and mousedrag handler
+    tool.onMouseDown = function(event) {
+        path = new Path();
+        path.strokeWidth = widthStroke;
+        path.strokeColor = colorStroke;
+    // Draw
+        path.add(event.point);
+    }
+
+    tool.onMouseDrag = function(event) {
+    // Draw
+        path.add(event.point);
+        document.getElementById("verify-canvas").value = 1;
+    }
+});
+
 document.getElementById('game-fifthteen').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1416,102 +1467,85 @@ document.getElementById('game-fifthteen').addEventListener('submit', function (e
 });
 
 
-// document.getElementById('game').addEventListener('submit', function (event) {
-//     // Se evita recargar la página web después de enviar el formulario.
-//     event.preventDefault();
-// });
-//FALTA DE COMPLETAR
+paper.install(window);
+
+$('#ModalLibroTreintaydos').on('shown.bs.modal', function (e){
+// Set it up
+    paper.setup('canvas3');
+
+    var canvas3 = document.getElementById("canvas3");
+
+    const context = canvas3.getContext('2d');
+
+    // Create a simple drawing tool:
+    var tool = new Tool();
+    var path3;
+
+    // Get elements from DOM and define properties
+    var colorPicker3 = document.getElementById("colorPicker3");
+    var colorStroke3;
+    var widthStrokePicker3 = document.getElementById("strokeWidthPicker3");
+    var widthStroke3;
+    var clearButton3 = document.getElementById("clearBtn3");
+
+    // Clear event listener
+    clearBtn3.addEventListener("click", function() {
+        // Clear canvas1
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+        console.log();
+    });
+
+    // Update 
+    function update() {
+        colorStroke3 = colorPicker3.value;
+        widthStroke3 = widthStrokePicker3.value;
+    }
+
+    // Check for new color value each second
+    setInterval(update, 1000);
+
+    // Define a mousedown and mousedrag handler
+    tool.onMouseDown = function(event) {
+        path3 = new Path();
+        path3.strokeWidth3 = widthStroke3;
+        path3.strokeColor3 = colorStroke3;
+    // Draw
+        path3.add(event.point);
+    }
+
+    tool.onMouseDrag = function(event) {
+    // Draw
+        path3.add(event.point);
+        document.getElementById("verify-canvas").value = 1;
+        console.log();
+    }
+});
+
 document.getElementById('game-thirtytwo').addEventListener('submit', function (event) {
-    // Se evita recargar la página web después de enviar el formulario.
-    event.preventDefault();
-    //
-    var f1, f2, f3, f4, f5, f6, f7, f8, f9, f10;
-    let promedio32;
-    //
-    f1 = document.getElementById('food-actyo32-61').value;
-    f2 = document.getElementById('food-actyo32-62').value;
-    f3 = document.getElementById('food-actyo32-63').value;
-    f4 = document.getElementById('food-actyo32-64').value;
-    f5 = document.getElementById('food-actyo32-65').value;
-    f6 = document.getElementById('food-actyo32-66').value;
-    f7 = document.getElementById('food-actyo32-67').value;
-    f8 = document.getElementById('food-actyo32-68').value;
-    f9 = document.getElementById('food-actyo32-69').value;
-    f10 = document.getElementById('food-actyo32-610').value;
-    //
-    if (f1 === "" || f2 === "" || f3 === "" || f4 === ""
-        || f5 === "" || f6 === "" || f7 === "" || f8 === ""
-        || f9 === "" || f10 === "") {
+   // Se evita recargar la página web después de enviar el formulario.
+   event.preventDefault();
 
-        sweetAlert(2, 'Complete the missing fields', null);
-        return false;
-    }
-    if (f1 === "rice" && f2 === "eggs" && f3 === "chicken" && f4 === "beans" && f5 === "oranges"
-        && f6 === "potatoes" && f7 === "fish" && f8 === "meat" && f9 === "bread" && f10 === "shrimps") {
 
-        // envío de variables a API 
-        promedio32 = 1;
-        var libro = 1;
-        document.getElementById('idcliente32').value = users.value;
-        document.getElementById('points32').value = promedio32;
-        document.getElementById('idlibro32').value = libro;
-        // acciones 
-        action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
-        $('#ModalLibroTreintaydos').modal('hide');
-        //alert
-        sweetAlert(1, 'good job', null);
-        return true;
+   if (document.getElementById("verify-canvas").value == 0) {
+       sweetAlert(2, 'The canvas is empty', null);
+       return false;
+   }
+   else
+   {
+       promedio = 1;
+       var libro = 1;
+       document.getElementById('idcliente32').value = users.value;
+       document.getElementById('points32').value = promedio;
+       document.getElementById('idlibro32').value = libro;
 
-    } else {
-
-        var libro = 1;
-        var puntosact32 = 10;
-        // asignación de puntajes
-        if (f1 != "rice") {
-            puntosact32--
-        }
-        if (f2 != "eggs") {
-            puntosact32--
-        }
-        if (f3 != "chicken") {
-            puntosact32--
-        }
-        if (f4 != "beans") {
-            puntosact32--
-        }
-        if (f5 != "oranges") {
-            puntosact32--
-        }
-        if (f6 != "potatoes") {
-            puntosact32--
-        }
-        if (f7 != "fish") {
-            puntosact32--
-        }
-        if (f8 != "meat") {
-            puntosact32--
-        }
-        if (f9 != "bread") {
-            puntosact32--
-        }
-        if (f10 != "shrimps") {
-            puntosact32--
-        }        
-        // seteo de valor de puntajes 
-        var conteos32 = puntosact32 / 10;
-        var conteofinal32 = conteos32.toFixed(2);
-        //asignación de valores 
-        document.getElementById('idcliente32').value = users.value;
-        document.getElementById('points32').value = conteofinal32;
-        document.getElementById('idlibro32').value = libro;
-        // ejecución y envío de variables a API 
-        action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
-        //alert
-        sweetAlert(2, 'Some of the answers are wrong, try it again', null);
-        return true;
-    }
+       action = 'create';
+       saveRowActivity(API_ACTIVIDADES, action, 'game-thirtytwo', 'ModalLibroTreintaydos');
+       sweetAlert(1, 'Good job', null);
+       $('#ModalLibroTreintaydos').modal('hide');
+       return true;
+   }
 });
 
 document.getElementById('game-thirtythree').addEventListener('submit', function (event) {
@@ -1827,7 +1861,102 @@ document.getElementById('game-thirtyseven').addEventListener('submit', function 
 
 });
 
-//FALTA EL 38 
+//Elementos arrastrables act38
+
+for (let i = 0; i < 5; i++) {
+    document.getElementById('option-act38-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+}
+
+//Elementos que reciben el arrastrable act38
+
+for (let i = 0; i < 5; i++) {
+    document.getElementById('text-act38-' + (i + 1)).addEventListener("drop", (e) => {
+        e.target.classList.remove("hover");
+        const id = e.dataTransfer.getData("id");
+        e.target.innerHTML = document.getElementById(id).innerHTML;
+    });
+
+    document.getElementById('text-act38-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+}
+
+document.getElementById('game-thirtyeight').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglo para guardar los inputs
+    /*let inputs = [];
+    //Llenar los inputs
+    for (let i = 0; i < 5; i++) {
+        inputs[i] = document.getElementById('personal-act37-' + (i + 1)).value;
+    }
+
+    
+    //
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }*/
+    
+    let valorActividad = 1;
+    let inputs = [];
+    let respuestas = ["Blue", "White", "Black", "Green", "Pink"];
+    let conteo = 0;
+
+    //Llenar arreglo de inputs
+    for(let i = 0; i < 5; i++){
+        inputs[i] = document.getElementById('text-act38-' + (i + 1)).innerHTML;
+    }
+
+    if(inputs.includes(""))
+    {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    }
+    else
+    {
+        //Se comparan las respuestas con los datos ingresados
+        for(let i = 0; i < inputs.length; i++)
+        {
+            if (respuestas[i].trim() == inputs[i].trim()) {
+                conteo++;
+            }
+        }
+
+        if (conteo == inputs.length) 
+        {
+            var libro = 1;    
+            document.getElementById('idcliente38').value = users.value;
+            document.getElementById('points38').value = valorActividad;
+            document.getElementById('idlibro38').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyeight', 'ModalLibroTreintayocho');
+            sweetAlert(1, 'Good job', null);
+            $('#ModalLibroTreintayocho').modal('hide');
+            return false;
+        }
+        else
+        {
+            let puntaje = valorActividad / inputs.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 1;
+            document.getElementById('idcliente38').value = users.value;
+            document.getElementById('points38').value = points;
+            document.getElementById('idlibro38').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-thirtyeight', 'ModalLibroTreintayocho');
+            sweetAlert(4, conteo + '/' + inputs.length + ' answers right', null);
+            $('#ModalLibroTreintayocho').modal('hide');
+            return true;
+        }
+    }
+
+});
 
 document.getElementById('game-thirtynine').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.

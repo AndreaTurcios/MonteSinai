@@ -12,26 +12,27 @@ paper.install(window);
     
 		// Create a simple drawing tool:
 		var tool = new Tool();
-		var path;
+		var path2;
     
     // Get elements from DOM and define properties
-    var color2Picker = document.getElementById("color2Picker");
-    var color2Stroke;
-    var widthStrokePicker = document.getElementById("stroke2WidthPicker");
-    var widthStroke;
-    var clear2Button = document.getElementById("clear2Btn");
+    var colorPicker2 = document.getElementById("colorPicker2");
+    var colorStroke2;
+    var widthStrokePicker2 = document.getElementById("strokeWidthPicker2");
+    var widthStroke2;
+    var clearButton2 = document.getElementById("clearBtn2");
     
     // Clear event listener
-    clear2Btn.addEventListener("click", function() {
+    clearBtn2.addEventListener("click", function() {
       // Clear canvas2
       paper.project.activeLayer.removeChildren();
       paper.view.draw();
+      document.getElementById("verify-canvas-2").value = 0;
     });
     
     // Update 
     function update() {
-      color2Stroke = color2Picker.value;
-      widthStroke = widthStrokePicker.value;
+      colorStroke2 = colorPicker2.value;
+      widthStroke2 = widthStrokePicker2.value;
     }
     
     // Check for new color2 value each second
@@ -39,15 +40,16 @@ paper.install(window);
     
 		// Define a mousedown and mousedrag handler
 		tool.onMouseDown = function(event) {
-			path = new Path();
-      path.strokeWidth = widthStroke;
-			path.strokeColor = color2Stroke;
+			path2 = new Path();
+      path2.strokeWidth2 = widthStroke2;
+			path2.strokeColor2 = colorStroke2;
       // Draw
-			path.add(event.point);
+			path2.add(event.point);
 		}
 
 		tool.onMouseDrag = function(event) {
       // Draw
-			path.add(event.point);
+			path2.add(event.point);
+      document.getElementById("verify-canvas-2").value = 1;
 		}
 	}

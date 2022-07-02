@@ -6,50 +6,50 @@ $(window).on('load', function() {
 // Set it up
     paper.setup('canvas1');
 
-var canvas1 = document.getElementById("canvas1");
+    var canvas1 = document.getElementById("canvas1");
 
-const context = canvas1.getContext('2d');
+    const context = canvas1.getContext('2d');
 
     // Create a simple drawing tool:
     var tool = new Tool();
     var path;
 
-// Get elements from DOM and define properties
-var colorPicker = document.getElementById("colorPicker");
-var colorStroke;
-var widthStrokePicker = document.getElementById("strokeWidthPicker");
-var widthStroke;
-var clearButton = document.getElementById("clearBtn");
+    // Get elements from DOM and define properties
+    var colorPicker = document.getElementById("colorPicker");
+    var colorStroke;
+    var widthStrokePicker = document.getElementById("strokeWidthPicker");
+    var widthStroke;
+    var clearButton = document.getElementById("clearBtn");
 
-// Clear event listener
-clearBtn.addEventListener("click", function() {
-    // Clear canvas1
-    paper.project.activeLayer.removeChildren();
-    paper.view.draw();
-    document.getElementById("verify-canvas").value = 0;
-});
+    // Clear event listener
+    clearBtn.addEventListener("click", function() {
+        // Clear canvas1
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
 
-// Update 
-function update() {
-    colorStroke = colorPicker.value;
-    widthStroke = widthStrokePicker.value;
-}
+    // Update 
+    function update() {
+        colorStroke = colorPicker.value;
+        widthStroke = widthStrokePicker.value;
+    }
 
-// Check for new color value each second
-setInterval(update, 1000);
+    // Check for new color value each second
+    setInterval(update, 1000);
 
-// Define a mousedown and mousedrag handler
-tool.onMouseDown = function(event) {
-    path = new Path();
-    path.strokeWidth = widthStroke;
-    path.strokeColor = colorStroke;
-// Draw
-    path.add(event.point);
-}
+    // Define a mousedown and mousedrag handler
+    tool.onMouseDown = function(event) {
+        path = new Path();
+        path.strokeWidth = widthStroke;
+        path.strokeColor = colorStroke;
+    // Draw
+        path.add(event.point);
+    }
 
-tool.onMouseDrag = function(event) {
-// Draw
-    path.add(event.point);
-    document.getElementById("verify-canvas").value = 1;
-}
+    tool.onMouseDrag = function(event) {
+    // Draw
+        path.add(event.point);
+        document.getElementById("verify-canvas").value = 1;
+    }
 });

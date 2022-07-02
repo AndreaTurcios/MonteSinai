@@ -522,6 +522,32 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
+<!-- Modales Audios -->
+<div id="ModalLibroUnoAudioPag1" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-sm">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio1">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag1.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalLibroUnoAudioPag3" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-sm">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio3">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag3.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
 
 <div id="ModalLibroUno" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
@@ -915,7 +941,20 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<!-- Página 12 - Actividad 1 (Canvas) --> <!-- En este canvas no funciona el ClearBtn -->
+<!-- Página 12 - Actividad 1 (Canvas) -->
+<!--
+	Notas de inconvenientes con el canvas.
+	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
+	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
+	
+	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
+	funcionan. Es parecido al problema del input verify-canvas. 
+
+	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
+	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
+
+	Odio los canvas
+ -->
 <div class="modal fade" id="ModalLibroQuince" tabindex="-10" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
 	<div class="modal-dialog modal-xl">
@@ -1051,7 +1090,7 @@ Book_Page::headerTemplate('Unidad 1');
 									
 									<div class="col-12">
 										<div class="container-fluid">
-											<input type="number" value="0" id="verify-canvas" class="d-none">
+											<input type="number" value="0" id="verify-canvas">
 											<canvas id="canvas1" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/Cuadro.png')"
 											width="775" height="400">
 
@@ -1061,7 +1100,7 @@ Book_Page::headerTemplate('Unidad 1');
 									<!-- Librerias para el Canvas -->
 									<script src="https://s.cdpn.io/6859/paper.js"></script>
         							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
-									<script type="text/javascript" src="../../app/controllers/librounounidaduno/canvas.js"></script>
+									
 									<!-- contenido  -->
 								</div>
 							</div>
@@ -2657,7 +2696,20 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<!-- Página 20 --> <!-- En este canvas no funciona el color2Picker y  stroke2WidthPicker-->
+<!-- Página 20 -->
+<!--
+	Notas de inconvenientes con el canvas.
+	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
+	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
+	
+	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
+	funcionan. Es parecido al problema del input verify-canvas. 
+
+	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
+	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
+
+	Odio los canvas
+ -->
 <div id="ModalLibroVeintisiete" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -2755,7 +2807,7 @@ Book_Page::headerTemplate('Unidad 1');
 										justify-self: center;
 										}
 
-										#clear2Btn {
+										#clearBtn2 {
 										color: white;
 										font-size: 20px;
 										font-weight: 700;
@@ -2773,19 +2825,19 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="color">
 												<p>Pick a color:</p>
 												<div class="colorPickerWrapper">
-													<input type="color" id="color2Picker" value="#55D0ED">
+													<input type="color" id="colorPicker2" value="#55D0ED">
 												</div>
 											</div>
 											<div class="stroke">
 												<p>Change the stroke's width:</p>
 												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="stroke2WidthPicker">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
 												</div>
 											</div>
 											<div class="clear">
 												<p>clear2 the canvas:</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clear2Btn">Clear canvas</a>
+													<a href="#" id="clearBtn2">Clear canvas</a>
 												</div>
 											</div>
 										</div>
@@ -2801,7 +2853,7 @@ Book_Page::headerTemplate('Unidad 1');
 									<!-- Librerias para el Canvas -->
 									<script src="https://s.cdpn.io/6859/paper.js"></script>
         							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
-									<script type="text/javascript" src="../../app/controllers/librounounidaduno/canvas2.js"></script>
+									
 									<!-- contenido  -->
 								</div>
 							</div>
@@ -3350,12 +3402,26 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Página 26 --> 
+<!--
+	Notas de inconvenientes con el canvas.
+	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
+	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
+	
+	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
+	funcionan. Es parecido al problema del input verify-canvas. 
+
+	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
+	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
+
+	Odio los canvas
+ -->
 <div id="ModalLibroTreintaydos" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<h5 class="modal-title" id="modal-title">Foods</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirtytwo">
@@ -3367,75 +3433,129 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Draw, color and name some foods</p>
 											<input type="text" class="d-none" id="points32" name="points">
 											<input type="text" class="d-none" id="idcliente32" name="idcliente">
 											<input type="text" class="d-none" id="idlibro32" name="idlibro">
 										</div>
 									</div>
-									<div class="row row-cols-2">
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-61" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										}
+
+										canvas3 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn3 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+									
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker" value="#000000">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+												</div>
+											</div>
+											<div class="clear">
+												<p>Clear the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn3">Clear canvas</a>
+												</div>
 											</div>
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-62" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
+										</header>
+
+										<div class="container">
+											<input type="number" value="0" id="verify-canvas">
+											<canvas id="canvas3" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag26/canvas26.png')"
+											width="815" height="450">
+
+											</canvas>
 										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-63" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-64" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-65" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-66" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-67" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-68" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-69" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-										</div>
-										<div class="col">
-											<div class="col">
-												<input type="text" id="food-actyo32-610" class="form-control"
-													aria-label="Sizing example input" maxlength="100">
-											</div>
-											<!-- fin cols  -->
-										</div>
-									</div>
+									</header>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>									
 								</div>
 							</div>
 							<br>
@@ -3964,13 +4084,13 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<!-- Página 32 (Falta) -->
+<!-- Página 32 -->
 <div id="ModalLibroTreintayocho" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">ADJECTIVES: DELICIOUS AND ROUND</h5>
+				<h5 class="modal-title" id="modal-title">RECOGNIZING THE NAMES OF COLORS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirtyeight">
@@ -3983,66 +4103,78 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row">
 										<div class="col-md-8 align-items-center">
 											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points34" name="points">
-											<input type="text" class="d-none" id="idcliente34" name="idcliente">
-											<input type="text" class="d-none" id="idlibro34" name="idlibro">
+											<input type="text" class="d-none" id="points38" name="points">
+											<input type="text" class="d-none" id="idcliente38" name="idcliente">
+											<input type="text" class="d-none" id="idlibro38" name="idlibro">
 										</div>
 									</div>
 
 									<div class="row align-items-center">
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-81.png"
-											class="rounded mx-auto d-block">	
-											<div class="row justify-content-md-center justify-content-sm-center">
-												<div class="col-md-8 col-sm-12">
-													<input type="text" id="food-actyo34-81" class="form-control "
-														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Orange">	
+										
+										<div class="col-4">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag32/girl.png"
+											class="rounded mx-auto d-block">																				
+										</div>
+
+										<div class="col-md-8 col-sm-8 col-xs-12">
+											
+											<div class="container-act8 mb-2" style="background-color: white;">
+												
+											<div id="option-act38-1" class="box-act8 text-center m-3" draggable="true" data-id="Blue" style="background-color: #8ABFEB;">
+													Blue
+												</div>
+												<div id="option-act38-2" class="box-act8 text-center m-3" draggable="true" data-id="White" style="background-color: #FFFFFF;">
+													White
+												</div>
+												<div id="option-act38-3" class="box-act8 text-center m-3" draggable="true" data-id="Black" style="background-color: #454545; color: white;">
+													Black
+												</div>
+												<div id="option-act38-4" class="box-act8 text-center m-3" draggable="true" data-id="Green" style="background-color: #54BB48;">
+													Green
+												</div>
+												<div id="option-act38-5" class="box-act8 text-center m-3" draggable="true" data-id="Pink" style="background-color: #F58BC1;">
+													Pink
+												</div>
+
+											</div>
+
+											<div class="row row-cols-2 mb-4">
+												
+												<div class="col">
+													<p>The skirt is color...</p>
+													<div id="text-act38-1" class="box-act8 text-center"></div>
+												</div>
+												<div class="col">
+													<p>The Blouse is color...</p>
+													<div id="text-act38-2" class="box-act8 text-center"></div>
+												</div>
+
+											</div>
+
+											<div class="row row-cols-2 mb-4">
+												
+												<div class="col">
+													<p>The Shoes is color...</p>
+													<div id="text-act38-3" class="box-act8 text-center"></div>
+												</div>
+												<div class="col">
+													<p>The Bag is color...</p>
+													<div id="text-act38-4" class="box-act8 text-center"></div>
+												</div>
+
+											</div>
+
+											<div class="row row-cols-2 mb-4">
+
+												<div class="col">
+													<p>The Socks is color...</p>
+													<div id="text-act38-5" class="box-act8 text-center"></div>
 												</div>	
-											</div>									
 
+											</div>
 										</div>
 
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-82.png"
-											class="rounded mx-auto d-block">
-											<div class="row justify-content-md-center justify-content-sm-center">	
-												<div class="col-md-8 col-sm-12">									
-													<input type="text" id="food-actyo34-82" class="form-control"
-															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 25px; margin-top: 25px;"
-															placeholder="Melon">			
-												</div>
-											</div>							
-										</div>
-
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-83.png"
-											class="rounded mx-auto d-block">	
-											<div class="row justify-content-md-center justify-content-sm-center">	
-												<div class="col-md-8 col-sm-12">									
-													<input type="text" id="food-actyo34-83" class="form-control"
-														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Coconut">			
-												</div>
-											</div>								
-										</div>
-
-										<div class="col-6">	
-											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag28/food-actyo34-84.png"
-											class="rounded mx-auto d-block">
-											<div class="row justify-content-md-center justify-content-sm-center">	
-												<div class="col-md-8 col-sm-12">									
-													<input type="text" id="food-actyo34-84" class="form-control"
-														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Tomato">			
-												</div>
-											</div>								
-										</div>
-									</div>
+									</div>	
 
 
 								</div>
