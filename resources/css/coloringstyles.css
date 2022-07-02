@@ -91,6 +91,11 @@
     border-radius: 20px;
   }
 
+  .cell-act21{
+    border: 2px solid gray;
+    color: #212526;
+  }
+
   /*
   *Libro 5
   **/

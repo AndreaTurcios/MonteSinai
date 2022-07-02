@@ -125,6 +125,11 @@ document.getElementById('unit1-act2').addEventListener('submit', function (event
 paper.install(window);
 
 window.onload = function () {
+    for (let i = 0; i < 99; i++) {
+        document.getElementById('act21-' + (i + 1)).style.color = '#212529'
+
+    }
+
     // Set it up
     paper.setup('canvas2');
 
@@ -1259,31 +1264,14 @@ document.getElementById('unit1-act19').addEventListener('submit', function (even
 
 });
 
+$('#ModalUnit1Act3').on('shown.bs.modal', function(e) {
+    document.getElementById("verify-canvas").value = 0;
+});
+
 $('#ModalUnit1Act20').on('shown.bs.modal', function (e) {
+    document.getElementById("verify-canvas").value = 0;
     // Set it up
-    let scope = [];
-    let tool = [];
-    let path = [];
-    for (let i = 0; i < 8; i++) {
-        scope[i] = new paper.PaperScope();
-        scope[i].setup(document.getElementById('canvas-act20-' + (i + 1)))
-        tool[i] = new Tool();
-        // Define a mousedown and mousedrag handler
-        tool[i].onMouseDown = function (event) {
-            path[i] = new Path();
-            path[i].strokeWidth = width20Stroke;
-            path[i].strokeColor = color20Stroke;
-            // Draw
-            path[i].add(event.point);
-        }
-
-        tool[i].onMouseDrag = function (event) {
-            // Draw
-            path[i].add(event.point);
-            document.getElementById("verify-canvas-20").value = 1;
-        }
-
-    }
+    paper.setup('canvas20');
 
     // Get elements from DOM and define properties
     var color20Picker = document.getElementById("color20Picker");
@@ -1293,11 +1281,11 @@ $('#ModalUnit1Act20').on('shown.bs.modal', function (e) {
     var clear20Button = document.getElementById("clear20Btn");
 
     // Clear event listener
-    clear20Btn.addEventListener("click", function () {
+    clear20Button.addEventListener("click", function () {
         // Clear canvas2
-        paper.projects.layers.removeChildren();
+        paper.project.activeLayer.removeChildren();
         paper.view.draw();
-        document.getElementById("verify-canvas-20").value = 0;
+        document.getElementById("verify-canvas").value = 0;
     });
 
     // Update 
@@ -1308,7 +1296,6 @@ $('#ModalUnit1Act20').on('shown.bs.modal', function (e) {
 
     // Check for new color2 value each second
     setInterval(update, 1000);
-
   });
 
   document.getElementById('unit1-act20').addEventListener('submit', function (event) {
@@ -1334,6 +1321,106 @@ $('#ModalUnit1Act20').on('shown.bs.modal', function (e) {
             sweetAlert(1, 'Good job', null);
             $('#ModalUnit1Act20').modal('hide');
             return true;
+    }
+
+});
+
+document.getElementById('unit1-act21').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let respuestas = ["FATHER", "MOTHER", "SISTER", "BROTHER", "GRANDFATHER", "GRANDMOTHER", "BABY"];
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 7; i++) {
+        inputs[i] = document.getElementById('input-act21-' + (i + 1)).value.toUpperCase();
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        if (new Set(inputs).size !== inputs.length) {
+            sweetAlert(2, 'All sentences must be different', null);
+            return false;
+        } else {
+            //Se comparan las respuestas con los datos ingresados
+            for (let i = 0; i < inputs.length; i++) {
+                if (inputs[i].trim().includes(respuestas[i])) {
+                    conteo++;
+                }
+
+            }
+
+            //Se revisa si todas las respuestas son correctas
+            if (conteo == inputs.length) {
+                var libro = 4;
+                document.getElementById('idcliente21').value = users.value;
+                document.getElementById('points21').value = valorActividad;
+                document.getElementById('idlibro21').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act21', 'modal');
+                sweetAlert(1, 'good job', null);
+                $('#ModalUnit1Act21').modal('hide');
+                return true;
+            } else {
+                //Notificar que las respuestas no siguen el formato
+                sweetAlert(2, 'Try again, remember to use the indicated family member', null);
+                return true;
+            }
+        }
+
+    }
+
+});
+
+function checkCells(id, color){
+    document.getElementById(id).style.color=color;
+}
+
+document.getElementById('unit1-act22').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 98; i++) {
+        if(document.getElementById('act21-' + (i + 1)).style.color != 'rgb(33, 37, 41)'){
+            conteo++;
+            console.log("hoa")
+        }
+
+    }
+
+    if (conteo < 98) {
+        sweetAlert(2, 'Find the missing words', null);
+        return false;
+    } else {
+                var libro = 4;
+                document.getElementById('idcliente22').value = users.value;
+                document.getElementById('points22').value = valorActividad;
+                document.getElementById('idlibro22').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act22', 'modal');
+                sweetAlert(1, 'good job', null);
+                $('#ModalUnit1Act22').modal('hide');
+                return true;
+
     }
 
 });
