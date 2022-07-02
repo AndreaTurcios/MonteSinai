@@ -907,31 +907,72 @@ Book_Page::headerTemplate('Unidad 4');
 								<div class="col-12">
 									<strong>III-Select sentences using quantifiers with groceries or food</strong>
 								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q3" id="act6-r7"><!-- correcto -->
-									<label class="form-check-label" for="act6-r7">
-										Are electrical/mechanical appliances which accomplish some household functions,
-										such as cooking or cleaning
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q3" id="act6-r8">
-									<label class="form-check-label" for="act6-r8">
-										Is a word that indicates the range of individuals or items referred to
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q3" id="act6-r9">
-									<label class="form-check-label" for="act6-r9">
-										Is used for clothes considered as a group; wearing apparel
-									</label>
-								</div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1">How much is it?</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2">There is some juice in the refrigerator</label><!-- correcto -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">A few cookies are on the oven</label><!-- correcto -->
+                                </div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">I need a pair of sandals</label>
+                                </div>
 							</div>
 
-							
-							
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-Select questions and answers about clothing and personal items</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<label for="act2-q1">Hi! Sara, are your bag new?</label>
+									<select name="act2-q1" id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Hi, how are you?</option>
+										<option value="2">Yes, I bought it las week.</option><!-- correcto -->
+										<option value="3">I think I'm medium.</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act2-q2" id="act2-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What material is it?</option><!-- correcto -->
+										<option value="2">What color would you like?</option>
+										<option value="3">May I help you?</option>
+									</select>
+									<label for="act2-q2">It's wool.</label>
+								</div>
 
-							
+								<div class="col-md-12">
+									<label for="act2-q1">What size are you?</label>
+									<select name="act2-q1" id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's wool.</option>
+										<option value="2">I'm small.</option><!-- correcto -->
+										<option value="3">I'm looking for a red one.</option>
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select name="act2-q2" id="act2-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Can i try it on?</option><!-- correcto -->
+										<option value="2">Do you need those?</option>
+										<option value="3">Anything else?</option>
+									</select>
+									<label for="act2-q2">Of course, try it.</label>
+								</div>
+								
+
+								
+							</div>
+
+
+
+	
                         </div>
 
 						
