@@ -1932,7 +1932,7 @@ Book_Page::headerTemplate('Unidad 1');
 											<div id="text-act9-1" class="box-act8 text-center"></div>
 										</div>
 										<div class="col">
-											<p>Whar color is the sofa?</p>
+											<p>What color is the sofa?</p>
 											<div id="text-act9-2" class="box-act8 text-center"></div>
 										</div>
 									</div>
@@ -3161,6 +3161,285 @@ Book_Page::headerTemplate('Unidad 1');
 											</table>
 										</div>
 									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act19" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act19">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col align-items-center">
+											<p class="fs-3 fw-bold">Select the correct use of how much, how many, there is and there are</p>
+											<input type="text" class="d-none" id="points19" name="points">
+											<input type="text" class="d-none" id="idcliente19" name="idcliente">
+											<input type="text" class="d-none" id="idlibro19" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<select id="select-act19-1" class="form-select" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">How much water is there?</option>
+												<option value="2">How many water is there?</option>
+												<option value="3">There is many water.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<select id="select-act19-2" class="form-select" >
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">There are many water.</option>
+												<option value="2">There is much water.</option>
+												<option value="3">There is many water.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<select id="select-act19-3" class="form-select">
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">How many oranges are there?</option>
+												<option value="2">How much orange is there?</option>
+												<option value="3">There is much orange.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<select id="select-act19-4" class="form-select">
+												<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+												<option value="1">There are much oranges.</option>
+												<option value="2">There is three oranges.</option>
+												<option value="3">There are three oranges.</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit1Act20" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Identifying the family members</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act20">
+				<div class="modal-body">
+					<div class="" style="overflow-y:auto;">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-3 fw-bold">Draw each one of your family members</p>
+											<!-- class="d-none" -->
+											<input type="text" id="points3" name="points" class="d-none">
+											<input type="text" id="idcliente3" name="idcliente" class="d-none">
+											<input type="text" id="idlibro3" name="idlibro" class="d-none">
+											<input type="number" value="0" id="verify-canvas-20" class="d-none">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+									
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 15px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										.canvas-act20 {
+										background-color: #F8F8F8;
+										border: 1px solid black;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clear20Btn {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+									
+									<header>
+										<div class="grid ">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="color20Picker" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="stroke20WidthPicker">
+												</div>
+											</div>
+											<div class="clear">
+												<p>clear the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clear20Btn">Clear canvas</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="container mt-3">
+											<div class="row ">
+												<div class="col-sm-12 col-md-4">
+													<canvas id="canvas-act20-1" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+												<div class="col-sm-12 col-md-4">
+													<canvas id="canvas-act20-2" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+												<div class="col-sm-12 col-md-4">
+													<canvas id="canvas-act20-3" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+											</div>
+											<div class="row ">
+												<div class="col-sm-12 col-md-4">
+													<canvas id="canvas-act20-4" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+												<div class="col-sm-12 col-md-4">
+													<canvas id="canvas-act20-5" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+												<div class="col-sm-12 col-md-4">
+													<canvas id="canvas-act20-6" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+											</div>
+											<div class="row ">
+												<div class="col-sm-12 col-md-6">
+													<canvas id="canvas-act20-7" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+												<div class="col-sm-12 col-md-6">
+													<canvas id="canvas-act20-8" class="canvas-act20" width="250" height="250">
+													</canvas>
+												</div>
+											</div>
+										</div>
+									</header>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+									<!-- contenido  -->
 								</div>
 							</div>
 						</div>
