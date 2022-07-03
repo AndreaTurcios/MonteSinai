@@ -38,3 +38,59 @@
   display: flex;
   flex-direction: row;
 }
+
+/*Crucigrama*/
+:root {
+  --green: #eef5dc;
+  --blue: #063477;
+  --fadeblue: #f99d52;
+  --white: #ffffff;
+  --colorerror: #063477;
+  --fontserif: Solitas, Cambria, Georgia, serif;
+  --fontsans: Archia, Helvetica, Arial, sans-serif;
+  --highlighter: #c3effc;
+}
+
+.cell {
+  border: 1px solid var(--fadeblue);
+  background-color: var(--white);
+}
+
+.cell-black {
+  background-color: var(--fadeblue);
+}
+
+.word-number {
+  text-align: right;
+  font-size: 0.4rem;
+  vertical-align: top;
+  color: var(--blue);
+  position: absolute;
+  padding: 0.1rem 0 0 0.1rem;
+}
+
+.letter {
+  background: none;
+  height: 1.8rem;
+  width: 1.8rem;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: var(--blue);
+}
+
+@media (max-width: 990px) {
+  .cell input{
+      height: 20px;
+      width: 20px;
+  }
+  .letter{
+      font-size: .7rem;
+      padding: 0px;
+      margin: 0px;
+  }
+}
+
+/**Crucigrama*/

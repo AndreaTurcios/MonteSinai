@@ -322,3 +322,208 @@ document.getElementById("game-23").addEventListener("submit", function (event) {
   
     return true;
   });
+
+  /**************************************************
+ ******************** GAME 43 **********************
+ **************************************************/
+ document.getElementById("game-43").addEventListener("submit", function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //console.log(event);
+    /* var verificarSummit = event.submitter.dataset.tooltip;
+    if (verificarSummit == "Guardar") {
+    }*/
+    /**Fila 1*/
+    let game_43_f1c9 = document.getElementById("game-43-f1c9").value ;
+    /**Fila  2*/
+    let game_43_f2c9 = document.getElementById("game-43-f2c9").value ;
+    /**Fila 3*/
+    let game_43_f3c9 = document.getElementById("game-43-f3c9").value ;
+    /**Fila 4*/
+    let game_43_f4c8 = document.getElementById("game-43-f4c8").value ;
+    let game_43_f4c9 = document.getElementById("game-43-f4c9").value ;
+    let game_43_f4c10 = document.getElementById("game-43-f4c10").value ;
+    let game_43_f4c11 = document.getElementById("game-43-f4c11").value ;
+    let game_43_f4c12 = document.getElementById("game-43-f4c12").value ;
+    let game_43_f4c13 = document.getElementById("game-43-f4c13").value ;
+    let game_43_f4c14 = document.getElementById("game-43-f4c14").value ;
+    let game_43_f4c15 = document.getElementById("game-43-f4c15").value ;
+    let game_43_f4c16 = document.getElementById("game-43-f4c16").value ;
+    /**Fila 5*/
+    let game_43_f5c9 = document.getElementById("game-43-f5c9").value ;
+    /**Fila 6*/
+    let game_43_f6c9 = document.getElementById("game-43-f6c9").value ;
+    let game_43_f6c12 = document.getElementById("game-43-f6c12").value ;
+    let game_43_f6c13 = document.getElementById("game-43-f6c13").value ;
+    let game_43_f6c14 = document.getElementById("game-43-f6c14").value ;
+    let game_43_f6c15 = document.getElementById("game-43-f6c15").value ;
+    let game_43_f6c16 = document.getElementById("game-43-f6c16").value ;
+    /**Fila 7*/
+    let game_43_f7c6 = document.getElementById("game-43-f7c6").value ;
+    let game_43_f7c9 = document.getElementById("game-43-f7c9").value ;
+    /**Fila 8*/
+    let game_43_f8c3 = document.getElementById("game-43-f8c3").value ;
+    let game_43_f8c4 = document.getElementById("game-43-f8c4").value ;
+    let game_43_f8c5 = document.getElementById("game-43-f8c5").value ;
+    let game_43_f8c6 = document.getElementById("game-43-f8c6").value ;
+    let game_43_f8c7 = document.getElementById("game-43-f8c7").value ;
+    let game_43_f8c8 = document.getElementById("game-43-f8c8").value ;
+    let game_43_f8c9 = document.getElementById("game-43-f8c9").value ;
+    let game_43_f8c12 = document.getElementById("game-43-f8c12").value ;
+    let game_43_f8c13 = document.getElementById("game-43-f8c13").value ;
+    let game_43_f8c14 = document.getElementById("game-43-f8c14").value ;
+    /**Fila 9*/
+    let game_43_f9c6 = document.getElementById("game-43-f9c6").value ;
+    let game_43_f9c8 = document.getElementById("game-43-f9c8").value ;
+    let game_43_f9c13 = document.getElementById("game-43-f9c13").value ;
+    /**Fila 10*/
+    let game_43_f10c6 = document.getElementById("game-43-f10c6").value ;
+    let game_43_f10c8 = document.getElementById("game-43-f10c8").value ;
+    let game_43_f10c13 = document.getElementById("game-43-f10c13").value ;
+    /**Fila 11*/
+    let game_43_f11c6 = document.getElementById("game-43-f11c6").value ;
+    let game_43_f11c8 = document.getElementById("game-43-f11c8").value ;
+    let game_43_f11c12 = document.getElementById("game-43-f11c12").value ;
+    let game_43_f11c13 = document.getElementById("game-43-f11c13").value ;
+    let game_43_f11c14 = document.getElementById("game-43-f11c14").value ;
+    let game_43_f11c15 = document.getElementById("game-43-f11c15").value ;
+    /**Fila 12*/
+    let game_43_f12c6 = document.getElementById("game-43-f12c6").value ;
+    let game_43_f12c8 = document.getElementById("game-43-f12c8").value ;
+    let game_43_f12c13 = document.getElementById("game-43-f12c13").value ;
+    /**Fila 13 */
+    let game_43_f13c6 = document.getElementById("game-43-f13c6").value ;
+    let game_43_f13c8 = document.getElementById("game-43-f13c8").value ;
+    let game_43_f13c13 = document.getElementById("game-43-f13c13").value ;
+    /**Fila 14*/
+    let game_43_f14c1 = document.getElementById("game-43-f14c1").value ;
+    let game_43_f14c2 = document.getElementById("game-43-f14c2").value ;
+    let game_43_f14c3 = document.getElementById("game-43-f14c3").value ;
+    let game_43_f14c4 = document.getElementById("game-43-f14c4").value ;
+    let game_43_f14c5 = document.getElementById("game-43-f14c5").value ;
+    let game_43_f14c6 = document.getElementById("game-43-f14c6").value ;
+    let game_43_f14c7 = document.getElementById("game-43-f14c7").value ;
+    let game_43_f14c8 = document.getElementById("game-43-f14c8").value ;
+    /**Fila 15*/
+    let game_43_f15c1 = document.getElementById("game-43-f15c1").value ;
+    let game_43_f15c5 = document.getElementById("game-43-f15c5").value ;
+    let game_43_f15c8 = document.getElementById("game-43-f15c8").value ;
+    /**Fila 16*/
+    let game_43_f16c1 = document.getElementById("game-43-f16c1").value ;
+    let game_43_f16c5 = document.getElementById("game-43-f16c5").value ;
+    let game_43_f16c8 = document.getElementById("game-43-f16c8").value ;
+    /**Fila 17*/
+    let game_43_f17c1 = document.getElementById("game-43-f17c1").value ;
+    let game_43_f17c5 = document.getElementById("game-43-f17c5").value ;
+    /**Fila 18*/
+    let game_43_f18c5 = document.getElementById("game-43-f18c5").value ;
+
+    /**Horizontal */
+    let palabra1 = game_43_f4c8+ game_43_f4c9 +game_43_f4c10+game_43_f4c11 + game_43_f4c12 +game_43_f4c13 + game_43_f4c14 +game_43_f4c15 + game_43_f4c16;
+    let palabra2 = game_43_f8c3 + game_43_f8c4 + game_43_f8c5 + game_43_f8c6 + game_43_f8c7 + game_43_f8c8 + game_43_f8c9;
+    let palabra3 = game_43_f6c12 + game_43_f6c13 + game_43_f6c14 + game_43_f6c15 + game_43_f6c16;
+    let palabra4 = game_43_f14c1 + game_43_f14c2  + game_43_f14c3 + game_43_f14c4 + game_43_f14c5 + game_43_f14c6+ game_43_f14c7 ;
+    let palabra5 = game_43_f8c12 + game_43_f8c13 + game_43_f8c14;
+    let palabra6 = game_43_f11c12 + game_43_f11c13 + game_43_f11c14+ game_43_f11c15;
+
+    /**Vertical */
+    let palabra7 = game_43_f9c8 + game_43_f10c8 + game_43_f11c8 + game_43_f12c8 + game_43_f13c8 + game_43_f14c8 + game_43_f15c8 + game_43_f16c8;
+    let palabra8 = game_43_f1c9 + game_43_f2c9 + game_43_f3c9 + game_43_f4c9 + game_43_f5c9 + game_43_f6c9 + game_43_f7c9 + game_43_f8c9;
+    let palabra9 = game_43_f8c13 + game_43_f9c13 + game_43_f10c13 + game_43_f11c13 + game_43_f12c13 + game_43_f13c13;
+    let palabra10 = game_43_f7c6 + game_43_f8c6 + game_43_f9c6 + game_43_f10c6+ game_43_f11c6 + game_43_f12c6 + game_43_f13c6 + game_43_f14c6;
+    let palabra11 = game_43_f14c1 + game_43_f15c1 + game_43_f16c1 + game_43_f17c1;
+    let palabra12 = game_43_f14c5 + game_43_f15c5  + game_43_f16c5  + game_43_f17c5  + game_43_f18c5 ;
+
+      //console.log(event.submitter.dataset.tooltip);
+      console.log("PALABRA " + palabra1);
+      console.log("PALABRA " + palabra2);
+      console.log("PALABRA " + palabra3);
+      console.log("PALABRA " + palabra4);
+      console.log("PALABRA " + palabra5);
+      console.log("PALABRA " + palabra6);
+      console.log("PALABRA " + palabra7);
+      console.log("PALABRA " + palabra8);
+      console.log("PALABRA " + palabra9);
+      console.log("PALABRA " + palabra10);
+      console.log("PALABRA " + palabra11);
+      console.log("PALABRA " + palabra12);
+  
+    //console.log(event.submitter.dataset.tooltip);
+    //console.log("respuesta ");
+    let punto = 1 /12 ;
+    let totalPunto = 0;
+
+    console.log(palabra1.toUpperCase().localeCompare('SEPTEMBER'))
+    console.log(palabra1.toUpperCase());
+    if(palabra1.toUpperCase()=='SEPTEMBER'){
+        console.log('Entra sep');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra2.toUpperCase()=='OCTOBER'){
+        console.log('Entra oct');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra3.toUpperCase()=='MARCH'){
+        console.log('Entra marc');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra4.toUpperCase()=='JANUARY'){
+        console.log('Entra janya');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra5.toUpperCase()=='MAY'){
+        console.log('Entra may');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra6.toUpperCase()=='JULY'){
+        console.log('Entra july');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra7.toUpperCase()=='FEBRUARY'){
+        console.log('Entra february');
+        totalPunto = totalPunto +punto;
+    }
+    console.log('imprimre' + palabra9);
+    if(palabra8.toUpperCase()=='DECEMBER'){
+        console.log('Entra december');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra9.toUpperCase()=='AUGUST'){
+        console.log('Entra aug');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra10.toUpperCase()=='NOVEMBER'){
+        console.log('Entra nomvember');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra11.toUpperCase()=='JUNE'){
+        console.log('Entra jun');
+        totalPunto = totalPunto +punto;
+    }
+    if(palabra12.toUpperCase()=='APRIL'){
+        console.log('Entra april');
+        totalPunto = totalPunto +punto;
+    }
+
+
+
+    //console.log(encontradas.length);
+    //console.log("Total de palabras" + totalPalabras.length);
+    console.log("Total de puntos " + totalPunto);
+    console.log("Total de puntos " + punto);
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 5;
+   // document.getElementById("idcliente43").value = users.value;
+   // document.getElementById("points43").value = notatotal;
+   // document.getElementById("idlibro43").value = libro;
+    action = "createact23";
+    //console.log("idcliente" + users.value);
+    //console.log("idcliente" + notatotal);
+    //console.log("libro" + libro);
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    //saveRowActivity(API_ACTIVIDADES, action, "game-43", "ModalLibroSeis43");
+    sweetAlert(1, "Resultados ingresados", null);
+  
+    return true;
+  });
+
