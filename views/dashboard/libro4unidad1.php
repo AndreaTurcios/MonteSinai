@@ -3535,163 +3535,163 @@ Book_Page::headerTemplate('Unidad 1');
                                     <br>
                                     <table style="border: 2px solid #f99d52; background-color: #fbebc9; " width="">
                                         <tr><!-- ROW ONE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-1" onclick="checkCells('act21-1', 'red')">O</th><!-- ONE, TWO -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-2" onclick="checkCells('act21-2', 'red')">N</th><!-- ONE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-3" onclick="checkCells('act21-3', 'red')">E</th><!-- ONE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-1" onclick="checkCells('act21-1')">O</th><!-- ONE, TWO -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-2" onclick="checkCells('act21-2')">N</th><!-- ONE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-3" onclick="checkCells('act21-3')">E</th><!-- ONE -->
                                             <th class="text-center cell-act21" width="30" height="30">J</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-4" onclick="checkCells('act21-4', 'green')">E</th><!-- ELEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-4" onclick="checkCells('act21-4')">E</th><!-- ELEVEN -->
                                             <th class="text-center cell-act21" width="30" height="30">T</th>
                                             <th class="text-center cell-act21" width="30" height="30">L</th>
                                             <th class="text-center cell-act21" width="30" height="30">W</th>
                                             <th class="text-center cell-act21" width="30" height="30">A</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-5" onclick="checkCells('act21-5', 'darkblue')">T</th><!-- TWELVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-5" onclick="checkCells('act21-5')">T</th><!-- TWELVE -->
                                             <th class="text-center cell-act21" width="30" height="30">N</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-6" onclick="checkCells('act21-6', 'fuchsia')">F</th><!-- FOUR -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-6" onclick="checkCells('act21-6')">F</th><!-- FOUR -->
                                             <th class="text-center cell-act21" width="30" height="30">P</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-7" onclick="checkCells('act21-7', 'olive')">T</th><!-- THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-7" onclick="checkCells('act21-7')">T</th><!-- THIRTEEN -->
                                         </tr>
 										<tr><!-- ROW TWO -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-8" onclick="checkCells('act21-8', 'blue')">W</th><!-- TWO -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-8" onclick="checkCells('act21-8')">W</th><!-- TWO -->
                                             <th class="text-center cell-act21" width="30" height="30">O</th>
                                             <th class="text-center cell-act21" width="30" height="30">L</th>
                                             <th class="text-center cell-act21" width="30" height="30">R</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-9" onclick="checkCells('act21-9', 'green')">L</th><!-- ELEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-9" onclick="checkCells('act21-9')">L</th><!-- ELEVEN -->
                                             <th class="text-center cell-act21" width="30" height="30">V</th>
-                                            <th class="text-center cell-act21" width="30" height="30"  id="act21-10" onclick="checkCells('act21-10', 'silver')">N</th><!-- FIFTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30"  id="act21-10" onclick="checkCells('act21-10')">N</th><!-- FIFTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">E</th>
                                             <th class="text-center cell-act21" width="30" height="30">E</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-11" onclick="checkCells('act21-11', 'darkblue')">W</th><!-- TWELVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-11" onclick="checkCells('act21-11')">W</th><!-- TWELVE -->
                                             <th class="text-center cell-act21" width="30" height="30">H</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-12" onclick="checkCells('act21-12', 'fuchsia')">O</th><!-- FOUR -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-13" onclick="checkCells('act21-13', 'blue')">S</th><!-- SEVENTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-14" onclick="checkCells('act21-14', 'olive')">H</th><!-- THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-12" onclick="checkCells('act21-12')">O</th><!-- FOUR -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-13" onclick="checkCells('act21-13')">S</th><!-- SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-14" onclick="checkCells('act21-14')">H</th><!-- THIRTEEN -->
                                         </tr>
 										<tr><!-- ROW THREE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-15" onclick="checkCells('act21-15', 'teal')">T</th><!-- THREE, TWO -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-16" onclick="checkCells('act21-16', 'teal')">H</th><!-- THREE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-17" onclick="checkCells('act21-17', 'teal')">R</th><!-- THREE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-18" onclick="checkCells('act21-18', 'teal')">E</th><!-- THREE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-19" onclick="checkCells('act21-19', 'green')">E</th><!-- ELEVEN, THREE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-20" onclick="checkCells('act21-20', 'maroon')">N</th><!-- EIGHTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-21" onclick="checkCells('act21-21', 'silver')">E</th><!-- FIFTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-15" onclick="checkCells('act21-15')">T</th><!-- THREE, TWO -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-16" onclick="checkCells('act21-16')">H</th><!-- THREE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-17" onclick="checkCells('act21-17')">R</th><!-- THREE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-18" onclick="checkCells('act21-18')">E</th><!-- THREE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-19" onclick="checkCells('act21-19')">E</th><!-- ELEVEN, THREE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-20" onclick="checkCells('act21-20')">N</th><!-- EIGHTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-21" onclick="checkCells('act21-21')">E</th><!-- FIFTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">I</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-22" onclick="checkCells('act21-22', 'indigo')">E</th><!-- EIGHT -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-23" onclick="checkCells('act21-23', 'darkblue')">E</th><!-- TWELVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-22" onclick="checkCells('act21-22')">E</th><!-- EIGHT -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-23" onclick="checkCells('act21-23')">E</th><!-- TWELVE -->
                                             <th class="text-center cell-act21" width="30" height="30">R</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-24" onclick="checkCells('act21-24', 'fuchsia')">U</th><!-- FOUR -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-25" onclick="checkCells('act21-25', 'blue')">E</th><!-- SEVENTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-26" onclick="checkCells('act21-26', 'olive')">I</th><!-- THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-24" onclick="checkCells('act21-24')">U</th><!-- FOUR -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-25" onclick="checkCells('act21-25')">E</th><!-- SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-26" onclick="checkCells('act21-26')">I</th><!-- THIRTEEN -->
                                         </tr>
 										<tr><!-- ROW FOUR -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-27" onclick="checkCells('act21-27', 'yellowGreen')">Y</th><!-- TWENTY -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-27" onclick="checkCells('act21-27')">Y</th><!-- TWENTY -->
                                             <th class="text-center cell-act21" width="30" height="30">W</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-28" onclick="checkCells('act21-28', 'red')">F</th><!-- FIVE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-29" onclick="checkCells('act21-29', 'red')">I</th><!-- FIVE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-30" onclick="checkCells('act21-30', 'green')">V</th><!-- ELEVEN, FIVE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-31" onclick="checkCells('act21-31', 'red')">E</th><!-- FIVE, EIGHTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-32" onclick="checkCells('act21-32', 'silver')">E</th><!-- FIFTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-28" onclick="checkCells('act21-28')">F</th><!-- FIVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-29" onclick="checkCells('act21-29')">I</th><!-- FIVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-30" onclick="checkCells('act21-30')">V</th><!-- ELEVEN, FIVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-31" onclick="checkCells('act21-31')">E</th><!-- FIVE, EIGHTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-32" onclick="checkCells('act21-32')">E</th><!-- FIFTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">G</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-33" onclick="checkCells('act21-33', 'indigo')">I</th><!-- EIGHT -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-34" onclick="checkCells('act21-34', 'darkblue')">L</th><!-- TWELVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-33" onclick="checkCells('act21-33')">I</th><!-- EIGHT -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-34" onclick="checkCells('act21-34')">L</th><!-- TWELVE -->
                                             <th class="text-center cell-act21" width="30" height="30">C</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-35" onclick="checkCells('act21-35', 'fuchsia')">R</th><!-- FOUR -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-36" onclick="checkCells('act21-36', 'blue')">V</th><!-- SEVENTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-37" onclick="checkCells('act21-37', 'olive')">R</th><!-- THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-35" onclick="checkCells('act21-35')">R</th><!-- FOUR -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-36" onclick="checkCells('act21-36')">V</th><!-- SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-37" onclick="checkCells('act21-37')">R</th><!-- THIRTEEN -->
                                         </tr>
 										<tr><!-- ROW FIVE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-38" onclick="checkCells('act21-38', 'yellowGreen')">T</th><!-- TWENTY -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-38" onclick="checkCells('act21-38')">T</th><!-- TWENTY -->
                                             <th class="text-center cell-act21" width="30" height="30">I</th>
                                             <th class="text-center cell-act21" width="30" height="30">N</th>
                                             <th class="text-center cell-act21" width="30" height="30">E</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-39" onclick="checkCells('act21-39', 'green')">E</th><!-- ELEVEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-40" onclick="checkCells('act21-40', 'maroon')">E</th><!-- EIGHTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-41" onclick="checkCells('act21-41', 'silver')">T</th><!-- FIFTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-39" onclick="checkCells('act21-39')">E</th><!-- ELEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-40" onclick="checkCells('act21-40')">E</th><!-- EIGHTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-41" onclick="checkCells('act21-41')">T</th><!-- FIFTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">O</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-42" onclick="checkCells('act21-42', 'indigo')">G</th><!-- EIGHT -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-43" onclick="checkCells('act21-43', 'darkblue')">V</th><!-- TWELVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-42" onclick="checkCells('act21-42')">G</th><!-- EIGHT -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-43" onclick="checkCells('act21-43')">V</th><!-- TWELVE -->
                                             <th class="text-center cell-act21" width="30" height="30">Y</th>
                                             <th class="text-center cell-act21" width="30" height="30">T</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-44" onclick="checkCells('act21-44', 'blue')">E</th><!-- SEVENTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-45" onclick="checkCells('act21-45', 'olive')">T</th><!-- THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-44" onclick="checkCells('act21-44')">E</th><!-- SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-45" onclick="checkCells('act21-45')">T</th><!-- THIRTEEN -->
                                         </tr>
 										<tr><!-- ROW SIX -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-46" onclick="checkCells('act21-46', 'cadetBlue')">N</th><!-- NINE, TWENTY -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-47" onclick="checkCells('act21-47', 'cadetBlue')">I</th><!-- NINE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-48" onclick="checkCells('act21-48', 'cadetBlue')">N</th><!-- NINE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-49" onclick="checkCells('act21-49', 'cadetBlue')">E</th><!-- NINE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-50" onclick="checkCells('act21-50', 'green')">N</th><!-- ELEVEN, SEVEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-51" onclick="checkCells('act21-51', 'maroon')">T</th><!-- EIGHTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-52" onclick="checkCells('act21-52', 'silver')">F</th><!-- FIFTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-46" onclick="checkCells('act21-46')">N</th><!-- NINE, TWENTY -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-47" onclick="checkCells('act21-47')">I</th><!-- NINE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-48" onclick="checkCells('act21-48')">N</th><!-- NINE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-49" onclick="checkCells('act21-49')">E</th><!-- NINE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-50" onclick="checkCells('act21-50')">N</th><!-- ELEVEN, SEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-51" onclick="checkCells('act21-51')">T</th><!-- EIGHTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-52" onclick="checkCells('act21-52')">F</th><!-- FIFTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">A</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-53" onclick="checkCells('act21-53', 'indigo')">H</th><!-- EIGHT -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-54" onclick="checkCells('act21-54', 'darkblue')">E</th><!-- TWELVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-53" onclick="checkCells('act21-53')">H</th><!-- EIGHT -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-54" onclick="checkCells('act21-54')">E</th><!-- TWELVE -->
                                             <th class="text-center cell-act21" width="30" height="30">W</th>
                                             <th class="text-center cell-act21" width="30" height="30">T</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-55" onclick="checkCells('act21-55', 'blue')">N</th><!-- SEVENTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-56" onclick="checkCells('act21-56', 'olive')">E</th><!-- THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-55" onclick="checkCells('act21-55')">N</th><!-- SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-56" onclick="checkCells('act21-56')">E</th><!-- THIRTEEN -->
                                         </tr>
 										<tr><!-- ROW SEVEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-57" onclick="checkCells('act21-57', 'yellowGreen')">E</th><!-- TWENTY -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-57" onclick="checkCells('act21-57')">E</th><!-- TWENTY -->
                                             <th class="text-center cell-act21" width="30" height="30">L</th>
                                             <th class="text-center cell-act21" width="30" height="30">P</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-58" onclick="checkCells('act21-58', 'darkGray')">E</th><!-- SEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-58" onclick="checkCells('act21-58')">E</th><!-- SEVEN -->
                                             <th class="text-center cell-act21" width="30" height="30">Q</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-59" onclick="checkCells('act21-59', 'maroon')">H</th><!-- EIGHTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-60" onclick="checkCells('act21-60', 'silver')">I</th><!-- FIFTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-59" onclick="checkCells('act21-59')">H</th><!-- EIGHTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-60" onclick="checkCells('act21-60')">I</th><!-- FIFTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">R</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-61" onclick="checkCells('act21-61', 'blue')">T</th><!-- TEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-62" onclick="checkCells('act21-62', 'blue')">E</th><!-- TEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-63" onclick="checkCells('act21-63', 'blue')">N</th><!-- TEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-61" onclick="checkCells('act21-61')">T</th><!-- TEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-62" onclick="checkCells('act21-62')">E</th><!-- TEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-63" onclick="checkCells('act21-63')">N</th><!-- TEN -->
                                             <th class="text-center cell-act21" width="30" height="30">N</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-64" onclick="checkCells('act21-64', 'blue')">T</th><!-- SEVENTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-65" onclick="checkCells('act21-65', 'olive')">E</th><!-- THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-64" onclick="checkCells('act21-64')">T</th><!-- SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-65" onclick="checkCells('act21-65')">E</th><!-- THIRTEEN -->
                                         </tr>
 										<tr><!-- ROW EIGHT -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-66" onclick="checkCells('act21-66', 'yellowGreen')">W</th><!-- TWENTY -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-66" onclick="checkCells('act21-66')">W</th><!-- TWENTY -->
                                             <th class="text-center cell-act21" width="30" height="30">P</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-67" onclick="checkCells('act21-67', 'darkGray')">V</th><!-- SEVEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-68" onclick="checkCells('act21-68', 'turquoise')">X</th><!-- SIX -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-67" onclick="checkCells('act21-67')">V</th><!-- SEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-68" onclick="checkCells('act21-68')">X</th><!-- SIX -->
                                             <th class="text-center cell-act21" width="30" height="30">T</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-69" onclick="checkCells('act21-69', 'maroon')">G</th><!-- EIGHTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-70" onclick="checkCells('act21-70', 'fuchsia')">F</th><!-- FIFTEEN, FOURTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-71" onclick="checkCells('act21-71', 'fuchsia')">O</th><!-- FOURTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-72" onclick="checkCells('act21-72', 'fuchsia')">U</th><!-- FOURTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-73" onclick="checkCells('act21-73', 'fuchsia')">R</th><!-- FOURTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-74" onclick="checkCells('act21-74', 'fuchsia')">T</th><!-- FOURTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-75" onclick="checkCells('act21-75', 'fuchsia')">E</th><!-- FOURTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-76" onclick="checkCells('act21-76', 'blue')">E</th><!-- FOURTEEN, SEVENTEEN-->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-77" onclick="checkCells('act21-77', 'olive')">N</th><!-- THIRTEEN, FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-69" onclick="checkCells('act21-69')">G</th><!-- EIGHTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-70" onclick="checkCells('act21-70')">F</th><!-- FIFTEEN, FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-71" onclick="checkCells('act21-71')">O</th><!-- FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-72" onclick="checkCells('act21-72')">U</th><!-- FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-73" onclick="checkCells('act21-73')">R</th><!-- FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-74" onclick="checkCells('act21-74')">T</th><!-- FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-75" onclick="checkCells('act21-75')">E</th><!-- FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-76" onclick="checkCells('act21-76')">E</th><!-- FOURTEEN, SEVENTEEN-->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-77" onclick="checkCells('act21-77')">N</th><!-- THIRTEEN, FOURTEEN -->
                                         </tr>
 										<tr><!-- ROW NINE -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-78" onclick="checkCells('act21-78', 'yellowGreen')">T</th><!-- TWENTY -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-79" onclick="checkCells('act21-79', 'darkGray')">E</th><!-- SEVEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-80" onclick="checkCells('act21-80', 'turquoise')">I</th><!-- SIX -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-78" onclick="checkCells('act21-78')">T</th><!-- TWENTY -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-79" onclick="checkCells('act21-79')">E</th><!-- SEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-80" onclick="checkCells('act21-80')">I</th><!-- SIX -->
                                             <th class="text-center cell-act21" width="30" height="30">R</th>
                                             <th class="text-center cell-act21" width="30" height="30">G</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-81" onclick="checkCells('act21-81', 'maroon')">I</th><!-- EIGHTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-82" onclick="checkCells('act21-82', 'green')">N</th><!-- NINETEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-83" onclick="checkCells('act21-83', 'green')">I</th><!-- NINETEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-84" onclick="checkCells('act21-84', 'green')">N</th><!-- NINETEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-85" onclick="checkCells('act21-85', 'green')">E</th><!-- NINETEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-86" onclick="checkCells('act21-86', 'green')">T</th><!-- NINETEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-87" onclick="checkCells('act21-87', 'green')">E</th><!-- NINETEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-88" onclick="checkCells('act21-88', 'olive')">E</th><!-- NINETEEN, SEVENTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-89" onclick="checkCells('act21-89', 'green')">N</th><!-- NINETEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-81" onclick="checkCells('act21-81')">I</th><!-- EIGHTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-82" onclick="checkCells('act21-82')">N</th><!-- NINETEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-83" onclick="checkCells('act21-83')">I</th><!-- NINETEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-84" onclick="checkCells('act21-84')">N</th><!-- NINETEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-85" onclick="checkCells('act21-85')">E</th><!-- NINETEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-86" onclick="checkCells('act21-86')">T</th><!-- NINETEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-87" onclick="checkCells('act21-87')">E</th><!-- NINETEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-88" onclick="checkCells('act21-88')">E</th><!-- NINETEEN, SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-89" onclick="checkCells('act21-89')">N</th><!-- NINETEEN -->
                                         </tr>
 										<tr><!-- ROW TEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-90" onclick="checkCells('act21-90', 'darkGray')">S</th><!-- SEVEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-91" onclick="checkCells('act21-91', 'turquoise')">S</th><!-- SIXTEEN, SIX -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-92" onclick="checkCells('act21-92', 'red')">I</th><!-- SIXTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-93" onclick="checkCells('act21-93', 'red')">X</th><!-- SIXTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-94" onclick="checkCells('act21-94', 'red')">T</th><!-- SIXTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-95" onclick="checkCells('act21-95', 'indigo')">E</th><!-- SIXTEEN, eight -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-96" onclick="checkCells('act21-96', 'red')">E</th><!-- SIXTEEN -->
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-97" onclick="checkCells('act21-97', 'red')">N</th><!-- SIXTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-90" onclick="checkCells('act21-90')">S</th><!-- SEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-91" onclick="checkCells('act21-91')">S</th><!-- SIXTEEN, SIX -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-92" onclick="checkCells('act21-92')">I</th><!-- SIXTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-93" onclick="checkCells('act21-93')">X</th><!-- SIXTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-94" onclick="checkCells('act21-94')">T</th><!-- SIXTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-95" onclick="checkCells('act21-95')">E</th><!-- SIXTEEN, eight -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-96" onclick="checkCells('act21-96')">E</th><!-- SIXTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-97" onclick="checkCells('act21-97')">N</th><!-- SIXTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">F</th>
                                             <th class="text-center cell-act21" width="30" height="30">R</th>
                                             <th class="text-center cell-act21" width="30" height="30">O</th>
                                             <th class="text-center cell-act21" width="30" height="30">U</th>
-                                            <th class="text-center cell-act21" width="30" height="30" id="act21-98" onclick="checkCells('act21-98', 'blue')">N</th><!-- SEVENTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act21-98" onclick="checkCells('act21-98')">N</th><!-- SEVENTEEN -->
                                             <th class="text-center cell-act21" width="30" height="30">W</th>
                                         </tr>
                                     </table>
@@ -3714,6 +3714,580 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 	<script  src="../../app/controllers/BookTwoUnitOne/wordfindpage7.js"></script>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act23" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act23">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Read and match numbers from one to twenty</p>
+											<input type="text" class="d-none" id="points23" name="points">
+											<input type="text" class="d-none" id="idcliente23" name="idcliente">
+											<input type="text" class="d-none" id="idlibro23" name="idlibro">
+										</div>
+									</div>
+									<div class="col">
+										<div class="row mb-4">
+											<div class="col pb-1 pt-2" style="border: dashed 2px pink;">
+												<div class="row">
+													<div class="col text-end">
+														<p>one</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-1"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>five</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-2"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>nine</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-3"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>eighteen</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-4"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>thirteen</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-5"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col pb-1 pt-2" style="border: dashed 2px pink;">
+												<div class="row">
+													<div class="col text-end">
+														<p>three</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-6"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>fifteen</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-7"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>eleven</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-8"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>nineteen</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-9"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>eight</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-10"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="row justify-content-center">
+											<div id="option-act23-1" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												9
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-2" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												10
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-3" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												5
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-4" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												17
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-5" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												1
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-6" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												6
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-7" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												18
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-8" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												14
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-9" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												13
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-10" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												4
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="row justify-content-center">
+											<div id="option-act23-11" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												3
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-12" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												2
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-13" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												15
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-14" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												12
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-15" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												11
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-16" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												20
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-17" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												19
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-18" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												16
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-19" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												8
+											</div>
+										</div>
+										<div class="row justify-content-center">
+											<div id="option-act23-20" class="box-act23 text-center m-3" draggable="true" data-id="small">
+												7
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="row mb-4">
+											<div class="col pb-1 pt-2" style="border: dashed 2px pink;">
+												<div class="row">
+													<div class="col text-end">
+														<p>ten</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23  text-center" id="box-act23-11"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>seventeen</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-12"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>six</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-13"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>fourteen</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-14"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>four</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-15"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col pb-1 pt-2" style="border: dashed 2px pink;">
+												<div class="row">
+													<div class="col text-end">
+														<p>two</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-16"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>twelve</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-17"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>twenty</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-18"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>seven</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-19"></div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col text-end">
+														<p>sixteen</p>
+													</div>
+													<div class="col align-items-start">
+														<div class="box-act23 text-center" id="box-act23-20"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act24" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act24">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the missing letters</p>
+											<input type="text" class="d-none" id="points24" name="points">
+											<input type="text" class="d-none" id="idcliente24" name="idcliente">
+											<input type="text" class="d-none" id="idlibro24" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Lamp -->
+													<td class="text-center">L</td>
+													<td><input type="text" id="input-act24-1"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-2"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">p</td>
+												</tr>
+												<tr>
+													<!-- Sofa -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act24-3"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-4"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">a</td>
+												</tr>
+												<tr>
+													<!-- Chair -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act24-5"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-6"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-7"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Radio -->
+													<td class="text-center">R</td>
+													<td><input type="text" id="input-act24-8"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-9"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-10"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">o</td>
+												</tr>
+												<tr>
+													<!-- Clock -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act24-11"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-12"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-13"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">k</td>
+												</tr>
+												<tr>
+													<!-- Stereo -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act24-14"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-15"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-16"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-17"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">o</td>
+												</tr>
+												<tr>
+													<!-- Window -->
+													<td class="text-center">W</td>
+													<td><input type="text" id="input-act24-18"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-19"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-20"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-21"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">w</td>
+												</tr>
+												<tr>
+													<!-- Telephone -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act24-22"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-23"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-24"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-25"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-26"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-27"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-28"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+												</tr>
+												<tr>
+													<!-- Television set -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act24-29"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">l</td>
+													<td><input type="text" id="input-act24-30"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">v</td>
+													<td><input type="text" id="input-act24-31"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">s</td>
+													<td><input type="text" id="input-act24-32"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-33"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">n</td>
+													<td class="text-center"> &nbsp; </td>
+													<td class="text-center">s</td>
+													<td><input type="text" id="input-act24-34"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+												<tr>
+													<!-- Fan -->
+													<td class="text-center">F</td>
+													<td><input type="text" id="input-act24-35"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">n</td>
+												</tr>
+												<tr>
+													<!-- Floor -->
+													<td class="text-center">F</td>
+													<td><input type="text" id="input-act24-36"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-37"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-38"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Coffe-table -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act24-39"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">f</td>
+													<td><input type="text" id="input-act24-40"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-41"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+													<td class="text-center">-</td>
+													<td class="text-center">t</td>
+													<td><input type="text" id="input-act24-42"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-43"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act24-44"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>
 <!-- fin modales-->
 

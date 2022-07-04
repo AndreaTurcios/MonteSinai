@@ -96,6 +96,15 @@
     color: #212526;
   }
 
+  .box-act23{
+    height: 30px;
+    width: 50px !important; 
+    background-color: rgb(230, 252, 255); 
+    border-radius: 5px; 
+    border: 1px solid #dbdbdb
+  }
+
+
   /*
   *Libro 5
   **/
