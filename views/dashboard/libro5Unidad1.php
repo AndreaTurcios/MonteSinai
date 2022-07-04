@@ -1930,548 +1930,566 @@ Book_Page::headerTemplate('Unidad 2');
 			<form method="post" id="game-43">
 				<div class="modal-body">
 					<div class="container-fluid">
-						<div align="center">
-							<table style="width:50%;">
-								<!--fila 1 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<label class="word-number" for="game-43-f1c9">8</label>
-										<input required id="game-43-f1c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 2 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f2c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 3 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f3c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 4 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<label class="word-number" for="game-43-f4c8">1</label>
-										<input required id="game-43-f4c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="s" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f4c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f4c10" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="p" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f4c11" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="t" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f4c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f4c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="m" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f4c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="b" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f4c15" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f4c16" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 5 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f5c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 6 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f6c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<label class="word-number" for="14">3</label>
-										<input required id="game-43-f6c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="m" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f6c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="a" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f6c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f6c15" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="c" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f6c16" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="h" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 7 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<label class="word-number" for="14">10</label>
-										<input required id="game-43-f7c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="d" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f7c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 8 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<label class="word-number" for="game-43-f8c3">2</label>
-										<input required id="game-43-f8c3" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="o" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f8c4" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="c" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f8c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="t" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f8c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f8c7" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="b" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f8c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f8c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<label class="word-number" for="game-43-f8c12">5</label>
-										<input required id="game-43-f8c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="M" />
-									</td>
-									<td class="cell ">
-										<label class="word-number" for="14">9</label>
-										<input required id="game-43-f8c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="a" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f8c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="y" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 9 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f9c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="v" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f9c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f9c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="s" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 10 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f10c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f10c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f10c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="s" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 11 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f11c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="m" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f11c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="a" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<label class="word-number" for="game-43-f11c12">6</label>
-										<input required id="game-43-f11c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="j" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f11c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="u" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f11c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="l" />
-									</td>
-									<td class="cell ">
-										<input required id="game-43-f11c15" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="y" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 12 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f12c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="b" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f12c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f12c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="s" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 13 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f13c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f13c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="u" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell">
-										<input required id="game-43-f13c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="t" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 14 -->
-								<tr>
-									<td class="cell">
-										<label class="word-number" for="game-43-f14c1">4 11</label>
-										<input required id="game-43-f14c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="j" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f14c2" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="a" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f14c3" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="n" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f14c4" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="u" />
-									</td>
-									<td class="cell">
-										<label class="word-number" for="game-43-f14c5">12</label>
-										<input required id="game-43-f14c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="a" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f14c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f14c7" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="y" />
-									</td>
-									<td class="cell">
-										<input required id="game-43-f14c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="a" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 15 -->
-								<tr>
-									<td class="cell">
-										<input required id="game-43-f15c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="u" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f15c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="p" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f15c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="p" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 16 -->
-								<tr>
-									<td class="cell">
-										<input required id="game-43-f16c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="n" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f16c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="r" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f16c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="p" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-								<!--fila 17 -->
-								<tr>
-									<td class="cell">
-										<input required id="game-43-f17c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="e" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell ">
-										<input required id="game-43-f17c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="i" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
+						<div class="row">
+							<div class="col-md-8 align-items-center" align="letf">
+								<p class="libro6-indicaciones">Fill the crossword correctly</p>
+								<!-- class="d-none" -->
+								<input type="text" class="d-none" id="points43" name="points43">
+								<input type="text" class="d-none" id="idcliente43" name="idcliente43">
+								<input type="text" class="d-none" id="idlibro43" name="idlibro43">
+							</div>
+						</div>
+						<div class="row">
+							<div align="center">
+								<table style="width:50%;">
+									<!--fila 1 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<label class="word-number" for="game-43-f1c9">8</label>
+											<input required id="game-43-f1c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 2 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f2c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 3 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f3c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 4 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<label class="word-number" for="game-43-f4c8">1</label>
+											<input required id="game-43-f4c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f4c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f4c10" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f4c11" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f4c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f4c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f4c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f4c15" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f4c16" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 5 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f5c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 6 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f6c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<label class="word-number" for="14">3</label>
+											<input required id="game-43-f6c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f6c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f6c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f6c15" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f6c16" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 7 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<label class="word-number" for="14">10</label>
+											<input required id="game-43-f7c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f7c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 8 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<label class="word-number" for="game-43-f8c3">2</label>
+											<input required id="game-43-f8c3" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f8c4" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f8c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f8c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f8c7" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f8c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f8c9" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<label class="word-number" for="game-43-f8c12">5</label>
+											<input required id="game-43-f8c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<label class="word-number" for="14">9</label>
+											<input required id="game-43-f8c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f8c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 9 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f9c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f9c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f9c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 10 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f10c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f10c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f10c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 11 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f11c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f11c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<label class="word-number" for="game-43-f11c12">6</label>
+											<input required id="game-43-f11c12" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f11c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f11c14" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell ">
+											<input required id="game-43-f11c15" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 12 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f12c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f12c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f12c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 13 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f13c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f13c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell">
+											<input required id="game-43-f13c13" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 14 -->
+									<tr>
+										<td class="cell">
+											<label class="word-number" for="game-43-f14c1">4 11</label>
+											<input required id="game-43-f14c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f14c2" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f14c3" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f14c4" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<label class="word-number" for="game-43-f14c5">12</label>
+											<input required id="game-43-f14c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f14c6" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f14c7" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell">
+											<input required id="game-43-f14c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 15 -->
+									<tr>
+										<td class="cell">
+											<input required id="game-43-f15c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f15c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f15c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 16 -->
+									<tr>
+										<td class="cell">
+											<input required id="game-43-f16c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f16c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f16c8" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+									<!--fila 17 -->
+									<tr>
+										<td class="cell">
+											<input required id="game-43-f17c1" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell ">
+											<input required id="game-43-f17c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
 
-								<!--fila 18 -->
-								<tr>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell">
-										<input required id="game-43-f18c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="l" />
-									</td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-									<td class="cell cell-black"></td>
-								</tr>
-							</table>
+									<!--fila 18 -->
+									<tr>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell">
+											<input required id="game-43-f18c5" class="letter" type="text" maxlength="1" pattern="[A-Za-z]" data-down="1" value="" />
+										</td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+										<td class="cell cell-black"></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 align-items-center">
+								<div align="center">
+									<img src="http://localhost/montesinai/resources/img/BOOKS/FifthGrade/UnitOne/Fragmentos/page43.PNG" class="img-fluid" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

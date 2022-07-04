@@ -513,15 +513,15 @@ document.getElementById("game-23").addEventListener("submit", function (event) {
     console.log("Total de puntos " + punto);
     var notatotal = totalPunto.toFixed(2);
     var libro = 5;
-   // document.getElementById("idcliente43").value = users.value;
-   // document.getElementById("points43").value = notatotal;
-   // document.getElementById("idlibro43").value = libro;
-    action = "createact23";
-    //console.log("idcliente" + users.value);
-    //console.log("idcliente" + notatotal);
-    //console.log("libro" + libro);
+    document.getElementById("idcliente43").value = users.value;
+    document.getElementById("points43").value = notatotal;
+    document.getElementById("idlibro43").value = libro;
+    action = "createact43";
+    console.log("idcliente" + users.value);
+    console.log("idcliente" + notatotal);
+    console.log("libro" + libro);
     //function saveRowActivity(api, action, form, modal) en componente.js helper
-    //saveRowActivity(API_ACTIVIDADES, action, "game-43", "ModalLibroSeis43");
+    saveRowActivity(API_ACTIVIDADES, action, "game-43", "ModalLibroCinco43");
     sweetAlert(1, "Resultados ingresados", null);
   
     return true;

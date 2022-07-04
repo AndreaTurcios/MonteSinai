@@ -646,6 +646,27 @@ if (isset($_GET['action'])) {
                     $result['exception'] = 'puntos incorrecto';
                 }
                 break;
+            case 'createact43':
+                $_POST = $libros->validateForm($_POST);
+                if ($libros->setPromedio($_POST['points43'])) {
+                    if ($libros->setLibro($_POST['idlibro43'])) {
+                        if ($libros->setId($_POST['idcliente43'])) {
+                            if ($libros->createRow()) {
+                                $result['status'] = 1;
+                                $result['message'] = 'successentra';
+                            } else {
+                                $result['exception'] = Database::getException();;
+                            }
+                        } else {
+                            $result['exception'] = 'cliente incorrecto';
+                        }
+                    } else {
+                        $result['exception'] = 'libro incorrecto';
+                    }
+                } else {
+                    $result['exception'] = 'puntos incorrecto';
+                }
+                break;
             case 'createact72':
                 $_POST = $libros->validateForm($_POST);
                 if ($libros->setPromedio($_POST['points72'])) {
