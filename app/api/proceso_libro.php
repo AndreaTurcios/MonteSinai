@@ -898,7 +898,6 @@ if (isset($_GET['action'])) {
                     $result['exception'] = 'puntos incorrecto';
                 }
                 break;
-            default:
             case 'createactA9U1L11':
                 $_POST = $libros->validateForm($_POST);
                 if ($libros->setPromedio($_POST['pointsA9U1L11'])) {
