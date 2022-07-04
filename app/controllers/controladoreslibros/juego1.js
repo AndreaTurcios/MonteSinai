@@ -2267,7 +2267,7 @@ document.getElementById('game-fortyone').addEventListener('submit', function (ev
     }
 
 });
-
+/*
 // coloreo ----------------------------------
 // variables
 const colorGrid = document.querySelector('.color-grid');
@@ -2361,4 +2361,4 @@ clear.addEventListener('click', function () {
     }
     pickedColor = undefined;
     console.log('all clear, we can start again')
-})
+})*/

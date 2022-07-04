@@ -27,4 +27,19 @@
 	
 	
 }
+,
+{
+	"x":300,
+	"y":130,
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+
+			"modal":"ModalLibroUnoAudioPag6",
+			"form":"audio6"
+			
+		}
+}
 ]
