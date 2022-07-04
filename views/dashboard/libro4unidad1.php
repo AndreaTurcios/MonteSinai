@@ -28,51 +28,74 @@ Book_Page::headerTemplate('Unidad 1');
 						<span>1</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/2.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/2.JPG" width="76" height="100"
 							class="page-2">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/3.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/3.JPG" width="76" height="100"
 							class="page-3">
 						<span>2-3</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/4.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/4.JPG" width="76" height="100"
 							class="page-4">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/5.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/5.JPG" width="76" height="100"
 							class="page-5">
 						<span>4-5</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/6.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/6.JPG" width="76" height="100"
 							class="page-6">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/7.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/7.JPG" width="76" height="100"
 							class="page-7">
 						<span>6-7</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/8.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/8.JPG" width="76" height="100"
 							class="page-8">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/9.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/9.JPG" width="76" height="100"
 							class="page-9">
 						<span>8-9</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/10.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/10.JPG" width="76" height="100"
 							class="page-10">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/11.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/11.JPG" width="76" height="100"
 							class="page-11">
 						<span>10-11</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/12.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/12.JPG" width="76" height="100"
 							class="page-12">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/13.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/13.JPG" width="76" height="100"
 							class="page-13">
 						<span>12-13</span>
 					</li>
-					<li class="i">
-						<img src="../../resources/img/BOOKS/FirstGrade/UnitOne/14.JPG" width="76" height="100"
+					<li class="d">
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/14.JPG" width="76" height="100"
 							class="page-14">
-						<span>14</span>
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/13.JPG" width="76" height="100"
+							class="page-15">
+						<span>14-15</span>
+					</li>
+					<li class="d">
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/16.JPG" width="76" height="100"
+							class="page-16">
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/17.JPG" width="76" height="100"
+							class="page-17">
+						<span>16-17</span>
+					</li>
+					<li class="d">
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/18.JPG" width="76" height="100"
+							class="page-18">
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/19.JPG" width="76" height="100"
+							class="page-19">
+						<span>18-19</span>
+					</li>
+					<li class="d">
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/20.JPG" width="76" height="100"
+							class="page-20">
+						<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/21.JPG" width="76" height="100"
+							class="page-21">
+						<span>20-21</span>
 					</li>
 				</ul>
 			</div>
@@ -3514,7 +3537,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content" align="center">
 			<div class="modal-header" align="center">
-				<h5 class="modal-title" id="modal-title" align="center">FIND THE WORDS ABOUT OUR BODY</h5>
+				<h5 class="modal-title" id="modal-title" align="center">Crossword of numbers from one to twenty</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="unit1-act22">
@@ -4289,6 +4312,442 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
+
+<div class="modal fade" id="ModalUnit1Act25" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act25">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct answer</p>
+											<input type="text" class="d-none" id="points25" name="points">
+											<input type="text" class="d-none" id="idcliente25" name="idcliente">
+											<input type="text" class="d-none" id="idlibro25" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col" style="position: relative;">
+											<div style="position: absolute; bottom: 40%;">
+												<p>Where is the yellow lamp?</p>
+												<select id="select-act25-1" class="form-select" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+													<option value="1">It is on the black coffee table.</option>
+													<option value="2">It is under the black coffee table.</option>
+													<option value="3">It is behind the black coffee table.</option>
+												</select>
+											</div>
+										</div>
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/35-1.jpg" class="img-fluid" alt="">
+										</div>
+									</div>
+									<div class="row mb-3">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/35-2.jpg" class="img-fluid" alt="">
+										</div>
+										<div class="col" style="position: relative;">
+											<div style="position: absolute; bottom: 40%;">
+												<p>Where is the blue telephone?</p>
+												<select id="select-act25-2" class="form-select" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+													<option value="1">The blue telephone is on the black coffe table</option>
+													<option value="2">It is behind the curtains.</option>
+													<option value="3">The blue telephone is next to the purple windows.</option>
+												</select>
+											</div>
+										</div>
+										
+									</div>
+									<div class="row mb-3">
+										<div class="col-6" style="position: relative;">
+											<div style="position: absolute; bottom: 40%;">
+												<p>Where's the pink radio?</p>
+												<select id="select-act25-3" class="form-select" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+													<option value="1">It is on the window.</option>
+													<option value="2">It's under the purple windows.</option>
+													<option value="3">It is behind the blue telephone.</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-6">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/35-3.jpg" class="img-fluid" alt="">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-4">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/35-4.jpg" class="img-fluid" alt="">
+										</div>
+										<div class="col-8 justify-content-start" style="position: relative;">
+											<div style="position: absolute; bottom: 40%;">
+												<p>Where is the grey fan?</p>
+												<select id="select-act25-4" class="form-select" >
+													<option value="0" selected disabled class="text-muted" style="color: white;">Select your answer</option>
+													<option value="1">It is under the purple window.</option>
+													<option value="2">It is behind the black coffee table.</option>
+													<option value="3">It is next to the pink radio.</option>
+												</select>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act26" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act26">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Look at the picture and answer</p>
+											<input type="text" class="d-none" id="points26" name="points">
+											<input type="text" class="d-none" id="idcliente26" name="idcliente">
+											<input type="text" class="d-none" id="idlibro26" name="idlibro">
+										</div>
+									</div>
+									<div class="row" style="margin-bottom: 50px;">
+										<div class="col-3">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/36-1.jpg" alt="pink sofa">
+										</div>
+										<div class="col-9">
+											<div class="row">
+												<p>What is the name of this furniture?</p>
+												<input type="text" class="form-control" id="input-act26-1" autocomplete="off">
+											</div>
+											<div class="row">
+												<p>What is the color of this furniture?</p>
+												<input type="text" class="form-control" id="input-act26-2" autocomplete="off">
+											</div>
+										</div>
+									</div>
+									<div class="row" style="margin-bottom: 50px;">
+										<div class="col-3">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/36-2.jpg" alt="yellow chair">
+										</div>
+										<div class="col-9">
+											<div class="row">
+												<p>What is the name of this furniture?</p>
+												<input type="text" class="form-control" id="input-act26-3" autocomplete="off">
+											</div>
+											<div class="row">
+												<p>What is the color of this furniture?</p>
+												<input type="text" class="form-control" id="input-act26-4" autocomplete="off">
+											</div>
+										</div>
+									</div>
+									<div class="row" style="margin-bottom: 50px;">
+										<div class="col-3">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/36-3.jpg" alt="gray fan">
+										</div>
+										<div class="col-9">
+											<div class="row">
+												<p>What is the name of this appliance?</p>
+												<input type="text" class="form-control" id="input-act26-5" autocomplete="off">
+											</div>
+											<div class="row">
+												<p>What is the color of this appliance?</p>
+												<input type="text" class="form-control" id="input-act26-6" autocomplete="off">
+											</div>
+										</div>
+									</div>
+									<div class="row" style="margin-bottom: 50px;">
+										<div class="col-3">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/36-4.jpg" alt="black coffe table">
+										</div>
+										<div class="col-9">
+											<div class="row">
+												<p>What is the name of this furniture?</p>
+												<input type="text" class="form-control" id="input-act26-7" autocomplete="off">
+											</div>
+											<div class="row">
+												<p>What is the color of this furniture?</p>
+												<input type="text" class="form-control" id="input-act26-8" autocomplete="off">
+											</div>
+										</div>
+									</div>
+									<div class="row" style="margin-bottom: 50px;">
+										<div class="col-3">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/36-5.jpg" alt="purple curtains">
+										</div>
+										<div class="col-9">
+											<div class="row">
+												<p>What is the name of this appliance?</p>
+												<input type="text" class="form-control" id="input-act26-9" autocomplete="off">
+											</div>
+											<div class="row">
+												<p>What is the color of this appliance?</p>
+												<input type="text" class="form-control" id="input-act26-10" autocomplete="off">
+											</div>
+										</div>
+									</div>
+									<div class="row" style="margin-bottom: 10px;">
+										<div class="col-3">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/36-6.jpg" alt="pink radio">
+										</div>
+										<div class="col-9">
+											<div class="row">
+												<p>What is the name of this appliance?</p>
+												<input type="text" class="form-control" id="input-act26-11" autocomplete="off">
+											</div>
+											<div class="row">
+												<p>What is the color of this appliance?</p>
+												<input type="text" class="form-control" id="input-act26-12" autocomplete="off">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit1Act27" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Find the names of the living room</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act27">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points27" name="points">
+											<input type="text" class="d-none" id="idcliente27" name="idcliente">
+											<input type="text" class="d-none" id="idlibro27" name="idlibro">
+										</div>
+									</div>
+                                    <br>
+                                    <table style="border: 2px solid #f99d52; background-color: #ffd6d6; " width="">
+                                        <tr><!-- ROW ONE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-1" onclick="checkCells('act27-1')">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-2" onclick="checkCells('act27-2')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-3" onclick="checkCells('act27-3')">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-4" onclick="checkCells('act27-4')">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-5" onclick="checkCells('act27-5')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-6" onclick="checkCells('act27-6')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">J</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-7" onclick="checkCells('act27-7')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-8" onclick="checkCells('act27-8')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-9" onclick="checkCells('act27-9')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-10" onclick="checkCells('act27-10')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-11" onclick="checkCells('act27-11')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">P</th>
+                                        </tr>
+										<tr><!-- ROW TWO -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-12" onclick="checkCells('act27-12')">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-13" onclick="checkCells('act27-13')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-14" onclick="checkCells('act27-14')">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30">V</th>
+                                            <th class="text-center cell-act21" width="30" height="30">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-15" onclick="checkCells('act27-15')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30">B</th>
+                                        </tr>
+										<tr><!-- ROW THREE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-16" onclick="checkCells('act27-16')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-17" onclick="checkCells('act27-17')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-18" onclick="checkCells('act27-18')">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-19" onclick="checkCells('act27-19')">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-20" onclick="checkCells('act27-20')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-21" onclick="checkCells('act27-21')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-22" onclick="checkCells('act27-22')">W</th>
+                                            <th class="text-center cell-act21" width="30" height="30">U</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                        </tr>
+										<tr><!-- ROW FOUR -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-23" onclick="checkCells('act27-23')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">W</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-24" onclick="checkCells('act27-24')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-25" onclick="checkCells('act27-25')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-26" onclick="checkCells('act27-26')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-27" onclick="checkCells('act27-27')">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-28" onclick="checkCells('act27-28')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-29" onclick="checkCells('act27-29')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">V</th>
+                                        </tr>
+										<tr><!-- ROW FIVE -->
+											<th class="text-center cell-act21" width="30" height="30" id="act27-30" onclick="checkCells('act27-30')">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-31" onclick="checkCells('act27-31')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-32" onclick="checkCells('act27-32')">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-33" onclick="checkCells('act27-33')">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-34" onclick="checkCells('act27-34')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30">Y</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-35" onclick="checkCells('act27-35')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30">T</th>
+                                        </tr>
+										<tr><!-- ROW SIX -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-36" onclick="checkCells('act27-36')">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-37" onclick="checkCells('act27-37')">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-38" onclick="checkCells('act27-38')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-39" onclick="checkCells('act27-39')">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                        </tr>
+										<tr><!-- ROW SEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-40" onclick="checkCells('act27-40')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-41" onclick="checkCells('act27-41')">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-42" onclick="checkCells('act27-42')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-43" onclick="checkCells('act27-43')">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-44" onclick="checkCells('act27-44')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-45" onclick="checkCells('act27-45')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">N</th>
+                                        </tr>
+										<tr><!-- ROW EIGHT -->
+                                            <th class="text-center cell-act21" width="30" height="30">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30">V</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-46" onclick="checkCells('act27-46')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-47" onclick="checkCells('act27-47')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-48" onclick="checkCells('act27-48')">M</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-49" onclick="checkCells('act27-49')">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-50" onclick="checkCells('act27-50')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">U</th>
+                                            <th class="text-center cell-act21" width="30" height="30">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-51" onclick="checkCells('act27-51')">W</th>
+                                            <th class="text-center cell-act21" width="30" height="30">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30">N</th>
+                                        </tr>
+										<tr><!-- ROW NINE -->
+                                            <th class="text-center cell-act21" width="30" height="30">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-52" onclick="checkCells('act27-52')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-53" onclick="checkCells('act27-53')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">Y</th>
+                                            <th class="text-center cell-act21" width="30" height="30">C</th>
+                                        </tr>
+										<tr><!-- ROW TEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-54" onclick="checkCells('act27-54')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-55" onclick="checkCells('act27-55')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-56" onclick="checkCells('act27-56')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-57" onclick="checkCells('act27-57')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-58" onclick="checkCells('act27-58')">V</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-59" onclick="checkCells('act27-59')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-60" onclick="checkCells('act27-60')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-61" onclick="checkCells('act27-61')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-62" onclick="checkCells('act27-62')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-63" onclick="checkCells('act27-63')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-64" onclick="checkCells('act27-64')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-65" onclick="checkCells('act27-65')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act27-66" onclick="checkCells('act27-66')">T</th>
+                                        </tr>
+                                    </table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script  src="../../app/controllers/BookTwoUnitOne/wordfindpage7.js"></script>
+</div>
+
 <!-- fin modales-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
