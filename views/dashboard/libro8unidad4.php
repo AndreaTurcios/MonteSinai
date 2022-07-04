@@ -852,7 +852,7 @@ Book_Page::headerTemplate('Unidad 4');
 						</div> -->
 
 						<div class="row">
-
+							<!-- pregunta1 -->
                             <div class="col-6">
 								<div class="col-12">
 									<strong>I-What is a quantifier?</strong>
@@ -877,7 +877,7 @@ Book_Page::headerTemplate('Unidad 4');
 									</label>
 								</div>
 							</div>
-
+							<!-- pregunta2 -->
 							<div class="col-6">
 								<div class="col-12">
 									<strong>II-What are home appliances?</strong>
@@ -902,7 +902,7 @@ Book_Page::headerTemplate('Unidad 4');
 									</label>
 								</div>
 							</div>
-
+							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
 									<strong>III-Select sentences using quantifiers with groceries or food</strong>
@@ -920,7 +920,7 @@ Book_Page::headerTemplate('Unidad 4');
                                     <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">I need a pair of sandals</label>
                                 </div>
 							</div>
-
+							<!-- pregunta4 -->
 							<div class="col-6">
 								<div class="col-12">
 									<strong>IV-Select questions and answers about clothing and personal items</strong>
@@ -965,13 +965,69 @@ Book_Page::headerTemplate('Unidad 4');
 									</select>
 									<label for="act2-q2">Of course, try it.</label>
 								</div>
+							</div>
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-How can you explain the importance of dressing appropriately at and out of school?</strong>
+								</div>
 								
-
+								<div class="col-md-12">
+									<select name="act2-q1" id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">answer1</option>
+										<option value="2">answer2</option><!-- correcto -->
+										<option value="3">answer3</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-Why do you think that you must dress yourself appropriately both while in and out of school?</strong>
+								</div>
 								
+								<div class="col-md-12">
+									<select name="act2-q1" id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">answer1</option>
+										<option value="2">answer2</option><!-- correcto -->
+										<option value="3">answer3</option>
+									</select>
+								</div>
 							</div>
 
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-How can you verify if your home appliances satisfy your everyday needs?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act2-q1" id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">answer1</option>
+										<option value="2">answer2</option><!-- correcto -->
+										<option value="3">answer3</option>
+									</select>
+								</div>
+							</div>
 
-
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-Could you struggle to identify opportunities and create a new home appliance?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act2-q1" id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">answer1</option>
+										<option value="2">answer2</option><!-- correcto -->
+										<option value="3">answer3</option>
+									</select>
+								</div>
+							</div>
 	
                         </div>
 
