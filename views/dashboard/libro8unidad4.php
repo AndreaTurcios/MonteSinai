@@ -837,20 +837,6 @@ Book_Page::headerTemplate('Unidad 4');
 							</div>
 						</div>
 
-                        <!-- <div class="row border box-select-5">
-							<div class="col-md-12">
-								<label for="act5-q1">1-What is a quantifier?</label>
-								<select name="act5-q1" id="act5-q1">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">Is used to discover required information to complete 
-										a given task such as making a decision about what to watch on TV, 
-										or witch museum to visit while visiting a foreign city</option>
-									<option value="2"></option>
-									<option value="3">Is a word that indicates the range of individuals or items referred to</option>
-								</select>
-							</div>
-						</div> -->
-
 						<div class="row">
 							<!-- pregunta1 -->
                             <div class="col-6">
@@ -917,7 +903,7 @@ Book_Page::headerTemplate('Unidad 4');
                                     <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">A few cookies are on the oven</label><!-- correcto -->
                                 </div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">I need a pair of sandals</label>
+                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4">I need a pair of sandals</label>
                                 </div>
 							</div>
 							<!-- pregunta4 -->
@@ -927,8 +913,8 @@ Book_Page::headerTemplate('Unidad 4');
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act2-q1">Hi! Sara, are your bag new?</label>
-									<select name="act2-q1" id="act2-q1">
+									<label for="act6-q1">Hi! Sara, are your bag new?</label>
+									<select name="act6-q1" id="act6-q1">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Hi, how are you?</option>
 										<option value="2">Yes, I bought it las week.</option><!-- correcto -->
@@ -937,18 +923,18 @@ Book_Page::headerTemplate('Unidad 4');
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act2-q2" id="act2-q2">
+									<select name="act6-q2" id="act6-q2">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">What material is it?</option><!-- correcto -->
 										<option value="2">What color would you like?</option>
 										<option value="3">May I help you?</option>
 									</select>
-									<label for="act2-q2">It's wool.</label>
+									<label for="act6-q2">It's wool.</label>
 								</div>
 
 								<div class="col-md-12">
-									<label for="act2-q1">What size are you?</label>
-									<select name="act2-q1" id="act2-q1">
+									<label for="act6-q3">What size are you?</label>
+									<select name="act6-q3" id="act6-q3">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">It's wool.</option>
 										<option value="2">I'm small.</option><!-- correcto -->
@@ -957,13 +943,13 @@ Book_Page::headerTemplate('Unidad 4');
 								</div>
 
 								<div class="col-md-12">
-									<select name="act2-q2" id="act2-q2">
+									<select name="act6-q4" id="act6-q4">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Can i try it on?</option><!-- correcto -->
 										<option value="2">Do you need those?</option>
 										<option value="3">Anything else?</option>
 									</select>
-									<label for="act2-q2">Of course, try it.</label>
+									<label for="act6-q4">Of course, try it.</label>
 								</div>
 							</div>
 							<!-- pregunta5 -->
@@ -973,11 +959,11 @@ Book_Page::headerTemplate('Unidad 4');
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act2-q1" id="act2-q1">
+									<select name="act6-q5" id="act6-q5">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">answer1</option>
-										<option value="2">answer2</option><!-- correcto -->
-										<option value="3">answer3</option>
+										<option value="1">It's not important to do it</option>
+										<option value="2">It's important because the students represent the school and her values</option><!-- correcto -->
+										<option value="3">It's important to dress correctly everywhere</option>
 									</select>
 								</div>
 							</div>
@@ -988,11 +974,11 @@ Book_Page::headerTemplate('Unidad 4');
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act2-q1" id="act2-q1">
+									<select name="act6-q6" id="act6-q6">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">answer1</option>
-										<option value="2">answer2</option><!-- correcto -->
-										<option value="3">answer3</option>
+										<option value="1">Because if I don't, I won't be able to get good grades</option>
+										<option value="2">Because the way I dress compliments my academic training</option>
+										<option value="3">Because it is part of the regulation and I must comply with it</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
@@ -1004,11 +990,11 @@ Book_Page::headerTemplate('Unidad 4');
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act2-q1" id="act2-q1">
+									<select name="act6-q7" id="act6-q7">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">answer1</option>
-										<option value="2">answer2</option><!-- correcto -->
-										<option value="3">answer3</option>
+										<option value="1">Because my home appliances are expensive</option>
+										<option value="2">Because they help me to do my housework</option><!-- correcto -->
+										<option value="3">Because they are from my favorite brand</option>
 									</select>
 								</div>
 							</div>
@@ -1020,7 +1006,7 @@ Book_Page::headerTemplate('Unidad 4');
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act2-q1" id="act2-q1">
+									<select name="act6-q8" id="act6-q8">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">answer1</option>
 										<option value="2">answer2</option><!-- correcto -->
@@ -1048,6 +1034,188 @@ Book_Page::headerTemplate('Unidad 4');
 </div>
 <!-- fin Actividad 6-->
 <!-- fin Region 16-->
+
+<!-- Actividad 7-->
+<!-- Region 17-->
+<div id="ModalLibroOcho17" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Identifiying vocabulary related to groceries and produce</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act7">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<h5>Read and identifiying vocabulary related to groceries and produce</h5>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points7" name="points7">
+											<input type="text" class="d-none" id="idcliente7" name="idcliente7">
+											<input type="text" class="d-none" id="idlibro7" name="idlibro7">
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej1.png"
+												class="rounded mx-auto d-block">
+												<select id="act7-q1" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej2.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q2" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej3.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q3" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej4.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q4" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">	
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej5.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q5" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+									
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej6.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q6" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej7.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q7" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej8.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q8" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej9.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q9" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-3">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej10.png"
+												class="rounded mx-auto d-block">
+												<select id="act3-q10" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">answer</option>
+													<option value="2">answer</option><!--correct-->
+													<option value="3">answer</option>
+												</select>
+											</div>
+										</div>
+						
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					 <!-- Botones de Control -->
+					 <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin Actividad 7-->
+<!-- fin Region 17-->
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
