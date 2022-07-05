@@ -4748,6 +4748,382 @@ Book_Page::headerTemplate('Unidad 1');
 	<script  src="../../app/controllers/BookTwoUnitOne/wordfindpage7.js"></script>
 </div>
 
+<div class="modal fade" id="ModalUnit1Act28" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act28">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Match the images with the words</p>
+											<input type="text" class="d-none" id="points28" name="points">
+											<input type="text" class="d-none" id="idcliente28" name="idcliente">
+											<input type="text" class="d-none" id="idlibro28" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col d-flex justify-content-center">
+											<h4>Window</h4>
+										</div>
+										<div class="col ps-5" id="box-act28-1">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/37-1.jpg" alt="Chair" id="img-act28-1">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col d-flex justify-content-center">
+											<h4>Floor</h4>
+										</div>
+										<div class="col ps-5" id="box-act28-2">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/37-2.jpg" alt="Radio" id="img-act28-2">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col d-flex justify-content-center">
+											<h4>Chair</h4>
+										</div>
+										<div class="col ps-5" id="box-act28-3">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/37-3.jpg" alt="Window" id="img-act28-3">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col d-flex justify-content-center">
+											<h4>Television set</h4>
+										</div>
+										<div class="col ps-5" id="box-act28-4">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/37-4.jpg" alt="Television set" id="img-act28-4">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col d-flex justify-content-center">
+											<h4>Radio</h4>
+										</div>
+										<div class="col ps-5" id="box-act28-5">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/37-5.jpg" alt="Floor" id="img-act28-5">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act29" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act29">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the names</p>
+											<input type="text" class="d-none" id="points29" name="points">
+											<input type="text" class="d-none" id="idcliente29" name="idcliente">
+											<input type="text" class="d-none" id="idlibro29" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Table -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act29-1"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-2"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-3"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+												</tr>
+												<tr>
+													<!-- Picture -->
+													<td class="text-center">P</td>
+													<td><input type="text" id="input-act29-4"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-5"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-6"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-7"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-8"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+												</tr>
+												<tr>
+													<!-- Salad bowl -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act29-9"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-10"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-11"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">d</td>
+													<td class="text-center"> &nbsp; </td>
+													<td class="text-center">b</td>
+													<td><input type="text" id="input-act29-12"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-13"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">l</td>
+												</tr>
+												<tr>
+													<!-- Pitcher -->
+													<td class="text-center">P</td>
+													<td><input type="text" id="input-act29-14"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-15"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-16"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-17"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-18"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Tablecloth -->
+													<td class="text-center">T</td>
+													<td class="text-center">a</td>
+													<td><input type="text" id="input-act29-19"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-20"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-21"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-22"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-23"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-24"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>	
+													<td class="text-center">h</td>
+												</tr>
+												<tr>
+													<!-- Candle -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act29-25"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-26"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-27"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-28"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+												</tr>
+												<tr>
+													<!-- Candlestick -->
+													<td class="text-center">C</td>
+													<td class="text-center">a</td>
+													<td class="text-center">n</td>
+													<td class="text-center">d</td>
+													<td><input type="text" id="input-act29-29"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-30"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-31"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-32"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-33"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>	
+													<td class="text-center">c</td>
+													<td class="text-center">k</td>
+												</tr>
+												<tr>
+													<!-- Salt shaker -->
+													<td class="text-center">S</td>
+													<td class="text-center">a</td>
+													<td class="text-center">l</td>
+													<td class="text-center">t</td>
+													<td class="text-center">&nbsp;</td>
+													<td class="text-center">s</td>
+													<td><input type="text" id="input-act29-34"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-35"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-36"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-37"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Coffeepot -->
+													<td class="text-center">C</td>
+													<td class="text-center">o</td>
+													<td><input type="text" id="input-act29-38"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-39"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-40"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-41"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-42"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">o</td>
+													<td class="text-center">t</td>
+												</tr>
+												<tr>
+													<!-- Pepper shaker -->
+													<td class="text-center">P</td>
+													<td class="text-center">e</td>
+													<td><input type="text" id="input-act29-43"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-44"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-45"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+													<td class="text-center">&nbsp;</td>
+													<td class="text-center">s</td>
+													<td><input type="text" id="input-act29-46"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-47"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-48"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-49"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- China cabinet -->
+													<td class="text-center">C</td>
+													<td class="text-center">h</td>
+													<td><input type="text" id="input-act29-50"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-51"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-52"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act29-53"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-54"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-55"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-56"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-57"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+													<td class="text-center">t</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- fin modales-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
