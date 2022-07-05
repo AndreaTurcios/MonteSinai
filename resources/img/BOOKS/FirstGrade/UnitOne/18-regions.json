@@ -14,7 +14,7 @@
 }
 ,
 {
-	"x":300,
+	"x":130,
 	"y":130,
 	"width":130,
 	"height":12,
@@ -22,8 +22,8 @@
 	"data":
 		{
 
-			"modal":"ModalLibroUnoAudioPag6",
-			"form":"audio6"
+			"modal":"ModalLibroUnoAudioPag11",
+			"form":"audio11"
 			
 		}
 }

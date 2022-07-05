@@ -12,16 +12,16 @@
 }
 ,
 {
-	"x":300,
+	"x":348,
 	"y":130,
-	"width":130,
+	"width":110,
 	"height":12,
 	"class":"html",
 	"data":
 		{
 
-			"modal":"ModalLibroUnoAudioPag6",
-			"form":"audio6"
+			"modal":"ModalLibroUnoAudioPag22",
+			"form":"audio22"
 			
 		}
 }

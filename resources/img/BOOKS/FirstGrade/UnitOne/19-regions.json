@@ -30,15 +30,15 @@
 ,
 {
 	"x":300,
-	"y":130,
+	"y":55,
 	"width":130,
 	"height":12,
 	"class":"html",
 	"data":
 		{
 
-			"modal":"ModalLibroUnoAudioPag6",
-			"form":"audio6"
+			"modal":"ModalLibroUnoAudioPag12",
+			"form":"audio12"
 			
 		}
 }

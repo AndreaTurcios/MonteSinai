@@ -6,13 +6,13 @@
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroUnoAudioPag6",
-			"form":"audio6"
+			"modal":"ModalLibroSiete",
+			"form":"game-seven"
 		}
 }
 ,
 {
-	"x":300,
+	"x":50,
 	"y":130,
 	"width":130,
 	"height":12,
@@ -20,8 +20,8 @@
 	"data":
 		{
 
-			"modal":"ModalLibroUnoAudioPag6",
-			"form":"audio6"
+			"modal":"ModalLibroUnoAudioPag7",
+			"form":"audio7"
 			
 		}
 }
