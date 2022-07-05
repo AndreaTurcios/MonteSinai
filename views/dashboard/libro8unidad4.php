@@ -1069,9 +1069,9 @@ Book_Page::headerTemplate('Unidad 4');
 												class="rounded mx-auto d-block">
 												<select id="act7-q1" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A box of grapes</option>
+													<option value="2">A pound of salt</option>
+													<option value="3">A few watermelons</option><!--correct-->
 												</select>
 											</div>
 										</div>
@@ -1080,11 +1080,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej2.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q2" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q2" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A pound of sugar</option>
+													<option value="2">A pound of salt</option>
+													<option value="3">A bottle of orange juice</option><!--correct-->
 												</select>
 											</div>
 										</div>
@@ -1093,11 +1093,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej3.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q3" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q3" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A loaf of bread</option>
+													<option value="2">A head of lettuce</option><!--correct-->
+													<option value="3">A slice of ham</option>
 												</select>
 											</div>
 										</div>
@@ -1106,11 +1106,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej4.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q4" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q4" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A slice of ham</option>
+													<option value="2">A loaf of bread</option>
+													<option value="3">A pound of ground beef</option><!--correct-->
 												</select>
 											</div>
 										</div>
@@ -1121,11 +1121,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej5.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q5" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q5" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A crate of pineapples</option><!--correct-->
+													<option value="2">A few watermelons</option>
+													<option value="3">A box of grapes</option>
 												</select>
 											</div>
 										</div>
@@ -1134,11 +1134,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej6.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q6" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q6" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A pound of salt</option>
+													<option value="2">A bottle of orange juice</option>
+													<option value="3">A pound of sugar</option><!--correct-->
 												</select>
 											</div>
 										</div>
@@ -1147,11 +1147,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej7.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q7" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q7" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A pound of sugar</option>
+													<option value="2">A box of grapes</option>
+													<option value="3">A pound of salt</option><!--correct-->
 												</select>
 											</div>
 										</div>
@@ -1160,11 +1160,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej8.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q8" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q8" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A crate of pineapples</option>
+													<option value="2">A pound of sugar</option>
+													<option value="3">A box of grapes</option><!--correct-->
 												</select>
 											</div>
 										</div>
@@ -1173,11 +1173,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej9.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q9" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q9" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A slice of ham</option>
+													<option value="2">A loaf of bread</option><!--correct-->
+													<option value="3">A pound of ground beef</option>
 												</select>
 											</div>
 										</div>
@@ -1186,11 +1186,11 @@ Book_Page::headerTemplate('Unidad 4');
 											<div class="col">
 												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag17/act7-ej10.png"
 												class="rounded mx-auto d-block">
-												<select id="act3-q10" class="form-select" style="width:auto; display: inline-block;" >
+												<select id="act7-q10" class="form-select" style="width:auto; display: inline-block;" >
 													<option value="0" selected disabled class="text-muted">Choose</option>
-													<option value="1">answer</option>
-													<option value="2">answer</option><!--correct-->
-													<option value="3">answer</option>
+													<option value="1">A slice of ham</option><!--correct-->
+													<option value="2">A pound of ground beef</option>
+													<option value="3">A loaf of bread</option>
 												</select>
 											</div>
 										</div>
@@ -1217,9 +1217,194 @@ Book_Page::headerTemplate('Unidad 4');
 <!-- fin Actividad 7-->
 <!-- fin Region 17-->
 
+<!-- Actividad 8-->
+<!-- Region 18-->
+<div id="ModalLibroOcho18" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Recognizing vocabulary related to groceries and produce</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act8">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<h5>Listen and recognize vocabulary related to groceries and produce</h5>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points8" name="points8">
+											<input type="text" class="d-none" id="idcliente8" name="idcliente8">
+											<input type="text" class="d-none" id="idlibro8" name="idlibro8">
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-6">								
+											<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag18/act8-ej8.png">
+										</div>
+										
+										<div class="col-6">								
+											<div class="col">
+												<label for="act8-q1">1-</label>
+												<select id="act8-q1" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">A can of tuna</option><!--correct-->
+													<option value="2">A bowl of soup</option>
+													<option value="3">A gallon of milk</option>
+												</select>
+											</div>
+											<br>
+											<div class="col">
+												<label for="act8-q2">2-</label>
+												<select id="act8-q2" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">A bowl of soup</option><!--correct-->
+													<option value="2">A gallon of milk</option>
+													<option value="3">A bag of rice</option>
+												</select>
+											</div>
+											<br>
+											<div class="col">
+												<label for="act8-q3">3-</label>
+												<select id="act8-q3" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">A can of tuna</option>
+													<option value="2">A bag of rice</option><!--correct-->
+													<option value="3">A bottle of cream</option>
+												</select>
+											</div>
+											<br>
+											<div class="col">
+												<label for="act8-q4">4-</label>
+												<select id="act8-q4" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">A gallon of milk</option>
+													<option value="2">A bowl of soup</option>
+													<option value="3">A bottle of cream</option><!--correct-->
+												</select>
+											</div>
+											<br>
+											<div class="col">
+												<label for="act8-q5">5-</label>
+												<select id="act8-q5" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">A gallon of milk</option>
+													<option value="2">A little bit of oil</option><!--correct-->
+													<option value="3">A can of tuna</option>
+												</select>
+											</div>
+											<br>
+											<div class="col">
+												<label for="act8-q6">6-</label>
+												<select id="act8-q6" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">A bag of rice</option>
+													<option value="2">A bowl of soup</option>
+													<option value="3">A gallon of milk</option><!--correct-->
+												</select>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">	
+										<div class="col-12">
+											<h5>Complete the sentences</h5>
+											<div>
+												I want to buy
+												<select id="act8-q7" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a can of tuna</option><!--correct-->
+													<option value="2">a gallon of milk</option>
+													<option value="3">a bowl of soup</option>
+												</select>
+												and 
+												<select id="act8-q8" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a little bit of oil</option>
+													<option value="2">a gallon of milk</option>
+													<option value="3">a bag of rice</option><!--correct-->
+												</select>
+											</div>
+											<div>
+												Katherine needs
+												<select id="act8-q9" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a bowl of soup</option><!--correct-->
+													<option value="2">a little bit of oil</option>
+													<option value="3">a gallon of milk</option>
+												</select>
+												and
+												<select id="act8-q10" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a bag of rice</option>
+													<option value="2">a can of tuna</option>
+													<option value="3">a gallon of milk</option><!--correct-->
+												</select>
+											</div>
+											<div>
+												My father buys
+												<select id="act8-q11" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a can of tuna</option>
+													<option value="2">a bag of rice</option>
+													<option value="3">a bottle of cream</option><!--correct-->
+												</select>
+												and
+												<select id="act8-q12" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a gallon of milk</option>
+													<option value="2">a bag of rice</option>
+													<option value="3">a little bit of oil</option><!--correct-->
+												</select>
+											</div>
+											<div>
+												My mother prefers to buy
+												<select id="act8-q13" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a bowl of soup</option>
+													<option value="2">a can of tuna</option><!--correct-->
+													<option value="3">a bottle of cream</option>
+												</select>
+												and
+												<select id="act8-q14" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="1">a little bit of oil</option>
+													<option value="2">a gallon of milk</option>
+													<option value="3">a bowl of soup</option><!--correct-->
+												</select>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					 <!-- Botones de Control -->
+					 <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin Actividad 8-->
+<!-- fin Region 18-->
+
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('controladorlibro8.js');
+Book_Page::footerTemplate('controladorlibro8_u4.js');
 ?>
