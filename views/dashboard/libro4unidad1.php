@@ -5733,6 +5733,616 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
+
+<div class="modal fade" id="ModalUnit1Act33" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act33">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Look at the picture and answer</p>
+											<input type="text" class="d-none" id="points33" name="points">
+											<input type="text" class="d-none" id="idcliente33" name="idcliente">
+											<input type="text" class="d-none" id="idlibro33" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/42.jpg" alt="">
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>What is Francisco doing?</p>
+											<input type="text" disabled class="form-control mb-3" value='He is talking to Katherine.' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>What is Katherine doing?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-1" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>Is Francisco talking to his dad?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-2" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>Is Katherine talking to her mom?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-3" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>What is Francisco eating?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-4" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>What is Katherine eating?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-5" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>What is dad eating?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-6" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>What is mom eating?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-7" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<p>Are Katherine and Francisco seated?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-8" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>Is all the family sitting at the dining room table?</p>
+											<input type="text" class="form-control mb-3" id="input-act33-9" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act34" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act34">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points34" name="points">
+											<input type="text" class="d-none" id="idcliente34" name="idcliente">
+											<input type="text" class="d-none" id="idlibro34" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col">
+											<table class="table table-striped">
+												<tr class="mb-2" >
+													<td class=" text-center"> twenty </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 20</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act34-1"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+														<td>&nbsp;</td>
+													<td class=" text-center">10</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center">thirty</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act34-2"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center"> 21 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> nine</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">9</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center">thirty</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">twenty two </td>
+													<td>&nbsp;</td>
+													<td class="text-center">22</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act34-3"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">8</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center">thirty</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													<td class=" text-center">twenty three </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 23</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">seven</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 7 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act34-4"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">twenty four </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 27</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act34-5"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">6</td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> thirty </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act34-6"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">25</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> five</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">5</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> thirty </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">twenty six </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 26</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">four</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 4 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act34-7"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">twenty seven </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 27</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act34-8"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">3</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> thirty</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act34-9"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">28 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> two</td>
+													<td>&nbsp;</td>
+													<td class=" text-center">2</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> thirty </td>
+													<td>&nbsp;</td>
+													
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													
+													<td class=" text-center">twenty nine </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 29</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">one</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 1 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td><input type="text" id="input-act34-10"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+												<tr class="mb-2">
+													<td><input type="text" id="input-act34-11"
+														class=" form-control" maxlength="12"
+														autocomplete="off" ></td>
+													<td>&nbsp;</td>
+													<td class=" text-center">30 </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> +</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> zero</td>
+													<td>&nbsp;</td>
+													
+													<td class=" text-center">0</td>
+													<td>&nbsp;</td>
+													<td class="text-center"> = </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> thirty </td>
+													<td>&nbsp;</td>
+													<td class="text-center"> 30</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act35" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act35">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the names</p>
+											<input type="text" class="d-none" id="points35" name="points">
+											<input type="text" class="d-none" id="idcliente35" name="idcliente">
+											<input type="text" class="d-none" id="idlibro35" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Stove -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act35-1"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-2"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-3"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+												</tr>
+												<tr>
+													<!-- Cabinet -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act35-4"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">b</td>
+													<td><input type="text" id="input-act35-5"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">n</td>
+													<td><input type="text" id="input-act35-6"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+												<tr>
+													<!-- Refrigerator -->
+													<td class="text-center">R</td>
+													<td><input type="text" id="input-act35-7"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-8"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-9"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-10"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-11"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-12"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+													<td><input type="text" id="input-act35-13"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-14"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-15"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Toaster -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act35-16"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-17"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">s</td>
+													<td class="text-center">t</td>
+													<td><input type="text" id="input-act35-18"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Microwave -->
+													<td class="text-center">M</td>
+													<td><input type="text" id="input-act35-19"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">c</td>
+													<td class="text-center">r</td>
+													<td><input type="text" id="input-act35-20"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-21"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-22"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">v</td>
+													<td><input type="text" id="input-act35-23"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- Blender -->
+													<td class="text-center">B</td>
+													<td class="text-center">l</td>
+													<td><input type="text" id="input-act35-24"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">n</td>
+													<td class="text-center">d</td>
+													<td><input type="text" id="input-act35-25"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Fork -->
+													<td class="text-center">F</td>
+													<td><input type="text" id="input-act35-26"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-27"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">k</td>
+												</tr>
+												<tr>
+													<!-- Coffepot -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act35-28"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">f</td>
+													<td><input type="text" id="input-act35-29"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-30"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-31"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">p</td>
+													<td><input type="text" id="input-act35-32"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+												<tr>
+													<!-- Spoon -->
+													<td class="text-center">S</td>
+													<td class="text-center">p</td>
+													<td><input type="text" id="input-act35-33"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-34"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">n</td>
+												</tr>
+												<tr>
+													<!-- Knife -->
+													<td class="text-center">K</td>
+													<td class="text-center">n</td>
+													<td><input type="text" id="input-act35-35"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">f</td>
+													<td><input type="text" id="input-act35-36"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- Glass -->
+													<td class="text-center">G</td>
+													<td class="text-center">l</td>
+													<td><input type="text" id="input-act35-37"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act35-38"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">s</td>
+												</tr>
+												<tr>
+													<!-- Dish -->
+													<td class="text-center">D</td>
+													<td><input type="text" id="input-act35-39"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">s</td>
+													<td><input type="text" id="input-act35-40"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- Cup -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act35-41"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">p</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- fin modales-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
