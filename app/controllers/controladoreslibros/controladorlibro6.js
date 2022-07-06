@@ -23,19 +23,19 @@ document.getElementById("game-3").addEventListener("submit", function (event) {
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == "ACTIVITIES THAT ARE ENJOYABLE OR FUNNY.") {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == "BLACKBOARD.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == "A DECISION TO DO SOMETHING OR TO BEHAVE IN A CERTAIN MANNER.") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == "ON JANUARY 1ST.") {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == "USUALLY WITH THEIR FAMILIES, INVOLVING TRADITIONS.") {
       totalPunto += punto;
     }
 
@@ -76,19 +76,19 @@ document.getElementById("game-4").addEventListener("submit", function (event) {
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == "IT´S ON FEBRUARY 14TH.") {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == "THEY GIVE CARDS, LETTERS, FLOWERS, OR PRESENTS.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == "HE IS THE ROMAN GOD OF LOVE, COMMONLY REPRESENTED AS A WINGED, NAKED INFANT BOY WITH A BOW AND ARROWS.") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == "HEARTS, ROSES, AND CUPID.") {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == "HAVING WINGS LIKE AN ANGEL.") {
       totalPunto += punto;
     }
 
@@ -129,19 +129,19 @@ document.getElementById("game-5").addEventListener("submit", function (event) {
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == "IS THE LAST WEEK OF LENT AND IS THE WEEK BEFORE.") {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == "THE 40 WEEKDAYS FROM ASH WEDNESDAY UNTIL EASTER.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == "WE REMEMBER THAT JESUS DIED FOR EVERYONE!") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == "THE DAY THAT THE JEWISH PASSOVER WAS CELEBRATED.") {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == "THE THREE DAYS AFTER BEING KILLED, JESUS ROSE FROM THE DEAD.") {
       totalPunto += punto;
     }
 
@@ -182,19 +182,19 @@ document.getElementById("game-6").addEventListener("submit", function (event) {
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == "THE FIRST MONDAY OF SEPTEMBER.") {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == "IS ON MAY 1ST.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == "LABOR DAY OR INTERNATIONAL WORKERS’ DAY.") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == "TO MARCH OR WALK THROUGH OR AROUND A PLACE.") {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == "INVOLVING THE ENTIRE WORLD, UNIVERSAL.") {
       totalPunto += punto;
     }
 
@@ -235,19 +235,19 @@ document.getElementById("game-7").addEventListener("submit", function (event) {
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == "THE DAY OF THE CROSS.") {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == "EACH YEAR ON MAY 3RD PROCESSIONS OF SINGING PILGRIMS CARRY FLOWERS TO DECORATE THE CROSSES.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == "IT IS ON MAY 3RD.") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == "YES, THEY DO, LIKE MANY COUNTRIES IN LATIN AMERICA.") {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == "THE CROSS WHERE JESUS WAS CRUCIFIED.") {
       totalPunto += punto;
     }
 
@@ -288,19 +288,19 @@ document.getElementById("game-8").addEventListener("submit", function (event) {
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == "IT IS ON MAY 10TH.") {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == "THE SECOND SUNDAY OF MAY.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == "GIVING CARDS, FLOWERS, OR CAKES.") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == "YES, THEY DO") {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == "THE FIRST SUNDAY OF MAY.") {
       totalPunto += punto;
     }
 

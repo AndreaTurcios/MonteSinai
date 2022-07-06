@@ -465,7 +465,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-3-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. Do you enjoy making New Year’s resolutions?</label>
+                                    <label for="">5. How do people celebrate New year'S Day?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-3-q5">
                                 </div>
                             </div>
@@ -523,7 +523,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-4-q3">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">4. Can you tell me the common symbols of Valentine’s Day?</label>
+                                    <label for="">4. Can you write the common symbols of Valentine’s Day?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-4-q4">
                                 </div>
                                 <div class="form-group">
@@ -585,7 +585,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-5-q3">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">4. What does Maundy Thursday mean?</label>
+                                    <label for="">4. What does Holy Thursday represent?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-5-q4">
                                 </div>
                                 <div class="form-group">
@@ -651,7 +651,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-6-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. What do you think about Labor Day?</label>
+                                    <label for="">5. What is the meaning of worldwide?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-6-q5">
                                 </div>
                             </div>
@@ -709,11 +709,11 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-7-q3">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">4. Do you enjoy the Day of the Cross?</label>
+                                    <label for="">4. Do Guatemalas celebrate the Day of the Cross in the same date?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-7-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. Can you tell me why?</label>
+                                    <label for="">5. What does the cross represents?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-7-q5">
                                 </div>
                             </div>
