@@ -1816,7 +1816,7 @@ document.getElementById('unit1-act29').addEventListener('submit', function (even
     let conteo = 0;
     //Arreglo para guardar los datos ingresados
     let inputs = [];
-    let respuestas = ["A", "B", "L", "I", "C", "T", "U", "R", "A", "L", "A", "O", "W", "I", "T", "C", "H", "E", "B", "L", "E", "C", "L", "O", "A", "N", "D", "L", "L", "E", "S", "T", "I", "H", "A", "K", "E", "F", "F", "E", "E", "P", "P", "P", "E", "H", "A", "K", "E", "I", "N", "A", "C", "A", "B", "I", "N"]
+    let respuestas = ["A", "B", "L", "I", "C", "T", "U", "R", "A", "L", "A", "O", "W", "I", "T", "C", "H", "E", "B", "L", "E", "C", "L", "O", "A", "N", "D", "L", "L", "E", "S", "T", "I", "H", "A", "K", "E", "F", "F", "E", "E", "P", "P", "P", "E", "H", "A", "K", "E", "U", "G", "A", "R", "B", "O", "L", "I", "N", "A", "C", "A", "B", "I", "N"]
 
     //Llenar arreglo de inputs}
     console.log(respuestas.length)
@@ -1861,6 +1861,290 @@ document.getElementById('unit1-act29').addEventListener('submit', function (even
             sweetAlert(4, conteo + '/' + (inputs.length) + ' answers right', null);
             $('#ModalUnit1Act29').modal('hide');
             return true;
+        }
+
+    }
+
+});
+
+document.getElementById('unit1-act30').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 6; i++) {
+        inputs[i] = document.getElementById('input-act30-' + (i + 1)).value;
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        var libro = 4;
+        document.getElementById('idcliente13').value = users.value;
+        document.getElementById('points13').value = valorActividad;
+        document.getElementById('idlibro13').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act13', 'modal');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalUnit1Act13').modal('hide');
+        return true;
+    }
+
+});
+
+document.getElementById('unit1-act31').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 70; i++) {
+        inputs[i] = document.getElementById('input-act31-' + (i + 1)).value.toUpperCase();
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+            var libro = 4;
+            document.getElementById('idcliente31').value = users.value;
+            document.getElementById('points31').value = valorActividad;
+            document.getElementById('idlibro31').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act31', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act31').modal('hide');
+            return true;
+
+    }
+
+});
+
+//Funciones para el crossword
+let across = true;
+const table = document.querySelector('.table-crossl4');
+table.addEventListener('keydown', handleKeyDown);
+
+function handleKeyDown(e) {
+    const td = e.target.parentElement;
+
+    if (e.key === 'Backspace' && !e.target.value) {
+        const ref = getReferences(td);
+        const cells = across ? ref.x || ref.y : ref.y || ref.x;
+        const index = cells.indexOf(td);
+
+        if (index > 0) {
+            cells[index - 1].querySelector('input').focus();
+            e.preventDefault();
+        }
+        return;
+    }
+
+    if (e.key === 'Enter') {
+        return handleClick(e);
+    }
+
+    if (e.key === 'ArrowRight') {
+        let cell = td;
+
+        while (cell.nextElementSibling) {
+            cell = cell.nextElementSibling;
+            if (!cell.classList.contains('cell-black')) {
+                cell.querySelector('input').focus();
+                return;
+            }
+        }
+        return;
+    }
+
+    if (e.key === 'ArrowLeft') {
+        let cell = td;
+
+        while (cell.previousElementSibling) {
+            cell = cell.previousElementSibling;
+            if (!cell.classList.contains('cell-black')) {
+                cell.querySelector('input').focus();
+                return;
+            }
+        }
+        return;
+    }
+
+    if (e.key === 'ArrowUp') {
+        const index = td.cellIndex;
+        let cell = td;
+        let tr = td.parentElement;
+
+        while (tr.previousElementSibling) {
+            tr = tr.previousElementSibling;
+            cell = tr.children[index];
+
+            if (!cell.classList.contains('cell-black')) {
+                cell.querySelector('input').focus();
+                return;
+            }
+        }
+        return;
+    }
+
+    if (e.key === 'ArrowDown') {
+        const index = td.cellIndex;
+        let cell = td;
+        let tr = td.parentElement;
+
+        while (tr.nextElementSibling) {
+            tr = tr.nextElementSibling;
+            cell = tr.children[index];
+
+            if (!cell.classList.contains('cell-black')) {
+                cell.querySelector('input').focus();
+                return;
+            }
+        }
+    }
+}
+
+/********************
+ *  Get references   *
+ **********************/
+
+ function getReferences(td) {
+    const x = getXCells(td);
+    const y = getYCells(td);
+
+    return { x, y };
+}
+
+function getXCells(td) {
+    const cells = [td];
+    let curr = td;
+
+    //Get previous
+    while (
+        curr.previousElementSibling &&
+        !curr.previousElementSibling.classList.contains('cell-black')
+    ) {
+        curr = curr.previousElementSibling;
+        cells.unshift(curr);
+    }
+
+    //Check if there's a clue
+    if (!cells[0].querySelector('label')) {
+        return null;
+    }
+
+    //Get next
+    curr = td;
+    while (
+        curr.nextElementSibling &&
+        !curr.nextElementSibling.classList.contains('cell-black')
+    ) {
+        curr = curr.nextElementSibling;
+        cells.push(curr);
+    }
+
+    return cells;
+}
+
+function getYCells(td) {
+    const cells = [td];
+    const index = td.cellIndex;
+    let tr = td.parentElement;
+
+    //Get previous
+    while (
+        tr.previousElementSibling &&
+        !tr.previousElementSibling.children[index].classList.contains(
+            'cell-black'
+        )
+    ) {
+        tr = tr.previousElementSibling;
+        cells.unshift(tr.children[index]);
+    }
+
+    //Check if there's a clue
+    if (!cells[0].querySelector('label')) {
+        return null;
+    }
+
+    //Get next
+    tr = td.parentElement;
+    while (
+        tr.nextElementSibling &&
+        !tr.nextElementSibling.children[index].classList.contains('cell-black')
+    ) {
+        tr = tr.nextElementSibling;
+        cells.push(tr.children[index]);
+    }
+
+    return cells;
+};
+
+document.getElementById('unit1-act32').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let respuestas = [["THERE IS ONE BASKET", "THERE ARE SIX CUPS", "THERE ARE NINETEEN JOCOTES", "THERE ARE SIX DISHES", "THERE ARE TEN ORANGES", "THERE ARE TWELVE SPOONS", "THERE ARE FIVE APPLES", "THERE ARE SIX KNIVES", "THERE ARE SIX GLASSES"], 
+                        ["THERE IS 1 BASKET", "THERE ARE 6 CUPS", "THERE ARE 19 JOCOTES", "THERE ARE 6 DISHES", "THERE ARE 10 ORANGES", "THERE ARE 12 SPOONS", "THERE ARE 5 APPLES", "THERE ARE 6 KNIVES", "THERE ARE 6 GLASSES"]];
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 9; i++) {
+        inputs[i] = document.getElementById('input-act32-' + (i + 1)).value.toUpperCase();
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        if (new Set(inputs).size !== inputs.length) {
+            sweetAlert(2, 'All sentences must be different', null);
+            return false;
+        } else {
+            //Se comparan las respuestas con los datos ingresados
+            for (let i = 0; i < inputs.length; i++) {
+                if (inputs[i].trim().includes(respuestas[0][i]) || inputs[i].trim().includes(respuestas[1][i])) {
+                    conteo++;
+                }
+
+            }
+
+            //Se revisa si todas las respuestas son correctas
+            if (conteo == inputs.length) {
+                var libro = 4;
+                document.getElementById('idcliente32').value = users.value;
+                document.getElementById('points32').value = valorActividad;
+                document.getElementById('idlibro32').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act32', 'modal');
+                sweetAlert(1, 'Good job!', null);
+                $('#ModalUnit1Act32').modal('hide');
+                return true;
+            } else {
+                //Notificar que las respuestas no siguen el formato
+                sweetAlert(2, 'Try again, count and write your answer, remember to answer using there are/there is correctly', null);
+                return true;
+            }
         }
 
     }

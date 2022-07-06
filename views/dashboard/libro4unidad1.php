@@ -5072,9 +5072,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<td class="text-center">r</td>
 												</tr>
 												<tr>
-													<!-- China cabinet -->
-													<td class="text-center">C</td>
-													<td class="text-center">h</td>
+													<!-- sugar-bowl -->
+													<td class="text-center">S</td>
 													<td><input type="text" id="input-act29-50"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
@@ -5084,13 +5083,21 @@ Book_Page::headerTemplate('Unidad 1');
 													<td><input type="text" id="input-act29-52"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
-													<td class="text-center">&nbsp;</td>
+													<td class="text-center">d</td>
+													<td class="text-center"> -</td>
+													<td class="text-center">b</td>
 													<td><input type="text" id="input-act29-53"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
+													<td class="text-center">w</td>
 													<td><input type="text" id="input-act29-54"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- China cabinet -->
+													<td class="text-center">C</td>
+													<td class="text-center">h</td>
 													<td><input type="text" id="input-act29-55"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
@@ -5100,10 +5107,612 @@ Book_Page::headerTemplate('Unidad 1');
 													<td><input type="text" id="input-act29-57"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act29-58"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-59"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-60"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-61"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act29-62"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
 													<td class="text-center">e</td>
 													<td class="text-center">t</td>
 												</tr>
 											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act30" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act30">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Read the questions and answer them according to the picture</p>
+											<input type="text" class="d-none" id="points30" name="points">
+											<input type="text" class="d-none" id="idcliente30" name="idcliente">
+											<input type="text" class="d-none" id="idlibro30" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/39.jpg" class="img-fluid">
+									</div>
+									<div class="row row-cols-2">
+										<div class="col" style="padding-right: 25px; margin-bottom: 25px">
+											<p>Where is the salad bowl <b> - 1</b></p>
+											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-1">
+										</div>
+										<div class="col">
+											<p>Where is the chair <b> - 4</b></p>
+											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-4">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col" style="padding-right: 25px; margin-bottom: 25px">
+											<p>Where is the salt shaker and pepper shaker? <b> - 2</b></p>
+											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-2">
+										</div>
+										<div class="col">
+											<p>Where is the picture? <b> - 5</b></p>
+											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-5">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col" style="padding-right: 25px; margin-bottom: 25px">
+											<p>Where is the sugar bowl? <b> - 3</b></p>
+											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-3">
+										</div>
+										<div class="col">
+											<p>Where is the pitcher? <b> - 6</b></p>
+											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-6">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act31" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act31">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Crossword about the dining room</p>
+											<input type="text" class="d-none" id="points31" name="points">
+											<input type="text" class="d-none" id="idcliente31" name="idcliente">
+											<input type="text" class="d-none" id="idlibro31" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/40.jpg" class="img-fluid">
+									</div>
+									<style type="text/css">
+										.cell {
+											border: 1px solid #f99d52;;
+											background-color: white;
+										}
+
+										.cell-black {
+											background-color:#f99d52;
+										}
+										.word-number {
+											text-align: right;
+											font-size: 0.4rem;
+											vertical-align: top;
+											color: #063477;
+											position: absolute;
+											padding: 0.1rem 0 0 0.1rem;
+										}
+
+										.letter {
+											background: none;
+											height: 1.8rem;
+											width: 1.8rem;
+											border: none;
+											box-shadow: none;
+											text-align: center;
+											text-transform: uppercase;
+											font-size: 1.4rem;
+											color: #063477;
+										}
+									</style>
+									<div class="row justify-content-center">
+										<table style="width:75%;" class="table-crossl4">
+											<tr>
+												<td class="cell">
+													<label class="word-number" for="input-act31-1">1, 6</label>
+													<input required id="input-act31-1" class="letter" type="text" maxlength="1"pattern="[Cc]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-2" class="letter" type="text" maxlength="1"pattern="[Hh]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-3" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-4" class="letter" type="text" maxlength="1"pattern="[Ii]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-5" class="letter" type="text" maxlength="1"pattern="[Rr]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<label class="word-number" for="input-act31-6">8</label>
+													<input required id="input-act31-6" class="letter" type="text" maxlength="1"pattern="[Cc]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black">&nbsp;</td>
+												<td class="cell">
+													<label class="word-number" for="input-act31-7">10</label>
+													<input required id="input-act31-7" class="letter" type="text" maxlength="1"pattern="[Tt]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<input required id="input-act31-8" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-9" class="letter" type="text" maxlength="1"pattern="[Oo]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<label class="word-number" for="input-act31-9">9</label>
+													<input required id="input-act31-10" class="letter" type="text" maxlength="1"pattern="[Cc]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-11" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<input required id="input-act31-12" class="letter" type="text" maxlength="1"pattern="[Bb]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-13" class="letter" type="text" maxlength="1"pattern="[Ff]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-14" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-15" class="letter" type="text" maxlength="1"pattern="[Bb]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<input required id="input-act31-16" class="letter" type="text" maxlength="1"pattern="[Ii]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-17" class="letter" type="text" maxlength="1"pattern="[Ff]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-18" class="letter" type="text" maxlength="1"pattern="[Nn]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-19" class="letter" type="text" maxlength="1"pattern="[Ll]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<input required id="input-act31-20" class="letter" type="text" maxlength="1"pattern="[Nn]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<label class="word-number" for="input-act31-21">7</label>
+													<input required id="input-act31-21" class="letter" type="text" maxlength="1"pattern="[Pp]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-22" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-23" class="letter" type="text" maxlength="1"pattern="[Dd]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-24" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<input required id="input-act31-25" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-26" class="letter" type="text" maxlength="1"pattern="[Ii]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-27" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-28" class="letter" type="text" maxlength="1"pattern="[Ll]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-29" class="letter" type="text" maxlength="1"pattern="[Cc]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<input required id="input-act31-30" class="letter" type="text" maxlength="1"pattern="[Tt]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-31" class="letter" type="text" maxlength="1"pattern="[Tt]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-32" class="letter" type="text" maxlength="1"pattern="[Pp]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-33" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-34" class="letter" type="text" maxlength="1"pattern="[Ll]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-35" class="letter" type="text" maxlength="1"pattern="[Cc]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-36" class="letter" type="text" maxlength="1"pattern="[Oo]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-37" class="letter" type="text" maxlength="1"pattern="[Oo]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-38" class="letter" type="text" maxlength="1"pattern="[Hh]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<label class="word-number" for="input-act31-39">2</label>
+													<input required id="input-act31-39" class="letter" type="text" maxlength="1"pattern="[Tt]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-40" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-41" class="letter" type="text" maxlength="1"pattern="[Bb]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-42" class="letter" type="text" maxlength="1"pattern="[Ll]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-43" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-44" class="letter" type="text" maxlength="1"pattern="[Tt]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-45" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<input required id="input-act31-46" class="letter" type="text" maxlength="1"pattern="[Hh]" data-down="1"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<label class="word-number" for="input-act31-47">3</label>
+													<input required id="input-act31-47" class="letter" type="text" maxlength="1"pattern="[Ss]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-48" class="letter" type="text" maxlength="1"pattern="[Uu]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-49" class="letter" type="text" maxlength="1"pattern="[Gg]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-50" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-51" class="letter" type="text" maxlength="1"pattern="[Rr]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+											</tr>
+											<tr>
+												<td class="cell cell-black"></td>
+												<td class="cell">
+													<label class="word-number" for="input-act31-52">4</label>
+													<input required id="input-act31-52" class="letter" type="text" maxlength="1"pattern="[Ss]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-53" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-54" class="letter" type="text" maxlength="1"pattern="[Ll]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-55" class="letter" type="text" maxlength="1"pattern="[Tt]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-56" class="letter" type="text" maxlength="1"pattern="[Ss]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-57" class="letter" type="text" maxlength="1"pattern="[Hh]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-58" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-59" class="letter" type="text" maxlength="1"pattern="[Kk]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-60" class="letter" type="text" maxlength="1"pattern="[Ee]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-61" class="letter" type="text" maxlength="1"pattern="[Rr]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+											</tr>
+											<tr>
+												<td class="cell">
+													<label class="word-number" for="input-act31-52">5</label>
+													<input required id="input-act31-62" class="letter" type="text" maxlength="1"pattern="[Ss]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-63" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-64" class="letter" type="text" maxlength="1"pattern="[Ll]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-65" class="letter" type="text" maxlength="1"pattern="[Aa]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-66" class="letter" type="text" maxlength="1"pattern="[Dd]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-67" class="letter" type="text" maxlength="1"pattern="[Bb]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-68" class="letter" type="text" maxlength="1"pattern="[Oo]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-69" class="letter" type="text" maxlength="1"pattern="[Ww]" data-down="1"/>
+												</td>
+												<td class="cell">
+													<input required id="input-act31-70" class="letter" type="text" maxlength="1"pattern="[Ll]" data-down="1"/>
+												</td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+												<td class="cell cell-black"></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act32" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act32">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Look, count and answer</p>
+											<input type="text" class="d-none" id="points32" name="points">
+											<input type="text" class="d-none" id="idcliente32" name="idcliente">
+											<input type="text" class="d-none" id="idlibro32" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/41.jpg" alt="">
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>How many baskets are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-1" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>How many cups are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-2" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>How many jocotes are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-3" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>How many dishes are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-4" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>How many oranges are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-5" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>How many spoons are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-6" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>How many apples are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-7" placeholder='Your answer...' autocomplete="off">
+										</div>
+										<div class="col">
+											<p>How many knives are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-8" placeholder='Your answer...' autocomplete="off">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p>How many glasses are there?</p>
+											<input type="text" class="form-control mb-3" id="input-act32-9" placeholder='Your answer...' autocomplete="off">
 										</div>
 									</div>
 								</div>
