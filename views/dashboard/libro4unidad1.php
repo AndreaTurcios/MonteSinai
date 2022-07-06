@@ -6343,6 +6343,573 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<div class="modal fade" id="ModalUnit1Act36" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act36">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Observe your dining room and clasify in <b>clean</b> or <b>dirty</b></p>
+											<input type="text" class="d-none" id="points36" name="points">
+											<input type="text" class="d-none" id="idcliente36" name="idcliente">
+											<input type="text" class="d-none" id="idlibro36" name="idlibro">
+										</div>
+									</div>
+									<div class="container-act8 justify-content-center">
+										<div id="option-act36-1" class="box-act8 text-center m-3" draggable="true" data-id="clean">
+											clean
+										</div>
+										<div id="option-act36-2" class="box-act8 text-center m-3" draggable="true" data-id="dirty">
+											dirty
+										</div>
+									</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>Do you have a stove? How is it?</p>
+												<div id="text-act36-1" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>Does your kitchen have a cabinet? How is it?</p>
+												<div id="text-act36-2" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>Do you have a refrigerator? How is it?</p>
+												<div id="text-act36-3" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>Do you have sinks? How are they?</p>
+												<div id="text-act36-4" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>Do you have a microwave? How is it?</p>
+												<div id="text-act36-5" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>Do you have a toaster? How is it?</p>
+												<div id="text-act36-6" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>Do you have a toaster? How is it?</p>
+												<div id="text-act36-7" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>Do you have a Blender? How is it?</p>
+												<div id="text-act36-8" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>Do you have a coffeepot? How is it?</p>
+												<div id="text-act36-9" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+												<p>How many dishes do you have? How are they?</p>
+												<div id="text-act36-10" class="box-act8 text-center"></div>
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-4">
+											<div class="col">
+												<p>How many spoons do you have? How are they?</p>
+												<div id="text-act36-11" class="box-act8 text-center"></div>
+											</div>
+											<div class="col">
+											</div>
+										</div>
+										<hr>
+										<div class="row justify-content-center mb-3">
+												<p>Draw a glad face if you answered "clean" five or more times, or a sad face if you answered "dirty" five or more times</p>
+												<canvas id="canvas36" style="background: #fffcfc; width: 250px; height: 250px; border: 1px solid gray; border-radius: 7px;" width="250" height="250">
+
+												</canvas>
+										</div>
+										<div class="row justify-content-center">
+											<span class="btn btn-info" id="clear-btn36" style="width: 20%; background-color: rgb(230, 252, 255);">Clear canvas</span>
+										</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act37" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act37">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the names</p>
+											<input type="text" class="d-none" id="points37" name="points">
+											<input type="text" class="d-none" id="idcliente37" name="idcliente">
+											<input type="text" class="d-none" id="idlibro37" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Alarm clock -->
+													<td class="text-center">A</td>
+													<td><input type="text" id="input-act37-1"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-2"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-3"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">m</td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act37-4"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-5"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-6"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-7"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">k</td>
+												</tr>
+												<tr>
+													<!-- Lamp -->
+													<td class="text-center">L</td>
+													<td><input type="text" id="input-act37-8"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-9"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">p</td>
+												</tr>
+												<tr>
+													<!-- Bed -->
+													<td class="text-center">B</td>
+													<td><input type="text" id="input-act37-10"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">d</td>
+												</tr>
+												<tr>
+													<!-- Clock radio -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act37-11"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-12"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-13"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">k</td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act37-14"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-15"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-16"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-17"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">o</td>
+												</tr>
+												<tr>
+													<!-- Sheet -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act37-18"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-19"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-20"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+												<tr>
+													<!-- Pillow -->
+													<td class="text-center">P</td>
+													<td><input type="text" id="input-act37-21"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-22"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-23"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-24"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">w</td>
+												</tr>
+												<tr>
+													<!-- Night table -->
+													<td class="text-center">N</td>
+													<td><input type="text" id="input-act37-25"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-26"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-27"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act37-28"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-29"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-30"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-31"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-32"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- Window -->
+													<td class="text-center">W</td>
+													<td><input type="text" id="input-act37-33"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-34"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-35"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-36"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">w</td>
+												</tr>
+												<tr>
+													<!-- Dresser -->
+													<td class="text-center">D</td>
+													<td><input type="text" id="input-act37-37"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-38"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-39"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-40"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-41"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+												</tr>
+												<tr>
+													<!-- Carpet -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act37-42"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+													<td><input type="text" id="input-act37-43"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-44"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+												<tr>
+													<!-- Closet -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act37-45"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">o</td>
+													<td><input type="text" id="input-act37-46"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-47"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act38" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act38">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Identify what's in the bedroom</p>
+											<input type="text" class="d-none" id="points38" name="points">
+											<input type="text" class="d-none" id="idcliente38" name="idcliente">
+											<input type="text" class="d-none" id="idlibro38" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<div class="col">
+											<p>In the bedroom:</p>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-1">
+												<label class="form-check-label" for="radio-act38-1">
+													There are beds.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-2">
+												<label class="form-check-label" for="radio-act38-2">
+													There is a lamp.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--1">
+												<label class="form-check-label" for="radio-act38--1">
+													There is a fan.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-3">
+												<label class="form-check-label" for="radio-act38-3">
+													There is a night table.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-4">
+												<label class="form-check-label" for="radio-act38-4">
+													There are pictures.
+												</label>
+											</div>
+										</div>
+										<div class="col">
+											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-1.jpg" alt="Bedroom 1">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<div class="col">
+											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-2.jpg" alt="Bedroom 2">
+										</div>
+										<div class="col">
+											<p>In the bedroom:</p>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-5">
+												<label class="form-check-label" for="radio-act38-5">
+													There is a bed.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--2">
+												<label class="form-check-label" for="radio-act38--2">
+													There is an alarm clock.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-6">
+												<label class="form-check-label" for="radio-act38-6">
+													There are pillows.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-7">
+												<label class="form-check-label" for="radio-act38-7">
+													There are lamps.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--3">
+												<label class="form-check-label" for="radio-act38--3">
+													There is a window.
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>In the bedroom:</p>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--4">
+												<label class="form-check-label" for="radio-act38--4">
+													There is a closet.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-8">
+												<label class="form-check-label" for="radio-act38-8">
+													There is a radio.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-9">
+												<label class="form-check-label" for="radio-act38-9">
+													There is a window.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-10">
+												<label class="form-check-label" for="radio-act38-10">
+													There are pictures.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--5">
+												<label class="form-check-label" for="radio-act38--5">
+													There is a fan.
+												</label>
+											</div>
+										</div>
+										<div class="col">
+											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-3.jpg" alt="Bedroom 3">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act39" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act39">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Express yourself about the preferences chores drawing an x:</p>
+											<input type="text" class="d-none" id="points39" name="points">
+											<input type="text" class="d-none" id="idcliente39" name="idcliente">
+											<input type="text" class="d-none" id="idlibro39" name="idlibro">
+										</div>
+										<div class="row justify-content-center mb-3">
+												<canvas id="canvas39" style="background: url('../../resources/img/BOOKS/FourthGrade/UnitOne/activities/48.jpg'); width: 270px; height: 214px;" width="270" height="214">
+
+												</canvas>
+										</div>
+										<div class="row justify-content-center">
+											<span class="btn btn-info" id="clear-btn39" style="width: 20%; background-color: rgb(230, 252, 255);">Clear canvas</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- fin modales-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
