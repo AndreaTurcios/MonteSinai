@@ -1229,184 +1229,6 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<!-- Página 12 - Actividad 1 (Canvas) -->
-<!--
-	Notas de inconvenientes con el canvas.
-	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
-	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
-	
-	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
-	funcionan. Es parecido al problema del input verify-canvas. 
-	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
-	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
-	Odio los canvas
- -->
-<div class="modal fade" id="ModalLibroQuince" tabindex="-10" aria-labelledby="exampleModalLabel"
-	aria-hidden="true">
-	<div class="modal-dialog modal-xl">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Color the image</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="game-fifthteen">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<!-- columna -->
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row">
-										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
-											<!-- class="d-none" -->
-											<input type="text" id="points5" name="points">
-											<input type="text" id="idcliente5" name="idcliente">
-											<input type="text" id="idlibro5" name="idlibro">
-										</div>
-									</div>
-									<!-- contenido  -->
-
-
-									<style type="text/css">
-										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
-
-										/* Reset defaults */
-										* {
-											margin: 0;
-											padding: 0;
-											border: 0;
-											outline: 0;
-											font-size: 100%;
-											vertical-align: baseline;
-										}
-
-										html {
-										font-family: "Roboto";
-										}
-
-										header {
-										width: 85%;
-										margin: auto;
-										padding-top: 50px;
-										padding-bottom: 50px;
-										}
-
-										.grid {
-										display: grid;
-										grid-template-columns: 25% 25% 25%;
-										justify-content: center;	
-										margin-top: 30px;
-										}
-
-										h1 {
-										color: rgba(0, 0, 0, 0.7.5);
-										font-size: 56px;
-										font-weight: 700;
-										letter-spacing: 0.5px;
-										text-align: center;
-										}
-
-										header p {
-										color: rgba(0, 0, 0, 0.6);
-										font-size: 22px;
-										font-weight: 700;
-										letter-spacing: 0.2px;
-										text-align: center;
-										margin-bottom: 30px;
-										}
-
-										.colorPickerWrapper, .strokeWidthPickerWrapper {
-										text-align: center;
-										}
-
-										.colorPickerWrapper input {
-										width: 75px;
-										}
-
-										.container {
-										width: 100%;
-										margin: auto;
-										height: 500px;
-										}
-
-										canvas1 {
-										background-color: #F8F8F8;
-										}
-
-										.color, .stroke, .clear {
-										justify-self: center;
-										}
-
-										#clearBtn {
-										color: white;
-										font-size: 20px;
-										font-weight: 700;
-										letter-spacing: 0.5px;
-										padding: 10px 50px;
-										background-color: #55D0ED;
-										border-radius: 10px;
-										text-decoration: none;
-										}
-									</style>
-
-									<header>
-										<h1>Draw with your mouse</h1>
-										<div class="grid">
-											<div class="color">
-												<p>Choose a color:</p>
-												<div class="colorPickerWrapper">
-													<input type="color" id="colorPicker" value="#55D0ED">
-												</div>
-											</div>
-											<div class="stroke">
-												<p>Change the stroke's width:</p>
-												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
-												</div>
-											</div>
-											<div class="clear">
-													<p>Clear the canvas</p>
-												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn">Clear the canvas</a>
-												</div>
-											</div>
-										</div>
-									</header>
-
-									<div class="col-12">
-										<div class="container-fluid">
-											<input type="number" value="0" id="verify-canvas">
-											<canvas id="canvas1" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/Cuadro.png')"
-											width="775" height="400">
-
-											</canvas>
-										</div>
-									</div>
-									<!-- Librerias para el Canvas -->
-									<script src="https://s.cdpn.io/6859/paper.js"></script>
-        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
-
-									<!-- contenido  -->
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
 <!-- Página 4 -->
 <div id="ModalLibroTres" class="modal fade" tabindex="-6">
 	<!-- <div class="container-fluid"> -->
@@ -2470,6 +2292,564 @@ Book_Page::headerTemplate('Unidad 1');
 												aria-label="Sizing example input" maxlength="100"												
 												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 12 - Actividad 1 (Canvas) -->
+<!--
+	Notas de inconvenientes con el canvas.
+	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
+	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
+	
+	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
+	funcionan. Es parecido al problema del input verify-canvas. 
+	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
+	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
+	Odio los canvas
+ -->
+<div id="ModalLibroQuince" class="modal fade" tabindex="-10">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Color the image</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fifthteen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
+											<input type="text" id="points5" name="points">
+											<input type="text" id="idcliente5" name="idcliente">
+											<input type="text" id="idlibro5" name="idlibro">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										}
+
+										canvas1 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Choose a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Clear the canvas</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn">Clear the canvas</a>
+												</div>
+											</div>
+										</div>
+									</header>
+
+									<div class="col-12">
+										<div class="container-fluid">
+											<input type="number" value="0" id="verify-canvas">
+											<canvas id="canvas1" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/Cuadro.png')"
+											width="775" height="400">
+
+											</canvas>
+										</div>
+									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 13 -->
+<div id="ModalLibroDieciseis" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-sixteen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Match the figure with the correct color</p>
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act16-1">
+													<img class="mx-auto d-block" draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag13/head.png"  alt="White" id="img-act16-1">
+												</div>
+												<div class="col ps-5">
+													<p class="text-center fst-normal">It has got a </p>			
+													<div id="red" class="box-act18 text-center m-3"  style="background-color: #F80000; color: #FFFFFF;">
+														Red tail
+													</div>														
+												</div>
+																					
+										</div>	
+
+										<div class="col-md-4 col-sm-6" >
+																							
+											<div class="col ps-5 " id="box-act16-2">												
+												<img class="mx-auto d-block" draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag13/leg.png" alt="Black" id="img-act16-2">
+											</div>
+											<div class="col ps-5">
+												<p class="text-center fst-normal">It has got a </p>	
+												<div id="blue" class="box-act16 text-center m-3"  style="background-color: #1714D6; color: #FFFFFF;">
+													Blue eyes
+												</div>
+											</div>
+																				
+										</div>	
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act16-3">																										
+													<img class="mx-auto d-block" draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag13/tail.png"  alt="Red" id="img-act16-3">
+												</div>
+												<div class="col ps-5">
+													<p class="text-center fst-normal">It has got a </p>	
+													<div id="black" class="box-act18 text-center m-3"  style="background-color: #000000; color: #FFFFFF;">
+														Black legs
+													</div>
+												</div>
+																					
+										</div>
+										
+									</div>
+
+									<div class="row justify-content-md-center justify-content-sm-center">
+										
+										<div class="col-md-6 col-sm-6">
+																							
+											<div class="col ps-5" id="box-act16-4">												
+												<img class="mx-auto d-block" draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag13/body.png" alt="Brown" id="img-act16-4">
+											</div>
+											<div class="col ps-5">
+												<p class="text-center fst-normal">It has got a </p>	
+												<div id="blue" class="box-act16 text-center m-3"  style="background-color: #FFFFFF;">
+													White head
+												</div>
+											</div>
+																				
+										</div>	
+
+										<div class="col-md-6 col-sm-6">
+																							
+											<div class="col ps-5" id="box-act16-5">																									
+												<img class="mx-auto d-block" draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag13/eyes.png"  alt="Blue" id="img-act16-5">
+											</div>
+											<div class="col ps-5">
+												<p class="text-center fst-normal">It has got a </p>	
+												<div id="black" class="box-act18 text-center m-3"  style="background-color: #BB4A27; color: #FFFFFF;">
+													Brown body
+												</div>
+											</div>
+																					
+										</div>																							
+																						
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 14 -->
+<div id="ModalLibroDiecisiete" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-seventeen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Match the stars with the correct color</p>
+											<input type="text" class="d-none" id="points17" name="points">
+											<input type="text" class="d-none" id="idcliente17" name="idcliente">
+											<input type="text" class="d-none" id="idlibro17" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-1">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_lightblue.png"  alt="Light Blue" id="img-act17-1">
+												</div>
+												<div class="col ps-5">
+													<div id="green" class="box-act17 text-center m-3"  style="background-color: #00A650;">
+														Green
+													</div>
+												</div>
+																					
+										</div>	
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-2">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_green.png"  alt="Green" id="img-act17-2">
+												</div>
+												<div class="col ps-5">
+													<div id="pink" class="box-act17 text-center m-3"  style="background-color: #FCD9EF;">
+														Pink
+													</div>
+												</div>
+																					
+										</div>	
+										
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-3">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_pink.png" alt="Pink" id="img-act17-3">
+												</div>
+												<div class="col ps-5">
+													<div id="green" class="box-act17 text-center m-3"  style="background-color: #8C359D;">
+														Purple
+													</div>
+												</div>
+																					
+										</div>	
+										
+									</div>
+
+									<div class="row justify-content-md-center justify-content-sm-center">
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-4">											
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_blue.png"  alt="Blue" id="img-act17-4">
+												</div>
+												<div class="col ps-5">
+													<div id="lightblue" class="box-act17 text-center m-3"  style="background-color: #34B0E2;">
+														Light blue
+													</div>
+												</div>
+																					
+										</div>	
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-5">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_orange.png"  alt="Orange" id="img-act17-5">
+												</div>
+												<div class="col ps-5">
+													<div id="red" class="box-act17 text-center m-3"  style="background-color: #F03021;">
+														Red
+													</div>
+												</div>
+																					
+										</div>	
+										
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-6">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_purple.png"  alt="Purple" id="img-act17-6">
+												</div>
+												<div class="col ps-5">
+													<div id="yellow" class="box-act17 text-center m-3"  style="background-color: #FFF500;">
+														Yellow
+													</div>
+												</div>
+																					
+										</div>	
+										
+									</div>
+
+									<div class="row justify-content-md-center justify-content-sm-center">
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-7">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_red.png" alt="Red" id="img-act17-7">
+												</div>
+												<div class="col ps-5">
+													<div id="orange" class="box-act17 text-center m-3"  style="background-color: #F8A60D;">
+														Orange
+													</div>
+												</div>
+																					
+										</div>	
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-8">
+
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_yellow.png"  alt="Yellow" id="img-act17-8">
+												</div>
+												<div class="col ps-5">
+													<div id="white" class="box-act17 text-center m-3"  style="background-color: #FFFFFF;">
+														White
+													</div>
+												</div>
+																					
+										</div>	
+										
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act17-9">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag14/star_white.png" alt="White" id="img-act17-9">
+												</div>
+												<div class="col ps-5">
+													<div id="blue" class="box-act17 text-center m-3"  style="background-color: #186FBF; color: white;">
+														Blue
+													</div>
+												</div>
+																					
+										</div>	
+										
+									</div>
+
+									
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 15 -->
+<div id="ModalLibroDieciocho" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-eighteen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Match the figure with the correct color</p>
+											<input type="text" class="d-none" id="points18" name="points">
+											<input type="text" class="d-none" id="idcliente18" name="idcliente">
+											<input type="text" class="d-none" id="idlibro18" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act18-1">
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag15/green.png"  alt="Green" id="img-act18-1">
+												</div>
+												<div class="col ps-5">
+													<div id="red" class="box-act18 text-center m-3"  style="background-color: #F80000;">
+														Red
+													</div>
+												</div>
+																					
+										</div>	
+
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act18-2">													
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag15/blue.png" alt="Blue" id="img-act18-2">
+												</div>
+												<div class="col ps-5">
+													<div id="green" class="box-act18 text-center m-3"  style="background-color: #21C71E;">
+														Green
+													</div>
+												</div>
+																					
+										</div>	
+										
+										<div class="col-md-4 col-sm-6">
+																							
+												<div class="col ps-5" id="box-act18-3">												
+													<img draggable="true" src="../../resources/img/BOOKS/FirstGrade/UnitOne/Pag15/red.png"  alt="Red" id="img-act18-3">
+												</div>
+												<div class="col ps-5">
+													<div id="blue" class="box-act18 text-center m-3"  style="background-color: #1714D6;">
+														Blue
+													</div>
+												</div>
+																					
+										</div>	
+										
 									</div>
 
 								</div>
@@ -4406,7 +4786,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 											<div class="container-act8 mb-2" style="background-color: white;">
 
-											<div id="option-act38-1" class="box-act8 text-center m-3" draggable="true" data-id="Blue" style="background-color: #8ABFEB;">
+												<div id="option-act38-1" class="box-act8 text-center m-3" draggable="true" data-id="Blue" style="background-color: #8ABFEB;">
 													Blue
 												</div>
 												<div id="option-act38-2" class="box-act8 text-center m-3" draggable="true" data-id="White" style="background-color: #FFFFFF;">
@@ -5945,6 +6325,182 @@ Book_Page::headerTemplate('Unidad 1');
 								data-tooltip="Guardar">Submit</button>
 							<br>
 						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 20 -->
+<!--
+	Notas de inconvenientes con el canvas.
+	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
+	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
+	
+	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
+	funcionan. Es parecido al problema del input verify-canvas. 
+	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
+	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
+	Odio los canvas
+ -->
+ <div id="ModalLibroCuarentaydos" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+	<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">HEAD AND SHOULDERS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fortytwo">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the activity</p>
+											<!-- class="d-none" -->
+											<input type="text" id="points42" name="points">
+											<input type="text" id="idcliente42" name="idcliente">
+											<input type="text" id="idlibro42" name="idlibro">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										}
+
+										canvas4 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn4 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker4" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker4">
+												</div>
+											</div>
+											<div class="clear">
+												<p>clear2 the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn4">Clear canvas</a>
+												</div>
+											</div>
+										</div>
+										</header>
+
+										<div class="container">
+											<div class="row"></div>
+											<canvas id="canvas4" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag36/canvas36.png')"
+											width="670" height="475">
+
+											</canvas>
+										</div>
+									</header>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
 					</div>
 				</div>
 			</form>

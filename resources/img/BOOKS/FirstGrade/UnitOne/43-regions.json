@@ -6,22 +6,22 @@
 	"class":"html",
 	"data":
 		{
-			"modal":"ModalLibroTreintaydos",
-			"form":"game-thirtytwo"
+			"modal":"ModalLibroCuarentaydos",
+			"form":"game-fortytwo"
 		}	
 }
 ,
 {
 	"x":300,
-	"y":50,
+	"y":130,
 	"width":130,
 	"height":12,
 	"class":"html",
 	"data":
 		{
 
-			"modal":"ModalLibroUnoAudioPag26",
-			"form":"audio26"
+			"modal":"ModalLibroUnoAudioPag36",
+			"form":"audio36"
 			
 		}
 }

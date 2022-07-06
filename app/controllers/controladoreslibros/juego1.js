@@ -514,7 +514,6 @@ document.getElementById('game-seven').addEventListener('submit', function (event
 
 });
 
-
 document.getElementById('game-eight').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -988,6 +987,273 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
 
 });
 
+//Elementos arrastrables act17
+
+for (let i = 0; i < 5; i++) {
+    document.getElementById('img-act16-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+};
+
+//Elementos que reciben el arrastrable act17
+
+for (let i = 0; i < 5; i++) {
+    document.getElementById('box-act16-' + (i + 1)).addEventListener("drop", (e) => {
+        e.target.classList.remove("hover");
+        const id = e.dataTransfer.getData("id");
+        let draggedAlt = document.getElementById(id).alt;
+        let currentAlt = e.target.alt;
+        let draggedImg = document.getElementById(id).src;
+        let currentImg = e.target.src;
+        $("#" + id).attr("src", currentImg)
+        $(e.target).attr("src",  draggedImg);
+        $("#" + id).attr("alt", currentAlt)
+        $(e.target).attr("alt",  draggedAlt);
+        
+    });
+
+    document.getElementById('box-act16-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+};
+
+document.getElementById('game-sixteen').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let imgs = [];
+    let respuestasImg = ["RED", "BLUE", "BLACK", "WHITE", "BROWN"]
+    
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 5; i++) {
+        imgs[i] = $("#img-act16-" + (i + 1)).attr("alt").toUpperCase();
+
+    }
+
+    
+    //Se comparan las respuestas con los datos ingresados        
+    for (let i = 0; i < imgs.length; i++) {
+        if(imgs[i].trim().includes(respuestasImg[i])){
+            conteo++;
+        }
+        
+    }
+
+    //Se revisa si todas las respuestas son correctas
+    if (conteo == respuestasImg.length) {
+        var libro = 1;
+        document.getElementById('idcliente16').value = users.value;
+        document.getElementById('points16').value = valorActividad;
+        document.getElementById('idlibro16').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-sixteen', 'ModalLibroDieciseis');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalLibroDieciseis').modal('hide');
+        return true;
+    } else {
+        //Se asigna el puntaje basado en las respuestas correctas
+        let puntaje = valorActividad /  imgs.length;
+        let points = (puntaje * conteo).toFixed(2);
+        var libro = 1;
+        document.getElementById('idcliente16').value = users.value;
+        document.getElementById('points16').value = points;
+        document.getElementById('idlibro16').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-sixteen', 'ModalLibroDieciseis');
+        sweetAlert(4, conteo + '/' + imgs.length + ' answers right', null);
+        $('#ModalLibroDieciseis').modal('hide');
+        return true;
+    }
+
+    
+
+});
+
+//Elementos arrastrables act17
+
+for (let i = 0; i < 9; i++) {
+    document.getElementById('img-act17-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+};
+
+//Elementos que reciben el arrastrable act17
+
+for (let i = 0; i < 9; i++) {
+    document.getElementById('box-act17-' + (i + 1)).addEventListener("drop", (e) => {
+        e.target.classList.remove("hover");
+        const id = e.dataTransfer.getData("id");
+        let draggedAlt = document.getElementById(id).alt;
+        let currentAlt = e.target.alt;
+        let draggedImg = document.getElementById(id).src;
+        let currentImg = e.target.src;
+        $("#" + id).attr("src", currentImg)
+        $(e.target).attr("src",  draggedImg);
+        $("#" + id).attr("alt", currentAlt)
+        $(e.target).attr("alt",  draggedAlt);
+        
+    });
+
+    document.getElementById('box-act17-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+};
+
+document.getElementById('game-seventeen').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let imgs = [];
+    let respuestasImg = ["GREEN", "PINK", "PURPLE", "LIGHT BLUE", "RED", "YELLOW", "ORANGE", "WHITE", "BLUE"]
+    
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 9; i++) {
+        imgs[i] = $("#img-act17-" + (i + 1)).attr("alt").toUpperCase();
+
+    }
+
+    
+    //Se comparan las respuestas con los datos ingresados        
+    for (let i = 0; i < imgs.length; i++) {
+        if(imgs[i].trim().includes(respuestasImg[i])){
+            conteo++;
+        }
+        
+    }
+
+    //Se revisa si todas las respuestas son correctas
+    if (conteo == respuestasImg.length) {
+        var libro = 1;
+        document.getElementById('idcliente17').value = users.value;
+        document.getElementById('points17').value = valorActividad;
+        document.getElementById('idlibro17').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-seventeen', 'ModalLibroDiecisiete');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalLibroDiecisiete').modal('hide');
+        return true;
+    } else {
+        //Se asigna el puntaje basado en las respuestas correctas
+        let puntaje = valorActividad /  imgs.length;
+        let points = (puntaje * conteo).toFixed(2);
+        var libro = 1;
+        document.getElementById('idcliente17').value = users.value;
+        document.getElementById('points17').value = points;
+        document.getElementById('idlibro17').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-seventeen', 'ModalLibroDiecisiete');
+        sweetAlert(4, conteo + '/' + imgs.length + ' answers right', null);
+        $('#ModalLibroDiecisiete').modal('hide');
+        return true;
+    }
+
+    
+
+});
+
+//Elementos arrastrables act18
+
+for (let i = 0; i < 3; i++) {
+    document.getElementById('img-act18-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+};
+
+//Elementos que reciben el arrastrable act18
+
+for (let i = 0; i < 3; i++) {
+    document.getElementById('box-act18-' + (i + 1)).addEventListener("drop", (e) => {
+        e.target.classList.remove("hover");
+        const id = e.dataTransfer.getData("id");
+        let draggedAlt = document.getElementById(id).alt;
+        let currentAlt = e.target.alt;
+        let draggedImg = document.getElementById(id).src;
+        let currentImg = e.target.src;
+        $("#" + id).attr("src", currentImg)
+        $(e.target).attr("src",  draggedImg);
+        $("#" + id).attr("alt", currentAlt)
+        $(e.target).attr("alt",  draggedAlt);
+        
+    });
+
+    document.getElementById('box-act18-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+};
+
+document.getElementById('game-eighteen').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let imgs = [];
+    let respuestasImg = ["RED", "GREEN", "BLUE"]
+    
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 3; i++) {
+        imgs[i] = $("#img-act18-" + (i + 1)).attr("alt").toUpperCase();
+
+    }
+
+    
+    //Se comparan las respuestas con los datos ingresados        
+    for (let i = 0; i < imgs.length; i++) {
+        if(imgs[i].trim().includes(respuestasImg[i])){
+            conteo++;
+        }
+        
+    }
+
+    //Se revisa si todas las respuestas son correctas
+    if (conteo == respuestasImg.length) {
+        var libro = 1;
+        document.getElementById('idcliente18').value = users.value;
+        document.getElementById('points18').value = valorActividad;
+        document.getElementById('idlibro18').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-eighteen', 'ModalLibroDieciocho');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalLibroDieciocho').modal('hide');
+        return true;
+    } else {
+        //Se asigna el puntaje basado en las respuestas correctas
+        let puntaje = valorActividad /  imgs.length;
+        let points = (puntaje * conteo).toFixed(2);
+        var libro = 1;
+        document.getElementById('idcliente18').value = users.value;
+        document.getElementById('points18').value = points;
+        document.getElementById('idlibro18').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-eighteen', 'ModalLibroDieciocho');
+        sweetAlert(4, conteo + '/' + imgs.length + ' answers right', null);
+        $('#ModalLibroDieciocho').modal('hide');
+        return true;
+    }
+
+    
+
+});
+
 document.getElementById('game-twentyfive').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1142,6 +1408,87 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
     }
 
 
+});
+
+paper.install(window);
+
+$('#ModalLibroVeintisiete').on('shown.bs.modal', function (e){
+// Set it up
+    paper.setup('canvas2');
+
+    var canvas2 = document.getElementById("canvas2");
+
+    const context = canvas2.getContext('2d');
+
+    // Create a simple drawing tool:
+    var tool = new Tool();
+    var path2;
+
+    // Get elements from DOM and define properties
+    var colorPicker2 = document.getElementById("colorPicker2");
+    var colorStroke2;
+    var widthStrokePicker2 = document.getElementById("strokeWidthPicker2");
+    var widthStroke2;
+    var clearButton2 = document.getElementById("clearBtn2");
+
+    // Clear event listener
+    clearBtn2.addEventListener("click", function() {
+        // Clear canvas1
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+        console.log();
+    });
+
+    // Update 
+    function update() {
+        colorStroke2 = colorPicker2.value;
+        widthStroke2 = widthStrokePicker2.value;
+    }
+
+    // Check for new color value each second
+    setInterval(update, 1000);
+
+    // Define a mousedown and mousedrag handler
+    tool.onMouseDown = function(event) {
+        path2 = new Path();
+        path2.strokeWidth2 = widthStroke2;
+        path2.strokeColor2 = colorStroke2;
+    // Draw
+        path2.add(event.point);
+    }
+
+    tool.onMouseDrag = function(event) {
+    // Draw
+        path2.add(event.point);
+        document.getElementById("verify-canvas").value = 1;
+        console.log();
+    }
+});
+
+document.getElementById('game-twentyseven').addEventListener('submit', function (event) {
+   // Se evita recargar la página web después de enviar el formulario.
+   event.preventDefault();
+
+
+   if (document.getElementById("verify-canvas").value == 0) {
+       sweetAlert(2, 'The canvas is empty', null);
+       return false;
+   }
+   else
+   {
+       promedio = 1;
+       var libro = 1;
+       document.getElementById('idcliente27').value = users.value;
+       document.getElementById('points27').value = promedio;
+       document.getElementById('idlibro27').value = libro;
+
+       action = 'create';
+       saveRowActivity(API_ACTIVIDADES, action, 'game-twentyseven', 'ModalLibroVeintisiete');
+       sweetAlert(1, 'Good job', null);
+       $('#ModalLibroVeintisiete').modal('hide');
+       return true;
+   }
 });
 
 document.getElementById('game-twentynine').addEventListener('submit', function (event) {
@@ -1384,7 +1731,6 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
 
 });
 
-paper.install(window);
 
 paper.install(window);
 
@@ -2267,6 +2613,88 @@ document.getElementById('game-fortyone').addEventListener('submit', function (ev
     }
 
 });
+
+paper.install(window);
+
+$('#ModalLibroCuarentaydos').on('shown.bs.modal', function (e){
+// Set it up
+    paper.setup('canvas4');
+
+    var canvas4 = document.getElementById("canvas4");
+
+    const context = canvas4.getContext('2d');
+
+    // Create a simple drawing tool:
+    var tool = new Tool();
+    var path4;
+
+    // Get elements from DOM and define properties
+    var colorPicker4 = document.getElementById("colorPicker4");
+    var colorStroke4;
+    var widthStrokePicker4 = document.getElementById("strokeWidthPicker4");
+    var widthStroke4;
+    var clearButton4 = document.getElementById("clearBtn4");
+
+    // Clear event listener
+    clearBtn2.addEventListener("click", function() {
+        // Clear canvas1
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+        console.log();
+    });
+
+    // Update 
+    function update() {
+        colorStroke4 = colorPicker4.value;
+        widthStroke4 = widthStrokePicker4.value;
+    }
+
+    // Check for new color value each second
+    setInterval(update, 1000);
+
+    // Define a mousedown and mousedrag handler
+    tool.onMouseDown = function(event) {
+        path4 = new Path();
+        path4.strokeWidth4 = widthStroke4;
+        path4.strokeColor4 = colorStroke4;
+    // Draw
+        path4.add(event.point);
+    }
+
+    tool.onMouseDrag = function(event) {
+    // Draw
+        path4.add(event.point);
+        document.getElementById("verify-canvas").value = 1;
+        console.log();
+    }
+});
+
+document.getElementById('game-fortytwo').addEventListener('submit', function (event) {
+   // Se evita recargar la página web después de enviar el formulario.
+   event.preventDefault();
+
+
+   if (document.getElementById("verify-canvas").value == 0) {
+       sweetAlert(2, 'The canvas is empty', null);
+       return false;
+   }
+   else
+   {
+       promedio = 1;
+       var libro = 1;
+       document.getElementById('idcliente42').value = users.value;
+       document.getElementById('points42').value = promedio;
+       document.getElementById('idlibro42').value = libro;
+
+       action = 'create';
+       saveRowActivity(API_ACTIVIDADES, action, 'game-fortytwo', 'ModalLibroCuarentaydos');
+       sweetAlert(1, 'Good job', null);
+       $('#ModalLibroCuarentaydos').modal('hide');
+       return true;
+   }
+});
+
 /*
 // coloreo ----------------------------------
 // variables
