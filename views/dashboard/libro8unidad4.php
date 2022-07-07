@@ -1,8 +1,8 @@
 <?php
-//Se incluye la clase con las plantillas del documento
-require_once("../../app/helpers/book_page.php");
-//Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Book_Page::headerTemplate('Unidad 4');
+	//Se incluye la clase con las plantillas del documento
+	require_once("../../app/helpers/book_page.php");
+	//Se imprime la plantilla del encabezado y se envía el titulo para la página web
+	Book_Page::headerTemplate('Unidad 4');
 ?>
 <!--  ----------------------------------------- fin plantilla header --------------------------------  -->
 
@@ -1402,9 +1402,355 @@ Book_Page::headerTemplate('Unidad 4');
 <!-- fin Actividad 8-->
 <!-- fin Region 18-->
 
+<!-- Actividad 9-->
+<!-- Region 19-->
+<div id="ModalLibroOcho19" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers about prices using 'how much' and 'how many'</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act9">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points9" name="points9">
+                                <input type="text"  class="d-none" id="idlibro9" name="idlibro9">
+								<input type="text"  class="d-none" id="idcliente9" name="idcliente9">
+							</div>
+						</div>
+
+                        <div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act9-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select>
+									are four apples? 
+								</div>
+								<div class="col-10">
+									<select id="act9-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">They are two apples</option>
+										<option value="2">You can have two apples</option>
+										<option value="3">They are two dollars</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+						<div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act9-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select>
+									is that hat?
+								</div>
+								<div class="col-10">
+									<select id="act9-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's twenty five dollars</option><!-- correcto -->
+										<option value="2">Yes, it is on sale</option>
+										<option value="3">They are two dollars</option>
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+						<div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act9-q5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select>
+									bags of rice can I buy with five dollars?
+								</div>
+								<div class="col-10">
+									<select id="act9-q6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's two dollars</option>
+										<option value="2">You can have two bags</option><!-- correcto -->
+										<option value="3">You can have two dollars</option>
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+						<div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act9-q7">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select>
+									is a bottle of cream?
+								</div>
+								<div class="col-10">
+									<select id="act9-q8">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's a dollar</option><!-- correcto -->
+										<option value="2">You can have one bottle</option>
+										<option value="3">They are a dollar</option>
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 9-->
+<!-- fin Region 19-->
+
+<!-- Actividad 10-->
+<!-- Region 20-->
+<div id="ModalLibroOcho20" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers using 'how much' and 'how many'</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act10">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points10" name="points10">
+                                <input type="text"  class="d-none" id="idlibro10" name="idlibro10">
+								<input type="text"  class="d-none" id="idcliente10" name="idcliente10">
+							</div>
+						</div>
+
+                        <div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act10-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select>
+									does a pizza cost?
+								</div>
+								<div class="col-10">
+									<select id="act10-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's five dollars</option><!-- correcto -->
+										<option value="2">You can have a pizza</option>
+										<option value="3">It's five pizzas</option>
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+						<div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act10-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select>
+									soccer balls do you need?
+								</div>
+								<div class="col-10">
+									<select id="act10-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Four balls, please</option><!-- correcto -->
+										<option value="2">Two dollars</option>
+										<option value="3">It's four dollars</option>
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+						<div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act10-q5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select>
+									bags do you have?
+								</div>
+								<div class="col-10">
+									<select id="act10-q6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's five dollars</option>
+										<option value="2">I have five bags</option><!-- correcto -->
+										<option value="3">You can have five dollars</option>
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+						<div class="border">
+							<br>
+							<div class="row justify-content-center">
+								<div class="col-10">
+									<select id="act10-q7">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select>
+									pineapple juice is left?
+								</div>
+								<div class="col-10">
+									<select id="act10-q8">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's two dollars</option>
+										<option value="2">You can have two bottle</option>
+										<option value="3">Three bottles left</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<br>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 10-->
+<!-- fin Region 20-->
+
+<!-- Actividad 11-->
+<!-- Region 21-->
+<div id="ModalLibroOcho21" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers using vocabulary and key words</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act11">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points11" name="points11">
+                                <input type="text"  class="d-none" id="idlibro11" name="idlibro11">
+								<input type="text"  class="d-none" id="idcliente11" name="idcliente11">
+							</div>
+						</div>
+
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act11-q1">Can I help you?</label>
+								<select id="act11-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Sure, there is bread</option>
+									<option value="2">It's five dollars</option>
+									<option value="3">I would like a bottle of orange juice</option><!-- correcto -->
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act11-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Is there any sugar?</option>
+									<option value="2">How can I help you?</option>
+									<option value="3">Is there any bread?</option><!-- correcto -->
+								</select>
+								<label for="act11-q2">Sure, there is bread</label>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act11-q3">How many loaf of bread can I buy with five dollars?</label>
+								<select id="act11-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Yes, there are</option>
+									<option value="2">Five loaf of bread</option><!-- correcto -->
+									<option value="3">Yes, we do</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act11-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">What else do you need?</option><!-- correcto -->
+									<option value="2">How much is it?</option>
+									<option value="3">Are there any apples?</option>
+								</select>
+								<label for="act11-q4">That's all. Thank you</label>
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 11-->
+<!-- fin Region 21-->
+
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
-// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('controladorlibro8_u4.js');
+	// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
+	Book_Page::footerTemplate('controladorlibro8_u4.js');
 ?>
