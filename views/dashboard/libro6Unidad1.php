@@ -775,7 +775,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-8-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. What do you do for Mother’s Day?</label>
+                                    <label for="">5. When is Mother’s Day in Spain?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-8-q5">
                                 </div>
                             </div>
@@ -829,7 +829,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-9-q2">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">3. When was inaugurated Father’s Day?</label>
+                                    <label for="">3. What is Father's Day?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-9-q3">
                                 </div>
                                 <div class="form-group">
@@ -837,7 +837,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-9-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. What do you do for Father’s Day?</label>
+                                    <label for="">5. Do we have a holiday in June?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-9-q5">
                                 </div>
                             </div>
@@ -927,7 +927,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-11-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. Do you enjoy independence time?</label>
+                                    <label for="">5. What is the most common way to celebrate independence in El Salvador?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-11-q5">
                                 </div>
                             </div>
@@ -989,7 +989,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-12-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. What do you think about Columbus Day?</label>
+                                    <label for="">5. Write the names of the three ships:</label>
                                     <input type="text" class="form-control" placeholder="" id="game-12-q5">
                                 </div>
                             </div>
@@ -1043,7 +1043,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-13-q2">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">3. What is customary in El Salvador?</label>
+                                    <label for="">3. What is common in El Salvador?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-13-q3">
                                 </div>
                                 <div class="form-group">
@@ -1051,7 +1051,7 @@ Book_Page::headerTemplate('Unidad 2');
                                     <input type="text" class="form-control" placeholder="" id="game-13-q4">
                                 </div>
                                 <div class="form-group">
-                                    <label for="">5. What do you do that day?</label>
+                                    <label for="">5. Write some traditions in All Soul’s Day?</label>
                                     <input type="text" class="form-control" placeholder="" id="game-13-q5">
                                 </div>
                             </div>
@@ -1112,10 +1112,6 @@ Book_Page::headerTemplate('Unidad 2');
                                     <div class="form-group">
                                         <label for="">4. What do you commemorate on Christmas Eve?</label>
                                         <input type="text" class="form-control" placeholder="" id="game-14-q4">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">5. Do you enjoy Christmas time?</label>
-                                        <input type="text" class="form-control" placeholder="" id="game-14-q5">
                                     </div>
                                 </div>
                             </div>

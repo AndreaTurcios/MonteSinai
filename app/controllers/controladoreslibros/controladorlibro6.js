@@ -336,24 +336,30 @@ document.getElementById("game-9").addEventListener("submit", function (event) {
   q5 = document.getElementById("game-9-q5").value;
   //q6  = document.getElementById('game-3-q6').value;
 
+  rq1 = "It is on June 17th.";
+  rq2 = "Is a man who cares for a child’s needs";
+  rq3 = "It is a celebration honoring father.";
+  rq4 = "The state or responsability of being a father.";
+  rq5 = "Yes, Father 's Day.";
+
   if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
     action = "createact9";
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
       totalPunto += punto;
     }
 
@@ -389,24 +395,31 @@ document.getElementById("game-11").addEventListener("submit", function (event) {
   q5 = document.getElementById("game-11-q5").value;
   //q6  = document.getElementById('game-3-q6').value;
 
+  //Verificada el 07/06/2022
+  rq1 = "In September 15th, 1821";
+  rq2 = "Consist of what is now Guatemala, El Salvador, Honduras, Nicaragua y Costa Rica.";
+  rq3 = "300 years.";
+  rq4 = "A hymn of praise or loyalty to a nation.";
+  rq5 = "Paradies.";
+
   if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
     action = "createact11";
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
       totalPunto += punto;
     }
 
@@ -442,24 +455,31 @@ document.getElementById("game-12").addEventListener("submit", function (event) {
   q5 = document.getElementById("game-12-q5").value;
   //q6  = document.getElementById('game-3-q6').value;
 
+  //Verificado el 07/06/2022
+  rq1 = "October 12th.";
+  rq2 = "That only the Atlantic lay between Europe and the riches of the East Indies.";
+  rq3 = "Day of the Race.";
+  rq4 = "October 12th, 1492";
+  rq5 = "The Niña, the Pinta and the Santa Maria.";
+
   if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
     action = "createact12";
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
       totalPunto += punto;
     }
 
@@ -495,24 +515,32 @@ document.getElementById("game-13").addEventListener("submit", function (event) {
   q5 = document.getElementById("game-13-q5").value;
   //q6  = document.getElementById('game-3-q6').value;
 
+  //Verificado el 07/06/2022
+  rq1 = "It is on November 2nd.";
+  rq2 = "It is a day of prayer for the deceased souls.";
+  rq3 = "Go to the cementery, pray and place flowers.";
+  rq4 = "An excavation in earth or rock for the burial of a corpse; grave.";
+  rq5 = "Flowers, cementery, altar, or oftering food.";
+
+
   if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
     action = "createact13";
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
       totalPunto += punto;
     }
 
@@ -545,29 +573,36 @@ document.getElementById("game-14").addEventListener("submit", function (event) {
   q2 = document.getElementById("game-14-q2").value;
   q3 = document.getElementById("game-14-q3").value;
   q4 = document.getElementById("game-14-q4").value;
-  q5 = document.getElementById("game-14-q5").value;
+  //q5 = document.getElementById("game-14-q5").value;
   //q6  = document.getElementById('game-3-q6').value;
 
-  if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
+  //Verificado el 07/06/2022
+  rq1 = "December 25th.";
+  rq2 = "Attending church, sharing meals with family and presents.";
+  rq3 = "Christmas Eve.";
+  rq4 = "The birth of Baby Jesus.";
+  rq5 = "";
+
+  if (q1 != "" && q2 != "" && q3 != "" && q4 != "" ) {
     action = "createact14";
     totalPunto = 0;
-    totalPreguntas = 5;
+    totalPreguntas = 4;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+   /* if (q5.toUpperCase() == rq5.toUpperCase()) {
       totalPunto += punto;
-    }
+    }*/
 
     var notatotal = totalPunto.toFixed(2);
     var libro = 6;
@@ -1014,24 +1049,30 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
   q5 = document.getElementById("game-20-q5").value;
   //q6  = document.getElementById('game-3-q6').value;
 
+  rq1 = "";
+  rq2 = "";
+  rq3 = "";
+  rq4 = "";
+  rq5 = "";
+
   if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
     action = "createact20";
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "ANSWER") {
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "ANSWER") {
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "ANSWER") {
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "ANSWER") {
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "ANSWER") {
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
       totalPunto += punto;
     }
 
