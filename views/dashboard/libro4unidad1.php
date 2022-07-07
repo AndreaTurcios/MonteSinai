@@ -6687,6 +6687,26 @@ Book_Page::headerTemplate('Unidad 1');
 														autocomplete="off" ></td>
 													<td class="text-center">t</td>
 												</tr>
+												<tr>
+													<!-- Picture -->
+													<td class="text-center">P</td>
+													<td><input type="text" id="input-act37-46"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-47"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-48"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-49"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-50"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+												</tr>
 											</table>
 										</div>
 									</div>
@@ -6891,6 +6911,616 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="row justify-content-center">
 											<span class="btn btn-info" id="clear-btn39" style="width: 20%; background-color: rgb(230, 252, 255);">Clear canvas</span>
 										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act40" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act38">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Identify what's in the bedroom</p>
+											<input type="text" class="d-none" id="points38" name="points">
+											<input type="text" class="d-none" id="idcliente38" name="idcliente">
+											<input type="text" class="d-none" id="idlibro38" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<div class="col">
+											<p>In the bedroom:</p>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-1">
+												<label class="form-check-label" for="radio-act38-1">
+													There are beds.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-2">
+												<label class="form-check-label" for="radio-act38-2">
+													There is a lamp.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--1">
+												<label class="form-check-label" for="radio-act38--1">
+													There is a fan.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-3">
+												<label class="form-check-label" for="radio-act38-3">
+													There is a night table.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-4">
+												<label class="form-check-label" for="radio-act38-4">
+													There are pictures.
+												</label>
+											</div>
+										</div>
+										<div class="col">
+											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-1.jpg" alt="Bedroom 1">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<div class="col">
+											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-2.jpg" alt="Bedroom 2">
+										</div>
+										<div class="col">
+											<p>In the bedroom:</p>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-5">
+												<label class="form-check-label" for="radio-act38-5">
+													There is a bed.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--2">
+												<label class="form-check-label" for="radio-act38--2">
+													There is an alarm clock.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-6">
+												<label class="form-check-label" for="radio-act38-6">
+													There are pillows.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-7">
+												<label class="form-check-label" for="radio-act38-7">
+													There are lamps.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--3">
+												<label class="form-check-label" for="radio-act38--3">
+													There is a window.
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col">
+											<p>In the bedroom:</p>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--4">
+												<label class="form-check-label" for="radio-act38--4">
+													There is a closet.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-8">
+												<label class="form-check-label" for="radio-act38-8">
+													There is a radio.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-9">
+												<label class="form-check-label" for="radio-act38-9">
+													There is a window.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38-10">
+												<label class="form-check-label" for="radio-act38-10">
+													There are pictures.
+												</label>
+											</div>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="radio-act38--5">
+												<label class="form-check-label" for="radio-act38--5">
+													There is a fan.
+												</label>
+											</div>
+										</div>
+										<div class="col">
+											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-3.jpg" alt="Bedroom 3">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act41" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act41">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the words</p>
+											<input type="text" class="d-none" id="points41" name="points">
+											<input type="text" class="d-none" id="idcliente41" name="idcliente">
+											<input type="text" class="d-none" id="idlibro41" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Towel-->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act41-1"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-2"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-3"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">l</td>
+												</tr>
+												<tr>
+													<!-- Sink -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act41-4"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-5"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">k</td>
+												</tr>
+												<tr>
+													<!-- Soap -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act41-6"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-7"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">p</td>
+												</tr>
+												<tr>
+													<!-- Shampoo -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act41-8"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-9"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-10"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-11"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-12"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">o</td>
+												</tr>
+												<tr>
+													<!-- Toilet paper -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act41-13"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-14"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-15"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-16"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-17"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act41-18"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-19"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-20"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+													<td><input type="text" id="input-act41-21"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- Tooth brush -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act41-22"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-23"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-24"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-25"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act41-26"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-27"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-28"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-29"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">h</td>
+												</tr>
+												<tr>
+													<!-- Soap dish -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act41-30"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-31"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-32"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act41-33"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-34"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-35"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">h</td>
+												</tr>
+												<tr>
+													<!-- Shower curtain -->
+													<td class="text-center">S</td>
+													<td><input type="text" id="input-act41-36"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-37"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-38"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">e</td>
+													<td><input type="text" id="input-act41-39"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act41-40"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-41"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-42"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+													<td><input type="text" id="input-act41-43"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-44"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">n</td>
+												</tr>
+												<tr>
+													<!-- Tub -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act41-45"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-46"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- Mirror -->
+													<td class="text-center">M</td>
+													<td><input type="text" id="input-act41-47"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-48"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+													<td><input type="text" id="input-act41-49"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-50"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+												<tr>
+													<!-- Toilet -->
+													<td class="text-center">T</td>
+													<td><input type="text" id="input-act41-51"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-52"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-53"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act41-54"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit1Act42" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act42">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Furniture and appliances at the bathroom of your house</p>
+											<input type="text" class="d-none" id="points42" name="points">
+											<input type="text" class="d-none" id="idcliente42" name="idcliente">
+											<input type="text" class="d-none" id="idlibro42" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-bottom: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<p>Furniture and appliances</p>
+									</div>
+									<div class="col" style="border-bottom: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<p>Describe the color and write it</p>
+									</div>
+									<div class="col" style="border-bottom: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<p>Describe the cleanliness selecting clean or dirty</p>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-1.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-1" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-1">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-2.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-2" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-2">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-3.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-3" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-3">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-4.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-4" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-4">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-5.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-5" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-5">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-6.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-6" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-6">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-7.jpg" alt="">
+									</div>
+									<div class="col pt-2" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-7" placeholder="Write the color...">
+									</div>
+									<div class="col pt-2" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-7">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-8.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-8" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-8">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col" style="border-bottom: 2px solid #c72937; border-top: 2px solid #c72937; border-right:  2px solid #c72937; border-left: 2px solid #c72937;">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/51-9.jpg" alt="">
+									</div>
+									<div class="col pt-3" style="border-bottom: 2px solid #c72937; border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<input type="text" class="form-control" autocomplete="off" id="input-act42-9" placeholder="Write the color...">
+									</div>
+									<div class="col pt-3" style="border-bottom: 2px solid #c72937; border-top: 2px solid #c72937; border-right:  2px solid #c72937;">
+										<select class="form-select" id="select-act42-9">
+											<option value="0" disabled selected>Choose...</option>
+											<option value="1">Clean</option>
+											<option value="2">Dirty</option>
+										</select>
 									</div>
 								</div>
 							</div>
