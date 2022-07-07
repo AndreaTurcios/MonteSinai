@@ -326,7 +326,7 @@ document.getElementById('unit4-act5').addEventListener('submit', function(event)
     }    
 });
 
-//Unidad 4 Actividad 6 (pendiente)
+//Unidad 4 Actividad 6 (pendiente revisar validaciones)
 document.getElementById('unit4-act6').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
@@ -334,60 +334,117 @@ document.getElementById('unit4-act6').addEventListener('submit', function(event)
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
 
-    //Arreglos para guardar las respuestas y los datos ingresados
-    let respuestas = ["2", "1", "2", "2", "1"];
-    let inputs = [];
+    //para las preguntas con cbox
+    notacbox = 0;
+    if (document.getElementById('cbox1').checked || document.getElementById('cbox2').checked || document.getElementById('cbox3').checked ||
+        document.getElementById('cbox4').checked || document.getElementById('cbox5').checked || document.getElementById('cbox6').checked || 
+        document.getElementById('cbox7').checked || document.getElementById('cbox8').checked) {
 
-    //Se obtienen los datos ingresados y se ingresan en inputs[]
-    for (let i = 0; i < respuestas.length; i++) {
-        inputs[i] = document.getElementById('act5-q' + (i+1)).value;
-    }
-
-    // declaración de condicionales 
-    if (inputs.includes("0")) {
-        sweetAlert(2, 'Complete the missing fields', null);
-        return false;
-    } else {
-        //variable para obtener la cantidad de respuestas correctas
-        var conteo = 0;
-
-        //Se comparan las respuestas con los datos ingresados
-        for (let i = 0; i < respuestas.length; i++) {
-            if (respuestas[i] == inputs[i]) {
-                conteo++;
+        //Se verifica que solo pueda escoger 
+        cboxname = "";
+        contadorcbox = 0;
+        for (let i = 1; i <= 8; i++) {
+            cboxname = "cbox" + i;
+            if (document.getElementById(cboxname).checked) {
+                contadorcbox++;
+            }
+        }
+            
+        if (contadorcbox > 7) {
+            sweetAlert(2, 'It is not valid to select all answers', null);
+        } else {
+            for (i = 1; i < 7; i++) {
+                switch (i) {
+                    case 1:
+                        if (document.getElementById('cbox2').checked) {
+                            notacbox = notacbox + 1;
+                        }
+                        break;
+                    case 2:
+                        if (document.getElementById('cbox3').checked) {
+                            notacbox = notacbox + 1;
+                        }
+                        break;
+                    case 3:
+                        if (document.getElementById('cbox6').checked) {
+                            notacbox = notacbox + 1;
+                        }
+                        break;
+                    case 4:
+                        if (document.getElementById('cbox7').checked) {
+                            notacbox = notacbox + 1;
+                        }
+                        break;
+                    case 5:
+                        if (document.getElementById('cbox8').checked) {
+                            notacbox = notacbox + 1;
+                        }
+                        break;
+                    default:
+                }
             }
         }
 
-        //Se revisa si todas las respuestas son correctas
-        if (conteo == respuestas.length) {
-            var libro = 8;
-            document.getElementById('idcliente5').value = users.value;
-            document.getElementById('points5').value = valorActividad;
-            document.getElementById('idlibro5').value = libro;
-            console.log(valorActividad);
-            action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act5', 'ModalLibroOcho15');
-            sweetAlert(1, 'good job', null);
-            var ModalLibroOcho15 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho15'));
-            ModalLibroOcho15.hide();
-            return true;
-        } else {
-            //Se asigna el puntaje basado en las respuestas correctas
-            let puntaje = valorActividad / respuestas.length;
-            let points = (puntaje * conteo).toFixed(2);
-            var libro = 8;
-            document.getElementById('idcliente5').value = users.value;
-            document.getElementById('points5').value = points;
-            document.getElementById('idlibro5').value = libro;
-            console.log(points);
-            action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act5', 'ModalLibroOcho15');
-            sweetAlert(4, conteo + '/' + respuestas.length +' answers right', null);
-            var ModalLibroOcho15 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho15'));
-            ModalLibroOcho15.hide();
-            return true;
+        //para las preguntas con select
+        //Arreglos para guardar las respuestas y los datos ingresados
+        let respuestas = ["2","3","2","1","2","1","2","3","2"];
+        let inputs = [];
+
+        //Se obtienen los datos ingresados y se ingresan en inputs[]
+        for (let i = 0; i < respuestas.length; i++) {
+            inputs[i] = document.getElementById('act6-s' + (i+1)).value;
         }
-    }    
+
+        // declaración de condicionales 
+        if (inputs.includes("0")) {
+            sweetAlert(2, 'Complete the missing fields', null);
+            return false;
+        } else {
+            //variable para obtener la cantidad de respuestas correctas
+            var conteo = 0;
+
+            //Se comparan las respuestas con los datos ingresados
+            for (let i = 0; i < respuestas.length; i++) {
+                if (respuestas[i] == inputs[i]) {
+                    conteo++; //suma a respuestas correctas
+                }
+            }
+
+            let r_correctas = conteo + notacbox;
+
+            //Se revisa si todas las respuestas son correctas
+            if (r_correctas == 14) {
+                var libro = 8;
+                document.getElementById('idcliente6').value = users.value;
+                document.getElementById('points6').value = valorActividad;
+                document.getElementById('idlibro6').value = libro;
+                console.log(valorActividad);
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act6', 'ModalLibroOcho16');
+                sweetAlert(1, 'good job', null);
+                var ModalLibroOcho16 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho16'));
+                ModalLibroOcho16.hide();
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / 14;
+                let points = (puntaje * r_correctas).toFixed(2);
+                var libro = 8;
+                document.getElementById('idcliente6').value = users.value;
+                document.getElementById('points6').value = points;
+                document.getElementById('idlibro6').value = libro;
+                console.log(points);
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act6', 'ModalLibroOcho16');
+                sweetAlert(4, r_correctas + '/' + 14 +' answers right', null);
+                var ModalLibroOcho16 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho16'));
+                ModalLibroOcho16.hide();
+                return true;
+            }
+        }    
+    } else {
+        sweetAlert(2, 'Select the sentences', null);
+    }
 });
 
 //Unidad 4 Actividad 7
@@ -702,6 +759,133 @@ document.getElementById('unit4-act11').addEventListener('submit', function(event
             sweetAlert(4, conteo + '/' + respuestas.length +' answers right', null);
             var ModalLibroOcho21 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho21'));
             ModalLibroOcho21.hide();
+            return true;
+        }
+    }    
+});
+
+//Unidad 4 Actividad 12 (pendiente)
+document.getElementById('unit4-act12').addEventListener('submit', function(event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 1;
+    
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2", "1", "2", "2", "1"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('act12-q' + (i+1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("0")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == inputs[i]) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 8;
+            document.getElementById('idcliente5').value = users.value;
+            document.getElementById('points5').value = valorActividad;
+            document.getElementById('idlibro5').value = libro;
+            console.log(valorActividad);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act5', 'ModalLibroOcho15');
+            sweetAlert(1, 'good job', null);
+            var ModalLibroOcho15 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho15'));
+            ModalLibroOcho15.hide();
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 8;
+            document.getElementById('idcliente5').value = users.value;
+            document.getElementById('points5').value = points;
+            document.getElementById('idlibro5').value = libro;
+            console.log(points);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act5', 'ModalLibroOcho15');
+            sweetAlert(4, conteo + '/' + respuestas.length +' answers right', null);
+            var ModalLibroOcho15 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho15'));
+            ModalLibroOcho15.hide();
+            return true;
+        }
+    }    
+});
+
+//Unidad 4 Actividad 13 (pendiente agregar preguntas y respuestas en la vista)
+document.getElementById('unit4-act13').addEventListener('submit', function(event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 1;
+    
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2", "1", "2", "1"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('act13-q' + (i+1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("0")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == inputs[i]) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 8;
+            document.getElementById('idcliente13').value = users.value;
+            document.getElementById('points13').value = valorActividad;
+            document.getElementById('idlibro13').value = libro;
+            console.log(valorActividad);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act13', 'ModalLibroOcho23');
+            sweetAlert(1, 'good job', null);
+            var ModalLibroOcho23 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho23'));
+            ModalLibroOcho23.hide();
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 8;
+            document.getElementById('idcliente13').value = users.value;
+            document.getElementById('points13').value = points;
+            document.getElementById('idlibro13').value = libro;
+            console.log(points);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act13', 'ModalLibroOcho23');
+            sweetAlert(4, conteo + '/' + respuestas.length +' answers right', null);
+            var ModalLibroOcho23 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho23'));
+            ModalLibroOcho23.hide();
             return true;
         }
     }    

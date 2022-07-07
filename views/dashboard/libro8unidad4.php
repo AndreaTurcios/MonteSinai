@@ -843,24 +843,14 @@
 								<div class="col-12">
 									<strong>I-What is a quantifier?</strong>
 								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q1" id="act6-r1">
-									<label class="form-check-label" for="act6-r1">
-										Is used to discover required information to complete a given task 
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q1" id="act6-r2"><!-- correcto -->
-									<label class="form-check-label" for="act6-r2">
-										Is a word that indicates the range of individuals or items referred to
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q1" id="act6-r3">
-									<label class="form-check-label" for="act6-r3">
-										Are electrical/mechanical appliances which accomplish some household functions,
-										such as cooking or cleaning
-									</label>
+
+								<div class="col-md-12">
+									<select id="act6-s1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is used to discover required information to complete a given task</option>
+										<option value="2">Is a word that indicates the range of individuals or items referred to</option><!-- correcto -->
+										<option value="3">Are appliances which accomplish some household functions</option>
+									</select>
 								</div>
 							</div>
 							<!-- pregunta2 -->
@@ -868,42 +858,35 @@
 								<div class="col-12">
 									<strong>II-What are home appliances?</strong>
 								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r4"><!-- correcto -->
-									<label class="form-check-label" for="act6-r4">
-										Are electrical/mechanical appliances which accomplish some household functions,
-										such as cooking or cleaning
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r5">
-									<label class="form-check-label" for="act6-r5">
-										Is a word that indicates the range of individuals or items referred to
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r6">
-									<label class="form-check-label" for="act6-r6">
-										Is used for clothes considered as a group; wearing apparel
-									</label>
+
+								<div class="col-md-12">
+									<select id="act6-s2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is used to discover required information to complete a given task</option>
+										<option value="2">Is a word that indicates the range of individuals or items referred to</option>
+										<option value="3">Are appliances which accomplish some household functions</option><!-- correcto -->
+									</select>
 								</div>
 							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
 									<strong>III-Select sentences using quantifiers with groceries or food</strong>
 								</div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1">How much is it?</label>
+                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1">&nbsp;How much is it?</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2">There is some juice in the refrigerator</label><!-- correcto -->
+                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2">&nbsp;There is some juice in the refrigerator</label><!-- correcto -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">A few cookies are on the oven</label><!-- correcto -->
+                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">&nbsp;A few cookies are on the oven</label><!-- correcto -->
                                 </div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4">I need a pair of sandals</label>
+                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4">&nbsp;I need a pair of sandals</label>
                                 </div>
 							</div>
 							<!-- pregunta4 -->
@@ -913,8 +896,8 @@
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act6-q1">Hi! Sara, are your bag new?</label>
-									<select name="act6-q1" id="act6-q1">
+									<label for="act6-s3">Hi! Sara, are your bag new?</label>
+									<select id="act6-s3">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Hi, how are you?</option>
 										<option value="2">Yes, I bought it las week.</option><!-- correcto -->
@@ -923,18 +906,18 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q2" id="act6-q2">
+									<select id="act6-s4">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">What material is it?</option><!-- correcto -->
 										<option value="2">What color would you like?</option>
 										<option value="3">May I help you?</option>
 									</select>
-									<label for="act6-q2">It's wool.</label>
+									<label for="act6-s4">It's wool.</label>
 								</div>
 
 								<div class="col-md-12">
-									<label for="act6-q3">What size are you?</label>
-									<select name="act6-q3" id="act6-q3">
+									<label for="act6-s5">What size are you?</label>
+									<select id="act6-s5">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">It's wool.</option>
 										<option value="2">I'm small.</option><!-- correcto -->
@@ -943,15 +926,18 @@
 								</div>
 
 								<div class="col-md-12">
-									<select name="act6-q4" id="act6-q4">
+									<select id="act6-s6">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Can i try it on?</option><!-- correcto -->
 										<option value="2">Do you need those?</option>
 										<option value="3">Anything else?</option>
 									</select>
-									<label for="act6-q4">Of course, try it.</label>
+									<label for="act6-s6">Of course, try it.</label>
 								</div>
 							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
 							<!-- pregunta5 -->
 							<div class="col-6">
 								<div class="col-12">
@@ -959,7 +945,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q5" id="act6-q5">
+									<select id="act6-s7">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">It's not important to do it</option>
 										<option value="2">It's important because the students represent the school and her values</option><!-- correcto -->
@@ -974,14 +960,16 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q6" id="act6-q6">
+									<select id="act6-s8">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Because if I don't, I won't be able to get good grades</option>
-										<option value="2">Because the way I dress compliments my academic training</option>
-										<option value="3">Because it is part of the regulation and I must comply with it</option><!-- correcto -->
+										<option value="1">If I don't, I won't be able to get good grades</option>
+										<option value="2">The way I dress compliments my academic training</option>
+										<option value="3">I'm a representative of my school and I should wear my uniform correctly </option><!-- correcto -->
 									</select>
 								</div>
 							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
 
 							<!-- pregunta7 -->
 							<div class="col-6">
@@ -990,7 +978,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q7" id="act6-q7">
+									<select id="act6-s9">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Because my home appliances are expensive</option>
 										<option value="2">Because they help me to do my housework</option><!-- correcto -->
@@ -1002,22 +990,23 @@
 							<!-- pregunta8 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VIII-Could you struggle to identify opportunities and create a new home appliance?</strong>
+									<strong>VIII-What are some of the struggles identifying opportunities and create a new home appliance? (More than one option is possible)</strong>
 								</div>
-								
-								<div class="col-md-12">
-									<select name="act6-q8" id="act6-q8">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">answer1</option>
-										<option value="2">answer2</option><!-- correcto -->
-										<option value="3">answer3</option>
-									</select>
-								</div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5">&nbsp;Color</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6">&nbsp;Size and space</label><!-- correcto -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cbox7" value="second_checkbox"><label for="cbox7">&nbsp;Energy efficiency</label><!-- correcto -->
+                                </div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cbox8" value="second_checkbox"><label for="cbox8">&nbsp;Lifestyle</label><!-- correcto -->
+                                </div>
 							</div>
 	
                         </div>
-
-						
 
                     </div>
                     <br>
@@ -1747,6 +1736,340 @@
 </div>
 <!-- fin Actividad 11-->
 <!-- fin Region 21-->
+
+<!-- Actividad 12 pendiente de controller y respuestas-->
+<!-- Region 22-->
+<div id="ModalLibroOcho22" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete these activities and measure your archievements!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act12">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points12" name="points12">
+                                <input type="text"  class="d-none" id="idlibro12" name="idlibro12">
+								<input type="text"  class="d-none" id="idcliente12" name="idcliente12">
+							</div>
+						</div>
+
+						<div class="row">
+							<!-- pregunta1 -->
+                            <div class="col-6">
+								<div class="col-12">
+									<strong>I-When do we use 'how many'?</strong>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="act12-q1" id="act12-r1">
+									<label class="form-check-label" for="act12-r1">
+										Answer 1
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="act12-q1" id="act12-r2"><!-- correcto -->
+									<label class="form-check-label" for="act12-r2">
+										Answer 2
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="act12-q1" id="act12-r3">
+									<label class="form-check-label" for="act12-r3">
+										Answer 3
+									</label>
+								</div>
+							</div>
+							<!-- pregunta2 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>II-When do we use 'how much'?</strong>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r4"><!-- correcto -->
+									<label class="form-check-label" for="act6-r4">
+										Answer 1
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r5">
+									<label class="form-check-label" for="act6-r5">
+										Answer 2
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r6">
+									<label class="form-check-label" for="act6-r6">
+										Answer 3
+									</label>
+								</div>
+							</div>
+							<!-- pregunta3 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>III-Select questions and answers about prices using 'how much' and 'how many'</strong>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act6-q1">question?</label>
+									<select name="act6-q1" id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Answer.</option><!-- correcto -->
+										<option value="2">Answer.</option>
+										<option value="3">Answer.</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act6-q2" id="act6-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">question?</option><!-- correcto -->
+										<option value="2">question?</option>
+										<option value="3">question?</option>
+									</select>
+									<label for="act6-q2">Answer.</label>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act6-q3">question?</label>
+									<select name="act6-q3" id="act6-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Answer.</option>
+										<option value="2">IAnswer.</option><!-- correcto -->
+										<option value="3">Answer.</option>
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select name="act6-q4" id="act6-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">question?</option><!-- correcto -->
+										<option value="2">question?</option>
+										<option value="3">question?</option>
+									</select>
+									<label for="act6-q4">Answer.</label>
+								</div>
+								
+							</div>
+							<!-- pregunta4 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-Select questions and answers using vocabulary and key words about groceries</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<label for="act6-q1">question?</label>
+									<select name="act6-q1" id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Answer.</option><!-- correcto -->
+										<option value="2">Answer.</option>
+										<option value="3">Answer.</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act6-q2" id="act6-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">question?</option><!-- correcto -->
+										<option value="2">question?</option>
+										<option value="3">question?</option>
+									</select>
+									<label for="act6-q2">Answer.</label>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act6-q3">question?</label>
+									<select name="act6-q3" id="act6-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Answer.</option>
+										<option value="2">IAnswer.</option><!-- correcto -->
+										<option value="3">Answer.</option>
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select name="act6-q4" id="act6-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">question?</option><!-- correcto -->
+										<option value="2">question?</option>
+										<option value="3">question?</option>
+									</select>
+									<label for="act6-q4">Answer.</label>
+								</div>
+
+							</div>
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-How can you show the health conscious and earth friendly side?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act6-q5" id="act6-q5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Answer</option>
+										<option value="2">Answer</option><!-- correcto -->
+										<option value="3">Answer</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-Can you explain why respect is the first positive step in building a relationship?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act6-q6" id="act6-q6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Answer</option>
+										<option value="2">Answer</option>
+										<option value="3">Answer</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-How can you verify that you purchase healthy and enviroment-friendly foods and items?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act6-q7" id="act6-q7">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Answer</option>
+										<option value="2">Answer</option><!-- correcto -->
+										<option value="3">Answer</option>
+									</select>
+								</div>
+							</div>
+
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-Are you able to explore which foods and items are healthy and enviroment-friendly?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select name="act6-q8" id="act6-q8">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">answer1</option>
+										<option value="2">answer2</option><!-- correcto -->
+										<option value="3">answer3</option>
+									</select>
+								</div>
+							</div>
+	
+                        </div>
+
+						
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 12-->
+<!-- fin Region 22-->
+
+<!-- Actividad 13 pendiente de agregar respuestas--> 
+<!-- Region 23-->
+<div id="ModalLibroOcho23" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers using prices up to $1,000.00</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act13">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points13" name="points13">
+                                <input type="text"  class="d-none" id="idlibro13" name="idlibro13">
+								<input type="text"  class="d-none" id="idcliente13" name="idcliente13">
+							</div>
+						</div>
+
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act13-q1">question?</label>
+								<select id="act13-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">answer</option>
+									<option value="2">answer correct</option><!-- correcto -->
+									<option value="3">answer</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act13-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">question? correct</option><!-- correcto -->
+									<option value="2">question?</option>
+									<option value="3">question?</option>
+								</select>
+								<label for="act13-q2">answer</label>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act13-q3">question?</label>
+								<select id="act13-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">answer</option>
+									<option value="2">answer correct</option><!-- correcto -->
+									<option value="3">answer</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act13-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">question? correct</option><!-- correcto -->
+									<option value="2">question?</option>
+									<option value="3">question?</option>
+								</select>
+								<label for="act13-q4">answer</label>
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 13-->
+<!-- fin Region 23-->
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
