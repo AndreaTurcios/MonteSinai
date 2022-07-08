@@ -3743,7 +3743,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreinta" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg"> 
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">HOW DO YOU DO?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -3911,7 +3911,8 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintayuno" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-md">
-	<div class="modal-header">
+		<div class="modal-content">
+			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">EXPRESSIONS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
@@ -4067,6 +4068,7 @@ Book_Page::headerTemplate('Unidad 1');
 					</div>
 				</div>
 			</form>
+			
 		</div>
 	</div>
 </div>
@@ -4247,7 +4249,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-xl">
 	<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Match the sentence with the picture</h5>
+				<h5 class="modal-title" id="modal-title">VERBS: CLEAN, LIKE, EAT</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirtythree">
@@ -4259,7 +4261,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Match the sentence with the picture</p>
 											<input type="text" class="d-none" id="points33" name="points">
 											<input type="text" class="d-none" id="idcliente33" name="idcliente">
 											<input type="text" class="d-none" id="idlibro33" name="idlibro">
@@ -6510,5 +6512,5 @@ Book_Page::headerTemplate('Unidad 1');
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('juego1.js');
+Book_Page::footerTemplate('controladorlibro1_u1.js');
 ?>
