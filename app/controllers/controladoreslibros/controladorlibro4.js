@@ -1,6 +1,6 @@
 const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
 
-var color2Stroke;
+var color2Stroke, widthStroke, intervalo;
 
 document.getElementById('unit1-act1').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
@@ -134,19 +134,16 @@ window.onload = function () {
 
     // Set it up
     paper.setup('canvas2');
-
-    var canvas2 = document.getElementById("canvas2");
-
-    const context = canvas2.getContext('2d');
-
     // Create a simple drawing tool:
     var tool = new Tool();
     var path;
 
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
     // Get elements from DOM and define properties
     var color2Picker = document.getElementById("color2Picker");
     var widthStrokePicker = document.getElementById("stroke2WidthPicker");
-    var widthStroke;
     var clear2Button = document.getElementById("clear2Btn");
 
     // Clear event listener
@@ -164,7 +161,7 @@ window.onload = function () {
     }
 
     // Check for new color2 value each second
-    setInterval(update, 1000);
+    intervalo = setInterval(update, 1000);
 
     // Define a mousedown and mousedrag handler
     tool.onMouseDown = function (event) {
@@ -181,6 +178,35 @@ window.onload = function () {
         document.getElementById("verify-canvas").value = 1;
     }
 }
+
+$('#ModalUnit1Act3').on('shown.bs.modal', function (e) {
+    // Set it up
+    paper.setup('canvas2');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var color2Picker = document.getElementById("color2Picker");
+    var widthStrokePicker = document.getElementById("stroke2WidthPicker");
+    var clear2Button = document.getElementById("clear2Btn");
+
+    // Clear event listener
+    clear2Btn.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        color2Stroke = color2Picker.value;
+        widthStroke = widthStrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+});
 
 document.getElementById('unit1-act3').addEventListener('submit', function (event) {
 
@@ -1270,6 +1296,9 @@ $('#ModalUnit1Act3').on('shown.bs.modal', function (e) {
 });
 
 $('#ModalUnit1Act20').on('shown.bs.modal', function (e) {
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
     document.getElementById("verify-canvas").value = 0;
     // Set it up
     paper.setup('canvas20');
@@ -1290,11 +1319,11 @@ $('#ModalUnit1Act20').on('shown.bs.modal', function (e) {
     // Update 
     function update() {
         color2Stroke = color20Picker.value;
-        width2Stroke = width20StrokePicker.value;
+        widthStroke = width20StrokePicker.value;
     }
 
     // Check for new color2 value each second
-    setInterval(update, 1000);
+    intervalo = setInterval(update, 1000);
 });
 
 document.getElementById('unit1-act20').addEventListener('submit', function (event) {
@@ -1757,7 +1786,7 @@ document.getElementById('unit1-act28').addEventListener('submit', function (even
         return true;
     } else {
         //Se asigna el puntaje basado en las respuestas correctas
-        let puntaje = valorActividad / (inputs.length + imgs.length);
+        let puntaje = valorActividad / imgs.length;
         let points = (puntaje * conteo).toFixed(2);
         var libro = 4;
         document.getElementById('idcliente28').value = users.value;
@@ -1765,7 +1794,7 @@ document.getElementById('unit1-act28').addEventListener('submit', function (even
         document.getElementById('idlibro28').value = libro;
         action = 'create';
         saveRowActivity(API_ACTIVIDADES, action, 'unit1-act28', 'modal');
-        sweetAlert(4, conteo + '/' + (inputs.length + imgs.length) + ' answers right', null);
+        sweetAlert(4, conteo + '/' + imgs.length + ' answers right', null);
         $('#ModalUnit1Act28').modal('hide');
         return true;
     }
@@ -2623,3 +2652,221 @@ document.getElementById('unit1-act42').addEventListener('submit', function (even
     }
 
 });
+
+$('#ModalUnit1Act43').on('shown.bs.modal', function (e) {
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas43');
+
+    // Get elements from DOM and define properties
+    var color43Picker = document.getElementById("color43Picker");
+    var width43StrokePicker = document.getElementById("stroke43WidthPicker");
+    var clear43Button = document.getElementById("clear43Btn");
+
+    // Clear event listener
+    clear43Button.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        color2Stroke = color43Picker.value;
+        widthStroke = width43StrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('unit1-act43').addEventListener('submit', function (event) {
+
+    //valor de la actividad
+    let valorActividad = 1;
+
+    //Se evita que se recargue la página al enviar el formulario
+    event.preventDefault();
+
+    if (document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'Color the indicated parts', null);
+        return false;
+    }
+    else {
+        let points = valorActividad;
+        let libro = 4;
+        document.getElementById('idcliente43').value = users.value;
+        document.getElementById('points43').value = points;
+        document.getElementById('idlibro43').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act43', 'modal');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalUnit1Act43').modal('hide');
+        return true;
+    }
+
+});
+
+$('#ModalUnit1Act44').on('shown.bs.modal', function (e) {
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas44');
+
+    // Get elements from DOM and define properties
+    var color43Picker = document.getElementById("color44Picker");
+    var width43StrokePicker = document.getElementById("stroke44WidthPicker");
+    var clear43Button = document.getElementById("clear44Btn");
+
+    // Clear event listener
+    clear43Button.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        color2Stroke = color44Picker.value;
+        widthStroke = width44StrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('unit1-act44').addEventListener('submit', function (event) {
+
+    //valor de la actividad
+    let valorActividad = 1;
+
+    //Se evita que se recargue la página al enviar el formulario
+    event.preventDefault();
+
+    if (document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'Draw and color', null);
+        return false;
+    }
+    else {
+        let points = valorActividad;
+        let libro = 4;
+        document.getElementById('idcliente44').value = users.value;
+        document.getElementById('points44').value = points;
+        document.getElementById('idlibro44').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act44', 'modal');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalUnit1Act44').modal('hide');
+        return true;
+    }
+
+});
+
+document.getElementById('unit1-act40').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let imgs = [];
+    let respuestasTxt = ["A", "D", "I", "O", "L", "A", "R", "A", "M", "A", "N", "K", "E", "T", "E", "I", "L", "L", "O", "S", "I", "G", "H", "T", "A", "B", "L", "E", "I", "N", "D", "O", "L", "S", "E", "A", "N", "K", "E", "U", "T", "A", "I", "N"];
+    let respuestasImg = [["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], ["1", "2", "3", "8", "5", "6", "10", "4", "9", "7"], ["1", "2", "3", "9", "5", "6", "10", "8", "4", "7"]]
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 44; i++) {
+        inputs[i] = document.getElementById("input-act40-" + (i + 1)).value.toUpperCase();
+
+    }
+    for (let i = 0; i < 10; i++) {
+        imgs[i] = $("#img-act40-" + (i + 1)).attr("alt").toUpperCase();
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        for (let i = 0; i < 10; i++) {
+            if (imgs[i].trim().includes(respuestasImg[0][i]) || imgs[i].trim().includes(respuestasImg[1][i]) || imgs[i].trim().includes(respuestasImg[2][i])) {
+                conteo++;
+            }
+    
+        }
+    
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i] == respuestasTxt[i]) {
+                conteo++;
+            }
+    
+        }
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == 54) {
+            var libro = 4;
+            document.getElementById('idcliente40').value = users.value;
+            document.getElementById('points40').value = valorActividad;
+            document.getElementById('idlibro40').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act40', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act40').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / 54;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente40').value = users.value;
+            document.getElementById('points40').value = points;
+            document.getElementById('idlibro40').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act40', 'modal');
+            sweetAlert(4, conteo + '/' + 54 + ' answers right', null);
+            $('#ModalUnit1Act40').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+
+//Elementos arrastrables act40
+
+for (let i = 0; i < 10; i++) {
+    document.getElementById('img-act40-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+};
+
+//Elementos que reciben el arrastrable act40
+
+for (let i = 0; i < 10; i++) {
+    document.getElementById('box-act40-' + (i + 1)).addEventListener("drop", (e) => {
+        e.target.classList.remove("hover");
+        const id = e.dataTransfer.getData("id");
+        let draggedAlt = document.getElementById(id).alt;
+        let currentAlt = e.target.alt;
+        let draggedImg = document.getElementById(id).src;
+        let currentImg = e.target.src;
+        $("#" + id).attr("src", currentImg)
+        $(e.target).attr("src", draggedImg);
+        $("#" + id).attr("alt", currentAlt)
+        $(e.target).attr("alt", draggedAlt);
+
+    });
+
+    document.getElementById('box-act40-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+};

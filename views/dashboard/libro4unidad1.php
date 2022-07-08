@@ -6690,12 +6690,6 @@ Book_Page::headerTemplate('Unidad 1');
 												<tr>
 													<!-- Picture -->
 													<td class="text-center">P</td>
-													<td><input type="text" id="input-act37-46"
-														class=" form-control" maxlength="1"
-														autocomplete="off" ></td>
-													<td><input type="text" id="input-act37-47"
-														class=" form-control" maxlength="1"
-														autocomplete="off" ></td>
 													<td><input type="text" id="input-act37-48"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
@@ -6703,6 +6697,12 @@ Book_Page::headerTemplate('Unidad 1');
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
 													<td><input type="text" id="input-act37-50"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-51"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act37-52"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
 													<td class="text-center">e</td>
@@ -6938,132 +6938,298 @@ Book_Page::headerTemplate('Unidad 1');
 				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act38">
+			<form method="post" id="unit1-act40">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
+							<!-- columna -->
 							<div class="container-fluid">
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Identify what's in the bedroom</p>
-											<input type="text" class="d-none" id="points38" name="points">
-											<input type="text" class="d-none" id="idcliente38" name="idcliente">
-											<input type="text" class="d-none" id="idlibro38" name="idlibro">
+											<p class="fs-5 fw-bold">Write and match</p>
+											<input type="text" class="d-none" id="points40" name="points">
+											<input type="text" class="d-none" id="idcliente40" name="idcliente">
+											<input type="text" class="d-none" id="idlibro40" name="idlibro">
 										</div>
 									</div>
-									<div class="row mb-5">
-										<div class="col">
-											<p>In the bedroom:</p>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-1">
-												<label class="form-check-label" for="radio-act38-1">
-													There are beds.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-2">
-												<label class="form-check-label" for="radio-act38-2">
-													There is a lamp.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38--1">
-												<label class="form-check-label" for="radio-act38--1">
-													There is a fan.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-3">
-												<label class="form-check-label" for="radio-act38-3">
-													There is a night table.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-4">
-												<label class="form-check-label" for="radio-act38-4">
-													There are pictures.
-												</label>
-											</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Radio alarm -->
+													<td class="text-center">R</td>
+													<td><input type="text" id="input-act40-1"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-2"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-3"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-4"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">&nbsp;</td>
+													<td class="text-center">A</td>
+													<td><input type="text" id="input-act40-5"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-6"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-7"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">m</td>
+												</tr>
+											</table>
 										</div>
-										<div class="col">
-											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-1.jpg" alt="Bedroom 1">
-										</div>
-									</div>
-									<div class="row mb-5">
-										<div class="col">
-											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-2.jpg" alt="Bedroom 2">
-										</div>
-										<div class="col">
-											<p>In the bedroom:</p>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-5">
-												<label class="form-check-label" for="radio-act38-5">
-													There is a bed.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38--2">
-												<label class="form-check-label" for="radio-act38--2">
-													There is an alarm clock.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-6">
-												<label class="form-check-label" for="radio-act38-6">
-													There are pillows.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-7">
-												<label class="form-check-label" for="radio-act38-7">
-													There are lamps.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38--3">
-												<label class="form-check-label" for="radio-act38--3">
-													There is a window.
-												</label>
-											</div>
+										<div class="col-4" id="box-act40-1">
+											<img draggable="true" id="img-act40-1" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-1.jpg" alt="6">
 										</div>
 									</div>
-									<div class="row">
-										<div class="col">
-											<p>In the bedroom:</p>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38--4">
-												<label class="form-check-label" for="radio-act38--4">
-													There is a closet.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-8">
-												<label class="form-check-label" for="radio-act38-8">
-													There is a radio.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-9">
-												<label class="form-check-label" for="radio-act38-9">
-													There is a window.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38-10">
-												<label class="form-check-label" for="radio-act38-10">
-													There are pictures.
-												</label>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" id="radio-act38--5">
-												<label class="form-check-label" for="radio-act38--5">
-													There is a fan.
-												</label>
-											</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Lamp -->
+													<td class="text-center">L</td>
+													<td><input type="text" id="input-act40-8"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-9"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">p</td>
+												</tr>
+											</table>
 										</div>
-										<div class="col">
-											<img class="img-fluid" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/47-3.jpg" alt="Bedroom 3">
+										<div class="col-4" id="box-act40-2">
+											<img draggable="true" id="img-act40-2" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-2.jpg" alt="5">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Blankets -->
+													<td class="text-center">B</td>
+													<td class="text-center">l</td>
+													<td><input type="text" id="input-act40-10"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-11"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-12"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-13"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-14"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">s</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-3">
+											<img draggable="true" id="img-act40-3" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-3.jpg" alt="2">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Bed -->
+													<td class="text-center">B</td>
+													<td><input type="text" id="input-act40-15"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">d</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-4">
+											<img draggable="true" id="img-act40-4" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-4.jpg" alt="4">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Pillows -->
+													<td class="text-center">P</td>
+													<td><input type="text" id="input-act40-16"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-17"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-18"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-19"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">w</td>
+													<td><input type="text" id="input-act40-20"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-5">
+											<img draggable="true" id="img-act40-5" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-5.jpg" alt="1">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Night table -->
+													<td class="text-center">N</td>
+													<td><input type="text" id="input-act40-21"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-22"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-23"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+													<td class="text-center">&nbsp;</td>
+													<td><input type="text" id="input-act40-24"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-25"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-26"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-27"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-28"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-6">
+											<img draggable="true" id="img-act40-6" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-6.jpg" alt="3">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Window -->
+													<td class="text-center">W</td>
+													<td><input type="text" id="input-act40-29"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-30"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-31"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-32"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">w</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-7">
+											<img draggable="true" id="img-act40-7" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-7.jpg" alt="8">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Closet -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act40-33"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">o</td>
+													<td><input type="text" id="input-act40-34"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-35"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-8">
+											<img draggable="true" id="img-act40-8" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-8.jpg" alt="7">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Blanket -->
+													<td class="text-center">B</td>
+													<td class="text-center">l</td>
+													<td><input type="text" id="input-act40-36"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-37"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-38"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-39"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">t</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-9">
+											<img draggable="true" id="img-act40-9" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-9.jpg" alt="9">
+										</div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-8">
+											<table style="border-collapse: separate; border-spacing: 0 5px;">
+												<tr>
+													<!-- Curtains -->
+													<td class="text-center">C</td>
+													<td><input type="text" id="input-act40-40"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">r</td>
+													<td><input type="text" id="input-act40-41"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-42"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-43"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td><input type="text" id="input-act40-44"
+														class=" form-control" maxlength="1"
+														autocomplete="off" ></td>
+													<td class="text-center">s</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col-4" id="box-act40-10">
+											<img draggable="true" id="img-act40-10" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/49-10.jpg" alt="10">
 										</div>
 									</div>
 								</div>
@@ -7540,6 +7706,334 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
+
+<div id="ModalUnit1Act43" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act43">
+				<div class="modal-body">
+					<div class="" style="overflow-y:auto;">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-3 fw-bold">Color the yard, garden and garage</p>
+											<!-- class="d-none" -->
+											<input type="text" id="points43" name="points" class="d-none">
+											<input type="text" id="idcliente43" name="idcliente" class="d-none">
+											<input type="text" id="idlibro43" name="idlibro" class="d-none">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+									
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 15px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										.canvas-act20 {
+										background-color: #F8F8F8;
+										border: 1px solid black;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clear20Btn {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+									
+									<header>
+										<div class="grid ">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="color43Picker" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="stroke43WidthPicker">
+												</div>
+											</div>
+											<div class="clear">
+												<p>clear the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clear43Btn">Clear canvas</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="container mt-3">
+											<canvas id="canvas43" style="background: url('../../resources/img/BOOKS/FourthGrade/UnitOne/activities/52-1.jpg')"
+											width="721" height="390" >
+											
+										</div>
+									</header>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit1Act44" class="modal fade" tabindex="-14">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Identifying the family members</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act44">
+				<div class="modal-body">
+					<div class="" style="overflow-y:auto;">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-3 fw-bold">Draw and color in the house, yard, garden and garage</p>
+											<!-- class="d-none" -->
+											<input type="text" id="points44" name="points" class="d-none">
+											<input type="text" id="idcliente44" name="idcliente" class="d-none">
+											<input type="text" id="idlibro44" name="idlibro" class="d-none">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+									
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 15px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										.canvas-act20 {
+										background-color: #F8F8F8;
+										border: 1px solid black;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clear20Btn {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+									
+									<header>
+										<div class="grid ">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="color44Picker" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="stroke44WidthPicker">
+												</div>
+											</div>
+											<div class="clear">
+												<p>clear the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clear44Btn">Clear canvas</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="container mt-3">
+											<canvas id="canvas44" style="background: url('../../resources/img/BOOKS/FourthGrade/UnitOne/activities/52-2.jpg')"
+											width="758" height="352" >
+
+											</canvas>
+											
+										</div>
+									</header>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
 <!-- fin modales-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
