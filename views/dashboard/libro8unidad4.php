@@ -1686,6 +1686,44 @@
         </div>
     </div>
 </div>
+<!-- ejemplos-->
+<div id="ModalLibroOcho20examples" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="examples20">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									
+
+									<div class="row">
+										<div class="col-12">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Page20/examples.png"
+												class="rounded mx-auto d-block">
+											</div>
+										</div>	
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin ejemplos-->
 <!-- fin Actividad 10-->
 <!-- fin Region 20-->
 
@@ -1772,44 +1810,6 @@
         </div>
     </div>
 </div>
-<!-- ejemplos-->
-<div id="ModalLibroOcho21examples" class="modal fade" tabindex="-11">
-	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="examples21">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<!-- columna -->
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									
-
-									<div class="row">
-										<div class="col-12">								
-											<div class="col">
-												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Page21/examples.png"
-												class="rounded mx-auto d-block">
-											</div>
-										</div>	
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-<!-- fin ejemplos-->
 <!-- fin Actividad 11-->
 <!-- fin Region 21-->
 
@@ -1877,7 +1877,7 @@
 
 								<div class="col-md-12">
 									<label for="act6-q1">How many candies are in the bag?</label>
-									<select name="act6-q1" id="act6-q1">
+									<select id="act12-q3">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">You can have five candies.</option>
 										<option value="2">It's five dollars.</option>
@@ -1886,17 +1886,17 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q2" id="act6-q2">
+									<select id="act12-q4">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">How many oranges can I buy with two dollars?</option><!-- correcto -->
 										<option value="2">How much is an orange?</option>
 									</select>
-									<label for="act6-q2">Six oranges.</label>
+									<label for="act12-q4">Six oranges.</label>
 								</div>
 
 								<div class="col-md-12">
-									<label for="act6-q3">How much is that book?</label>
-									<select name="act6-q3" id="act6-q3">
+									<label for="act12-q5">How much is that book?</label>
+									<select id="act12-q5">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">You can have a book.</option>
 										<option value="2">It's twelve dollars.</option><!-- correcto -->
@@ -1905,12 +1905,12 @@
 								</div>
 
 								<div class="col-md-12">
-									<select name="act6-q4" id="act6-q4">
+									<select id="act12-q6">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">How much are those balloons?</option>
 										<option value="2">How many balloons can I buy with a dollar?</option><!-- correcto -->
 									</select>
-									<label for="act6-q4">twenty five balloons.</label>
+									<label for="act12-q6">Twenty five balloons.</label>
 								</div>
 								
 							</div>
@@ -1921,43 +1921,43 @@
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act6-q1">question?</label>
-									<select name="act6-q1" id="act6-q1">
+									<label for="act12-q7">Are there any oranges?</label>
+									<select id="act12-q7">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Answer.</option><!-- correcto -->
-										<option value="2">Answer.</option>
-										<option value="3">Answer.</option>
+										<option value="1">It's twenty five cents.</option>
+										<option value="2">You can have four oranges.</option>
+										<option value="3">Sure, there are oranges.</option><!-- correcto -->
 									</select>
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q2" id="act6-q2">
+									<select id="act12-q8">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">question?</option><!-- correcto -->
-										<option value="2">question?</option>
-										<option value="3">question?</option>
+										<option value="1">How much is the coffee?</option><!-- correcto -->
+										<option value="2">How many coffees can I buy with five dollars?</option>
+										<option value="3">Is there any coffee?</option>
 									</select>
-									<label for="act6-q2">Answer.</label>
+									<label for="act12-q8">It's two dollars.</label>
 								</div>
 
 								<div class="col-md-12">
-									<label for="act6-q3">question?</label>
-									<select name="act6-q3" id="act6-q3">
+									<label for="act12-q9">Is there any salt? I need two pounds</label>
+									<select id="act12-q9">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Answer.</option>
-										<option value="2">IAnswer.</option><!-- correcto -->
-										<option value="3">Answer.</option>
+										<option value="1">You can have two pounds.</option>
+										<option value="2">Sure, here you are.</option><!-- correcto -->
+										<option value="3">Thank you and have a good day.</option>
 									</select>
 								</div>
 
 								<div class="col-md-12">
-									<select name="act6-q4" id="act6-q4">
+									<select id="act12-q10">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">question?</option><!-- correcto -->
-										<option value="2">question?</option>
-										<option value="3">question?</option>
+										<option value="1">How can I help you?</option><!-- correcto -->
+										<option value="2">How much are the apples?</option>
+										<option value="3">Are there any apples?</option>
 									</select>
-									<label for="act6-q4">Answer.</label>
+									<label for="act12-q10">I want a few apples, give me three</label>
 								</div>
 
 							</div>
@@ -1971,11 +1971,11 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q5" id="act6-q5">
+									<select id="act12-q11">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Answer</option>
-										<option value="2">Answer</option><!-- correcto -->
-										<option value="3">Answer</option>
+										<option value="1">Using spray deodorants</option>
+										<option value="2">Wearing green colors in my clothes</option>
+										<option value="3">Buy foods and products made from organic materials</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
@@ -1986,11 +1986,11 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q6" id="act6-q6">
+									<select id="act12-q12">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Answer</option>
 										<option value="2">Answer</option>
-										<option value="3">Answer</option><!-- correcto -->
+										<option value="3">Answer correct</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
@@ -2004,11 +2004,11 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q7" id="act6-q7">
+									<select id="act12-q13">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Answer</option>
-										<option value="2">Answer</option><!-- correcto -->
-										<option value="3">Answer</option>
+										<option value="1">Checking that they are made of organic materials and without pesticides</option><!-- correcto -->
+										<option value="2">Checking that they are painted green</option>
+										<option value="3">Buying discount products</option>
 									</select>
 								</div>
 							</div>
@@ -2020,18 +2020,16 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select name="act6-q8" id="act6-q8">
+									<select id="act12-q14">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">answer1</option>
-										<option value="2">answer2</option><!-- correcto -->
+										<option value="1">answer1 correct</option><!-- correcto -->
+										<option value="2">answer2</option>
 										<option value="3">answer3</option>
 									</select>
 								</div>
 							</div>
 	
                         </div>
-
-						
 
                     </div>
                     <br>
