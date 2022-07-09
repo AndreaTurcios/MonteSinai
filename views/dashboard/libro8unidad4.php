@@ -1813,7 +1813,7 @@
 <!-- fin Actividad 11-->
 <!-- fin Region 21-->
 
-<!-- Actividad 12 pendiente de controller y respuestas-->
+<!-- Actividad 12 pendiente de respuestas-->
 <!-- Region 22-->
 <div id="ModalLibroOcho22" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
@@ -2071,12 +2071,12 @@
 
                         <div class="row border box-select-5">
 							<div class="col-md-12">
-								<label for="act13-q1">question?</label>
+								<label for="act13-q1">What I need is a camcorder. How much is it?</label>
 								<select id="act13-q1">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">answer</option>
-									<option value="2">answer correct</option><!-- correcto -->
-									<option value="3">answer</option>
+									<option value="1">It's 25 cents.</option>
+									<option value="2">They are $5.00 each.</option>
+									<option value="3">It's $400.00.</option><!-- correcto -->
 								</select>
 							</div>
 						</div>
@@ -2085,22 +2085,22 @@
 							<div class="col-md-12">
 								<select id="act13-q2">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">question? correct</option><!-- correcto -->
-									<option value="2">question?</option>
-									<option value="3">question?</option>
+									<option value="1">How much is that cell phone?</option><!-- correcto -->
+									<option value="2">Would you like anything else?</option>
+									<option value="3">How much are they?</option>
 								</select>
-								<label for="act13-q2">answer</label>
+								<label for="act13-q2">Let's see... The cell phone is $80.00.</label>
 							</div>
 						</div>
 
 						<div class="row border box-select-5">
 							<div class="col-md-12">
-								<label for="act13-q3">question?</label>
+								<label for="act13-q3">How much are the oranges?</label>
 								<select id="act13-q3">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">answer</option>
-									<option value="2">answer correct</option><!-- correcto -->
-									<option value="3">answer</option>
+									<option value="1">It's $25.00</option>
+									<option value="2">They are 25 cents each.</option><!-- correcto -->
+									<option value="3">They are $25.00</option>
 								</select>
 							</div>
 						</div>
@@ -2109,11 +2109,11 @@
 							<div class="col-md-12">
 								<select id="act13-q4">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">question? correct</option><!-- correcto -->
-									<option value="2">question?</option>
-									<option value="3">question?</option>
+									<option value="1">The pineapples look good. How much are they?</option><!-- correcto -->
+									<option value="2">How much is it?</option>
+									<option value="3">How many pineapples can I get with two dollars?</option>
 								</select>
-								<label for="act13-q4">answer</label>
+								<label for="act13-q4">They are $1.25 each</label>
 							</div>
 						</div>
 

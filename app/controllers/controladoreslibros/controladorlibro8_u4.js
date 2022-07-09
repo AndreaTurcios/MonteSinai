@@ -861,7 +861,7 @@ document.getElementById('unit4-act13').addEventListener('submit', function(event
     event.preventDefault();
 
     //Arreglos para guardar las respuestas y los datos ingresados
-    let respuestas = ["2", "1", "2", "1"];
+    let respuestas = ["3", "1", "2", "1"];
     let inputs = [];
 
     //Se obtienen los datos ingresados y se ingresan en inputs[]
