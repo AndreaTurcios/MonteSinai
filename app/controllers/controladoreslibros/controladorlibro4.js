@@ -2801,14 +2801,14 @@ document.getElementById('unit1-act40').addEventListener('submit', function (even
             if (imgs[i].trim().includes(respuestasImg[0][i]) || imgs[i].trim().includes(respuestasImg[1][i]) || imgs[i].trim().includes(respuestasImg[2][i])) {
                 conteo++;
             }
-    
+
         }
-    
+
         for (let i = 0; i < inputs.length; i++) {
             if (inputs[i] == respuestasTxt[i]) {
                 conteo++;
             }
-    
+
         }
         //Se revisa si todas las respuestas son correctas
         if (conteo == 54) {
@@ -2984,3 +2984,170 @@ document.getElementById("unit1-act46").addEventListener("submit", function (even
     }
 
 });
+
+document.getElementById("unit1-act47").addEventListener("submit", function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+
+    let inputs = [];
+    let conteo = 0, verifyChecks = 0;
+    //Llenar arreglo de inputs y se verifica que haya seleccionado al menos una de cada línea
+    for (let i = 0; i < 20; i++) {
+        inputs[i] = document.getElementById('radio-act47-' + (i + 1)).checked;
+        if (inputs[i]) {
+            verifyChecks++;
+        }
+    }
+    console.log(verifyChecks)
+    //Se verifican las opciones seleccionadas
+    if (inputs[0] || inputs[1]) {
+        conteo++;
+    }
+    if (inputs[3]) {
+        conteo++;
+    }
+    if (inputs[4] || inputs[5]) {
+        conteo++;
+    }
+    if (inputs[6] || inputs[7]) {
+        conteo++;
+    }
+    if (inputs[8] || inputs[9]) {
+        conteo++;
+    }
+    if (inputs[11]) {
+        conteo++;
+    }
+    if (inputs[13]) {
+        conteo++;
+    }
+    if (inputs[14] || inputs[15]) {
+        conteo++;
+    }
+    if (inputs[16]) {
+        conteo++;
+    }
+    if (inputs[18]) {
+        conteo++;
+    }
+    if (verifyChecks == 10) {
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == 10) {
+            var libro = 4;
+            document.getElementById('idcliente47').value = users.value;
+            document.getElementById('points47').value = valorActividad;
+            document.getElementById('idlibro47').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act47', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act47').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / 10;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente47').value = users.value;
+            document.getElementById('points47').value = points;
+            document.getElementById('idlibro47').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act47', 'modal');
+            sweetAlert(4, conteo + '/' + '10' + ' answers right', null);
+            $('#ModalUnit1Act46').modal('hide');
+            return true;
+        }
+    } else {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    }
+
+
+});
+
+document.getElementById('unit1-act48').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let imgs = [];
+    let respuestasImg = ["STUDYING", "READING", "RUNNING", "EATING", "TALKING", "SHOWER", "WALKING", "WASHING", "SLEEPING", "JUMPING"]
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 10; i++) {
+        imgs[i] = $("#img-act48-" + (i + 1)).attr("alt").toUpperCase();
+
+    }
+
+    for (let i = 0; i < imgs.length; i++) {
+        if (imgs[i].trim().includes(respuestasImg[i])) {
+            conteo++;
+        }
+
+    }
+
+    //Se revisa si todas las respuestas son correctas
+    if (conteo == respuestasImg.length) {
+        var libro = 4;
+        document.getElementById('idcliente48').value = users.value;
+        document.getElementById('points48').value = valorActividad;
+        document.getElementById('idlibro48').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act48', 'modal');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalUnit1Act48').modal('hide');
+        return true;
+    } else {
+        //Se asigna el puntaje basado en las respuestas correctas
+        let puntaje = valorActividad / imgs.length;
+        let points = (puntaje * conteo).toFixed(2);
+        var libro = 4;
+        document.getElementById('idcliente48').value = users.value;
+        document.getElementById('points48').value = points;
+        document.getElementById('idlibro48').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act48', 'modal');
+        sweetAlert(4, conteo + '/' + imgs.length + ' answers right', null);
+        $('#ModalUnit1Act48').modal('hide');
+        return true;
+    }
+
+
+});
+//Elementos arrastrables act48
+
+for (let i = 0; i < 10; i++) {
+    document.getElementById('img-act48-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+};
+
+//Elementos que reciben el arrastrable act28
+
+for (let i = 0; i < 10; i++) {
+    document.getElementById('box-act48-' + (i + 1)).addEventListener("drop", (e) => {
+        e.target.classList.remove("hover");
+        const id = e.dataTransfer.getData("id");
+        let draggedAlt = document.getElementById(id).alt;
+        let currentAlt = e.target.alt;
+        let draggedImg = document.getElementById(id).src;
+        let currentImg = e.target.src;
+        $("#" + id).attr("src", currentImg)
+        $(e.target).attr("src", draggedImg);
+        $("#" + id).attr("alt", currentAlt)
+        $(e.target).attr("alt", draggedAlt);
+
+    });
+
+    document.getElementById('box-act48-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+};

@@ -8475,11 +8475,14 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the missing words</p>
+											<p class="fs-5 fw-bold">Answer with YES or NO according to correct or incorrect</p>
 											<input type="text" class="d-none" id="points47" name="points">
 											<input type="text" class="d-none" id="idcliente47" name="idcliente">
 											<input type="text" class="d-none" id="idlibro47" name="idlibro">
 										</div>
+									</div>
+									<div class="row mb-3">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/55.jpg" class="img-fluid">
 									</div>
 									<div class="row row-cols-2">
 										<div class="col">
@@ -8487,11 +8490,11 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="col">
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-1">
+												<input class="form-check-input" name="line1" type="radio" id="radio-act47-1">
 												<label class="form-check-label" for="radio-act47-1">Yes</label>
 											</div>
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-2">
+												<input class="form-check-input" name="line1" type="radio" id="radio-act47-2">
 												<label class="form-check-label" for="radio-act47-2">No</label>
 											</div>
 										</div>
@@ -8502,11 +8505,11 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="col">
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-3">
+												<input class="form-check-input" name="line2" type="radio" id="radio-act47-3">
 												<label class="form-check-label" for="radio-act47-3">Yes</label>
 											</div>
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-4">
+												<input class="form-check-input" name="line2" type="radio" id="radio-act47-4">
 												<label class="form-check-label" for="radio-act47-4">No</label>
 											</div>
 										</div>
@@ -8517,11 +8520,11 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="col">
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-5">
+												<input class="form-check-input" name="line3" type="radio" id="radio-act47-5">
 												<label class="form-check-label" for="radio-act47-3">Yes</label>
 											</div>
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-6">
+												<input class="form-check-input" name="line3" type="radio" id="radio-act47-6">
 												<label class="form-check-label" for="radio-act47-4">No</label>
 											</div>
 										</div>
@@ -8532,11 +8535,11 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="col">
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-7">
+												<input class="form-check-input" name="line4" type="radio" id="radio-act47-7">
 												<label class="form-check-label" for="radio-act47-3">Yes</label>
 											</div>
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-8">
+												<input class="form-check-input" name="line4" type="radio" id="radio-act47-8">
 												<label class="form-check-label" for="radio-act47-4">No</label>
 											</div>
 										</div>
@@ -8547,11 +8550,11 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="col">
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-9">
+												<input class="form-check-input" name="line5" type="radio" id="radio-act47-9">
 												<label class="form-check-label" for="radio-act47-3">Yes</label>
 											</div>
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-10">
+												<input class="form-check-input" name="line5" type="radio" id="radio-act47-10">
 												<label class="form-check-label" for="radio-act47-4">No</label>
 											</div>
 										</div>
@@ -8562,31 +8565,196 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="col">
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-11">
+												<input class="form-check-input" name="line6" type="radio" id="radio-act47-11">
 												<label class="form-check-label" for="radio-act47-3">Yes</label>
 											</div>
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-12">
+												<input class="form-check-input" name="line6" type="radio" id="radio-act47-12">
 												<label class="form-check-label" for="radio-act47-4">No</label>
 											</div>
 										</div>
 									</div>
 									<div class="row row-cols-2">
 										<div class="col">
-											<p>7. Do you ?</p>
+											<p>7. Do you take a shower at the bedroom?</p>
 										</div>
 										<div class="col">
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-9">
+												<input class="form-check-input" name="line7" type="radio" id="radio-act47-13">
 												<label class="form-check-label" for="radio-act47-3">Yes</label>
 											</div>
 											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="radio" id="radio-act47-10">
+												<input class="form-check-input" name="line7" type="radio" id="radio-act47-14">
 												<label class="form-check-label" for="radio-act47-4">No</label>
 											</div>
 										</div>
 									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p>8. Does your teacher read at the bedroom?</p>
+										</div>
+										<div class="col">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" name="line8" type="radio" id="radio-act47-15">
+												<label class="form-check-label" for="radio-act47-3">Yes</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" name="line8" type="radio" id="radio-act47-16">
+												<label class="form-check-label" for="radio-act47-4">No</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p>9. Do you take a shower at the bathroom?</p>
+										</div>
+										<div class="col">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" name="line9" type="radio" id="radio-act47-17">
+												<label class="form-check-label" for="radio-act47-3">Yes</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" name="line9" type="radio" id="radio-act47-18">
+												<label class="form-check-label" for="radio-act47-4">No</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p>10. Do you sleep at the bedroom?</p>
+										</div>
+										<div class="col">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" name="line10" type="radio" id="radio-act47-19">
+												<label class="form-check-label" for="radio-act47-3">Yes</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" name="line10" type="radio" id="radio-act47-20">
+												<label class="form-check-label" for="radio-act47-4">No</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 
+<div class="modal fade" id="ModalUnit1Act48" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit1-act48">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-5">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Match according to</p>
+											<input type="text" class="d-none" id="points48" name="points">
+											<input type="text" class="d-none" id="idcliente48" name="idcliente">
+											<input type="text" class="d-none" id="idlibro48" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Studying</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-1">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-1.jpg" alt="Jumping" id="img-act48-1">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Reading</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-2">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-2.jpg" alt="Shower" id="img-act48-2">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Running</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-3">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-3.jpg" alt="Studying" id="img-act48-3">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Eating</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-4">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-4.jpg" alt="Running" id="img-act48-4">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Talking</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-5">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-5.jpg" alt="Walking" id="img-act48-5">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Taking a shower</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-6">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-6.jpg" alt="Talking" id="img-act48-6">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Walking</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-7">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-7.jpg" alt="Reading" id="img-act48-7">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Washing her hands</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-8">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-8.jpg" alt="Sleeping" id="img-act48-8">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Sleeping</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-9">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-9.jpg" alt="Washing" id="img-act48-9">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2" style="border-bottom: solid 2px #e8e8e8">
+										<div class="col d-flex justify-content-center pt-4">
+											<h4>Jumping</h4>
+										</div>
+										<div class="col ps-5" id="box-act48-10">
+											<img draggable="true" src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/56-10.jpg" alt="Eating" id="img-act48-10">
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
