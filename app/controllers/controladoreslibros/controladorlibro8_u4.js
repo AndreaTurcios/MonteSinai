@@ -326,124 +326,148 @@ document.getElementById('unit4-act5').addEventListener('submit', function(event)
     }    
 });
 
-//Unidad 4 Actividad 6 (pendiente revisar validaciones)
+//Unidad 4 Actividad 6
 document.getElementById('unit4-act6').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
-    
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
 
-    //para las preguntas con cbox
-    notacbox = 0;
-    if (document.getElementById('cbox1').checked || document.getElementById('cbox2').checked || document.getElementById('cbox3').checked ||
-        document.getElementById('cbox4').checked || document.getElementById('cbox5').checked || document.getElementById('cbox6').checked || 
-        document.getElementById('cbox7').checked || document.getElementById('cbox8').checked) {
-
-        //Se verifica que solo pueda escoger 
-        cboxname = "";
-        contadorcbox = 0;
-        for (let i = 1; i <= 8; i++) {
-            cboxname = "cbox" + i;
-            if (document.getElementById(cboxname).checked) {
-                contadorcbox++;
-            }
+    //INICIO CHECKBOXS (cb3)
+    //Se cuentan todos los cbox seleccionados
+    notacbox_cb3 = 0; //contador de puntos obtenidos
+    cboxname_cb3 = "";
+    contadorcbox_cb3 = 0; //contador de cbox seleccionados
+    for (let i = 1; i <= 4; i++) {
+        cboxname_cb3 = "cb3-" + i;
+        if (document.getElementById(cboxname_cb3).checked) {
+            contadorcbox_cb3++;
         }
-            
-        if (contadorcbox > 7) {
-            sweetAlert(2, 'It is not valid to select all answers', null);
-        } else {
-            for (i = 1; i < 7; i++) {
-                switch (i) {
-                    case 1:
-                        if (document.getElementById('cbox2').checked) {
-                            notacbox = notacbox + 1;
-                        }
-                        break;
-                    case 2:
-                        if (document.getElementById('cbox3').checked) {
-                            notacbox = notacbox + 1;
-                        }
-                        break;
-                    case 3:
-                        if (document.getElementById('cbox6').checked) {
-                            notacbox = notacbox + 1;
-                        }
-                        break;
-                    case 4:
-                        if (document.getElementById('cbox7').checked) {
-                            notacbox = notacbox + 1;
-                        }
-                        break;
-                    case 5:
-                        if (document.getElementById('cbox8').checked) {
-                            notacbox = notacbox + 1;
-                        }
-                        break;
-                    default:
+    }
+    for (i = 1; i <= 4; i++) {
+        switch (i) {
+            case 1:
+                if (document.getElementById('cb3-2').checked) {
+                    notacbox_cb3 = notacbox_cb3 + 1;
                 }
-            }
-        }
-
-        //para las preguntas con select
-        //Arreglos para guardar las respuestas y los datos ingresados
-        let respuestas = ["2","3","2","1","2","1","2","3","2"];
-        let inputs = [];
-
-        //Se obtienen los datos ingresados y se ingresan en inputs[]
-        for (let i = 0; i < respuestas.length; i++) {
-            inputs[i] = document.getElementById('act6-s' + (i+1)).value;
-        }
-
-        // declaración de condicionales 
-        if (inputs.includes("0")) {
-            sweetAlert(2, 'Complete the missing fields', null);
-            return false;
-        } else {
-            //variable para obtener la cantidad de respuestas correctas
-            var conteo = 0;
-
-            //Se comparan las respuestas con los datos ingresados
-            for (let i = 0; i < respuestas.length; i++) {
-                if (respuestas[i] == inputs[i]) {
-                    conteo++; //suma a respuestas correctas
+                break;
+            case 2:
+                if (document.getElementById('cb3-3').checked) {
+                    notacbox_cb3 = notacbox_cb3 + 1;
                 }
-            }
+                break;
+            default:
+        }
+    }
+    //FIN CHECKBOXS (cb3)
 
-            let r_correctas = conteo + notacbox;
+    //INICIO CHECKBOXS (cb8)
+    //Se cuentan todos los cbox seleccionados
+    notacbox_cb8 = 0; //contador de puntos obtenidos
+    cboxname_cb8 = "";
+    contadorcbox_cb8 = 0; //contador de cbox seleccionados
+    for (let i = 1; i <= 4; i++) {
+        cboxname_cb8 = "cb8-" + i;
+        if (document.getElementById(cboxname_cb8).checked) {
+            contadorcbox_cb8++;
+        }
+    }
+    for (i = 1; i <= 4; i++) {
+        switch (i) {
+            case 1:
+                if (document.getElementById('cb8-2').checked) {
+                    notacbox_cb8 = notacbox_cb8 + 1;
+                }
+                break;
+            case 2:
+                if (document.getElementById('cb8-3').checked) {
+                    notacbox_cb8 = notacbox_cb8 + 1;
+                }
+                break;
+            case 3:
+                if (document.getElementById('cb8-4').checked) {
+                    notacbox_cb8 = notacbox_cb8 + 1;
+                }
+                break;
+            default:
+        }
+    }
+    //FIN CHECKBOXS (cb3)
 
-            //Se revisa si todas las respuestas son correctas
-            if (r_correctas == 14) {
-                var libro = 8;
-                document.getElementById('idcliente6').value = users.value;
-                document.getElementById('points6').value = valorActividad;
-                document.getElementById('idlibro6').value = libro;
-                console.log(valorActividad);
-                action = 'create';
-                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act6', 'ModalLibroOcho16');
-                sweetAlert(1, 'good job', null);
-                var ModalLibroOcho16 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho16'));
-                ModalLibroOcho16.hide();
-                return true;
-            } else {
-                //Se asigna el puntaje basado en las respuestas correctas
-                let puntaje = valorActividad / 14;
-                let points = (puntaje * r_correctas).toFixed(2);
-                var libro = 8;
-                document.getElementById('idcliente6').value = users.value;
-                document.getElementById('points6').value = points;
-                document.getElementById('idlibro6').value = libro;
-                console.log(points);
-                action = 'create';
-                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act6', 'ModalLibroOcho16');
-                sweetAlert(4, r_correctas + '/' + 14 +' answers right', null);
-                var ModalLibroOcho16 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho16'));
-                ModalLibroOcho16.hide();
-                return true;
-            }
-        }    
+    //INICIO SELECTS
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2","3","2","1","2","1","2","3","2"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('act6-s' + (i+1)).value;
+    }
+
+    //variable para obtener la cantidad de respuestas correctas
+    var notaselect = 0;
+
+    //Se comparan las respuestas con los datos ingresados
+    for (let i = 0; i < respuestas.length; i++) {
+        if (respuestas[i] == inputs[i]) {
+            notaselect++; //suma a respuestas correctas
+        }
+    }
+    //FIN SELECTS
+
+
+    if (contadorcbox_cb3 == 0) {
+        sweetAlert(2, 'Select an answer for question three', null);
     } else {
-        sweetAlert(2, 'Select the sentences', null);
+        if (contadorcbox_cb8 == 0) {
+            sweetAlert(2, 'Select an answer for question eight', null);
+        } else {
+            if (contadorcbox_cb3 > 2) {
+                sweetAlert(2, 'It is not valid to select all answers for question three, only choose two', null);
+            } else {
+                if (contadorcbox_cb8 > 3) {
+                    sweetAlert(2, 'It is not valid to select all answers for question eight, only choose three', null);
+                } else {
+                    if (inputs.includes("0")) {
+                        sweetAlert(2, 'Complete the missing fields', null);
+                        return false;
+                    } else {
+
+                        // let r_correctas = conteo + notacbox;
+                        let r_correctas = notacbox_cb3 + notacbox_cb8 + notaselect;
+                        //Se revisa si todas las respuestas son correctas
+                        if (r_correctas == 14) {
+                            var libro = 8;
+                            document.getElementById('idcliente6').value = users.value;
+                            document.getElementById('points6').value = valorActividad;
+                            document.getElementById('idlibro6').value = libro;
+                            console.log(valorActividad);
+                            action = 'create';
+                            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act6', 'ModalLibroOcho16');
+                            sweetAlert(1, 'good job', null);
+                            var ModalLibroOcho16 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho16'));
+                            ModalLibroOcho16.hide();
+                            return true;
+                        } else {
+                            //Se asigna el puntaje basado en las respuestas correctas
+                            let puntaje = valorActividad / 14;
+                            let points = (puntaje * r_correctas).toFixed(2);
+                            var libro = 8;
+                            document.getElementById('idcliente6').value = users.value;
+                            document.getElementById('points6').value = points;
+                            document.getElementById('idlibro6').value = libro;
+                            console.log(points);
+                            action = 'create';
+                            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act6', 'ModalLibroOcho16');
+                            sweetAlert(4, r_correctas + '/' + 14 +' answers right', null);
+                            var ModalLibroOcho16 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho16'));
+                            ModalLibroOcho16.hide();
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
     }
 });
 

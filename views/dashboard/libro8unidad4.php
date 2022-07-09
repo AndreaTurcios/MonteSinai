@@ -812,8 +812,46 @@
         </div>
     </div>
 </div>
-<!-- fin Actividad 5-->
+<!-- ejemplos-->
+<div id="ModalLibroOcho15examples" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="examples15">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									
+
+									<div class="row">
+										<div class="col-12">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Page15/examples.png"
+												class="rounded mx-auto d-block">
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin ejemplos-->
 <!-- fin Region 15-->
+<!-- fin Actividad 5-->
 
 <!-- Actividad 6-->
 <!-- Region 16-->
@@ -874,19 +912,19 @@
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>III-Select sentences using quantifiers with groceries or food</strong>
+									<strong>III-Select sentences using quantifiers with groceries or food (Only choose two)</strong>
 								</div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1">&nbsp;How much is it?</label>
+                                    <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;How much is it?</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2">&nbsp;There is some juice in the refrigerator</label><!-- correcto -->
+                                    <input type="checkbox" id="cb3-2"><label for="cb3-2">&nbsp;There is some juice in the refrigerator</label><!-- correcto -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">&nbsp;A few cookies are on the oven</label><!-- correcto -->
+                                    <input type="checkbox" id="cb3-3"><label for="cb3-3">&nbsp;A few cookies are on the oven</label><!-- correcto -->
                                 </div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4">&nbsp;I need a pair of sandals</label>
+                                    <input type="checkbox" id="cb3-4"><label for="cb3-4">&nbsp;I need a pair of sandals</label>
                                 </div>
 							</div>
 							<!-- pregunta4 -->
@@ -993,16 +1031,16 @@
 									<strong>VIII-What are some of the struggles identifying opportunities and create a new home appliance? (More than one option is possible)</strong>
 								</div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5">&nbsp;Color</label>
+                                    <input type="checkbox" id="cb8-1"><label for="cb8-1">&nbsp;Color</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6">&nbsp;Size and space</label><!-- correcto -->
+                                    <input type="checkbox" id="cb8-2"><label for="cb8-2">&nbsp;Size and space</label><!-- correcto -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox7" value="second_checkbox"><label for="cbox7">&nbsp;Energy efficiency</label><!-- correcto -->
+                                    <input type="checkbox" id="cb8-3"><label for="cb8-3">&nbsp;Energy efficiency</label><!-- correcto -->
                                 </div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox8" value="second_checkbox"><label for="cbox8">&nbsp;Lifestyle</label><!-- correcto -->
+                                    <input type="checkbox" id="cb8-4"><label for="cb8-4">&nbsp;Lifestyle</label><!-- correcto -->
                                 </div>
 							</div>
 	
@@ -1734,6 +1772,44 @@
         </div>
     </div>
 </div>
+<!-- ejemplos-->
+<div id="ModalLibroOcho21examples" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="examples21">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									
+
+									<div class="row">
+										<div class="col-12">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Page21/examples.png"
+												class="rounded mx-auto d-block">
+											</div>
+										</div>	
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin ejemplos-->
 <!-- fin Actividad 11-->
 <!-- fin Region 21-->
 
@@ -1765,23 +1841,14 @@
 								<div class="col-12">
 									<strong>I-When do we use 'how many'?</strong>
 								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act12-q1" id="act12-r1">
-									<label class="form-check-label" for="act12-r1">
-										Answer 1
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act12-q1" id="act12-r2"><!-- correcto -->
-									<label class="form-check-label" for="act12-r2">
-										Answer 2
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act12-q1" id="act12-r3">
-									<label class="form-check-label" for="act12-r3">
-										Answer 3
-									</label>
+
+								<div class="col-md-12">
+									<select id="act12-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">We use this with plural countable nouns</option><!-- correcto -->
+										<option value="2">To refer to foods, which are sold in a grocery store</option>
+										<option value="3">We use this with uncountable nouns or singular object</option>
+									</select>
 								</div>
 							</div>
 							<!-- pregunta2 -->
@@ -1789,25 +1856,19 @@
 								<div class="col-12">
 									<strong>II-When do we use 'how much'?</strong>
 								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r4"><!-- correcto -->
-									<label class="form-check-label" for="act6-r4">
-										Answer 1
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r5">
-									<label class="form-check-label" for="act6-r5">
-										Answer 2
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="act6-q2" id="act6-r6">
-									<label class="form-check-label" for="act6-r6">
-										Answer 3
-									</label>
+
+								<div class="col-md-12">
+									<select id="act12-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">We use this with plural countable nouns</option>
+										<option value="2">To refer to foods, which are sold in a grocery store</option>
+										<option value="3">We use this with uncountable nouns or singular object</option><!-- correcto -->
+									</select>
 								</div>
 							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
@@ -1815,43 +1876,41 @@
 								</div>
 
 								<div class="col-md-12">
-									<label for="act6-q1">question?</label>
+									<label for="act6-q1">How many candies are in the bag?</label>
 									<select name="act6-q1" id="act6-q1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Answer.</option><!-- correcto -->
-										<option value="2">Answer.</option>
-										<option value="3">Answer.</option>
+										<option value="1">You can have five candies.</option>
+										<option value="2">It's five dollars.</option>
+										<option value="3">There are five candies.</option><!-- correcto -->
 									</select>
 								</div>
 								
 								<div class="col-md-12">
 									<select name="act6-q2" id="act6-q2">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">question?</option><!-- correcto -->
-										<option value="2">question?</option>
-										<option value="3">question?</option>
+										<option value="1">How many oranges can I buy with two dollars?</option><!-- correcto -->
+										<option value="2">How much is an orange?</option>
 									</select>
-									<label for="act6-q2">Answer.</label>
+									<label for="act6-q2">Six oranges.</label>
 								</div>
 
 								<div class="col-md-12">
-									<label for="act6-q3">question?</label>
+									<label for="act6-q3">How much is that book?</label>
 									<select name="act6-q3" id="act6-q3">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Answer.</option>
-										<option value="2">IAnswer.</option><!-- correcto -->
-										<option value="3">Answer.</option>
+										<option value="1">You can have a book.</option>
+										<option value="2">It's twelve dollars.</option><!-- correcto -->
+										<option value="3">There are five books.</option>
 									</select>
 								</div>
 
 								<div class="col-md-12">
 									<select name="act6-q4" id="act6-q4">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">question?</option><!-- correcto -->
-										<option value="2">question?</option>
-										<option value="3">question?</option>
+										<option value="1">How much are those balloons?</option>
+										<option value="2">How many balloons can I buy with a dollar?</option><!-- correcto -->
 									</select>
-									<label for="act6-q4">Answer.</label>
+									<label for="act6-q4">twenty five balloons.</label>
 								</div>
 								
 							</div>
@@ -1902,6 +1961,9 @@
 								</div>
 
 							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
 							<!-- pregunta5 -->
 							<div class="col-6">
 								<div class="col-12">
@@ -1932,6 +1994,8 @@
 									</select>
 								</div>
 							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
 
 							<!-- pregunta7 -->
 							<div class="col-6">
