@@ -409,4 +409,42 @@ document.getElementById('game-eleven').addEventListener('submit', function (even
     return true;
 });
 
+document.getElementById('game-twelve').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    notatotal = 0;
+    var cod1 = document.getElementById("c1").value;
+    var cod2 = document.getElementById("c2").value;
+    var cod3 = document.getElementById("c3").value;
+    var cod4 = document.getElementById("c4").value;
+    
+    if(cod1 == 1){
+        notatotal = 0.25;
+    }
+
+
+    if(cod2 == 4){
+        notatotal = notatotal + 0.25;
+    }
+
+
+    if(cod3 == 3){
+        notatotal = notatotal + 0.25;
+    }
+
+    if(cod4 == 2){
+        notatotal = notatotal + 0.25;
+    }
+
+    var libro = 11;
+    document.getElementById('idclienteA12U1L11').value = users.value;
+    document.getElementById('pointsA12U1L11').value = notatotal;
+    document.getElementById('idlibroA12U1L11').value = libro;
+    action = 'createactA12U1L11';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalLibroDoce')
+    sweetAlert(1, 'Resultados ingresados', null);
+    return true;
+});
+
 

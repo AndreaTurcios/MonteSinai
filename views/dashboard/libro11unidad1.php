@@ -1035,6 +1035,96 @@ yepnope({
     </div>
 </div>
 
+<div id="ModalLibroDoce" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the activity - Solve doubts about the content of the page</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-twelve">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA12U1L11" name="pointsA12U1L11">
+                                <input type="text" class="d-none" id="idlibroA12U1L11" name="idlibroA12U1L11">
+                                <input type="text" class="d-none" id="idclienteA12U1L11" name="idclienteA12U1L11">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="../../resources/img/BOOKS/ElevenGrade/UnitOne/curlyhair.jpg" width="200" height="200">   
+                            </div>
+                            <div class="col-6">
+                                <h5>What does she look like?</h5>
+                                <select name="sentences" id="c1">
+                                    <option value="1">She has got curly hair</option>
+                                    <option value="2">She has got straight hair</option>
+                                    <option value="3">She has got blue eyes</option>
+                                    <option value="4">She has god blonde hair</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="../../resources/img/BOOKS/ElevenGrade/UnitOne/honestgirl.jpg" width="200" height="200">   
+                            </div>
+                            <div class="col-6">
+                                <h5>My sister is ______. She always tells the truth</h5>
+                                <select name="sentences" id="c2">
+                                    <option value="1">patient</option>
+                                    <option value="2">dishonest</option>
+                                    <option value="3">impatient</option>
+                                    <option value="4">honest</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="../../resources/img/BOOKS/ElevenGrade/UnitOne/strongman.jpg" width="200" height="200">   
+                            </div>
+                            <div class="col-6">
+                                <h5>What does he looks like?</h5>
+                                <select name="sentences" id="c3">
+                                    <option value="1">weak</option>
+                                    <option value="2">lazy</option>
+                                    <option value="3">strong</option>
+                                    <option value="4">rude</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="../../resources/img/BOOKS/ElevenGrade/UnitOne/homework.jpg" width="200" height="200">   
+                            </div>
+                            <div class="col-6">
+                                <h5>She is a ____ girl. She always do her homework.</h5>
+                                <select name="sentences" id="c4">
+                                    <option value="1">lazy</option>
+                                    <option value="2">hardworking</option>
+                                    <option value="3">honest</option>
+                                    <option value="4">polite</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
