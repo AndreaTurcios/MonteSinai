@@ -3151,3 +3151,201 @@ for (let i = 0; i < 10; i++) {
         e.preventDefault();
     });
 };
+
+document.getElementById('unit1-act50').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let respuestas = ["LITTLE BIRD", "MOUNTAIN", "MADE", "HOLE", "TREE", "NEST", "TREE DAWNS", "MUSIC", "CHEST", "HAD", "HEART"];
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 11; i++) {
+        inputs[i] = document.getElementById('input-act50-' + (i + 1)).value;
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < inputs.length; i++) {
+            if (respuestas[i].trim() == inputs[i].toUpperCase().trim()) {
+                conteo++;
+            }
+
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == inputs.length) {
+            var libro = 4;
+            document.getElementById('idcliente50').value = users.value;
+            document.getElementById('points50').value = valorActividad;
+            document.getElementById('idlibro50').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act50', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act50').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / inputs.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente50').value = users.value;
+            document.getElementById('points50').value = points;
+            document.getElementById('idlibro50').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act50', 'modal');
+            sweetAlert(4, conteo + '/' + inputs.length + ' answers right', null);
+            $('#ModalUnit1Act50').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+document.getElementById('unit1-act51').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 96; i++) {
+        inputs[i] = document.getElementById('input-act51-' + (i + 1)).value.toUpperCase();
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        var libro = 4;
+        document.getElementById('idcliente51').value = users.value;
+        document.getElementById('points51').value = valorActividad;
+        document.getElementById('idlibro51').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act51', 'modal');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalUnit1Act51').modal('hide');
+        return true;
+
+    }
+
+});
+
+const table51 = document.querySelector('.table-cross51l4');
+table51.addEventListener('keydown', handleKeyDown);
+
+document.getElementById('unit1-act49').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let bedroom = ["PILLOW", "BED", "LAMP", "SHEET", "CLOSET", "DRESSER", "CURTAIN", "NIGHT TABLE"];
+    let living = ["TELEPHONE", "SOFA", "FAN", "STEREO", "TELEVISION", "COFFEE TABLE", "CLOCK"];
+    let kitchen = ["CABINET", "MICROWAVE", "REFRIGERATOR", "DISH", "COFFEE MAKER", "STOVE", "BLENDER", "FORK", "KNIFE", "POT", "CUP", "TOASTER", "SPOON", "GLASS"];
+    let dining = ["PICTURES", "LAMP", "CHAIR", "TABLE", "CABINET"];
+    let bathroom = ["TOOTHPASTE", "TOOTHBRUSH", "SHOWER", "TOWEL", "SINK", "MIRROR", "TOILET PAPER", "SHAMPOO","SOAP"];
+
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 42; i++) {
+        inputs[i] = document.getElementById('input-act49-' + (i + 1)).value;
+
+    }
+
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < 8; i++) {
+            for (let j = 0; j < bedroom.length; j++) {
+                if (inputs[i].toUpperCase() == (bedroom[j])) {
+                    conteo++;
+                    bedroom[j] = "";
+                }
+            }
+        }
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 8; i < 15; i++) {
+            for (let j = 0; j < living.length; j++) {
+                if (inputs[i].toUpperCase() == (living[j])) {
+                    conteo++;
+                    living[j] = "";
+                }
+            }
+        }
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 15; i < 28; i++) {
+            for (let j = 0; j < kitchen.length; j++) {
+                if (inputs[i].toUpperCase() == (kitchen[j])) {
+                    conteo++;
+                    kitchen[j] = "";
+                }
+            }
+        }
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 28; i < 33; i++) {
+            for (let j = 0; j < dining.length; j++) {
+                if (inputs[i].toUpperCase() == dining[j]) {
+                    conteo++;
+                    dining[j] = "";
+                }
+            }
+        }
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 33; i < 42; i++) {
+            for (let j = 0; j < bathroom.length; j++) {
+                if (inputs[i].toUpperCase() == (bathroom[j])) {
+                    conteo++;
+                    bathroom[j] = "";
+                }
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == inputs.length) {
+            var libro = 4;
+            document.getElementById('idcliente49').value = users.value;
+            document.getElementById('points49').value = valorActividad;
+            document.getElementById('idlibro49').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act49', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act49').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / inputs.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente49').value = users.value;
+            document.getElementById('points49').value = points;
+            document.getElementById('idlibro49').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act49', 'modal');
+            sweetAlert(4, conteo + '/' + inputs.length + ' answers right', null);
+            $('#ModalUnit1Act49').modal('hide');
+            return true;
+        }
+    }
+
+});
