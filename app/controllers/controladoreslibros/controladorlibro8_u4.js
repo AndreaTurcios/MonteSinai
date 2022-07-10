@@ -788,7 +788,7 @@ document.getElementById('unit4-act11').addEventListener('submit', function(event
     }    
 });
 
-//Unidad 4 Actividad 12 (pendiente de agregar respuestas en view)
+//Unidad 4 Actividad 12
 document.getElementById('unit4-act12').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
@@ -852,7 +852,7 @@ document.getElementById('unit4-act12').addEventListener('submit', function(event
     }    
 });
 
-//Unidad 4 Actividad 13 (pendiente agregar preguntas y respuestas en la vista)
+//Unidad 4 Actividad 13
 document.getElementById('unit4-act13').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
