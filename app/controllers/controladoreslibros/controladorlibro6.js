@@ -29,13 +29,18 @@ document.getElementById("game-3").addEventListener("submit", function (event) {
     if (q2.toUpperCase() == "BLACKBOARD.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "A DECISION TO DO SOMETHING OR TO BEHAVE IN A CERTAIN MANNER.") {
+    if (
+      q3.toUpperCase() ==
+      "A DECISION TO DO SOMETHING OR TO BEHAVE IN A CERTAIN MANNER."
+    ) {
       totalPunto += punto;
     }
     if (q4.toUpperCase() == "ON JANUARY 1ST.") {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "USUALLY WITH THEIR FAMILIES, INVOLVING TRADITIONS.") {
+    if (
+      q5.toUpperCase() == "USUALLY WITH THEIR FAMILIES, INVOLVING TRADITIONS."
+    ) {
       totalPunto += punto;
     }
 
@@ -82,7 +87,10 @@ document.getElementById("game-4").addEventListener("submit", function (event) {
     if (q2.toUpperCase() == "THEY GIVE CARDS, LETTERS, FLOWERS, OR PRESENTS.") {
       totalPunto += punto;
     }
-    if (q3.toUpperCase() == "HE IS THE ROMAN GOD OF LOVE, COMMONLY REPRESENTED AS A WINGED, NAKED INFANT BOY WITH A BOW AND ARROWS.") {
+    if (
+      q3.toUpperCase() ==
+      "HE IS THE ROMAN GOD OF LOVE, COMMONLY REPRESENTED AS A WINGED, NAKED INFANT BOY WITH A BOW AND ARROWS."
+    ) {
       totalPunto += punto;
     }
     if (q4.toUpperCase() == "HEARTS, ROSES, AND CUPID.") {
@@ -129,19 +137,28 @@ document.getElementById("game-5").addEventListener("submit", function (event) {
     totalPunto = 0;
     totalPreguntas = 5;
     punto = 1 / totalPreguntas;
-    if (q1.toUpperCase() == "IS THE LAST WEEK OF LENT AND IS THE WEEK BEFORE.") {
+    if (
+      q1.toUpperCase() == "IS THE LAST WEEK OF LENT AND IS THE WEEK BEFORE."
+    ) {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "THE 40 WEEKDAYS FROM ASH WEDNESDAY UNTIL EASTER.") {
+    if (
+      q2.toUpperCase() == "THE 40 WEEKDAYS FROM ASH WEDNESDAY UNTIL EASTER."
+    ) {
       totalPunto += punto;
     }
     if (q3.toUpperCase() == "WE REMEMBER THAT JESUS DIED FOR EVERYONE!") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "THE DAY THAT THE JEWISH PASSOVER WAS CELEBRATED.") {
+    if (
+      q4.toUpperCase() == "THE DAY THAT THE JEWISH PASSOVER WAS CELEBRATED."
+    ) {
       totalPunto += punto;
     }
-    if (q5.toUpperCase() == "THE THREE DAYS AFTER BEING KILLED, JESUS ROSE FROM THE DEAD.") {
+    if (
+      q5.toUpperCase() ==
+      "THE THREE DAYS AFTER BEING KILLED, JESUS ROSE FROM THE DEAD."
+    ) {
       totalPunto += punto;
     }
 
@@ -238,13 +255,18 @@ document.getElementById("game-7").addEventListener("submit", function (event) {
     if (q1.toUpperCase() == "THE DAY OF THE CROSS.") {
       totalPunto += punto;
     }
-    if (q2.toUpperCase() == "EACH YEAR ON MAY 3RD PROCESSIONS OF SINGING PILGRIMS CARRY FLOWERS TO DECORATE THE CROSSES.") {
+    if (
+      q2.toUpperCase() ==
+      "EACH YEAR ON MAY 3RD PROCESSIONS OF SINGING PILGRIMS CARRY FLOWERS TO DECORATE THE CROSSES."
+    ) {
       totalPunto += punto;
     }
     if (q3.toUpperCase() == "IT IS ON MAY 3RD.") {
       totalPunto += punto;
     }
-    if (q4.toUpperCase() == "YES, THEY DO, LIKE MANY COUNTRIES IN LATIN AMERICA.") {
+    if (
+      q4.toUpperCase() == "YES, THEY DO, LIKE MANY COUNTRIES IN LATIN AMERICA."
+    ) {
       totalPunto += punto;
     }
     if (q5.toUpperCase() == "THE CROSS WHERE JESUS WAS CRUCIFIED.") {
@@ -379,6 +401,105 @@ document.getElementById("game-9").addEventListener("submit", function (event) {
 });
 
 /**************************************************
+ ******************** GAME 10 **********************
+ **************************************************/
+document.getElementById("game-10").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  event.preventDefault();
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let q1, q2, q3, q4, q5, q6;
+
+  //Se igualan las variables a el campo de texto de la vista mediante el id.
+  q10_1 = document.getElementById("game-10-q1").value;
+  q10_2 = document.getElementById("game-10-q2").value;
+  q10_3 = document.getElementById("game-10-q3").value;
+  q10_4 = document.getElementById("game-10-q4").value;
+  q10_5 = document.getElementById("game-10-q5").value;
+  q10_6 = document.getElementById("game-10-q6").value;
+  q10_7 = document.getElementById("game-10-q7").value;
+  q10_8 = document.getElementById("game-10-q8").value;
+  q10_9 = document.getElementById("game-10-q9").value;
+
+  //q6  = document.getElementById('game-3-q6').value;
+
+  //Verificada el 07/06/2022
+  rq10_1 = "we";
+  rq10_2 = "We";
+  rq10_3 = "our";
+  rq10_4 = "they";
+  rq10_5 = "We";
+  rq10_6 = "we";
+  rq10_7 = "our";
+  rq10_8 = "We";
+  rq10_9 = "our";
+
+  if (
+    q10_1 != "" &&
+    q10_2 != "" &&
+    q10_3 != "" &&
+    q10_4 != "" &&
+    q10_5 != "" &&
+    q10_6 != "" &&
+    q10_7 != "" &&
+    q10_8 != "" &&
+    q10_9 != ""
+  ) {
+    action = "createact10";
+    totalPunto = 0;
+    totalPreguntas = 9;
+    punto = 1 / totalPreguntas;
+    if (q10_1.toUpperCase() == rq10_1.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_2.toUpperCase() == rq10_2.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_3.toUpperCase() == rq10_3.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_4.toUpperCase() == rq10_4.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_5.toUpperCase() == rq10_5.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_6.toUpperCase() == rq10_6.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_7.toUpperCase() == rq10_7.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_8.toUpperCase() == rq10_8.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10_9.toUpperCase() == rq10_9.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 6;
+    document.getElementById("idcliente10").value = users.value;
+    document.getElementById("points10").value = notatotal;
+    document.getElementById("idlibro10").value = libro;
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-10", "ModalLibroSeis10");
+    sweetAlert(1, "Nota " + (notatotal*10).toFixed(2), null);
+  } else {
+    sweetAlert(3, "Faltan  respuestas", null);
+  }
+
+  return true;
+});
+
+/**************************************************
  ******************** GAME 11 **********************
  **************************************************/
 document.getElementById("game-11").addEventListener("submit", function (event) {
@@ -397,7 +518,8 @@ document.getElementById("game-11").addEventListener("submit", function (event) {
 
   //Verificada el 07/06/2022
   rq1 = "In September 15th, 1821";
-  rq2 = "Consist of what is now Guatemala, El Salvador, Honduras, Nicaragua y Costa Rica.";
+  rq2 =
+    "Consist of what is now Guatemala, El Salvador, Honduras, Nicaragua y Costa Rica.";
   rq3 = "300 years.";
   rq4 = "A hymn of praise or loyalty to a nation.";
   rq5 = "Paradies.";
@@ -457,7 +579,8 @@ document.getElementById("game-12").addEventListener("submit", function (event) {
 
   //Verificado el 07/06/2022
   rq1 = "October 12th.";
-  rq2 = "That only the Atlantic lay between Europe and the riches of the East Indies.";
+  rq2 =
+    "That only the Atlantic lay between Europe and the riches of the East Indies.";
   rq3 = "Day of the Race.";
   rq4 = "October 12th, 1492";
   rq5 = "The Niña, the Pinta and the Santa Maria.";
@@ -522,7 +645,6 @@ document.getElementById("game-13").addEventListener("submit", function (event) {
   rq4 = "An excavation in earth or rock for the burial of a corpse; grave.";
   rq5 = "Flowers, cementery, altar, or oftering food.";
 
-
   if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
     action = "createact13";
     totalPunto = 0;
@@ -583,7 +705,7 @@ document.getElementById("game-14").addEventListener("submit", function (event) {
   rq4 = "The birth of Baby Jesus.";
   rq5 = "";
 
-  if (q1 != "" && q2 != "" && q3 != "" && q4 != "" ) {
+  if (q1 != "" && q2 != "" && q3 != "" && q4 != "") {
     action = "createact14";
     totalPunto = 0;
     totalPreguntas = 4;
@@ -600,7 +722,7 @@ document.getElementById("game-14").addEventListener("submit", function (event) {
     if (q4.toUpperCase() == rq4.toUpperCase()) {
       totalPunto += punto;
     }
-   /* if (q5.toUpperCase() == rq5.toUpperCase()) {
+    /* if (q5.toUpperCase() == rq5.toUpperCase()) {
       totalPunto += punto;
     }*/
 
@@ -957,7 +1079,7 @@ pnum10.addEventListener("dragleave", (e) => {
 /**************************************************
  ******************** GAME 17 **********************
  **************************************************/
- [
+[
   "america",
   "baby",
   "celebration",
@@ -1097,13 +1219,13 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
 /**
  * Tipo:SL
  */
- [
-  'august',
-  'beautiful',
-  'cold',
-  'december',
-  'delicious',
-  'february',
+[
+  "august",
+  "beautiful",
+  "cold",
+  "december",
+  "delicious",
+  "february",
   //'friendly',
   //'hot',
   //'january',
@@ -1118,29 +1240,33 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
   //'sunny',
   //'weather',
   //'windy'
-].map(word2 => wordfind2Game2.insertWordBefore($('#add-word-36').parent(), word2));
+].map((word2) =>
+  wordfind2Game2.insertWordBefore($("#add-word-36").parent(), word2)
+);
 
 function recreate2() {
-  $('#result-message').removeClass();
+  $("#result-message").removeClass();
   var fillBlanks, game;
   try {
-      game = new wordfind2Game2('#puzzle-36', {
-          allowedMissingWords: +$('#allowed-missing-words').val(),
-          maxGridGrowth: +$('#max-grid-growth').val(),
-          fillBlanks: fillBlanks,
-          maxAttempts: 100,
-      });
+    game = new wordfind2Game2("#puzzle-36", {
+      allowedMissingWords: +$("#allowed-missing-words").val(),
+      maxGridGrowth: +$("#max-grid-growth").val(),
+      fillBlanks: fillBlanks,
+      maxAttempts: 100,
+    });
   } catch (error) {
-      $('#result-message').text(`😞 ${error}, try to specify less ones`).css({
-          color: 'red'
-      });
-      return;
+    $("#result-message").text(`😞 ${error}, try to specify less ones`).css({
+      color: "red",
+    });
+    return;
   }
   wordfind2.print(game);
   if (window.game) {
-      var emptySquaresCount = wordfind2Game2.emptySquaresCount();
-      $('#result-message').text(`😃 ${emptySquaresCount ? 'but there are empty squares' : ''}`).css({
-          color: ''
+    var emptySquaresCount = wordfind2Game2.emptySquaresCount();
+    $("#result-message")
+      .text(`😃 ${emptySquaresCount ? "but there are empty squares" : ""}`)
+      .css({
+        color: "",
       });
   }
   window.game = game;
@@ -1182,4 +1308,3 @@ document.getElementById("game-36").addEventListener("submit", function (event) {
 
   return true;
 });
-

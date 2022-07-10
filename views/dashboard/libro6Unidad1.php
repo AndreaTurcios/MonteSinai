@@ -870,16 +870,72 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-10">
                 <div class="modal-body">
                     <div class="container-fluid">
-
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="fs-1 fw-bold">Complete the poem with personal pronouns and possessive adjectives.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points10" name="points10">
+                                <input type="text" class="d-none" id="idcliente10" name="idcliente10">
+                                <input type="text" class="d-none" id="idlibro10" name="idlibro10">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <table>
+                                        <tr>
+                                            <td>When</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q1"></td>
+                                            <td colspan="4">stride or stroll across the frozen lake,</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q2"></td>
+                                            <td>place </td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q3"></td>
+                                            <td>feet where</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q4"></td>
+                                            <td>have never been</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q5"></td>
+                                            <td>walk upon the unwalked. But</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q6"></td>
+                                            <td colspan="3">are uneasy.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Who is down there but</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q7"></td>
+                                            <td colspan="4">old teachers?</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6">Water that once could take no human weight-</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q8"></td>
+                                            <td>were students then- holds up</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-10-q9" value=""></td>
+                                            <td colspan="3"> feet,</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6"> And goes on ahead of us for a mile. </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6">Beneath us the teachers, and around us the stillness.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
