@@ -292,24 +292,24 @@
                         <div class="row">
                             <div class="col-6">
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1"> My sister likes her new dress</label>
+                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1">&nbsp;My sister likes her new dress</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2"> My mother loves to go to the beach</label><!-- incorrecto -->
+                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2">&nbsp;My mother loves to go to the beach</label><!-- incorrecto -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3"> My father wears watch every time</label>
+                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">&nbsp;My father wears watch every time</label>
                                 </div>
 							</div>
                             <div class="col-6">
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4"> This hat belongs to my brother</label>
+                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4">&nbsp;This hat belongs to my brother</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5"> That piece of pizza is mine</label><!-- incorrecto -->
+                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5">&nbsp;That piece of pizza is mine</label><!-- incorrecto -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6"> Her bag is expensive</label>
+                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6">&nbsp;Her bag is expensive</label>
                                 </div>
 							</div>
                         </div>
@@ -2098,9 +2098,9 @@
 								<label for="act13-q3">How much are the oranges?</label>
 								<select id="act13-q3">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">It's $25.00</option>
+									<option value="1">It's $25.00.</option>
 									<option value="2">They are 25 cents each.</option><!-- correcto -->
-									<option value="3">They are $25.00</option>
+									<option value="3">They are $25.00.</option>
 								</select>
 							</div>
 						</div>
@@ -2113,7 +2113,7 @@
 									<option value="2">How much is it?</option>
 									<option value="3">How many pineapples can I get with two dollars?</option>
 								</select>
-								<label for="act13-q4">They are $1.25 each</label>
+								<label for="act13-q4">They are $1.25 each.</label>
 							</div>
 						</div>
 
@@ -2149,32 +2149,32 @@
                         <div class="row">
 							<div class="col-md-8 align-items-center">
 								<!-- class="d-none" -->
-								<input type="text"  class="d-none" id="points1" name="points1">
-                                <input type="text"  class="d-none" id="idlibro1" name="idlibro1">
-								<input type="text"  class="d-none" id="idcliente1" name="idcliente1">
+								<input type="text"  class="d-none" id="points14" name="points14">
+                                <input type="text"  class="d-none" id="idlibro14" name="idlibro14">
+								<input type="text"  class="d-none" id="idcliente14" name="idcliente14">
 							</div>
 						</div>
                         <div class="row">
                             <div class="col-6">
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox1" value="second_checkbox"><label for="cbox1">&nbsp;sentences</label>
+                                    <input type="checkbox" id="cb-1" value="second_checkbox"><label for="cb-1">&nbsp;My mother is thirty-five years old</label><!-- correct -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2">&nbsp;sentences</label><!-- correct -->
+                                    <input type="checkbox" id="cb-2" value="second_checkbox"><label for="cb-2">&nbsp;We are two brothers</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox3" value="second_checkbox"><label for="cbox3">&nbsp;sentences</label>
+                                    <input type="checkbox" id="cb-3" value="second_checkbox"><label for="cb-3">&nbsp;My grandfather is sixty-one years old</label>
                                 </div>
 							</div>
                             <div class="col-6">
 								<div class = oracion>
-                                    <input type="checkbox" id="cbox4" value="second_checkbox"><label for="cbox4">&nbsp;sentences</label>
+                                    <input type="checkbox" id="cb-4" value="second_checkbox"><label for="cb-4">&nbsp;I have three books to read</label><!-- correct -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox5" value="second_checkbox"><label for="cbox5">&nbsp;sentences</label><!-- correct -->
+                                    <input type="checkbox" id="cb-5" value="second_checkbox"><label for="cb-5">&nbsp;I need thirty-five cents</label><!-- correct -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cbox6" value="second_checkbox"><label for="cbox6">&nbsp;sentences</label>
+                                    <input type="checkbox" id="cb-6" value="second_checkbox"><label for="cb-6">&nbsp;Thirty-eight minutes left in class</label><!-- correct -->
                                 </div>
 							</div>
                         </div>
@@ -2192,8 +2192,94 @@
         </div>
     </div>
 </div>
-<!-- fin Actividad 1-->
-<!-- fin Region 11-->
+<!-- fin Actividad 14-->
+<!-- fin Region 24-->
+
+<!-- Actividad 15--> 
+<!-- Region 25-->
+<div id="ModalLibroOcho25" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers using count and mass nouns</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act15">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points15" name="points15">
+                                <input type="text"  class="d-none" id="idlibro15" name="idlibro15">
+								<input type="text"  class="d-none" id="idcliente15" name="idcliente15">
+							</div>
+						</div>
+
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act13-q1">?</label>
+								<select id="act13-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">a</option>
+									<option value="2">b</option>
+									<option value="3">c</option><!-- correcto -->
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act13-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">a?</option><!-- correcto -->
+									<option value="2">b?</option>
+									<option value="3">c?</option>
+								</select>
+								<label for="act13-q2">res.</label>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act13-q3">?</label>
+								<select id="act13-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">a.</option>
+									<option value="2">b.</option><!-- correcto -->
+									<option value="3">c.</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act13-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">a?</option><!-- correcto -->
+									<option value="2">b?</option>
+									<option value="3">c?</option>
+								</select>
+								<label for="act13-q4">res.</label>
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 15-->
+<!-- fin Region 25-->
 
 
 
