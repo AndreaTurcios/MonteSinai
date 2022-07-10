@@ -738,13 +738,13 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
-<!-- Página 27  -->
+<!-- Página 41  -->
 <div id="ModalUnit2Act3" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
 	<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">What is the father eating?</h5>
+				<h5 class="modal-title" id="modal-title">Drawing and coloring some fruits</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-three">
@@ -761,12 +761,56 @@ Book_Page::headerTemplate('Unidad 2');
 											<input type="text" class="d-none" id="idcliente3" name="idcliente">
 											<input type="text" class="d-none" id="idlibro3" name="idlibro">
 										</div>
+									</div>									
+
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 42  -->
+<div id="ModalUnit2Act4" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">What is the father eating?</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-four">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Match the activities and write them</p>
+											<input type="text" class="d-none" id="points4" name="points">
+											<input type="text" class="d-none" id="idcliente4" name="idcliente">
+											<input type="text" class="d-none" id="idlibro4" name="idlibro">
+										</div>
 									</div>
 
 									<div class="col">	
 										<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag42/pupusa.png"
 										class="rounded mx-auto d-block">										
-										<select class="form-select form-select-lg mt-3 mb-3" id="select-act3-1" name="select-act3-1">
+										<select class="form-select form-select-lg mt-3 mb-3" id="select-act4-1" name="select-act4-1">
 
 											<option disabled selected>Select an option</option>
 											<option value="She is eating cookies">She is eating cookies</option>
@@ -775,7 +819,7 @@ Book_Page::headerTemplate('Unidad 2');
 
                                         </select>	
 										
-										<input type="text" id="input-act3-1" class="form-control"
+										<input type="text" id="input-act4-1" class="form-control"
 											aria-label="Sizing example input" maxlength="100"
 											style="margin-bottom: 5px; margin-top: 5px;"
 											placeholder = "Rewrite the sentence">
@@ -784,7 +828,7 @@ Book_Page::headerTemplate('Unidad 2');
 									<div class="col">	
 										<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag42/cookie.png"
 										class="rounded mx-auto d-block">										
-										<select class="form-select form-select-lg mt-3 mb-3" id="select-act3-2" name="select-act3-2">
+										<select class="form-select form-select-lg mt-3 mb-3" id="select-act4-2" name="select-act4-2">
 
 											<option disabled selected>Select an option</option>
 											<option value="She is eating cookies">She is eating cookies</option>
@@ -793,7 +837,7 @@ Book_Page::headerTemplate('Unidad 2');
 
                                         </select>
 
-										<input type="text" id="input-act3-2" class="form-control"
+										<input type="text" id="input-act4-2" class="form-control"
 											aria-label="Sizing example input" maxlength="100"
 											style="margin-bottom: 5px; margin-top: 5px;"
 											placeholder = "Rewrite the sentence">			
@@ -802,7 +846,7 @@ Book_Page::headerTemplate('Unidad 2');
 									<div class="col">
 										<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag42/coke.png"
 										class="rounded mx-auto d-block">										
-										<select class="form-select form-select-lg mt-3 mb-3" id="select-act3-3" name="select-act3-3">
+										<select class="form-select form-select-lg mt-3 mb-3" id="select-act4-3" name="select-act4-3">
 
 											<option disabled selected>Select an option</option>
 											<option value="She is eating cookies">She is eating cookies</option>
@@ -811,12 +855,154 @@ Book_Page::headerTemplate('Unidad 2');
 
                                         </select>
 
-										<input type="text" id="input-act3-3" class="form-control"
+										<input type="text" id="input-act4-3" class="form-control"
 											aria-label="Sizing example input" maxlength="100"
 											style="margin-bottom: 5px; margin-top: 5px;"
 											placeholder = "Rewrite the sentence">								
 									</div>
 
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 43 -->
+<div id="ModalUnit2Act5" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">DRINKS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-five">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the sentences</p>
+											<input type="text" class="d-none" id="points5" name="points">
+											<input type="text" class="d-none" id="idcliente5" name="idcliente">
+											<input type="text" class="d-none" id="idlibro5" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag43/drinks.png"
+											class="rounded mx-auto d-block">																				
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-3">
+														<p class="fst-normal">Do you like </p> 
+													</div>		
+													<div class="col-4">
+														<select class="form-select form-select-md" id="select-act5-1" name="select-act5-1">
+
+															<option disabled selected>Select an option</option>
+															<option value="Water">Water</option>
+															<option value="Milk shake">Milk shake</option>
+															<option value="Orange juice">Orange juice</option>
+															<option value="Horchata">Horchata</option>
+															<option value="Coffee">Coffee</option>
+															<option value="Chocolate">Chocolate</option>
+															<option value="Tea">Tea</option>
+
+														</select>	
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">?</p> 
+													</div>
+												</div>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<p class="fst-normal">My</p> 
+													</div>		
+													<div class="col-3">
+														<select class="form-select form-select-md" id="select-act5-2" name="select-act5-2">
+
+															<option disabled selected>Select an option</option>
+															<option value="Mother">Mother</option>
+															<option value="Sister">Sister</option>
+															<option value="Father">Father</option>
+															<option value="Grandmother">Grandmother</option>
+															<option value="Grandfather">Grandfather</option>														
+
+														</select>	
+													</div>
+													<div class="col-4">
+														<p class="fst-normal">drinks a coke</p> 
+													</div>	
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<p class="fst-normal">I</p> 
+													</div>		
+													<div class="col-3">
+														<select class="form-select form-select-md" id="select-act5-3" name="select-act5-3">
+
+															<option disabled selected>Select an option</option>
+															<option value="Drink">Drink</option>
+															<option value="Eat">Eat</option>											
+
+														</select>	
+													</div>
+													<div class="col-4">
+														<p class="fst-normal">a cup of coffee</p> 
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">He likes a glass of</p> 
+													</div>		
+													<div class="col-4">
+														<select class="form-select form-select-md" id="select-act5-4" name="select-act5-4">
+
+														<option disabled selected>Select an option</option>
+															<option value="Water">Water</option>
+															<option value="Milk shake">Milk shake</option>
+															<option value="Orange juice">Orange juice</option>
+															<option value="Horchata">Horchata</option>
+															<option value="Coffee">Coffee</option>
+															<option value="Chocolate">Chocolate</option>
+															<option value="Tea">Tea</option>										
+
+														</select>	
+													</div>													
+												</div>
+
+											</div>	
+
+										</div>
+
+									</div>									
 								</div>
 							</div>
 							<br>

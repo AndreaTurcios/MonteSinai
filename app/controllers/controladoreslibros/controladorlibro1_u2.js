@@ -36,7 +36,7 @@ document.getElementById('game-one').addEventListener('submit', function (event){
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 1;
             document.getElementById('points1').value = valorActividad;
             document.getElementById('idlibro1').value = libro;
             document.getElementById('idcliente1').value = users.value;                       
@@ -52,7 +52,7 @@ document.getElementById('game-one').addEventListener('submit', function (event){
             //Se asgina el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 1;
             console.log(users.value);
             console.log(valorActividad);
             console.log(libro);
@@ -156,7 +156,7 @@ document.getElementById('game-two').addEventListener('submit', function (event) 
 
 });
 
-document.getElementById('game-three').addEventListener('submit', function (event){
+document.getElementById('game-four').addEventListener('submit', function (event){
     
     //Puntos equivalentes de la actividad
     let valorActividad = 1;
@@ -171,8 +171,8 @@ document.getElementById('game-three').addEventListener('submit', function (event
 
     //Se obtienen los datos ingresados y se colocan en inputs[]
     for (let i = 0; i < respuestas.length; i++) {
-        inputs[i] = document.getElementById('input-act3-' + (i + 1)).value;
-        inputsCmb[i] = document.getElementById('select-act3-' + (i + 1)).value;
+        inputs[i] = document.getElementById('input-act4-' + (i + 1)).value;
+        inputsCmb[i] = document.getElementById('select-act4-' + (i + 1)).value;
     }
     
     if (inputs.includes("")) {
@@ -197,32 +197,105 @@ document.getElementById('game-three').addEventListener('submit', function (event
         //Se revisa si todas las respuestas son correctas
         if (conteo == 6) {
             var libro = 1;
-            document.getElementById('points3').value = valorActividad;
-            document.getElementById('idlibro3').value = libro;
-            document.getElementById('idcliente3').value = users.value;                       
+            document.getElementById('points4').value = valorActividad;
+            document.getElementById('idlibro4').value = libro;
+            document.getElementById('idcliente4').value = users.value;                       
             console.log(users.value);
             console.log(valorActividad);
             console.log(libro);
             action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalUnit2Act3');
+            saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalUnit2Act4');
             sweetAlert(1, 'Good job!', null);
-            $('#ModalUnit2Act3').modal('hide');
+            $('#ModalUnit2Act4').modal('hide');
             return true;
         } else {
             //Se asgina el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / 6;
             let points = (puntaje * conteo).toFixed(2);
             var libro = 1;
-            document.getElementById('points3').value = points;
-            document.getElementById('idlibro3').value = libro;
-            document.getElementById('idcliente3').value = users.value;                       
+            document.getElementById('points4').value = points;
+            document.getElementById('idlibro4').value = libro;
+            document.getElementById('idcliente4').value = users.value;                       
             console.log(users.value);
             console.log(valorActividad);
             console.log(libro);
             action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'game-three', 'ModalUnit2Act3');
+            saveRowActivity(API_ACTIVIDADES, action, 'game-four', 'ModalUnit2Act4');
             sweetAlert(4, conteo + '/' + 6 + ' answers right', null);
-            $('#ModalUnit2Act3').modal('hide');
+            $('#ModalUnit2Act4').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-five').addEventListener('submit', function (event){
+    
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    //let respuestas = ["Water", "Milk shake", "Orange juice", "Horchata", "Coffee", "Chocolate", "Tea"];   
+    let inputsCmb = [];
+
+    //Variable para obtener la cantidad de respuestas correctas
+    var conteo = 0;
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < 4; i++) {
+        inputsCmb[i] = document.getElementById('select-act5-' + (i + 1)).value;
+        if (inputsCmb[i].includes('Water') || inputsCmb[i].includes('Milk shake') || inputsCmb[i].includes('Orange juice') || inputsCmb[i].includes('Horchata') 
+        || inputsCmb[i].includes('Coffee') || inputsCmb[i].includes('Chocolate') || inputsCmb[i].includes('Tea')
+        || inputsCmb[i].includes('Mother') || inputsCmb[i].includes('Sister') || inputsCmb[i].includes('Father')
+        || inputsCmb[i].includes('Grandmother') || inputsCmb[i].includes('Grandfather') || inputsCmb[i].includes('Drink')) {
+            conteo++;
+        }
+    }
+    
+    if (inputsCmb[2].value == "Eat" || inputsCmb[3].includes('Coffee')
+        || inputsCmb[3].includes('Chocolate') || inputsCmb[3].includes('Tea')) {
+        conteo--;
+    }
+
+  
+
+    if (inputsCmb[1].includes("") || inputsCmb[2].includes("") || inputsCmb[3].includes("") || inputsCmb[4].includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == 4) {
+            var libro = 1;
+            document.getElementById('points5').value = valorActividad;
+            document.getElementById('idlibro5').value = libro;
+            document.getElementById('idcliente5').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalUnit2Act5');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act5').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / 4;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 1;
+            document.getElementById('points5').value = points;
+            document.getElementById('idlibro5').value = libro;
+            document.getElementById('idcliente5').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-five', 'ModalUnit2Act5');
+            sweetAlert(4, conteo + '/' + 4 + ' answers right', null);
+            $('#ModalUnit2Act5').modal('hide');
             return true;
         }
     }
