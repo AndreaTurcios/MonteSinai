@@ -9,4 +9,15 @@
 			"modal":"ModalUnit1Act48",
 			"form":"unit1-act48"
 		}
+},{
+	"x":37,
+	"y":56,
+	"width":112,
+	"height":20,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit1Audio24",
+			"form":"unit1-audio24"
+		}
 }]
