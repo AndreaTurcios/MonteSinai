@@ -382,22 +382,21 @@ document.getElementById('unit1-act6').addEventListener('submit', function (event
     let conteo = 0;
     //Arreglo para guardar los datos ingresados
     let inputs = [];
-    let respuestas = [["KATHERINE IS IN THE BEDROOM", "YAELY IS AT THE KITCHEN", "THE FRIEND IS IN THE BATHROOM", "MOMMY IS IN THE LIVING ROOM", "FRANCISCO IS AT THE DINING ROOM"], ["SHE IS IN THE BEDROOM", "SHE IS AT THE KITCHEN", "HE IS IN THE BATHROOM", "SHE IS IN THE LIVING ROOM", "HE IS AT THE DINING ROOM"]]
+    let respuestas = ["3", "2", "1", "3", "1"];
 
     //Llenar arreglo de inputs
     for (let i = 0; i < 5; i++) {
-        inputs[i] = document.getElementById('input-act6-' + (i + 1)).value;
+        inputs[i] = document.getElementById('select-act6-' + (i + 1)).value;
 
     }
 
-    if (inputs.includes("")) {
+    if (inputs.includes("0")) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     } else {
         //Se comparan las respuestas con los datos ingresados
         for (let i = 0; i < inputs.length; i++) {
-            if (respuestas[0][i].trim() == inputs[i].toUpperCase().trim() || respuestas[0][i].trim() + "." == inputs[i].toUpperCase().trim() ||
-                respuestas[1][i].trim() == inputs[i].toUpperCase().trim() || respuestas[1][i].trim() + "." == inputs[i].toUpperCase().trim()) {
+            if (inputs[i] == respuestas[i]) {
                 conteo++;
             }
 
@@ -1932,8 +1931,10 @@ document.getElementById('unit1-act31').addEventListener('submit', function (even
 
     //Se asigna el valor de la actividad
     let valorActividad = 1;
+    let conteo = 0;
     //Arreglo para guardar los datos ingresados
     let inputs = [];
+    let answers = ["C", "H", "A", "I", "R", "C", "T", "A", "O", "C", "A", "B", "F", "A", "B", "I", "F", "N", "L", "N", "P", "E", "D", "E", "E", "I", "E", "L", "C", "T", "T", "P", "E", "L", "C", "O", "O", "H", "T", "A", "B", "L", "E", "T", "E", "H", "S", "U", "G", "A", "R", "S", "A", "L", "T", "S", "H", "A", "K", "E", "R", "S", "A", "L", "A", "D", "B", "O", "W", "L"];
     //Llenar arreglo de inputs
     for (let i = 0; i < 70; i++) {
         inputs[i] = document.getElementById('input-act31-' + (i + 1)).value.toUpperCase();
@@ -1944,16 +1945,39 @@ document.getElementById('unit1-act31').addEventListener('submit', function (even
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     } else {
-        var libro = 4;
-        document.getElementById('idcliente31').value = users.value;
-        document.getElementById('points31').value = valorActividad;
-        document.getElementById('idlibro31').value = libro;
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i].trim().includes(answers[i])) {
+                conteo++;
+            }
+        }
 
-        action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act31', 'modal');
-        sweetAlert(1, 'Good job!', null);
-        $('#ModalUnit1Act31').modal('hide');
-        return true;
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == answers.length) {
+            var libro = 4;
+            document.getElementById('idcliente31').value = users.value;
+            document.getElementById('points31').value = valorActividad;
+            document.getElementById('idlibro31').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act31', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act31').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (inputs.length);
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente31').value = users.value;
+            document.getElementById('points31').value = points;
+            document.getElementById('idlibro31').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act31', 'modal');
+            sweetAlert(4, conteo + '/' + (inputs.length) + ' answers right', null);
+            $('#ModalUnit1Act31').modal('hide');
+            return true;
+        }
 
     }
 
@@ -3218,11 +3242,14 @@ document.getElementById('unit1-act51').addEventListener('submit', function (even
 
     //Se asigna el valor de la actividad
     let valorActividad = 1;
+    let conteo = 0;
     //Arreglo para guardar los datos ingresados
     let inputs = [];
+    let answers = [ "D", "I", "N", "N", "E", "R", "B", "I", "U", "N", "C", "L", "E", "D", "A", "N", "A", "M", "E", "B", "K", "R", "T", "I", "B", "E", "N", "G", "L", "I", "S", "H", "F", "E", "H", "A", "I", "I", "N", "P", "R", "G", "A", "R", "A", "U", "F", "R", "K", "O", "O", "R", "T", "V", "T", "E", "L", "S", "R", "O", "O", "H", "E", "I", "G", "H", "T", "T", "M", "O", "E", "F", "I", "S", "H", "S", "M", "R", "H", "O", "U", "S", "E", "F", "O", "U", "R", "Y", "E", "L", "L", "O", "W", "S", "O", "N", "N"];
     //Llenar arreglo de inputs
-    for (let i = 0; i < 96; i++) {
+    for (let i = 0; i < 97; i++) {
         inputs[i] = document.getElementById('input-act51-' + (i + 1)).value.toUpperCase();
+        console.log(inputs[i] + answers[i])
 
     }
 
@@ -3230,16 +3257,39 @@ document.getElementById('unit1-act51').addEventListener('submit', function (even
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     } else {
-        var libro = 4;
-        document.getElementById('idcliente51').value = users.value;
-        document.getElementById('points51').value = valorActividad;
-        document.getElementById('idlibro51').value = libro;
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i].trim().includes(answers[i])) {
+                conteo++;
+            }
+        }
 
-        action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'unit1-act51', 'modal');
-        sweetAlert(1, 'Good job!', null);
-        $('#ModalUnit1Act51').modal('hide');
-        return true;
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == answers.length) {
+            var libro = 4;
+            document.getElementById('idcliente51').value = users.value;
+            document.getElementById('points51').value = valorActividad;
+            document.getElementById('idlibro51').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act51', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act51').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (inputs.length);
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente51').value = users.value;
+            document.getElementById('points51').value = points;
+            document.getElementById('idlibro51').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act51', 'modal');
+            sweetAlert(4, conteo + '/' + (inputs.length) + ' answers right', null);
+            $('#ModalUnit1Act51').modal('hide');
+            return true;
+        }
 
     }
 
