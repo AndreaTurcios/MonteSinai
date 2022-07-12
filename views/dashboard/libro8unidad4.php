@@ -2217,53 +2217,30 @@
 							</div>
 						</div>
 
-                        <div class="row border box-select-5">
-							<div class="col-md-12">
-								<label for="act13-q1">?</label>
-								<select id="act13-q1">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">a</option>
-									<option value="2">b</option>
-									<option value="3">c</option><!-- correcto -->
-								</select>
+						<div class="row">
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act15-cb1"><label for="act15-cb1">&nbsp;<strong>Would you like some cookies?</strong> Yes, please</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act15-cb2"><label for="act15-cb2">&nbsp;<strong>How can I help you?</strong> I need a little sugar for my coffee</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act15-cb3"><label for="act15-cb3">&nbsp;<strong>Does your food lack salt?</strong> No, It doesn't need to much salt</label><!-- correct -->
+                                </div>
 							</div>
-						</div>
-
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								<select id="act13-q2">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">a?</option><!-- correcto -->
-									<option value="2">b?</option>
-									<option value="3">c?</option>
-								</select>
-								<label for="act13-q2">res.</label>
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act15-cb4"><label for="act15-cb4">&nbsp;<strong>What color would you like?</strong> White is fine</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act15-cb5"><label for="act15-cb5">&nbsp;<strong>What else do you need?</strong> That's all</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act15-cb6"><label for="act15-cb6">&nbsp;<strong>I'm thirsty, do you have some juice?</strong> Of course, I'll get you some</label><!-- correct -->
+                                </div>
 							</div>
-						</div>
-
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								<label for="act13-q3">?</label>
-								<select id="act13-q3">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">a.</option>
-									<option value="2">b.</option><!-- correcto -->
-									<option value="3">c.</option>
-								</select>
-							</div>
-						</div>
-
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								<select id="act13-q4">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">a?</option><!-- correcto -->
-									<option value="2">b?</option>
-									<option value="3">c?</option>
-								</select>
-								<label for="act13-q4">res.</label>
-							</div>
-						</div>
+                        </div>
 
                     </div>
                     <br>
@@ -2281,6 +2258,131 @@
 <!-- fin Actividad 15-->
 <!-- fin Region 25-->
 
+<!-- Actividad 16--> 
+<!-- Region 26-->
+<div id="ModalLibroOcho26" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers using 'some' and 'any'</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act16">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points16" name="points16">
+                                <input type="text"  class="d-none" id="idlibro16" name="idlibro16">
+								<input type="text"  class="d-none" id="idcliente16" name="idcliente16">
+							</div>
+						</div>
+
+						<div class="row">
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act16-cb1"><label for="act16-cb1">&nbsp;<strong>Do you cook often?</strong> Yes, I cook every day</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act16-cb2"><label for="act16-cb2">&nbsp;<strong>Did you buy the smoothies?</strong> Yeah they're in the fridge</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act16-cb3"><label for="act16-cb3">&nbsp;<strong>Do you want some cheese?</strong> Thanks but I don't want any more cheese</label><!-- correct -->
+                                </div>
+							</div>
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act16-cb4"><label for="act16-cb4">&nbsp;<strong>Is there any ice cream left?</strong> Yes, you want it?</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act16-cb5"><label for="act16-cb5">&nbsp;<strong>Do you have any milk?</strong> Yes, I have milk</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act16-cb6"><label for="act16-cb6">&nbsp;<strong>Do you have something to eat?</strong> There are some peanuts on the table</label><!-- correct -->
+                                </div>
+							</div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 16-->
+<!-- fin Region 26-->
+
+<!-- Actividad 17--> 
+<!-- Region 27-->
+<div id="ModalLibroOcho27" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select a simple recipe that you know</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act17">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points17" name="points17">
+                                <input type="text"  class="d-none" id="idlibro17" name="idlibro17">
+								<input type="text"  class="d-none" id="idcliente17" name="idcliente7">
+							</div>
+						</div>
+
+						<div class="row">
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act17-cb1"><label for="act17-cb1">&nbsp;option</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act17-cb2"><label for="act17-cb2">&nbsp;option</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act17-cb3"><label for="act17-cb3">&nbsp;option</label><!-- correct -->
+                                </div>
+							</div>
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act17-cb4"><label for="act17-cb4">&nbsp;option</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act17-cb5"><label for="act17-cb5">&nbsp;option</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act17-cb6"><label for="act17-cb6">&nbsp;option</label><!-- correct -->
+                                </div>
+							</div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 17-->
+<!-- fin Region 27-->
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
