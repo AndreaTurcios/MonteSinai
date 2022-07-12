@@ -1020,3 +1020,173 @@ document.getElementById('unit4-act14').addEventListener('submit', function (even
         sweetAlert(2, 'Select the sentences', null);
     }
 });
+
+//Unidad 4 Actividad 15
+document.getElementById('unit4-act15').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 1;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    conteo = 0; //cuenta la cantidad de respuestas correctas obtenidas
+    respuestas = 4; //respuestas correctas
+    cantidadcbox = 6; //define la cantidad de cbox
+
+    cboxname = "";
+    contadorcbox = 0; //cuenta la cantidad de cbox seleccionados
+    for (let i = 1; i <= cantidadcbox; i++) {
+        cboxname = "act15-cb" + i;
+        if (document.getElementById(cboxname).checked) {
+            contadorcbox++;
+        }
+    }
+    
+    if (contadorcbox != 0) {
+              //Se verifica que solo pueda escoger 4
+        if (contadorcbox > respuestas) {
+            sweetAlert(2, 'It is not valid to select all answers, Only choose four', null);
+        } else {
+            for (i = 1; i < 7; i++) {
+                switch (i) {
+                    case 1:
+                        if (document.getElementById('act15-cb1').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 2:
+                        if (document.getElementById('act15-cb2').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 3:
+                        if (document.getElementById('act15-cb3').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 4:
+                        if (document.getElementById('act15-cb6').checked) {
+                            conteo++;
+                        }
+                        break;
+                    default:
+                }
+            }
+            
+            //Se revisa si todas las respuestas son correctas
+            if (conteo == respuestas) {
+                var libro = 8;
+                document.getElementById('idcliente15').value = users.value;
+                document.getElementById('points15').value = valorActividad;
+                document.getElementById('idlibro15').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act15', 'ModalLibroOcho25');
+                sweetAlert(1, 'good job', null);
+                var ModalLibroOcho25 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho25'));
+                ModalLibroOcho25.hide();
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / respuestas;
+                let points = (puntaje * conteo).toFixed(2);
+                var libro = 8;
+                document.getElementById('idcliente15').value = users.value;
+                document.getElementById('points15').value = points;
+                document.getElementById('idlibro15').value = libro;
+                console.log(points);
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act15', 'ModalLibroOcho25');
+                sweetAlert(4, conteo + '/' + respuestas +' answers right', null);
+                var ModalLibroOcho25 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho25'));
+                ModalLibroOcho25.hide();
+                return true;
+            }
+        }
+    } else {
+        sweetAlert(2, 'Select the sentences', null);
+    }
+});
+
+//Unidad 4 Actividad 16
+document.getElementById('unit4-act16').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 1;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    conteo = 0; //cuenta la cantidad de respuestas correctas obtenidas
+    respuestas = 4; //respuestas correctas
+    cantidadcbox = 6; //define la cantidad de cbox
+
+    cboxname = "";
+    contadorcbox = 0; //cuenta la cantidad de cbox seleccionados
+    for (let i = 1; i <= cantidadcbox; i++) {
+        cboxname = "act16-cb" + i;
+        if (document.getElementById(cboxname).checked) {
+            contadorcbox++;
+        }
+    }
+    
+    if (contadorcbox != 0) {
+              //Se verifica que solo pueda escoger 4
+        if (contadorcbox > respuestas) {
+            sweetAlert(2, 'It is not valid to select all answers, Only choose four', null);
+        } else {
+            for (i = 1; i < 7; i++) {
+                switch (i) {
+                    case 1:
+                        if (document.getElementById('act16-cb3').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 2:
+                        if (document.getElementById('act16-cb4').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 3:
+                        if (document.getElementById('act16-cb5').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 4:
+                        if (document.getElementById('act16-cb6').checked) {
+                            conteo++;
+                        }
+                        break;
+                    default:
+                }
+            }
+            
+            //Se revisa si todas las respuestas son correctas
+            if (conteo == respuestas) {
+                var libro = 8;
+                document.getElementById('idcliente16').value = users.value;
+                document.getElementById('points16').value = valorActividad;
+                document.getElementById('idlibro16').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act16', 'ModalLibroOcho26');
+                sweetAlert(1, 'good job', null);
+                var ModalLibroOcho26 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho26'));
+                ModalLibroOcho26.hide();
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / respuestas;
+                let points = (puntaje * conteo).toFixed(2);
+                var libro = 8;
+                document.getElementById('idcliente16').value = users.value;
+                document.getElementById('points16').value = points;
+                document.getElementById('idlibro16').value = libro;
+                console.log(points);
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act16', 'ModalLibroOcho26');
+                sweetAlert(4, conteo + '/' + respuestas +' answers right', null);
+                var ModalLibroOcho26 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho26'));
+                ModalLibroOcho26.hide();
+                return true;
+            }
+        }
+    } else {
+        sweetAlert(2, 'Select the sentences', null);
+    }
+});
