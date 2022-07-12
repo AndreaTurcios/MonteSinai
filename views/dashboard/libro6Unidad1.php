@@ -1375,16 +1375,43 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-16">
                 <div class="modal-body">
                     <div class="container-fluid">
-
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="">Write the next numbers using words.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points16" name="points16">
+                                <input type="text" class="d-none" id="idcliente16" name="idcliente16">
+                                <input type="text" class="d-none" id="idlibro16" name="idlibro16">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <img src="../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-16/fondo.png" alt="" class="img-fluid img-thumbnail">
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <?php
+                            for ($i = 1; $i <= 10; $i++) {
+                                echo "<div class=\"col-6 col-lg-3 flex-container-img\">";
+                                echo "<div class=\"\"> <center><img src=\"../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-16/" . $i . ".png\" alt=\"\" width=\"100px\"> </center></div>";
+                                echo "<div class =\"req\"><input type=\"text\" id=\"game16-req" . $i . "\">  </div>";
+                                echo "</div>";
+                            }
+                            ?>
+                        </div>
                     </div>
                 </div>
+
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
