@@ -4756,7 +4756,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintayocho" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">RECOGNIZING THE NAMES OF COLORS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -4868,7 +4868,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintaynueve" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">IS IT...?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
