@@ -447,4 +447,43 @@ document.getElementById('game-twelve').addEventListener('submit', function (even
     return true;
 });
 
+document.getElementById('game-thirdteen').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    notatotal = 0;
+    var cod1 = document.getElementById("d1").value;
+    var cod2 = document.getElementById("d2").value;
+    var cod3 = document.getElementById("d3").value;
+    var cod4 = document.getElementById("d4").value;
+    
+    if(cod1 == 3){
+        notatotal = 0.25;
+    }
+
+
+    if(cod2 == 3){
+        notatotal = notatotal + 0.25;
+    }
+
+
+    if(cod3 == 1){
+        notatotal = notatotal + 0.25;
+    }
+
+    if(cod4 == 2){
+        notatotal = notatotal + 0.25;
+    }
+
+    var libro = 11;
+    document.getElementById('idclienteA13U1L11').value = users.value;
+    document.getElementById('pointsA13U1L11').value = notatotal;
+    document.getElementById('idlibroA13U1L11').value = libro;
+    action = 'createactA13U1L11';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-thirdteen', 'ModalLibroTrece')
+    sweetAlert(1, 'Resultados ingresados', null);
+    return true;
+});
+
+
 
