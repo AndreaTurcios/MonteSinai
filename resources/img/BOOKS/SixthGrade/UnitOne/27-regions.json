@@ -1,5 +1,17 @@
 [{
-	"x":152,
+	"x":100,
+	"y":568,
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroSeis18",
+			"form":"game-18"
+		}
+},
+{
+	"x":250,
 	"y":568,
 	"width":130,
 	"height":12,
