@@ -2426,6 +2426,425 @@ Book_Page::headerTemplate('Unidad 2');
 		</div>
 	</div>
 </div>
+
+<!-- Página 52, actividad 13.1 -->
+<div id="ModalUnit2Act13_1" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">PROFFESIONS/OCCUPATIONS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirteen_1">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Match the image with the sentence</p>
+											<input type="text" class="d-none" id="points13_1" name="points">
+											<input type="text" class="d-none" id="idcliente13_1" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13_1" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">
+
+										<div class="col-md-6 col-sm-6">																						
+												
+											<div class="col" id="box-act13-1">												
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img3-52.png"  alt="Secretary" id="img-act13-1">
+											</div>
+											<div class="col justify-content-center">
+												<div id="nurse" class="box-act13 text-center m-3"  style="background-color: #FFFFFF;">
+													She is a nurse
+												</div>
+											</div>
+																					
+										</div>	
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col" id="box-act13-2">												
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img4-52.png"  alt="Teacher" id="img-act13-2">
+											</div>
+											<div class="col justify-content-center">
+												<div id="doctor" class="box-act13 text-center m-3"  style="background-color: #FFFFFF;">
+													He is a doctor
+												</div>
+											</div>
+																					
+										</div>	
+										
+										<div class="col-md-6 col-sm-6">
+																							
+											<div class="col" id="box-act13-3">													
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img2-52.png" alt="Doctor" id="img-act13-3">
+											</div>
+											<div class="col justify-content-center">
+												<div id="secretary" class="box-act13 text-center m-3"  style="background-color: #FFFFFF;">
+													Arely is a secretary
+												</div>
+											</div>
+																					
+										</div>	
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col" id="box-act13-4">
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img1-52.png"  alt="Nurse" id="img-act13-4">
+											</div>
+											<div class="col justify-content-center">
+												<div id="teacher" class="box-act13 text-center m-3"  style="background-color: #FFFFFF;">
+													She is a teacher
+												</div>
+											</div>
+																					
+										</div>	
+										
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 52, actividad 13.2  -->
+<div id="ModalUnit2Act13_2" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">PROFFESIONS/OCCUPATIONS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-thirteen_2">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Rewrite the sentence from the picture</p>
+											<input type="text" class="d-none" id="points13_2" name="points">
+											<input type="text" class="d-none" id="idcliente13_2" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13_2" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">										
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img1-52_2.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act13-1" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence">
+											</div>
+																					 
+										</div>	
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img2-52_2.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act13-2" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence">
+											</div>
+																					
+										</div>
+										
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img3-52_2.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act13-3" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;" 
+														placeholder="Rewrite the sentence">
+											</div>
+																					
+										</div>
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag52/img4-52_2.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act13-4" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence">
+											</div>
+																					
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 53 -->
+<div id="ModalUnit2Act14" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">RELATIVES: AUNT, UNCLE, DADDY AND MOMMY</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fourteen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points14" name="points">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag53/image53.png"
+											class="rounded mx-auto d-block">																				
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<p class="fst-normal">My</p> 
+													</div>		
+													<div class="col-3">
+														<input type="text" id="input-act14-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">and</p> 
+													</div>
+													<div class="col-3">
+														<input type="text" id="input-act14-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-5">
+														<p class="fst-normal">are playing with my </p> 
+													</div>
+													<div class="col-3">
+														<input type="text" id="input-act14-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+												</div>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<p class="fst-normal">My</p> 
+													</div>		
+													<div class="col-2">
+														<input type="text" id="input-act14-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">and</p> 
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act14-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal">are </p> 
+													</div>
+													<div class="col-3">
+														<input type="text" id="input-act14-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal">TV</p> 
+													</div>
+												</div>
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 54, actividad 15.1  -->
+<div id="ModalUnit2Act15_1" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">WHAT'S YOUR FAVORITE HOBBY?</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fifteen_1">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Rewrite the sentence from the picture</p>
+											<input type="text" class="d-none" id="points15_1" name="points">
+											<input type="text" class="d-none" id="idcliente15_1" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15_1" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">										
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag54/img1-54_1.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-1" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 25px; margin-top: 25px;"
+													placeholder="Rewrite the sentence">
+											</div>
+																					 
+										</div>	
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag54/img2-54_1.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-2" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 25px; margin-top: 25px;"
+													placeholder="Rewrite the sentence">
+											</div>
+																					
+										</div>
+										
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag54/img3-54_1.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-3" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 25px; margin-top: 25px;"
+													placeholder="Rewrite the sentence">
+											</div>
+																					
+										</div>
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag54/img4-54_1.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-4" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 25px; margin-top: 25px;"
+													placeholder="Rewrite the sentence">
+											</div>
+																					
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
