@@ -124,6 +124,20 @@
     border-left: solid 1px #ccd7d8;
     border-right: solid 1px #ccd7d8;
   }
+
+  .th-act8{
+    background-color: #dee59c !important;
+    text-align: center;
+  }
+
+  .box-act8-u2{
+    background-color: #deefce !important;
+  }
+
+  .text-option-act8{
+    color: #d83090;
+  }
+
   /*
   *Libro 5
   **/

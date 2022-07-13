@@ -1917,6 +1917,752 @@ Book_Page::headerTemplate('Unidad 2');
 		</div>
 	</div>
 </div>
+
+<div id="ModalUnit2Act8" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act8">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Numbers from forty-one to sixty, drag the words and answer correctly</p>
+											<input type="text" class="d-none" id="points8" name="points">
+											<input type="text" class="d-none" id="idcliente8" name="idcliente">
+											<input type="text" class="d-none" id="idlibro8" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">41</th>
+													<td width="80%" id="box-act8-1" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">42</th>
+													<td width="80%" id="box-act8-2" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">43</th>
+													<td width="80%" id="box-act8-3" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">44</th>
+													<td width="80%" id="box-act8-4" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">45</th>
+													<td width="80%" id="box-act8-5" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">46</th>
+													<td width="80%" id="box-act8-6" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">47</th>
+													<td width="80%" id="box-act8-7" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">48</th>
+													<td width="80%" id="box-act8-8" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">49</th>
+													<td width="80%" id="box-act8-9" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">50</th>
+													<td width="80%" id="box-act8-10" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row d-flex justify-content-between" id="container-act8-1">
+												<div id="option-act8-10" class="text-option-act8 col" draggable="true">fifty</div>
+												<div id="option-act8-2" class="text-option-act8 col" draggable="true">forty-two</div>
+												<div id="option-act8-5" class="text-option-act8 col" draggable="true">forty-five</div>
+												<div id="option-act8-4" class="text-option-act8 col" draggable="true">forty-four</div>
+												<div id="option-act8-12" class="text-option-act8 col" draggable="true">fifty-two</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act8-2">
+												<div id="option-act8-8" class="text-option-act8 col" draggable="true">forty-eight</div>
+												<div id="option-act8-18" class="text-option-act8 col" draggable="true">fifty-eight</div>
+												<div id="option-act8-7" class="text-option-act8 col" draggable="true">forty-seven</div>
+												<div id="option-act8-11" class="text-option-act8 col" draggable="true">fifty-one</div>
+												<div id="option-act8-14" class="text-option-act8 col" draggable="true">fifty-four</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act8-3">
+												<div id="option-act8-13" class="text-option-act8 col" draggable="true">fifty-three</div>
+												<div id="option-act8-6" class="text-option-act8 col" draggable="true">forty-six</div>
+												<div id="option-act8-15" class="text-option-act8 col" draggable="true">fifty-five</div>
+												<div id="option-act8-17" class="text-option-act8 col" draggable="true">fifty-seven</div>
+												<div id="option-act8-1" class="text-option-act8 col" draggable="true">forty-one</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act8-4">
+												<div id="option-act8-3" class="text-option-act8 col" draggable="true">forty-three</div>
+												<div id="option-act8-20" class="text-option-act8 col" draggable="true">sixty</div>
+												<div id="option-act8-9" class="text-option-act8 col" draggable="true">forty-nine</div>
+												<div id="option-act8-19" class="text-option-act8 col" draggable="true">fifty-nine</div>
+												<div id="option-act8-16" class="text-option-act8 col" draggable="true">fifty-six</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">51</th>
+													<td width="80%" id="box-act8-11" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">52</th>
+													<td width="80%" id="box-act8-12" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">53</th>
+													<td width="80%" id="box-act8-13" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">54</th>
+													<td width="80%" id="box-act8-14" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">55</th>
+													<td width="80%" id="box-act8-15" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">56</th>
+													<td width="80%" id="box-act8-16" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">57</th>
+													<td width="80%" id="box-act8-17" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">58</th>
+													<td width="80%" id="box-act8-18" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">59</th>
+													<td width="80%" id="box-act8-19" class="box-act8-u2"></td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">60</th>
+													<td width="80%" id="box-act8-20" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act9" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act9">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the numbers from forty-one to sixty</p>
+											<input type="text" class="d-none" id="points9" name="points">
+											<input type="text" class="d-none" id="idcliente9" name="idcliente">
+											<input type="text" class="d-none" id="idlibro9" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">41</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-1" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">42</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-2" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">43</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-3" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">44</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-4" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">45</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-5" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">46</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-6" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">47</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-7" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">48</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-8" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">49</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-9" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">50</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-10" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">51</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-11" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">52</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-12" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">53</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-13" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">54</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-14" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">55</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-15" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">56</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-16" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">57</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-17" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">58</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-18" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">59</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-19" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">60</th>
+													<td width="80%" class="box-act8-u2">
+														<input type="text" class="form-control" id="input-act9-20" placeholder="Write the number..." maxlength="11">
+													</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act10" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act10">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the time looking at the clock</p>
+											<input type="text" class="d-none" id="points10" name="points">
+											<input type="text" class="d-none" id="idcliente10" name="idcliente">
+											<input type="text" class="d-none" id="idlibro10" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-3 mb-4">
+										<div class="col">
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/11-1.jpg" alt="6:15">
+											</div>
+											<div class="row">
+												<select id="select-act10-1" class="form-select">
+													<option selected disabled value="0"></option>
+													<option value="1">A quarter past six.</option>
+													<option value="2">Six o'clock.</option>
+													<option value="3">Six thirty.</option>
+												</select>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/11-2.jpg" alt="1:55">
+											</div>
+											<div class="row">
+												<select id="select-act10-2" class="form-select">
+													<option selected disabled value="0"></option>
+													<option value="1">A quarter to two.</option>
+													<option value="2">Five to two.</option>
+													<option value="3">Five past two.</option>
+												</select>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/11-3.jpg" alt="8:25">
+											</div>
+											<div class="row">
+												<select id="select-act10-3" class="form-select">
+													<option selected disabled value="0"></option>
+													<option value="1">Twenty-five past eight.</option>
+													<option value="2">Eight o'clock.</option>
+													<option value="3">A quarter past eight.</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-3">
+										<div class="col">
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/11-4.jpg" alt="11:55">
+											</div>
+											<div class="row">
+												<select id="select-act10-4" class="form-select">
+													<option selected disabled value="0"></option>
+													<option value="1">Eleven o'clock.</option>
+													<option value="2">Twelve past eleven.</option>
+													<option value="3">Five to twelve.</option>
+												</select>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/11-5.jpg" alt="3:40">
+											</div>
+											<div class="row">
+												<select id="select-act10-5" class="form-select">
+													<option selected disabled value="0"></option>
+													<option value="1">A quarter to four.</option>
+													<option value="2">A quarter past eight.</option>
+													<option value="3">Twenty to four.</option>
+												</select>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/11-6.jpg" alt="12:10">
+											</div>
+											<div class="row">
+												<select id="select-act10-6" class="form-select">
+													<option selected disabled value="0"></option>
+													<option value="1">Two o'clock.</option>
+													<option value="2">Ten past twelve.</option>
+													<option value="3">Two past twelve.</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act11" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act11">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Count the fruits and answer</p>
+											<input type="text" class="d-none" id="points11" name="points">
+											<input type="text" class="d-none" id="idcliente11" name="idcliente">
+											<input type="text" class="d-none" id="idlibro11" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<div class="row row-cols-2">
+												<div class="col">
+													<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/12-1.jpg" alt="Grapes">
+												</div>
+												<div class="col">
+													<p>How many grapes do you see?</p>
+													<input type="number" class="form-control" id="input-act11-1" min="1" max="20">
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row row-cols-2">
+												<div class="col">
+													<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/12-2.jpg" alt="Pears">
+												</div>
+												<div class="col">
+													<p>How many pears do you see?</p>
+													<input type="number" class="form-control" id="input-act11-2" min="1" max="20">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<div class="row row-cols-2">
+												<div class="col">
+													<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/12-3.jpg" alt="Melons">
+												</div>
+												<div class="col">
+													<p>How many melons do you see?</p>
+													<input type="number" class="form-control" id="input-act11-3" min="1" max="20">
+												</div>
+											</div>
+										</div>
+										<div class="col">
+											<div class="row row-cols-2">
+												<div class="col">
+													<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/12-4.jpg" alt="Oranges">
+												</div>
+												<div class="col">
+													<p>How many oranges do you see?</p>
+													<input type="number" class="form-control" id="input-act11-4" min="1" max="20">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act12" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act12">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<head><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/timepicker@1.13.18/jquery.timepicker.min.css"></head>
+								<body><script src="//cdn.jsdelivr.net/npm/timepicker@1.13.18/jquery.timepicker.min.js"></script></body>
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer about your itinery</p>
+											<input type="text" class="d-none" id="points12" name="points">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you wake up?</b></p>
+											<p style="display: inline;">I wake up at</p>
+											<input type="text" id="input-act12-1" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you get up?</b></p>
+											<p style="display: inline;">I get up at</p>
+											<input type="text" id="input-act12-2" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you take a shower?</b></p>
+											<p style="display: inline;">I take a shower at</p>
+											<input type="text" id="input-act12-3" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you get dressed?</b></p>
+											<p style="display: inline;">I get dressed at</p>
+											<input type="text" id="input-act12-4" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you eat breakfast?</b></p>
+											<p style="display: inline;">I eat breakfast at</p>
+											<input type="text" id="input-act12-5" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you go to school?</b></p>
+											<p style="display: inline;">I go to school at</p>
+											<input type="text" id="input-act12-6" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you eat lunch?</b></p>
+											<p style="display: inline;">I eat lunch at</p>
+											<input type="text" id="input-act12-7" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you wash your dishes?</b></p>
+											<p style="display: inline;">I wash my dishes at</p>
+											<input type="text" id="input-act12-8" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act13" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act13">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer about the time that you do everything</p>
+											<input type="text" class="d-none" id="points13" name="points">
+											<input type="text" class="d-none" id="idcliente13" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you wash your body?</b></p>
+											<p style="display: inline;">I wash my body at </p>
+											<input type="text" id="input-act13-1" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you eat breakfast?</b></p>
+											<p style="display: inline;">I eat breakfast at </p>
+											<input type="text" id="input-act13-2" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you go to school?</b></p>
+											<p style="display: inline;">I go to school at </p>
+											<input type="text" id="input-act13-3" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you give your homework?</b></p>
+											<p style="display: inline;">I give my homework at</p>
+											<input type="text" id="input-act13-4" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you take your english class?</b></p>
+											<p style="display: inline;">I take my english class at</p>
+											<input type="text" id="input-act13-5" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you listen your english class?</b></p>
+											<p style="display: inline;">I listen my english class at</p>
+											<input type="text" id="input-act13-6" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-5">
+										<div class="col">
+											<p><b>What time do you take your recess?</b></p>
+											<p style="display: inline;">I take my recess at</p>
+											<input type="text" id="input-act13-7" class="time-b4" style="display: inline-block;">
+										</div>
+										<div class="col">
+											<p><b>What time do you walk to your house?</b></p>
+											<p style="display: inline;">I walk to my house at</p>
+											<input type="text" id="input-act13-8" class="time-b4" style="display: inline-block;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
