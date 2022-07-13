@@ -1565,6 +1565,7 @@ Book_Page::headerTemplate('Unidad 2');
 											<input type="text" id="input-act4-10" placeholder="10..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
+											
 										</div>
 										<div class="col-4 pe-3">
 										</div>
@@ -1588,6 +1589,334 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
+<div id="ModalUnit2Act5" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act5">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the name of each fruit that you see</p>
+											<input type="text" class="d-none" id="points5" name="points">
+											<input type="text" class="d-none" id="idcliente5" name="idcliente">
+											<input type="text" class="d-none" id="idlibro5" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 ">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/7.jpg" alt="Fruits" class="img-fluid">
+										</div>
+										<div class="col-1"></div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-1" placeholder="1..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-2" placeholder="2..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-3" placeholder="3..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-4" placeholder="4..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-5" placeholder="5..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-6" placeholder="6..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-7" placeholder="7..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-8" placeholder="8..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-9" placeholder="9..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-10" placeholder="10..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-11" placeholder="11..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-12" placeholder="12..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act5-13" placeholder="13..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+										</div>
+										<div class="col-4 pe-3">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act6" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act6">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the name of the vegetables that you see</p>
+											<input type="text" class="d-none" id="points6" name="points">
+											<input type="text" class="d-none" id="idcliente6" name="idcliente">
+											<input type="text" class="d-none" id="idlibro6" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 ">
+										<div class="col-1">
+
+										</div>
+										<div class="col-10">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/8.jpg" alt="Fruits" class="img-fluid">
+										</div>
+										<div class="col-1"></div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-1" placeholder="1..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-2" placeholder="2..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-3" placeholder="3..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-4" placeholder="4..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-5" placeholder="5..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-6" placeholder="6..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-7" placeholder="7..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-8" placeholder="8..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-9" placeholder="9..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input type="text" id="input-act6-10" placeholder="10..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+										</div>
+										<div class="col-4 pe-3">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act7" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog ">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act7">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the indefinite articles: A, An</p>
+											<input type="text" class="d-none" id="points7" name="points">
+											<input type="text" class="d-none" id="idcliente7" name="idcliente">
+											<input type="text" class="d-none" id="idlibro7" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+												<select id="select-act7-1" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> boy</p>
+										</div>
+										<div class="col-6 pe-3">
+												<select id="select-act7-2" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> carrot</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+												<select id="select-act7-3" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> girl</p>
+										</div>
+										<div class="col-6 pe-3">
+												<select id="select-act7-4" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> tomato</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+												<select id="select-act7-5" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> orange</p>
+										</div>
+										<div class="col-6 pe-3">
+												<select id="select-act7-6" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> onion</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+												<select id="select-act7-7" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> envelope</p>
+										</div>
+										<div class="col-6 pe-3">
+												<select id="select-act7-8" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> orange</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+												<select id="select-act7-9" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> umbrella</p>
+										</div>
+										<div class="col-6 pe-3">
+												<select id="select-act7-10" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> radish</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
