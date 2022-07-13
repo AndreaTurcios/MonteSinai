@@ -104,7 +104,26 @@
     border: 1px solid #dbdbdb
   }
 
+  .container-act2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ECF7F9;
+    border-bottom: solid 1px #ccd7d8;
+  }
 
+  .title-act3{
+    background-color: #feec96;
+    color: #eb3a4a;
+    font-weight: bold;
+    text-align: center;
+    border: solid 1px #ccd7d8;
+  }
+
+  .box-act2{
+    background-color: #fef5e2;
+    border-left: solid 1px #ccd7d8;
+    border-right: solid 1px #ccd7d8;
+  }
   /*
   *Libro 5
   **/

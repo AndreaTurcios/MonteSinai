@@ -9612,5 +9612,5 @@ Book_Page::headerTemplate('Unidad 1');
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('controladorlibro4.js');
+Book_Page::footerTemplate('controladorlibro4_u1.js');
 ?>
