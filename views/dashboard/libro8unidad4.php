@@ -2604,7 +2604,7 @@
 <!-- Region 29-->
 <div id="ModalLibroOcho29" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct questions and answers about colors of items</h5>
@@ -2624,12 +2624,12 @@
 
                         <div class="row border box-select-5">
 							<div class="col-md-12">
-								<label for="act19-q1">?</label>
+								<label for="act19-q1">What color is your hat?</label>
 								<select id="act19-q1">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">.</option><!-- correcto -->
-									<option value="2">.</option>
-									<option value="3">.</option>
+									<option value="1">It's white.</option><!-- correcto -->
+									<option value="2">They are white.</option>
+									<option value="3">They're white.</option>
 								</select>
 							</div>
 						</div>
@@ -2638,22 +2638,22 @@
 							<div class="col-md-12">
 								<select id="act19-q2">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">?</option><!-- correcto -->
-									<option value="2">?</option>
-									<option value="3">?</option>
+									<option value="1">What color are your glasses?</option><!-- correcto -->
+									<option value="2">What color is your house?</option>
+									<option value="3">What color is that hat?</option>
 								</select>
-								<label for="act19-q2">.</label>
+								<label for="act19-q2">They are black.</label>
 							</div>
 						</div>
 
 						<div class="row border box-select-5">
 							<div class="col-md-12">
-								<label for="act19-q3">?</label>
+								<label for="act19-q3">What color is her bag?</label>
 								<select id="act19-q3">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">.</option>
-									<option value="2">.</option><!-- correcto -->
-									<option value="3">.</option>
+									<option value="1">They are blue.</option>
+									<option value="2">It is blue.</option><!-- correcto -->
+									<option value="3">They're blue.</option>
 								</select>
 							</div>
 						</div>
@@ -2662,11 +2662,11 @@
 							<div class="col-md-12">
 								<select id="act19-q4">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">?</option>
-									<option value="2">?</option>
-									<option value="3">?</option><!-- correcto -->
+									<option value="1">What color are your gloves?</option><!-- correcto -->
+									<option value="2">What color is  your glove?</option>
+									<option value="3">What color is your bag?</option>
 								</select>
-								<label for="act19-q4">.</label>
+								<label for="act19-q4">They are whites.</label>
 							</div>
 						</div>
 
