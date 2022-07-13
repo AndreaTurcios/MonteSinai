@@ -1481,16 +1481,38 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-18">
                 <div class="modal-body">
                     <div class="container-fluid">
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="">Write the next cardinal numbers using words</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points18" name="points18">
+                                <input type="text" class="d-none" id="idcliente18" name="idcliente18">
+                                <input type="text" class="d-none" id="idlibro18" name="idlibro18">
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:20px">
+                            <?php
+                            for ($i = 1; $i <= 14; $i++) {
+                                echo "<div class=\"col-6 col-lg-6 flex-container-img\">";
+                                echo "<div class=\"\"> <center><img src=\"../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-18/" . $i . ".png\" alt=\"\" width=\"100px\"> </center></div>";
+                                echo "<div class =\"req\"><input type=\"text\" id=\"game18-req" . $i . "\">  </div>";
+                                echo "</div>";
+                            }
+                            ?>
+                        </div>
+
 
                     </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
-                    </div>
                 </div>
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
