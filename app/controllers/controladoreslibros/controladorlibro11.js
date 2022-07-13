@@ -485,5 +485,42 @@ document.getElementById('game-thirdteen').addEventListener('submit', function (e
     return true;
 });
 
+document.getElementById('game-fourteen').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    notatotal = 0;
+    var cod1 = document.getElementById("f1").value;
+    var cod2 = document.getElementById("f2").value;
+    var cod3 = document.getElementById("f3").value;
+    var cod4 = document.getElementById("f4").value;
+    
+    if(cod1 == 2){
+        notatotal = 0.25;
+    }
+
+
+    if(cod2 == 3){
+        notatotal = notatotal + 0.25;
+    }
+
+
+    if(cod3 == 1){
+        notatotal = notatotal + 0.25;
+    }
+
+    if(cod4 == 2){
+        notatotal = notatotal + 0.25;
+    }
+
+    var libro = 11;
+    document.getElementById('idclienteA14U1L11').value = users.value;
+    document.getElementById('pointsA14U1L11').value = notatotal;
+    document.getElementById('idlibroA14U1L11').value = libro;
+    action = 'createactA13U1L11';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-fourteen', 'ModalLibroCatorce')
+    sweetAlert(1, 'Resultados ingresados', null);
+    return true;
+});
 
 

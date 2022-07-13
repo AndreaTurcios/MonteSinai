@@ -1199,6 +1199,82 @@ yepnope({
     </div>
 </div>
 
+<div id="ModalLibroCatorce" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the activity - Present perfect</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-fourteen">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA14U1L11" name="pointsA14U1L11">
+                                <input type="text" class="d-none" id="idlibroA14U1L11" name="idlibroA14U1L11">
+                                <input type="text" class="d-none" id="idclienteA14U1L11" name="idclienteA14U1L11">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p><b>Support information:</b></p>
+                            <img src="../../resources/img/BOOKS/ElevenGrade/UnitOne/A14help.jpeg" alt="" width="50" height="300">
+                        </div>
+                        <div class="row">
+                            <p><b>Select the sentences that are using Present Perfect:</b></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="sentences" id="f1">
+                                    <option value="1">They've always work in this place.</option>
+                                    <option value="2">I have never been to Europa.</option>
+                                    <option value="3">She has never eat that type of food before.</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="sentences" id="f2">
+                                    <option value="1">I have never play the guitar before.</option>
+                                    <option value="2">You've read that book several times.</option>
+                                    <option value="3">You have seen that serie many times.</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="sentences" id="f3">
+                                    <option value="1">Frank has already done this work</option>
+                                    <option value="2">I have never sing that song,</option>
+                                    <option value="3">I have always love your smile</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <select name="sentences" id="f4">
+                                    <option value="1">You have make the project</option>
+                                    <option value="2">They have always enjoyed their vacations</option>
+                                    <option value="3">I have work in Monte Sinai</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
