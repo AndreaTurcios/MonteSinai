@@ -815,7 +815,7 @@
 <!-- ejemplos-->
 <div id="ModalLibroOcho15examples" class="modal fade" tabindex="-11">
 	<!-- <div class="container-fluid"> -->
-	<div class="modal-dialog modal-xl">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -912,7 +912,7 @@
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>III-Select sentences using quantifiers with groceries or food (Only choose two)</strong>
+									<strong>III-Select sentences using quantifiers with groceries or food (More than one option is possible)</strong>
 								</div>
 								<div class = oracion>
                                     <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;How much is it?</label>
@@ -2325,17 +2325,17 @@
 <!-- Region 27-->
 <div id="ModalLibroOcho27" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-md">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Select a simple recipe that you know</h5>
+                <h5 class="modal-title" id="modal-title">Complete this recipe using 'some' and 'any'</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit4-act17">
                 <div class="modal-body">
                     <div class="container-fluid">
                         <div class="row">
-							<div class="col-md-8 align-items-center">
+							<div class="col align-items-center">
 								<!-- class="d-none" -->
 								<input type="text"  class="d-none" id="points17" name="points17">
                                 <input type="text"  class="d-none" id="idlibro17" name="idlibro17">
@@ -2344,29 +2344,37 @@
 						</div>
 
 						<div class="row">
-                            <div class="col-6">
-								<div class = oracion>
-                                    <input type="checkbox" id="act17-cb1"><label for="act17-cb1">&nbsp;option</label><!-- correct -->
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="act17-cb2"><label for="act17-cb2">&nbsp;option</label><!-- correct -->
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="act17-cb3"><label for="act17-cb3">&nbsp;option</label><!-- correct -->
-                                </div>
+							<div class="col-12 align-items-center">
+								<h5 class="text-center">Macaroni and Cheese</h5>
+								<br>
+								<p class="text-justify">								
+								First put <select id="act17-q1">
+											<option value="0" selected disabled>Fill</option>
+											<option value="1">some</option><!-- correcto -->
+											<option value="2">any</option>
+										  </select> macaroni in the oven, then when is hot, add <select id="act17-q2">
+																									<option value="0" selected disabled>Fill</option>
+																									<option value="1">some</option><!-- correcto -->
+																									<option value="2">any</option>
+																								</select> yellow cheese until melt. 
+								Make sure you don't add <select id="act17-q3">
+															<option value="0" selected disabled>Fill</option>
+															<option value="1">some</option>
+															<option value="2">any</option><!-- correcto -->
+														</select> water.
+								You must put <select id="act17-q4">
+												<option value="0" selected disabled>Fill</option>
+												<option value="1">some</option><!-- correcto -->
+												<option value="2">any</option>
+											</select> black pepper on it.
+								You can eat macaroni and cheese at <select id="act17-q5">
+																		<option value="0" selected disabled>Fill</option>
+																		<option value="1">some</option>
+																		<option value="2">any</option><!-- correcto -->
+																	</select> time.
+								</p>
 							</div>
-                            <div class="col-6">
-								<div class = oracion>
-                                    <input type="checkbox" id="act17-cb4"><label for="act17-cb4">&nbsp;option</label>
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="act17-cb5"><label for="act17-cb5">&nbsp;option</label>
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="act17-cb6"><label for="act17-cb6">&nbsp;option</label><!-- correct -->
-                                </div>
-							</div>
-                        </div>
+						</div>
 
                     </div>
                     <br>
@@ -2383,6 +2391,300 @@
 </div>
 <!-- fin Actividad 17-->
 <!-- fin Region 27-->
+
+<!-- Actividad 18 -->
+<!-- Region 28-->
+<div id="ModalLibroOcho28" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete these activities and measure your archievements!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act18">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points18" name="points18">
+                                <input type="text"  class="d-none" id="idlibro18" name="idlibro18">
+								<input type="text"  class="d-none" id="idcliente18" name="idcliente18">
+							</div>
+						</div>
+
+						<div class="row">
+							<!-- pregunta1 -->
+                            <div class="col-6">
+								<div class="col-12">
+									<strong>I-What is a recipe?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act18-s1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is a set of directions with a list of ingredients for making something</option><!-- correcto -->
+										<option value="2">Are used with countable and uncountable nouns</option>
+										<option value="3">Is what a buyer pays to acquire products from a seller</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta2 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>II-What is price?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act18-s2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is a set of directions with a list of ingredients for making something</option>
+										<option value="2">Are used with countable and uncountable nouns</option>
+										<option value="3">Is what a buyer pays to acquire products from a seller</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta3 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>III-Select questions and answers using prices up to $1,000.00</strong>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act18-s3">How much is this oven?</label>
+									<select id="act18-s3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's $125.00.</option><!-- correcto -->
+										<option value="2">They are $50.00 each.</option>
+										<option value="3">All right.</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act18-s4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much is that iron?</option><!-- correcto -->
+										<option value="2">How much are they?</option>
+										<option value="3">Would you like anything else?</option>
+									</select>
+									<label for="act18-s4">The iron is $55.00.</label>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act18-s5">How much are the pineapples?</label>
+									<select id="act18-s5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">The apple is 25 cents</option>
+										<option value="2">It's $2.00.</option>
+										<option value="3">They are $2.00 each.</option><!-- correcto -->
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act18-s6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">The watermelons look good. How much are they?</option>
+										<option value="2">How many watermelons can I get with two dollars?</option><!-- correcto -->
+										<option value="3">How much is it?</option>
+									</select>
+									<label for="act18-s6">You can get two watermelons.</label>
+								</div>
+
+							</div>
+							<!-- pregunta4 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-Select questions and answers using count and mass nouns</strong>
+								</div>
+
+								<div class = oracion>
+									<input type="checkbox" id="act18-cb1"><label for="act18-cb1">&nbsp;<strong>Do you want some of milk?</strong> Yes, please</label><!-- correct -->
+								</div>
+								<div class = oracion>
+									<input type="checkbox" id="act18-cb2"><label for="act18-cb2">&nbsp;<strong>May I help you?</strong> No, thank you</label>
+								</div>
+								<div class = oracion>
+									<input type="checkbox" id="act18-cb3"><label for="act18-cb3">&nbsp;<strong>What can I serve you?</strong> I want two pizzas, please</label><!-- correct -->
+								</div>
+								<div class = oracion>
+									<input type="checkbox" id="act18-cb4"><label for="act18-cb4">&nbsp;<strong>What size are you?</strong> I'm not sure, I think I'm small</label>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-How can you become aware of the relation quality-price when choosing items?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act18-s7">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Better products have a higher price</option><!-- correcto -->
+										<option value="2">You only check if the product fulfills your basic requirements</option>
+										<option value="3">Higher production cost and bigger expected advantages for clients</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-What may you distinguish if you compare widely different goods fulfilling the same need?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act18-s8">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">If goods fulfill your basic needs</option>
+										<option value="2">Having different good it is a big advantage</option>
+										<option value="3">At the extreme of your spectrum necessity good</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-How could you adapt your favorite recipe for your whole family?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act18-s9">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">I should cook something with vegetables only</option>
+										<option value="2">We can mix different flavors</option>
+										<option value="3">By cooking something that is like a family tradition</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-Are you able to use your proactivity and make reality your recipe for your whole family?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act18-s10">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">No, I did not try it</option>
+										<option value="2">Yes, I did it just by cooking something simple</option><!-- correcto -->
+										<option value="3">No, that's to complicated</option>
+									</select>
+								</div>
+							</div>
+	
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 18-->
+<!-- fin Region 28-->
+
+<!-- Actividad 19--> 
+<!-- Region 29-->
+<div id="ModalLibroOcho29" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers about colors of items</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act19">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points19" name="points19">
+                                <input type="text"  class="d-none" id="idlibro19" name="idlibro19">
+								<input type="text"  class="d-none" id="idcliente19" name="idcliente19">
+							</div>
+						</div>
+
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act19-q1">?</label>
+								<select id="act19-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">.</option><!-- correcto -->
+									<option value="2">.</option>
+									<option value="3">.</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act19-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">?</option><!-- correcto -->
+									<option value="2">?</option>
+									<option value="3">?</option>
+								</select>
+								<label for="act19-q2">.</label>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act19-q3">?</label>
+								<select id="act19-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">.</option>
+									<option value="2">.</option><!-- correcto -->
+									<option value="3">.</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act19-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">?</option>
+									<option value="2">?</option>
+									<option value="3">?</option><!-- correcto -->
+								</select>
+								<label for="act19-q4">.</label>
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 19-->
+<!-- fin Region 29-->
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
