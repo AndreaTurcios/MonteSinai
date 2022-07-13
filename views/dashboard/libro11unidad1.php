@@ -1125,6 +1125,81 @@ yepnope({
     </div>
 </div>
 
+<div id="ModalLibroTrece" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the activity - Select the correct option for the following questions</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-thirdteen">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-8 align-items-center">
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="pointsA13U1L11" name="pointsA13U1L11">
+                                <input type="text" class="d-none" id="idlibroA13U1L11" name="idlibroA13U1L11">
+                                <input type="text" class="d-none" id="idclienteA13U1L11" name="idclienteA13U1L11">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Where would you like to go?</h5>
+                                <select name="sentences" id="d1">
+                                    <option value="1">I would go to like to Australia</option>
+                                    <option value="2">I could like visit my mommy</option>
+                                    <option value="3">I would like to go to Costa Rica</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Would you prefer to go hunting?</h5>
+                                <select name="sentences" id="d2">
+                                    <option value="1">No, i would</option>
+                                    <option value="2">No, i would'nt</option>
+                                    <option value="3">No, i wouldn't</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>What would you wish to learn?</h5>
+                                <select name="sentences" id="d3">
+                                    <option value="1">I'd love to learn another language</option>
+                                    <option value="2">Id love to travel another country</option>
+                                    <option value="3">I'dnt love eating Pizza</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5>Katherine would not like to travel by ferry</h5>
+                                <select name="sentences" id="d4">
+                                    <option value="1">She like would to travel by ferry</option>
+                                    <option value="2">She would like to travel by car</option>
+                                    <option value="3">She'd travel to Helicopter</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.

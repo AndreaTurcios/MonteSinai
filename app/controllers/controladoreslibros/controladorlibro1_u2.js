@@ -1,8 +1,6 @@
 const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
 
-document.addEventListener('DOMContentLoaded', function () {
-
-});
+var colorStroke, widthStroke, intervalo;
 
 document.getElementById('game-one').addEventListener('submit', function (event){
     
@@ -157,28 +155,69 @@ document.getElementById('game-two').addEventListener('submit', function (event) 
 
 paper.install(window);
 
-$('#ModalUnit2Act3').on('shown.bs.modal', function (e){
-// Set it up
+window.onload = function () {
+
+    // Set it up
     paper.setup('canvas1');
-
-    var canvas1 = document.getElementById("canvas1");
-
-    const context = canvas1.getContext('2d');
-
     // Create a simple drawing tool:
     var tool = new Tool();
     var path;
 
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
     // Get elements from DOM and define properties
     var colorPicker = document.getElementById("colorPicker");
-    var colorStroke;
     var widthStrokePicker = document.getElementById("strokeWidthPicker");
-    var widthStroke;
     var clearButton = document.getElementById("clearBtn");
 
     // Clear event listener
-    clearBtn.addEventListener("click", function() {
-        // Clear canvas1
+    clear2Btn.addEventListener("click", function () {
+        // Clear canvas
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker.value;
+        widthStroke = widthStrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+
+    // Define a mousedown and mousedrag handler
+    tool.onMouseDown = function (event) {
+        path = new Path();
+        path.strokeWidth = widthStroke;
+        path.strokeColor = colorStroke;
+        // Draw
+        path.add(event.point);
+    }
+
+    tool.onMouseDrag = function (event) {
+        // Draw
+        path.add(event.point);
+        document.getElementById("verify-canvas").value = 1;
+    }
+}
+
+$('#ModalUnit2Act3').on('shown.bs.modal', function (e) {
+    // Set it up
+    paper.setup('canvas1');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var colorPicker = document.getElementById("colorPicker");
+    var widthStrokePicker = document.getElementById("strokeWidthPicker");
+    var clearButton = document.getElementById("clearBtn");
+
+    // Clear event listener
+    clearBtn.addEventListener("click", function () {
+        // Clear canvas2
         paper.project.activeLayer.removeChildren();
         paper.view.draw();
         document.getElementById("verify-canvas").value = 0;
@@ -191,22 +230,7 @@ $('#ModalUnit2Act3').on('shown.bs.modal', function (e){
     }
 
     // Check for new color value each second
-    setInterval(update, 1000);
-
-    // Define a mousedown and mousedrag handler
-    tool.onMouseDown = function(event) {
-        path = new Path();
-        path.strokeWidth = widthStroke;
-        path.strokeColor = colorStroke;
-    // Draw
-        path.add(event.point);
-    }
-
-    tool.onMouseDrag = function(event) {
-    // Draw
-        path.add(event.point);
-        document.getElementById("verify-canvas").value = 1;
-    }
+    intervalo = setInterval(update, 1000);
 });
 
 document.getElementById('game-three').addEventListener('submit', function (event) {
@@ -507,6 +531,196 @@ document.getElementById('game-eight').addEventListener('submit', function (event
             saveRowActivity(API_ACTIVIDADES, action, 'game-eight', 'ModalUnit2Act8');
             sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
             $('#ModalUnit2Act8').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+$('#ModalUnit2Act3').on('shown.bs.modal', function (e) {
+    document.getElementById("verify-canvas").value = 0;
+});
+
+$('#ModalUnit2Act9').on('shown.bs.modal', function (e) {
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas2');
+
+    // Get elements from DOM and define properties
+    var colorPicker2 = document.getElementById("colorPicker2");
+    var widthStrokePicker2 = document.getElementById("strokeWidthPicker2");
+    var clearButton2 = document.getElementById("clearBtn2");
+
+    // Clear event listener
+    clearButton2.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker2.value;
+        widthStroke = widthStrokePicker2.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('game-nine').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+
+    if (document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'The canvas is empty', null);
+        return false;
+    }
+    else
+    {
+        promedio = 1;
+        var libro = 1;
+        document.getElementById('idcliente9').value = users.value;
+        document.getElementById('points9').value = promedio;
+        document.getElementById('idlibro9').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-nine', 'ModalUnit2Act9');
+        sweetAlert(1, 'Good job', null);
+        $('#ModalUnit2Act9').modal('hide');
+        return true;
+    }
+
+});
+
+document.getElementById('game-ten').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    promedio = 1;
+    var libro = 1;
+    document.getElementById('idcliente10').value = users.value;
+    document.getElementById('points10').value = promedio;
+    document.getElementById('idlibro10').value = libro;
+
+    action = 'create';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-ten', 'ModalUnit2Act10');
+    sweetAlert(1, 'Good job', null);
+    $('#ModalUnit2Act10').modal('hide');
+    return true;
+
+});
+
+document.getElementById('game-eleven').addEventListener('submit', function (event){
+    
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglo para guardar datos ingresados    
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < 6; i++) {
+       inputs[i] = document.getElementById('input-act11-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+
+        if (!inputs[2].includes("Hello")) {
+            sweetAlert(2, "You have to say 'Hello' ", null);
+            return false;
+        } else {
+            var libro = 1;
+            document.getElementById('points11').value = valorActividad;
+            document.getElementById('idlibro11').value = libro;
+            document.getElementById('idcliente11').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-eleven', 'ModalUnit2Act11');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act11').modal('hide');
+            return true;
+        }
+        
+    }
+    
+});
+
+document.getElementById('game-twelve').addEventListener('submit', function (event){
+    
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["PLEASE, LISTEN",  "TAKE A PENCIL", "COME BACK TO YOUR SEAT", "OPEN THE WINDOW", "TAKE A PIECE OF CHALK"
+                    , "TAKE A PEN", "COME IN", "PLEASE RAISE YOUR HAND", "DON'T MAKE ANY NOICE", "CLOSE YOUR BOOK"
+                    , "PAY ATTENTION, PLEASE", "TOUCH YOUR SHOULDERS", "WRITE YOUR NAME", "PLEASE, READ THE SENTENCE", "REPEAT, AFTER ME"
+                    , "DRAW A CLOWN", "CLOSE YOUR WINDOW"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act12-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 1;
+            document.getElementById('points12').value = valorActividad;
+            document.getElementById('idlibro12').value = libro;
+            document.getElementById('idcliente12').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalUnit2Act12');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act12').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 1;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente12').value = users.value;
+            document.getElementById('points12').value = points;
+            document.getElementById('idlibro12').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twelve', 'ModalUnit2Act12');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act12').modal('hide');
             return true;
         }
     }

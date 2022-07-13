@@ -136,3 +136,28 @@
   background-color: #AD61FC;
   color: white;
 }
+
+/*PAGINA 15 - 16*/
+/*****************************************/
+/*****************************************/
+/*****************************************/
+
+  .flex-container-img {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin-bottom: 5px ;
+  }
+  
+  .flex-container-img .num{
+    width: 10px; 
+    padding-right: 20px
+  }
+
+  .flex-container-img .req{
+    width: 100%;
+  }
+
+  .flex-container-img .req input{
+    width: 100%;
+  } 

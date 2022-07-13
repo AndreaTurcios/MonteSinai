@@ -1076,6 +1076,284 @@ pnum10.addEventListener("dragover", (e) => {
 pnum10.addEventListener("dragleave", (e) => {
   e.target.classList.remove("hover");
 });
+
+/**************************************************
+ ******************** GAME 15B **********************
+ **************************************************/
+ document.getElementById("game-15b").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  event.preventDefault();
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let q1, q2, q3, q4, q5, q6;
+
+  //Se igualan las variables a el campo de texto de la vista mediante el id.
+  q1 = document.getElementById("game15b-req1").value;
+  q2 = document.getElementById("game15b-req2").value;
+  q3 = document.getElementById("game15b-req3").value;
+  q4 = document.getElementById("game15b-req4").value;
+  q5 = document.getElementById("game15b-req5").value;
+  q6 = document.getElementById("game15b-req6").value;
+  q7 = document.getElementById("game15b-req7").value;
+  q8 = document.getElementById("game15b-req8").value;
+  q9 = document.getElementById("game15b-req9").value;
+  q10 = document.getElementById("game15b-req10").value;
+  q11 = document.getElementById("game15b-req11").value;
+  q12 = document.getElementById("game15b-req12").value;
+  q13 = document.getElementById("game15b-req13").value;
+  q14 = document.getElementById("game15b-req14").value;
+  q15 = document.getElementById("game15b-req15").value;
+  q16 = document.getElementById("game15b-req16").value;
+  q17 = document.getElementById("game15b-req17").value;
+  q18 = document.getElementById("game15b-req18").value;
+  q19 = document.getElementById("game15b-req19").value;
+  q20 = document.getElementById("game15b-req20").value;
+  q21 = document.getElementById("game15b-req21").value;
+  q22 = document.getElementById("game15b-req22").value;
+  q23 = document.getElementById("game15b-req23").value;
+  q24 = document.getElementById("game15b-req24").value;
+
+  //q6  = document.getElementById('game-3-q6').value;
+
+  rq1 = "first";
+  rq2 = "second";
+  rq3 = "third";
+  rq4 = "fourth";
+  rq5 = "fifth";
+  rq6 = "sixth";
+  rq7 = "seventh";
+  rq8 = "eighth";
+  rq9 = "ninth";
+  rq10 = "tenth";
+  rq11 = "eleventh";
+  rq12 = "twelth";
+  rq13 = "thirteenth";
+  rq14 = "fourteenth";
+  rq15 = "fifteenth";
+  rq16 = "sixteenth";
+  rq17 = "seventeenth";
+  rq18 = "eighteenth";
+  rq19 = "nineteenth";
+  rq20 = "twentieth";
+  rq21 = "twenty-first";
+  rq22 = "twenty-second";
+  rq23 = "twenty-fourth"
+  rq24 = "twenty-fifth"
+
+
+  if (q1 != "" 
+      //&& q10 != "" 
+      //&& q15 != "" 
+      //&& q20 != "" 
+      && q24 != "") {
+    action = "createact15b";
+    totalPunto = 0;
+    totalPreguntas = 24;
+    punto = 1 / totalPreguntas;
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q6.toUpperCase() == rq6.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q7.toUpperCase() == rq7.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q8.toUpperCase() == rq8.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q9.toUpperCase() == rq9.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10.toUpperCase() == rq10.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q11.toUpperCase() == rq11.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q12.toUpperCase() == rq12.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q13.toUpperCase() == rq13.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q14.toUpperCase() == rq14.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q15.toUpperCase() == rq15.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q16.toUpperCase() == rq16.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q17.toUpperCase() == rq17.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q18.toUpperCase() == rq18.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q19.toUpperCase() == rq19.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q20.toUpperCase() == rq20.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q21.toUpperCase() == rq21.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q22.toUpperCase() == rq22.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q23.toUpperCase() == rq23.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q24.toUpperCase() == rq24.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 6;
+    document.getElementById("idcliente15b").value = users.value;
+    document.getElementById("points15b").value = notatotal;
+    document.getElementById("idlibro15b").value = libro;
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-15b", "ModalLibroSeis15B");
+    sweetAlert(1, "Nota " + notatotal * totalPreguntas, null);
+  } else {
+    sweetAlert(3, "Faltan  respuestas", null);
+  }
+
+  return true;
+});
+/**************************************************
+ ******************** GAME 16 **********************
+ **************************************************/
+ document.getElementById("game-16").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  event.preventDefault();
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let q1, q2, q3, q4, q5, q6;
+
+  //Se igualan las variables a el campo de texto de la vista mediante el id.
+  q1 = document.getElementById("game16-req1").value;
+  q2 = document.getElementById("game16-req2").value;
+  q3 = document.getElementById("game16-req3").value;
+  q4 = document.getElementById("game16-req4").value;
+  q5 = document.getElementById("game16-req5").value;
+  q6 = document.getElementById("game16-req6").value;
+  q7 = document.getElementById("game16-req7").value;
+  q8 = document.getElementById("game16-req8").value;
+  q9 = document.getElementById("game16-req9").value;
+  q10 = document.getElementById("game16-req10").value;
+
+
+  //q6  = document.getElementById('game-3-q6').value;
+
+  rq1 = "one hundred and eleven";
+  rq2 = "one hundred and three";
+  rq3 = "one hundred and four";
+  rq4 = "one hundred and nineteen";
+  rq5 = "one hundred and seventeen";
+  rq6 = "one hundred and twenty-eight";
+  rq7 = "one hundred and thirty";
+  rq8 = "one hundred and fifty";
+  rq9 = "one hundred and forty";
+  rq10 = "one hundred and twenty-one";
+
+
+
+  if (q1 != "" 
+      //&& q10 != "" 
+      //&& q15 != "" 
+      //&& q20 != "" 
+      && q10 != "") {
+    action = "createact16";
+    totalPunto = 0;
+    totalPreguntas = 24;
+    punto = 1 / totalPreguntas;
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q6.toUpperCase() == rq6.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q7.toUpperCase() == rq7.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q8.toUpperCase() == rq8.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q9.toUpperCase() == rq9.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10.toUpperCase() == rq10.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 6;
+    document.getElementById("idcliente16").value = users.value;
+    document.getElementById("points16").value = notatotal;
+    document.getElementById("idlibro16").value = libro;
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-16", "ModalLibroSeis16");
+    sweetAlert(1, "Nota " + notatotal * totalPreguntas, null);
+  } else {
+    sweetAlert(3, "Faltan  respuestas", null);
+  }
+
+  return true;
+});
+
+
 /**************************************************
  ******************** GAME 17 **********************
  **************************************************/

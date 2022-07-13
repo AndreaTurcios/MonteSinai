@@ -873,7 +873,7 @@ Book_Page::headerTemplate('Unidad 2');
 										<div class="container-fluid">
 											<input type="number" value="0" id="verify-canvas">
 											<canvas id="canvas1" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag41/canvas41.png')"
-											width="775" height="400">
+											width="800" height="325">
 
 											</canvas>
 										</div>
@@ -1399,6 +1399,1012 @@ Book_Page::headerTemplate('Unidad 2');
 
 											</div>	
 
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 47  -->
+<div id="ModalUnit2Act9" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">DRAWING AND COLORING SOME FRUIT</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-nine">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Draw and color some fruit and drinks</p>
+											<input type="text" class="d-none" id="points9" name="points">
+											<input type="text" class="d-none" id="idcliente9" name="idcliente">
+											<input type="text" class="d-none" id="idlibro9" name="idlibro">
+										</div>
+									</div>									
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										}
+
+										canvas2 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn2 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Choose a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker2" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Clear the canvas</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn2">Clear the canvas</a>
+												</div>
+											</div>
+										</div>
+									</header>
+
+									<div class="col-12">
+										<div class="container-fluid">
+											<input type="number" value="0" id="verify-canvas">
+											<canvas id="canvas2" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag47/canvas47.png')"
+											width="775" height="400">
+
+											</canvas>
+										</div>
+									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 48  -->
+<div id="ModalUnit2Act10" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">MEALS, DRINKS, FRUITS, FOODS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-ten">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Answer this crosswords puzzle, using the name of the images</p>
+											<input type="text" class="d-none" id="points10" name="points">
+											<input type="text" class="d-none" id="idcliente10" name="idcliente">
+											<input type="text" class="d-none" id="idlibro10" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+										<link rel="stylesheet" href="../../app/controllers/BookOneUnitTwo/style.css" />
+										<div class="col-md-12 col-xs-12">
+											<script src="../../app/controllers/BookOneUnitTwo/polyfill/dialog-polyfill.js"></script>
+                        					<!--Se elimino el script main.js aquí ya que tuvo conflicto con el canvas, hizo que dejara de funcionar -->
+											<form class="form" autocomplete="off" method="post" novalidate>
+												
+												<div class="row justify-content-md-center justify-content-sm-center">
+													<div class="col-4">
+														<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag48/image48.png"
+														class="rounded mx-auto d-block">	
+													</div>
+													<div class="col-8">
+														<div align="center">    
+															<table style="width:50%;">
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black"></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black"></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell">
+																		<label class="word-number" for="1">1  5</label>
+																		<input
+																			required
+																			id="1"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Cc]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="2"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Hh]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="3"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ee]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="4"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ee]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="5"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ss]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="6"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ee]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>															
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell" >
+																		<label class="word-number" for="2">2</label>
+																		<input
+																			required
+																			id="7"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Oo]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="8"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Rr]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="9"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Aa]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="10"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Nn]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="11"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Gg]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="12"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ee]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>	     
+																	<td class="cell cell-black" ></td>	              
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="13"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Oo]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>	     
+																	<td class="cell cell-black" ></td>	              
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="14"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Kk]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>	     
+																	<td class="cell cell-black" ></td>	              
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="15"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ii]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>	     
+																	<td class="cell cell-black" ></td>	              
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell" >
+																		<label class="word-number" for="3">3</label>
+																		<input
+																			required
+																			id="16"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ee]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="17"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Gg]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="18"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Gg]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="19"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ss]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>	     
+																	<td class="cell cell-black" ></td>	              
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell" >
+																		<label class="word-number" for="3">4</label>
+																		<input
+																			required
+																			id="20"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Ss]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="21"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Oo]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="22"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Dd]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell" >
+																		<input
+																			required
+																			id="23"
+																			class="letter"
+																			type="text"
+																			maxlength="1"
+																			pattern="[Aa]"
+																			data-down="1"
+																		/>
+																	</td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>	     
+																	<td class="cell cell-black" ></td>	              
+																</tr>
+
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black"></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																</tr>
+																
+																<tr>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black"></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																	<td class="cell cell-black" ></td>
+																</tr>
+
+															</table>
+														</div>
+													</div>
+												</div>
+												
+
+												<div class="row justify-content-md-center justify-content-sm-center">
+
+													<button class="btn btn-success btn-clear" type="reset" style="margin-top: 10px; margin-bottom: 10px;">
+														Clean
+													</button>
+
+												</div>
+											</form>																				
+										</div>
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 49 -->
+<div id="ModalUnit2Act11" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">HELLO, MY NAME IS KATHY</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-eleven">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the sentences. Use your personal information</p>
+											<input type="text" class="d-none" id="points11" name="points">
+											<input type="text" class="d-none" id="idcliente11" name="idcliente">
+											<input type="text" class="d-none" id="idlibro11" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">										
+
+										<div class="col-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-3">
+														<p class="fst-normal">Hello, my name is </p> 
+													</div>		
+													<div class="col-3">
+														<input type="text" id="input-act11-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-3">
+														<p class="fst-normal">. I am your teacher.</p> 
+													</div>													
+												</div>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-3">
+														<p class="fst-normal">Hello, my name is </p> 
+													</div>		
+													<div class="col-3">
+														<input type="text" id="input-act11-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-3">
+														<p class="fst-normal">. I am a student.</p> 
+													</div>													
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<input type="text" id="input-act11-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-2">
+														<p class="fst-normal">, my name is </p> 
+													</div>		
+													<div class="col-2">
+														<input type="text" id="input-act11-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-3">
+														<p class="fst-normal">. I am a student.</p> 
+													</div>	
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-3">
+														<p class="fst-normal">Hello, my name is </p> 
+													</div>		
+													<div class="col-2">
+														<input type="text" id="input-act11-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-2">
+														<p class="fst-normal">. I am a </p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act11-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+												</div>										
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 50 -->
+<div id="ModalUnit2Act12" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">SAYING SOME CLASSROOM EXPRESSIONS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twelve">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Write the classroom expressions</p>
+											<input type="text" class="d-none" id="points12" name="points">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag50/image50.png"
+											class="rounded mx-auto d-block">																				
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											
+											<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													
+												<div class="col-12">
+													<input type="text" id="input-act12-1" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Please, listen">
+												</div>
+												
+												<div class="col-12">
+													<input type="text" id="input-act12-2" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Take a pencil">
+												</div>
+												
+												<div class="col-12">
+													<input type="text" id="input-act12-3" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Come back to your seat">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-4" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Open the window">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-5" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Take a piece of chalk">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-6" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Take a pen">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-7" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Come in">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-8" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Please raise your hand">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-9" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Don't make any noice">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-10" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Close your book">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-11" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Pay attention, please">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-12" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Touch your shoulders">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-13" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Write your name">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-14" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Please, read the sentence">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-15" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Repeat, after me">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-16" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Draw a clown">
+												</div>
+
+												<div class="col-12">
+													<input type="text" id="input-act12-17" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 5px;"
+														placeholder="Close your window">
+												</div>
+												
+											</div>										
+												
 										</div>
 
 									</div>									

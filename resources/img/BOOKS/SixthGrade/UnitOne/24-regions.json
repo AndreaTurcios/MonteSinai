@@ -1,5 +1,5 @@
 [{
-	"x":152,
+	"x":250,
 	"y":568,
 	"width":130,
 	"height":12,
@@ -8,6 +8,19 @@
 		{
 			"modal":"ModalLibroSeis15",
 			"form":"game-15"
+		}
+}
+,
+{
+	"x":100,
+	"y":568,
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroSeis15B",
+			"form":"game-15b"
 		}
 }
 ]

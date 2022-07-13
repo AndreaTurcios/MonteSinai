@@ -352,6 +352,48 @@ if (isset($_GET['action'])) {
                     $result['exception'] = 'puntos incorrecto';
                 }
                 break;
+            case 'createact15b':
+                $_POST = $libros->validateForm($_POST);
+                if ($libros->setPromedio($_POST['points15b'])) {
+                    if ($libros->setLibro($_POST['idlibro15b'])) {
+                        if ($libros->setId($_POST['idcliente15b'])) {
+                            if ($libros->createRow()) {
+                                $result['status'] = 1;
+                                $result['message'] = 'success';
+                            } else {
+                                $result['exception'] = Database::getException();;
+                            }
+                        } else {
+                            $result['exception'] = 'cliente incorrecto';
+                        }
+                    } else {
+                        $result['exception'] = 'libro incorrecto';
+                    }
+                } else {
+                    $result['exception'] = 'puntos incorrecto';
+                }
+                break;
+            case 'createact16':
+                $_POST = $libros->validateForm($_POST);
+                if ($libros->setPromedio($_POST['points16'])) {
+                    if ($libros->setLibro($_POST['idlibro16'])) {
+                        if ($libros->setId($_POST['idcliente16'])) {
+                            if ($libros->createRow()) {
+                                $result['status'] = 1;
+                                $result['message'] = 'success';
+                            } else {
+                                $result['exception'] = Database::getException();;
+                            }
+                        } else {
+                            $result['exception'] = 'cliente incorrecto';
+                        }
+                    } else {
+                        $result['exception'] = 'libro incorrecto';
+                    }
+                } else {
+                    $result['exception'] = 'puntos incorrecto';
+                }
+                break;
             case 'createact17':
                 $_POST = $libros->validateForm($_POST);
                 if ($libros->setPromedio($_POST['points17'])) {
@@ -918,47 +960,68 @@ if (isset($_GET['action'])) {
                 } else {
                     $result['exception'] = 'puntos incorrecto';
                 }
-                case 'createactA11U1L11':
-                    $_POST = $libros->validateForm($_POST);
-                    if ($libros->setPromedio($_POST['pointsA11U1L11'])) {
-                        if ($libros->setLibro($_POST['idlibroA11U1L11'])) {
-                            if ($libros->setId($_POST['idclienteA11U1L11'])) {
-                                if ($libros->createRow()) {
-                                    $result['status'] = 1;
-                                    $result['message'] = 'success';
-                                } else {
-                                    $result['exception'] = Database::getException();;
-                                }
+            case 'createactA11U1L11':
+                $_POST = $libros->validateForm($_POST);
+                if ($libros->setPromedio($_POST['pointsA11U1L11'])) {
+                    if ($libros->setLibro($_POST['idlibroA11U1L11'])) {
+                        if ($libros->setId($_POST['idclienteA11U1L11'])) {
+                            if ($libros->createRow()) {
+                                $result['status'] = 1;
+                                $result['message'] = 'success';
                             } else {
-                                $result['exception'] = 'cliente incorrecto';
+                                $result['exception'] = Database::getException();;
                             }
                         } else {
-                            $result['exception'] = 'libro incorrecto';
+                            $result['exception'] = 'cliente incorrecto';
                         }
                     } else {
-                        $result['exception'] = 'puntos incorrecto';
+                        $result['exception'] = 'libro incorrecto';
                     }
+                } else {
+                    $result['exception'] = 'puntos incorrecto';
+                }
                 break;
-                case 'createactA12U1L11':
-                    $_POST = $libros->validateForm($_POST);
-                    if ($libros->setPromedio($_POST['pointsA12U1L11'])) {
-                        if ($libros->setLibro($_POST['idlibroA12U1L11'])) {
-                            if ($libros->setId($_POST['idclienteA12U1L11'])) {
-                                if ($libros->createRow()) {
-                                    $result['status'] = 1;
-                                    $result['message'] = 'success';
-                                } else {
-                                    $result['exception'] = Database::getException();;
-                                }
+            case 'createactA12U1L11':
+                $_POST = $libros->validateForm($_POST);
+                if ($libros->setPromedio($_POST['pointsA12U1L11'])) {
+                    if ($libros->setLibro($_POST['idlibroA12U1L11'])) {
+                        if ($libros->setId($_POST['idclienteA12U1L11'])) {
+                            if ($libros->createRow()) {
+                                $result['status'] = 1;
+                                $result['message'] = 'success';
                             } else {
-                                $result['exception'] = 'cliente incorrecto';
+                                $result['exception'] = Database::getException();;
                             }
                         } else {
-                            $result['exception'] = 'libro incorrecto';
+                            $result['exception'] = 'cliente incorrecto';
                         }
                     } else {
-                        $result['exception'] = 'puntos incorrecto';
+                        $result['exception'] = 'libro incorrecto';
                     }
+                } else {
+                    $result['exception'] = 'puntos incorrecto';
+                }
+                break;
+            case 'createactA13U1L11':
+                $_POST = $libros->validateForm($_POST);
+                if ($libros->setPromedio($_POST['pointsA13U1L11'])) {
+                    if ($libros->setLibro($_POST['idlibroA13U1L11'])) {
+                        if ($libros->setId($_POST['idclienteA13U1L11'])) {
+                            if ($libros->createRow()) {
+                                $result['status'] = 1;
+                                $result['message'] = 'success';
+                            } else {
+                                $result['exception'] = Database::getException();;
+                            }
+                        } else {
+                            $result['exception'] = 'cliente incorrecto';
+                        }
+                    } else {
+                        $result['exception'] = 'libro incorrecto';
+                    }
+                } else {
+                    $result['exception'] = 'puntos incorrecto';
+                }
                 break;
             default:
                 $result['exception'] = 'Acción no disponible dentro de la sesión';

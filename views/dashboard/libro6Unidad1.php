@@ -1303,10 +1303,63 @@ Book_Page::headerTemplate('Unidad 2');
                     <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
                     <br>
                 </div>
+
+            </form>
         </div>
-        </form>
     </div>
 </div>
+
+<!-- Pagina Libro 15B-->
+<!-- Region   24-regions.json-->
+<div id="ModalLibroSeis15B" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">All the ants walk to their house "the hill" to keep their foods</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-15b">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8 align-items-center" align="letf">
+                            <p class="">Compare the short and the long form. Match the long with the short form of the ordinal numbers.</p>
+                            <!-- class="d-none" -->
+                            <input type="text" class="d-none" id="points15b" name="points15b">
+                            <input type="text" class="d-none" id="idcliente15b" name="idcliente15b">
+                            <input type="text" class="d-none" id="idlibro15b" name="idlibro15b">
+                        </div>
+                    </div>
+                    <!-- Inicio de modal body-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <center>
+                                <img src="../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-15/fondo.png" alt="" class="img-fluid img-thumbnail">
+                            </center>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:10px">
+                        <?php
+                        for ($i = 1; $i <= 24; $i++) {
+                            echo "<div class=\"col-6 col-lg-3 flex-container-img\">";
+                            echo "<div class=\"num\"> <img src=\"../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-15/" . $i . ".png\" alt=\"\" width=\"100px\"> </div>";
+                            echo "<div class =\"req\"><input type=\"text\" id=\"game15b-req" . $i . "\">  </div>";
+                            echo "</div>";
+                        }
+                        ?>
+                    </div>
+                </div>
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
+            </form>
+        </div>
+    </div>
 </div>
 
 <!-- Pagina Libro 16-->
@@ -1322,16 +1375,43 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-16">
                 <div class="modal-body">
                     <div class="container-fluid">
-
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="">Write the next numbers using words.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points16" name="points16">
+                                <input type="text" class="d-none" id="idcliente16" name="idcliente16">
+                                <input type="text" class="d-none" id="idlibro16" name="idlibro16">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <img src="../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-16/fondo.png" alt="" class="img-fluid img-thumbnail">
+                                </center>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <?php
+                            for ($i = 1; $i <= 10; $i++) {
+                                echo "<div class=\"col-6 col-lg-3 flex-container-img\">";
+                                echo "<div class=\"\"> <center><img src=\"../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-16/" . $i . ".png\" alt=\"\" width=\"100px\"> </center></div>";
+                                echo "<div class =\"req\"><input type=\"text\" id=\"game16-req" . $i . "\">  </div>";
+                                echo "</div>";
+                            }
+                            ?>
+                        </div>
                     </div>
                 </div>
+
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
