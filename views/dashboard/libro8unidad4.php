@@ -832,7 +832,7 @@
 									<div class="row">
 										<div class="col-12">								
 											<div class="col">
-												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Page15/examples.png"
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag15/examples.png"
 												class="rounded mx-auto d-block">
 											</div>
 										</div>
@@ -1706,7 +1706,7 @@
 									<div class="row">
 										<div class="col-12">								
 											<div class="col">
-												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Page20/examples.png"
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag20/examples.png"
 												class="rounded mx-auto d-block">
 											</div>
 										</div>	
@@ -2607,7 +2607,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Select the correct questions and answers about colors of items</h5>
+                <h5 class="modal-title" id="modal-title">Identifying colors of items</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit4-act19">
@@ -2622,51 +2622,176 @@
 							</div>
 						</div>
 
-                        <div class="row border box-select-5">
-							<div class="col-md-12">
-								<label for="act19-q1">What color is your hat?</label>
-								<select id="act19-q1">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">It's white.</option><!-- correcto -->
-									<option value="2">They are white.</option>
-									<option value="3">They're white.</option>
-								</select>
-							</div>
-						</div>
-
-						<div class="row border box-select-5">
-							<div class="col-md-12">
+						<h6 class="text-left">Select the correct color for every item</h6>
+						<div class="row">
+							<!-- 1-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej1.png" class="col-12 rounded mx-auto">
+								A <select id="act19-q1">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Blue</option>
+									<option value="2">Yellow</option>
+									<option value="3">Red</option><!-- correcto -->
+								</select> T-shirt
+							</div>	
+							<!-- -->
+							<!-- 2-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej2.png" class="col-12 rounded mx-auto">
 								<select id="act19-q2">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">What color are your glasses?</option><!-- correcto -->
-									<option value="2">What color is your house?</option>
-									<option value="3">What color is that hat?</option>
-								</select>
-								<label for="act19-q2">They are black.</label>
-							</div>
-						</div>
-
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								<label for="act19-q3">What color is her bag?</label>
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Blue</option><!-- correcto -->
+									<option value="2">Yellow</option>
+									<option value="3">Red</option>
+								</select> jeans
+							</div>	
+							<!-- -->
+							<!-- 3-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej3.png" class="col-12 rounded mx-auto">
 								<select id="act19-q3">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">They are blue.</option>
-									<option value="2">It is blue.</option><!-- correcto -->
-									<option value="3">They're blue.</option>
-								</select>
-							</div>
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">White</option>
+									<option value="2">Black</option><!-- correcto -->
+									<option value="3">Brown</option>
+								</select> pants
+							</div>	
+							<!-- -->
+							<!-- 4-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej4.png" class="col-12 rounded mx-auto">
+								A <select id="act19-q4">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Blue</option>
+									<option value="2">Yellow</option><!-- correcto -->
+									<option value="3">Red</option>
+								</select> skirt
+							</div>	
+							<!-- -->
+						</div>
+						<br>
+
+						<div class="row">
+							<!-- 5-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej5.png" class="col-12 rounded mx-auto">
+								A <select id="act19-q5">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">White</option><!-- correcto -->
+									<option value="2">Black</option>
+									<option value="3">Brown</option>
+								</select> dress
+							</div>	
+							<!-- -->
+							<!-- 6-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej6.png" class="col-12 rounded mx-auto">
+								A <select id="act19-q6">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Purple</option>
+									<option value="2">Green</option><!-- correcto -->
+									<option value="3">Pink</option>
+								</select> sweater
+							</div>	
+							<!-- -->		
+							<!-- 7-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej7.png" class="col-12 rounded mx-auto">
+								<select id="act19-q7">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Orange</option>
+									<option value="2">Pink</option>
+									<option value="3">Brown</option><!-- correcto -->
+								</select> boots
+							</div>	
+							<!-- -->
+							<!-- 8-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej8.png" class="col-12 rounded mx-auto">
+								<select id="act19-q8">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Orange</option><!-- correcto -->
+									<option value="2">Pink</option>
+									<option value="3">Brown</option>
+								</select> sandals
+							</div>	
+							<!-- -->	
+						</div>
+						<br>
+						<div class="row">
+							<!-- 9-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej9.png" class="col-12 rounded mx-auto">
+								A <select id="act19-q9">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Purple</option><!-- correcto -->
+									<option value="2">Green</option>
+									<option value="3">Pink</option>
+								</select> jacket
+							</div>	
+							<!-- -->
+							<!-- 10-->
+							<div class="col-lg-3 col-sm-12 text-center">								
+								<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag29/act19_ej10.png" class="col-12 rounded mx-auto">
+								A <select id="act19-q10">
+									<option value="0" selected disabled>Fill</option>
+									<option value="1">Orange</option>
+									<option value="2">Pink</option><!-- correcto -->
+									<option value="3">Brown</option>
+								</select> shirt
+							</div>	
+							<!-- -->	
 						</div>
 
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								<select id="act19-q4">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">What color are your gloves?</option><!-- correcto -->
-									<option value="2">What color is  your glove?</option>
-									<option value="3">What color is your bag?</option>
-								</select>
-								<label for="act19-q4">They are whites.</label>
+						<br>
+						<div class="col-lg-12 col-sm-12">
+							<h6 class="text-left">Select the correct questions and answers about colors of items</h6>
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									<label for="act19-q11">What color is your hat?</label>
+									<select id="act19-q11">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's white.</option><!-- correcto -->
+										<option value="2">They are white.</option>
+										<option value="3">They're white.</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									<select id="act19-q12">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What color are your glasses?</option><!-- correcto -->
+										<option value="2">What color is your house?</option>
+										<option value="3">What color is that hat?</option>
+									</select>
+									<label for="act19-q12">They are black.</label>
+								</div>
+							</div>
+
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									<label for="act19-q13">What color is her bag?</label>
+									<select id="act19-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">They are blue.</option>
+										<option value="2">It is blue.</option><!-- correcto -->
+										<option value="3">They're blue.</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									<select id="act19-q14">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What color are your gloves?</option><!-- correcto -->
+										<option value="2">What color is  your glove?</option>
+										<option value="3">What color is your bag?</option>
+									</select>
+									<label for="act19-q14">They are whites.</label>
+								</div>
 							</div>
 						</div>
 
@@ -2685,6 +2810,132 @@
 </div>
 <!-- fin Actividad 19-->
 <!-- fin Region 29-->
+
+<!-- Actividad 20--> 
+<!-- Region 30-->
+<div id="ModalLibroOcho30" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete the sentences drescribing the clothes and colors</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act20">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points20" name="points20">
+                                <input type="text"  class="d-none" id="idlibro20" name="idlibro20">
+								<input type="text"  class="d-none" id="idcliente20" name="idcliente20">
+							</div>
+						</div>
+
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								The boys
+								<select id="act20-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is wearing</option>
+									<option value="2">am wearing</option>
+									<option value="3">are wearing</option><!-- correcto -->
+								</select> black shoes
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								My mother
+								<select id="act20-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is wearing</option><!-- correcto -->
+									<option value="2">am wearing</option>
+									<option value="3">are wearing</option>
+								</select> a red dress
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								You
+								<select id="act20-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is wearing</option>
+									<option value="2">am wearing</option>
+									<option value="3">are wearing</option><!-- correcto -->
+								</select> black glasses
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								I
+								<select id="act20-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is wearing</option>
+									<option value="2">am wearing</option><!-- correcto -->
+									<option value="3">are wearing</option>
+								</select> a large and blue shirt
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- ejemplos-->
+<div id="ModalLibroOcho30examples" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Present continuous (I am doing)</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="examples30">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									
+
+									<div class="row">
+										<div class="col-12">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag30/example.png" class="col-12 rounded mx-auto d-block">
+											</div>
+										</div>	
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin Actividad 20-->
+<!-- fin Region 30-->
+
+
 
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
