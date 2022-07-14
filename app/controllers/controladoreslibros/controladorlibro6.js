@@ -1755,6 +1755,115 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
 });
 
 /**************************************************
+ ******************** GAME 30 **********************
+ **************************************************/
+
+ document.getElementById("game-30").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  event.preventDefault();
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let q1, q2, q3, q4, q5, q6;
+
+  //Se igualan las variables a el campo de texto de la vista mediante el id.
+  q1 = document.getElementById("game-30-q1").value;
+  q2 = document.getElementById("game-30-q2").value;
+  q3 = document.getElementById("game-30-q3").value;
+  q4 = document.getElementById("game-30-q4").value;
+  q5 = document.getElementById("game-30-q5").value;
+  q6 = document.getElementById("game-30-q6").value;
+  q7 = document.getElementById("game-30-q7").value;
+  q8 = document.getElementById("game-30-q8").value;
+  q9 = document.getElementById("game-30-q9").value;
+  q10 = document.getElementById("game-30-q10").value;
+  q11 = document.getElementById("game-30-q11").value;
+  q12 = document.getElementById("game-30-q12").value;
+
+
+  rq1 = "";
+  rq2 = "";
+  rq3 = "";
+  rq4 = "";
+  rq5 = "";
+  rq6 = "";
+  rq7 = "";
+  rq8 = "";
+  rq9 = "";
+  rq10 = "";
+  rq11 = "";
+  rq12 = "";
+
+
+
+  if (q1 != "" 
+      //&& q10 != "" 
+      //&& q15 != "" 
+      //&& q20 != "" 
+      && q14 != "") {
+    action = "createact30";
+    totalPunto = 0;
+    totalPreguntas = 12;
+    punto = 1 / totalPreguntas;
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q6.toUpperCase() == rq6.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q7.toUpperCase() == rq7.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q8.toUpperCase() == rq8.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q9.toUpperCase() == rq9.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q10.toUpperCase() == rq10.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q11.toUpperCase() == rq11.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    if (q12.toUpperCase() == rq12.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+   
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 6;
+    document.getElementById("idcliente30").value = users.value;
+    document.getElementById("points30").value = notatotal;
+    document.getElementById("idlibro30").value = libro;
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-30", "ModalLibroSeis30");
+    sweetAlert(1, "Nota " + notatotal * totalPreguntas, null);
+  } else {
+    sweetAlert(3, "Faltan  respuestas", null);
+  }
+
+  return true;
+});
+/**************************************************
  ******************** GAME 36 **********************
  **************************************************/
 /**

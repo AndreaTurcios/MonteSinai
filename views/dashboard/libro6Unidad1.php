@@ -1971,7 +1971,86 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-30">
                 <div class="modal-body">
                     <div class="container-fluid">
-
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="">Complete the sentences with the missing information.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points30" name="points30">
+                                <input type="text" class="d-none" id="idcliente30" name="idcliente30">
+                                <input type="text" class="d-none" id="idlibro30" name="idlibro30">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <table>
+                                        <tr>
+                                            <td style="width: 5%;">1.</td>
+                                            <td style="width: 15%;">I</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-30-q1"></td>
+                                            <td colspan="4">to the park</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">2.</td>
+                                            <td>You</td>
+                                            <td colspan="2"><input type="text" class="form-control" placeholder="" id="game-30-q2"></td>
+                                            <td colspan="3">TV.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">3.</td>
+                                            <td>I</td>
+                                            <td colspan="2"><input type="text" class="form-control" placeholder="" id="game-30-q3"></td>
+                                            <td colspan="3">on time.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">4.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-30-q4"></td>
+                                            <td>She</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-30-q5"></td>
+                                            <td colspan="3">flowers?</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">5.</td>
+                                            <td colspan="2">He</td>
+                                            <td colspan="2"><input type="text" class="form-control" placeholder="" id="game-30-q6"></td>
+                                            <td colspan="2">toys.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">6.</td>
+                                            <td colspan="1"> What</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-30-q7"></td>
+                                            <td>we</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-30-q8"></td>
+                                            <td colspan="2"> here?</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">7.</td>
+                                            <td colspan="2">They</td>
+                                            <td colspan="2"><input type="text" class="form-control" placeholder="" id="game-30-q9"></td>
+                                            <td colspan="2">soccer.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">8.</td>
+                                            <td colspan="2">It</td>
+                                            <td colspan="2"><input type="text" class="form-control" placeholder="" id="game-30-q10"></td>
+                                            <td colspan="2">now.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">9.</td>
+                                            <td colspan="2">Paola</td>
+                                            <td colspan="2"><input type="text" class="form-control" placeholder="" id="game-30-q11"></td>
+                                            <td colspan="2">a book.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 5%;">10.</td>
+                                            <td colspan="2">Melvin</td>
+                                            <td colspan="2"><input type="text" class="form-control" placeholder="" id="game-30-q12"></td>
+                                            <td colspan="2">at you.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <br>
                     <!-- Botones de Control -->
