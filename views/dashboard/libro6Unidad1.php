@@ -1518,6 +1518,132 @@ Book_Page::headerTemplate('Unidad 2');
     </div>
 </div>
 
+<!-- Pagina Libro 18-->
+<!-- Region   27-regions.json-->
+<div id="ModalLibroSeis18b" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Let's Review Ordinal And Cardinal Numbers</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-18b">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <!-- Inicio de modal body-->
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="">Match the long with the short form of the ordinal numbers.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points18b" name="points18b">
+                                <input type="text" class="d-none" id="idcliente18b" name="idcliente18b">
+                                <input type="text" class="d-none" id="idlibro18b" name="idlibro18b">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="libro6-padre">
+                                    <div class="libro6-hijo">
+                                        <div class="text-center naranja">twenty-fifth</div>
+                                        <div id="game-18b-num1" class="libro6-placeholder" data-id2="hola"></div>
+                                    </div>
+                                    <div class="libro6-hijo">
+                                        <div class="text-center naranja">first</div>
+                                        <div id="game-18b-num2" class="libro6-placeholder"></div>
+                                    </div>
+                                    <div class="libro6-hijo">
+                                        <div class="text-center naranja">twelfth</div>
+                                        <div id="game-18b-num3" class="libro6-placeholder"></div>
+                                    </div>
+                                    <div class="libro6-hijo">
+                                        <div class="text-center naranja">ninth</div>
+                                        <div id="game-18b-num4" class="libro6-placeholder"></div>
+                                    </div>
+                                    <div class="libro6-hijo">
+                                        <div class="text-center naranja">fourth</div>
+                                        <div id="game-18b-num5" class="libro6-placeholder"></div>
+                                    </div>
+                                </div>
+                                <div id="game18-padre" class="libro6-padre2">
+                                    <div id="game-18b-num-1" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="1st">
+                                        1st
+                                    </div>
+                                    <div id="game-18b-num-2" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="2nd">
+                                        2nd
+                                    </div>
+                                    <div id="game-18b-num-3" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="4th">
+                                        4th
+                                    </div>
+                                    <div id="game-18b-num-4" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="5th">
+                                        5th
+                                    </div>
+                                    <div id="game-18b-num-5" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="23rd">
+                                        23rd
+                                    </div>
+                                    <div id="game-18b-num-6" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="9th">
+                                        9th
+                                    </div>
+                                    <div id="game-18b-num-7" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="3rd">
+                                        3rd
+                                    </div>
+                                    <div id="game-18b-num-8" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="12th">
+                                        12th
+                                    </div>
+                                    <div id="game-18b-num-9" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="25th">
+                                        25th
+                                    </div>
+                                    <div id="game-18b-num-10" class="libro6-contenedor libro6-hijo2 none-color" draggable="true" data-id="19th">
+                                        19th
+                                    </div>
+
+                                    <div class="contenedor0 libro6-hijo2">
+                                    </div>
+                                </div>
+
+                                <div class="libro6-padre">
+                                    <div class="libro6-hijo">
+                                        <div class="text-center color-6887C5">fifth</div>
+                                        <div id="game-18b-num6" class="libro6-placeholder" data-id2="hola"></div>
+                                    </div>
+                                    <div class="libro6-hijo">
+                                        <div class="text-center color-6887C5">second</div>
+                                        <div id="game-18b-num7" class="libro6-placeholder"></div>
+                                    </div>
+                                    <div class="libro6-hijo ">
+                                        <div class="text-center color-6887C5">third</div>
+                                        <div id="game-18b-num8" class="libro6-placeholder"></div>
+                                    </div>
+                                    <div class="libro6-hijo ">
+                                        <div class="text-center color-6887C5">nineteenth</div>
+                                        <div id="game-18b-num9" class="libro6-placeholder"></div>
+                                    </div>
+                                    <div class="libro6-hijo">
+                                        <div class="text-center color-6887C5">twenty-third</div>
+                                        <div id="game-18b-num10" class="libro6-placeholder"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
 <!-- Pagina Libro 20-->
 <!-- Region   29-regions.json-->
 <div id="ModalLibroSeis20" class="modal fade" tabindex="-2">

@@ -161,3 +161,26 @@
   .flex-container-img .req input{
     width: 100%;
   } 
+
+  /**PAGINA 18*/
+  /*****************************************/
+  /*****************************************/
+  /*****************************************/
+  .naranja {
+    background-color: #F68189;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .color-6887C5{
+    background-color: #6887C5 ;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .none-color{
+    background: none !important;
+    border:none !important;
+  }

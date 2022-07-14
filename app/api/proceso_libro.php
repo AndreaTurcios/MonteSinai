@@ -436,6 +436,27 @@ if (isset($_GET['action'])) {
                     $result['exception'] = 'puntos incorrecto';
                 }
                 break;
+            case 'createact18b':
+                $_POST = $libros->validateForm($_POST);
+                if ($libros->setPromedio($_POST['points18b'])) {
+                    if ($libros->setLibro($_POST['idlibro18b'])) {
+                        if ($libros->setId($_POST['idcliente18b'])) {
+                            if ($libros->createRow()) {
+                                $result['status'] = 1;
+                                $result['message'] = 'success';
+                            } else {
+                                $result['exception'] = Database::getException();;
+                            }
+                        } else {
+                            $result['exception'] = 'cliente incorrecto';
+                        }
+                    } else {
+                        $result['exception'] = 'libro incorrecto';
+                    }
+                } else {
+                    $result['exception'] = 'puntos incorrecto';
+                }
+                break;
             case 'createact20':
                 $_POST = $libros->validateForm($_POST);
                 if ($libros->setPromedio($_POST['points20'])) {
@@ -1085,7 +1106,7 @@ if (isset($_GET['action'])) {
                 } else {
                     $result['exception'] = 'puntos incorrecto';
                 }
-                break;     
+                break;
             default:
                 $result['exception'] = 'Acción no disponible dentro de la sesión';
         }

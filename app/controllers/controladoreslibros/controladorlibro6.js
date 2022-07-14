@@ -1551,6 +1551,149 @@ document.getElementById("game-17").addEventListener("submit", function (event) {
   return true;
 });
 
+/**************************************************
+ ******************** GAME 18b **********************
+ **************************************************/
+ const contenedor1_game18 = document.getElementById("game18-padre");
+
+
+ document.getElementById("game-18b").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  console.log("respuesta ");
+  event.preventDefault();
+
+  //Variable
+  let pnum1 = document.getElementById("game-18b-num1");
+  let pnum2 = document.getElementById("game-18b-num2");
+  let pnum3 = document.getElementById("game-18b-num3");
+  let pnum4 = document.getElementById("game-18b-num4");
+  let pnum5 = document.getElementById("game-18b-num5");
+  let pnum6 = document.getElementById("game-18b-num6");
+  let pnum7 = document.getElementById("game-18b-num7");
+  let pnum8 = document.getElementById("game-18b-num8");
+  let pnum9 = document.getElementById("game-18b-num9");
+  let pnum10 = document.getElementById("game-18b-num10");
+  let num1 = document.getElementById("game-18b-num-1");
+  let num2 = document.getElementById("game-18b-num-2");
+  let num3 = document.getElementById("game-18b-num-3");
+  let num4 = document.getElementById("game-18b-num-4");
+  let num5 = document.getElementById("game-18b-num-5");
+  let num6 = document.getElementById("game-18b-num-6");
+  let num7 = document.getElementById("game-18b-num-7");
+  let num8 = document.getElementById("game-18b-num-8");
+  let num9 = document.getElementById("game-18b-num-9");
+  let num10 = document.getElementById("game-18b-num-10");
+
+
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let punto = 1 / 10;
+  let totalPunto = 0;
+
+  if (
+    pnum1.childNodes.length > 0 &&
+    pnum2.childNodes.length > 0 &&
+    pnum3.childNodes.length > 0 &&
+    pnum4.childNodes.length > 0 &&
+    pnum5.childNodes.length > 0 &&
+    pnum6.childNodes.length > 0 &&
+    pnum7.childNodes.length > 0 &&
+    pnum8.childNodes.length > 0 &&
+    pnum9.childNodes.length > 0 &&
+    pnum10.childNodes.length > 0
+  ) {
+    if (pnum1.childNodes[0].dataset.id == "25th") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum2.childNodes[0].dataset.id == "1st") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum3.childNodes[0].dataset.id == "12th") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum4.childNodes[0].dataset.id == "9th") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum5.childNodes[0].dataset.id == "4th") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum6.childNodes[0].dataset.id == "5th") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum7.childNodes[0].dataset.id == "2nd") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum8.childNodes[0].dataset.id == "3rd") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum9.childNodes[0].dataset.id == "19th") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum10.childNodes[0].dataset.id == "23rd") {
+      totalPunto = totalPunto + punto;
+    }
+
+    console.log("Total de puntos " + totalPunto);
+    var notatotal = totalPunto.toFixed(2);
+    console.log("Total de puntos " + notatotal);
+    var libro = 6;
+    document.getElementById("idcliente18b").value = users.value;
+    document.getElementById("points18b").value = notatotal;
+    document.getElementById("idlibro18b").value = libro;
+    action = "createact18b";
+    //console.log("idcliente" + users.value);
+    //console.log("idcliente" + notatotal);
+    //console.log("libro" + libro);
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-18b", "ModalLibroSeis18b");
+    sweetAlert(1, "Resultados ingresados", null);
+  } else {
+    console.log("Complete las preguntas");
+    sweetAlert(2, "Complete las preguntas", null);
+  }
+
+  return true;
+});
+ /*Contenedor*/
+ contenedor1_game18.addEventListener("drop", (e) => {
+  e.target.classList.remove("hover");
+  const id = e.dataTransfer.getData("id");
+  console.log(id);
+  e.target.appendChild(document.getElementById(id));
+});
+
+contenedor1_game18.addEventListener("dragover", (e) => {
+  e.preventDefault();
+});
+
+/**Respuestas */
+document.addEventListener("dragstart", (e) => {
+  console.log("dragstart document " + e.target.id);
+  e.dataTransfer.setData("id", e.target.id);
+});
+
+/******* General para mover piezas*/
+document.addEventListener("drop", (e) => {
+  e.target.classList.remove("hover");
+  const id = e.dataTransfer.getData("id");
+  console.log(id);
+  e.target.appendChild(document.getElementById(id));
+});
+
+document.addEventListener("dragover", (e) => {
+  e.preventDefault();
+  e.target.classList.add("hover");
+});
+
+document.addEventListener("dragleave", (e) => {
+  e.target.classList.remove("hover");
+});
+
+
 
 /**************************************************
  ******************** GAME 20 **********************
