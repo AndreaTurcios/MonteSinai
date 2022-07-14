@@ -2670,7 +2670,6 @@
 							<!-- -->
 						</div>
 						<br>
-
 						<div class="row">
 							<!-- 5-->
 							<div class="col-lg-3 col-sm-12 text-center">								
@@ -2811,14 +2810,14 @@
 <!-- fin Actividad 19-->
 <!-- fin Region 29-->
 
-<!-- Actividad 20--> 
+<!-- Actividad 20 pendiente--> 
 <!-- Region 30-->
 <div id="ModalLibroOcho30" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Complete the sentences drescribing the clothes and colors</h5>
+                <h5 class="modal-title" id="modal-title">Identifying what his/her partners are wearing</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit4-act20">
@@ -2833,51 +2832,96 @@
 							</div>
 						</div>
 
-                        <div class="row border box-select-5">
-							<div class="col-md-12">
-								The boys
-								<select id="act20-q1">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">is wearing</option>
-									<option value="2">am wearing</option>
-									<option value="3">are wearing</option><!-- correcto -->
-								</select> black shoes
+						<div class="row">
+							<h6 class="text-left">Fill in the blanks</h6>
+							<div class="col-12 align-items-center">
+								<br>
+								<p class="text-justify">													
+								My family and I are <select id="act17-q1">
+														<option value="0" selected disabled>Fill</option>
+														<option value="1">going</option><!-- correcto -->
+														<option value="2">any</option>
+													</select> to the beach next weekend. 
+								Early in the morning we are <select id="act17-q3">
+																<option value="0" selected disabled>Fill</option>
+																<option value="1">taking</option>
+																<option value="2">any</option><!-- correcto -->
+															</select> a boat to go to an island and then at night, <select id="act17-q3">
+																														<option value="0" selected disabled>Fill</option>
+																														<option value="1">sitting</option>
+																														<option value="2">any</option><!-- correcto -->
+																													</select> in a tent. 
+								Next day, my mother and father are <select id="act17-q3">
+																		<option value="0" selected disabled>Fill</option>
+																		<option value="1">camping</option>
+																		<option value="2">any</option><!-- correcto -->
+																	</select> in the village and my brother and I are going <select id="act17-q3">
+																																<option value="0" selected disabled>Fill</option>
+																																<option value="1">playing</option>
+																																<option value="2">any</option><!-- correcto -->
+																															</select> at the beach and STAY wit a beach ball. 
+								At night, we are <select id="act17-q3">
+													<option value="0" selected disabled>Fill</option>
+													<option value="1">camp</option>
+													<option value="2">sitting</option><!-- correcto -->
+												</select> around a fire and <select id="act17-q3">
+																				<option value="0" selected disabled>Fill</option>
+																				<option value="1">telling</option>
+																				<option value="2">sitting</option><!-- correcto -->
+																			</select> horror stories.
+								</p>
 							</div>
+						
 						</div>
-
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								My mother
-								<select id="act20-q2">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">is wearing</option><!-- correcto -->
-									<option value="2">am wearing</option>
-									<option value="3">are wearing</option>
-								</select> a red dress
+						<br>
+						<div class="row">
+							<h6 class="text-left">Complete the sentences drescribing the clothes and colors</h6>
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									The boys
+									<select id="act20-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">is wearing</option>
+										<option value="2">am wearing</option>
+										<option value="3">are wearing</option><!-- correcto -->
+									</select> black shoes
+								</div>
 							</div>
-						</div>
 
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								You
-								<select id="act20-q3">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">is wearing</option>
-									<option value="2">am wearing</option>
-									<option value="3">are wearing</option><!-- correcto -->
-								</select> black glasses
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									My mother
+									<select id="act20-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">is wearing</option><!-- correcto -->
+										<option value="2">am wearing</option>
+										<option value="3">are wearing</option>
+									</select> a red dress
+								</div>
 							</div>
-						</div>
 
-						<div class="row border box-select-5">
-							<div class="col-md-12">
-								I
-								<select id="act20-q4">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">is wearing</option>
-									<option value="2">am wearing</option><!-- correcto -->
-									<option value="3">are wearing</option>
-								</select> a large and blue shirt
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									You
+									<select id="act20-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">is wearing</option>
+										<option value="2">am wearing</option>
+										<option value="3">are wearing</option><!-- correcto -->
+									</select> black glasses
+								</div>
+							</div>
+
+							<div class="row border box-select-5">
+								<div class="col-md-12">
+									I
+									<select id="act20-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">is wearing</option>
+										<option value="2">am wearing</option><!-- correcto -->
+										<option value="3">are wearing</option>
+									</select> a large and blue shirt
+								</div>
 							</div>
 						</div>
 
@@ -2935,6 +2979,68 @@
 <!-- fin Actividad 20-->
 <!-- fin Region 30-->
 
+<!-- Actividad 21--> 
+<!-- Region 31-->
+<div id="ModalLibroOcho31" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Select the correct questions and answers about people's clothes</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act21">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points21" name="points21">
+                                <input type="text"  class="d-none" id="idlibro21" name="idlibro21">
+								<input type="text"  class="d-none" id="idcliente21" name="idcliente21">
+							</div>
+						</div>
+	
+						<div class="row">
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act21-cb1"><label for="act21-cb1">&nbsp;<strong>Does my father like those white shirts?</strong> Yes, he likes them a lot</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act21-cb2"><label for="act21-cb2">&nbsp;<strong>Do you want to buy something?</strong> Yes, i would like to buy a black suit</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act21-cb3"><label for="act21-cb3">&nbsp;<strong>What is your favorite color?</strong> It's blue</label>
+                                </div>
+							</div>
+                            <div class="col-6">
+								<div class = oracion>
+                                    <input type="checkbox" id="act21-cb4"><label for="act21-cb4">&nbsp;<strong>What color of ball do you like?</strong> I want the red one</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act21-cb5"><label for="act21-cb5">&nbsp;<strong>What color do you prefer the dress?</strong> In yellow, please</label><!-- correct -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="act21-cb6"><label for="act21-cb6">&nbsp;<strong>How is your brother dressed?</strong> He is wearing a white shirt</label><!-- correct -->
+                                </div>
+							</div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 21-->
+<!-- fin Region 31-->
 
 
 

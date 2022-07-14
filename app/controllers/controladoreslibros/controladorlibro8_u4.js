@@ -1359,7 +1359,7 @@ document.getElementById('unit4-act18').addEventListener('submit', function(event
     }
 });
 
-//Unidad 4 Actividad 19 pendiente agregar actividad
+//Unidad 4 Actividad 19
 document.getElementById('unit4-act19').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
@@ -1483,4 +1483,89 @@ document.getElementById('unit4-act20').addEventListener('submit', function(event
             return true;
         }
     }    
+});
+
+//Unidad 4 Actividad 21
+document.getElementById('unit4-act21').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 1;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    conteo = 0; //cuenta la cantidad de respuestas correctas obtenidas
+    respuestas = 4; //respuestas correctas
+    cantidadcbox = 6; //define la cantidad de cbox
+
+    cboxname = "";
+    contadorcbox = 0; //cuenta la cantidad de cbox seleccionados
+    for (let i = 1; i <= cantidadcbox; i++) {
+        cboxname = "act21-cb" + i;
+        if (document.getElementById(cboxname).checked) {
+            contadorcbox++;
+        }
+    }
+    
+    if (contadorcbox != 0) {
+              //Se verifica que solo pueda escoger 4
+        if (contadorcbox > respuestas) {
+            sweetAlert(2, 'It is not valid to select all answers, Only choose four', null);
+        } else {
+            for (i = 1; i < 7; i++) {
+                switch (i) {
+                    case 1:
+                        if (document.getElementById('act21-cb1').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 2:
+                        if (document.getElementById('act21-cb2').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 3:
+                        if (document.getElementById('act21-cb5').checked) {
+                            conteo++;
+                        }
+                        break;
+                    case 4:
+                        if (document.getElementById('act21-cb6').checked) {
+                            conteo++;
+                        }
+                        break;
+                    default:
+                }
+            }
+            
+            //Se revisa si todas las respuestas son correctas
+            if (conteo == respuestas) {
+                var libro = 8;
+                document.getElementById('idcliente21').value = users.value;
+                document.getElementById('points21').value = valorActividad;
+                document.getElementById('idlibro21').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act21', 'ModalLibroOcho31');
+                sweetAlert(1, 'good job', null);
+                var ModalLibroOcho31 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho31'));
+                ModalLibroOcho31.hide();
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / respuestas;
+                let points = (puntaje * conteo).toFixed(2);
+                var libro = 8;
+                document.getElementById('idcliente21').value = users.value;
+                document.getElementById('points21').value = points;
+                document.getElementById('idlibro21').value = libro;
+                console.log(points);
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act21', 'ModalLibroOcho31');
+                sweetAlert(4, conteo + '/' + respuestas +' answers right', null);
+                var ModalLibroOcho31 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho31'));
+                ModalLibroOcho31.hide();
+                return true;
+            }
+        }
+    } else {
+        sweetAlert(2, 'Select the sentences', null);
+    }
 });
