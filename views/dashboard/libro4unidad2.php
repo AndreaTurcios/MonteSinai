@@ -516,90 +516,90 @@ Book_Page::headerTemplate('Unidad 2');
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-1" placeholder="1..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-1" placeholder="1..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-2" placeholder="2..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-2" placeholder="2..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-3" placeholder="3..." class="form-control">
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-4" placeholder="4..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-5" placeholder="5..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-6" placeholder="6..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-3" placeholder="3..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-7" placeholder="7..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-4" placeholder="4..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-8" placeholder="8..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-5" placeholder="5..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-9" placeholder="9..." class="form-control">
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-10" placeholder="10..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-11" placeholder="11..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-12" placeholder="12..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-6" placeholder="6..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-13" placeholder="13..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-7" placeholder="7..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-14" placeholder="14..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-8" placeholder="8..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-15" placeholder="15..." class="form-control">
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-16" placeholder="16..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-17" placeholder="17..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-18" placeholder="18..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-9" placeholder="9..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-19" placeholder="19..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-10" placeholder="10..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-20" placeholder="20..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-11" placeholder="11..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-21" placeholder="21..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-12" placeholder="12..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-22" placeholder="22..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-13" placeholder="13..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-23" placeholder="23..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-14" placeholder="14..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act1-24" placeholder="24..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act1-15" placeholder="15..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-16" placeholder="16..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-17" placeholder="17..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-18" placeholder="18..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-19" placeholder="19..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-20" placeholder="20..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-21" placeholder="21..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-22" placeholder="22..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-23" placeholder="23..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act1-24" placeholder="24..." class="form-control">
 										</div>
 									</div>
 								</div>
@@ -1529,40 +1529,40 @@ Book_Page::headerTemplate('Unidad 2');
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-1" placeholder="1..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act4-1" placeholder="1..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-2" placeholder="2..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act4-2" placeholder="2..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-3" placeholder="3..." class="form-control">
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-4" placeholder="4..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-5" placeholder="5..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-6" placeholder="6..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act4-3" placeholder="3..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-7" placeholder="7..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act4-4" placeholder="4..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-8" placeholder="8..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act4-5" placeholder="5..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-9" placeholder="9..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act4-6" placeholder="6..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act4-10" placeholder="10..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act4-7" placeholder="7..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act4-8" placeholder="8..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act4-9" placeholder="9..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act4-10" placeholder="10..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
 											
@@ -1623,51 +1623,51 @@ Book_Page::headerTemplate('Unidad 2');
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-1" placeholder="1..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act5-1" placeholder="1..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-2" placeholder="2..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act5-2" placeholder="2..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-3" placeholder="3..." class="form-control">
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-4" placeholder="4..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-5" placeholder="5..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-6" placeholder="6..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act5-3" placeholder="3..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-7" placeholder="7..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act5-4" placeholder="4..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-8" placeholder="8..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act5-5" placeholder="5..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-9" placeholder="9..." class="form-control">
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-10" placeholder="10..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-11" placeholder="11..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-12" placeholder="12..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act5-6" placeholder="6..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act5-13" placeholder="13..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act5-7" placeholder="7..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act5-8" placeholder="8..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act5-9" placeholder="9..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act5-10" placeholder="10..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act5-11" placeholder="11..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act5-12" placeholder="12..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act5-13" placeholder="13..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
 										</div>
@@ -1727,40 +1727,40 @@ Book_Page::headerTemplate('Unidad 2');
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-1" placeholder="1..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act6-1" placeholder="1..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-2" placeholder="2..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act6-2" placeholder="2..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-3" placeholder="3..." class="form-control">
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-4" placeholder="4..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-5" placeholder="5..." class="form-control">
-										</div>
-										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-6" placeholder="6..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act6-3" placeholder="3..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-7" placeholder="7..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act6-4" placeholder="4..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-8" placeholder="8..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act6-5" placeholder="5..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-9" placeholder="9..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act6-6" placeholder="6..." class="form-control">
 										</div>
 									</div>
 									<div class="row mb-4">
 										<div class="col-4 pe-3">
-											<input type="text" id="input-act6-10" placeholder="10..." class="form-control">
+											<input autocomplete="off" type="text" id="input-act6-7" placeholder="7..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act6-8" placeholder="8..." class="form-control">
+										</div>
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act6-9" placeholder="9..." class="form-control">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-4 pe-3">
+											<input autocomplete="off" type="text" id="input-act6-10" placeholder="10..." class="form-control">
 										</div>
 										<div class="col-4 pe-3">
 										</div>
@@ -2124,61 +2124,61 @@ Book_Page::headerTemplate('Unidad 2');
 												<tr>
 													<th width="20%" scope="row" class="th-act8">41</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-1" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-1" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">42</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-2" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-2" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">43</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-3" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-3" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">44</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-4" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-4" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">45</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-5" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-5" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">46</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-6" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-6" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">47</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-7" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-7" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">48</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-8" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-8" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">49</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-9" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-9" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">50</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-10" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-10" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 											</table>
@@ -2188,61 +2188,61 @@ Book_Page::headerTemplate('Unidad 2');
 												<tr>
 													<th width="20%" scope="row" class="th-act8">51</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-11" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-11" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">52</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-12" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-12" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">53</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-13" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-13" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">54</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-14" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-14" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">55</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-15" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-15" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">56</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-16" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-16" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">57</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-17" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-17" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">58</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-18" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-18" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">59</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-19" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-19" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 												<tr>
 													<th width="20%" scope="row" class="th-act8">60</th>
 													<td width="80%" class="box-act8-u2">
-														<input type="text" class="form-control" id="input-act9-20" placeholder="Write the number..." maxlength="11">
+														<input autocomplete="off" type="text" class="form-control" id="input-act9-20" placeholder="Write the number..." maxlength="11">
 													</td>
 												</tr>
 											</table>
@@ -2422,7 +2422,7 @@ Book_Page::headerTemplate('Unidad 2');
 												</div>
 												<div class="col">
 													<p>How many grapes do you see?</p>
-													<input type="number" class="form-control" id="input-act11-1" min="1" max="20">
+													<input type="number" class="form-control" id="input-act11-1" min="1" max="20" autocomplete="off">
 												</div>
 											</div>
 										</div>
@@ -2433,7 +2433,7 @@ Book_Page::headerTemplate('Unidad 2');
 												</div>
 												<div class="col">
 													<p>How many pears do you see?</p>
-													<input type="number" class="form-control" id="input-act11-2" min="1" max="20">
+													<input type="number" class="form-control" id="input-act11-2" min="1" max="20" autocomplete="off">
 												</div>
 											</div>
 										</div>
@@ -2446,7 +2446,7 @@ Book_Page::headerTemplate('Unidad 2');
 												</div>
 												<div class="col">
 													<p>How many melons do you see?</p>
-													<input type="number" class="form-control" id="input-act11-3" min="1" max="20">
+													<input type="number" class="form-control" id="input-act11-3" min="1" max="20" autocomplete="off">
 												</div>
 											</div>
 										</div>
@@ -2457,7 +2457,7 @@ Book_Page::headerTemplate('Unidad 2');
 												</div>
 												<div class="col">
 													<p>How many oranges do you see?</p>
-													<input type="number" class="form-control" id="input-act11-4" min="1" max="20">
+													<input type="number" class="form-control" id="input-act11-4" min="1" max="20" autocomplete="off">
 												</div>
 											</div>
 										</div>
@@ -2510,48 +2510,48 @@ Book_Page::headerTemplate('Unidad 2');
 										<div class="col">
 											<p><b>What time do you wake up?</b></p>
 											<p style="display: inline;">I wake up at</p>
-											<input type="text" id="input-act12-1" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-1" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you get up?</b></p>
 											<p style="display: inline;">I get up at</p>
-											<input type="text" id="input-act12-2" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-2" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<p><b>What time do you take a shower?</b></p>
 											<p style="display: inline;">I take a shower at</p>
-											<input type="text" id="input-act12-3" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-3" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you get dressed?</b></p>
 											<p style="display: inline;">I get dressed at</p>
-											<input type="text" id="input-act12-4" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-4" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<p><b>What time do you eat breakfast?</b></p>
 											<p style="display: inline;">I eat breakfast at</p>
-											<input type="text" id="input-act12-5" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-5" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you go to school?</b></p>
 											<p style="display: inline;">I go to school at</p>
-											<input type="text" id="input-act12-6" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-6" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<p><b>What time do you eat lunch?</b></p>
 											<p style="display: inline;">I eat lunch at</p>
-											<input type="text" id="input-act12-7" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-7" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you wash your dishes?</b></p>
 											<p style="display: inline;">I wash my dishes at</p>
-											<input type="text" id="input-act12-8" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act12-8" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 								</div>
@@ -2600,48 +2600,48 @@ Book_Page::headerTemplate('Unidad 2');
 										<div class="col">
 											<p><b>What time do you wash your body?</b></p>
 											<p style="display: inline;">I wash my body at </p>
-											<input type="text" id="input-act13-1" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-1" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you eat breakfast?</b></p>
 											<p style="display: inline;">I eat breakfast at </p>
-											<input type="text" id="input-act13-2" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-2" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<p><b>What time do you go to school?</b></p>
 											<p style="display: inline;">I go to school at </p>
-											<input type="text" id="input-act13-3" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-3" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you give your homework?</b></p>
 											<p style="display: inline;">I give my homework at</p>
-											<input type="text" id="input-act13-4" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-4" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<p><b>What time do you take your english class?</b></p>
 											<p style="display: inline;">I take my english class at</p>
-											<input type="text" id="input-act13-5" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-5" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you listen your english class?</b></p>
 											<p style="display: inline;">I listen my english class at</p>
-											<input type="text" id="input-act13-6" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-6" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<p><b>What time do you take your recess?</b></p>
 											<p style="display: inline;">I take my recess at</p>
-											<input type="text" id="input-act13-7" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-7" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 										<div class="col">
 											<p><b>What time do you walk to your house?</b></p>
 											<p style="display: inline;">I walk to my house at</p>
-											<input type="text" id="input-act13-8" class="time-b4" style="display: inline-block;">
+											<input type="text" id="input-act13-8" class="time-b4" style="display: inline-block;" autocomplete="off">
 										</div>
 									</div>
 								</div>
@@ -2663,6 +2663,866 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
+<div id="ModalUnit2Act14" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act14">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Choose your menu and draw what you prefer to eat at</p>
+											<input type="text" class="d-none" id="points14" name="points">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro">
+										</div>
+									</div>
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 15px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										#canvas14 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearButton14 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+									
+									<header>
+										<div class="d-flex justify-content-center">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/15-1.jpg" width="75%" class="img-fluid" alt="Foods">	
+										</div>
+										<div class="grid mb-4">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker14" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker14">
+												</div>
+											</div>
+											<div class="clear">
+												<p>clear the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearButton14">Clear canvas</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="container-fluid d-flex justify-content-center">
+											<input type="number" value="0" id="verify-canvas" class="d-none">
+											<canvas id="canvas14" style="background: url('../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/15.jpg')"
+											width="381" height="802">
+											</canvas>
+										</div>
+									</header>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Librerias para el Canvas -->
+					<script src="https://s.cdpn.io/6859/paper.js"></script>
+        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act15" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act15">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Choose and drag</p>
+											<input type="text" class="d-none" id="points15" name="points">
+											<input type="text" class="d-none" id="idcliente15" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Foods</th>
+												<tr>
+													<td id="box-act15-1" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Fruits</th>
+												<tr>
+													<td id="box-act15-2" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row d-flex justify-content-between" id="container-act15-1">
+												<div id="option-act15-37" class="col d-table" draggable="true">cauliflower</div>
+												<div id="option-act15-1" class="col d-table" draggable="true">macaroni</div>
+												<div id="option-act15-18" class="col d-table" draggable="true">coconut</div>
+												<div id="option-act15-2" class="col d-table" draggable="true">pop corn</div>
+												<div id="option-act15-3" class="col d-table" draggable="true">butter</div>
+												<div id="option-act15-29" class="col d-table" draggable="true">milk</div>
+												<div id="option-act15-4" class="col d-table" draggable="true">eggs</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act15-2">
+												<div id="option-act15-19" class="col d-table" draggable="true">zapote</div>
+												<div id="option-act15-20" class="col d-table" draggable="true">strawberries</div>
+												<div id="option-act15-21" class="col d-table" draggable="true">grapes</div>
+												<div id="option-act15-30" class="col d-table" draggable="true">tea</div>
+												<div id="option-act15-5" class="col d-table" draggable="true">fish</div>
+												<div id="option-act15-6" class="col d-table" draggable="true">cookies</div>
+												<div id="option-act15-7" class="col d-table" draggable="true">meat</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act15-3">
+												<div id="option-act15-38" class="col d-table" draggable="true">potatoes</div>
+												<div id="option-act15-31" class="col d-table" draggable="true">hot chocolate</div>
+												<div id="option-act15-32" class="col d-table" draggable="true">water</div>
+												<div id="option-act15-8" class="col d-table" draggable="true">sour cream</div>
+												<div id="option-act15-33" class="col d-table" draggable="true">milk shake</div>
+												<div id="option-act15-9" class="col d-table" draggable="true">cereal</div>
+												<div id="option-act15-22" class="col d-table" draggable="true">watermelon</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act15-4">
+												<div id="option-act15-10" class="col d-table" draggable="true">hot dog</div>
+												<div id="option-act15-34" class="col d-table" draggable="true">orange juice</div>
+												<div id="option-act15-39" class="col d-table" draggable="true">cabbage</div>
+												<div id="option-act15-35" class="col d-table" draggable="true">coffee</div>
+												<div id="option-act15-11" class="col d-table" draggable="true">french fries</div>
+												<div id="option-act15-40" class="col d-table" draggable="true">carrot</div>
+												<div id="option-act15-23" class="col d-table" draggable="true">pear</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act15-5">
+												<div id="option-act15-24" class="col d-table" draggable="true">banana</div>
+												<div id="option-act15-12" class="col d-table" draggable="true">rice</div>
+												<div id="option-act15-41" class="col d-table" draggable="true">lettuce</div>
+												<div id="option-act15-25" class="col d-table" draggable="true">pineapple</div>
+												<div id="option-act15-13" class="col d-table" draggable="true">bread</div>
+												<div id="option-act15-14" class="col d-table" draggable="true">pizza</div>
+												<div id="option-act15-36" class="col d-table" draggable="true">lemonade</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act15-6">
+												<div id="option-act15-26" class="col d-table" draggable="true">mango</div>
+												<div id="option-act15-42" class="col d-table" draggable="true">cucumber</div>
+												<div id="option-act15-15" class="col d-table" draggable="true">salad</div>
+												<div id="option-act15-27" class="col d-table" draggable="true">orange</div>
+												<div id="option-act15-28" class="col d-table" draggable="true">apple</div>
+												<div id="option-act15-16" class="col d-table" draggable="true">hamburger</div>
+												<div id="option-act15-17" class="col d-table" draggable="true">pancake</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Drinks</th>
+												<tr>
+													<td id="box-act15-3" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Vegetables</th>
+												<tr>
+													<td id="box-act15-4" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act16" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act16">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Drag and choose a sentence according to the image</p>
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row row-cols-2 container-act16">
+												<div id="option-act16-4" class="col mb-3" draggable="true">He is climbing the tree.</div>
+												<div id="option-act16-6" class="col mb-3" draggable="true">The lady likes to swim.</div>
+												<div id="option-act16-3" class="col mb-3" draggable="true">The boy loves skateboarding every evening.</div>
+												<div id="option-act16-1" class="col mb-3" draggable="true">The boy is flying a kite.</div>
+												<div id="option-act16-7" class="col mb-3" draggable="true">He likes to ride a horse.</div>
+												<div id="option-act16-5" class="col mb-3" draggable="true">The boy is running.</div>
+												<div id="option-act16-2" class="col mb-3" draggable="true">He rides a bike every afternoon.</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/18-1.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act16-1"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/18-2.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act16-2"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/18-3.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act16-3"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/18-4.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act16-4"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/18-5.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act16-5"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/18-6.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act16-6"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/18-7.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act16-7"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act17" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act17">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Drag and choose a sentence according to the image</p>
+											<input type="text" class="d-none" id="points17" name="points">
+											<input type="text" class="d-none" id="idcliente17" name="idcliente">
+											<input type="text" class="d-none" id="idlibro17" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row row-cols-2 container-act16">
+												<div id="option-act17-4" class="col mb-3" draggable="true">The boy likes to go fishing.</div>
+												<div id="option-act17-6" class="col mb-3" draggable="true">We enjoy playing volleyball.</div>
+												<div id="option-act17-3" class="col mb-3" draggable="true">They like to play softball.</div>
+												<div id="option-act17-1" class="col mb-3" draggable="true">We like to play basketball.</div>
+												<div id="option-act17-5" class="col mb-3" draggable="true">On Sunday I play baseball.</div>
+												<div id="option-act17-2" class="col mb-3" draggable="true">I love surfing on the waves.</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/19-1.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act17-1"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/19-2.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act17-2"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/19-3.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act17-3"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/19-4.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act17-4"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/19-5.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act17-5"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/19-6.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act17-6"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act18" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act18">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the different sports</p>
+											<input type="text" class="d-none" id="points18" name="points">
+											<input type="text" class="d-none" id="idcliente18" name="idcliente">
+											<input type="text" class="d-none" id="idlibro18" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/19-7.jpg" alt="Sports" class="img-fluid">
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act18-1" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act18-2" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act18-3" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act18-4" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act18-5" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act18-6" placeholder="...">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act19" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act19">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Drag and choose a sentence according to the image</p>
+											<input type="text" class="d-none" id="points19" name="points">
+											<input type="text" class="d-none" id="idcliente19" name="idcliente">
+											<input type="text" class="d-none" id="idlibro19" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row row-cols-2 container-act16">
+												<div id="option-act19-4" class="col mb-3" draggable="true">They enjoy playing hide and seek.</div>
+												<div id="option-act19-6" class="col mb-3" draggable="true">They are playing yo-yo.</div>
+												<div id="option-act19-3" class="col mb-3" draggable="true">They prefer to play jump rope.</div>
+												<div id="option-act19-1" class="col mb-3" draggable="true">He likes to play spinning top.</div>
+												<div id="option-act19-5" class="col mb-3" draggable="true">He likes to play marbles.</div>
+												<div id="option-act19-2" class="col mb-3" draggable="true">She likes to play hopscotch.</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/20-1.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act19-1"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/20-2.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act19-2"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/20-3.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act19-3"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/20-4.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act19-4"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/20-5.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act19-5"></td>
+												</tr>
+												<tr>
+													<td width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/20-6.jpg" class="img-fluid"></td>
+													<td width="70%" id="box-act19-6"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act20" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act20">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the games</p>
+											<input type="text" class="d-none" id="points20" name="points">
+											<input type="text" class="d-none" id="idcliente20" name="idcliente">
+											<input type="text" class="d-none" id="idlibro20" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-5">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/20-7.jpg" alt="Sports" class="img-fluid">
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act20-1" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act20-2" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act20-3" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act20-4" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act20-5" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act20-6" placeholder="...">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act21" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act21">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Choose your menu and draw what you prefer to eat at</p>
+											<input type="text" class="d-none" id="points21" name="points">
+											<input type="text" class="d-none" id="idcliente21" name="idcliente">
+											<input type="text" class="d-none" id="idlibro21" name="idlibro">
+										</div>
+									</div>
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 15px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										#canvas14 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearButton21 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+									
+									<header>
+										<div class="grid mb-4">
+											<div class="color">
+												<p>Pick a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker21" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker21">
+												</div>
+											</div>
+											<div class="clear">
+												<p>clear the canvas:</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearButton21">Clear canvas</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="container-fluid d-flex justify-content-center">
+											<input type="number" value="0" id="verify-canvas" class="d-none">
+											<canvas id="canvas21" style="background: url('../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/21.jpg')"
+											width="731" height="418">
+											</canvas>
+										</div>
+									</header>
+									<div class="row row-cols-2">
+										<div class="col">
+											<label for="input-act21-1">Express why do you like them:</label>
+    										<textarea class="form-control" id="input-act21-1" rows="3"></textarea>
+										</div>
+										<div class="col">
+											<label for="input-act21-2">Express why you don't like them:</label>
+    										<textarea class="form-control" id="input-act21-2" rows="3"></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Librerias para el Canvas -->
+					<script src="https://s.cdpn.io/6859/paper.js"></script>
+        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
