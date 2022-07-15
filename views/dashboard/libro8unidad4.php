@@ -2810,7 +2810,7 @@
 <!-- fin Actividad 19-->
 <!-- fin Region 29-->
 
-<!-- Actividad 20 pendiente--> 
+<!-- Actividad 20 --> 
 <!-- Region 30-->
 <div id="ModalLibroOcho30" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
@@ -2837,49 +2837,68 @@
 							<div class="col-12 align-items-center">
 								<br>
 								<p class="text-justify">													
-								My family and I are <select id="act17-q1">
+								My family and I are <select id="act20-q1">
 														<option value="0" selected disabled>Fill</option>
 														<option value="1">going</option><!-- correcto -->
-														<option value="2">any</option>
+														<option value="2">taking</option>
+														<option value="3">camping</option>
 													</select> to the beach next weekend. 
-								Early in the morning we are <select id="act17-q3">
+								Early in the morning we are <select id="act20-q2">
 																<option value="0" selected disabled>Fill</option>
-																<option value="1">taking</option>
-																<option value="2">any</option><!-- correcto -->
-															</select> a boat to go to an island and then at night, <select id="act17-q3">
+																<option value="1">going</option>
+																<option value="2">taking</option><!-- correcto -->
+																<option value="3">camping</option>
+															</select> a boat to go to an island and then at night, <select id="act20-q3">
 																														<option value="0" selected disabled>Fill</option>
-																														<option value="1">sitting</option>
-																														<option value="2">any</option><!-- correcto -->
+																														<option value="1">staying</option>
+																														<option value="2">camping</option><!-- correcto -->
+																														<option value="3">fishing</option>
 																													</select> in a tent. 
-								Next day, my mother and father are <select id="act17-q3">
+								Next day, my mother and father are <select id="act20-q4">
 																		<option value="0" selected disabled>Fill</option>
-																		<option value="1">camping</option>
-																		<option value="2">any</option><!-- correcto -->
-																	</select> in the village and my brother and I are going <select id="act17-q3">
+																		<option value="1">staying</option><!-- correcto -->
+																		<option value="2">camping</option>
+																		<option value="3">fishing</option>
+																	</select> in the village and my brother and I are going <select id="act20-q5">
 																																<option value="0" selected disabled>Fill</option>
-																																<option value="1">playing</option>
-																																<option value="2">any</option><!-- correcto -->
-																															</select> at the beach and STAY wit a beach ball. 
-								At night, we are <select id="act17-q3">
+																																<option value="1">staying</option>
+																																<option value="2">camping</option>
+																																<option value="3">fishing</option><!-- correcto -->
+																															</select>, <select id="act20-q6">
+																																			<option value="0" selected disabled>Fill</option>
+																																			<option value="1">playing</option>
+																																			<option value="2">swimming</option><!-- correcto -->
+																																			<option value="3">fishing</option>
+																																		</select> at the beach and <select id="act20-q7">
+																																										<option value="0" selected disabled>Fill</option>
+																																										<option value="1">playing</option><!-- correcto -->
+																																										<option value="2">swimming</option>
+																																										<option value="3">fishing</option>
+																																									</select> wit a beach ball. 
+								At night, we are <select id="act20-q8">
 													<option value="0" selected disabled>Fill</option>
-													<option value="1">camp</option>
+													<option value="1">camping</option>
 													<option value="2">sitting</option><!-- correcto -->
-												</select> around a fire and <select id="act17-q3">
+													<option value="3">telling</option>
+												</select> around a fire and <select id="act20-q9">
 																				<option value="0" selected disabled>Fill</option>
-																				<option value="1">telling</option>
-																				<option value="2">sitting</option><!-- correcto -->
+																				<option value="1">camping</option>
+																				<option value="2">sitting</option>
+																				<option value="3">telling</option><!-- correcto -->
 																			</select> horror stories.
 								</p>
 							</div>
 						
 						</div>
+
 						<br>
+
 						<div class="row">
 							<h6 class="text-left">Complete the sentences drescribing the clothes and colors</h6>
 							<div class="row border box-select-5">
 								<div class="col-md-12">
 									The boys
-									<select id="act20-q1">
+									<select id="act20-q10">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is wearing</option>
 										<option value="2">am wearing</option>
@@ -2891,7 +2910,7 @@
 							<div class="row border box-select-5">
 								<div class="col-md-12">
 									My mother
-									<select id="act20-q2">
+									<select id="act20-q11">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is wearing</option><!-- correcto -->
 										<option value="2">am wearing</option>
@@ -2903,7 +2922,7 @@
 							<div class="row border box-select-5">
 								<div class="col-md-12">
 									You
-									<select id="act20-q3">
+									<select id="act20-q12">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is wearing</option>
 										<option value="2">am wearing</option>
@@ -2915,7 +2934,7 @@
 							<div class="row border box-select-5">
 								<div class="col-md-12">
 									I
-									<select id="act20-q4">
+									<select id="act20-q13">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is wearing</option>
 										<option value="2">am wearing</option><!-- correcto -->
@@ -3041,6 +3060,340 @@
 </div>
 <!-- fin Actividad 21-->
 <!-- fin Region 31-->
+
+<!-- Actividad 22--> 
+<!-- Region 32-->
+<div id="ModalLibroOcho32" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Identifying questions and answers about colors of items</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act22">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points22" name="points22">
+                                <input type="text"  class="d-none" id="idlibro22" name="idlibro22">
+								<input type="text"  class="d-none" id="idcliente22" name="idcliente22">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-sm-4">								
+								<div class="col">
+									<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag32/act22_ej1.PNG"
+									class="rounded mx-auto d-block">
+								</div>
+							</div>	
+							<div class="col-lg-6 col-sm-4">								
+								<div class="col">
+									<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag32/act22_ej2.PNG"
+									class="rounded mx-auto d-block">
+								</div>
+							</div>
+						</div>
+
+						<br>
+						<h6 class="modal-title" id="modal-title">Select the correct questions and answers about colors of items</h6><br>
+                        <div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act22-q1">What's the color of her sweater?</label>
+								<select id="act22-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">It's yellow.</option>
+									<option value="2">It's green.</option><!-- correcto -->
+									<option value="3">It's orange.</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act22-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">What's the color of her scarf?</option>
+									<option value="2">What's the color of the flower?</option><!-- correcto -->
+									<option value="3">What's the color of her hat?</option>
+								</select>
+								<label for="act22-q2">It's yellow.</label>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<label for="act22-q3">What's the color of her scarf?</label>
+								<select id="act22-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">It's yellow.</option>
+									<option value="2">It's green.</option>
+									<option value="3">It's orange.</option><!-- correcto -->
+								</select>
+							</div>
+						</div>
+
+						<div class="row border box-select-5">
+							<div class="col-md-12">
+								<select id="act22-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">What's the color of her scarf?</option>
+									<option value="2">What's the color of her hat?</option><!-- correcto -->
+									<option value="3">What's the color of her sweater?</option>
+								</select>
+								<label for="act22-q4">It's red with yellow.</label>
+							</div>
+						</div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 22-->
+<!-- fin Region 32-->
+
+<!-- Actividad 23-->
+<!-- Region 33-->
+<div id="ModalLibroOcho33" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Complete these activities and measure your archievements!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act23">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points23" name="points23">
+                                <input type="text"  class="d-none" id="idlibro23" name="idlibro23">
+								<input type="text"  class="d-none" id="idcliente23" name="idcliente23">
+							</div>
+						</div>
+
+						<div class="row">
+							<!-- pregunta1 -->
+                            <div class="col-6">
+								<div class="col-12">
+									<strong>I-What's the meaning of 'red'?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act12-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is the color of sunshine</option>
+										<option value="2">Is the color of the sky and sea</option>
+										<option value="3">Is the color of fire and blood</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<!-- pregunta2 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>II-What's the meaning of 'blue'?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act12-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is the color of sunshine</option>
+										<option value="2">Is the color of the sky and sea</option><!-- correcto -->
+										<option value="3">Is the color of fire and blood</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta3 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>III-</strong>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act6-q1">?</label>
+									<select id="act12-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">.</option>
+										<option value="2">.</option>
+										<option value="3">.</option><!-- correcto -->
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act12-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">?</option><!-- correcto -->
+										<option value="2">?</option>
+									</select>
+									<label for="act12-q4">.</label>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act12-q5">?</label>
+									<select id="act12-q5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">.</option>
+										<option value="2">.</option><!-- correcto -->
+										<option value="3">.</option>
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act12-q6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">?</option>
+										<option value="2">?</option><!-- correcto -->
+									</select>
+									<label for="act12-q6">.</label>
+								</div>
+								
+							</div>
+							<!-- pregunta4 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<label for="act6-q1">?</label>
+									<select id="act12-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">.</option>
+										<option value="2">.</option>
+										<option value="3">.</option><!-- correcto -->
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act12-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">?</option><!-- correcto -->
+										<option value="2">?</option>
+									</select>
+									<label for="act12-q4">.</label>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act12-q5">?</label>
+									<select id="act12-q5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">.</option>
+										<option value="2">.</option><!-- correcto -->
+										<option value="3">.</option>
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act12-q6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">?</option>
+										<option value="2">?</option><!-- correcto -->
+									</select>
+									<label for="act12-q6">.</label>
+								</div>
+
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act12-q11">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1"></option>
+										<option value="2"></option>
+										<option value="3"></option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act12-q12">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1"></option>
+										<option value="2"></option>
+										<option value="3"></option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act12-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1"></option><!-- correcto -->
+										<option value="2"></option>
+										<option value="3"></option>
+									</select>
+								</div>
+							</div>
+
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act12-q14">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1"></option><!-- correcto -->
+										<option value="2"></option>
+										<option value="3"></option>
+									</select>
+								</div>
+							</div>
+	
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 23-->
+<!-- fin Region 33-->
 
 
 
