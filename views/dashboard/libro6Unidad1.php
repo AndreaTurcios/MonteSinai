@@ -1813,16 +1813,91 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-22">
                 <div class="modal-body">
                     <div class="container-fluid">
-
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
+                        <div class="col-md-8 align-items-center" align="letf">
+                            <p class="">Complete with Present Simple.</p>
+                            <!-- class="d-none" -->
+                            <input type="text" class="d-none" id="points22" name="points22">
+                            <input type="text" class="d-none" id="idcliente22" name="idcliente22">
+                            <input type="text" class="d-none" id="idlibro22" name="idlibro22">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <table>
+                                        <tr>
+                                            <td style="width: 10%;">1.</td>
+                                            <td>My mon</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-22-q1"></td>
+                                            <td>her car everyday.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">2.</td>
+                                            <td>Nancy</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-22-q2"></td>
+                                            <td>piano lessons.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">3.</td>
+                                            <td>He</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q3"></td>
+                                            <td>more time.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">4.</td>
+                                            <td>Time</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q4"></td>
+                                            <td>over.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">5.</td>
+                                            <td>Factories</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q5"></td>
+                                            <td>the planet.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">6.</td>
+                                            <td>Your</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q6"></td>
+                                            <td>chocolate cake.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">7.</td>
+                                            <td>The girls</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q7"></td>
+                                            <td>to school.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">8.</td>
+                                            <td>You</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q8"></td>
+                                            <td>every night.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">9.</td>
+                                            <td>Diego</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q9"></td>
+                                            <td>tag with his friend.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">10.</td>
+                                            <td>She</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-21-q10"></td>
+                                            <td>a new dress.</td>
+                                        </tr>
+                                    </table>
+                                </center>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
