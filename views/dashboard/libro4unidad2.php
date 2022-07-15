@@ -3374,7 +3374,7 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Choose your menu and draw what you prefer to eat at</p>
+											<p class="fs-5 fw-bold">Expressing likes and dislikes about sports</p>
 											<input type="text" class="d-none" id="points21" name="points">
 											<input type="text" class="d-none" id="idcliente21" name="idcliente">
 											<input type="text" class="d-none" id="idlibro21" name="idlibro">
@@ -3523,6 +3523,1081 @@ Book_Page::headerTemplate('Unidad 2');
 		</div>
 	</div>
 </div>
+
+<div id="ModalUnit2Act22" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act22">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the sports</p>
+											<input type="text" class="d-none" id="points22" name="points">
+											<input type="text" class="d-none" id="idcliente22" name="idcliente">
+											<input type="text" class="d-none" id="idlibro22" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-1" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-2" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-3" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-4" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-5" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-6" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-7" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-8" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-9" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-10" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-11" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-12" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-13" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-14" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act22-15" placeholder="...">
+										</div>
+										<div class="col">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act23" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act23">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Identifying traditional games</p>
+											<input type="text" class="d-none" id="points23" name="points">
+											<input type="text" class="d-none" id="idcliente23" name="idcliente">
+											<input type="text" class="d-none" id="idlibro23" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tbody>
+													<tr>
+														<th rowspan="2" scope="rowgroup" width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/22-1.jpg" class="img-fluid"></th>
+														<td><p><b>What is Francisco doing?</b></p></td>
+													</tr>
+													<tr>
+														<td>
+															<select id="select-act23-1" class="form-select">
+																<option value="0" disabled selected></option>
+																<option value="1">He is playing marbles.</option>
+																<option value="2">He is playing yo-yo.</option>
+																<option value="3">He is playing spinning top.</option>
+															</select>
+														</td>
+													</tr>
+												</tbody>
+												<tbody>
+													<tr>
+														<th rowspan="2" scope="rowgroup" width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/22-2.jpg" class="img-fluid"></th>
+														<td><p><b>What is Melvin doing?</b></p></td>
+													</tr>
+													<tr>
+														<td>
+															<select id="select-act23-2" class="form-select">
+																<option value="0" disabled selected></option>
+																<option value="1">Melvin is playing hopscotch.</option>
+																<option value="2">He is jumping rope.</option>
+																<option value="3">Melvin is playing yo-yo.</option>
+															</select>
+														</td>
+													</tr>
+												</tbody>
+												<tbody>
+													<tr>
+														<th rowspan="2" scope="rowgroup" width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/22-3.jpg" class="img-fluid"></th>
+														<td><p><b>What is Katherine doing?</b></p></td>
+													</tr>
+													<tr>
+														<td>
+															<select id="select-act23-3" class="form-select">
+																<option value="0" disabled selected></option>
+																<option value="1">She is playing hopscotch.</option>
+																<option value="2">She is playing jacks.</option>
+																<option value="3">Katherine is playing marbles.</option>
+															</select>
+														</td>
+													</tr>
+												</tbody>
+												<tbody>
+													<tr>
+														<th rowspan="2" scope="rowgroup" width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/22-4.jpg" class="img-fluid"></th>
+														<td><p><b>What is Patty doing?</b></p></td>
+													</tr>
+													<tr>
+														<td>
+															<select id="select-act23-4" class="form-select">
+																<option value="0" disabled selected></option>
+																<option value="1">They are playing hide and seek.</option>
+																<option value="2">She is jumping rope.</option>
+																<option value="3">She is playing spinning top.</option>
+															</select>
+														</td>
+													</tr>
+												</tbody>
+												<tbody>
+													<tr>
+														<th rowspan="2" scope="rowgroup" width="30%"><img src="../../resources/img/BOOKS/FourthGrade/UnitTwo/activities/22-5.jpg" class="img-fluid"></th>
+														<td><p><b>What is Douglas doing?</b></p></td>
+													</tr>
+													<tr>
+														<td>
+															<select id="select-act23-5" class="form-select">
+																<option value="0" disabled selected></option>
+																<option value="1">He is playing hopscotch.</option>
+																<option value="2">Douglas is playing spinning top.</option>
+																<option value="3">Douglas is playing yo-yo.</option>
+															</select>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act24" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act24">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the games</p>
+											<input type="text" class="d-none" id="points24" name="points">
+											<input type="text" class="d-none" id="idcliente24" name="idcliente">
+											<input type="text" class="d-none" id="idlibro24" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act24-1" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act24-2" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act24-3" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act24-4" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act24-5" placeholder="...">
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act24-6" placeholder="...">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col">
+											<input type="text" class="form-control" autocomplete="off" id="input-act24-7" placeholder="...">
+										</div>
+										<div class="col">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act25" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act25">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer the question using can in affirmative and negative form</p>
+											<input type="text" class="d-none" id="points25" name="points">
+											<input type="text" class="d-none" id="idcliente25" name="idcliente">
+											<input type="text" class="d-none" id="idlibro25" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-4">
+										<div class="col text-center">
+											<b>Question</b>
+										</div>
+										<div class="col text-center">
+											<b>Answer</b>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can the man ride a horse?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-1">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can.</option>
+												<option value="2">Yes, she can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-2">
+												<option value="0" disabled selected></option>
+												<option value="1">No, he can't.</option>
+												<option value="2">No, he can.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can the girl fly a kite?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-3">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can.</option>
+												<option value="2">Yes, she can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-4">
+												<option value="0" disabled selected></option>
+												<option value="1">No, he can't.</option>
+												<option value="2">No, she can't.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can the boy climb at the tree?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-5">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can.</option>
+												<option value="2">Yes, she can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-6">
+												<option value="0" disabled selected></option>
+												<option value="1">No, he can't.</option>
+												<option value="2">No, she can't.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can the boy play soccer?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-7">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can't.</option>
+												<option value="2">Yes, he can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-8">
+												<option value="0" disabled selected></option>
+												<option value="1">No, he can't.</option>
+												<option value="2">No, she can't.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can the boy run?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-9">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can not.</option>
+												<option value="2">Yes, he can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-10">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can't.</option>
+												<option value="2">No, he can't.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can he ride a bike?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-11">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can.</option>
+												<option value="2">Yes, she can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-12">
+												<option value="0" disabled selected></option>
+												<option value="1">No, he can't.</option>
+												<option value="2">No, she can't.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can you go surfing?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-13">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, he can.</option>
+												<option value="2">Yes, I can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-14">
+												<option value="0" disabled selected></option>
+												<option value="1">No, I can't.</option>
+												<option value="2">No, she can't.</option>
+											</select>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 text-start">
+											Can my mother go fishing?
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-15">
+												<option value="0" disabled selected></option>
+												<option value="1">Yes, she can.</option>
+												<option value="2">Yes, he can.</option>
+											</select>
+										</div>
+										<div class="col-3">
+											<select class="form-select" id="select-act25-16">
+												<option value="0" disabled selected></option>
+												<option value="1">No, she can't.</option>
+												<option value="2">No, he can't.</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act26" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act26">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Conjugate</p>
+											<input type="text" class="d-none" id="points26" name="points">
+											<input type="text" class="d-none" id="idcliente26" name="idcliente">
+											<input type="text" class="d-none" id="idlibro26" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<table class="table table-bordered">
+											<tr>
+												<th colspan="3" class="text-center" style="background-color: #ebf7f3;">Present continuous affirmative form verb "to drive"</th>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">I</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-1" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--1" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">You</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-2" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--2" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">He</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-3" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--3" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">She</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-4" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--4" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">It</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-5" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--5" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">We</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-6" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--6" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">You</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-7" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--7" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="33%" class="text-end">They</td>
+												<td width="33%"><input type="text" class="form-control" id="input-act26-8" autocomplete="off"></td>
+												<td width="34%"><input type="text" class="form-control" id="input-act26--8" autocomplete="off"></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act27" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act27">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer the question in present continuous in affirmative form</p>
+											<input type="text" class="d-none" id="points27" name="points">
+											<input type="text" class="d-none" id="idcliente27" name="idcliente">
+											<input type="text" class="d-none" id="idlibro27" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>What is Francisco doing?</b> (read)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act27-1">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>What is Katherine doing?</b> (drive)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act27-2">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>What is Maricela doing?</b> (run)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act27-3">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>What is Boris doing?</b> (fly)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act27-4">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>What is Douglas doing?</b> (swim)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act27-5">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act28" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act28">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Conjugate</p>
+											<input type="text" class="d-none" id="points28" name="points">
+											<input type="text" class="d-none" id="idcliente28" name="idcliente">
+											<input type="text" class="d-none" id="idlibro28" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<table class="table table-bordered">
+											<tr>
+												<th colspan="4" class="text-center" style="background-color: #ebf7f3;">Present continuous negative form verb "to drive"</th>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">I</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-1" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--1" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---1" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">You</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-2" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--2" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---2" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">He</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-3" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--3" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---3" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">She</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-4" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--4" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---4" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">It</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-5" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--5" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---5" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">We</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-6" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--6" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---6" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">You</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-7" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--7" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---7" autocomplete="off"></td>
+											</tr>
+											<tr>
+												<td width="25%" class="text-end">They</td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28-8" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28--8" autocomplete="off"></td>
+												<td width="25%"><input type="text" class="form-control" id="input-act28---8" autocomplete="off"></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act29" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act29">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer the question in present continuous in negative form</p>
+											<input type="text" class="d-none" id="points29" name="points">
+											<input type="text" class="d-none" id="idcliente29" name="idcliente">
+											<input type="text" class="d-none" id="idlibro29" name="idlibro">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>Is Francisco reading?</b> (read)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act29-1">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>Is Katherine driving?</b> (drive)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act29-2">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>Is Marcela running?</b> (run)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act29-3">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>Is Boris flying?</b> (fly)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act29-4">
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<p><b>Is Douglas swimming?</b> (swim)</p>
+										</div>
+										<div class="col">
+											<input type="text" class="form-control" id="input-act29-5">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act30" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act30">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer the question using the verb "to do" in affirmative and negative form.</p>
+											<input type="text" class="d-none" id="points30" name="points">
+											<input type="text" class="d-none" id="idcliente30" name="idcliente">
+											<input type="text" class="d-none" id="idlibro30" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<table class="table table-bordered">
+											<tr style="background-color: #f6dcab;">
+												<th class="text-center">Question</th>
+												<th class="text-center">Affirmative form</th>
+												<th class="text-center">Negative form</th>
+											</tr>
+											<tr>
+												<td>1. Does Francisco read?</td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-1"></td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-2"></td>
+											</tr>
+											<tr>
+												<td>2. Does Katherine drive?</td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-3"></td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-4"></td>
+											</tr>
+											<tr>
+												<td>3. Does Maricela run?</td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-5"></td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-6"></td>
+											</tr>
+											<tr>
+												<td>4. Does Boris fly?</td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-7"></td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-8"></td>
+											</tr>
+											<tr>
+												<td>5. Does Douglas swim?</td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-9"></td>
+												<td><input type="text" class="form-control" autocomplete="off" id="input-act30-10"></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act31" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act31">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write a dialogue using do, does and doesn't</p>
+											<input type="text" class="d-none" id="points31" name="points">
+											<input type="text" class="d-none" id="idcliente31" name="idcliente">
+											<input type="text" class="d-none" id="idlibro31" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<table style="border-collapse: separate; border-spacing: 14px 21px;">
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-1"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-2"></td>
+											</tr>
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-3"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-4"></td>
+											</tr>
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-5"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-6"></td>
+											</tr>
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-7"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-8"></td>
+											</tr>
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-9"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-10"></td>
+											</tr>
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-11"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-12"></td>
+											</tr>
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-13"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-14"></td>
+											</tr>
+											<tr>
+												<td width="30%"><input type="text" class="form-control" autocomplete="off" id="input-act31-15"></td>
+												<td width="70%"><input type="text" class="form-control" autocomplete="off" id="input-act31-16"></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act32" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act32">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using the days of the week</p>
+											<input type="text" class="d-none" id="points32" name="points">
+											<input type="text" class="d-none" id="idcliente32" name="idcliente">
+											<input type="text" class="d-none" id="idlibro32" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<label for="input-act32-1">1.</label>
+										<input type="text" class="form-control" autocomplete="off" id="input-act32-1">
+									</div>
+									<div class="row mb-4">
+										<label for="input-act32-2">2.</label>
+										<input type="text" class="form-control" autocomplete="off" id="input-act32-2">
+									</div>
+									<div class="row mb-4">
+										<label for="input-act32-3">3.</label>
+										<input type="text" class="form-control" autocomplete="off" id="input-act32-3">
+									</div>
+									<div class="row mb-4">
+										<label for="input-act32-4">4.</label>
+										<input type="text" class="form-control" autocomplete="off" id="input-act32-4">
+									</div>
+									<div class="row mb-4">
+										<label for="input-act32-5">5.</label>
+										<input type="text" class="form-control" autocomplete="off" id="input-act32-5">
+									</div>
+									<div class="row mb-4">
+										<label for="input-act32-6">6.</label>
+										<input type="text" class="form-control" autocomplete="off" id="input-act32-6">
+									</div>
+									<div class="row mb-4">
+										<label for="input-act32-7">7.</label>
+										<input type="text" class="form-control" autocomplete="off" id="input-act32-7">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.

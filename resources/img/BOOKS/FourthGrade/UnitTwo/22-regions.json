@@ -1,0 +1,23 @@
+[{
+	"x":130,
+	"y":200,
+	"width":70,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit2Act23",
+			"form":"unit2-act23"
+		}
+},{
+    "x":370,
+	"y":395,
+	"width":70,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit2Act24",
+			"form":"unit2-act24"
+		}
+}]
