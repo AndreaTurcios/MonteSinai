@@ -2020,15 +2020,17 @@ Book_Page::headerTemplate('Unidad 2');
                 <div class="modal-body">
                     <div class="container-fluid">
 
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
+
                     </div>
                 </div>
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
@@ -2047,16 +2049,91 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-25">
                 <div class="modal-body">
                     <div class="container-fluid">
-
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
+                        <div class="col-md-8 align-items-center" align="letf">
+                            <p class="">Complete with Present Simple.</p>
+                            <!-- class="d-none" -->
+                            <input type="text" class="d-none" id="points25" name="points25">
+                            <input type="text" class="d-none" id="idcliente25" name="idcliente25">
+                            <input type="text" class="d-none" id="idlibro25" name="idlibro25">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <table>
+                                        <tr>
+                                            <td style="width: 10%;">1.</td>
+                                            <td>Carmello</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q1"></td>
+                                            <td>the basketball.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">2.</td>
+                                            <td>She</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q2"></td>
+                                            <td>a lawyer after college</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">3.</td>
+                                            <td>They</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q3"></td>
+                                            <td>ice cream from the truck.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">4.</td>
+                                            <td>The birds</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q4"></td>
+                                            <td>over the lake.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">5.</td>
+                                            <td>I</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q5"></td>
+                                            <td>the cupcakes.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">6.</td>
+                                            <td>Luisa</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q6"></td>
+                                            <td>the answer to the question.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">7.</td>
+                                            <td>Jack</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q7"></td>
+                                            <td>over a candlestick.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">8.</td>
+                                            <td>My friends</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q8"></td>
+                                            <td>my constant mistakes.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">9.</td>
+                                            <td>She always</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q9"></td>
+                                            <td>money to charity.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">10.</td>
+                                            <td>I</td>
+                                            <td style="width: 20%;"><input type="text" class="form-control" placeholder="" id="game-25-q10"></td>
+                                            <td>three miles every day.</td>
+                                        </tr>
+                                    </table>
+                                </center>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <br>
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
