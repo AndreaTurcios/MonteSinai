@@ -1719,7 +1719,73 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-21">
                 <div class="modal-body">
                     <div class="container-fluid">
-
+                        <div class="row">
+                            <div class="col-md-8 align-items-center" align="letf">
+                                <p class="">Complete with subject pronouns.</p>
+                                <!-- class="d-none" -->
+                                <input type="text" class="d-none" id="points21" name="points21">
+                                <input type="text" class="d-none" id="idcliente21" name="idcliente21">
+                                <input type="text" class="d-none" id="idlibro21" name="idlibro21">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <center>
+                                    <table>
+                                        <tr>
+                                            <td style="width: 10%;">1.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q1"></td>
+                                            <td>like to go to the beach.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">2.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q2"></td>
+                                            <td>dislike a sunny day.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">3.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q3"></td>
+                                            <td>visited the zoo in vacation.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">4.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q4"></td>
+                                            <td>is a beautiful lake.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">5.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q5"></td>
+                                            <td>buy a new shoes.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">6.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q6"></td>
+                                            <td>go to the park on sunday.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">7.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q7"></td>
+                                            <td>likes the movies.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">8.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q8"></td>
+                                            <td>drives a new bike.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">9.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q9"></td>
+                                            <td>can go to the river.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 10%;">10.</td>
+                                            <td><input type="text" class="form-control" placeholder="" id="game-21-q10"></td>
+                                            <td>goes to the fair.</td>
+                                        </tr>
+                                    </table>
+                                </center>
+                            </div>
+                        </div>
                     </div>
                     <br>
                     <!-- Botones de Control -->

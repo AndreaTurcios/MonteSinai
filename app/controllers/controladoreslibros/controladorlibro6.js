@@ -1753,6 +1753,75 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
 
   return true;
 });
+/**************************************************
+ ******************** GAME 21 **********************
+ **************************************************/
+ document.getElementById("game-21").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  event.preventDefault();
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let q1, q2, q3, q4, q5, q6;
+
+  //Se igualan las variables a el campo de texto de la vista mediante el id.
+  q1 = document.getElementById("game-21-q1").value;
+  q2 = document.getElementById("game-21-q2").value;
+  q3 = document.getElementById("game-21-q3").value;
+  q4 = document.getElementById("game-21-q4").value;
+  q5 = document.getElementById("game-21-q5").value;
+  q6 = document.getElementById("game-21-q6").value;
+  q7 = document.getElementById("game-21-q7").value;
+  q8 = document.getElementById("game-21-q8").value;
+  q9 = document.getElementById("game-21-q9").value;
+  q10 = document.getElementById("game-21-q10").value;
+
+  //q6  = document.getElementById('game-3-q6').value;
+
+  rq1 = "I";
+  rq2 = "I";
+  rq3 = "She";
+  rq4 = "It";
+  rq5 = "They";
+  rq6 = "They";
+  rq7 = "She";
+  rq8 = "He";
+  rq9 = "You";
+  rq10 = "He";
+
+  if (q1 != "" && q5 != "") {
+    action = "createact21";
+    totalPunto = 0;
+    totalPreguntas = 10;
+    punto = 1 / totalPreguntas;
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 6;
+    document.getElementById("idcliente21").value = users.value;
+    document.getElementById("points21").value = notatotal;
+    document.getElementById("idlibro21").value = libro;
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-21", "ModalLibroSeis21");
+    sweetAlert(1, "Nota " + notatotal * totalPreguntas, null);
+  } else {
+    sweetAlert(3, "Faltan  respuestas", null);
+  }
+
+  return true;
+});
 
 /**************************************************
  ******************** GAME 30 **********************
