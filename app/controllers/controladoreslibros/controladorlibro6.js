@@ -1712,11 +1712,11 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
   q5 = document.getElementById("game-20-q5").value;
   //q6  = document.getElementById('game-3-q6').value;
 
-  rq1 = "";
-  rq2 = "";
-  rq3 = "";
-  rq4 = "";
-  rq5 = "";
+  rq1 = "Rio.";
+  rq2 = "It is an artificial Lake.";
+  rq3 = "A model of the solar system, sometimes mechanized to show the relative motions of the planets.";
+  rq4 = "Yes, It´s cusco.";
+  rq5 = "Volcanoes, misty rainforests and a vibrant cuture.";
 
   if (q1 != "" && q2 != "" && q3 != "" && q4 != "" && q5 != "") {
     action = "createact20";
