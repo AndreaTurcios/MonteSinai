@@ -1891,6 +1891,77 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
 
   return true;
 });
+
+/**************************************************
+ ******************** GAME 23 **********************
+ **************************************************/
+ document.getElementById("game-23").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  event.preventDefault();
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let q1, q2, q3, q4, q5, q6;
+
+  //Se igualan las variables a el campo de texto de la vista mediante el id.
+  q1 = document.getElementById("game-23-q1").value;
+  q2 = document.getElementById("game-23-q2").value;
+  q3 = document.getElementById("game-23-q3").value;
+  q4 = document.getElementById("game-23-q4").value;
+  q5 = document.getElementById("game-23-q5").value;
+  q6 = document.getElementById("game-23-q6").value;
+  q7 = document.getElementById("game-23-q7").value;
+  q8 = document.getElementById("game-23-q8").value;
+  q9 = document.getElementById("game-23-q9").value;
+  q10 = document.getElementById("game-23-q10").value;
+
+  //q6  = document.getElementById('game-3-q6').value;
+
+  rq1 = "is";
+  rq2 = "am";
+  rq3 = "is";
+  rq4 = "was";
+  rq5 = "were";
+  rq6 = "was";
+  rq7 = "was";
+  rq8 = "was";
+  rq9 = "were";
+  rq10 = "was";
+
+  if (q1 != "" && q5 != "") {
+    action = "createact23";
+    totalPunto = 0;
+    totalPreguntas = 10;
+    punto = 1 / totalPreguntas;
+    if (q1.toUpperCase() == rq1.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q2.toUpperCase() == rq2.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q3.toUpperCase() == rq3.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q4.toUpperCase() == rq4.toUpperCase()) {
+      totalPunto += punto;
+    }
+    if (q5.toUpperCase() == rq5.toUpperCase()) {
+      totalPunto += punto;
+    }
+
+    var notatotal = totalPunto.toFixed(2);
+    var libro = 6;
+    document.getElementById("idcliente23").value = users.value;
+    document.getElementById("points23").value = notatotal;
+    document.getElementById("idlibro23").value = libro;
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-23", "ModalLibroSeis23");
+    sweetAlert(1, "Nota " + notatotal * totalPreguntas, null);
+  } else {
+    sweetAlert(3, "Faltan  respuestas", null);
+  }
+
+  return true;
+});
+
 /**************************************************
  ******************** GAME 30 **********************
  **************************************************/
