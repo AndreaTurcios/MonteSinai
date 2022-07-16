@@ -3105,19 +3105,23 @@ Book_Page::headerTemplate('Unidad 2');
 													</div>													
 												</div>
 												
+												<hr>
+
 												<div class="row justify-content-md-center justify-content-sm-center mb-2">
 													<div class="col-3">
 														<input type="text" id="input-act16_2-2" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;">
 													</div>	
-													<div class="col-3">
+													<div class="col-4">
 														<p class="fst-normal"> is a pretty girl.</p> 
 													</div>																											
 												</div>
 
+												<hr>
+
 												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-3">
+													<div class="col-4">
 														<p class="fst-normal">My uncle is </p> 
 													</div>			
 													<div class="col-3">
@@ -3127,8 +3131,10 @@ Book_Page::headerTemplate('Unidad 2');
 													</div>																																							
 												</div>
 
+												<hr>
+												
 												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-3">
+													<div class="col-5">
 														<p class="fst-normal">Your daughter is </p> 
 													</div>			
 													<div class="col-3">
@@ -3138,8 +3144,10 @@ Book_Page::headerTemplate('Unidad 2');
 													</div>																																							
 												</div>
 
+												<hr>
+
 												<div class="row justify-content-md-center justify-content-sm-center mb-2">
-													<div class="col-3">
+													<div class="col-4">
 														<p class="fst-normal">This is an </p> 
 													</div>		
 													<div class="col-3">
@@ -3176,7 +3184,7 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
-<!-- Página 56, actividad 17 -->
+<!-- Página 56 -->
 <div id="ModalUnit2Act17" class="modal fade"  tabindex="-5">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
@@ -3532,6 +3540,736 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
+<!-- Página 59 -->
+<div id="ModalUnit2Act20" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">MY DADDY IS A DOCTOR</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twenty">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Match the image with the sentence</p>
+											<input type="text" class="d-none" id="points20" name="points">
+											<input type="text" class="d-none" id="idcliente20" name="idcliente">
+											<input type="text" class="d-none" id="idlibro20" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">
+
+										<div class="col-md-6 col-sm-6">																						
+												
+											<div class="col" id="box-act20-1">												
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag59/img1-59.png"  alt="Nurse" id="img-act20-1">
+											</div>
+											<div class="col justify-content-center">
+												<div id="Family" class="box-act20 text-center m-3"  style="background-color: #FFFFFF;">
+													Family
+												</div>
+											</div>
+																					
+										</div>	
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col" id="box-act20-2">												
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag59/img2-59.png"  alt="Videogames" id="img-act20-2">
+											</div>
+											<div class="col justify-content-center">
+												<div id="Basketball" class="box-act20 text-center m-3"  style="background-color: #FFFFFF;">
+													Basketball
+												</div>
+											</div>
+																					
+										</div>	
+										
+										<div class="col-md-6 col-sm-6">
+																							
+											<div class="col" id="box-act20-3">													
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag59/img3-59.png" alt="Family" id="img-act20-3">
+											</div>
+											<div class="col justify-content-center">
+												<div id="Nurse" class="box-act20 text-center m-3"  style="background-color: #FFFFFF;">
+													Nurse
+												</div>
+											</div>
+																					
+										</div>	
+
+										<div class="col-md-6 col-sm-6">
+																																			
+											<div class="col" id="box-act20-4">
+												<img draggable="true" class="rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag59/img4-59.png"  alt="Basketball" id="img-act20-4">
+											</div>
+											<div class="col justify-content-center">
+												<div id="Videogames" class="box-act20 text-center m-3"  style="background-color: #FFFFFF;">
+													Videogames
+												</div>
+											</div>
+																					
+										</div>	
+										
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 60 -->
+<div id="ModalUnit2Act21" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">WHAT'S YOUR FATHER'S OCUPPATION?</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyone">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points21" name="points">
+											<input type="text" class="d-none" id="idcliente21" name="idcliente">
+											<input type="text" class="d-none" id="idlibro21" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12 justify-content-center">
+
+											<div class="row justify-content-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<p class="fst-normal">What's </p> 
+													</div>		
+													<div class="col-3">
+														<input type="text" id="input-act21-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-3">
+														<p class="fst-normal"> father's occupation?</p> 
+													</div>													
+												</div>												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-3">
+														<input type="text" id="input-act21-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-4">
+														<p class="fst-normal"> is a barber.</p> 
+													</div>																											
+												</div>
+												
+												<hr>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">What's your mother's </p> 
+													</div>			
+													<div class="col-5">
+														<input type="text" id="input-act21-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal"> ?</p> 
+													</div>																																						
+												</div>												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">														
+													<div class="col-3">
+														<p class="fst-normal">She is a </p> 
+													</div>	
+													<div class="col-3">
+														<input type="text" id="input-act21-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																																																						
+												</div>
+
+												<hr>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-3">
+														<input type="text" id="input-act21-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>		
+													<div class="col-5">
+														<p class="fst-normal"> your uncle's job? </p> 
+													</div>																																																						
+												</div>
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<p class="fst-normal">He </p> 
+													</div>		
+													<div class="col-3">
+														<input type="text" id="input-act21-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal"> a mechanic.</p> 
+													</div>													
+												</div>
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 61 -->
+<div id="ModalUnit2Act22" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">WHAT IS YOUR NAME?</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentytwo">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points22" name="points">
+											<input type="text" class="d-none" id="idcliente22" name="idcliente">
+											<input type="text" class="d-none" id="idlibro22" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12 justify-content-center">
+
+											<div class="row justify-content-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">What's your </p> 
+													</div>		
+													<div class="col-4">
+														<input type="text" id="input-act22-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																									
+												</div>												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<p class="fst-normal">My name is </p> 
+													</div>			
+													<div class="col-4">
+														<input type="text" id="input-act22-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>	
+																																						
+												</div>
+												
+												<hr>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-5">
+														<p class="fst-normal">Do you have a </p> 
+													</div>			
+													<div class="col-4">
+														<input type="text" id="input-act22-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal"> ?</p> 
+													</div>																																						
+												</div>												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">														
+													<div class="col-2">
+														<p class="fst-normal">Yes, </p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act22-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>			
+													<div class="col-2">
+														<p class="fst-normal"> do </p> 
+													</div>																																																				
+												</div>
+
+												<hr>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-3">
+														<input type="text" id="input-act22-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>		
+													<div class="col-2">
+														<p class="fst-normal"> is it?</p> 
+													</div>																																																						
+												</div>
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<p class="fst-normal">I play </p> 
+													</div>		
+													<div class="col-3">
+														<input type="text" id="input-act22-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																									
+												</div>
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 62 -->
+<div id="ModalUnit2Act23" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">WHAT IS YOUR NAME?</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentythree">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points23" name="points">
+											<input type="text" class="d-none" id="idcliente23" name="idcliente">
+											<input type="text" class="d-none" id="idlibro23" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12 justify-content-center">
+
+											<div class="row justify-content-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<h3> beishbo </h3> 
+													</div>		
+													<div class="col-4">
+														<input type="text" id="input-act23-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																									
+												</div>	
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<h3> vidoe </h3> 
+													</div>			
+													<div class="col-4">
+														<input type="text" id="input-act23-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>	
+																																						
+												</div>
+												
+												<hr>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<h3> yuo </h3> 
+													</div>			
+													<div class="col-4">
+														<input type="text" id="input-act23-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																																																			
+												</div>		
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">														
+													<div class="col-4">
+														<h3> socecr </h3> 
+													</div>	
+													<div class="col-4">
+														<input type="text" id="input-act23-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																																																																			
+												</div>
+
+												<hr>
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<h3> liek </h3> 
+													</div>	
+													<div class="col-4">
+														<input type="text" id="input-act23-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																																																																				
+												</div>
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-4">
+														<h3> gasme </h3> 
+													</div>		
+													<div class="col-4">
+														<input type="text" id="input-act23-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>																									
+												</div>
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 63 -->
+
+<!-- Página 64 -->
+
+<!-- Página 65 -->
+<div id="ModalUnit2Act26" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">UNCLE FRANCISCO'S HAT</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentysix">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the sentences</p>
+											<input type="text" class="d-none" id="points26" name="points">
+											<input type="text" class="d-none" id="idcliente26" name="idcliente">
+											<input type="text" class="d-none" id="idlibro26" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag65/img65_2.png"
+											class="rounded mx-auto d-block">																				
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-3">
+														<p class="fw-normal">Every day </p> 	
+													</div>	
+													<div class="col-3">
+														<input type="text" id="input-act26-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-4">
+														<p class="fw-normal"> Francisco woke up </p>
+													</div>
+													<div class="col-3">
+														<input type="text" id="input-act26-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"> 
+													</div>
+													<div class="col-5">
+														<p class="fw-normal"> the sun. He said "</p>
+													</div>
+													<div class="col-5">
+														<input type="text" id="input-act26-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"> 
+													</div>
+													<div class="col-5">
+														<p class="fw-normal"> " to his cat and </p>
+													</div>
+													<div class="col-5">
+														<input type="text" id="input-act26-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"> 
+													</div>
+													<div class="col-1">
+														<p class="fw-normal"> dog.</p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act26-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-5">
+														<p class="fw-normal"> said "Good Morning" to </p> 
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act26-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-2">
+														<p class="fw-normal"> parrot...</p> 	
+													</div>
+												</div>
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 58 -->
+<div id="ModalUnit2Act27" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">RIDDLES</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyseven">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">The answers are upside down</p>
+											<input type="text" class="d-none" id="points27" name="points">
+											<input type="text" class="d-none" id="idcliente27" name="idcliente">
+											<input type="text" class="d-none" id="idlibro27" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">	
+													<div class="col-12">
+														<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag66/img1-66.png">
+													</div>
+													<div class="row justify-content-md-center justify-content-sm-center" style="margin-top: 15px;">														
+														<div class="col-6">
+															<input type="text" id="input-act27-1" class="form-control"
+																aria-label="Sizing example input" maxlength="100"
+																style="margin-bottom: 15px;"
+																placeholder="1. _________________">
+														</div>																										
+													</div>																																							
+												</div>																									
+											</div>	
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">	
+													<div class="col-12">
+														<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag66/img2-66.png">
+													</div>
+													<div class="row justify-content-md-center justify-content-sm-center" style="margin-top: 15px;">														
+														<div class="col-6">
+															<input type="text" id="input-act27-2" class="form-control"
+																aria-label="Sizing example input" maxlength="100"
+																style="margin-bottom: 15px;"
+																placeholder="2. _________________">
+														</div>																										
+													</div>																																							
+												</div>																									
+											</div>	
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">	
+													<div class="col-12">
+														<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag66/img3-66.png">
+													</div>
+													<div class="row justify-content-md-center justify-content-sm-center" style="margin-top: 15px;">														
+														<div class="col-6">
+															<input type="text" id="input-act27-3" class="form-control"
+																aria-label="Sizing example input" maxlength="100"
+																style="margin-bottom: 15px;"
+																placeholder="3. _________________">
+														</div>																										
+													</div>																																							
+												</div>																									
+											</div>	
+										</div>
+
+										<div class="col-md-6 col-sm-12 col-xs-12">
+											<div class="row justify-content-md-center justify-content-sm-center">
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">	
+													<div class="col-12">
+														<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag66/img4-66.png">
+													</div>
+													<div class="row justify-content-md-center justify-content-sm-center" style="margin-top: 15px;">														
+														<div class="col-6">
+															<input type="text" id="input-act27-4" class="form-control"
+																aria-label="Sizing example input" maxlength="100"
+																style="margin-bottom: 15px;"
+																placeholder="4. _________________">
+														</div>																										
+													</div>																																							
+												</div>																									
+											</div>	
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 15px;">
+											<img class="img-fluid rounded mx-auto d-block" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag66/answers66.png">																				
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
