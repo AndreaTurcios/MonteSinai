@@ -3222,90 +3222,70 @@
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>III-</strong>
+									<strong>III-Select the correct questions and answers about people's clothes</strong>
 								</div>
 
-								<div class="col-md-12">
-									<label for="act6-q1">?</label>
-									<select id="act12-q3">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">.</option>
-										<option value="2">.</option>
-										<option value="3">.</option><!-- correcto -->
-									</select>
+								<div class="row">
+									
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb2"><label for="act21-cb2">&nbsp;<strong>Hi, How can I help you?</strong> Hi, I want a pound of salt</label>
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb3"><label for="act21-cb3">&nbsp;<strong>Does my sister like those pink sandals?</strong> Yes, She likes them a lot</label><!-- correct -->
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb4"><label for="act21-cb4">&nbsp;<strong>What color of hat do you like?</strong> I want the red one</label><!-- correct -->
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb6"><label for="act21-cb6">&nbsp;<strong>How is your brother's house?</strong> It's big and cozy</label>
+									</div>
+							
 								</div>
-								
-								<div class="col-md-12">
-									<select id="act12-q4">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">?</option><!-- correcto -->
-										<option value="2">?</option>
-									</select>
-									<label for="act12-q4">.</label>
-								</div>
-
-								<div class="col-md-12">
-									<label for="act12-q5">?</label>
-									<select id="act12-q5">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">.</option>
-										<option value="2">.</option><!-- correcto -->
-										<option value="3">.</option>
-									</select>
-								</div>
-
-								<div class="col-md-12">
-									<select id="act12-q6">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">?</option>
-										<option value="2">?</option><!-- correcto -->
-									</select>
-									<label for="act12-q6">.</label>
-								</div>
-								
 							</div>
 							<!-- pregunta4 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>IV-</strong>
+									<strong>IV-Select the correct questions and answers about colors of items</strong>
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act6-q1">?</label>
+									<label for="act6-q1">What is the color of sunshine?</label>
 									<select id="act12-q3">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">.</option>
-										<option value="2">.</option>
-										<option value="3">.</option><!-- correcto -->
+										<option value="1">It's yellow.</option><!-- correcto -->
+										<option value="2">It's green.</option>
+										<option value="3">It's white.</option>
 									</select>
 								</div>
 								
 								<div class="col-md-12">
 									<select id="act12-q4">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">?</option><!-- correcto -->
-										<option value="2">?</option>
+										<option value="1">What is the color of fire and blood?</option>
+										<option value="2">What is the color of nature?</option><!-- correcto -->
+										<option value="3">What is the color associated with light?</option>
 									</select>
-									<label for="act12-q4">.</label>
+									<label for="act12-q4">It's green.</label>
 								</div>
 
 								<div class="col-md-12">
-									<label for="act12-q5">?</label>
+									<label for="act12-q5">What is the color associated with light and goodness?</label>
 									<select id="act12-q5">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">.</option>
-										<option value="2">.</option><!-- correcto -->
-										<option value="3">.</option>
+										<option value="1">It's yellow.</option>
+										<option value="2">It's green.</option>
+										<option value="3">It's white.</option><!-- correcto -->
 									</select>
 								</div>
 
 								<div class="col-md-12">
 									<select id="act12-q6">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">?</option>
-										<option value="2">?</option><!-- correcto -->
+										<option value="1">What is the color of a sea?</option>
+										<option value="2">What is the color of a tree?</option><!-- correcto -->
+										<option value="3">What is the color of a fire?</option>
 									</select>
-									<label for="act12-q6">.</label>
+									<label for="act12-q6">It's green.</label>
 								</div>
 
 							</div>
@@ -3315,30 +3295,30 @@
 							<!-- pregunta5 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>V-?</strong>
+									<strong>V-Why do you think that there is a need to promote the development of local commerce?</strong>
 								</div>
 								
 								<div class="col-md-12">
 									<select id="act12-q11">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option>
-										<option value="2"></option>
-										<option value="3"></option><!-- correcto -->
+										<option value="1">Because improves development</option>
+										<option value="2">Because it makes rich people</option>
+										<option value="3">Because it provides income in our country</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
 							<!-- pregunta6 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VI-?</strong>
+									<strong>VI-Can you explain how El Salvador views the investment of local industry?</strong>
 								</div>
 								
 								<div class="col-md-12">
 									<select id="act12-q12">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option>
-										<option value="2"></option>
-										<option value="3"></option><!-- correcto -->
+										<option value="1">As a waste of time and money</option>
+										<option value="2">As crucial for economic growth and development in our country</option><!-- correcto -->
+										<option value="3">Like an opportunity to make money</option>
 									</select>
 								</div>
 							</div>
@@ -3348,7 +3328,7 @@
 							<!-- pregunta7 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VII-?</strong>
+									<strong>VII-Could you make a mental map about all the colors that you know?</strong>
 								</div>
 								
 								<div class="col-md-12">
@@ -3364,7 +3344,7 @@
 							<!-- pregunta8 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VIII-?</strong>
+									<strong>VIII-Are you able to apply proactivity and create clothes with your ideal colors?</strong>
 								</div>
 								
 								<div class="col-md-12">
