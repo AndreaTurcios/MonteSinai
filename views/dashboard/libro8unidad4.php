@@ -3331,14 +3331,112 @@
 									<strong>VII-Could you make a mental map about all the colors that you know?</strong>
 								</div>
 								
+								
 								<div class="col-md-12">
-									<select id="act12-q13">
+									1.<select id="act12-q13">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option><!-- correcto -->
-										<option value="2"></option>
-										<option value="3"></option>
+										<option value="1">Blue</option>
+										<option value="2">Orange</option>
+										<option value="3">Green</option>
+										<option value="4">Purple</option>
+										<option value="5">Pink</option>
+										<option value="6">White</option>
+										<option value="7">Brown</option><!-- correcto -->
+									</select>
+									&nbsp;
+									2.<select id="act12-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Blue</option>
+										<option value="2">Orange</option>
+										<option value="3">Green</option>
+										<option value="4">Purple</option>
+										<option value="5">Pink</option><!-- correcto -->
+										<option value="6">White</option>
+										<option value="7">Brown</option>
+									</select>
+									&nbsp;
+									3.<select id="act12-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Blue</option>
+										<option value="2">Orange</option>
+										<option value="3">Green</option><!-- correcto -->
+										<option value="4">Purple</option>
+										<option value="5">Pink</option>
+										<option value="6">White</option>
+										<option value="7">Brown</option>
 									</select>
 								</div>
+								
+								<div class="col-md-12">
+									<table>
+									<tbody>
+										<tr>
+											<td rowspan="5">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag33/mindmap.png" class="col-12 rounded mx-auto">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												4.<select id="act12-q13">
+													<option value="0" selected disabled>Choose</option>
+													<option value="1">Blue</option>
+													<option value="2">Orange</option><!-- correcto -->
+													<option value="3">Green</option>
+													<option value="4">Purple</option>
+													<option value="5">Pink</option>
+													<option value="6">White</option>
+													<option value="7">Brown</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												5.<select id="act12-q13">
+													<option value="0" selected disabled>Choose</option>
+													<option value="1">Blue</option>
+													<option value="2">Orange</option>
+													<option value="3">Green</option>
+													<option value="4">Purple</option><!-- correcto -->
+													<option value="5">Pink</option>
+													<option value="6">White</option>
+													<option value="7">Brown</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												6.<select id="act12-q13">
+														<option value="0" selected disabled>Choose</option>
+														<option value="1">Blue</option><!-- correcto -->
+														<option value="2">Orange</option>
+														<option value="3">Green</option>
+														<option value="4">Purple</option>
+														<option value="5">Pink</option>
+														<option value="6">White</option>
+														<option value="7">Brown</option>
+													</select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												7.<select id="act12-q13">
+													<option value="0" selected disabled>Choose</option>
+													<option value="1">Blue</option>
+													<option value="2">Orange</option>
+													<option value="3">Green</option>
+													<option value="4">Purple</option>
+													<option value="5">Pink</option>
+													<option value="6">White</option><!-- correcto -->
+													<option value="7">Brown</option>
+												</select>
+											</td>
+										</tr>
+									</tbody>
+									</table>
+									
+									
+								</div>
+								
 							</div>
 
 							<!-- pregunta8 -->
