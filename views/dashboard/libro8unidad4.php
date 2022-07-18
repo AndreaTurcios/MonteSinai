@@ -3193,7 +3193,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act12-q1">
+									<select id="act23-q1">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Is the color of sunshine</option>
 										<option value="2">Is the color of the sky and sea</option>
@@ -3208,7 +3208,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act12-q2">
+									<select id="act23-q2">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Is the color of sunshine</option>
 										<option value="2">Is the color of the sky and sea</option><!-- correcto -->
@@ -3228,16 +3228,16 @@
 								<div class="row">
 									
 									<div class = oracion>
-										<input type="checkbox" id="act21-cb2"><label for="act21-cb2">&nbsp;<strong>Hi, How can I help you?</strong> Hi, I want a pound of salt</label>
+										<input type="checkbox" id="act23-cb2"><label for="act23-cb2">&nbsp;<strong>Hi, How can I help you?</strong> Hi, I want a pound of salt</label>
 									</div>
 									<div class = oracion>
-										<input type="checkbox" id="act21-cb3"><label for="act21-cb3">&nbsp;<strong>Does my sister like those pink sandals?</strong> Yes, She likes them a lot</label><!-- correct -->
+										<input type="checkbox" id="act23-cb3"><label for="act23-cb3">&nbsp;<strong>Does my sister like those pink sandals?</strong> Yes, She likes them a lot</label><!-- correct -->
 									</div>
 									<div class = oracion>
-										<input type="checkbox" id="act21-cb4"><label for="act21-cb4">&nbsp;<strong>What color of hat do you like?</strong> I want the red one</label><!-- correct -->
+										<input type="checkbox" id="act23-cb4"><label for="act23-cb4">&nbsp;<strong>What color of hat do you like?</strong> I want the red one</label><!-- correct -->
 									</div>
 									<div class = oracion>
-										<input type="checkbox" id="act21-cb6"><label for="act21-cb6">&nbsp;<strong>How is your brother's house?</strong> It's big and cozy</label>
+										<input type="checkbox" id="act23-cb6"><label for="act23-cb6">&nbsp;<strong>How is your brother's house?</strong> It's big and cozy</label>
 									</div>
 							
 								</div>
@@ -3249,7 +3249,317 @@
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act6-q1">What is the color of sunshine?</label>
+									<label for="act23-q1">What is the color of sunshine?</label>
+									<select id="act23-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's yellow.</option><!-- correcto -->
+										<option value="2">It's green.</option>
+										<option value="3">It's white.</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act23-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What is the color of fire and blood?</option>
+										<option value="2">What is the color of nature?</option><!-- correcto -->
+										<option value="3">What is the color associated with light?</option>
+									</select>
+									<label for="act23-q4">It's green.</label>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act23-q5">What is the color associated with light and goodness?</label>
+									<select id="act23-q5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's yellow.</option>
+										<option value="2">It's green.</option>
+										<option value="3">It's white.</option><!-- correcto -->
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act23-q6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What is the color of a sea?</option>
+										<option value="2">What is the color of a tree?</option><!-- correcto -->
+										<option value="3">What is the color of a fire?</option>
+									</select>
+									<label for="act23-q6">It's green.</label>
+								</div>
+
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-Why do you think that there is a need to promote the development of local commerce?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act23-q11">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Because improves development</option>
+										<option value="2">Because it makes rich people</option>
+										<option value="3">Because it provides income in our country</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-Can you explain how El Salvador views the investment of local industry?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act23-q12">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">As a waste of time and money</option>
+										<option value="2">As crucial for economic growth and development in our country</option><!-- correcto -->
+										<option value="3">Like an opportunity to make money</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-Could you make a mental map about all the colors that you know?</strong>
+								</div>
+								
+								
+								<div class="col-md-12">
+									1.<select id="act23-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Blue</option>
+										<option value="2">Orange</option>
+										<option value="3">Green</option>
+										<option value="4">Purple</option>
+										<option value="5">Pink</option>
+										<option value="6">White</option>
+										<option value="7">Brown</option><!-- correcto -->
+									</select>
+									&nbsp;
+									2.<select id="act23-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Blue</option>
+										<option value="2">Orange</option>
+										<option value="3">Green</option>
+										<option value="4">Purple</option>
+										<option value="5">Pink</option><!-- correcto -->
+										<option value="6">White</option>
+										<option value="7">Brown</option>
+									</select>
+									&nbsp;
+									3.<select id="act23-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Blue</option>
+										<option value="2">Orange</option>
+										<option value="3">Green</option><!-- correcto -->
+										<option value="4">Purple</option>
+										<option value="5">Pink</option>
+										<option value="6">White</option>
+										<option value="7">Brown</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<table>
+									<tbody>
+										<tr>
+											<td rowspan="5">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag33/mindmap.png" class="col-12 rounded mx-auto">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												4.<select id="act23-q13">
+													<option value="0" selected disabled>Choose</option>
+													<option value="1">Blue</option>
+													<option value="2">Orange</option><!-- correcto -->
+													<option value="3">Green</option>
+													<option value="4">Purple</option>
+													<option value="5">Pink</option>
+													<option value="6">White</option>
+													<option value="7">Brown</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												5.<select id="act23-q13">
+													<option value="0" selected disabled>Choose</option>
+													<option value="1">Blue</option>
+													<option value="2">Orange</option>
+													<option value="3">Green</option>
+													<option value="4">Purple</option><!-- correcto -->
+													<option value="5">Pink</option>
+													<option value="6">White</option>
+													<option value="7">Brown</option>
+												</select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												6.<select id="act23-q13">
+														<option value="0" selected disabled>Choose</option>
+														<option value="1">Blue</option><!-- correcto -->
+														<option value="2">Orange</option>
+														<option value="3">Green</option>
+														<option value="4">Purple</option>
+														<option value="5">Pink</option>
+														<option value="6">White</option>
+														<option value="7">Brown</option>
+													</select>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												7.<select id="act23-q13">
+													<option value="0" selected disabled>Choose</option>
+													<option value="1">Blue</option>
+													<option value="2">Orange</option>
+													<option value="3">Green</option>
+													<option value="4">Purple</option>
+													<option value="5">Pink</option>
+													<option value="6">White</option><!-- correcto -->
+													<option value="7">Brown</option>
+												</select>
+											</td>
+										</tr>
+									</tbody>
+									</table>
+									
+									
+								</div>
+								
+							</div>
+
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-Are you able to apply proactivity and create clothes with your ideal colors?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act23-q14">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1"></option><!-- correcto -->
+										<option value="2"></option>
+										<option value="3"></option>
+									</select>
+								</div>
+							</div>
+	
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 23-->
+<!-- fin Region 33-->
+
+<!-- Actividad 24-->
+<!-- Region 34-->
+<div id="ModalLibroOcho34" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Evaluate yourself and observe your progress in English!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act24">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points24" name="points24">
+                                <input type="text"  class="d-none" id="idlibro24" name="idlibro24">
+								<input type="text"  class="d-none" id="idcliente24" name="idcliente24">
+							</div>
+						</div>
+
+						<div class="row">
+							<!-- pregunta1 -->
+                            <div class="col-6">
+								<div class="col-12">
+									<strong>I-What do receipts show?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act12-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">For questions using countable or plural objects</option>
+										<option value="2">For questions using a non-countable or singular object</option>
+										<option value="3">The name of the item purchased, quantities, total price and sales tax</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<!-- pregunta2 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>II-When do we use 'how many'?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act12-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">For questions using countable or plural objects</option><!-- correcto -->
+										<option value="2">For questions using a non-countable or singular object</option>
+										<option value="3">The name of the item purchased, quantities, total price and sales tax</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta3 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>III-Select the correct questions and answers using 'how much' and 'how many'</strong>
+								</div>
+
+								<div class="row">
+									
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb2"><label for="act21-cb2">&nbsp;<strong>?</strong> </label>
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb3"><label for="act21-cb3">&nbsp;<strong>?</strong> Yes, She likes them a lot</label><!-- correct -->
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb4"><label for="act21-cb4">&nbsp;<strong>?</strong> I want the red one</label><!-- correct -->
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act21-cb6"><label for="act21-cb6">&nbsp;<strong>?</strong> It's big and cozy</label>
+									</div>
+							
+								</div>
+							</div>
+							<!-- pregunta4 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-Select the correct questions and answers about home appliances prices</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<label for="act6-q1">?</label>
 									<select id="act12-q3">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">It's yellow.</option><!-- correcto -->
@@ -3269,7 +3579,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<label for="act12-q5">What is the color associated with light and goodness?</label>
+									<label for="act12-q5">?</label>
 									<select id="act12-q5">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">It's yellow.</option>
@@ -3295,30 +3605,30 @@
 							<!-- pregunta5 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>V-Why do you think that there is a need to promote the development of local commerce?</strong>
+									<strong>V-How do you explain that every human has the right to be respected?</strong>
 								</div>
 								
 								<div class="col-md-12">
 									<select id="act12-q11">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Because improves development</option>
-										<option value="2">Because it makes rich people</option>
-										<option value="3">Because it provides income in our country</option><!-- correcto -->
+										<option value="1"></option>
+										<option value="2"></option>
+										<option value="3"></option><!-- correcto -->
 									</select>
 								</div>
 							</div>
 							<!-- pregunta6 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VI-Can you explain how El Salvador views the investment of local industry?</strong>
+									<strong>VI-How do you explain that you are representative of your school?</strong>
 								</div>
 								
 								<div class="col-md-12">
 									<select id="act12-q12">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">As a waste of time and money</option>
-										<option value="2">As crucial for economic growth and development in our country</option><!-- correcto -->
-										<option value="3">Like an opportunity to make money</option>
+										<option value="1"></option>
+										<option value="2"></option><!-- correcto -->
+										<option value="3"></option>
 									</select>
 								</div>
 							</div>
@@ -3328,12 +3638,12 @@
 							<!-- pregunta7 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VII-Could you make a mental map about all the colors that you know?</strong>
+									<strong>VII-Answer using the verbs in parentheses</strong>
 								</div>
 								
 								
 								<div class="col-md-12">
-									1.<select id="act12-q13">
+									<select id="act12-q13">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Blue</option>
 										<option value="2">Orange</option>
@@ -3343,106 +3653,13 @@
 										<option value="6">White</option>
 										<option value="7">Brown</option><!-- correcto -->
 									</select>
-									&nbsp;
-									2.<select id="act12-q13">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Blue</option>
-										<option value="2">Orange</option>
-										<option value="3">Green</option>
-										<option value="4">Purple</option>
-										<option value="5">Pink</option><!-- correcto -->
-										<option value="6">White</option>
-										<option value="7">Brown</option>
-									</select>
-									&nbsp;
-									3.<select id="act12-q13">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Blue</option>
-										<option value="2">Orange</option>
-										<option value="3">Green</option><!-- correcto -->
-										<option value="4">Purple</option>
-										<option value="5">Pink</option>
-										<option value="6">White</option>
-										<option value="7">Brown</option>
-									</select>
-								</div>
-								
-								<div class="col-md-12">
-									<table>
-									<tbody>
-										<tr>
-											<td rowspan="5">
-												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag33/mindmap.png" class="col-12 rounded mx-auto">
-											</td>
-										</tr>
-										<tr>
-											<td>
-												4.<select id="act12-q13">
-													<option value="0" selected disabled>Choose</option>
-													<option value="1">Blue</option>
-													<option value="2">Orange</option><!-- correcto -->
-													<option value="3">Green</option>
-													<option value="4">Purple</option>
-													<option value="5">Pink</option>
-													<option value="6">White</option>
-													<option value="7">Brown</option>
-												</select>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												5.<select id="act12-q13">
-													<option value="0" selected disabled>Choose</option>
-													<option value="1">Blue</option>
-													<option value="2">Orange</option>
-													<option value="3">Green</option>
-													<option value="4">Purple</option><!-- correcto -->
-													<option value="5">Pink</option>
-													<option value="6">White</option>
-													<option value="7">Brown</option>
-												</select>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												6.<select id="act12-q13">
-														<option value="0" selected disabled>Choose</option>
-														<option value="1">Blue</option><!-- correcto -->
-														<option value="2">Orange</option>
-														<option value="3">Green</option>
-														<option value="4">Purple</option>
-														<option value="5">Pink</option>
-														<option value="6">White</option>
-														<option value="7">Brown</option>
-													</select>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												7.<select id="act12-q13">
-													<option value="0" selected disabled>Choose</option>
-													<option value="1">Blue</option>
-													<option value="2">Orange</option>
-													<option value="3">Green</option>
-													<option value="4">Purple</option>
-													<option value="5">Pink</option>
-													<option value="6">White</option><!-- correcto -->
-													<option value="7">Brown</option>
-												</select>
-											</td>
-										</tr>
-									</tbody>
-									</table>
-									
-									
-								</div>
-								
+								</div>								
 							</div>
 
 							<!-- pregunta8 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VIII-Are you able to apply proactivity and create clothes with your ideal colors?</strong>
+									<strong>VIII-How can you identify an opportunity to use your modified home appliance?</strong>
 								</div>
 								
 								<div class="col-md-12">
@@ -3470,8 +3687,8 @@
         </div>
     </div>
 </div>
-<!-- fin Actividad 23-->
-<!-- fin Region 33-->
+<!-- fin Actividad 24-->
+<!-- fin Region 34-->
 
 
 
