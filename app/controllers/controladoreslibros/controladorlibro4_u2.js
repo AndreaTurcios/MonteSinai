@@ -30,7 +30,7 @@ $(document).ready(function () {
 
 document.getElementById('unit2-act1').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -94,7 +94,7 @@ document.getElementById("unit2-act2").addEventListener("submit", function (event
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //Se asigna el valor de la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
 
     let inputs = [];
     let conteo = 0, verifyChecks = 0;
@@ -127,7 +127,7 @@ document.getElementById("unit2-act3").addEventListener("submit", function (event
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
     //Se asigna el valor de la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
 
     let inputs = [];
     //Llenar arreglo de inputs y se verifica que haya seleccionado al menos una de cada línea
@@ -156,7 +156,7 @@ document.getElementById("unit2-act3").addEventListener("submit", function (event
 
 document.getElementById('unit2-act4').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -218,7 +218,7 @@ document.getElementById('unit2-act4').addEventListener('submit', function (event
 
 document.getElementById('unit2-act5').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -280,7 +280,7 @@ document.getElementById('unit2-act5').addEventListener('submit', function (event
 
 document.getElementById('unit2-act6').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -342,7 +342,7 @@ document.getElementById('unit2-act6').addEventListener('submit', function (event
 
 document.getElementById('unit2-act7').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -401,7 +401,7 @@ document.getElementById('unit2-act7').addEventListener('submit', function (event
 
 document.getElementById('unit2-act8').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -497,7 +497,7 @@ for (let i = 0; i < 20; i++) {
 
 document.getElementById('unit2-act9').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -556,7 +556,7 @@ document.getElementById('unit2-act9').addEventListener('submit', function (event
 
 document.getElementById('unit2-act10').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -615,7 +615,7 @@ document.getElementById('unit2-act10').addEventListener('submit', function (even
 
 document.getElementById('unit2-act11').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -674,7 +674,7 @@ document.getElementById('unit2-act11').addEventListener('submit', function (even
 
 document.getElementById('unit2-act12').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -706,7 +706,7 @@ document.getElementById('unit2-act12').addEventListener('submit', function (even
 
 document.getElementById('unit2-act13').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -820,7 +820,7 @@ $('#ModalUnit2Act14').on('shown.bs.modal', function (e) {
 document.getElementById('unit2-act14').addEventListener('submit', function (event) {
 
     //valor de la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
 
     //Se evita que se recargue la página al enviar el formulario
     event.preventDefault();
@@ -846,7 +846,7 @@ document.getElementById('unit2-act14').addEventListener('submit', function (even
 
 document.getElementById('unit2-act15').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -913,7 +913,7 @@ document.getElementById('unit2-act15').addEventListener('submit', function (even
             return true;
         } else {
             //Se asigna el puntaje basado en las respuestas correctas
-            let puntaje = valorActividad / inputs.length;
+            let puntaje = valorActividad / 42;
             let points = (puntaje * conteo).toFixed(2);
             var libro = 4;
             document.getElementById('idcliente15').value = users.value;
@@ -960,7 +960,7 @@ for (let i = 0; i < 4; i++) {
 
 document.getElementById('unit2-act16').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -1055,7 +1055,7 @@ for (let i = 0; i < 7; i++) {
 
 document.getElementById('unit2-act17').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -1150,7 +1150,7 @@ for (let i = 0; i < 6; i++) {
 
 document.getElementById('unit2-act18').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1212,7 +1212,7 @@ document.getElementById('unit2-act18').addEventListener('submit', function (even
 
 document.getElementById('unit2-act19').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -1307,7 +1307,7 @@ for (let i = 0; i < 6; i++) {
 
 document.getElementById('unit2-act20').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1400,7 +1400,7 @@ $('#ModalUnit2Act21').on('shown.bs.modal', function (e) {
 document.getElementById('unit2-act21').addEventListener('submit', function (event) {
 
     //valor de la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     //Arreglo para los datos ingresados
     inputs = [];
     //Se evita que se recargue la página al enviar el formulario
@@ -1437,7 +1437,7 @@ document.getElementById('unit2-act21').addEventListener('submit', function (even
 
 document.getElementById('unit2-act22').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1499,7 +1499,7 @@ document.getElementById('unit2-act22').addEventListener('submit', function (even
 
 document.getElementById('unit2-act23').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1558,7 +1558,7 @@ document.getElementById('unit2-act23').addEventListener('submit', function (even
 
 document.getElementById('unit2-act24').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1620,7 +1620,7 @@ document.getElementById('unit2-act24').addEventListener('submit', function (even
 
 document.getElementById('unit2-act25').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1679,7 +1679,7 @@ document.getElementById('unit2-act25').addEventListener('submit', function (even
 
 document.getElementById('unit2-act26').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1742,7 +1742,7 @@ document.getElementById('unit2-act26').addEventListener('submit', function (even
 
 document.getElementById('unit2-act27').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1801,7 +1801,7 @@ document.getElementById('unit2-act27').addEventListener('submit', function (even
 
 document.getElementById('unit2-act28').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1869,7 +1869,7 @@ document.getElementById('unit2-act28').addEventListener('submit', function (even
 
 document.getElementById('unit2-act29').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1928,7 +1928,7 @@ document.getElementById('unit2-act29').addEventListener('submit', function (even
 
 document.getElementById('unit2-act30').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1987,7 +1987,7 @@ document.getElementById('unit2-act30').addEventListener('submit', function (even
 
 document.getElementById('unit2-act31').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -2001,17 +2001,17 @@ document.getElementById('unit2-act31').addEventListener('submit', function (even
 
     let matchdo = inputs.find(element => {
         if (element.includes('DO')) {
-          return true;
+            return true;
         }
     });
     let matchdoes = inputs.find(element => {
         if (element.includes('DOES')) {
-          return true;
+            return true;
         }
     });
     let matchdoesnt = inputs.find(element => {
         if (element.includes("DOESN'T")) {
-          return true;
+            return true;
         }
     });
 
@@ -2043,7 +2043,7 @@ document.getElementById('unit2-act31').addEventListener('submit', function (even
 
 document.getElementById('unit2-act32').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 1;
+    let valorActividad = 0.27;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -2091,4 +2091,314 @@ document.getElementById('unit2-act32').addEventListener('submit', function (even
             return false;
         }
     }
+});
+
+document.getElementById('unit2-act33').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.27;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["MY", "YOUR", "HIS", "HER", "ITS", "OUR", "YOUR", "THEIR"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < 8; i++) {
+        inputs[i] = document.getElementById('input-act33-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < 8; i++) {
+            if (inputs[i].trim().toUpperCase().includes(respuestas[i])) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 4;
+            document.getElementById('idcliente33').value = users.value;
+            document.getElementById('points33').value = valorActividad;
+            document.getElementById('idlibro33').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit2-act33', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act33').modal('hide');
+            return true;
+        } else {
+            sweetAlert(2, 'Make sure to use the correct possesive adjective', null);
+            return false;
+        }
+    }
+});
+
+
+document.getElementById('unit2-act34').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.27;
+    let conteo = 0;
+    let vacio = false;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar los datos ingresados.
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < 4; i++) {
+        inputs[i] = document.getElementById('box-act34-' + (i + 1));
+
+        if (!(inputs[i].children.length > 0)) {
+            vacio = true;
+        }
+    }
+
+    //Verificar days of the week
+    for (let i = 1; i < 8; i++) {
+        if (inputs[0].querySelector('#option-act34-' + (i)) !== null) {
+            conteo++;
+        }
+    }
+
+    //Verificar outdoor activities
+    for (let i = 8; i < 18; i++) {
+        if (inputs[1].querySelector('#option-act34-' + (i)) !== null) {
+            conteo++;
+        }
+    }
+
+    //Verificar traditional games
+    for (let i = 18; i < 26; i++) {
+        if (inputs[2].querySelector('#option-act34-' + (i)) !== null) {
+            conteo++;
+        }
+    }
+
+    //Verificar possesive adjectives
+    for (let i = 26; i < 32; i++) {
+        if (inputs[3].querySelector('#option-act34-' + (i)) !== null) {
+            conteo++;
+        }
+
+    }
+
+    //declaración de condicionales 
+    if (vacio == true) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == 31) {
+            var libro = 4;
+            document.getElementById('idcliente34').value = users.value;
+            document.getElementById('points34').value = valorActividad;
+            document.getElementById('idlibro34').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit2-act34', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act34').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / 31;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente34').value = users.value;
+            document.getElementById('points34').value = points;
+            document.getElementById('idlibro34').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit2-act34', 'modal');
+            sweetAlert(4, conteo + '/31 answers right', null);
+            $('#ModalUnit2Act34').modal('hide');
+            return true;
+        }
+    }
+});
+
+//Elementos arrastrables act34
+
+for (let i = 0; i < 31; i++) {
+    document.getElementById('option-act34-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+};
+
+//Elementos que reciben el arrastrable act34
+for (let i = 0; i < 4; i++) {
+    document.getElementById('box-act34-' + (i + 1)).addEventListener("drop", (e) => {
+        //Id del espacio que recibe el texto
+        let box = document.getElementById('box-act34-' + (i + 1));
+
+        //Se verifica que sea el espacio para el texto.
+        if ((e.target.id == ('box-act34-' + (1 + i)))) {
+
+            e.target.classList.remove("hover");
+            const id = e.dataTransfer.getData("id");
+            e.target.appendChild(document.getElementById(id));
+
+        }
+
+    });
+
+    document.getElementById('box-act34-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+};
+
+document.getElementById('unit2-act35').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.27;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["SIXTY-ONE", "SIXTY-TWO", "SIXTY-THREE", "SIXTY-FOUR", "SIXTY-FIVE", "SIXTY-SIX", "SIXTY-SEVEN", "SIXTY-EIGHT", "SIXTY-NINE", "SEVENTY", "SEVENTY-ONE", "SEVENTY-TWO", "SEVENTY-THREE", "SEVENTY-FOUR", "SEVENTY-FIVE", "SEVENTY-SIX", "SEVENTY-SEVEN", "SEVENTY-EIGHT", "SEVENTY-NINE", "EIGHTY"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < 20; i++) {
+        inputs[i] = document.getElementById('input-act35-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < 20; i++) {
+            if (inputs[i].trim().toUpperCase().includes(respuestas[i])) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 4;
+            document.getElementById('idcliente35').value = users.value;
+            document.getElementById('points35').value = valorActividad;
+            document.getElementById('idlibro35').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit2-act35', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act35').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 4;
+            document.getElementById('idcliente35').value = users.value;
+            document.getElementById('points35').value = points;
+            document.getElementById('idlibro35').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit2-act35', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act35').modal('hide');
+            return true;
+        }
+    }
+});
+
+function checkCells(id) {
+    document.getElementById(id).style.backgroundColor = "#c293c7";
+}
+
+document.getElementById('unit2-act36').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 0.55;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let respuestas = [["SKIING", "KARATE", "HANDBALL", "ATHLETICS", "TENNIS", "SURFING", "BASKETBALL", "DIVING"], ["SWIMMING", "BASEBALL", "VOLLEYBALL", "GYMNASTIC", "HOCKEY", "BOXING", "RUGBY", "WINDSURFING", "FOOTBALL", "BEACHVOLLEY"]];
+    //Se verifica que las celdas necesarias se hayan seleccionado
+    for (let i = 0; i < 133; i++) {
+        if (document.getElementById('act36-' + (i + 1)).style.backgroundColor == 'rgb(194, 147, 199)') {
+            conteo++;
+        }
+
+    }
+    //Llenar arreglo de inputs
+    for (let i = 0; i < 18; i++) {
+        inputs[i] = document.getElementById('input-act36-' + (i + 1)).value
+
+    }
+
+    if (conteo < 132) {
+        sweetAlert(2, 'Find the missing words', null);
+        return false;
+    } else {
+        conteo = 0;
+        //Se verifican los inputs de down
+        for (let i = 0; i < 8; i++) {
+            for (let j = 0; j < 8; j++) {
+                if (inputs[i].trim().toUpperCase().includes(respuestas[0][j])) {
+                    conteo++;
+                    respuestas[0][j] = "~";
+                }
+            }
+        }
+        //Se verifican los inputs de across
+        for (let i = 8; i < 18; i++) {
+            for (let j = 0; j < 10; j++) {
+                if (inputs[i].trim().toUpperCase().includes(respuestas[1][j])) {
+                    conteo++;
+                    respuestas[1][j] = "~";
+                }
+            }
+        }
+
+        if (inputs.includes("")) {
+            sweetAlert(2, 'complete the missing fields', null);
+            return false;
+        } else {
+            //Se revisa si todas las respuestas son correctas
+            if (conteo == 18) {
+                var libro = 4;
+                document.getElementById('idcliente36').value = users.value;
+                document.getElementById('points36').value = valorActividad;
+                document.getElementById('idlibro36').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit2-act36', 'modal');
+                sweetAlert(1, 'Good job!', null);
+                $('#ModalUnit2Act36').modal('hide');
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / 18;
+                let points = (puntaje * conteo).toFixed(2);
+                var libro = 4;
+                document.getElementById('idcliente36').value = users.value;
+                document.getElementById('points36').value = points;
+                document.getElementById('idlibro36').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit2-act36', 'modal');
+                sweetAlert(4, conteo + '/18 answers right', null);
+                $('#ModalUnit2Act36').modal('hide');
+                return true;
+            }
+        }
+    }
+
 });

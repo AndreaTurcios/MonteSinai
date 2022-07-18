@@ -4598,6 +4598,880 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
+<div id="ModalUnit2Act33" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act33">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using the possesive adjective</p>
+											<input type="text" class="d-none" id="points33" name="points">
+											<input type="text" class="d-none" id="idcliente33" name="idcliente">
+											<input type="text" class="d-none" id="idlibro33" name="idlibro">
+										</div>
+									</div>
+									<div class="row">
+										<table class="table table-bordered">
+											<tr>
+												<td width="15%" class="text-center">My</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-1" class="form-control"></td>
+											</tr>
+											<tr>
+												<td width="15%" class="text-center">Your</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-2" class="form-control"></td>
+											</tr>
+											<tr>
+												<td width="15%" class="text-center">His</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-3" class="form-control"></td>
+											</tr>
+											<tr>
+												<td width="15%" class="text-center">Her</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-4" class="form-control"></td>
+											</tr>
+											<tr>
+												<td width="15%" class="text-center">Its</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-5" class="form-control"></td>
+											</tr>
+											<tr>
+												<td width="15%" class="text-center">Our</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-6" class="form-control"></td>
+											</tr>
+											<tr>
+												<td width="15%" class="text-center">Your</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-7" class="form-control"></td>
+											</tr>
+											<tr>
+												<td width="15%" class="text-center">Their</td>
+												<td width="85%"><input type="text" autocomplete="off" id="input-act33-8" class="form-control"></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act34" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act34">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Choose and drag</p>
+											<input type="text" class="d-none" id="points34" name="points">
+											<input type="text" class="d-none" id="idcliente34" name="idcliente">
+											<input type="text" class="d-none" id="idlibro34" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Days of the week</th>
+												<tr>
+													<td id="box-act34-1" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Outdoor activities</th>
+												<tr>
+													<td id="box-act34-2" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row d-flex justify-content-between" id="container-act34-1">
+												<div id="option-act34-8" class="col d-table" draggable="true">skate boarding</div>
+												<div id="option-act34-9" class="col d-table" draggable="true">fly a kite</div>
+												<div id="option-act34-18" class="col d-table" draggable="true">jacks</div>
+												<div id="option-act34-10" class="col d-table" draggable="true">ride a horse</div>
+												<div id="option-act34-26" class="col d-table" draggable="true">my</div>
+												<div id="option-act34-1" class="col d-table" draggable="true">Sunday</div>
+												<div id="option-act34-11" class="col d-table" draggable="true">jump</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act34-2">
+												<div id="option-act34-27" class="col d-table" draggable="true">his</div>
+												<div id="option-act34-19" class="col d-table" draggable="true">hopscotch</div>
+												<div id="option-act34-12" class="col d-table" draggable="true">roller skate</div>
+												<div id="option-act34-13" class="col d-table" draggable="true">swim</div>
+												<div id="option-act34-20" class="col d-table" draggable="true">jump rope</div>
+												<div id="option-act34-2" class="col d-table" draggable="true">Tuesday</div>
+												<div id="option-act34-14" class="col d-table" draggable="true">climb a tree</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act34-3">
+												<div id="option-act34-21" class="col d-table" draggable="true">marbles</div>
+												<div id="option-act34-22" class="col d-table" draggable="true">hide and seek</div>
+												<div id="option-act34-23" class="col d-table" draggable="true">yo-yo</div>
+												<div id="option-act34-3" class="col d-table" draggable="true">Thursday</div>
+												<div id="option-act34-28" class="col d-table" draggable="true">her</div>
+												<div id="option-act34-15" class="col d-table" draggable="true">ride a bike</div>
+												<div id="option-act34-4" class="col d-table" draggable="true">Friday</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act34-4">
+												<div id="option-act34-29" class="col d-table" draggable="true">our</div>
+												<div id="option-act34-5" class="col d-table" draggable="true">Wednesday</div>
+												<div id="option-act34-16" class="col d-table" draggable="true">run</div>
+												<div id="option-act34-30" class="col d-table" draggable="true">their</div>
+												<div id="option-act34-6" class="col d-table" draggable="true">Monday</div>
+												<div id="option-act34-24" class="col d-table" draggable="true">spinning top</div>
+												<div id="option-act34-31" class="col d-table" draggable="true">its</div>
+											</div>
+											<br>
+											<div class="row d-flex justify-content-between" id="container-act15-5">
+												<div id="option-act34-17" class="col d-table" draggable="true">play soccer</div>
+												<div id="option-act34-7" class="col d-table" draggable="true">Saturday</div>
+												<div id="option-act34-25" class="col d-table" draggable="true">Thieves and policeman</div>
+											</div>
+											<br>
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Traditional games</th>
+												<tr>
+													<td id="box-act34-3" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center box-act8-u2">Possesive adjectives</th>
+												<tr>
+													<td id="box-act34-4" class="box-act8-u2"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act35" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act35">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write in letters the numbers</p>
+											<input type="text" class="d-none" id="points35" name="points">
+											<input type="text" class="d-none" id="idcliente35" name="idcliente">
+											<input type="text" class="d-none" id="idlibro35" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">61</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-1" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">62</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-2" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">63</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-3" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">64</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-4" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">65</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-5" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">66</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-6" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">67</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-7" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">68</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-8" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">69</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-9" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">70</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-10" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<tr>
+													<th width="20%" scope="row" class="th-act8">71</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-11" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">72</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-12" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">73</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-13" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">74</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-14" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">75</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-15" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">76</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-16" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">77</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-17" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">78</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-18" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">79</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-19" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+												<tr>
+													<th width="20%" scope="row" class="th-act8">80</th>
+													<td width="80%" class="box-act8-u2">
+														<input autocomplete="off" type="text" class="form-control" id="input-act35-20" placeholder="Write the number..." maxlength="13">
+													</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act36" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content" align="center">
+			<div class="modal-header" align="center">
+				<h5 class="modal-title" id="modal-title" align="center">Find 18 hidden sports</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act36">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points36" name="points">
+											<input type="text" class="d-none" id="idcliente36" name="idcliente">
+											<input type="text" class="d-none" id="idlibro36" name="idlibro">
+										</div>
+									</div>
+                                    <br>
+                                    <table style="border: 2px solid #f99d52; background-color: #fbebc9; " width="">
+                                        <tr><!-- ROW ONE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-1" onclick="checkCells('act36-1')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-2" onclick="checkCells('act36-2')">W</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-3" onclick="checkCells('act36-3')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-4" onclick="checkCells('act36-4')">M</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-5" onclick="checkCells('act36-5')">M</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-6" onclick="checkCells('act36-6')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-7" onclick="checkCells('act36-7')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-8" onclick="checkCells('act36-8')">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30">L</th>
+                                        </tr>
+										<tr><!-- ROW TWO -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-9" onclick="checkCells('act36-9')">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">M</th>
+                                            <th class="text-center cell-act21" width="30" height="30">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-10" onclick="checkCells('act36-10')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-11" onclick="checkCells('act36-11')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-12" onclick="checkCells('act36-12')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-13" onclick="checkCells('act36-13')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-14" onclick="checkCells('act36-14')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-15" onclick="checkCells('act36-15')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-16" onclick="checkCells('act36-16')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-17" onclick="checkCells('act36-17')">L</th>
+                                        </tr>
+										<tr><!-- ROW THREE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-18" onclick="checkCells('act36-18')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-19" onclick="checkCells('act36-19')">V</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-20" onclick="checkCells('act36-20')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-21" onclick="checkCells('act36-21')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-22" onclick="checkCells('act36-22')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-23" onclick="checkCells('act36-23')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-24" onclick="checkCells('act36-24')">Y</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-25" onclick="checkCells('act36-25')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-26" onclick="checkCells('act36-26')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-27" onclick="checkCells('act36-27')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-28" onclick="checkCells('act36-28')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">K</th>
+                                        </tr>
+										<tr><!-- ROW FOUR -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-29" onclick="checkCells('act36-29')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-30" onclick="checkCells('act36-30')">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-31" onclick="checkCells('act36-31')">Y</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-32" onclick="checkCells('act36-32')">M</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-33" onclick="checkCells('act36-33')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-34" onclick="checkCells('act36-34')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-35" onclick="checkCells('act36-35')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-36" onclick="checkCells('act36-36')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-37" onclick="checkCells('act36-37')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-38" onclick="checkCells('act36-38')">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-39" onclick="checkCells('act36-39')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30">W</th>
+                                            <th class="text-center cell-act21" width="30" height="30">Q</th>
+                                            <th class="text-center cell-act21" width="30" height="30">F</th>
+                                        </tr>
+										<tr><!-- ROW FIVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-40" onclick="checkCells('act36-40')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30">J</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-41" onclick="checkCells('act36-41')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-42" onclick="checkCells('act36-42')">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-43" onclick="checkCells('act36-43')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-44" onclick="checkCells('act36-44')">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-45" onclick="checkCells('act36-45')">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-46" onclick="checkCells('act36-46')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-47" onclick="checkCells('act36-47')">Y</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                        </tr>
+										<tr><!-- ROW SIX -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-48" onclick="checkCells('act36-48')">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-49" onclick="checkCells('act36-49')">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-50" onclick="checkCells('act36-50')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-51" onclick="checkCells('act36-51')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-52" onclick="checkCells('act36-52')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-53" onclick="checkCells('act36-53')">X</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-54" onclick="checkCells('act36-54')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-55" onclick="checkCells('act36-55')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-56" onclick="checkCells('act36-56')">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-57" onclick="checkCells('act36-57')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                        </tr>
+										<tr><!-- ROW SEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-58" onclick="checkCells('act36-58')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-59" onclick="checkCells('act36-59')">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-60" onclick="checkCells('act36-60')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-61" onclick="checkCells('act36-61')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30">M</th>
+                                            <th class="text-center cell-act21" width="30" height="30">P</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-62" onclick="checkCells('act36-62')">D</th>
+                                        </tr>
+										<tr><!-- ROW EIGHT -->
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-63" onclick="checkCells('act36-63')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-64" onclick="checkCells('act36-64')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-65" onclick="checkCells('act36-65')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-66" onclick="checkCells('act36-66')">U</th>
+                                            <th class="text-center cell-act21" width="30" height="30">W</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-67" onclick="checkCells('act36-67')">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-68" onclick="checkCells('act36-68')">U</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-69" onclick="checkCells('act36-69')">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-70" onclick="checkCells('act36-70')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-71" onclick="checkCells('act36-71')">Y</th>
+                                            <th class="text-center cell-act21" width="30" height="30">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-72" onclick="checkCells('act36-72')">I</th>
+                                        </tr>
+										<tr><!-- ROW NINE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-73" onclick="checkCells('act36-73')">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-74" onclick="checkCells('act36-74')">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-75" onclick="checkCells('act36-75')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-76" onclick="checkCells('act36-76')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-77" onclick="checkCells('act36-77')">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">M</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-78" onclick="checkCells('act36-78')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-79" onclick="checkCells('act36-79')">V</th>
+                                        </tr>
+										<tr><!-- ROW TEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-80" onclick="checkCells('act36-80')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-81" onclick="checkCells('act36-81')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-82" onclick="checkCells('act36-82')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-83" onclick="checkCells('act36-83')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-84" onclick="checkCells('act36-84')">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30">U</th>
+                                            <th class="text-center cell-act21" width="30" height="30">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-85" onclick="checkCells('act36-85')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30">Y</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-86" onclick="checkCells('act36-86')">I</th>
+                                        </tr>
+										<tr><!-- ROW ELEVEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-87" onclick="checkCells('act36-87')">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-88" onclick="checkCells('act36-88')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-89" onclick="checkCells('act36-89')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-90" onclick="checkCells('act36-90')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-91" onclick="checkCells('act36-91')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30">J</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-92" onclick="checkCells('act36-92')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-93" onclick="checkCells('act36-93')">N</th>
+                                        </tr>
+										<tr><!-- ROW TWELVE -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-94" onclick="checkCells('act36-94')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-95" onclick="checkCells('act36-95')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-96" onclick="checkCells('act36-96')">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-97" onclick="checkCells('act36-97')">W</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-98" onclick="checkCells('act36-98')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-99" onclick="checkCells('act36-99')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-100" onclick="checkCells('act36-100')">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-101" onclick="checkCells('act36-101')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-102" onclick="checkCells('act36-102')">U</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-103" onclick="checkCells('act36-103')">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-104" onclick="checkCells('act36-104')">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-105" onclick="checkCells('act36-105')">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-106" onclick="checkCells('act36-106')">N</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-107" onclick="checkCells('act36-107')">G</th>
+                                        </tr>
+										<tr><!-- ROW THIRTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-108" onclick="checkCells('act36-108')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-109" onclick="checkCells('act36-109')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-110" onclick="checkCells('act36-110')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-111">U</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-112" onclick="checkCells('act36-112')">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-113" onclick="checkCells('act36-113')">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-114" onclick="checkCells('act36-114')">F</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-115" onclick="checkCells('act36-115')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-116" onclick="checkCells('act36-116')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-117" onclick="checkCells('act36-117')">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-118" onclick="checkCells('act36-118')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-119" onclick="checkCells('act36-119')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-120" onclick="checkCells('act36-120')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-121" onclick="checkCells('act36-121')">L</th>
+                                        </tr>
+										<tr><!-- ROW FOURTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-122" onclick="checkCells('act36-122')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">R</th>
+                                            <th class="text-center cell-act21" width="30" height="30">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30">I</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30">G</th>
+                                            <th class="text-center cell-act21" width="30" height="30">S</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">T</th>
+                                            <th class="text-center cell-act21" width="30" height="30">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30">K</th>
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                        </tr>
+										<tr><!-- ROW FIFTEEN -->
+                                            <th class="text-center cell-act21" width="30" height="30">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30">D</th>
+                                            <th class="text-center cell-act21" width="30" height="30">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-123" onclick="checkCells('act36-123')">B</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-124" onclick="checkCells('act36-124')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-125" onclick="checkCells('act36-125')">A</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-126" onclick="checkCells('act36-126')">C</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-127" onclick="checkCells('act36-127')">H</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-128" onclick="checkCells('act36-128')">V</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-129" onclick="checkCells('act36-129')">O</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-130" onclick="checkCells('act36-130')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-131" onclick="checkCells('act36-131')">L</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-132" onclick="checkCells('act36-132')">E</th>
+                                            <th class="text-center cell-act21" width="30" height="30" id="act36-133" onclick="checkCells('act36-133')">Y</th>
+                                        </tr>
+                                    </table>
+									<div class="row pt-4">
+										<p class="text-center">Write the words</p>
+									</div>
+									<div class="row">
+										<div class="col-6">
+											<p class="text-center">Down</p>
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-1">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-2">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-3">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-4">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-5">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-6">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-7">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-8">
+										</div>
+										<div class="col-6">
+											<p class="text-center">Across</p>
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-9">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-10">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-11">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-12">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-13">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-14">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-15">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-16">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-17">
+											<input autocomplete="off" type="text" class="form-control mb-3" id="input-act36-18">
+										</div>
+									</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script  src="../../app/controllers/BookTwoUnitOne/wordfindpage7.js"></script>
+</div>
+
+<div id="ModalUnit2Audio1" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio1">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track01.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio2" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio2">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track26.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio3" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio3">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track27.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio4" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio4">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track28.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio5" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio5">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track29.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio6" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio6">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track30.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio7" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio7">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track31.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio8" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio8">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track32.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio9" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio9">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track33.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio10" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio10">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track34.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio11" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio11">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track35.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio12" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio12">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track36.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio13" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio13">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track37.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2Audio14" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit2-audio14">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_cuarto/UnitTwo/Track38.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.

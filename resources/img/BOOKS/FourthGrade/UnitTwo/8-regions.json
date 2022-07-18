@@ -9,4 +9,15 @@
 			"modal":"ModalUnit2Act6",
 			"form":"unit2-act6"
 		}
+},{
+	"x":10,
+	"y":60,
+	"width":120,
+	"height":20,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit2Audio6",
+			"form":"unit2-audio6"
+		}
 }]

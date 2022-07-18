@@ -144,6 +144,12 @@
     border-radius: 10px;
   }
 
+  .time-b4{
+    border: solid 1px #ced4da; 
+    border-radius: 0.25rem;
+    width: 25%
+  }
+
   /*
   *Libro 5
   **/
