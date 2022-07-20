@@ -3228,16 +3228,16 @@
 								<div class="row">
 									
 									<div class = oracion>
-										<input type="checkbox" id="act23-cb2"><label for="act23-cb2">&nbsp;<strong>Hi, How can I help you?</strong> Hi, I want a pound of salt</label>
+										<input type="checkbox" id="act23-cb1"><label for="act23-cb1">&nbsp;<strong>Hi, How can I help you?</strong> Hi, I want a pound of salt</label>
 									</div>
 									<div class = oracion>
-										<input type="checkbox" id="act23-cb3"><label for="act23-cb3">&nbsp;<strong>Does my sister like those pink sandals?</strong> Yes, She likes them a lot</label><!-- correct -->
+										<input type="checkbox" id="act23-cb2"><label for="act23-cb2">&nbsp;<strong>Does my sister like those pink sandals?</strong> Yes, She likes them a lot</label><!-- correct -->
 									</div>
 									<div class = oracion>
-										<input type="checkbox" id="act23-cb4"><label for="act23-cb4">&nbsp;<strong>What color of hat do you like?</strong> I want the red one</label><!-- correct -->
+										<input type="checkbox" id="act23-cb3"><label for="act23-cb3">&nbsp;<strong>What color of hat do you like?</strong> I want the red one</label><!-- correct -->
 									</div>
 									<div class = oracion>
-										<input type="checkbox" id="act23-cb6"><label for="act23-cb6">&nbsp;<strong>How is your brother's house?</strong> It's big and cozy</label>
+										<input type="checkbox" id="act23-cb4"><label for="act23-cb4">&nbsp;<strong>How is your brother's house?</strong> It's big and cozy</label>
 									</div>
 							
 								</div>
@@ -3249,7 +3249,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act23-q1">What is the color of sunshine?</label>
+									<label for="act23-q3">What is the color of sunshine?</label>
 									<select id="act23-q3">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">It's yellow.</option><!-- correcto -->
@@ -3299,7 +3299,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act23-q11">
+									<select id="act23-q7">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Because improves development</option>
 										<option value="2">Because it makes rich people</option>
@@ -3314,7 +3314,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act23-q12">
+									<select id="act23-q8">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">As a waste of time and money</option>
 										<option value="2">As crucial for economic growth and development in our country</option><!-- correcto -->
@@ -3333,7 +3333,7 @@
 								
 								
 								<div class="col-md-12">
-									1.<select id="act23-q13">
+									1.<select id="act23-q9">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Blue</option>
 										<option value="2">Orange</option>
@@ -3344,7 +3344,7 @@
 										<option value="7">Brown</option><!-- correcto -->
 									</select>
 									&nbsp;
-									2.<select id="act23-q13">
+									2.<select id="act23-q10">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Blue</option>
 										<option value="2">Orange</option>
@@ -3355,7 +3355,7 @@
 										<option value="7">Brown</option>
 									</select>
 									&nbsp;
-									3.<select id="act23-q13">
+									3.<select id="act23-q11">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Blue</option>
 										<option value="2">Orange</option>
@@ -3367,17 +3367,17 @@
 									</select>
 								</div>
 								
-								<div class="col-md-12">
+								<div class="col-md-11">
 									<table>
 									<tbody>
 										<tr>
 											<td rowspan="5">
-												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag33/mindmap.png" class="col-12 rounded mx-auto">
-											</td>
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag33/mindmap.png" class="col-12">
+											</td>	
 										</tr>
 										<tr>
 											<td>
-												4.<select id="act23-q13">
+												4.<select id="act23-q12">
 													<option value="0" selected disabled>Choose</option>
 													<option value="1">Blue</option>
 													<option value="2">Orange</option><!-- correcto -->
@@ -3405,7 +3405,7 @@
 										</tr>
 										<tr>
 											<td>
-												6.<select id="act23-q13">
+												6.<select id="act23-q14">
 														<option value="0" selected disabled>Choose</option>
 														<option value="1">Blue</option><!-- correcto -->
 														<option value="2">Orange</option>
@@ -3419,7 +3419,7 @@
 										</tr>
 										<tr>
 											<td>
-												7.<select id="act23-q13">
+												7.<select id="act23-q15">
 													<option value="0" selected disabled>Choose</option>
 													<option value="1">Blue</option>
 													<option value="2">Orange</option>
@@ -3433,8 +3433,6 @@
 										</tr>
 									</tbody>
 									</table>
-									
-									
 								</div>
 								
 							</div>
@@ -3442,16 +3440,95 @@
 							<!-- pregunta8 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VIII-Are you able to apply proactivity and create clothes with your ideal colors?</strong>
+									<strong>VIII-Look at the clothes behind. Select 'True' or 'False'</strong>
+								</div>
+								<div class="col-md-12">
+									1. A blue shirt <select id="act23-q16">
+										<option value="0" selected disabled>Fill</option>
+										<option value="1">True</option>
+										<option value="2">False</option><!-- correcto -->
+									</select>
+									&nbsp; &nbsp; &nbsp;
+									2. Dark blue jeans <select id="act23-q17">
+										<option value="0" selected disabled>Fill</option>
+										<option value="1">True</option><!-- correcto -->
+										<option value="2">False</option>
+									</select>
+								</div>
+								<div class="col-md-12">
+									3. A light blue coat <select id="act23-q18">
+										<option value="0" selected disabled>Fill</option>
+										<option value="1">True</option>
+										<option value="2">False</option><!-- correcto -->
+									</select>
+									&nbsp; &nbsp; &nbsp;
+									4. Grey trousers <select id="act23-q19">
+										<option value="0" selected disabled>Fill</option>
+										<option value="1">True</option><!-- correcto -->
+										<option value="2">False</option>
+									</select>
 								</div>
 								
-								<div class="col-md-12">
-									<select id="act23-q14">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option><!-- correcto -->
-										<option value="2"></option>
-										<option value="3"></option>
-									</select>
+								<div class="col-md-12">	
+									<table>
+										<tr>
+											<th rowspan="7"><img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag33/act23_ej8.jpg" class="col-12"></th>
+
+											<td>5. A black suit</td>
+											<td>
+												<select id="act23-q20">
+													<option value="0" selected disabled>Fill</option>
+													<option value="1">True</option><!-- correcto -->
+													<option value="2">False</option>
+												</select>
+											</td>
+										</tr>
+
+										<tr>
+											<td>6. A brown jacket</td>
+											<td>
+												<select id="act23-q21">
+													<option value="0" selected disabled>Fill</option>
+													<option value="1">True</option><!-- correcto -->
+													<option value="2">False</option>
+												</select>
+											</td>
+										</tr>
+
+										<tr>
+											<td>7. A blue skirt</td>
+											<td>
+												<select id="act23-q22">
+													<option value="0" selected disabled>Fill</option>
+													<option value="1">True</option><!-- correcto -->
+													<option value="2">False</option>
+												</select>
+											</td>
+										</tr>
+
+										<tr>
+											<td>8. An orange and white T-shirt</td>
+											<td>
+												<select id="act23-q23">
+													<option value="0" selected disabled>Fill</option>
+													<option value="1">True</option><!-- correcto -->
+													<option value="2">False</option>
+												</select>
+											</td>
+										</tr>
+
+										<tr>
+											<td>9. A purple dress</td>
+											<td>
+												<select id="act23-q24">
+													<option value="0" selected disabled>Fill</option>
+													<option value="1">True</option><!-- correcto -->
+													<option value="2">False</option>
+												</select>
+											</td>
+										</tr>
+
+									</table>
 								</div>
 							</div>
 	
