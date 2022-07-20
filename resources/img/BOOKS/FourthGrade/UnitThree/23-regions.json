@@ -1,0 +1,37 @@
+[{
+	"x":145,
+	"y":142,
+	"width":70,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit3Act12",
+			"form":"unit3-act12"
+		}
+	
+},{
+	"x":280,
+	"y":275,
+	"width":80,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit3Act13",
+			"form":"unit3-act13"
+		}
+	
+},{
+	"x":240,
+	"y":440,
+	"width":80,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit3Act14",
+			"form":"unit3-act14"
+		}
+	
+}]

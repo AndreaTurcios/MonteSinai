@@ -1877,6 +1877,971 @@ Book_Page::headerTemplate('Unidad 3');
 	</div>
 </div>
 
+<div id="ModalUnit3Act9" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act9">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the words</p>
+											<input type="text" class="d-none" id="points9" name="points">
+											<input type="text" class="d-none" id="idcliente9" name="idcliente">
+											<input type="text" class="d-none" id="idlibro9" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row d-flex justify-content-center mb-5">
+									<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/13.jpg" class="img-fluid">
+								</div>
+								<div class="row row-cols-2 mb-5">
+									<div class="col">
+										<p class="d-inline">Why do you like </p>
+											<input type="text" autocomplete="off" id="input-act9-1" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">to the beach. </p>
+									</div>
+									<div class="col">
+										<p class="d-inline">Because </p>
+											<input type="text" autocomplete="off" id="input-act9-2" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">to go swimming. </p>
+									</div>
+								</div>
+								<div class="row row-cols-2 mb-5">
+									<div class="col">
+											<input type="text" autocomplete="off" id="input-act9-3" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">he going </p>
+											<input type="text" autocomplete="off" id="input-act9-4" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">his friends? </p>
+									</div>
+									<div class="col">
+										<p class="d-inline">Yes. He's going  </p>
+											<input type="text" autocomplete="off" id="input-act9-5" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">them in summer. </p>
+									</div>
+								</div>
+								<div class="row row-cols-2 mb-5">
+									<div class="col">
+											<input type="text" autocomplete="off" id="input-act9-6" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">you think the weather will </p>
+											<input type="text" autocomplete="off" id="input-act9-7" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">in November? </p>
+									</div>
+									<div class="col">
+										<p class="d-inline">Yes. The weather will  </p>
+											<input type="text" autocomplete="off" id="input-act9-8" maxlength="20" style="width: 100px;" class="form-control d-inline-block">
+										<p class="d-inline">to windy and cool. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act8" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act8">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer the questions below</p>
+											<input type="text" class="d-none" id="points8" name="points">
+											<input type="text" class="d-none" id="idcliente8" name="idcliente">
+											<input type="text" class="d-none" id="idlibro8" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row d-flex justify-content-center mb-5">
+									<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/12.jpg" class="img-fluid">
+								</div>
+								<div class="row mb-5">
+									<div class="col">
+										<p class="d-inline">What was the weather like on Wednesday? </p>
+											<input type="text" autocomplete="off" id="input-act8-1" maxlength="40" style="width: 350px;" class="form-control d-inline-block">
+									</div>
+								</div>
+								<div class="row mb-5">
+									<div class="col">
+										<p class="d-inline">What was the weather like in Canada yesterday? </p>
+											<input type="text" autocomplete="off" id="input-act8-2" maxlength="40" style="width: 350px;" class="form-control d-inline-block">
+									</div>
+								</div>
+								<div class="row mb-5">
+									<div class="col">
+										<p class="d-inline">Were your friends in Alaska in hot weather?</p>
+											<input type="text" autocomplete="off" id="input-act8-3" maxlength="40" style="width: 350px;" class="form-control d-inline-block">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act10" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act10">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the name of the pets</p>
+											<input type="text" class="d-none" id="points10" name="points">
+											<input type="text" class="d-none" id="idcliente10" name="idcliente">
+											<input type="text" class="d-none" id="idlibro10" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<table>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-1.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-1" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-2.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-2" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-3.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-3" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-4.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-4" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-5.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-5" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-6.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-6" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-7.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-7" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-8.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-8" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-9.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-9" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-10.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-10" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-11.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-11" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-12.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-12" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-13.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-13" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-14.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-14" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-15.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-15" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-16.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-16" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-17.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-17" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-18.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-18" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-19.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-19" class="form-control">
+											</td>
+										</tr>
+										<tr>
+											<td width="30%">
+												<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/20-20.jpg" class="img-fluid">
+											</td>
+											<td width="70%">
+												<input type="text" autocomplete="off" id="input-act10-20" class="form-control">
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act11" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act11">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the question and the answer</p>
+											<input type="text" class="d-none" id="points11" name="points">
+											<input type="text" class="d-none" id="idcliente11" name="idcliente">
+											<input type="text" class="d-none" id="idlibro11" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/22.jpg" class="img-fluid">
+										</div>
+										<div class="col">
+											<select id="select-act11-1" class="form-select mb-3">
+												<option value="0" disabled selected></option>
+												<option value="1">How is the dog?</option>
+												<option value="2">How is the cat?</option>
+												<option value="3">How is the parrot?</option>
+											</select>
+											<select id="select-act11-2" class="form-select">
+												<option value="0" disabled selected></option>
+												<option value="1">It's an ugly animal, its color is green.</option>
+												<option value="2">It's a noisy animal, its color is black.</option>
+												<option value="3">It's a beautiful animal, its color is light brown.</option>
+											</select>
+										</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act12" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act12">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select three adjectives for each pet</p>
+											<input type="text" class="d-none" id="points12" name="points">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2 mb-3">
+									<div class="col">
+										1. Horse
+									</div>
+									<div class="col">
+										<select id="select-act12-1" class="form-select select-act12-1">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-2" class="form-select select-act12-1">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-3" class="form-select select-act12-1">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-2 mb-3">
+									<div class="col">
+										2. Cat
+									</div>
+									<div class="col">
+										<select id="select-act12-4" class="form-select select-act12-2">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-5" class="form-select select-act12-2">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-6" class="form-select select-act12-2">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-2 mb-3">
+									<div class="col">
+										3. Parrot
+									</div>
+									<div class="col">
+										<select id="select-act12-7" class="form-select select-act12-3">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-8" class="form-select select-act12-3">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-9" class="form-select select-act12-3">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-2 mb-3">
+									<div class="col">
+										4. Dog
+									</div>
+									<div class="col">
+										<select id="select-act12-10" class="form-select select-act12-4">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-11" class="form-select select-act12-4">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-12" class="form-select select-act12-4">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+									</div>
+								</div>
+								<div class="row row-cols-2 mb-3">
+									<div class="col">
+										5. Mouse
+									</div>
+									<div class="col">
+										<select id="select-act12-13" class="form-select select-act12-5">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-14" class="form-select select-act12-5">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+										<select id="select-act12-15" class="form-select select-act12-5">
+											<option value="0" selected disabled></option>
+											<option value="1">noisy</option>
+											<option value="2">little</option>
+											<option value="3">black</option>
+											<option value="4">ugly</option>
+											<option value="5">white</option>
+											<option value="6">brown</option>
+											<option value="7">green</option>
+											<option value="8">orange</option>
+											<option value="9">big</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act13" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act13">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write a sentence for each pet</p>
+											<input type="text" class="d-none" id="points13" name="points">
+											<input type="text" class="d-none" id="idcliente13" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<input type="text" id="input-act13-1" class="form-control mb-3" autocomplete="off" placeholder="1..">
+									<input type="text" id="input-act13-2" class="form-control mb-3" autocomplete="off" placeholder="2..">
+									<input type="text" id="input-act13-3" class="form-control mb-3" autocomplete="off" placeholder="3..">
+									<input type="text" id="input-act13-4" class="form-control mb-3" autocomplete="off" placeholder="4..">
+									<input type="text" id="input-act13-5" class="form-control mb-3" autocomplete="off" placeholder="5..">
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit3Act14" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act14">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Crossword about pets</p>
+											<input type="text" class="d-none" id="points14" name="points">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro">
+										</div>
+									</div>
+									<style type="text/css">
+										.cell {
+											border: 1px solid #404040;;
+											background-color: white;
+										}
+
+										.cell-black {
+											background-color:#404040;
+										}
+										.word-number {
+											text-align: right;
+											font-size: 0.6rem;
+											vertical-align: top;
+											color: #063477;
+											position: absolute;
+											padding: 0.1rem 0 0 0.1rem;
+										}
+
+										.letter {
+											background: none;
+											height: 1.8rem;
+											width: 1.8rem;
+											border: none;
+											box-shadow: none;
+											text-align: center;
+											text-transform: uppercase;
+											font-size: 1.4rem;
+											color: #063477;
+										}
+									</style>
+									<div class="row row-cols-2 justify-content-center">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/23.jpg" class="img-fluid">
+										</div>
+										<div class="col">
+											<table style="width:100%; height:100%;" class="table-cross14l4">
+												<tr>
+													<!-- 1 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act14-1">1</label>
+														<input id="input-act14-1" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act14-2">2</label>
+														<input id="input-act14-2" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+												</tr>
+												<tr>
+													<!-- 2 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act14-3" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act14-4" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+												</tr>
+												<tr>
+													<!-- 3 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act14-5">3</label>
+														<input id="input-act14-5" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-6" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-7" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-8" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-9" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-10" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+												</tr>
+												<tr>
+													<!-- 4 -->
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act14-11">4</label>
+														<input id="input-act14-11" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act14-12" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 5 -->
+													<td class="cell">
+														<label class="word-number" for="input-act14-13">5</label>
+														<input id="input-act14-13" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-14" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-15" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-16" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act14-17" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 6 -->
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act14-18" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act15" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act15">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Rewrite the sentences</p>
+											<input type="text" class="d-none" id="points15" name="points">
+											<input type="text" class="d-none" id="idcliente15" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2">
+									<div class="col">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/24-1.jpg" class="img-fluid">
+									</div>
+									<div class="col">
+										<input type="text" id="input-act15-1" class="form-control mb-3" autocomplete="off">
+									</div>
+								</div>
+								<div class="row row-cols-2">
+									<div class="col">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/24-2.jpg" class="img-fluid">
+									</div>
+									<div class="col">
+										<input type="text" id="input-act15-2" class="form-control mb-3" autocomplete="off">
+									</div>
+								</div>
+								<div class="row row-cols-2">
+									<div class="col">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/24-3.jpg" class="img-fluid">
+									</div>
+									<div class="col">
+										<input type="text" id="input-act15-3" class="form-control mb-3" autocomplete="off">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
