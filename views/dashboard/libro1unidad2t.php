@@ -516,6 +516,458 @@ Book_Page::headerTemplate('Unidad 2');
 	});
 </script>
 
+<!-- Modales Audios -->
+<div id="ModalUnit2AudioPag37" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio37">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/Unit2.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag39" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio39">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag39.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag40" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio40">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag40.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag41" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio41">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag41.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag42" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio42">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag42.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag43" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio43">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag43.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag44" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio44">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag44.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag45" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio45">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag45.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag46" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio46">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag46.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag47" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio47">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag47.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag48" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio48">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag48.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag49" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio49">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag49.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag50" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio50">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag50.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag51" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio51">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag51.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag52" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio52">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag52.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag53" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio53">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag53.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag54" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio54">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag54.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag55" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio55">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag55.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag56" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio56">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag56.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag57" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio57">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag57.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag58" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio58">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag58.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag59" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio59">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag59.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag60" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio60">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag60.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag61" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio61">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag61.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag62" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio62">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag62.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag63" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio63">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag63.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag64" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio64">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag64.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag65" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio65">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag65.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag67" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio67">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag67.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit2AudioPag68" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio68">
+						
+				<audio controls style="margin-right: 100px;">
+				<source src="../../resources/audio/ingles_uno/Unit2/pag68.mp3" type="audio/mp3">
+				Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+
 <!-- Página 39 -->
 <div id="ModalUnit2Act1" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
@@ -825,7 +1277,7 @@ Book_Page::headerTemplate('Unidad 2');
 										height: 500px;
 										}
 
-										canvas1 {
+										canvas3 {
 										background-color: #F8F8F8;
 										}
 
@@ -833,7 +1285,7 @@ Book_Page::headerTemplate('Unidad 2');
 										justify-self: center;
 										}
 
-										#clearBtn {
+										#clearBtn3 {
 										color: white;
 										font-size: 20px;
 										font-weight: 700;
@@ -851,19 +1303,19 @@ Book_Page::headerTemplate('Unidad 2');
 											<div class="color">
 												<p>Choose a color:</p>
 												<div class="colorPickerWrapper">
-													<input type="color" id="colorPicker" value="#55D0ED">
+													<input type="color" id="colorPicker3" value="#55D0ED">
 												</div>
 											</div>
 											<div class="stroke">
 												<p>Change the stroke's width:</p>
 												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker3">
 												</div>
 											</div>
 											<div class="clear">
 													<p>Clear the canvas</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn">Clear the canvas</a>
+													<a href="#" id="clearBtn3">Clear the canvas</a>
 												</div>
 											</div>
 										</div>
@@ -872,7 +1324,7 @@ Book_Page::headerTemplate('Unidad 2');
 									<div class="col-12">
 										<div class="container-fluid">
 											<input type="number" value="0" id="verify-canvas">
-											<canvas id="canvas1" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag41/canvas41.png')"
+											<canvas id="canvas3" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag41/canvas41.png')"
 											width="800" height="325">
 
 											</canvas>
@@ -1277,6 +1729,154 @@ Book_Page::headerTemplate('Unidad 2');
 </div>
 
 <!-- Página 45 -->
+<div id="ModalUnit2Act7" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">WHAT DO YOU LIKE?</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-seven">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the dialogue. Use your personal information.</p>
+											<input type="text" class="d-none" id="points7" name="points">
+											<input type="text" class="d-none" id="idcliente7" name="idcliente">
+											<input type="text" class="d-none" id="idlibro7" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag45/img45.png">	
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<input type="text" id="input-act7-1n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">Do you like, </p> 
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act7-1f" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													
+													<div class="col-2">
+														<input type="text" id="input-act7-2n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>		
+													<div class="col-1">
+														<p class="fst-normal">?</p> 
+													</div>
+												</div>
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<input type="text" id="input-act7-3n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>		
+													<div class="col-2">
+														<p class="fst-normal">: Yes, I do. I like</p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act7-2f" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>																									
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-2">
+														<input type="text" id="input-act7-4n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">: Do you like </p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act7-3f" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act7-5n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-2">
+														<p class="fst-normal"> ? </p>
+													</div>	
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<input type="text" id="input-act7-6n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>												
+													<div class="col-1">
+														<p class="fst-normal">: No, I </p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act7-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">. I like </p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act7-1ff" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>																					
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 
 <!-- Página 46 -->
 <div id="ModalUnit2Act8" class="modal fade" tabindex="-34">
@@ -1508,7 +2108,7 @@ Book_Page::headerTemplate('Unidad 2');
 										height: 500px;
 										}
 
-										canvas2 {
+										canvas9 {
 										background-color: #F8F8F8;
 										}
 
@@ -1516,7 +2116,7 @@ Book_Page::headerTemplate('Unidad 2');
 										justify-self: center;
 										}
 
-										#clearBtn2 {
+										#clearBtn9 {
 										color: white;
 										font-size: 20px;
 										font-weight: 700;
@@ -1534,19 +2134,19 @@ Book_Page::headerTemplate('Unidad 2');
 											<div class="color">
 												<p>Choose a color:</p>
 												<div class="colorPickerWrapper">
-													<input type="color" id="colorPicker2" value="#55D0ED">
+													<input type="color" id="colorPicker9" value="#55D0ED">
 												</div>
 											</div>
 											<div class="stroke">
 												<p>Change the stroke's width:</p>
 												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker9">
 												</div>
 											</div>
 											<div class="clear">
 													<p>Clear the canvas</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn2">Clear the canvas</a>
+													<a href="#" id="clearBtn9">Clear the canvas</a>
 												</div>
 											</div>
 										</div>
@@ -1555,7 +2155,7 @@ Book_Page::headerTemplate('Unidad 2');
 									<div class="col-12">
 										<div class="container-fluid">
 											<input type="number" value="0" id="verify-canvas">
-											<canvas id="canvas2" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag47/canvas47.png')"
+											<canvas id="canvas9" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag47/canvas47.png')"
 											width="775" height="400">
 
 											</canvas>
@@ -4049,7 +4649,7 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the sentences</p>
+											<p class="fs-1 fw-bold">Complete the dialogue. Use your personal information.</p>
 											<input type="text" class="d-none" id="points24" name="points">
 											<input type="text" class="d-none" id="idcliente24" name="idcliente">
 											<input type="text" class="d-none" id="idlibro24" name="idlibro">
@@ -4185,6 +4785,162 @@ Book_Page::headerTemplate('Unidad 2');
 </div>
 
 <!-- Página 64 -->
+<div id="ModalUnit2Act25" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">HELLO! HOW ARE YOU?</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyfive">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the dialogue. Use your personal information.</p>
+											<input type="text" class="d-none" id="points25" name="points">
+											<input type="text" class="d-none" id="idcliente25" name="idcliente">
+											<input type="text" class="d-none" id="idlibro25" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/FirstGrade/UnitTwo/Pag64/img64.png">	
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<p class="fst-normal">Teacher: </p> 
+													</div>		
+													<div class="col-1">
+														<p class="fst-normal"> Hello, </p> 
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act25-1n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;">
+													</div>
+													
+													<div class="col-1">
+														<input type="text" id="input-act25-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>		
+													<div class="col-1">
+														<p class="fst-normal"> are you? </p> 
+													</div>
+												</div>
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<input type="text" id="input-act25-2n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>		
+													<div class="col-1">
+														<p class="fst-normal">: I'm</p>
+													</div>
+													<div class="col-1">
+														<input type="text" id="input-act25-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">. And you</p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act25-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal">?</p>
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-2">
+														<p class="fst-normal">Teacher: I'm OK </p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act25-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<input type="text" id="input-act25-3n" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>												
+													<div class="col-1">
+														<p class="fst-normal">: Do you have a </p>
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act25-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">?</p>
+													</div>
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-2">
+														<input type="text" id="input-act25-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal">: Yes, I </p> 
+													</div>	
+													<div class="col-3">
+														<input type="text" id="input-act25-1l" class="form-control"
+															aria-label="Sizing example input" maxlength="100"												
+															style="margin-bottom: 5px;">
+													</div>
+													
+												</div>										
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 
 <!-- Página 65 -->
 <div id="ModalUnit2Act26" class="modal fade" tabindex="-34">
@@ -5296,6 +6052,7 @@ Book_Page::headerTemplate('Unidad 2');
 		</div>
 	</div>
 </div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.

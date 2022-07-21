@@ -167,12 +167,12 @@ window.onload = function () {
         clearInterval(intervalo);
     }
     // Get elements from DOM and define properties
-    var colorPicker = document.getElementById("colorPicker");
-    var widthStrokePicker = document.getElementById("strokeWidthPicker");
-    var clearButton = document.getElementById("clearBtn");
+    var colorPicker3 = document.getElementById("colorPicker3");
+    var widthStrokePicker3 = document.getElementById("strokeWidthPicker3");
+    var clearButton3 = document.getElementById("clearBtn3");
 
     // Clear event listener
-    clear2Btn.addEventListener("click", function () {
+    clearButton3.addEventListener("click", function () {
         // Clear canvas
         paper.project.activeLayer.removeChildren();
         paper.view.draw();
@@ -181,8 +181,8 @@ window.onload = function () {
 
     // Update 
     function update() {
-        colorStroke = colorPicker.value;
-        widthStroke = widthStrokePicker.value;
+        colorStroke = colorPicker3.value;
+        widthStroke = widthStrokePicker3.value;
     }
 
     // Check for new color2 value each second
@@ -205,18 +205,19 @@ window.onload = function () {
 }
 
 $('#ModalUnit2Act3').on('shown.bs.modal', function (e) {
+    document.getElementById("verify-canvas").value = 0;
     // Set it up
-    paper.setup('canvas1');
+    paper.setup('canvas3');
     if (intervalo) {
         clearInterval(intervalo);
     }
     // Get elements from DOM and define properties
-    var colorPicker = document.getElementById("colorPicker");
-    var widthStrokePicker = document.getElementById("strokeWidthPicker");
-    var clearButton = document.getElementById("clearBtn");
+    var colorPicker3 = document.getElementById("colorPicker3");
+    var widthStrokePicker3 = document.getElementById("strokeWidthPicker3");
+    var clearButton3 = document.getElementById("clearBtn3");
 
     // Clear event listener
-    clearBtn.addEventListener("click", function () {
+    clearButton3.addEventListener("click", function () {
         // Clear canvas2
         paper.project.activeLayer.removeChildren();
         paper.view.draw();
@@ -225,8 +226,8 @@ $('#ModalUnit2Act3').on('shown.bs.modal', function (e) {
 
     // Update 
     function update() {
-        colorStroke = colorPicker.value;
-        widthStroke = widthStrokePicker.value;
+        colorStroke = colorPicker3.value;
+        widthStroke = widthStrokePicker3.value;
     }
 
     // Check for new color value each second
@@ -470,7 +471,100 @@ document.getElementById('game-six').addEventListener('submit', function (event){
     
 });
 
-//FALTA EL 7
+document.getElementById('game-seven').addEventListener('submit', function (event){
+    
+    //Variables para el orden de nombres
+    var name1, name2, name3, name4, name5, name6;
+    name1 = document.getElementById('input-act7-1n').value;
+    name2 = document.getElementById('input-act7-2n').value;
+    name3 = document.getElementById('input-act7-3n').value;
+    name4 = document.getElementById('input-act7-4n').value;
+    name5 = document.getElementById('input-act7-5n').value;
+    name6 = document.getElementById('input-act7-6n').value;
+
+    var food1, food2, food3;
+    food1 = document.getElementById('input-act7-1f').value;
+    food2 = document.getElementById('input-act7-2f').value;
+    food3 = document.getElementById('input-act7-3f').value;
+
+    var free;
+    free = document.getElementById('input-act7-1ff').value;
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["DON'T"];
+    //Respuestas default de  input-act24-6 input-act24-8, input-act24-9, input-act24-11
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act7-' + (i + 1)).value;        
+    }
+    
+    
+    if (inputs.includes("") || (name1 == "" || name2 == "" || name3 == "" || name4 == "" || name5 == "" || name6 == "") || (food1 == "" || food2 == "" || food3 == "") || (free == "")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else if (//name1
+            (name1 != name4)
+            || 
+            (name2 != name3
+            || name2 != name5
+            || name2 != name6
+            || name3 != name5
+            || name3 != name6
+            || name5 != name6)) 
+    {
+        sweetAlert(2, "Please, be aware with the orden of the names");
+    }else{
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 1;
+            document.getElementById('points7').value = valorActividad;
+            document.getElementById('idlibro7').value = libro;
+            document.getElementById('idcliente7').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyseven', 'ModalUnit2Act7');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act7').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 1;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente7').value = users.value;
+            document.getElementById('points7').value = points;
+            document.getElementById('idlibro7').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyseven', 'ModalUnit2Act7');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act7').modal('hide');
+            return true;
+        }
+    }
+    
+});
 
 document.getElementById('game-eight').addEventListener('submit', function (event){
     
@@ -537,25 +631,21 @@ document.getElementById('game-eight').addEventListener('submit', function (event
     
 });
 
-$('#ModalUnit2Act3').on('shown.bs.modal', function (e) {
-    document.getElementById("verify-canvas").value = 0;
-});
-
 $('#ModalUnit2Act9').on('shown.bs.modal', function (e) {
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas9');
     if (intervalo) {
         clearInterval(intervalo);
     }
-    document.getElementById("verify-canvas").value = 0;
-    // Set it up
-    paper.setup('canvas2');
 
     // Get elements from DOM and define properties
-    var colorPicker2 = document.getElementById("colorPicker2");
-    var widthStrokePicker2 = document.getElementById("strokeWidthPicker2");
-    var clearButton2 = document.getElementById("clearBtn2");
+    var colorPicker9 = document.getElementById("colorPicker9");
+    var widthStrokePicker9 = document.getElementById("strokeWidthPicker9");
+    var clearButton9 = document.getElementById("clearBtn9");
 
     // Clear event listener
-    clearButton2.addEventListener("click", function () {
+    clearButton9.addEventListener("click", function () {
         // Clear canvas2
         paper.project.activeLayer.removeChildren();
         paper.view.draw();
@@ -564,8 +654,8 @@ $('#ModalUnit2Act9').on('shown.bs.modal', function (e) {
 
     // Update 
     function update() {
-        colorStroke = colorPicker2.value;
-        widthStroke = widthStrokePicker2.value;
+        colorStroke = colorPicker9.value;
+        widthStroke = widthStrokePicker9.value;
     }
 
     // Check for new color2 value each second
@@ -1810,7 +1900,88 @@ document.getElementById('game-twentyfour').addEventListener('submit', function (
     }
     
 });
-//FALTA EL 25
+
+document.getElementById('game-twentyfive').addEventListener('submit', function (event){
+    
+    //Variables para el orden de nombres
+    var name1, name2, name3;
+    name1 = document.getElementById('input-act25-1n').value;
+    name2 = document.getElementById('input-act25-2n').value;
+    name3 = document.getElementById('input-act25-3n').value;
+    var freeanswer;
+    freeanswer = document.getElementById('input-act25-1l').value;
+
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["HOW", "FINE", "TEACHER", "THANKS", "HOBBY", "TEACHER"];
+    //Respuestas default de  input-act24-6 input-act24-8, input-act24-9, input-act24-11
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act25-' + (i + 1)).value;        
+    }
+    
+    
+    if (inputs.includes("") || (name1 == "" || name2 == "" || name3 == "") || (freeanswer == "")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else if (//name1
+            name1 != name2
+            || name1 != name3
+            || name2 != name3) 
+    {
+        sweetAlert(2, "Please, be aware with the orden of the names");
+    }else{
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 1;
+            document.getElementById('points25').value = valorActividad;
+            document.getElementById('idlibro25').value = libro;
+            document.getElementById('idcliente25').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfive', 'ModalUnit2Act25');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act25').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 1;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente25').value = users.value;
+            document.getElementById('points25').value = points;
+            document.getElementById('idlibro25').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfive', 'ModalUnit2Act25');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act25').modal('hide');
+            return true;
+        }
+    }
+    
+});
 
 document.getElementById('game-twentysix').addEventListener('submit', function (event){
     
