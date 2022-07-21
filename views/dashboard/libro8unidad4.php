@@ -3709,9 +3709,9 @@
 								<div class="col-md-12">
 									<select id="act24-q11">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">answer</option>
-										<option value="2">answer a</option><!-- correcto -->
-										<option value="3">answer</option>
+										<option value="1">By showing interest in purchasing healthy</option>
+										<option value="2">Respect means being treated with consideration and esteem</option><!-- correcto -->
+										<option value="3">When asking and answering about prices</option>
 									</select>
 								</div>
 							</div>
@@ -3724,9 +3724,9 @@
 								<div class="col-md-12">
 									<select id="act24-q12">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">answer</option>
-										<option value="2">answer</option>
-										<option value="3">answer a</option><!-- correcto -->
+										<option value="1">Because respect is the first step on building a relationship</option>
+										<option value="2">When your teachers are proud of you</option>
+										<option value="3">By wearing uniform correctly and respect</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
@@ -3846,6 +3846,303 @@
 </div>
 <!-- fin Actividad 24-->
 <!-- fin Region 34-->
+
+<!-- Actividad 25-->
+<!-- Region 35-->
+<div id="ModalLibroOcho35" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Evaluate yourself and observe your progress in English!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit4-act25">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points25" name="points25">
+                                <input type="text"  class="d-none" id="idlibro25" name="idlibro25">
+								<input type="text"  class="d-none" id="idcliente25" name="idcliente25">
+							</div>
+						</div>
+
+						<div class="row">
+							<!-- pregunta1 -->
+                            <div class="col-6">
+								<div class="col-12">
+									<strong>I-What is a count noun?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act24-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to make a clear distinction in the sounds like the phoneme /0/</option>
+										<option value="2">Is a noun for an object, such as chair, or for an idea, such as experience</option><!-- correcto -->
+										<option value="3">Is a noun that denotes a concept indivisible into countable units</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta2 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>II-What is a mass noun?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act24-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to make a clear distinction in the sounds like the phoneme /0/</option>
+										<option value="2">Is a noun for an object, such as chair, or for an idea, such as experience</option>
+										<option value="3">Is a noun that denotes a concept indivisible into countable units</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta3 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>III-?</strong>
+								</div>
+
+								<div class="row">
+									
+									<div class="col-md-12">
+										<label for="act24-q3">How much</label>
+										<select id="act24-q3">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">juice is there?</option><!-- correcto -->
+											<option value="2">tomatoes do you need to make a salad?</option>
+											<option value="3">biscuits do you want?</option>
+										</select>
+									</div>
+									
+									<div class="col-md-12">
+										<select id="act24-q4">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">How much</option>
+											<option value="2">How many</option><!-- correcto -->
+										</select>
+										<label for="act24-q4">mangoes would you like to buy?</label>
+									</div>
+
+									<div class="col-md-12">
+										<label for="act24-q5">How much</label>
+										<select id="act24-q5">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">students are there in this class?</option>
+											<option value="2">flour is there?</option><!-- correcto -->
+											<option value="3">pens are in your bag?</option>
+										</select>
+									</div>
+
+									<div class="col-md-12">
+										<select id="act24-q6">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">How much</option>
+											<option value="2">How many</option><!-- correcto -->
+										</select>
+										<label for="act24-q6">children would you like to have?</label>
+									</div>
+							
+								</div>
+							</div>
+							<!-- pregunta4 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<label for="act24-q7">How much is that stereo?</label>
+									<select id="act24-q7">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Yes, you can pay by credit card</option>
+										<option value="2">It's $600.00</option><!-- correcto -->
+										<option value="3">I'll take it</option>
+									</select>
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q8">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Can I help you?</option>
+										<option value="2">How much is it?</option><!-- correcto -->
+										<option value="3">Can I pay by credit card?</option>
+									</select>
+									<label for="act24-q8">The oven is $125.00</label>
+								</div>
+								<div class="col-md-12">
+									<label for="act24-q9">Is that TV for sale?</label>
+									<select id="act24-q9">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Yes, it's also on sale</option><!-- correcto -->
+										<option value="2">It's $900.00</option>
+										<option value="3">Yes, you can pay by credit card</option>
+									</select>
+								</div>
+								<div class="col-md-12">
+									<select name="act24-q10" id="act24-q10">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Can I help you?</option><!-- correcto -->
+										<option value="2">Can I pay by credit card?</option>
+										<option value="3">How much is that TV?</option>
+									</select>
+									<label for="act24-q10">Yes, I'd like buy a DVD</label>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act24-q11">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">answer</option>
+										<option value="2">answer a</option><!-- correcto -->
+										<option value="3">answer</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act24-q12">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">answer</option>
+										<option value="2">answer</option>
+										<option value="3">answer a</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-?</strong>
+								</div>
+
+								<div class="col-md-12">
+								a) What are you doing? (study)
+									<select id="act24-q13">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">I'm study</option>
+										<option value="2">I studying</option>
+										<option value="3">I am studying</option><!-- correcto -->
+									</select>
+								</div>		
+								<div class="col-md-12">
+								b) What is he doing? (watch TV)
+									<select id="act24-q14">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">He is watching TV</option><!-- correcto -->
+										<option value="2">He watch TV</option>
+										<option value="3">He is watch TV</option>
+									</select>
+								</div>			
+								<div class="col-md-12">
+								c) What are they doing? (play tennis)
+									<select id="act24-q15">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">They're play tennis</option>
+										<option value="2">They are playing tennis</option><!-- correcto -->
+										<option value="3">They playing tennis</option>
+									</select>
+								</div>	
+								<div class="col-md-12">
+								d) What is she doing? (drink coffee)
+									<select id="act24-q16">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">She drinking coffee</option>
+										<option value="2">She is drinking coffee</option><!-- correcto -->
+										<option value="3">She is drink coffee</option>
+									</select>
+								</div>		
+								<div class="col-md-12">
+								e) What is your brother doing?
+									<select id="act24-q17">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">My brother is doing homework</option><!-- correcto -->
+										<option value="2">My brother do homework</option>
+										<option value="3">My brother is do homework</option>
+									</select>
+								</div>					
+							</div>
+
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act24-q18">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select> apples are there?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q19">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select> sisters do you have?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q20">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select> water is there?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q21">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select> meat is there in the fridge?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q22">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select> oranges are there?
+								</div>
+							</div>
+	
+                        </div>
+
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Actividad 25-->
+<!-- fin Region 35-->
 
 
 
