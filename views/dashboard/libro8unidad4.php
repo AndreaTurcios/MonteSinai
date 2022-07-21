@@ -3580,7 +3580,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act12-q1">
+									<select id="act24-q1">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">For questions using countable or plural objects</option>
 										<option value="2">For questions using a non-countable or singular object</option>
@@ -3595,7 +3595,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act12-q2">
+									<select id="act24-q2">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">For questions using countable or plural objects</option><!-- correcto -->
 										<option value="2">For questions using a non-countable or singular object</option>
@@ -3609,22 +3609,47 @@
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>III-Select the correct questions and answers using 'how much' and 'how many'</strong>
+									<strong>III-Complete the questions using 'how much' and 'how many'</strong>
 								</div>
 
 								<div class="row">
 									
-									<div class = oracion>
-										<input type="checkbox" id="act21-cb2"><label for="act21-cb2">&nbsp;<strong>?</strong> </label>
+									<div class="col-md-12">
+										<label for="act24-q3">How much</label>
+										<select id="act24-q3">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">juice is there?</option><!-- correcto -->
+											<option value="2">tomatoes do you need to make a salad?</option>
+											<option value="3">biscuits do you want?</option>
+										</select>
 									</div>
-									<div class = oracion>
-										<input type="checkbox" id="act21-cb3"><label for="act21-cb3">&nbsp;<strong>?</strong> Yes, She likes them a lot</label><!-- correct -->
+									
+									<div class="col-md-12">
+										<select id="act24-q4">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">How much</option>
+											<option value="2">How many</option><!-- correcto -->
+										</select>
+										<label for="act24-q4">mangoes would you like to buy?</label>
 									</div>
-									<div class = oracion>
-										<input type="checkbox" id="act21-cb4"><label for="act21-cb4">&nbsp;<strong>?</strong> I want the red one</label><!-- correct -->
+
+									<div class="col-md-12">
+										<label for="act24-q5">How much</label>
+										<select id="act24-q5">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">students are there in this class?</option>
+											<option value="2">flour is there?</option><!-- correcto -->
+											<option value="3">pens are in your bag?</option>
+										</select>
 									</div>
-									<div class = oracion>
-										<input type="checkbox" id="act21-cb6"><label for="act21-cb6">&nbsp;<strong>?</strong> It's big and cozy</label>
+
+									<div class="col-md-12">
+										<select id="act24-q6">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">How much</option>
+											<option value="2">How many</option><!-- correcto -->
+										</select>
+										<label for="act24-q6">children would you like to have?</label>
 									</div>
 							
 								</div>
@@ -3636,45 +3661,41 @@
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act6-q1">?</label>
-									<select id="act12-q3">
+									<label for="act24-q7">How much is that stereo?</label>
+									<select id="act24-q7">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">It's yellow.</option><!-- correcto -->
-										<option value="2">It's green.</option>
-										<option value="3">It's white.</option>
+										<option value="1">Yes, you can pay by credit card</option>
+										<option value="2">It's $600.00</option><!-- correcto -->
+										<option value="3">I'll take it</option>
 									</select>
 								</div>
-								
 								<div class="col-md-12">
-									<select id="act12-q4">
+									<select id="act24-q8">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">What is the color of fire and blood?</option>
-										<option value="2">What is the color of nature?</option><!-- correcto -->
-										<option value="3">What is the color associated with light?</option>
+										<option value="1">Can I help you?</option>
+										<option value="2">How much is it?</option><!-- correcto -->
+										<option value="3">Can I pay by credit card?</option>
 									</select>
-									<label for="act12-q4">It's green.</label>
+									<label for="act24-q8">The oven is $125.00</label>
 								</div>
-
 								<div class="col-md-12">
-									<label for="act12-q5">?</label>
-									<select id="act12-q5">
+									<label for="act24-q9">Is that TV for sale?</label>
+									<select id="act24-q9">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">It's yellow.</option>
-										<option value="2">It's green.</option>
-										<option value="3">It's white.</option><!-- correcto -->
+										<option value="1">Yes, it's also on sale</option><!-- correcto -->
+										<option value="2">It's $900.00</option>
+										<option value="3">Yes, you can pay by credit card</option>
 									</select>
 								</div>
-
 								<div class="col-md-12">
-									<select id="act12-q6">
+									<select name="act24-q10" id="act24-q10">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">What is the color of a sea?</option>
-										<option value="2">What is the color of a tree?</option><!-- correcto -->
-										<option value="3">What is the color of a fire?</option>
+										<option value="1">Can I help you?</option><!-- correcto -->
+										<option value="2">Can I pay by credit card?</option>
+										<option value="3">How much is that TV?</option>
 									</select>
-									<label for="act12-q6">It's green.</label>
+									<label for="act24-q10">Yes, I'd like buy a DVD</label>
 								</div>
-
 							</div>
 
 							<div class="col-12"><br></div> <!-- espacio -->
@@ -3686,11 +3707,11 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act12-q11">
+									<select id="act24-q11">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option>
-										<option value="2"></option>
-										<option value="3"></option><!-- correcto -->
+										<option value="1">answer</option>
+										<option value="2">answer a</option><!-- correcto -->
+										<option value="3">answer</option>
 									</select>
 								</div>
 							</div>
@@ -3701,11 +3722,11 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act12-q12">
+									<select id="act24-q12">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option>
-										<option value="2"></option><!-- correcto -->
-										<option value="3"></option>
+										<option value="1">answer</option>
+										<option value="2">answer</option>
+										<option value="3">answer a</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
@@ -3717,35 +3738,94 @@
 								<div class="col-12">
 									<strong>VII-Answer using the verbs in parentheses</strong>
 								</div>
-								
-								
+
 								<div class="col-md-12">
-									<select id="act12-q13">
+								a) What are you doing? (study)
+									<select id="act24-q13">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Blue</option>
-										<option value="2">Orange</option>
-										<option value="3">Green</option>
-										<option value="4">Purple</option>
-										<option value="5">Pink</option>
-										<option value="6">White</option>
-										<option value="7">Brown</option><!-- correcto -->
+										<option value="1">I'm study</option>
+										<option value="2">I studying</option>
+										<option value="3">I am studying</option><!-- correcto -->
 									</select>
-								</div>								
+								</div>		
+								<div class="col-md-12">
+								b) What is he doing? (watch TV)
+									<select id="act24-q14">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">He is watching TV</option><!-- correcto -->
+										<option value="2">He watch TV</option>
+										<option value="3">He is watch TV</option>
+									</select>
+								</div>			
+								<div class="col-md-12">
+								c) What are they doing? (play tennis)
+									<select id="act24-q15">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">They're play tennis</option>
+										<option value="2">They are playing tennis</option><!-- correcto -->
+										<option value="3">They playing tennis</option>
+									</select>
+								</div>	
+								<div class="col-md-12">
+								d) What is she doing? (drink coffee)
+									<select id="act24-q16">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">She drinking coffee</option>
+										<option value="2">She is drinking coffee</option><!-- correcto -->
+										<option value="3">She is drink coffee</option>
+									</select>
+								</div>		
+								<div class="col-md-12">
+								e) What is your brother doing?
+									<select id="act24-q17">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">My brother is doing homework</option><!-- correcto -->
+										<option value="2">My brother do homework</option>
+										<option value="3">My brother is do homework</option>
+									</select>
+								</div>					
 							</div>
 
 							<!-- pregunta8 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VIII-How can you identify an opportunity to use your modified home appliance?</strong>
+									<strong>VIII-How much versus How many</strong>
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act12-q14">
+									<select id="act24-q18">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option><!-- correcto -->
-										<option value="2"></option>
-										<option value="3"></option>
-									</select>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select> apples are there?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q19">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select> sisters do you have?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q20">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select> water is there?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q21">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option><!-- correcto -->
+										<option value="2">How many</option>
+									</select> meat is there in the fridge?
+								</div>
+								<div class="col-md-12">
+									<select id="act24-q22">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">How much</option>
+										<option value="2">How many</option><!-- correcto -->
+									</select> oranges are there?
 								</div>
 							</div>
 	
