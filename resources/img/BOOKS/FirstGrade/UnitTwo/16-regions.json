@@ -1,0 +1,30 @@
+[{
+	"x":152,
+	"y":568,	
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit2Act7",
+			"form":"game-seven"
+		}
+	
+	
+}
+,
+{
+	"x":25,
+	"y":35,	
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit2AudioPag45",
+			"form":"audio45"
+		}
+	
+	
+}
+]
