@@ -2842,6 +2842,592 @@ Book_Page::headerTemplate('Unidad 3');
 	</div>
 </div>
 
+<div class="modal fade" id="ModalUnit3Act16" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act16">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Solve the crossword using the list of words and the clues</p>
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+									<style type="text/css">
+										.cell {
+											border: 1px solid #d8f3fe;;
+											background-color: white;
+										}
+
+										.cell-black {
+											background-color:#d8f3fe;
+										}
+										.word-number {
+											text-align: right;
+											font-size: 0.6rem;
+											vertical-align: top;
+											color: #063477;
+											position: absolute;
+											padding: 0.1rem 0 0 0.1rem;
+										}
+
+										.letter {
+											background: none;
+											height: 1.8rem;
+											width: 1.8rem;
+											border: none;
+											box-shadow: none;
+											text-align: center;
+											text-transform: uppercase;
+											font-size: 1.4rem;
+											color: #063477;
+										}
+									</style>
+									<div class="row justify-content-center mt-2 mb-3">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/25.jpg" class="img-fluid">
+										</div>
+									</div>
+									<div class="row ">
+										<div class="col d-flex justify-content-center">
+											<table class="table-cross16l4">
+												<tr>
+													<!-- 1 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act16-1">1</label>
+														<input id="input-act16-1" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 2 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-2" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 3 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act16-3">2</label>
+														<input id="input-act16-3" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-4" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 4 -->
+													<td class="cell">
+														<label class="word-number" for="input-act16-5">3, 8</label>
+														<input id="input-act16-5" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-6" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-7" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-8" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<label class="word-number" for="input-act16-9">4</label>
+														<input id="input-act16-9" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-10" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 5 -->
+													<td class="cell">
+														<input id="input-act16-11" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-12" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act16-13">5</label>
+														<input id="input-act16-13" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-14" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<label class="word-number" for="input-act16-15">6</label>
+														<input id="input-act16-15" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-16" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 6 -->
+													<td class="cell">
+														<input id="input-act16-17" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-18" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-19" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 7 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-20" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-21" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 8 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act16-22" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 9 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act16-23">7</label>
+														<input id="input-act16-23" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-24" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-25" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-26" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act16-27" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act17" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act17">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the missing words</p>
+											<input type="text" class="d-none" id="points17" name="points">
+											<input type="text" class="d-none" id="idcliente17" name="idcliente">
+											<input type="text" class="d-none" id="idlibro17" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-2"></div>
+									<div class="col-8">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/27.jpg" class="img-fluid">
+									</div>
+									<div class="col-2"></div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="d-inline">"Oh</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-1">
+										<p class="d-inline">. I have</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-2">
+										<p class="d-inline">a poem. Great," Jake</p>
+											<input type="text" class="form-control d-inline-block" style="width: 150px;" autocomplete="off" id="input-act17-3">
+										<p class="d-inline">disgust. "</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-4">
+										<p class="d-inline">awful</p>
+											<input type="text" class="form-control d-inline-block" style="width: 150px;" autocomplete="off" id="input-act17-5">
+										<p class="d-inline">stuff. I</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-6">
+										<p class="d-inline"> I didn't</p>
+											<input type="text" class="form-control d-inline-block" style="width: 150px;" autocomplete="off" id="input-act17-7">
+										<p class="d-inline">it. I'll be lucky</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-8">
+										<p class="d-inline">a D on</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-9">
+										<p class="d-inline">!"</p>
+										<br>
+										<br>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-10">
+										<p class="d-inline">finished</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-11">
+										<p class="d-inline">poem about pets, and</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-12">
+										<p class="d-inline">up</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-13">
+										<p class="d-inline">. Grace's desk. "Here</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-14">
+										<p class="d-inline">,"</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-15">
+										<p class="d-inline">said. Then</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-16">
+										<p class="d-inline">took off outside</p>
+											<input type="text" class="form-control d-inline-block" style="width: 100px;" autocomplete="off" id="input-act17-17">
+										<p class="d-inline">see</p>
+											<input type="text" class="form-control d-inline-block" style="width: 150px;" autocomplete="off" id="input-act17-18">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="ModalUnit3Act18" tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act18">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Family pets crossword</p>
+											<input type="text" class="d-none" id="points18" name="points">
+											<input type="text" class="d-none" id="idcliente18" name="idcliente">
+											<input type="text" class="d-none" id="idlibro18" name="idlibro">
+										</div>
+									</div>
+									<style type="text/css">
+										.cell {
+											border: 1px solid #d8f3fe;;
+											background-color: white;
+										}
+
+										.cell-black {
+											background-color:#d8f3fe;
+										}
+										.word-number {
+											text-align: right;
+											font-size: 0.6rem;
+											vertical-align: top;
+											color: #063477;
+											position: absolute;
+											padding: 0.1rem 0 0 0.1rem;
+										}
+
+										.letter {
+											background: none;
+											height: 1.8rem;
+											width: 1.8rem;
+											border: none;
+											box-shadow: none;
+											text-align: center;
+											text-transform: uppercase;
+											font-size: 1.4rem;
+											color: #063477;
+										}
+									</style>
+									<div class="row row-cols-2 justify-content-center mt-2 mb-3">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/28.jpg" class="img-fluid">
+										</div>
+										<div class="col d-flex justify-content-center">
+											<table class="table-cross18l4">
+												<tr>
+													<!-- 1 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act18-1">1</label>
+														<input id="input-act18-1" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act18-2">2</label>
+														<input id="input-act18-2" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+												</tr>
+												<tr>
+													<!-- 2 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act18-3" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act18-4" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+												</tr>
+												<tr>
+													<!-- 3 -->
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act18-5">3</label>
+														<input id="input-act18-5" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-6" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-7" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-8" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-9" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-10" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+												</tr>
+												<tr>
+													<!-- 4 -->
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<label class="word-number" for="input-act18-11">4</label>
+														<input id="input-act18-11" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act18-12" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 5 -->
+													<td class="cell">
+														<label class="word-number" for="input-act18-13">5</label>
+														<input id="input-act18-13" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-14" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-15" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-16" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell">
+														<input id="input-act18-17" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+												<tr>
+													<!-- 6 -->
+													<td class="cell cell-black"></td>
+													<td class="cell">
+														<input id="input-act18-18" class="letter" type="text" maxlength="1" data-down="1"/>
+													</td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+													<td class="cell cell-black"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act19" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act19">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the missing words</p>
+											<input type="text" class="d-none" id="points19" name="points">
+											<input type="text" class="d-none" id="idcliente19" name="idcliente">
+											<input type="text" class="d-none" id="idlibro19" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-8">
+										<img src="../../resources/img/BOOKS/FourthGrade/UnitThree/activities/29.jpg" class="img-fluid">
+									</div>
+									<div class="col-4">
+										<textarea class="form-control" id="input-act19" rows="9"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
