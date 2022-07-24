@@ -1807,13 +1807,40 @@ document.getElementById('unit4-act24').addEventListener('submit', function(event
 document.getElementById('unit4-act25').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
-    
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
 
+    //INICIO CHECKBOXS
+    //Se cuentan todos los cbox seleccionados
+    notacbox_cb4 = 0; //contador de puntos obtenidos
+    notacbox_cb4 = "";
+    contadorcbox_cb4 = 0; //contador de cbox seleccionados
+    for (let i = 1; i <= 4; i++) {
+        cboxname_cb4 = "act25-cb" + i;
+        if (document.getElementById(cboxname_cb4).checked) {
+            contadorcbox_cb4++;
+        }
+    }
+    for (i = 1; i <= 4; i++) {
+        switch (i) {
+            case 1:
+                if (document.getElementById('act25-cb1').checked) {
+                    notacbox_cb4++;
+                }
+                break;
+            case 2:
+                if (document.getElementById('act25-cb3').checked) {
+                    notacbox_cb4++;
+                }
+                break;
+            default:
+        }
+    }
+    //FIN CHECKBOXS (cb3)
+
+    //INICIO SELECTS
     //Arreglos para guardar las respuestas y los datos ingresados
-    let respuestas = ["3","1","1","2","2","2","2","2","1","1",
-                    "2","3","3","1","2","2","1","2","2","1","1","2"];
+    let respuestas = ["2","3","1","1","1","2","2","3","1","1","2","2","2","2","1","2","2","2","1","2","1","1","2","2"];
     let inputs = [];
 
     //Se obtienen los datos ingresados y se ingresan en inputs[]
@@ -1821,48 +1848,62 @@ document.getElementById('unit4-act25').addEventListener('submit', function(event
         inputs[i] = document.getElementById('act25-q' + (i+1)).value;
     }
 
-    // declaración de condicionales 
-    if (inputs.includes("0")) {
-        sweetAlert(2, 'Complete the missing fields', null);
-        return false;
+    //variable para obtener la cantidad de respuestas correctas
+    var notaselect = 0;
+
+    //Se comparan las respuestas con los datos ingresados
+    for (let i = 0; i < respuestas.length; i++) {
+        if (respuestas[i] == inputs[i]) {
+            notaselect++; //suma a respuestas correctas
+        }
+    }
+    //FIN SELECTS
+
+
+    if (contadorcbox_cb4 == 0) {
+        sweetAlert(2, 'Select an answer for question three', null);
     } else {
-        //variable para obtener la cantidad de respuestas correctas
-        var conteo = 0;
-        //Se comparan las respuestas con los datos ingresados
-        for (let i = 0; i < respuestas.length; i++) {
-            if (respuestas[i] == inputs[i]) {
-                conteo++;
+        
+        if (contadorcbox_cb4 > 2) {
+            sweetAlert(2, 'It is not valid to select all answers for question three, only choose two', null);
+        } else {
+            
+            if (inputs.includes("0")) {
+                sweetAlert(2, 'Complete the missing fields', null);
+                return false;
+            } else {
+
+                let r_correctas = notacbox_cb4 + notaselect;
+                //Se revisa si todas las respuestas son correctas
+                if (r_correctas == 26) {
+                    var libro = 8;
+                    document.getElementById('idcliente25').value = users.value;
+                    document.getElementById('points25').value = valorActividad;
+                    document.getElementById('idlibro25').value = libro;
+                    console.log(valorActividad);
+                    action = 'create';
+                    saveRowActivity(API_ACTIVIDADES, action, 'unit4-act25', 'ModalLibroOcho35');
+                    sweetAlert(1, 'good job', null);
+                    var ModalLibroOcho35 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho35'));
+                    ModalLibroOcho35.hide();
+                    return true;
+                } else {
+                    //Se asigna el puntaje basado en las respuestas correctas
+                    let puntaje = valorActividad / 26;
+                    let points = (puntaje * r_correctas).toFixed(2);
+                    var libro = 8;
+                    document.getElementById('idcliente25').value = users.value;
+                    document.getElementById('points25').value = points;
+                    document.getElementById('idlibro25').value = libro;
+                    console.log(points);
+                    action = 'create';
+                    saveRowActivity(API_ACTIVIDADES, action, 'unit4-act25', 'ModalLibroOcho35');
+                    sweetAlert(4, r_correctas + '/' + 26 +' answers right', null);
+                    var ModalLibroOcho35 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho35'));
+                    ModalLibroOcho35.hide();
+                    return true;
+                }
             }
         }
-
-        //Se revisa si todas las respuestas son correctas
-        if (conteo == respuestas.length) {
-            var libro = 8;
-            document.getElementById('idcliente25').value = users.value;
-            document.getElementById('points25').value = valorActividad;
-            document.getElementById('idlibro25').value = libro;
-            console.log(valorActividad);
-            action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act25', 'ModalLibroOcho35');
-            sweetAlert(1, 'good job', null);
-            var ModalLibroOcho35 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho35'));
-            ModalLibroOcho35.hide();
-            return true;
-        } else {
-            //Se asigna el puntaje basado en las respuestas correctas
-            let puntaje = valorActividad / respuestas.length;
-            let points = (puntaje * conteo).toFixed(2);
-            var libro = 8;
-            document.getElementById('idcliente25').value = users.value;
-            document.getElementById('points25').value = points;
-            document.getElementById('idlibro25').value = libro;
-            console.log(points);
-            action = 'create';
-            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act25', 'ModalLibroOcho35');
-            sweetAlert(4, conteo + '/' + respuestas.length +' answers right', null);
-            var ModalLibroOcho35 = bootstrap.Modal.getInstance(document.getElementById('ModalLibroOcho35'));
-            ModalLibroOcho35.hide();
-            return true;
-        }
-    }    
+    }
 });

@@ -3906,93 +3906,62 @@
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>III-?</strong>
+									<strong>III-Complete the questions and answers using 'some' and 'any'</strong>
 								</div>
-
+								<br>
 								<div class="row">
-									
-									<!-- <div class="col-md-12">
-										<label for="act24-q3">How much</label>
-										<select id="act24-q3">
-											<option value="0" selected disabled>Choose</option>
-											<option value="1">juice is there?</option><!-- correcto -->
-											<!-- <option value="2">tomatoes do you need to make a salad?</option>
-											<option value="3">biscuits do you want?</option>
-										</select>
-									</div>
-									
 									<div class="col-md-12">
-										<select id="act24-q4">
-											<option value="0" selected disabled>Choose</option>
-											<option value="1">How much</option> -->
-											<!-- <option value="2">How many</option><!-- correcto -->
-										<!-- </select>
-										<label for="act24-q4">mangoes would you like to buy?</label>
-									</div> -->
-
-									<!-- <div class="col-md-12">
-										<label for="act24-q5">How much</label>
-										<select id="act24-q5">
-											<option value="0" selected disabled>Choose</option>
-											<option value="1">students are there in this class?</option>
-											<option value="2">flour is there?</option><!-- correcto -->
-											<!-- <option value="3">pens are in your bag?</option>
-										</select>
-									</div> -->
-
-									<!-- <div class="col-md-12">
-										<select id="act24-q6">
-											<option value="0" selected disabled>Choose</option>
-											<option value="1">How much</option>
-											<option value="2">How many</option><!-- correcto -->
-										<!-- </select>
-										<label for="act24-q6">children would you like to have?</label>
-									</div> -->
-							
+										Can I have
+										<select id="act25-q3">
+											<option value="0" selected disabled>Fill</option>
+											<option value="1">some</option><!-- correcto -->
+											<option value="2">any</option>
+										</select> bread? Yes, you can.
+									</div>
+									<div class="col-md-12">
+										Would you like
+										<select id="act25-q4">
+											<option value="0" selected disabled>Fill</option>
+											<option value="1">some</option><!-- correcto -->
+											<option value="2">any</option>
+										</select> tea? No thanks.
+									</div>
+									<div class="col-md-12">
+										Would you like
+										<select id="act25-q5">
+											<option value="0" selected disabled>Fill</option>
+											<option value="1">some</option><!-- correcto -->
+											<option value="2">any</option>
+										</select> coffee? No, I can't have <select id="act25-q6">
+																				<option value="0" selected disabled>Fill</option>
+																				<option value="1">some</option>
+																				<option value="2">any</option><!-- correcto -->
+																			</select> caffeine at night.
+									</div>
 								</div>
 							</div>
 							<!-- pregunta4 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>IV-?</strong>
+									<strong>IV-Select the sentences that describing clothes and colors</strong>
 								</div>
 								
-								<!-- <div class="col-md-12">
-									<label for="act24-q7">How much is that stereo?</label>
-									<select id="act24-q7">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Yes, you can pay by credit card</option>
-										<option value="2">It's $600.00</option>
-										<option value="3">I'll take it</option>
-									</select>
+								<div class="row">
+									
+									<div class = oracion>
+										<input type="checkbox" id="act25-cb1"><label for="act25-cb1">&nbsp;She is wearing a blue dress</label><!-- correct -->
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act25-cb2"><label for="act25-cb2">&nbsp;He has homework to do</label>
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act25-cb3"><label for="act25-cb3">&nbsp;My sister wears sweaters</label><!-- correct -->
+									</div>
+									<div class = oracion>
+										<input type="checkbox" id="act25-cb4"><label for="act25-cb4">&nbsp;I like want two pizzas, please</label>
+									</div>
+							
 								</div>
-								<div class="col-md-12">
-									<select id="act24-q8">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Can I help you?</option>
-										<option value="2">How much is it?</option>
-										<option value="3">Can I pay by credit card?</option>
-									</select>
-									<label for="act24-q8">The oven is $125.00</label>
-								</div>
-								<div class="col-md-12">
-									<label for="act24-q9">Is that TV for sale?</label>
-									<select id="act24-q9">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Yes, it's also on sale</option>
-										<option value="2">It's $900.00</option>
-										<option value="3">Yes, you can pay by credit card</option>
-									</select>
-								</div>
-								<div class="col-md-12">
-									<select name="act24-q10" id="act24-q10">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Can I help you?</option>
-										<option value="2">Can I pay by credit card?</option>
-										<option value="3">How much is that TV?</option>
-									</select>
-									<label for="act24-q10">Yes, I'd like buy a DVD</label>
-								</div> -->
 							</div>
 
 							<div class="col-12"><br></div> <!-- espacio -->
@@ -4004,7 +3973,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act25-q3">
+									<select id="act25-q7">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Local produce are always better</option>
 										<option value="2">Better produce have higher-price</option><!-- correcto -->
@@ -4019,7 +3988,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act25-q4">
+									<select id="act25-q8">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">You save time when shopping</option>
 										<option value="2">Because prices are better</option>
@@ -4040,7 +4009,7 @@
 									<!-- 1-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej1.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q5" class="col-12">
+										<select id="act25-q9" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option><!-- correcto -->
 											<option value="2">Non-count</option>
@@ -4050,7 +4019,7 @@
 									<!-- 2-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej2.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q6" class="col-12">
+										<select id="act25-q10" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option><!-- correcto -->
 											<option value="2">Non-count</option>
@@ -4060,7 +4029,7 @@
 									<!-- 3-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej3.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q7" class="col-12">
+										<select id="act25-q11" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option>
 											<option value="2">Non-count</option><!-- correcto -->
@@ -4070,7 +4039,7 @@
 									<!-- 4-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej4.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q8" class="col-12">
+										<select id="act25-q12" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option>
 											<option value="2">Non-count</option><!-- correcto -->
@@ -4080,7 +4049,7 @@
 									<!-- 5-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej5.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q9" class="col-12">
+										<select id="act25-q13" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option>
 											<option value="2">Non-count</option><!-- correcto -->
@@ -4093,7 +4062,7 @@
 									<!-- 6-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej6.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q10" class="col-12">
+										<select id="act25-q14" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option>
 											<option value="2">Non-count</option><!-- correcto -->
@@ -4103,7 +4072,7 @@
 									<!-- 7-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej7.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q11" class="col-12">
+										<select id="act25-q15" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option><!-- correcto -->
 											<option value="2">Non-count</option>
@@ -4113,7 +4082,7 @@
 									<!-- 8-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej8.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q12" class="col-12">
+										<select id="act25-q16" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option>
 											<option value="2">Non-count</option><!-- correcto -->
@@ -4123,7 +4092,7 @@
 									<!-- 9-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej9.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q13" class="col-12">
+										<select id="act25-q17" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option>
 											<option value="2">Non-count</option><!-- correcto -->
@@ -4133,7 +4102,7 @@
 									<!-- 10-->
 									<div class="col-lg-2 col-sm-12 text-center">								
 										<img src="../../resources/img/BOOKS/EightGrade/UnitFour/Pag35/act7_ej10.jpg" class="col-12 rounded mx-auto">
-										<select id="act25-q14" class="col-12">
+										<select id="act25-q18" class="col-12">
 											<option value="0" selected disabled>Fill</option>
 											<option value="1">Count</option>
 											<option value="2">Non-count</option><!-- correcto -->
@@ -4150,7 +4119,7 @@
 								</div>
 								<br>
 								<div class="col-md-12">
-									a) She bought <select id="act25-q18">
+									a) She bought <select id="act25-q19">
 										<option value="0" selected disabled>Fill</option>
 										<option value="1">some</option><!-- correcto -->
 										<option value="2">any</option>
@@ -4158,7 +4127,7 @@
 								</div>
 								<br>
 								<div class="col-md-12">
-									b) Did you buy <select id="act25-q19">
+									b) Did you buy <select id="act25-q20">
 										<option value="0" selected disabled>Fill</option>
 										<option value="1">some</option>
 										<option value="2">any</option><!-- correcto -->
@@ -4166,7 +4135,7 @@
 								</div>
 								<br>
 								<div class="col-md-12">
-									c) I can speak <select id="act25-q20">
+									c) I can speak <select id="act25-q21">
 										<option value="0" selected disabled>Fill</option>
 										<option value="1">some</option><!-- correcto -->
 										<option value="2">any</option>
@@ -4174,7 +4143,7 @@
 								</div>
 								<br>
 								<div class="col-md-12">
-									d) There is <select id="act25-q21">
+									d) There is <select id="act25-q22">
 										<option value="0" selected disabled>Fill</option>
 										<option value="1">some</option><!-- correcto -->
 										<option value="2">any</option>
@@ -4182,7 +4151,7 @@
 								</div>
 								<br>
 								<div class="col-md-12">
-									e) I didn't find <select id="act25-q22">
+									e) I didn't find <select id="act25-q23">
 										<option value="0" selected disabled>Fill</option>
 										<option value="1">some</option>
 										<option value="2">any</option><!-- correcto -->
@@ -4190,7 +4159,7 @@
 								</div>
 								<br>
 								<div class="col-md-12">
-									f) She never drinks <select id="act25-q22">
+									f) She never drinks <select id="act25-q24">
 										<option value="0" selected disabled>Fill</option>
 										<option value="1">some</option>
 										<option value="2">any</option><!-- correcto -->
