@@ -837,6 +837,20 @@ Book_Page::headerTemplate('Unidad 1');
     </div>
 </div>
 
+<div id="ModalLibroUnoAudioPag36_2" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio36">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag36_2.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+
 <div id="ModalLibroUno" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
@@ -1362,7 +1376,7 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="sentence14" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
-												placeholder="I ___ am Maricela"
+												placeholder="I ___ Maricela"
 												style="margin-bottom: 25px; margin-top: 25px;">
 										</div>
 									</div>
@@ -1394,7 +1408,7 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="sentence34" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
-												placeholder="They ___ are classmates"
+												placeholder="They ___ classmates"
 												style="margin-top: 25px;">
 										</div>
 									</div>
@@ -3194,15 +3208,7 @@ Book_Page::headerTemplate('Unidad 1');
 				</div>
 			</form>
 		</div>
-	</div>
-        <form class="form" autocomplete="off" method="post" novalidate id="audio11">
-            <audio controls>
-            <source src="../../resources/audio/ingles_uno/Unit1/pag11.mp3" type="audio/mp3">
-            Tu navegador no soporta audio HTML5.
-            </audio>         
-		</form>
-        </div>
-    </div>
+	</div>       
 </div>
 
 <!-- Página 19 -->
