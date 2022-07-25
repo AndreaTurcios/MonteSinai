@@ -1817,7 +1817,7 @@
 <!-- Region 22-->
 <div id="ModalLibroOcho22" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Complete these activities and measure your archievements!</h5>
@@ -2137,7 +2137,7 @@
 <!-- Region 24-->
 <div id="ModalLibroOcho24" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct sentences using the numbers and other words with the phoneme /0/</h5>
