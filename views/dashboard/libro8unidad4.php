@@ -272,7 +272,7 @@
 <!-- Region 11-->
 <div id="ModalLibroOcho11" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct sentences using clothing and personal care items</h5>
@@ -334,7 +334,7 @@
 <!-- Region 12-->
 <div id="ModalLibroOcho12" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct questions and answers about more clothing and personal items</h5>
@@ -635,7 +635,7 @@
 <!-- Region 14-->
 <div id="ModalLibroOcho14" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct questions and answers about home appliances prices</h5>
@@ -721,7 +721,7 @@
 <!-- Region 15-->
 <div id="ModalLibroOcho15" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct sentences using quantifiers with groceries</h5>
@@ -1433,7 +1433,7 @@
 <!-- Region 19-->
 <div id="ModalLibroOcho19" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct questions and answers about prices using 'how much' and 'how many'</h5>
@@ -1563,7 +1563,7 @@
 <!-- Region 20-->
 <div id="ModalLibroOcho20" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct questions and answers using 'how much' and 'how many'</h5>
@@ -1731,7 +1731,7 @@
 <!-- Region 21-->
 <div id="ModalLibroOcho21" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct questions and answers using vocabulary and key words</h5>
@@ -1817,7 +1817,7 @@
 <!-- Region 22-->
 <div id="ModalLibroOcho22" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Complete these activities and measure your archievements!</h5>
@@ -2051,7 +2051,7 @@
 <!-- Region 23-->
 <div id="ModalLibroOcho23" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modal-title">Select the correct questions and answers using prices up to $1,000.00</h5>
