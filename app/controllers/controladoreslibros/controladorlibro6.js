@@ -2093,6 +2093,112 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
 });
 
 /**************************************************
+ ******************** GAME 28 **********************
+ **************************************************/
+ document.getElementById("game-28").addEventListener("submit", function (event) {
+  // Se evita recargar la página web después de enviar el formulario.
+  console.log("respuesta ");
+  event.preventDefault();
+
+  //Variable
+  let pnum1 = document.getElementById("b-labor-day");
+  let pnum2 = document.getElementById("b-teacher-day");
+  let pnum3 = document.getElementById("b-new-year");
+  let pnum4 = document.getElementById("b-valentine-day");
+  let pnum5 = document.getElementById("b-christmas-day");
+  let pnum6 = document.getElementById("b-teacher-day");
+  let pnum7 = document.getElementById("b-columbus-day");
+  let pnum8 = document.getElementById("b-independence-day");
+  let pnum9 = document.getElementById("b-father-day");
+  let pnum10 = document.getElementById("b-all-soul");
+  let num1 = document.getElementById("game-18b-num-1");
+  let num2 = document.getElementById("game-18b-num-2");
+  let num3 = document.getElementById("game-18b-num-3");
+  let num4 = document.getElementById("game-18b-num-4");
+  let num5 = document.getElementById("game-18b-num-5");
+  let num6 = document.getElementById("game-18b-num-6");
+  let num7 = document.getElementById("game-18b-num-7");
+  let num8 = document.getElementById("game-18b-num-8");
+  let num9 = document.getElementById("game-18b-num-9");
+  let num10 = document.getElementById("game-18b-num-10");
+
+
+  //Se declaran las variables segun el numero de campos, a evaluar.
+  let punto = 1 / 10;
+  let totalPunto = 0;
+  console.log(pnum1);
+  console.log(pnum1.childNodes[0]);
+  console.log(pnum1.childNodes[0].dataset);
+  if (
+    pnum1.childNodes.length > 0 &&
+    //pnum2.childNodes.length > 0 &&
+    //pnum3.childNodes.length > 0 &&
+    //pnum4.childNodes.length > 0 &&
+    //pnum5.childNodes.length > 0 &&
+    //pnum6.childNodes.length > 0 &&
+    //pnum7.childNodes.length > 0 &&
+    //pnum8.childNodes.length > 0 &&
+    //pnum9.childNodes.length > 0 &&
+    pnum10.childNodes.length > 0
+  ) {
+    if (pnum1.childNodes[0].dataset.id == "labor-day") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum2.childNodes[0].dataset.id == "teacher-day") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum3.childNodes[0].dataset.id == "new-year") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum4.childNodes[0].dataset.id == "valentine-day") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum5.childNodes[0].dataset.id == "christmas-day") {
+      totalPunto = totalPunto + punto;
+    }
+
+    if (pnum6.childNodes[0].dataset.id == "teacher-day") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum7.childNodes[0].dataset.id == "columbus-day") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum8.childNodes[0].dataset.id == "independence-day") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum9.childNodes[0].dataset.id == "father-day") {
+      totalPunto = totalPunto + punto;
+    }
+    if (pnum10.childNodes[0].dataset.id == "all-soul") {
+      totalPunto = totalPunto + punto;
+    }
+
+    console.log("Total de puntos " + totalPunto);
+    var notatotal = totalPunto.toFixed(2);
+    console.log("Total de puntos " + notatotal);
+    var libro = 6;
+    document.getElementById("idcliente28").value = users.value;
+    document.getElementById("points28").value = notatotal;
+    document.getElementById("idlibro28").value = libro;
+    action = "createact18b";
+    //console.log("idcliente" + users.value);
+    //console.log("idcliente" + notatotal);
+    //console.log("libro" + libro);
+    //function saveRowActivity(api, action, form, modal) en componente.js helper
+    saveRowActivity(API_ACTIVIDADES, action, "game-28", "ModalLibroSeis28");
+    sweetAlert(1, "Resultados ingresados", null);
+  } else {
+    console.log("Complete las preguntas");
+    sweetAlert(2, "Complete las preguntas", null);
+  }
+
+  return true;
+});
+/**************************************************
  ******************** GAME 30 **********************
  **************************************************/
 

@@ -184,3 +184,15 @@
     background: none !important;
     border:none !important;
   }
+
+  /**PAGINA 28*/
+  /*****************************************/
+  /*****************************************/
+  /*****************************************/
+  .table-28,
+  .table-28 tr,
+  .table-28 tb{
+    border: none;
+    padding: 5px;
+    margin: 2px;
+  }

@@ -2207,17 +2207,143 @@ Book_Page::headerTemplate('Unidad 2');
             </div>
             <form method="post" id="game-28">
                 <div class="modal-body">
-                    <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 align-items-center" align="letf">
+                            <p class="fs-1 fw-bold">Match each holiday with its specific date</p>
+                            <!-- class="d-none" -->
+                            <input type="text" class="d-none" id="points28" name="points28">
+                            <input type="text" class="d-none" id="idcliente28" name="idcliente28">
+                            <input type="text" class="d-none" id="idlibro28" name="idlibro28">
+                        </div>
+                    </div>
+                    <!-- Inicio de modal body-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="table-28" style="width: 100%;">
+                                <tr>
+                                    <td>New Year's Day</td>
+                                    <td>
+                                        <div id="a-new-year" class="libro6-contenedor" draggable="true" data-id="new-year"> A </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-labor-day" class="libro6-placeholder" data-id2="labor-day"></div>
+                                    </td>
+                                    <td class="text-left">May 1st</td>
+                                </tr>
+                                <tr>
+                                    <td>Valentine's Day</td>
+                                    <td>
+                                        <div id="a-valentine-day" class="libro6-contenedor" draggable="true" data-id="valentine-day"> B </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-teacher-day" class="libro6-placeholder" data-id2="teacher-day"></div>
+                                    </td>
+                                    <td class="text-left">June 22nd</td>
+                                </tr>
+                                <tr>
+                                    <td>Labor Day</td>
+                                    <td>
+                                        <div id="a-labor-day" class="libro6-contenedor" draggable="true" data-id="labor-day"> C </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-new-year" class="libro6-placeholder" data-id2="new-year"></div>
+                                    </td>
+                                    <td class="text-left">January 1th</td>
+                                </tr>
+                                <tr>
+                                    <td>Mother's Day</td>
+                                    <td>
+                                        <div id="a-mother-day" class="libro6-contenedor" draggable="true" data-id="mother-day"> D </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-valentine-day" class="libro6-placeholder" data-id2="valentine-day"></div>
+                                    </td>
+                                    <td class="text-left">February 14th</td>
+                                </tr>
+                                <tr>
+                                    <td>Father's Day</td>
+                                    <td>
+                                        <div id="a-father-day" class="libro6-contenedor" draggable="true" data-id="father-day"> E </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-christmas-day" class="libro6-placeholder" data-id2="christmas-day"></div>
+                                    </td>
+                                    <td class="text-left">December 25th</td>
+                                </tr>
+                                <tr>
+                                    <td>Teacher's Day</td>
+                                    <td>
+                                        <div id="a-mother-day" class="libro6-contenedor" draggable="true" data-id="mother-day"> F </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-teacher-day" class="libro6-placeholder" data-id2="teacher-day"></div>
+                                    </td>
+                                    <td class="text-left">May 10 th</td>
+                                </tr>
+                                <tr>
+                                    <td>Independence Day</td>
+                                    <td>
+                                        <div id="a-independence-day" class="libro6-contenedor" draggable="true" data-id="independence-day"> G </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-columbus-day" class="libro6-placeholder" data-id2="columbus-day"></div>
+                                    </td>
+                                    <td class="text-left">October 12th</td>
+                                </tr>
+                                <tr>
+                                    <td>Columbus Day</td>
+                                    <td>
+                                        <div id="a-columbus-day" class="libro6-contenedor" draggable="true" data-id="columbus-day"> H </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-independence-day" class="libro6-placeholder" data-id2="independence-day"></div>
+                                    </td>
+                                    <td class="text-left">September 15th</td>
+                                </tr>
+                                <tr>
+                                    <td>All Soul's Day</td>
+                                    <td>
+                                        <div id="a-all-soul" class="libro6-contenedor" draggable="true" data-id="all-soul"> I </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-father-day" class="libro6-placeholder" data-id2="father-day"></div>
+                                    </td>
+                                    <td class="text-left">June 17th</td>
+                                </tr>
+                                <tr>
+                                    <td>Christmas Day</td>
+                                    <td>
+                                        <div id="a-christmas-day" class="libro6-contenedor" draggable="true" data-id="christmas-day"> J </div>
+                                    </td>
+                                    <td></td>
+                                    <td>
+                                        <div id="b-all-soul" class="libro6-placeholder" data-id2="all-soul"></div>
+                                    </td>
+                                    <td class="text-left">November 2nd</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
 
-                    </div>
-                    <br>
-                    <!-- Botones de Control -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
-                        <br>
-                    </div>
                 </div>
+                <br>
+
+                <!-- Botones de Control -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                    <br>
+                </div>
+
             </form>
         </div>
     </div>
