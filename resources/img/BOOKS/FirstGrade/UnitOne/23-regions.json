@@ -1,0 +1,28 @@
+[{
+	"x":152,
+	"y":568,	
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroDiecinueve",
+			"form":"game-nineteen"
+		}	
+}
+,
+{
+	"x":25,
+	"y":40,
+	"width":100,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+
+			"modal":"ModalLibroUnoAudioPag16",
+			"form":"audio16"
+			
+		}
+}
+]

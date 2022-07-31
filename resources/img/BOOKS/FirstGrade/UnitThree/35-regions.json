@@ -1,0 +1,25 @@
+[{
+	"x":152,
+	"y":568,
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit3Act25",
+			"form":"game-twentyfive"
+		}
+}
+,
+{
+	"x":180,
+	"y":135,	
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit3AudioPag97",
+			"form":"audio97"
+		}
+}]
