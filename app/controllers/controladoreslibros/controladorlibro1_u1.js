@@ -1,8 +1,6 @@
 const API_ACTIVIDADES = '../../app/api/proceso_libro.php?action=';
 
-document.addEventListener('DOMContentLoaded', function () {
-
-});
+var colorStroke, widthStroke, intervalo;
 
 document.getElementById('game-one').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -987,6 +985,113 @@ document.getElementById('game-fourhteen').addEventListener('submit', function (e
 
 });
 
+paper.install(window);
+
+window.onload = function () {
+
+    // Set it up
+    paper.setup('canvas15');
+    // Create a simple drawing tool:
+    var tool = new Tool();
+    var path;
+
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var colorPicker15 = document.getElementById("colorPicker15");
+    var widthStrokePicker15 = document.getElementById("strokeWidthPicker15");
+    var clearButton15 = document.getElementById("clearBtn15");
+
+    // Clear event listener
+    clearButton15.addEventListener("click", function () {
+        // Clear canvas
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker15.value;
+        widthStroke = widthStrokePicker15.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+
+    // Define a mousedown and mousedrag handler
+    tool.onMouseDown = function (event) {
+        path = new Path();
+        path.strokeWidth = widthStroke;
+        path.strokeColor = colorStroke;
+        // Draw
+        path.add(event.point);
+    }
+
+    tool.onMouseDrag = function (event) {
+        // Draw
+        path.add(event.point);
+        document.getElementById("verify-canvas").value = 1;
+    }
+}
+
+$('#ModalLibroQuince').on('shown.bs.modal', function (e){
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas15');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var colorPicker15 = document.getElementById("colorPicker15");
+    var widthStrokePicker15 = document.getElementById("strokeWidthPicker15");
+    var clearButton15 = document.getElementById("clearBtn15");
+
+    // Clear event listener
+    clearButton15.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker15.value;
+        widthStroke = widthStrokePicker15.value;
+    }
+
+    // Check for new color value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('game-fifthteen').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+
+    if (document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'The canvas is empty', null);
+        return false;
+    }
+    else
+    {
+        promedio = 1;
+        var libro = 1;
+        document.getElementById('idcliente15').value = users.value;
+        document.getElementById('points15').value = promedio;
+        document.getElementById('idlibro15').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-fifthteen', 'ModalLibroQuince');
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroQuince').modal('hide');
+        return true;
+    }
+
+});
+
 //Elementos arrastrables act17
 
 for (let i = 0; i < 5; i++) {
@@ -1254,6 +1359,171 @@ document.getElementById('game-eighteen').addEventListener('submit', function (ev
 
 });
 
+$('#ModalLibroDiecinueve').on('shown.bs.modal', function (e){
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas19');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var colorPicker19 = document.getElementById("colorPicker19");
+    var widthStrokePicker19 = document.getElementById("strokeWidthPicker19");
+    var clearButton19 = document.getElementById("clearBtn19");
+
+    // Clear event listener
+    clearButton19.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker19.value;
+        widthStroke = widthStrokePicker19.value;
+    }
+
+    // Check for new color value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('game-nineteen').addEventListener('submit', function (event) {
+   // Se evita recargar la página web después de enviar el formulario.
+   event.preventDefault();
+
+
+   if (document.getElementById("verify-canvas").value == 0) {
+       sweetAlert(2, 'The canvas is empty', null);
+       return false;
+   }
+   else
+   {
+       promedio = 1;
+       var libro = 1;
+       document.getElementById('idcliente19').value = users.value;
+       document.getElementById('points19').value = promedio;
+       document.getElementById('idlibro19').value = libro;
+
+       action = 'create';
+       saveRowActivity(API_ACTIVIDADES, action, 'game-nineteen', 'ModalLibroDiecinueve');
+       sweetAlert(1, 'Good job', null);
+       $('#ModalLibroDiecinueve').modal('hide');
+       return true;
+   }
+});
+
+$('#ModalLibroVeinte').on('shown.bs.modal', function (e){
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas20');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var colorPicker20 = document.getElementById("colorPicker20");
+    var widthStrokePicker20 = document.getElementById("strokeWidthPicker20");
+    var clearButton20 = document.getElementById("clearBtn20");
+
+    // Clear event listener
+    clearButton20.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker20.value;
+        widthStroke = widthStrokePicker20.value;
+    }
+
+    // Check for new color value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('game-twenty').addEventListener('submit', function (event) {
+   // Se evita recargar la página web después de enviar el formulario.
+   event.preventDefault();
+
+
+   if (document.getElementById("verify-canvas").value == 0) {
+       sweetAlert(2, 'The canvas is empty', null);
+       return false;
+   }
+   else
+   {
+       promedio = 1;
+       var libro = 1;
+       document.getElementById('idcliente20').value = users.value;
+       document.getElementById('points20').value = promedio;
+       document.getElementById('idlibro20').value = libro;
+
+       action = 'create';
+       saveRowActivity(API_ACTIVIDADES, action, 'game-twenty', 'ModalLibroVeinte');
+       sweetAlert(1, 'Good job', null);
+       $('#ModalLibroVeinte').modal('hide');
+       return true;
+   }
+});
+
+$('#ModalLibroVeinte_2').on('shown.bs.modal', function (e){
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas20_2');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var colorPicker20_2 = document.getElementById("colorPicker20_2");
+    var widthStrokePicker20_2 = document.getElementById("strokeWidthPicker20_2");
+    var clearButton20_2 = document.getElementById("clearBtn20_2");
+
+    // Clear event listener
+    clearButton20_2.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker20_2.value;
+        widthStroke = widthStrokePicker20_2.value;
+    }
+
+    // Check for new color value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('game-twenty_2').addEventListener('submit', function (event) {
+   // Se evita recargar la página web después de enviar el formulario.
+   event.preventDefault();
+
+
+   if (document.getElementById("verify-canvas").value == 0) {
+       sweetAlert(2, 'The canvas is empty', null);
+       return false;
+   }
+   else
+   {
+       promedio = 1;
+       var libro = 1;
+       document.getElementById('idcliente20_2').value = users.value;
+       document.getElementById('points20_2').value = promedio;
+       document.getElementById('idlibro20_2').value = libro;
+
+       action = 'create';
+       saveRowActivity(API_ACTIVIDADES, action, 'game-twenty_2', 'ModalLibroVeinte_2');
+       sweetAlert(1, 'Good job', null);
+       $('#ModalLibroVeinte_2').modal('hide');
+       return true;
+   }
+});
+
 document.getElementById('game-twentyfive').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
@@ -1410,60 +1680,34 @@ document.getElementById('game-twentysix').addEventListener('submit', function (e
 
 });
 
-paper.install(window);
-
 $('#ModalLibroVeintisiete').on('shown.bs.modal', function (e){
-// Set it up
-    paper.setup('canvas2');
-
-    var canvas2 = document.getElementById("canvas2");
-
-    const context = canvas2.getContext('2d');
-
-    // Create a simple drawing tool:
-    var tool = new Tool();
-    var path2;
-
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas27');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
     // Get elements from DOM and define properties
-    var colorPicker2 = document.getElementById("colorPicker2");
-    var colorStroke2;
-    var widthStrokePicker2 = document.getElementById("strokeWidthPicker2");
-    var widthStroke2;
-    var clearButton2 = document.getElementById("clearBtn2");
+    var colorPicker27 = document.getElementById("colorPicker27");
+    var widthStrokePicker27 = document.getElementById("strokeWidthPicker27");
+    var clearButton27 = document.getElementById("clearBtn27");
 
     // Clear event listener
-    clearBtn2.addEventListener("click", function() {
-        // Clear canvas1
+    clearButton27.addEventListener("click", function () {
+        // Clear canvas2
         paper.project.activeLayer.removeChildren();
         paper.view.draw();
         document.getElementById("verify-canvas").value = 0;
-        console.log();
     });
 
     // Update 
     function update() {
-        colorStroke2 = colorPicker2.value;
-        widthStroke2 = widthStrokePicker2.value;
+        colorStroke = colorPicker27.value;
+        widthStroke = widthStrokePicker27.value;
     }
 
     // Check for new color value each second
-    setInterval(update, 1000);
-
-    // Define a mousedown and mousedrag handler
-    tool.onMouseDown = function(event) {
-        path2 = new Path();
-        path2.strokeWidth2 = widthStroke2;
-        path2.strokeColor2 = colorStroke2;
-    // Draw
-        path2.add(event.point);
-    }
-
-    tool.onMouseDrag = function(event) {
-    // Draw
-        path2.add(event.point);
-        document.getElementById("verify-canvas").value = 1;
-        console.log();
-    }
+    intervalo = setInterval(update, 1000);
 });
 
 document.getElementById('game-twentyseven').addEventListener('submit', function (event) {
@@ -1490,6 +1734,63 @@ document.getElementById('game-twentyseven').addEventListener('submit', function 
        return true;
    }
 });
+
+$('#ModalLibroVeintiocho').on('shown.bs.modal', function (e){
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas28');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var colorPicker28 = document.getElementById("colorPicker28");
+    var widthStrokePicker28 = document.getElementById("strokeWidthPicker28");
+    var clearButton28 = document.getElementById("clearBtn28");
+
+    // Clear event listener
+    clearButton28.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        colorStroke = colorPicker28.value;
+        widthStroke = widthStrokePicker28.value;
+    }
+
+    // Check for new color value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('game-twentyeight').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+
+    if (document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'The canvas is empty', null);
+        return false;
+    }
+    else
+    {
+        promedio = 1;
+        var libro = 1;
+        document.getElementById('idcliente28').value = users.value;
+        document.getElementById('points28').value = promedio;
+        document.getElementById('idlibro28').value = libro;
+
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twentyeight', 'ModalLibroVeintiocho');
+        sweetAlert(1, 'Good job', null);
+        $('#ModalLibroVeintiocho').modal('hide');
+        return true;
+    }
+
+});
+
 
 document.getElementById('game-twentynine').addEventListener('submit', function (event) {
     // Se evita recargar la página web después de enviar el formulario.
@@ -1731,142 +2032,34 @@ document.getElementById('game-thirtyone').addEventListener('submit', function (e
 
 });
 
-
-paper.install(window);
-
-$('#ModalLibroQuince').on('shown.bs.modal', function (e){
-// Set it up
-    paper.setup('canvas1');
-
-    var canvas1 = document.getElementById("canvas1");
-
-    const context = canvas1.getContext('2d');
-
-    // Create a simple drawing tool:
-    var tool = new Tool();
-    var path;
-
-    // Get elements from DOM and define properties
-    var colorPicker = document.getElementById("colorPicker");
-    var colorStroke;
-    var widthStrokePicker = document.getElementById("strokeWidthPicker");
-    var widthStroke;
-    var clearButton = document.getElementById("clearBtn");
-
-    // Clear event listener
-    clearBtn.addEventListener("click", function() {
-        // Clear canvas1
-        paper.project.activeLayer.removeChildren();
-        paper.view.draw();
-        document.getElementById("verify-canvas").value = 0;
-    });
-
-    // Update 
-    function update() {
-        colorStroke = colorPicker.value;
-        widthStroke = widthStrokePicker.value;
-    }
-
-    // Check for new color value each second
-    setInterval(update, 1000);
-
-    // Define a mousedown and mousedrag handler
-    tool.onMouseDown = function(event) {
-        path = new Path();
-        path.strokeWidth = widthStroke;
-        path.strokeColor = colorStroke;
-    // Draw
-        path.add(event.point);
-    }
-
-    tool.onMouseDrag = function(event) {
-    // Draw
-        path.add(event.point);
-        document.getElementById("verify-canvas").value = 1;
-    }
-});
-
-document.getElementById('game-fifthteen').addEventListener('submit', function (event) {
-    // Se evita recargar la página web después de enviar el formulario.
-    event.preventDefault();
-
-
-    if (document.getElementById("verify-canvas").value == 0) {
-        sweetAlert(2, 'The canvas is empty', null);
-        return false;
-    }
-    else
-    {
-        promedio = 1;
-        var libro = 1;
-        document.getElementById('idcliente5').value = users.value;
-        document.getElementById('points5').value = promedio;
-        document.getElementById('idlibro5').value = libro;
-
-        action = 'create';
-        saveRowActivity(API_ACTIVIDADES, action, 'game-fifthteen', 'ModalLibroQuince');
-        sweetAlert(1, 'Good job', null);
-        $('#ModalLibroQuince').modal('hide');
-        return true;
-    }
-
-});
-
-
-paper.install(window);
-
 $('#ModalLibroTreintaydos').on('shown.bs.modal', function (e){
-// Set it up
-    paper.setup('canvas3');
-
-    var canvas3 = document.getElementById("canvas3");
-
-    const context = canvas3.getContext('2d');
-
-    // Create a simple drawing tool:
-    var tool = new Tool();
-    var path3;
-
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas32');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
     // Get elements from DOM and define properties
-    var colorPicker3 = document.getElementById("colorPicker3");
-    var colorStroke3;
-    var widthStrokePicker3 = document.getElementById("strokeWidthPicker3");
-    var widthStroke3;
-    var clearButton3 = document.getElementById("clearBtn3");
+    var colorPicker32 = document.getElementById("colorPicker32");
+    var widthStrokePicker32 = document.getElementById("strokeWidthPicker32");
+    var clearButton32 = document.getElementById("clearBtn32");
 
     // Clear event listener
-    clearBtn3.addEventListener("click", function() {
-        // Clear canvas1
+    clearButton32.addEventListener("click", function () {
+        // Clear canvas2
         paper.project.activeLayer.removeChildren();
         paper.view.draw();
         document.getElementById("verify-canvas").value = 0;
-        console.log();
     });
 
     // Update 
     function update() {
-        colorStroke3 = colorPicker3.value;
-        widthStroke3 = widthStrokePicker3.value;
+        colorStroke = colorPicker32.value;
+        widthStroke = widthStrokePicker32.value;
     }
 
     // Check for new color value each second
-    setInterval(update, 1000);
-
-    // Define a mousedown and mousedrag handler
-    tool.onMouseDown = function(event) {
-        path3 = new Path();
-        path3.strokeWidth3 = widthStroke3;
-        path3.strokeColor3 = colorStroke3;
-    // Draw
-        path3.add(event.point);
-    }
-
-    tool.onMouseDrag = function(event) {
-    // Draw
-        path3.add(event.point);
-        document.getElementById("verify-canvas").value = 1;
-        console.log();
-    }
+    intervalo = setInterval(update, 1000);
 });
 
 document.getElementById('game-thirtytwo').addEventListener('submit', function (event) {
@@ -2614,60 +2807,35 @@ document.getElementById('game-fortyone').addEventListener('submit', function (ev
 
 });
 
-paper.install(window);
 
 $('#ModalLibroCuarentaydos').on('shown.bs.modal', function (e){
-// Set it up
-    paper.setup('canvas4');
-
-    var canvas4 = document.getElementById("canvas4");
-
-    const context = canvas4.getContext('2d');
-
-    // Create a simple drawing tool:
-    var tool = new Tool();
-    var path4;
-
+    document.getElementById("verify-canvas").value = 0;
+    // Set it up
+    paper.setup('canvas42');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
     // Get elements from DOM and define properties
-    var colorPicker4 = document.getElementById("colorPicker4");
-    var colorStroke4;
-    var widthStrokePicker4 = document.getElementById("strokeWidthPicker4");
-    var widthStroke4;
-    var clearButton4 = document.getElementById("clearBtn4");
+    var colorPicker42 = document.getElementById("colorPicker42");
+    var widthStrokePicker42 = document.getElementById("strokeWidthPicker42");
+    var clearButton42 = document.getElementById("clearBtn42");
 
     // Clear event listener
-    clearBtn2.addEventListener("click", function() {
-        // Clear canvas1
+    clearButton42.addEventListener("click", function () {
+        // Clear canvas2
         paper.project.activeLayer.removeChildren();
         paper.view.draw();
         document.getElementById("verify-canvas").value = 0;
-        console.log();
     });
 
     // Update 
     function update() {
-        colorStroke4 = colorPicker4.value;
-        widthStroke4 = widthStrokePicker4.value;
+        colorStroke = colorPicker42.value;
+        widthStroke = widthStrokePicker42.value;
     }
 
     // Check for new color value each second
-    setInterval(update, 1000);
-
-    // Define a mousedown and mousedrag handler
-    tool.onMouseDown = function(event) {
-        path4 = new Path();
-        path4.strokeWidth4 = widthStroke4;
-        path4.strokeColor4 = colorStroke4;
-    // Draw
-        path4.add(event.point);
-    }
-
-    tool.onMouseDrag = function(event) {
-    // Draw
-        path4.add(event.point);
-        document.getElementById("verify-canvas").value = 1;
-        console.log();
-    }
+    intervalo = setInterval(update, 1000);
 });
 
 document.getElementById('game-fortytwo').addEventListener('submit', function (event) {
@@ -2694,99 +2862,3 @@ document.getElementById('game-fortytwo').addEventListener('submit', function (ev
        return true;
    }
 });
-
-/*
-// coloreo ----------------------------------
-// variables
-const colorGrid = document.querySelector('.color-grid');
-const canvasGrid = document.querySelector('.canvas-grid');
-const clear = document.querySelector('#clear');
-let pickedColor;
-let isDrawing = false;
-
-// colors array
-let colors = [
-    "#FF6633",
-    "#FFB399",
-    "#fff81e",
-    "#FF33FF",
-    "#FFFF99",
-    "#E6B333",
-    "#3366E6",
-    "#99FF99",
-    "#B34D4D",
-    "#80B300",
-    "#E6B3B3",
-    "#6680B3",
-    "#9bdcff",
-    "#FF99E6",
-    "#CCFF1A",
-    "#FF1A66",
-    "#33FFCC",
-    "#B366CC",
-    "#4D8000",
-    "#B33300",
-    "#000000"
-];
-
-// functions
-function createBoxes() {
-    for (let i = 0; i < colors.length; i++) {
-        let colorBox = document.createElement('div');
-        colorBox.classList.add('color-box', 'choose-from');
-        colorBox.style.backgroundColor = colors[i];
-        colorGrid.append(colorBox);
-    };
-}
-
-function createCanvas() {
-    for (let i = 0; i <= 12900; i++) {
-        let canvasBox = document.createElement('div');
-        canvasBox.classList.add('canvas-box', 'paint-on');
-        canvasGrid.append(canvasBox);
-    };
-}
-
-function pickAColor() {
-    pickedColor = this.style.backgroundColor;
-    console.log(pickedColor);
-}
-
-function initialise() {
-    createBoxes();
-    createCanvas();
-}
-
-// make a game to start drawing
-initialise();
-
-//listeners for colors to draw
-const chooseFrom = document.querySelectorAll('.choose-from');
-for (let pick of chooseFrom) {
-    pick.addEventListener('click', pickAColor);
-}
-
-const paintOn = document.querySelectorAll('.paint-on');
-for (let cell of paintOn) {
-    cell.addEventListener('mousedown', function () {
-        isDrawing = true;
-        this.style.backgroundColor = pickedColor;
-    });
-    cell.addEventListener('mouseover', function () {
-        if (isDrawing) {
-            this.style.backgroundColor = pickedColor;
-        }
-    });
-    cell.addEventListener('mouseup', function () {
-        isDrawing = false;
-    })
-}
-
-// clear listener
-clear.addEventListener('click', function () {
-    for (let cell of paintOn) {
-        cell.style.backgroundColor = 'transparent';
-    }
-    pickedColor = undefined;
-    console.log('all clear, we can start again')
-})*/

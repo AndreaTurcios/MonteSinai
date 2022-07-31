@@ -78,7 +78,7 @@ function zoomTo(event) {
 
 function loadRegions(page, element) {
 
-	$.getJSON('../../resources/img/BOOKS/FirstGrade/UnitOne/' + page + '-regions.json').
+	$.getJSON('../../resources/img/BOOKS/FirstGrade/UnitThree/' + page + '-regions.json').
 		done(function (data) {
 
 			$.each(data, function (key, region) {
