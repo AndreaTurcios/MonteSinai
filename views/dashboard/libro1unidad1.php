@@ -694,6 +694,84 @@ Book_Page::headerTemplate('Unidad 1');
     </div>
 </div>
 
+<div id="ModalLibroUnoAudioPag17" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio17">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag17.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalLibroUnoAudioPag18" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio18">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag18.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalLibroUnoAudioPag19" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio19">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag19.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalLibroUnoAudioPag20" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio20">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag20.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalLibroUnoAudioPag21" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio21">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag21.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalLibroUnoAudioPag22" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio22">
+            <audio controls>
+            <source src="../../resources/audio/ingles_uno/Unit1/pag22.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+            </audio>         
+		</form>
+        </div>
+    </div>
+</div>
+
 <div id="ModalLibroUnoAudioPag23" class="modal fade" tabindex="-2">	
     <div class="modal-dialog modal-xl">
 		<div class="modal-content">
@@ -856,7 +934,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the words</h5>
+				<h5 class="modal-title" id="modal-title">MY BODY</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-one">
@@ -868,7 +946,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Complete the sentence with the correct word</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points" name="points">
 											<input type="text" class="d-none" id="idcliente" name="idcliente">
@@ -1199,49 +1277,6 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
-<!-- </div> -->
-
-<div class="modal fade" id="ModalLibrotestdos" tabindex="-5" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="game-zero">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<!-- columna -->
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row">
-										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
-											<input type="text" class="d-none" id="points" name="points">
-											<input type="text" class="d-none" id="idcliente" name="idcliente">
-											<input type="text" class="d-none" id="idlibro" name="idlibro">
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>class
-			</form>
-		</div>
-	</div>
-</div>
 
 <!-- Página 4 -->
 <div id="ModalLibroTres" class="modal fade" tabindex="-6">
@@ -1261,7 +1296,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points3" name="points">
 											<input type="text" class="d-none" id="idcliente3" name="idcliente">
@@ -1277,7 +1312,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="sentence1" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
-												style="margin-bottom: 30px; margin-top: 25px;">
+												style="margin-bottom: 30px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1289,7 +1325,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="sentence2" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
-												style="margin-bottom: 30px; margin-top: 25px;">
+												style="margin-bottom: 30px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1303,7 +1340,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="sentence3" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
-												style="margin-top: 25px;">
+												style="margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1316,7 +1354,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="sentence4" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
-												style="margin-top: 25px;">
+												style="margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 									<!-- fin cols  -->
@@ -1358,7 +1397,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points4" name="points">
 											<input type="text" class="d-none" id="idcliente4" name="idcliente">
@@ -1377,7 +1416,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="sentence14" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="I ___ Maricela"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1393,7 +1433,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="sentence24" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="He ___ Boris"
-												style="margin-bottom: 30px;  margin-top: 25px;">
+												style="margin-bottom: 30px;  margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1409,7 +1450,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="sentence34" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="They ___ classmates"
-												style="margin-top: 25px;">
+												style="margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1424,7 +1466,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="sentence44" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="She ___ Elsa"
-												style="margin-top: 25px;">
+												style="margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 									<!-- fin cols  -->
@@ -1467,7 +1510,7 @@ Book_Page::headerTemplate('Unidad 1');
 
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points6" name="points">
 											<input type="text" class="d-none" id="idcliente6" name="idcliente">
@@ -1484,7 +1527,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words11" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="I"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1497,7 +1541,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words12" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="You"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1510,7 +1555,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words2" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ am a student" 	
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1523,7 +1569,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words3" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ are my teacher" 	
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>									
 
@@ -1564,7 +1611,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points7" name="points">
 											<input type="text" class="d-none" id="idcliente7" name="idcliente">
@@ -1581,7 +1628,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words-act6-11" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="______ is a mouth"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1594,7 +1642,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words-act6-22" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="______ is a nose"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1607,7 +1656,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words-act6-33" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="______ is a head"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1620,7 +1670,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words-act6-44" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="______ are feet"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1633,7 +1684,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words-act6-55" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="______ are hands"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1646,7 +1698,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="words-act6-66" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="______ are eyes"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1673,7 +1726,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroOcho" class="modal fade" tabindex="-12">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">PRONOUNS: IT, WE, YOU, THEY</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -1687,7 +1740,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">									
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points8" name="points">
 											<input type="text" class="d-none" id="idcliente8" name="idcliente">
@@ -1704,7 +1757,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acty7-01" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ are my friend"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1717,7 +1771,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acty7-02" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ are friends"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1730,7 +1785,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acty7-03" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ are my friends"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1743,7 +1799,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acty7-04" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="___ is his watch"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1770,7 +1827,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroNueve" class="modal fade" tabindex="-13">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-md">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">PRONOUNS: IT, WE, YOU, THEY</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -1784,7 +1841,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the pronouns</p>
 											<input type="text" class="d-none" id="points9" name="points">
 											<input type="text" class="d-none" id="idcliente9" name="idcliente">
 											<input type="text" class="d-none" id="idlibro9" name="idlibro">
@@ -1800,7 +1857,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acto8-11" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="It"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1813,7 +1871,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acto8-12" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="We"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1826,7 +1885,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acto8-13" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="You"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1839,7 +1899,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-acto8-14" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="They"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1866,7 +1927,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroDiez" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-md">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">POSSESIVE ADJECTIVES: MY, YOUR, HIS, HER</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -1880,7 +1941,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the possesive adjectives</p>
 											<input type="text" class="d-none" id="points10" name="points">
 											<input type="text" class="d-none" id="idcliente10" name="idcliente">
 											<input type="text" class="d-none" id="idlibro10" name="idlibro">
@@ -1896,7 +1957,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo10-21" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="My"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1909,7 +1971,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo10-22" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="Your"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1922,7 +1985,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo10-23" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="His"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1935,7 +1999,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo10-24" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="Her"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -1962,7 +2027,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroOnce" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-md">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">POSSESIVE ADJECTIVES: MY, YOUR, HIS, HER	</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -1976,7 +2041,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<input type="text" class="d-none" id="points11" name="points">
 											<input type="text" class="d-none" id="idcliente11" name="idcliente">
 											<input type="text" class="d-none" id="idlibro11" name="idlibro">
@@ -1992,7 +2057,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo11-31" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="This is your watch"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2005,7 +2071,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo11-32" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="This is his watch"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2018,7 +2085,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo11-33" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="This is her watch"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2059,7 +2127,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<input type="text" class="d-none" id="points12" name="points">
 											<input type="text" class="d-none" id="idcliente12" name="idcliente">
 											<input type="text" class="d-none" id="idlibro12" name="idlibro">
@@ -2075,7 +2143,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo12-41" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="Short"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2088,7 +2157,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo12-42" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="Tall"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2101,11 +2171,13 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo12-43" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="I am ___"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 											<input type="text" id="word-actyo12-44" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="You are ___"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2132,7 +2204,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTrece" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">QUESTION WORD: WHAT?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -2146,7 +2218,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<input type="text" class="d-none" id="points13" name="points">
 											<input type="text" class="d-none" id="idcliente13" name="idcliente">
 											<input type="text" class="d-none" id="idlibro13" name="idlibro">
@@ -2162,7 +2234,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo13-51" class="form-control"
 												aria-label="Sizing example input" maxlength="100"
 												placeholder="What?"
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2175,7 +2248,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo13-52" class="form-control"
 												aria-label="Sizing example input" maxlength="100"	
 												placeholder="___ is this?"											
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2188,7 +2262,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" id="word-actyo13-53" class="form-control"
 												aria-label="Sizing example input" maxlength="100"	
 												placeholder="___ is your name?"											
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2215,7 +2290,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroCatorce" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">COLORS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -2229,7 +2304,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold"></p>
 											<input type="text" class="d-none" id="points14" name="points">
 											<input type="text" class="d-none" id="idcliente14" name="idcliente">
 											<input type="text" class="d-none" id="idlibro14" name="idlibro">
@@ -2244,7 +2319,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="colors-actyo14-61" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2256,7 +2332,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="colors-actyo14-62" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2268,7 +2345,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="colors-actyo14-63" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2280,7 +2358,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="colors-actyo14-64" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2292,7 +2371,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="colors-actyo14-65" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2304,7 +2384,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="colors-actyo14-66" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -2328,22 +2409,11 @@ Book_Page::headerTemplate('Unidad 1');
 </div>
 
 <!-- Página 12 - Actividad 1 (Canvas) -->
-<!--
-	Notas de inconvenientes con el canvas.
-	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
-	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
-	
-	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
-	funcionan. Es parecido al problema del input verify-canvas. 
-	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
-	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
-	Odio los canvas
- -->
 <div id="ModalLibroQuince" class="modal fade" tabindex="-10">
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Color the image</h5>
+				<h5 class="modal-title" id="exampleModalLabel">COLORS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-fifthteen">
@@ -2355,11 +2425,11 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Color the figure with the indicated color</p>
 											<!-- class="d-none" -->
-											<input type="text" id="points5" name="points">
-											<input type="text" id="idcliente5" name="idcliente">
-											<input type="text" id="idlibro5" name="idlibro">
+											<input type="text" class="d-none" id="points15" name="points">
+											<input type="text" class="d-none" id="idcliente15" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15" name="idlibro">
 										</div>
 									</div>
 									<!-- contenido  -->
@@ -2427,7 +2497,7 @@ Book_Page::headerTemplate('Unidad 1');
 										height: 500px;
 										}
 
-										canvas1 {
+										canvas15 {
 										background-color: #F8F8F8;
 										}
 
@@ -2435,7 +2505,7 @@ Book_Page::headerTemplate('Unidad 1');
 										justify-self: center;
 										}
 
-										#clearBtn {
+										#clearBtn15 {
 										color: white;
 										font-size: 20px;
 										font-weight: 700;
@@ -2453,28 +2523,28 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="color">
 												<p>Choose a color:</p>
 												<div class="colorPickerWrapper">
-													<input type="color" id="colorPicker" value="#55D0ED">
+													<input type="color" id="colorPicker15" value="#55D0ED">
 												</div>
 											</div>
 											<div class="stroke">
 												<p>Change the stroke's width:</p>
 												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker15">
 												</div>
 											</div>
 											<div class="clear">
 													<p>Clear the canvas</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn">Clear the canvas</a>
+													<a href="#" id="clearBtn15">Clear the canvas</a>
 												</div>
 											</div>
 										</div>
 									</header>
 
 									<div class="col-12">
-										<div class="container-fluid">
-											<input type="number" value="0" id="verify-canvas">
-											<canvas id="canvas1" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/Cuadro.png')"
+										<div class="container mt-3">
+											<input type="number" value="0" class="d-none" id="verify-canvas">
+											<canvas id="canvas15" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag12/Cuadro.png')"
 											width="775" height="400">
 
 											</canvas>
@@ -2509,7 +2579,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<h5 class="modal-title" id="exampleModalLabel">THE CAT IS A BEAUTIFUL ANIMAL</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-sixteen">
@@ -2630,7 +2700,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<h5 class="modal-title" id="exampleModalLabel">COLORING THE STARS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-seventeen">
@@ -2804,7 +2874,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Complete the Activity</h5>
+				<h5 class="modal-title" id="exampleModalLabel">TRACING AND COLORING SHAPES</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-eighteen">
@@ -2885,11 +2955,512 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Página 16 -->
+<div id="ModalLibroDiecinueve" class="modal fade" tabindex="-10">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">SEARCH COLORS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-nineteen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Trace the line with the indicated color</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points19" name="points">
+											<input type="text" class="d-none" id="idcliente19" name="idcliente">
+											<input type="text" class="d-none" id="idlibro19" name="idlibro">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										canvas19 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn19 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Choose a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker19" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker19">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Clear the canvas</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn19">Clear the canvas</a>
+												</div>
+											</div>
+										</div>
+									</header>
+
+									<div class="col-12">
+										<div class="container mt-3">
+											<input type="number" class="d-none" value="0" id="verify-canvas">
+											<canvas id="canvas19" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag16/img16.png')"
+											width="500" height="500">
+
+											</canvas>
+										</div>
+									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 17 - actividad 17.1  -->
+<div id="ModalLibroVeinte" class="modal fade" tabindex="-10">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">COLORING THE WHALE</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twenty">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Color the whale</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points20" name="points">
+											<input type="text" class="d-none" id="idcliente20" name="idcliente">
+											<input type="text" class="d-none" id="idlibro20" name="idlibro">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										canvas20 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn20 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Choose a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker20" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker20">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Clear the canvas</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn20">Clear the canvas</a>
+												</div>
+											</div>
+										</div>
+									</header>
+
+									<div class="col-12">
+										<div class="container mt-3">
+											<input type="number" class="d-none" value="0" id="verify-canvas">
+											<canvas id="canvas20" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag17/img17.png')"
+											width="680" height="500">
+
+											</canvas>
+										</div>
+									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 17 - actividad 17.2  -->
+<div id="ModalLibroVeinte_2" class="modal fade" tabindex="-10">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">COLORING THE WHALE</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twenty_2">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Draw and color your favorite animal</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points20_2" name="points">
+											<input type="text" class="d-none" id="idcliente20_2" name="idcliente">
+											<input type="text" class="d-none" id="idlibro20_2" name="idlibro">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										canvas20_2 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn20_2 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Choose a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker20_2" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker20_2">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Clear the canvas</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn20_2">Clear the canvas</a>
+												</div>
+											</div>
+										</div>
+									</header>
+
+									<div class="col-12">
+										<div class="container mt-3">
+											<input type="number"class="d-none" value="0" id="verify-canvas">
+											<canvas id="canvas20_2" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag17/img17-2.png')"
+											width="350" height="350">
+
+											</canvas>
+										</div>
+									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- Pagina 18 -->
 <div id="ModalLibroVeinticinco" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">SAYING THE NUMBERS FROM ONE TO FIVE</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -2903,7 +3474,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Match the picture quantity with the number as correspond</p>
 											<input type="text" class="d-none" id="points25" name="points">
 											<input type="text" class="d-none" id="idcliente25" name="idcliente">
 											<input type="text" class="d-none" id="idlibro25" name="idlibro">
@@ -3215,7 +3786,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroVeintiseis" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">LET'S COUNT FROM ONE TO TEN</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -3229,7 +3800,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the missing numbers</p>
 											<input type="text" class="d-none" id="points26" name="points">
 											<input type="text" class="d-none" id="idcliente26" name="idcliente">
 											<input type="text" class="d-none" id="idlibro26" name="idlibro">
@@ -3244,7 +3815,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-261" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3256,7 +3828,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-262" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3268,7 +3841,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-263" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3280,7 +3854,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-264" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3292,7 +3867,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-265" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3304,7 +3880,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-266" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3316,7 +3893,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-267" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3328,7 +3906,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-268" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3340,7 +3919,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-269" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3352,7 +3932,8 @@ Book_Page::headerTemplate('Unidad 1');
 											class="rounded mx-auto d-block">
 											<input type="text" id="numbers-actyo26-2610" class="form-control"
 												aria-label="Sizing example input" maxlength="100"												
-												style="margin-bottom: 25px; margin-top: 25px;">
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off">
 										</div>
 									</div>
 
@@ -3376,21 +3957,10 @@ Book_Page::headerTemplate('Unidad 1');
 </div>
 
 <!-- Página 20 -->
-<!--
-	Notas de inconvenientes con el canvas.
-	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
-	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
-	
-	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
-	funcionan. Es parecido al problema del input verify-canvas. 
-	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
-	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
-	Odio los canvas
- -->
- <div id="ModalLibroVeintisiete" class="modal fade" tabindex="-14">
+<div id="ModalLibroVeintisiete" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">MATCHING THE NUMBER FROM ONE TO TEN</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -3404,11 +3974,11 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Trace a line following the order of the numbers</p>
 											<!-- class="d-none" -->
-											<input type="text" id="points27" name="points">
-											<input type="text" id="idcliente27" name="idcliente">
-											<input type="text" id="idlibro27" name="idlibro">
+											<input type="text" class="d-none" id="points27" name="points">
+											<input type="text" class="d-none" id="idcliente27" name="idcliente">
+											<input type="text" class="d-none" id="idlibro27" name="idlibro">
 										</div>
 									</div>
 									<!-- contenido  -->
@@ -3475,7 +4045,7 @@ Book_Page::headerTemplate('Unidad 1');
 										height: 500px;
 										}
 
-										canvas2 {
+										canvas27 {
 										background-color: #F8F8F8;
 										}
 
@@ -3483,7 +4053,7 @@ Book_Page::headerTemplate('Unidad 1');
 										justify-self: center;
 										}
 
-										#clearBtn2 {
+										#clearBtn27 {
 										color: white;
 										font-size: 20px;
 										font-weight: 700;
@@ -3501,26 +4071,26 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="color">
 												<p>Pick a color:</p>
 												<div class="colorPickerWrapper">
-													<input type="color" id="colorPicker2" value="#55D0ED">
+													<input type="color" id="colorPicker27" value="#55D0ED">
 												</div>
 											</div>
 											<div class="stroke">
 												<p>Change the stroke's width:</p>
 												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker27">
 												</div>
 											</div>
 											<div class="clear">
-												<p>clear2 the canvas:</p>
+												<p>Clear the canvas:</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn2">Clear canvas</a>
+													<a href="#" id="clearBtn27">Clear canvas</a>
 												</div>
 											</div>
 										</div>
 										</header>
 
-										<div class="container">
-											<canvas id="canvas2" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag20/trace.png')"
+										<div class="container mt-3">
+											<canvas id="canvas27" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag20/trace.png')"
 											width="815" height="550">
 
 											</canvas>
@@ -3550,11 +4120,178 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
+<!-- Página 21  -->
+<div id="ModalLibroVeintiocho" class="modal fade" tabindex="-10">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">COUNTING FROM ONE TO TEN</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyeight">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Color the pieces without dot a dark color (like black or blue) to find the hidden image and count from one to ten</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points28" name="points">
+											<input type="text" class="d-none" id="idcliente28" name="idcliente">
+											<input type="text" class="d-none" id="idlibro28" name="idlibro">
+										</div>
+									</div>
+									<!-- contenido  -->
+
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										canvas28 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn28 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Choose a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker28" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker28">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Clear the canvas</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn28">Clear the canvas</a>
+												</div>
+											</div>
+										</div>
+									</header>
+
+									<div class="col-12">
+										<div class="container mt-3">
+											<input type="number" value="0" class="d-none" id="verify-canvas">
+											<canvas id="canvas28" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag21/img21.png')"
+											width="410" height="500">
+
+											</canvas>
+										</div>
+									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+
+									<!-- contenido  -->
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <!-- Página 22  -->
 <div id="ModalLibroVeintinueve" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">HELLO! HOW ARE YOU?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -3568,7 +4305,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the missing words or letters</p>
 											<input type="text" class="d-none" id="points29" name="points">
 											<input type="text" class="d-none" id="idcliente29" name="idcliente">
 											<input type="text" class="d-none" id="idlibro29" name="idlibro">
@@ -3589,7 +4326,8 @@ Book_Page::headerTemplate('Unidad 1');
 														<input type="text" id="input-actp1"
 															class="col-6 col-md-4 form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm" maxlength="1">
+															aria-describedby="inputGroup-sizing-sm" maxlength="1"
+															autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -3608,7 +4346,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp2" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -3624,7 +4363,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp3" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>much</h4>
@@ -3646,7 +4386,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp4" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>you?</h4>
@@ -3668,7 +4409,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp5" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>,</h4>
@@ -3676,7 +4418,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp6" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>you?</h4>
@@ -3695,7 +4438,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp7" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>Karla !</h4>
@@ -3717,7 +4461,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp8" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -3763,7 +4508,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the missing words</p>
 											<input type="text" class="d-none" id="points30" name="points">
 											<input type="text" class="d-none" id="idcliente30" name="idcliente">
 											<input type="text" class="d-none" id="idlibro30" name="idlibro">
@@ -3781,7 +4526,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-4">
 														<input type="text" id="input-actp301" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>Williams</h4>
@@ -3801,7 +4547,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-5">
 														<input type="text" id="input-actp302" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>Mrs. Jackson</h4>
@@ -3823,7 +4570,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-3">
 														<input type="text" id="input-actp303" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>?</h4>
@@ -3845,7 +4593,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-6">
 														<input type="text" id="input-actp304" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -3864,7 +4613,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col">
 														<input type="text" id="input-actp305" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>bad</h4>
@@ -3886,7 +4636,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-6">
 														<input type="text" id="input-actp306" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -3931,7 +4682,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the missing words or letters</p>
 											<input type="text" class="d-none" id="points31" name="points">
 											<input type="text" class="d-none" id="idcliente31" name="idcliente">
 											<input type="text" class="d-none" id="idlibro31" name="idlibro">
@@ -3952,7 +4703,8 @@ Book_Page::headerTemplate('Unidad 1');
 														<input type="text" id="input-actp311"
 															class="col-6 col-md-4 form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -3971,7 +4723,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-6">
 														<input type="text" id="input-actp312" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 
 												</div>
@@ -3994,7 +4747,8 @@ Book_Page::headerTemplate('Unidad 1');
 														<input type="text" id="input-actp313"
 															class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 												</div>
 											</div>
@@ -4010,7 +4764,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-6">
 														<input type="text" id="input-actp314" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>done!</h4>
@@ -4029,7 +4784,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-6">
 														<input type="text" id="input-actp315" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>right!</h4>
@@ -4048,7 +4804,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-5">
 														<input type="text" id="input-actp316" class="form-control"
 															aria-label="Sizing example input"
-															aria-describedby="inputGroup-sizing-sm">
+															aria-describedby="inputGroup-sizing-sm"
+															autocomplete="off">
 													</div>
 													<div class="col">
 														<h4>job!</h4>
@@ -4080,23 +4837,12 @@ Book_Page::headerTemplate('Unidad 1');
 </div>
 
 <!-- Página 26 --> 
-<!--
-	Notas de inconvenientes con el canvas.
-	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
-	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
-	
-	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
-	funcionan. Es parecido al problema del input verify-canvas. 
-	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
-	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
-	Odio los canvas
- -->
- <div id="ModalLibroTreintaydos" class="modal fade" tabindex="-4">
+<div id="ModalLibroTreintaydos" class="modal fade" tabindex="-4">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Foods</h5>
+				<h5 class="modal-title" id="modal-title">FOODS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-thirtytwo">
@@ -4173,9 +4919,10 @@ Book_Page::headerTemplate('Unidad 1');
 										width: 100%;
 										margin: auto;
 										height: 500px;
+										text-align: center;
 										}
 
-										canvas3 {
+										canvas32 {
 										background-color: #F8F8F8;
 										}
 
@@ -4183,7 +4930,7 @@ Book_Page::headerTemplate('Unidad 1');
 										justify-self: center;
 										}
 
-										#clearBtn3 {
+										#clearBtn32 {
 										color: white;
 										font-size: 20px;
 										font-weight: 700;
@@ -4201,27 +4948,27 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="color">
 												<p>Pick a color:</p>
 												<div class="colorPickerWrapper">
-													<input type="color" id="colorPicker" value="#000000">
+													<input type="color" id="colorPicker32" value="#000000">
 												</div>
 											</div>
 											<div class="stroke">
 												<p>Change the stroke's width:</p>
 												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker32">
 												</div>
 											</div>
 											<div class="clear">
 												<p>Clear the canvas:</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn3">Clear canvas</a>
+													<a href="#" id="clearBtn32">Clear canvas</a>
 												</div>
 											</div>
 										</div>
 										</header>
 
-										<div class="container">
-											<input type="number" value="0" id="verify-canvas">
-											<canvas id="canvas3" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag26/canvas26.png')"
+										<div class="container mt-3">
+											<input type="number" value="0" class="d-none" id="verify-canvas">
+											<canvas id="canvas32" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag26/canvas26.png')"
 											width="815" height="450">
 
 											</canvas>
@@ -4253,7 +5000,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintaytres" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">VERBS: CLEAN, LIKE, EAT</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -4336,7 +5083,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintaycuatro" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">ADJECTIVES: DELICIOUS AND ROUND</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -4350,7 +5097,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the name of the fruits</p>
 											<input type="text" class="d-none" id="points34" name="points">
 											<input type="text" class="d-none" id="idcliente34" name="idcliente">
 											<input type="text" class="d-none" id="idlibro34" name="idlibro">
@@ -4366,7 +5113,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="food-actyo34-81" class="form-control "
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Orange">	
+														placeholder="Orange"
+														autocomplete="off">	
 												</div>	
 											</div>									
 
@@ -4380,7 +5128,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="food-actyo34-82" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
 															style="margin-bottom: 25px; margin-top: 25px;"
-															placeholder="Melon">			
+															placeholder="Melon"
+															autocomplete="off">			
 												</div>
 											</div>							
 										</div>
@@ -4393,7 +5142,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="food-actyo34-83" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Coconut">			
+														placeholder="Coconut"
+														autocomplete="off">			
 												</div>
 											</div>								
 										</div>
@@ -4406,7 +5156,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="food-actyo34-84" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Tomato">			
+														placeholder="Tomato"
+														autocomplete="off">			
 												</div>
 											</div>								
 										</div>
@@ -4436,7 +5187,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintaycinco" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">POSSESIVE: MY, HIS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -4450,7 +5201,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<input type="text" class="d-none" id="points35" name="points">
 											<input type="text" class="d-none" id="idcliente35" name="idcliente">
 											<input type="text" class="d-none" id="idlibro35" name="idlibro">
@@ -4466,7 +5217,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="possesive-act35-1" class="form-control "
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="This is ___ book">	
+														placeholder="This is ___ book"
+														autocomplete="off">	
 												</div>	
 											</div>									
 
@@ -4480,7 +5232,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="possesive-act35-2" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
 															style="margin-bottom: 25px; margin-top: 25px;"
-															placeholder="This is ___ book">			
+															placeholder="This is ___ book"
+															autocomplete="off">			
 												</div>
 											</div>							
 										</div>
@@ -4493,7 +5246,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="possesive-act35-3" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="My">			
+														placeholder="My"
+														autocomplete="off">			
 												</div>
 											</div>								
 										</div>
@@ -4506,7 +5260,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="possesive-act35-4" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="His">			
+														placeholder="His"
+														autocomplete="off">			
 												</div>
 											</div>								
 										</div>
@@ -4536,7 +5291,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintayseis" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">DEMOSTRATIVE ADJECTIVES: THIS, THAT</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -4550,7 +5305,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the sentences</p>
 											<input type="text" class="d-none" id="points36" name="points">
 											<input type="text" class="d-none" id="idcliente36" name="idcliente">
 											<input type="text" class="d-none" id="idlibro36" name="idlibro">
@@ -4566,7 +5321,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="demostrative-act36-1" class="form-control "
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="___ is an apple">	
+														placeholder="___ is an apple"
+														autocomplete="off">	
 												</div>	
 											</div>									
 										</div>
@@ -4579,7 +5335,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="demostrative-act36-2" class="form-control "
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="___ is a banana">	
+														placeholder="___ is a banana"
+														autocomplete="off">	
 												</div>	
 											</div>									
 										</div>
@@ -4592,7 +5349,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="demostrative-act36-3" class="form-control "
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="___ is a strawberry">	
+														placeholder="___ is a strawberry"
+														autocomplete="off">	
 												</div>	
 											</div>									
 										</div>
@@ -4605,7 +5363,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="demostrative-act36-4" class="form-control "
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="___ is a pencil">	
+														placeholder="___ is a pencil"
+														autocomplete="off">	
 												</div>	
 											</div>									
 										</div>
@@ -4618,7 +5377,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="demostrative-act36-5" class="form-control "
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="___ is a bag">	
+														placeholder="___ is a bag"
+														autocomplete="off">	
 												</div>	
 											</div>									
 										</div>
@@ -4631,7 +5391,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<input type="text" id="demostrative-act36-6" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="___ is a dress">	
+														placeholder="___ is a dress"
+														autocomplete="off">	
 												</div>	
 											</div>									
 										</div>
@@ -4662,7 +5423,7 @@ Book_Page::headerTemplate('Unidad 1');
 <div id="ModalLibroTreintaysiete" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-lg">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">I LIKE FRUITS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -4676,7 +5437,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Finish this dialogue. Use personal information</p>
 											<input type="text" class="d-none" id="points37" name="points">
 											<input type="text" class="d-none" id="idcliente37" name="idcliente">
 											<input type="text" class="d-none" id="idlibro37" name="idlibro">
@@ -4702,7 +5463,8 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="personal-act37-1" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"
+														autocomplete="off">
 												</div>
 
 												<p class="fst-normal">I like strawberries </p>
@@ -4714,7 +5476,8 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="personal-act37-2" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"
+														autocomplete="off">
 												</div>
 
 												<p class="fw-bold">Do you like apples? </p> 
@@ -4724,14 +5487,16 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="personal-act37-3" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"
+														autocomplete="off">
 												</div>
 
 												<p class="fw-bold">See you later!</p>
 												<div class="col-8">
 													<input type="text" id="personal-act37-4" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px; margin-top: 5px;">
+														style="margin-bottom: 5px; margin-top: 5px;"
+														autocomplete="off">
 												</div>
 
 											</div>	
@@ -4888,7 +5653,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Complete the sentences</p>
 											<input type="text" class="d-none" id="points39" name="points">
 											<input type="text" class="d-none" id="idcliente39" name="idcliente">
 											<input type="text" class="d-none" id="idlibro39" name="idlibro">
@@ -4908,7 +5673,8 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="input-act39-1" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"
+														autocomplete="off">
 												</div>	
 											</div>									
 										</div>
@@ -4925,7 +5691,8 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="input-act39-2" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"
+														autocomplete="off">
 												</div>	
 											</div>									
 										</div>
@@ -4940,7 +5707,8 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="input-act39-3" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"
+														autocomplete="off">
 												</div>	
 												<div class="col-4">
 													<p class="fst-normal">,it is a balloon</p> 
@@ -4958,7 +5726,8 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="input-act39-4" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;">
+														style="margin-bottom: 5px;"
+														autocomplete="off">
 												</div>	
 												<div class="col-4">
 													<p class="fst-normal">,it is a mango</p> 
@@ -4978,7 +5747,8 @@ Book_Page::headerTemplate('Unidad 1');
 												<div class="col-4">
 													<input type="text" id="input-act39-5" class="form-control"
 														aria-label="Sizing example input" maxlength="100"												
-														style="margin-bottom: 5px;"> 
+														style="margin-bottom: 5px;"
+														autocomplete="off"> 
 												</div>	
 											</div>									
 										</div>
@@ -5023,7 +5793,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Complete the classroom expressions</p>
 											<input type="text" class="d-none" id="points40" name="points">
 											<input type="text" class="d-none" id="idcliente40" name="idcliente">
 											<input type="text" class="d-none" id="idlibro40" name="idlibro">
@@ -5045,7 +5815,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-4">
 														<input type="text" id="input-act40-1" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
+															style="margin-bottom: 5px;"
+															autocomplete="off">
 													</div>
 													<div class="col-4">
 														<p class="fst-normal"> to the classroom. </p> 
@@ -5059,7 +5830,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-4">
 														<input type="text" id="input-act40-2" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
+															style="margin-bottom: 5px;"
+															autocomplete="off">
 													</div>
 												</div>
 
@@ -5070,7 +5842,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-4">
 														<input type="text" id="input-act40-3" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
+															style="margin-bottom: 5px;"
+															autocomplete="off">
 													</div>
 												</div>
 
@@ -5078,7 +5851,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-4">
 														<input type="text" id="input-act40-4" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
+															style="margin-bottom: 5px;"
+															autocomplete="off">
 													</div>
 													<div class="col-4">
 														<p class="fst-normal"> down.</p> 
@@ -5089,7 +5863,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-4">
 														<input type="text" id="input-act40-5" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
+															style="margin-bottom: 5px;"
+															autocomplete="off">
 													</div>
 													<div class="col-4">
 														<p class="fst-normal"> at page 5.</p> 
@@ -5103,7 +5878,8 @@ Book_Page::headerTemplate('Unidad 1');
 													<div class="col-4">
 														<input type="text" id="input-act40-6" class="form-control"
 															aria-label="Sizing example input" maxlength="100"												
-															style="margin-bottom: 5px;">
+															style="margin-bottom: 5px;"
+															autocomplete="off">
 													</div>
 												</div>												
 
@@ -5149,7 +5925,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Write the names of the fruits in the puzzle</p>
 											<input type="text" class="d-none" id="points41" name="points">
 											<input type="text" class="d-none" id="idcliente41" name="idcliente">
 											<input type="text" class="d-none" id="idlibro41" name="idlibro">
@@ -6340,22 +7116,11 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<!-- Página 20 -->
-<!--
-	Notas de inconvenientes con el canvas.
-	El input verify-canvas solo acepta el primer input encontrado en orden en el php (si es llamado por medio de <script>) 
-	en este caso en el controller. Solo acepta el verify-canvas del ModalLibroQuince.
-	
-	El colorpicker y strokepicker no funcionan en los canvas posteriores al primer canvas hecho. Ni con id unicos estos 
-	funcionan. Es parecido al problema del input verify-canvas. 
-	Aparte de todo estos errores, si tratas de abrir el canvas de una actividad posterior a la actividad que tiene creado el
-	primer canvas (actividad 15), no se podra pintar en ellas, se debe de abrir la actividad 15 para que estas funcionen. 
-	Odio los canvas
- -->
- <div id="ModalLibroCuarentaydos" class="modal fade" tabindex="-14">
+<!-- Página 36 -->
+<div id="ModalLibroCuarentaydos" class="modal fade" tabindex="-14">
 	<!-- <div class="container-fluid"> -->
 	<div class="modal-dialog modal-xl">
-	<div class="modal-content">
+		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">HEAD AND SHOULDERS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -6369,11 +7134,11 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Complete the activity</p>
+											<p class="fs-1 fw-bold">Draw, color and name the parts of your body</p>
 											<!-- class="d-none" -->
-											<input type="text" id="points42" name="points">
-											<input type="text" id="idcliente42" name="idcliente">
-											<input type="text" id="idlibro42" name="idlibro">
+											<input type="text" class="d-none" id="points42" name="points">
+											<input type="text" class="d-none" id="idcliente42" name="idcliente">
+											<input type="text" class="d-none" id="idlibro42" name="idlibro">
 										</div>
 									</div>
 									<!-- contenido  -->
@@ -6440,7 +7205,7 @@ Book_Page::headerTemplate('Unidad 1');
 										height: 500px;
 										}
 
-										canvas4 {
+										canvas42 {
 										background-color: #F8F8F8;
 										}
 
@@ -6448,7 +7213,7 @@ Book_Page::headerTemplate('Unidad 1');
 										justify-self: center;
 										}
 
-										#clearBtn4 {
+										#clearBtn42 {
 										color: white;
 										font-size: 20px;
 										font-weight: 700;
@@ -6466,27 +7231,27 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="color">
 												<p>Pick a color:</p>
 												<div class="colorPickerWrapper">
-													<input type="color" id="colorPicker4" value="#55D0ED">
+													<input type="color" id="colorPicker42" value="#55D0ED">
 												</div>
 											</div>
 											<div class="stroke">
 												<p>Change the stroke's width:</p>
 												<div class="strokeWidthPickerWrapper">
-													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker4">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker42">
 												</div>
 											</div>
 											<div class="clear">
 												<p>clear2 the canvas:</p>
 												<div class="clearBtnWrapper">
-													<a href="#" id="clearBtn4">Clear canvas</a>
+													<a href="#" id="clearBtn42">Clear canvas</a>
 												</div>
 											</div>
 										</div>
 										</header>
 
-										<div class="container">
+										<div class="container mt-3">
 											<div class="row"></div>
-											<canvas id="canvas4" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag36/canvas36.png')"
+											<canvas id="canvas42" style="background: url('../../resources/img/BOOKS/FirstGrade/UnitOne/Pag36/canvas36.png')"
 											width="670" height="475">
 
 											</canvas>
@@ -6515,6 +7280,7 @@ Book_Page::headerTemplate('Unidad 1');
 		</div>
 	</div>
 </div>
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
