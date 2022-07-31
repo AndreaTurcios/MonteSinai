@@ -106,8 +106,24 @@ Dashboard_Page::headerTemplate('Libro 8');
                         text-transform: uppercase; font-size: 18px;">UNIT 5</div>
                     </div>
                     <span style="font-weight: bold;text-transform: uppercase; font-size: 17px;">Party time</span>
-                    <div style="font-size: 18px;">- My body</div>
-                    <div style="margin-bottom: 25px;font-size: 18px;">- Food and fruits</div>
+                    <div style="font-size: 18px;">- Invitations</div>
+                    <div style="font-size: 18px;">- Future with be going to</div>
+                    <div style="font-size: 18px;">- My future plans</div>
+                    <div style="font-size: 18px;">- Peers' future plans</div>
+                    <div style="font-size: 18px;">- What are you going to do this weekend?</div>
+                    <div style="font-size: 18px;">- Requests</div>
+                    <div style="font-size: 18px;">- Expressions of agreement and disagreement</div>
+                    <div style="font-size: 18px;">- Making courteous requests</div>
+                    <div style="font-size: 18px;">- Politely accepting or declining invitations</div>
+                    <div style="font-size: 18px;">- Asking about activities and events</div>
+                    <div style="font-size: 18px;">- Adverbs of time</div>
+                    <div style="font-size: 18px;">- Filling out questionnaires about future plans</div>
+                    <div style="font-size: 18px;">- Describing future plans</div>
+                    <div style="font-size: 18px;">- Review of prepositions of time and place</div>
+                    <div style="font-size: 18px;">- Writing original invitations</div>
+                    <div style="font-size: 18px;">- Object pronouns</div>
+                    <div style="font-size: 18px;">- Rejoinders with too and either</div>
+                    <div style="margin-bottom: 25px; font-size: 18px;">- Forming a purpose when reading</div>
                     <a class="btn btn-primary" href="../libro8Unidad1.php" role="button" style="width: 100%; background-color: #2A262B; border-color: #2A262B; " >Enter</a>
                 </div>
             </div>
