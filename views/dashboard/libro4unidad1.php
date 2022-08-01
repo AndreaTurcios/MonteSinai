@@ -749,6 +749,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<input type="text" class="d-none" id="idlibro2" name="idlibro">
 										</div>
 									</div>
+									<br>
+									<br>
 									<div class="row row-cols-2">
 										<div class="col">
 											<p class="text-justify">
@@ -763,7 +765,7 @@ Book_Page::headerTemplate('Unidad 1');
 											Esta es una casa bonita. <br>
 											Tiene una </p> 
 												<select id="select-act2-1" class="form-select" style="width:auto; display: inline-block;" >
-													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="0" selected disabled ></option>
 													<option value="1">cocina</option>
 													<option value="2">cochera</option>
 													<option value="3">baño</option>
@@ -771,14 +773,14 @@ Book_Page::headerTemplate('Unidad 1');
 											<p style="display: inline;" class="text-justify"> para tres autos. Por fuera está pintada de color rosado y tiene
 											un </p>
 												<select id="select-act2-2" class="form-select" style="width:auto; display: inline-block;" >
-													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="0" selected disabled></option>
 													<option value="1">baño</option>
 													<option value="2">cuarto</option>
 													<option value="3">jardín</option>
 												</select>
 											<p style="display: inline;" class="text-justify"> hermoso en el patio delantero. El </p> 
 												<select id="select-act2-3" class="form-select" style="width:auto; display: inline-block;" >
-													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="0" selected disabled></option>
 													<option value="1">patio trasero</option>
 													<option value="2">sala de estar</option>
 													<option value="3">comedor</option>
@@ -799,7 +801,7 @@ Book_Page::headerTemplate('Unidad 1');
 											
 											<p class="text-justify" style="display: inline;"> Dentro de la casa hay tres </p>
 												<select id="select-act2-4" class="form-select" style="width:auto; display: inline-block;" >
-													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="0" selected disabled ></option>
 													<option value="1">pasillos</option>
 													<option value="2">dormitorios</option>
 													<option value="3">cocheras</option>
@@ -820,7 +822,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<p class="text-justify" style="display: inline;">La </p>
 												<select id="select-act2-5" class="form-select" style="width:auto; display: inline-block;" >
-													<option selected disabled class="text-muted" style="color: white;" value="0">Choose</option>
+													<option selected disabled value="0"></option>
 													<option value="1">sala de estar</option>
 													<option value="2">habitación</option>
 													<option value="3">cocina</option>
@@ -842,7 +844,7 @@ Book_Page::headerTemplate('Unidad 1');
 										<div class="col">
 											<p class="text-justify" style="display: inline;">La </p>
 												<select id="select-act2-6" class="form-select" style="width:auto; display: inline-block;" >
-													<option value="0" selected disabled class="text-muted" style="color: white;">Choose</option>
+													<option value="0" selected disabled></option>
 													<option value="1">sala de estar</option>
 													<option value="2">cocina</option>
 													<option value="3">cochera</option>
@@ -1414,7 +1416,7 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row mb-5">
 										<img src="../../resources/img/BOOKS/FourthGrade/UnitOne/activities/19.jpg" alt="Family members" class="img-fluid">
 									</div>
-									<div class="row row-cols-2 mb-3">
+									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<div class="row">
 												<p>Where is René?</p>
@@ -1439,7 +1441,7 @@ Book_Page::headerTemplate('Unidad 1');
 											</div>
 										</div>
 									</div>
-									<div class="row row-cols-2 mb-3">
+									<div class="row row-cols-2 mb-5">
 										<div class="col">
 											<div class="row">
 												<p>Where is Yaely?</p>
@@ -1684,7 +1686,7 @@ Book_Page::headerTemplate('Unidad 1');
 												<div id="text-act8-9" class="box-act8 text-center"></div>
 											</div>
 											<div class="col">
-												<p>10. How is your living house?</p>
+												<p>10. How is your living room?</p>
 												<div id="text-act8-10" class="box-act8 text-center"></div>
 											</div>
 										</div>
@@ -4912,7 +4914,7 @@ Book_Page::headerTemplate('Unidad 1');
 													<td><input type="text" id="input-act29-52"
 														class=" form-control" maxlength="1"
 														autocomplete="off" ></td>
-													<td class="text-center">d</td>
+													<td class="text-center">r</td>
 													<td class="text-center"> -</td>
 													<td class="text-center">b</td>
 													<td><input type="text" id="input-act29-53"
@@ -5005,31 +5007,61 @@ Book_Page::headerTemplate('Unidad 1');
 									<div class="row row-cols-2">
 										<div class="col" style="padding-right: 25px; margin-bottom: 25px">
 											<p>Where is the salad bowl <b> - 1</b></p>
-											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-1">
+											<select class="form-select" id="select-act30-1">
+												<option value="0" disabled selected></option>
+												<option value="1">It is on the table.</option>
+												<option value="2">It is under the chair.</option>
+												<option value="3">It is behind the table.</option>
+											</select>
 										</div>
 										<div class="col">
 											<p>Where is the chair <b> - 4</b></p>
-											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-4">
+											<select class="form-select" id="select-act30-2">
+												<option value="0" disabled selected></option>
+												<option value="1">The chair is under the table</option>
+												<option value="2">The chair is behind the table.</option>
+												<option value="3">The chair is on the table.</option>
+											</select>
 										</div>
 									</div>
 									<div class="row row-cols-2">
 										<div class="col" style="padding-right: 25px; margin-bottom: 25px">
 											<p>Where is the salt shaker and pepper shaker? <b> - 2</b></p>
-											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-2">
+											<select class="form-select" id="select-act30-3">
+												<option value="0" disabled selected></option>
+												<option value="1">The salt and pepper shaker are next to the toaster.</option>
+												<option value="2">The salt and pepper shaker are on the chair.</option>
+												<option value="3">The salt and pepper shaker are on the table.</option>
+											</select>
 										</div>
 										<div class="col">
 											<p>Where is the picture? <b> - 5</b></p>
-											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-5">
+											<select class="form-select" id="select-act30-4">
+												<option value="0" disabled selected></option>
+												<option value="1">The picture is in the cabinet.</option>
+												<option value="2">The picture is next to the cabinet.</option>
+												<option value="3">The picture is on the table.</option>
+											</select>
 										</div>
 									</div>
 									<div class="row row-cols-2">
 										<div class="col" style="padding-right: 25px; margin-bottom: 25px">
 											<p>Where is the sugar bowl? <b> - 3</b></p>
-											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-3">
+											<select class="form-select" id="select-act30-5">
+												<option value="0" disabled selected></option>
+												<option value="1">It is under the picture.</option>
+												<option value="2">It is in cabinet.</option>
+												<option value="3">It is next to the pitcher.</option>
+											</select>
 										</div>
 										<div class="col">
 											<p>Where is the pitcher? <b> - 6</b></p>
-											<input type="text" class="form-control" placeholder="Your answer..." id="input-act30-6">
+											<select class="form-select" id="select-act30-6">
+												<option value="0" disabled selected></option>
+												<option value="1">The pitcher is next to the toaster.</option>
+												<option value="2">The pitcher is on the chair.</option>
+												<option value="3">The pitcher is next to the sugar bowl.</option>
+											</select>
 										</div>
 									</div>
 								</div>
@@ -6233,30 +6265,22 @@ Book_Page::headerTemplate('Unidad 1');
 										</div>
 										<div class="row row-cols-2 mb-4">
 											<div class="col">
-												<p>Do you have a toaster? How is it?</p>
+												<p>Do you have a Blender? How is it?</p>
 												<div id="text-act36-7" class="box-act8 text-center"></div>
 											</div>
 											<div class="col">
-												<p>Do you have a Blender? How is it?</p>
+												<p>Do you have a coffeepot? How is it?</p>
 												<div id="text-act36-8" class="box-act8 text-center"></div>
 											</div>
 										</div>
 										<div class="row row-cols-2 mb-4">
 											<div class="col">
-												<p>Do you have a coffeepot? How is it?</p>
+												<p>How many dishes do you have? How are they?</p>
 												<div id="text-act36-9" class="box-act8 text-center"></div>
 											</div>
 											<div class="col">
-												<p>How many dishes do you have? How are they?</p>
-												<div id="text-act36-10" class="box-act8 text-center"></div>
-											</div>
-										</div>
-										<div class="row row-cols-2 mb-4">
-											<div class="col">
 												<p>How many spoons do you have? How are they?</p>
-												<div id="text-act36-11" class="box-act8 text-center"></div>
-											</div>
-											<div class="col">
+												<div id="text-act36-10" class="box-act8 text-center"></div>
 											</div>
 										</div>
 										<hr>
@@ -7911,7 +7935,7 @@ Book_Page::headerTemplate('Unidad 1');
 													<td>&nbsp;</td>
 													<td class="text-center"> = </td>
 													<td>&nbsp;</td>
-													<td class="text-center">thirty</td>
+													<td class="text-center">forty</td>
 													<td>&nbsp;</td>
 													<td class="text-center"> 30</td>
 												</tr>
@@ -8859,7 +8883,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Crossword about the dining room</p>
+											<p class="fs-5 fw-bold">Crossword puzzle</p>
 											<input type="text" class="d-none" id="points51" name="points">
 											<input type="text" class="d-none" id="idcliente51" name="idcliente">
 											<input type="text" class="d-none" id="idlibro51" name="idlibro">

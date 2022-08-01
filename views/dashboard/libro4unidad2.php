@@ -853,7 +853,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-1">1.</label>
 													<select id="select-act3-1" class="form-select select-act3" >
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -883,7 +883,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-2">2.</label>
 													<select id="select-act3-2" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -915,7 +915,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-3">3.</label>
 													<select id="select-act3-3" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -945,7 +945,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-4">4.</label>
 													<select id="select-act3-4" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -977,7 +977,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-5">5.</label>
 													<select id="select-act3-5" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1007,7 +1007,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-6">6.</label>
 													<select id="select-act3-6" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1039,7 +1039,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-7">7.</label>
 													<select id="select-act3-7" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1069,7 +1069,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-8">8.</label>
 													<select id="select-act3-8" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1101,7 +1101,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-9">9.</label>
 													<select id="select-act3-9" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1131,7 +1131,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-10">10.</label>
 													<select id="select-act3-10" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1168,7 +1168,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-11">1.</label>
 													<select id="select-act3-11" class="form-select select-act3" >
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1198,7 +1198,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-12">2.</label>
 													<select id="select-act3-12" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1230,7 +1230,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-13">3.</label>
 													<select id="select-act3-13" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1260,7 +1260,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-14">4.</label>
 													<select id="select-act3-14" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1292,7 +1292,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-15">5.</label>
 													<select id="select-act3-15" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1322,7 +1322,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-16">6.</label>
 													<select id="select-act3-16" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1354,7 +1354,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-17">7.</label>
 													<select id="select-act3-17" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1384,7 +1384,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-18">8.</label>
 													<select id="select-act3-18" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1416,7 +1416,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-19">9.</label>
 													<select id="select-act3-19" class="form-select select-act3">
-														<option value="0" selected disabled class="text-muted">Choose</option>
+														<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -1446,7 +1446,7 @@ Book_Page::headerTemplate('Unidad 2');
 												<div class="col mb-4">
 													<label for="select-act3-20">10.</label>
 													<select id="select-act3-20" class="form-select select-act3">
-													<option value="0" selected disabled class="text-muted">Choose</option>
+													<option value="0" selected disabled class="text-muted"></option>
 														<option value="1">Bacon</option>
 														<option value="2">Beans</option>
 														<option value="3">Bread</option>
@@ -2980,7 +2980,7 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Drag and choose a sentence according to the image</p>
+											<p class="fs-5 fw-bold">Choose and drag a sentence according to the image</p>
 											<input type="text" class="d-none" id="points16" name="points">
 											<input type="text" class="d-none" id="idcliente16" name="idcliente">
 											<input type="text" class="d-none" id="idlibro16" name="idlibro">
@@ -3069,7 +3069,7 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Drag and choose a sentence according to the image</p>
+											<p class="fs-5 fw-bold">Choose and drag a sentence according to the image</p>
 											<input type="text" class="d-none" id="points17" name="points">
 											<input type="text" class="d-none" id="idcliente17" name="idcliente">
 											<input type="text" class="d-none" id="idlibro17" name="idlibro">
@@ -3222,7 +3222,7 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Drag and choose a sentence according to the image</p>
+											<p class="fs-5 fw-bold">Choose and drag a sentence according to the image</p>
 											<input type="text" class="d-none" id="points19" name="points">
 											<input type="text" class="d-none" id="idcliente19" name="idcliente">
 											<input type="text" class="d-none" id="idlibro19" name="idlibro">
