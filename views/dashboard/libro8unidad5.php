@@ -45,7 +45,7 @@
 			// Elevation from the edge of the flipbook when turning a page
 			elevation: 50,
 			// The number of pages,
-			pages: 27,
+			pages: 29,
 			// Events
 			when: {
 				turning: function(event, page, view) {
