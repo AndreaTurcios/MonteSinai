@@ -18,7 +18,6 @@
 		</div>
 	</div>
 </div>
-
 <script type="text/javascript">
 	function loadApp() {
 		$('#canvas').fadeIn(1000);
@@ -266,6 +265,195 @@
 		complete: loadApp
 	});
 </script>
+
+<!-- Actividad 1-->
+<!-- Region 3-->
+<div id="ModalLibroOcho3" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Invitations</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act1">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points1" name="points1">
+                                <input type="text"  class="d-none" id="idlibro1" name="idlibro1">
+								<input type="text"  class="d-none" id="idcliente1" name="idcliente1">
+							</div>
+						</div>
+                        <div class="row">
+                            <div class="col-12">
+								I-What is an invitation?
+								<div class="col-md-12">
+									<select id="act1-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								II-What is party time?
+								<div class="col-md-12">
+									<select id="act1-q2">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+									</select>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 3-->
+<!-- fin Actividad 1-->
+
+<!-- Actividad 2-->
+<!-- Region 4-->
+<div id="ModalLibroOcho4" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">...</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act2">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points2" name="points2">
+                                <input type="text"  class="d-none" id="idlibro2" name="idlibro2">
+								<input type="text"  class="d-none" id="idcliente2" name="idcliente2">
+							</div>
+						</div>
+                        <div class="row">
+                            <div class="col-12">
+								I-...?
+								<div class="col-md-12">
+									<select id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								II-...?
+								<div class="col-md-12">
+									<select id="act2-q2">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+									</select>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 4-->
+<!-- fin Actividad 2-->
+
+<!-- Actividad 3-->
+<!-- Region 5-->
+<div id="ModalLibroOcho5" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">...</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act3">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points2" name="points2">
+                                <input type="text"  class="d-none" id="idlibro2" name="idlibro2">
+								<input type="text"  class="d-none" id="idcliente2" name="idcliente2">
+							</div>
+						</div>
+                        <div class="row">
+                            <div class="col-12">
+								I-...?
+								<div class="col-md-12">
+									<select id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								II-...?
+								<div class="col-md-12">
+									<select id="act2-q2">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+									</select>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 5-->
+<!-- fin Actividad 3-->
 
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
