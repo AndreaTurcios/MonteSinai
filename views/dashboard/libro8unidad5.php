@@ -389,6 +389,43 @@
         </div>
     </div>
 </div>
+<!-- ejemplos-->
+<div id="ModalLibroOcho4examples" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="examples4">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									
+
+									<div class="row">
+										<div class="col-12">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFive/Pag4/examples.png"
+												class="rounded mx-auto d-block col-12">
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- fin Region 4-->
 <!-- fin Actividad 2-->
 
