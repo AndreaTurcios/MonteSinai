@@ -9,5 +9,17 @@
 			"modal":"ModalLibroOcho5",
 			"form":"unit5-act3"
 		}
+},
+{
+	"x":180,
+	"y":40,
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalLibroOcho5examples",
+			"form":"examples5"
+		}
 }
 ]

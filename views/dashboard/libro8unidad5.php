@@ -445,9 +445,9 @@
                         <div class="row">
 							<div class="col-md-8 align-items-center">
 								<!-- class="d-none" -->
-								<input type="text"  class="d-none" id="points2" name="points2">
-                                <input type="text"  class="d-none" id="idlibro2" name="idlibro2">
-								<input type="text"  class="d-none" id="idcliente2" name="idcliente2">
+								<input type="text"  class="d-none" id="points3" name="points3">
+                                <input type="text"  class="d-none" id="idlibro3" name="idlibro3">
+								<input type="text"  class="d-none" id="idcliente3" name="idcliente3">
 							</div>
 						</div>
                         <div class="row">
@@ -489,9 +489,145 @@
         </div>
     </div>
 </div>
+<!-- ejemplos-->
+<div id="ModalLibroOcho5examples" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="examples5">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									
+
+									<div class="row">
+										<div class="col-12">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFive/Pag5/examples.png"
+												class="rounded mx-auto d-block col-12">
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- fin Region 5-->
 <!-- fin Actividad 3-->
 
+<!-- Actividad 4-->
+<!-- Region 6-->
+<div id="ModalLibroOcho6" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">...</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act4">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points4" name="points4">
+                                <input type="text"  class="d-none" id="idlibro4" name="idlibro4">
+								<input type="text"  class="d-none" id="idcliente4" name="idcliente4">
+							</div>
+						</div>
+                        <div class="row">
+                            <div class="col-12">
+								I-...?
+								<div class="col-md-12">
+									<select id="act2-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								II-...?
+								<div class="col-md-12">
+									<select id="act2-q2">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+									</select>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- ejemplos-->
+<div id="ModalLibroOcho6examples" class="modal fade" tabindex="-11">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="examples6">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									
+
+									<div class="row">
+										<div class="col-12">								
+											<div class="col">
+												<img src="../../resources/img/BOOKS/EightGrade/UnitFive/Pag6/examples.png"
+												class="rounded mx-auto d-block col-12">
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<!-- fin Region 6-->
+<!-- fin Actividad 4-->
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 	// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
