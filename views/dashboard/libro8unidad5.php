@@ -336,7 +336,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">...</h5>
+                <h5 class="modal-title" id="modal-title">Write a question with 'going to' for each situation</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act2">
@@ -352,25 +352,53 @@
 						</div>
                         <div class="row">
                             <div class="col-12">
-								I-...?
+								<strong>1. Your friend has won some money.</strong> You ask: (what / do with it?)
 								<div class="col-md-12">
 									<select id="act2-q1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+										<option value="1">What are you going to wear?</option>
+										<option value="2">Where are you going to put it?</option>
+										<option value="3">Who are you going to invite?</option>
+										<option value="4">What are you going to do with it</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
 							<div class="col-12"><br></div>
 							<div class="col-12">
-								II-...?
+								<strong>2. Your friend is going to a party tonight.</strong> You ask: (what / wear?)
 								<div class="col-md-12">
 									<select id="act2-q2">
-									<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What are you going to wear?</option><!-- correcto -->
+										<option value="2">Where are you going to put it?</option>
+										<option value="3">Who are you going to invite?</option>
+										<option value="4">What are you going to do with it</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								<strong>3. Your friend has just bought a new table.</strong> You ask: (where / put it?)
+								<div class="col-md-12">
+									<select id="act2-q3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What are you going to wear?</option>
+										<option value="2">Where are you going to put it?</option><!-- correcto -->
+										<option value="3">Who are you going to invite?</option>
+										<option value="4">What are you going to do with it</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								<strong>4. Your friend has decided to have a party.</strong> You ask: (who / invite?)
+								<div class="col-md-12">
+									<select id="act2-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What are you going to wear?</option>
+										<option value="2">Where are you going to put it?</option>
+										<option value="3">Who are you going to invite?</option><!-- correcto -->
+										<option value="4">What are you going to do with it</option>
 									</select>
 								</div>
 							</div>
@@ -436,7 +464,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">...</h5>
+                <h5 class="modal-title" id="modal-title">Write questions using 'do you think... will...?' + the following:</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act3">
@@ -451,26 +479,136 @@
 							</div>
 						</div>
                         <div class="row">
+							<div id="option-act8-1" class="box-l8u5 text-center m-0">
+								be back
+							</div>
+							<div id="option-act8-2" class="box-l8u5 text-center m-0">
+								cost
+							</div>
+							<div id="option-act8-3" class="box-l8u5 text-center m-0">
+								end
+							</div>
+							<div id="option-act8-4" class="box-l8u5-2 text-center m-0">
+								get married
+							</div>
+							<div id="option-act8-4" class="box-l8u5 text-center m-0">
+								happen
+							</div>
+							<div id="option-act8-4" class="box-l8u5 text-center m-0">
+								like
+							</div>
+							<div id="option-act8-4" class="box-l8u5 text-center m-0">
+								rain
+							</div>
+							<br><br>
                             <div class="col-12">
-								I-...?
 								<div class="col-md-12">
-									<select id="act2-q1">
+									1. I've bought this picture for Karen.
+									<select id="act3-q1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+										<option value="1">Do you think it will rain?</option>
+										<option value="2">Do you think she will like it?</option><!-- correcto -->
+										<option value="3">When do you think it will end?</option>
+										<option value="4">What do you think it will happen?</option>
+										<option value="5">How much it will cost?</option>
+										<option value="6">What time you will be back?</option>
+										<option value="7">Do you think they will get married?</option>
 									</select>
 								</div>
 							</div>
 							<div class="col-12"><br></div>
 							<div class="col-12">
-								II-...?
 								<div class="col-md-12">
-									<select id="act2-q2">
+									2. The weather doesn't look very good.
+									<select id="act3-q2">
 									<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+										<option value="1">Do you think it will rain?</option><!-- correcto -->
+										<option value="2">Do you think she will like it?</option>
+										<option value="3">When do you think it will end?</option>
+										<option value="4">What do you think it will happen?</option>
+										<option value="5">How much it will cost?</option>
+										<option value="6">What time you will be back?</option>
+										<option value="7">Do you think they will get married?</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								<div class="col-md-12">
+									3. The meeting is still going on.
+									<select id="act3-q3">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Do you think it will rain?</option>
+										<option value="2">Do you think she will like it?</option>
+										<option value="3">When do you think it will end?</option><!-- correcto -->
+										<option value="4">What do you think it will happen?</option>
+										<option value="5">How much it will cost?</option>
+										<option value="6">What time you will be back?</option>
+										<option value="7">Do you think they will get married?</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								<div class="col-md-12">
+									4. My car needs to be repaired.
+									<select id="act3-q4">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Do you think it will rain?</option>
+										<option value="2">Do you think she will like it?</option>
+										<option value="3">When do you think it will end?</option>
+										<option value="4">What do you think it will happen?</option>
+										<option value="5">How much it will cost?</option><!-- correcto -->
+										<option value="6">What time you will be back?</option>
+										<option value="7">Do you think they will get married?</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								<div class="col-md-12">
+									5. Sally and David are in love.
+									<select id="act3-q5">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Do you think it will rain?</option>
+										<option value="2">Do you think she will like it?</option>
+										<option value="3">When do you think it will end?</option>
+										<option value="4">What do you think it will happen?</option>
+										<option value="5">How much it will cost?</option>
+										<option value="6">What time you will be back?</option>
+										<option value="7">Do you think they will get married?</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								<div class="col-md-12">
+									6. I'm going out now. Ok.
+									<select id="act3-q6">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Do you think it will rain?</option>
+										<option value="2">Do you think she will like it?</option>
+										<option value="3">When do you think it will end?</option>
+										<option value="4">What do you think it will happen?</option>
+										<option value="5">How much it will cost?</option>
+										<option value="6">What time you will be back?</option><!-- correcto -->
+										<option value="7">Do you think they will get married?</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								<div class="col-md-12">
+									7. The future situation is uncertain.
+									<select id="act3-q7">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Do you think it will rain?</option>
+										<option value="2">Do you think she will like it?</option>
+										<option value="3">When do you think it will end?</option>
+										<option value="4">What do you think it will happen?</option><!-- correcto -->
+										<option value="5">How much it will cost?</option>
+										<option value="6">What time you will be back?</option>
+										<option value="7">Do you think they will get married?</option>
 									</select>
 								</div>
 							</div>
@@ -536,7 +674,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">...</h5>
+                <h5 class="modal-title" id="modal-title">act4...</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act4">
@@ -628,6 +766,132 @@
 </div>
 <!-- fin Region 6-->
 <!-- fin Actividad 4-->
+
+<!-- Actividad 5-->
+<!-- Region 7-->
+<div id="ModalLibroOcho7" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">act5...</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act5">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points5" name="points5">
+                                <input type="text"  class="d-none" id="idlibro5" name="idlibro5">
+								<input type="text"  class="d-none" id="idcliente5" name="idcliente5">
+							</div>
+						</div>
+                        <div class="row">
+                            <div class="col-12">
+								I-...?
+								<div class="col-md-12">
+									<select id="act5-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								II-...?
+								<div class="col-md-12">
+									<select id="act2-q2">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+									</select>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 7-->
+<!-- fin Actividad 5-->
+
+<!-- Actividad 6-->
+<!-- Region 8-->
+<div id="ModalLibroOcho8" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">act6...</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act6">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points6" name="points6">
+                                <input type="text"  class="d-none" id="idlibro6" name="idlibro6">
+								<input type="text"  class="d-none" id="idcliente6" name="idcliente6">
+							</div>
+						</div>
+                        <div class="row">
+                            <div class="col-12">
+								I-...?
+								<div class="col-md-12">
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+							<div class="col-12"><br></div>
+							<div class="col-12">
+								II-...?
+								<div class="col-md-12">
+									<select id="act6-q2">
+									<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
+										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+									</select>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 7-->
+<!-- fin Actividad 5-->
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 	// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
