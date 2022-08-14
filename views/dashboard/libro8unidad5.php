@@ -674,7 +674,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">act4...</h5>
+                <h5 class="modal-title" id="modal-title">Simple Future: Will / Won't</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act4">
@@ -682,6 +682,7 @@
                     <div class="container-fluid">
                         <div class="row">
 							<div class="col-md-8 align-items-center">
+								<h6>Complete the sentences</h6>
 								<!-- class="d-none" -->
 								<input type="text"  class="d-none" id="points4" name="points4">
                                 <input type="text"  class="d-none" id="idlibro4" name="idlibro4">
@@ -689,28 +690,50 @@
 							</div>
 						</div>
                         <div class="row">
-                            <div class="col-12">
-								I-...?
-								<div class="col-md-12">
-									<select id="act2-q1">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
-									</select>
-								</div>
-							</div>
-							<div class="col-12"><br></div>
-							<div class="col-12">
-								II-...?
-								<div class="col-md-12">
-									<select id="act2-q2">
+							<div class="col-md-12">
+							1. I'm hungry, but I
+								<select id="act4-q1">
 									<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
-									</select>
-								</div>
+									<option value="1">won't eat</option><!-- correcto -->
+									<option value="2">will eat</option>
+									<option value="3">won't</option>
+								</select> anything, because we are having dinner soon.
+							</div>
+							
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							2. I don't think she
+								<select id="act4-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">will invite</option><!-- correcto -->
+									<option value="2">won't invite</option>
+									<option value="3">invite</option>
+								</select> me to her party.
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							3. I
+								<select id="act4-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">reading</option>
+									<option value="2">won't read</option>
+									<option value="3">will read</option><!-- correcto -->
+								</select> it later. I do not have time now.
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							4. She
+								<select id="act4-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">goes</option>
+									<option value="2">won't go</option><!-- correcto -->
+									<option value="3">will go</option>
+								</select> to school. She is ill.
 							</div>
                         </div>
                     </div>
@@ -774,7 +797,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">act5...</h5>
+                <h5 class="modal-title" id="modal-title">Future Plans: Going to</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act5">
@@ -782,6 +805,7 @@
                     <div class="container-fluid">
                         <div class="row">
 							<div class="col-md-8 align-items-center">
+								<h6>Complete the sentences</h6>
 								<!-- class="d-none" -->
 								<input type="text"  class="d-none" id="points5" name="points5">
                                 <input type="text"  class="d-none" id="idlibro5" name="idlibro5">
@@ -789,28 +813,50 @@
 							</div>
 						</div>
                         <div class="row">
-                            <div class="col-12">
-								I-...?
-								<div class="col-md-12">
-									<select id="act5-q1">
-										<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
-									</select>
-								</div>
-							</div>
-							<div class="col-12"><br></div>
-							<div class="col-12">
-								II-...?
-								<div class="col-md-12">
-									<select id="act2-q2">
+							<div class="col-md-12">
+							1. I
+								<select id="act5-q1">
 									<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
-									</select>
-								</div>
+									<option value="1">is</option>
+									<option value="2">are</option>
+									<option value="3">am</option><!-- correcto -->
+								</select> going to make a cake later.
+							</div>
+							
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							2. They
+								<select id="act5-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">are not</option>
+								</select> going to ride their bikes tomorrow.
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							3. She
+								<select id="act5-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option>
+									<option value="2">is not</option>
+									<option value="3">is</option><!-- correcto -->
+								</select> going to study.
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							4. We
+								<select id="act5-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">am</option>
+								</select> going to go to the cinema next week.
 							</div>
                         </div>
                     </div>
