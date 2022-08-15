@@ -880,10 +880,10 @@
 <!-- Region 8-->
 <div id="ModalLibroOcho8" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">act6...</h5>
+                <h5 class="modal-title" id="modal-title">Complete these activities and measure your archievements!</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act6">
@@ -898,29 +898,174 @@
 							</div>
 						</div>
                         <div class="row">
-                            <div class="col-12">
-								I-...?
+							<!-- pregunta1 -->
+                            <div class="col-6">
+								<div class="col-12">
+									<strong>I-What is predicting?</strong>
+								</div>
+
 								<div class="col-md-12">
-									<select id="act6-q1">
+									<select id="act6-s1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option>
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option><!-- correcto -->
+										<option value="1">Is an offer to come or go somewhere, especially one promising pleasure</option>
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation</option>
+										<option value="3">Involves thinking ahead and anticipating information and events</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
-							<div class="col-12"><br></div>
-							<div class="col-12">
-								II-...?
+							<!-- pregunta2 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>II-What is an invitation</strong>
+								</div>
+
 								<div class="col-md-12">
-									<select id="act6-q2">
+									<select id="act6-s2">
 									<option value="0" selected disabled>Choose</option>
-										<option value="1">Is to express a desire for; ask for</option>
-										<option value="2">Is a social gathering, as of invited guests at private home, for conversation, refreshments, etc</option><!-- correcto -->
-										<option value="3">Is an offer to come or go somewhere, especially one promising pleasure or hospitality</option>
+										<option value="1">Is an offer to come or go somewhere, especially one promising pleasure</option><!-- correcto -->
+										<option value="2">Is a social gathering, as of invited guests at private home, for conversation</option>
+										<option value="3">Involves thinking ahead and anticipating information and events</option>
 									</select>
 								</div>
 							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta3 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>III-Select sentences describing what you are going to do this weekend</strong>
+								</div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;How much is it?</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb3-2"><label for="cb3-2">&nbsp;There is some juice in the refrigerator</label><!-- correcto -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb3-3"><label for="cb3-3">&nbsp;A few cookies are on the oven</label><!-- correcto -->
+                                </div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cb3-4"><label for="cb3-4">&nbsp;I need a pair of sandals</label>
+                                </div>
+							</div>
+							<!-- pregunta4 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-Complete sentences describing future plans using 'be going to'</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<label for="act6-s3">Hi! Sara, are your bag new?</label>
+									<select id="act6-s3">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Hi, how are you?</option>
+										<option value="2">Yes, I bought it las week.</option><!-- correcto -->
+										<option value="3">I think I'm medium.</option>
+									</select>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act6-s4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">What material is it?</option><!-- correcto -->
+										<option value="2">What color would you like?</option>
+										<option value="3">May I help you?</option>
+									</select>
+									<label for="act6-s4">It's wool.</label>
+								</div>
+
+								<div class="col-md-12">
+									<label for="act6-s5">What size are you?</label>
+									<select id="act6-s5">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's wool.</option>
+										<option value="2">I'm small.</option><!-- correcto -->
+										<option value="3">I'm looking for a red one.</option>
+									</select>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act6-s6">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Can i try it on?</option><!-- correcto -->
+										<option value="2">Do you need those?</option>
+										<option value="3">Anything else?</option>
+									</select>
+									<label for="act6-s6">Of course, try it.</label>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-Why are language learning strategies especially important for language learning?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act6-s7">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">It's not important to do it</option>
+										<option value="2">It's important because the students represent the school and her values</option><!-- correcto -->
+										<option value="3">It's important to dress correctly everywhere</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-How can you show courtesy when making and accepting invitations?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act6-s8">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">If I don't, I won't be able to get good grades</option>
+										<option value="2">The way I dress compliments my academic training</option>
+										<option value="3">I'm a representative of my school and I should wear my uniform correctly </option><!-- correcto -->
+									</select>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-Are you able to make a mental map about your future plans?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act6-s9">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Because my home appliances are expensive</option>
+										<option value="2">Because they help me to do my housework</option><!-- correcto -->
+										<option value="3">Because they are from my favorite brand</option>
+									</select>
+								</div>
+							</div>
+
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-How can you use management thinking and make reality your future plans?</strong>
+								</div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cb8-1"><label for="cb8-1">&nbsp;Color</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb8-2"><label for="cb8-2">&nbsp;Size and space</label><!-- correcto -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb8-3"><label for="cb8-3">&nbsp;Energy efficiency</label><!-- correcto -->
+                                </div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cb8-4"><label for="cb8-4">&nbsp;Lifestyle</label><!-- correcto -->
+                                </div>
+							</div>
+	
                         </div>
                     </div>
                     <br>
@@ -936,8 +1081,9 @@
         </div>
     </div>
 </div>
-<!-- fin Region 7-->
-<!-- fin Actividad 5-->
+<!-- fin Region 8-->
+<!-- fin Actividad 6-->
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 	// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
