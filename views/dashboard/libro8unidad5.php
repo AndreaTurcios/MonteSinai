@@ -934,20 +934,44 @@
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>III-Select sentences describing what you are going to do this weekend</strong>
+									<strong>III-Complete sentences describing what you are going to do this weekend</strong>
 								</div>
-								<div class = oracion>
-                                    <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;How much is it?</label>
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cb3-2"><label for="cb3-2">&nbsp;There is some juice in the refrigerator</label><!-- correcto -->
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cb3-3"><label for="cb3-3">&nbsp;A few cookies are on the oven</label><!-- correcto -->
-                                </div>
-								<div class = oracion>
-                                    <input type="checkbox" id="cb3-4"><label for="cb3-4">&nbsp;I need a pair of sandals</label>
-                                </div>
+								<div class="col-md-12">
+									1. Mark
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">are going to</option>
+										<option value="2">is going to</option><!-- correcto -->
+										<option value="3">is not going to</option>
+									</select> help his mum later.
+								</div>
+								<div class="col-md-12">
+									2. My friends
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">are going to</option><!-- correcto -->
+										<option value="2">is going to</option>
+										<option value="3">am going to</option>
+									</select> play videogames tomorrow afternoon.
+								</div>
+								<div class="col-md-12">
+									3. We are going to
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">having</option>
+										<option value="2">had</option>
+										<option value="3">have</option><!-- correcto -->
+									</select> an English lesson next weekend.
+								</div>
+								<div class="col-md-12">
+									4. He is going to
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">to take</option>
+										<option value="2">take</option><!-- correcto -->
+										<option value="3">took</option>
+									</select> photos this evening.
+								</div>
 							</div>
 							<!-- pregunta4 -->
 							<div class="col-6">
@@ -956,43 +980,40 @@
 								</div>
 								
 								<div class="col-md-12">
-									<label for="act6-s3">Hi! Sara, are your bag new?</label>
-									<select id="act6-s3">
+									1. My little cousin
+									<select id="act6-q1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Hi, how are you?</option>
-										<option value="2">Yes, I bought it las week.</option><!-- correcto -->
-										<option value="3">I think I'm medium.</option>
-									</select>
+										<option value="1">is going to listen</option><!-- correcto -->
+										<option value="2">is going to</option>
+										<option value="3">are not going to listen</option>
+									</select> to music.
 								</div>
-								
 								<div class="col-md-12">
-									<select id="act6-s4">
+									2. He
+									<select id="act6-q1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">What material is it?</option><!-- correcto -->
-										<option value="2">What color would you like?</option>
-										<option value="3">May I help you?</option>
-									</select>
-									<label for="act6-s4">It's wool.</label>
+										<option value="1">is going to swim</option>
+										<option value="2">are going to swim</option>
+										<option value="3">is not going to play soccer</option><!-- correcto -->
+									</select>. He is going to go swimming.
 								</div>
-
 								<div class="col-md-12">
-									<label for="act6-s5">What size are you?</label>
-									<select id="act6-s5">
+									3. Louis
+									<select id="act6-q1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">It's wool.</option>
-										<option value="2">I'm small.</option><!-- correcto -->
-										<option value="3">I'm looking for a red one.</option>
-									</select>
+										<option value="1">is going to</option><!-- correcto -->
+										<option value="2">are going to</option>
+										<option value="3">is not going to</option>
+									</select> go to the beach.
 								</div>
-
 								<div class="col-md-12">
-									<select id="act6-s6">
+									4. My sister
+									<select id="act6-q1">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Can i try it on?</option><!-- correcto -->
-										<option value="2">Do you need those?</option>
-										<option value="3">Anything else?</option>
-									</select>
-									<label for="act6-s6">Of course, try it.</label>
+										<option value="1">is going to</option><!-- correcto -->
+										<option value="2">are going to</option>
+										<option value="3">am not going to</option>
+									</select> go to summer school
 								</div>
 							</div>
 
@@ -1007,9 +1028,9 @@
 								<div class="col-md-12">
 									<select id="act6-s7">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">It's not important to do it</option>
-										<option value="2">It's important because the students represent the school and her values</option><!-- correcto -->
-										<option value="3">It's important to dress correctly everywhere</option>
+										<option value="1">A nice atmosphere where a group of people gathers together for pleasure</option>
+										<option value="2">By acting with manners, and to be generous and helpful with others</option>
+										<option value="3">They are tools essential for developing communicative competence</option><!-- correcto -->
 									</select>
 								</div>
 							</div>
@@ -1022,9 +1043,9 @@
 								<div class="col-md-12">
 									<select id="act6-s8">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">If I don't, I won't be able to get good grades</option>
-										<option value="2">The way I dress compliments my academic training</option>
-										<option value="3">I'm a representative of my school and I should wear my uniform correctly </option><!-- correcto -->
+										<option value="1">A nice atmosphere where a group of people gathers together for pleasure</option>
+										<option value="2">By acting with manners, and to be generous and helpful with others</option><!-- correcto -->
+										<option value="3">They are tools essential for developing communicative competence</option>
 									</select>
 								</div>
 							</div>
@@ -1040,9 +1061,9 @@
 								<div class="col-md-12">
 									<select id="act6-s9">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1">Because my home appliances are expensive</option>
-										<option value="2">Because they help me to do my housework</option><!-- correcto -->
-										<option value="3">Because they are from my favorite brand</option>
+										<option value="1"></option>
+										<option value="2"></option><!-- correcto -->
+										<option value="3"></option>
 									</select>
 								</div>
 							</div>
@@ -1050,22 +1071,45 @@
 							<!-- pregunta8 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VIII-How can you use management thinking and make reality your future plans?</strong>
+									<strong>VIII-Put in the verbs in brackets into the gaps. Use 'will-future'. Watch the punctuation and form sentences or questions</strong>
 								</div>
-								<div class = oracion>
-                                    <input type="checkbox" id="cb8-1"><label for="cb8-1">&nbsp;Color</label>
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cb8-2"><label for="cb8-2">&nbsp;Size and space</label><!-- correcto -->
-                                </div>
-                                <div class = oracion>
-                                    <input type="checkbox" id="cb8-3"><label for="cb8-3">&nbsp;Energy efficiency</label><!-- correcto -->
-                                </div>
-								<div class = oracion>
-                                    <input type="checkbox" id="cb8-4"><label for="cb8-4">&nbsp;Lifestyle</label><!-- correcto -->
-                                </div>
+								<div class="col-md-12">
+									1. They 
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">will</option>
+										<option value="2">will be</option><!-- correcto -->
+										<option value="3">will take</option>
+									</select> back by 6:30 pm. <b>(to be)</b>
+								</div>
+								<div class="col-md-12">
+									2.  
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">will</option><!-- correcto -->
+										<option value="2">will be</option>
+										<option value="3">will take</option>
+									</select> you help me? <b>(to help)</b>
+								</div>
+								<div class="col-md-12">
+									3. When
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">will</option><!-- correcto -->
+										<option value="2">will be</option>
+										<option value="3">will see</option>
+									</select> i see you again? <b>(to see)</b>
+								</div>
+								<div class="col-md-12">
+									4. His parents
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">not punish</option>
+										<option value="2">will punish</option>
+										<option value="3">will not punish</option><!-- correcto -->
+									</select> him for being late <b>(not/to punish)</b>
+								</div>
 							</div>
-	
                         </div>
                     </div>
                     <br>

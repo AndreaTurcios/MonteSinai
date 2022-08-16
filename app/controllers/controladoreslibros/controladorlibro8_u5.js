@@ -319,7 +319,7 @@ document.getElementById('unit5-act5').addEventListener('submit', function(event)
     }    
 });
 
-//Unidad 5 Actividad 6 //pendiente de agregar ejercicios
+//Unidad 5 Actividad 6 //pendiente de agregar ejercicio 7
 document.getElementById('unit4-act6').addEventListener('submit', function(event) {
     //Se asignan los puntos que vale la actividad
     let valorActividad = 1;
