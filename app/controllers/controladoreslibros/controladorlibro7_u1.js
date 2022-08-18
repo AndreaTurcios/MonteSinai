@@ -34,7 +34,7 @@ document.getElementById('unit1-act1').addEventListener('submit', function (event
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente1').value = users.value;
             document.getElementById('points1').value = valorActividad;
             document.getElementById('idlibro1').value = libro;
@@ -48,7 +48,7 @@ document.getElementById('unit1-act1').addEventListener('submit', function (event
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente1').value = users.value;
             document.getElementById('points1').value = points;
             document.getElementById('idlibro1').value = libro;
@@ -96,7 +96,7 @@ document.getElementById('unit1-act2').addEventListener('submit', function (event
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente2').value = users.value;
             document.getElementById('points2').value = valorActividad;
             document.getElementById('idlibro2').value = libro;
@@ -110,7 +110,7 @@ document.getElementById('unit1-act2').addEventListener('submit', function (event
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente2').value = users.value;
             document.getElementById('points2').value = points;
             document.getElementById('idlibro2').value = libro;
@@ -158,7 +158,7 @@ document.getElementById('unit1-act3').addEventListener('submit', function (event
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente3').value = users.value;
             document.getElementById('points3').value = valorActividad;
             document.getElementById('idlibro3').value = libro;
@@ -172,7 +172,7 @@ document.getElementById('unit1-act3').addEventListener('submit', function (event
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente3').value = users.value;
             document.getElementById('points3').value = points;
             document.getElementById('idlibro3').value = libro;
@@ -214,7 +214,7 @@ document.getElementById('unit1-act4').addEventListener('submit', function (event
         } else {
             //Se comparan las respuestas con los datos ingresados
             for (let i = 0; i < inputs.length; i++) {
-                if ((inputs[i].trim().includes(respuestas[0]) || inputs[i].trim().includes(respuestas[1]) || inputs[i].trim().includes(respuestas[2])) && (!inputs[i].trim().startsWith(respuestas[0]) && !inputs[i].trim().startsWith(respuestas[1]))&& inputs[i].length > 6) {
+                if ((inputs[i].trim().includes(respuestas[0]) || inputs[i].trim().includes(respuestas[1]) || inputs[i].trim().includes(respuestas[2])) && (!inputs[i].trim().startsWith(respuestas[0]) && !inputs[i].trim().startsWith(respuestas[1])) && inputs[i].length > 6) {
                     conteo++;
                 }
 
@@ -222,7 +222,7 @@ document.getElementById('unit1-act4').addEventListener('submit', function (event
 
             //Se revisa si todas las respuestas son correctas
             if (conteo == inputs.length) {
-                var libro = 4;
+                var libro = 7;
                 document.getElementById('idcliente4').value = users.value;
                 document.getElementById('points4').value = valorActividad;
                 document.getElementById('idlibro4').value = libro;
@@ -277,7 +277,7 @@ document.getElementById('unit1-act5').addEventListener('submit', function (event
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente5').value = users.value;
             document.getElementById('points5').value = valorActividad;
             document.getElementById('idlibro5').value = libro;
@@ -291,7 +291,7 @@ document.getElementById('unit1-act5').addEventListener('submit', function (event
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente5').value = users.value;
             document.getElementById('points5').value = points;
             document.getElementById('idlibro5').value = libro;
@@ -353,7 +353,7 @@ document.getElementById('unit1-act6').addEventListener('submit', function (event
         //Se revisa si todas las respuestas son correctas
         if (conteoInputs == 3) {
             if (conteo == respuestas.length) {
-                var libro = 4;
+                var libro = 7;
                 document.getElementById('idcliente6').value = users.value;
                 document.getElementById('points6').value = valorActividad;
                 document.getElementById('idlibro6').value = libro;
@@ -367,7 +367,7 @@ document.getElementById('unit1-act6').addEventListener('submit', function (event
                 //Se asigna el puntaje basado en las respuestas correctas
                 let puntaje = valorActividad / respuestas.length;
                 let points = (puntaje * conteo).toFixed(2);
-                var libro = 4;
+                var libro = 7;
                 document.getElementById('idcliente6').value = users.value;
                 document.getElementById('points6').value = points;
                 document.getElementById('idlibro6').value = libro;
@@ -377,7 +377,7 @@ document.getElementById('unit1-act6').addEventListener('submit', function (event
                 $('#ModalUnit1Act6').modal('hide');
                 return true;
             }
-        }else{
+        } else {
             sweetAlert(2, 'Make sure to write correctly the questions', null);
             return false;
         }
@@ -420,7 +420,7 @@ document.getElementById('unit1-act7').addEventListener('submit', function (event
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente7').value = users.value;
             document.getElementById('points7').value = valorActividad;
             document.getElementById('idlibro7').value = libro;
@@ -434,7 +434,7 @@ document.getElementById('unit1-act7').addEventListener('submit', function (event
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente7').value = users.value;
             document.getElementById('points7').value = points;
             document.getElementById('idlibro7').value = libro;
@@ -481,7 +481,7 @@ document.getElementById('unit1-act8').addEventListener('submit', function (event
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente8').value = users.value;
             document.getElementById('points8').value = valorActividad;
             document.getElementById('idlibro8').value = libro;
@@ -495,7 +495,7 @@ document.getElementById('unit1-act8').addEventListener('submit', function (event
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente8').value = users.value;
             document.getElementById('points8').value = points;
             document.getElementById('idlibro8').value = libro;
@@ -543,7 +543,7 @@ document.getElementById('unit1-act9').addEventListener('submit', function (event
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente9').value = users.value;
             document.getElementById('points9').value = valorActividad;
             document.getElementById('idlibro9').value = libro;
@@ -557,7 +557,7 @@ document.getElementById('unit1-act9').addEventListener('submit', function (event
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente9').value = users.value;
             document.getElementById('points9').value = points;
             document.getElementById('idlibro9').value = libro;
@@ -605,7 +605,7 @@ document.getElementById('unit1-act10').addEventListener('submit', function (even
 
         //Se revisa si todas las respuestas son correctas
         if (conteo == respuestas.length) {
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente10').value = users.value;
             document.getElementById('points10').value = valorActividad;
             document.getElementById('idlibro10').value = libro;
@@ -619,7 +619,7 @@ document.getElementById('unit1-act10').addEventListener('submit', function (even
             //Se asigna el puntaje basado en las respuestas correctas
             let puntaje = valorActividad / respuestas.length;
             let points = (puntaje * conteo).toFixed(2);
-            var libro = 4;
+            var libro = 7;
             document.getElementById('idcliente10').value = users.value;
             document.getElementById('points10').value = points;
             document.getElementById('idlibro10').value = libro;
@@ -631,4 +631,522 @@ document.getElementById('unit1-act10').addEventListener('submit', function (even
         }
     }
 
+});
+
+document.getElementById('unit1-act11').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["3", "2", "2", "1", "3", "1", "2", "1"];
+    let respuestascb = ["1", "4", "5"];
+    let inputs = [];
+    let selects = [];
+    let checks = [];
+    //variable para llevar el conteo de checkbox seleccionados
+    let conteocb = 0;
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act11-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < 1; i++) {
+        inputs[i] = document.getElementById('input-act11-' + (i + 1)).value.toUpperCase();
+
+    }
+    //Se obtienen los checkbox y se guardan en checks[]
+    for (let i = 0; i < 5; i++) {
+        checks[i] = document.getElementById('cb11-' + (i + 1)).checked;
+        for (let j = 0; j < respuestascb.length; j++) {
+            if (respuestascb[j] == (i + 1) && checks[i]) {
+                conteocb++;
+            }  
+        }
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("") || conteocb < 1) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+
+        conteo += conteocb;
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == (respuestas.length + respuestascb.length)) {
+            var libro = 7;
+            document.getElementById('idcliente11').value = users.value;
+            document.getElementById('points11').value = valorActividad;
+            document.getElementById('idlibro11').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act11', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act11').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length + respuestascb.length);
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente11').value = users.value;
+            document.getElementById('points11').value = points;
+            document.getElementById('idlibro11').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act11', 'modal');
+            sweetAlert(4, conteo + '/' + (respuestas.length + respuestascb.length) + ' answers right', null);
+            $('#ModalUnit1Act11').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+document.getElementById('unit1-act12').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2", "1", "3", "1"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('select-act12-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("0")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == inputs[i]) {
+                conteo++;
+            }
+
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente12').value = users.value;
+            document.getElementById('points12').value = valorActividad;
+            document.getElementById('idlibro12').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act12', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act12').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente12').value = users.value;
+            document.getElementById('points12').value = points;
+            document.getElementById('idlibro12').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act12', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit1Act12').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+document.getElementById('unit1-act13').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN", "SIXTEEN", "SEVENTEEN", "EIGHTEEN", "NINETEEN", "TWENTY", "TWENTY-ONE", "THIRTY", "FORTY", "FIFTY", "SIXTY", "SEVENTY", "EIGHTY", "NINETY"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('input-act13-' + (i + 1)).value.trim();
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (inputs[i].toUpperCase().includes(respuestas[i])) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente13').value = users.value;
+            document.getElementById('points13').value = valorActividad;
+            document.getElementById('idlibro13').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act13', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act13').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente13').value = users.value;
+            document.getElementById('points13').value = points;
+            document.getElementById('idlibro13').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act13', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit1Act13').modal('hide');
+            return true;
+        }
+    }
+});
+
+document.getElementById('unit1-act14').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["22958745", "78958675", "22620875"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < 3; i++) {
+        inputs[i] = document.getElementById('input-act14-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < 3; i++) {
+            for (let j = 0; j < respuestas.length; j++) {
+                if (inputs[i].trim().toUpperCase().includes(respuestas[j])) {
+                    conteo++;
+                    respuestas[j] = "~";
+                }
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente14').value = users.value;
+            document.getElementById('points14').value = valorActividad;
+            document.getElementById('idlibro14').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act14', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act14').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente14').value = users.value;
+            document.getElementById('points14').value = points;
+            document.getElementById('idlibro14').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act14', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit1Act14').modal('hide');
+            return true;
+        }
+    }
+});
+
+document.getElementById('unit1-act15').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["3", "2", "2", "1", "3", "1", "2", "1"];
+    let respuestasInputs = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN", "SIXTEEN", "SEVENTEEN", "EIGHTEEN", "NINETEEN", "TWENTY", "TWENTY-ONE", "THIRTY", "FORTY", "FIFTY", "SIXTY", "SEVENTY", "EIGHTY", "NINETY"];
+    let inputs = [];
+    let selects = [];
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length + 1; i++) {
+        selects[i] = document.getElementById('select-act15-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < respuestasInputs.length; i++) {
+        inputs[i] = document.getElementById('input-act15-' + (i + 1)).value.toUpperCase();
+
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        var conteoInputs = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+        for (let i = 0; i < respuestasInputs.length; i++) {
+            if (inputs[i].trim().includes(respuestasInputs[i])) {
+                conteoInputs++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+            if (conteo == respuestas.length && conteoInputs == respuestasInputs.length) {
+                var libro = 7;
+                document.getElementById('idcliente15').value = users.value;
+                document.getElementById('points15').value = valorActividad;
+                document.getElementById('idlibro15').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act15', 'modal');
+                sweetAlert(1, 'Good job!', null);
+                $('#ModalUnit1Act15').modal('hide');
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / (respuestas.length + respuestasInputs.length);
+                let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
+                var libro = 7;
+                document.getElementById('idcliente15').value = users.value;
+                document.getElementById('points15').value = points;
+                document.getElementById('idlibro15').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act15', 'modal');
+                sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+                $('#ModalUnit1Act15').modal('hide');
+                return true;
+            }
+    }
+
+});
+
+document.getElementById('unit1-act16').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('input-act16-' + (i + 1)).value.trim();
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (inputs[i].toUpperCase().includes(respuestas[i])) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente16').value = users.value;
+            document.getElementById('points16').value = valorActividad;
+            document.getElementById('idlibro16').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act16', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act16').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente16').value = users.value;
+            document.getElementById('points16').value = points;
+            document.getElementById('idlibro16').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act16', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit1Act16').modal('hide');
+            return true;
+        }
+    }
+});
+
+document.getElementById('unit1-act17').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["WHAT'S YOUR NAME", "COULD YOU SPELL YOUR LAST NAME", "WHAT'S YOUR CELLPHONE", "DO YOU KNOW YOUR SISTER'S TELEPHONE NUMBER"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('input-act17-' + (i + 1)).value.trim();
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (inputs[i].toUpperCase().includes(respuestas[i])) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente17').value = users.value;
+            document.getElementById('points17').value = valorActividad;
+            document.getElementById('idlibro17').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act17', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act17').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente17').value = users.value;
+            document.getElementById('points17').value = points;
+            document.getElementById('idlibro17').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act17', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit1Act17').modal('hide');
+            return true;
+        }
+    }
+});
+
+document.getElementById('unit1-act18').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["HOW DO YOU SPELL YOUR NAME", "HOW DO YOU SAY", "COULD YOU SPELL YOUR LAST NAME", "DID YOU SAY RODRIGO"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('input-act18-' + (i + 1)).value.trim();
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (inputs[i].toUpperCase().includes(respuestas[i])) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente18').value = users.value;
+            document.getElementById('points18').value = valorActividad;
+            document.getElementById('idlibro18').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act18', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act18').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente18').value = users.value;
+            document.getElementById('points18').value = points;
+            document.getElementById('idlibro18').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act18', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit1Act18').modal('hide');
+            return true;
+        }
+    }
 });
