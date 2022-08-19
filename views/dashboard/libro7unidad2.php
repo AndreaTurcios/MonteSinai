@@ -2,7 +2,7 @@
 //Se incluye la clase con las plantillas del documento
 require_once("../../app/helpers/book_page.php");
 //Se imprime la plantilla del encabezado y se envía el titulo para la página web
-Book_Page::headerTemplate('Unidad 1');
+Book_Page::headerTemplate('Unidad 2');
 ?>
 <!--  ----------------------------------------- fin plantilla header --------------------------------  -->
 
@@ -23,77 +23,77 @@ Book_Page::headerTemplate('Unidad 1');
 			<div>
 				<ul>
 					<li class="i">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/1.jpg" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/1.jpg" width="76" height="100"
 							class="page-1">
 						<span>1</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/2.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/2.JPG" width="76" height="100"
 							class="page-2">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/3.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/3.JPG" width="76" height="100"
 							class="page-3">
 						<span>2-3</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/4.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/4.JPG" width="76" height="100"
 							class="page-4">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/5.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/5.JPG" width="76" height="100"
 							class="page-5">
 						<span>4-5</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/6.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/6.JPG" width="76" height="100"
 							class="page-6">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/7.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/7.JPG" width="76" height="100"
 							class="page-7">
 						<span>6-7</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/8.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/8.JPG" width="76" height="100"
 							class="page-8">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/9.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/9.JPG" width="76" height="100"
 							class="page-9">
 						<span>8-9</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/10.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/10.JPG" width="76" height="100"
 							class="page-10">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/11.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/11.JPG" width="76" height="100"
 							class="page-11">
 						<span>10-11</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/12.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/12.JPG" width="76" height="100"
 							class="page-12">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/13.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/13.JPG" width="76" height="100"
 							class="page-13">
 						<span>12-13</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/14.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/14.JPG" width="76" height="100"
 							class="page-14">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/13.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/13.JPG" width="76" height="100"
 							class="page-15">
 						<span>14-15</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/16.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/16.JPG" width="76" height="100"
 							class="page-16">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/17.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/17.JPG" width="76" height="100"
 							class="page-17">
 						<span>16-17</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/18.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/18.JPG" width="76" height="100"
 							class="page-18">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/19.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/19.JPG" width="76" height="100"
 							class="page-19">
 						<span>18-19</span>
 					</li>
 					<li class="d">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/20.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/20.JPG" width="76" height="100"
 							class="page-20">
-						<img src="../../resources/img/BOOKS/SeventhGrade/UnitOne/21.JPG" width="76" height="100"
+						<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/21.JPG" width="76" height="100"
 							class="page-21">
 						<span>20-21</span>
 					</li>
@@ -500,19 +500,19 @@ Book_Page::headerTemplate('Unidad 1');
 		test: Modernizr.csstransforms,
 		yep: ['../../resources/js/turnjs4/lib/turn.js'],
 		nope: ['../../resources/js/turnjs4/lib/turn.html4.min.js'],
-		both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidadunoseptimogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
+		both: ['../../resources/js/turnjs4/samples/magazine/css/magazine.css', '../../app/controllers/unidaddosseptimogrado.js', '../../resources/js/turnjs4/lib/zoom.min.js'],
 		complete: loadApp
 	});
 </script>
 
-<div id="ModalUnit1Act1" class="modal fade" tabindex="-4">
+<div id="ModalUnit2Act1" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act1">
+			<form method="post" id="unit2-act1">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -520,75 +520,78 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete the introductions and answers</p>
+											<p class="fs-5 fw-bold">Write the vocabulary you hear</p>
 											<input type="text" class="d-none" id="points1" name="points">
 											<input type="text" class="d-none" id="idcliente1" name="idcliente">
 											<input type="text" class="d-none" id="idlibro1" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="row row-cols-2 border p-3">
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act1-1">How</label>
-                                        <select id="select-act1-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">do you do?</option>
-                                            <option value="2">is your name?</option>
-                                            <option value="3">is you?</option>
-                                        </select>
-                                        <label> I'm George.</label>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act1-2">Nice </label>
-                                        <select id="select-act1-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">to you.</option>
-                                            <option value="2">to meet you.</option>
-                                            <option value="3">do you do?</option>
-                                        </select>
-                                        <label> I'm Jessica.</label>
-									</div>
-								</div>
-								<div class="row row-cols-2 border p-3">
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act1-3">How</label>
-                                        <select id="select-act1-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">is you?</option>
-                                            <option value="2">are you?</option>
-                                            <option value="3">am you?</option>
-                                        </select>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act1-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">I'm fine</option>
-                                            <option value="2">Thanks</option>
-                                            <option value="3">How are you?</option>
-                                        </select>
-                                        <label>, thanks.</label>
-									</div>
-								</div>
-								<div class="row row-cols-2 mb-3 border p-3">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act1-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Why are you</option>
-                                            <option value="2">How is you</option>
-                                            <option value="3">How are you</option>
-                                        </select>
-                                        <label> doing?</label>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act1-6">Not bad, </label>
-                                        <select id="select-act1-6" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">do you do?</option>
-                                            <option value="2">to meet you.</option>
-                                            <option value="3">thank you.</option>
-                                        </select>
-									</div>
-								</div>
+								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitTwo/TRACK13.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio> 
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-1" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-2" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-3" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-4" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-5" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-6" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-7" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-8" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-9" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-10" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-11" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-12" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-13" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-14" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act1-15" placeholder="...">
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<br>
@@ -607,14 +610,14 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<div id="ModalUnit1Act2" class="modal fade" tabindex="-4">
+<div id="ModalUnit2Act2" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act2">
+			<form method="post" id="unit2-act2">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -622,79 +625,49 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct use of the verb "to be"</p>
+											<p class="fs-5 fw-bold">Write the commands you hear</p>
 											<input type="text" class="d-none" id="points2" name="points">
 											<input type="text" class="d-none" id="idcliente2" name="idcliente">
 											<input type="text" class="d-none" id="idlibro2" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="row row-cols-2  p-3">
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act2-1">I </label>
-                                        <select id="select-act2-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">am</option>
-                                            <option value="2">is</option>
-                                            <option value="3">are</option>
-                                        </select>
-                                        <label> George.</label>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act2-2">They </label>
-                                        <select id="select-act2-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">am</option>
-                                            <option value="2">is</option>
-                                            <option value="3">are</option>
-                                        </select>
-                                        <label> my friends.</label>
-									</div>
-								</div>
-								<div class="row row-cols-2 p-3">
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act2-3">You </label>
-                                        <select id="select-act2-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">am</option>
-                                            <option value="2">is</option>
-                                            <option value="3">are</option>
-                                        </select>
-                                        <label>Mr. Rivera.</label>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act2-4">She </label>
-                                        <select id="select-act2-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">am</option>
-                                            <option value="2">is</option>
-                                            <option value="3">are</option>
-                                        </select>
-                                        <label> your sister.</label>
-									</div>
-								</div>
-								<div class="row row-cols-2 mb-3 p-3">
-									<div class="col d-flex align-items-center">
-                                    <label for="select-act2-5">He </label>
-                                        <select id="select-act2-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">am</option>
-                                            <option value="2">is</option>
-                                            <option value="3">are</option>
-                                        </select>
-                                        <label> my father.</label>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <label for="select-act2-6">It </label>
-                                        <select id="select-act2-6" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">am</option>
-                                            <option value="2">is</option>
-                                            <option value="3">are</option>
-                                        </select>
-                                        <label> a robot.</label>
-									</div>
-								</div>
+								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitTwo/TRACK14.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio> 
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-1" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-2" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-3" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-4" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-5" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-6" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-7" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act2-8" placeholder="...">
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<br>
@@ -713,14 +686,14 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<div id="ModalUnit1Act3" class="modal fade" tabindex="-4">
+<div id="ModalUnit2Act3" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act3">
+			<form method="post" id="unit2-act3">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -728,68 +701,101 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct introductions and answers</p>
+											<p class="fs-5 fw-bold">Select the preposition you hear</p>
 											<input type="text" class="d-none" id="points3" name="points">
 											<input type="text" class="d-none" id="idcliente3" name="idcliente">
 											<input type="text" class="d-none" id="idlibro3" name="idlibro">
 										</div>
 									</div>
 								</div>
-								
-								<div class="row row-cols-2 border p-3">
-									<div class="col d-flex align-items-center">
+								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitTwo/TRACK15.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio> 
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>Put your books</label>
                                         <select id="select-act3-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Hi, nice to meet you. I'm Mario.</option>
-                                            <option value="2">This is my new car.</option>
-                                            <option value="3">Thank you.</option>
+                                            <option value="1">under</option>
+                                            <option value="2">on</option>
+                                            <option value="3">in</option>
                                         </select>
-									</div>
-									<div class="col d-flex align-items-center">
+										<label>the desk.</label>
+                                    </div>
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>Is your pen</label>
                                         <select id="select-act3-2" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Thanks.</option>
-                                            <option value="2">Nice to meet you too. I'm Jessica.</option>
-                                            <option value="3">Yes, I am.</option>
+                                            <option value="1">under</option>
+                                            <option value="2">on</option>
+                                            <option value="3">in</option>
                                         </select>
-									</div>
-								</div>
-								<div class="row row-cols-2 border p-3">
-									<div class="col d-flex align-items-center">
+										<label>the table?</label>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>She was waiting</label>
                                         <select id="select-act3-3" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Not bad, thanks.</option>
-                                            <option value="2">Nice to meet you too.</option>
-                                            <option value="3">This is my friend, Melvin.</option>
+                                            <option value="1">by</option>
+                                            <option value="2">at</option>
                                         </select>
-									</div>
-									<div class="col d-flex align-items-center">
+										<label>the corner.</label>
+                                    </div>
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>I live</label>
                                         <select id="select-act3-4" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">I'm fine</option>
-                                            <option value="2">Hi, Melvin, I am Steve.</option>
-                                            <option value="3">My house is white.</option>
+                                            <option value="1">under</option>
+                                            <option value="2">on</option>
+                                            <option value="3">in</option>
                                         </select>
-									</div>
-								</div>
-								<div class="row row-cols-2 mb-3 border p-3">
-									<div class="col d-flex align-items-center">
+										<label>the big green and white house.</label>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>The cat is</label>
                                         <select id="select-act3-5" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">How are you, Vanessa?</option>
-                                            <option value="2">Thanks, you too.</option>
-                                            <option value="3">It is a robot.</option>
+                                            <option value="1">under</option>
+                                            <option value="2">on</option>
+                                            <option value="3">in</option>
                                         </select>
-									</div>
-									<div class="col d-flex align-items-center">
+										<label>the bed.</label>
+                                    </div>
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>There is an ice cream shop</label>
                                         <select id="select-act3-6" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">You are my parents.</option>
-                                            <option value="2">Thank you.</option>
-                                            <option value="3">Not bad, thanks</option>
+                                            <option value="1">by</option>
+                                            <option value="2">at</option>
                                         </select>
-									</div>
-								</div>
+										<label>the store.</label>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>Margarita lives</label>
+                                        <select id="select-act3-7" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">near</option>
+                                            <option value="2">next to</option>
+                                        </select>
+										<label>the school.</label>
+                                    </div>
+                                    <div class="col p-2 d-flex items-align-center">
+                                        <label>The church is </label>
+                                        <select id="select-act3-8" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">near</option>
+                                            <option value="2">next to </option>
+                                        </select>
+										<label>my house.</label>
+                                    </div>
+                                </div>
 							</div>
 						</div>
 						<br>
@@ -1086,14 +1092,14 @@ Book_Page::headerTemplate('Unidad 1');
 	</div>
 </div>
 
-<div id="ModalUnit1Act7" class="modal fade" tabindex="-4">
+<div id="ModalUnit1Act1" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act7">
+			<form method="post" id="unit1-act1">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -1113,25 +1119,25 @@ Book_Page::headerTemplate('Unidad 1');
 									Tu navegador no soporta audio HTML5.
 								</audio> 
 								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act7-1" placeholder="...">
+									<input type="text" autocomplete="off" class="form-control" id="input-act1-1" placeholder="...">
 								</div>
 								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act7-2" placeholder="...">
+									<input type="text" autocomplete="off" class="form-control" id="input-act1-2" placeholder="...">
 								</div>
 								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act7-3" placeholder="...">
+									<input type="text" autocomplete="off" class="form-control" id="input-act1-3" placeholder="...">
 								</div>
 								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act7-4" placeholder="...">
+									<input type="text" autocomplete="off" class="form-control" id="input-act1-4" placeholder="...">
 								</div>
 								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act7-5" placeholder="...">
+									<input type="text" autocomplete="off" class="form-control" id="input-act1-5" placeholder="...">
 								</div>
 								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act7-6" placeholder="...">
+									<input type="text" autocomplete="off" class="form-control" id="input-act1-6" placeholder="...">
 								</div>
 								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act7-7" placeholder="...">
+									<input type="text" autocomplete="off" class="form-control" id="input-act1-7" placeholder="...">
 								</div>
 							</div>
 						</div>
@@ -3344,5 +3350,5 @@ Book_Page::headerTemplate('Unidad 1');
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
-Book_Page::footerTemplate('controladorlibro7_u1.js');
+Book_Page::footerTemplate('controladorlibro7_u2.js');
 ?>

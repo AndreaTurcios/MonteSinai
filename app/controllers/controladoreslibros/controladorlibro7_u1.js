@@ -1150,3 +1150,258 @@ document.getElementById('unit1-act18').addEventListener('submit', function (even
         }
     }
 });
+
+document.getElementById('unit1-act19').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2", "1", "2", "3"];
+    let respuestascb = ["1", "4"];
+    let respuestasInputs = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+    let inputs = [];
+    let selects = [];
+    let checks = [];
+    //variable para llevar el conteo de checkbox seleccionados
+    let conteocb = 0;
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act19-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < 28; i++) {
+        inputs[i] = document.getElementById('input-act19-' + (i + 1)).value.toUpperCase();
+
+    }
+    //Se obtienen los checkbox y se guardan en checks[]
+    for (let i = 0; i < 5; i++) {
+        checks[i] = document.getElementById('cb19-' + (i + 1)).checked;
+        for (let j = 0; j < respuestascb.length; j++) {
+            if (respuestascb[j] == (i + 1) && checks[i]) {
+                conteocb++;
+            }  
+        }
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("") || conteocb < 1) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+        for (let i = 0; i < respuestasInputs.length; i++) {
+            if (inputs[i] == respuestasInputs[i]) {
+                conteo++;
+            }
+            
+        }
+
+        conteo += conteocb;
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == (respuestas.length + respuestascb.length + respuestasInputs.length)) {
+            var libro = 7;
+            document.getElementById('idcliente19').value = users.value;
+            document.getElementById('points19').value = valorActividad;
+            document.getElementById('idlibro19').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act19', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit1Act19').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length + respuestascb.length  + respuestasInputs.length);
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente19').value = users.value;
+            document.getElementById('points19').value = points;
+            document.getElementById('idlibro19').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit1-act19', 'modal');
+            sweetAlert(4,'Some answers were wrong', null);
+            $('#ModalUnit1Act19').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+document.getElementById('unit1-act20').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["3", "1", "3", "2", "1", "2", "1", "3", "3", "1", "2", "1", "1", "3", "2", "2", "1", "3", "1", "2", "1", "3", "2", "3", "2", "3"];
+    let respuestasInputs = ["HE", "SHE", "IT", "THEY", "WE", "YOU", "I"];
+    let inputs = [];
+    let selects = [];
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act20-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < (respuestasInputs.length + 2); i++) {
+        inputs[i] = document.getElementById('input-act20-' + (i + 1)).value.toUpperCase();
+
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        var conteoInputs = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < 7; i++) {
+            for (let j = 0; j < respuestasInputs.length; j++) {
+                if (inputs[i].trim().toUpperCase().includes(respuestasInputs[j])) {
+                    conteoInputs++;
+                    respuestasInputs[j] = "~";
+                }
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+            if (conteo == respuestas.length && conteoInputs == respuestasInputs.length) {
+                var libro = 7;
+                document.getElementById('idcliente20').value = users.value;
+                document.getElementById('points20').value = valorActividad;
+                document.getElementById('idlibro20').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act20', 'modal');
+                sweetAlert(1, 'Good job!', null);
+                $('#ModalUnit1Act20').modal('hide');
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / (respuestas.length + respuestasInputs.length);
+                let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
+                var libro = 7;
+                document.getElementById('idcliente20').value = users.value;
+                document.getElementById('points20').value = points;
+                document.getElementById('idlibro20').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act20', 'modal');
+                sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
+                $('#ModalUnit1Act20').modal('hide');
+                return true;
+            }
+    }
+
+});
+
+document.getElementById('unit1-act21').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2", "2", "1", "3", "1", "3", "1"];
+    let respuestasInputs = ["HIS", "HER", "MY", "YOUR", "THEIR", "OUR", "ITS"];
+    let numbers = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN", "SIXTEEN", "SEVENTEEN", "EIGHTEEN", "NINETEEN", "TWENTY", "TWENTY-ONE", "TWENTY-TWO", "TWENTY-THREE", "TWENTY-FOUR", "TWENTY-FIVE", "TWENTY-SIX", "TWENTY-SEVEN",	"TWENTY-EIGHT", "TWENTY-NINE", "THIRTY", "THIRTY-ONE", "THIRTY-TWO", "THIRTY-THREE", "THIRTY-FOUR", "THIRTY-FIVE", "THIRTY-SIX", "THIRTY-SEVEN", "THIRTY-EIGHT", "THIRTY-NINE", "FORTY", "FORTY-ONE", "FORTY-TWO", "FORTY-THREE", "FORTY-FOUR", "FORTY-FIVE", "FORTY-SIX", "FORTY-SEVEN", "FORTY-EIGHT", "FORTY-NINE", "FIFTY", "FIFTY-ONE", "FIFTY-TWO", "FIFTY-THREE", "FIFTY-FOUR", "FIFTY-FIVE", "FIFTY-SIX", "FIFTY-SEVEN", "FIFTY-EIGHT", "FIFTY-NINE", "SIXTY", "SIXTY-ONE", "SIXTY-TWO", "SIXTY-THREE", "SIXTY-FOUR", "SIXTY-FIVE", "SIXTY-SIX", "SIXTY-SEVEN", "SIXTY-EIGHT", "SIXTY-NINE", "SEVENTY", "SEVENTY-ONE", "SEVENTY-TWO", "SEVENTY-THREE", "SEVENTY-FOUR", "SEVENTY-FIVE", "SEVENTY-SIX", "SEVENTY-SEVEN", "SEVENTY-EIGHT", "SEVENTY-NINE", "EIGHTY", "EIGHTY-ONE", "EIGHTY-TWO", "EIGHTY-THREE", "EIGHTY-FOUR", "EIGHTY-FIVE", "EIGHTY-SIX", "EIGHTY-SEVEN", "EIGHTY-EIGHT", "EIGHTY-NINE", "NINETY"];
+    let inputs = [];
+    let selects = [];
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act21-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < (respuestasInputs.length + 8); i++) {
+        inputs[i] = document.getElementById('input-act21-' + (i + 1)).value.toUpperCase();
+
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        var conteoInputs = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < 7; i++) {
+            for (let j = 0; j < respuestasInputs.length; j++) {
+                if (inputs[i].trim().toUpperCase().includes(respuestasInputs[j])) {
+                    conteoInputs++;
+                    respuestasInputs[j] = "~";
+                }
+            }
+        }
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 7; i < 15; i++) {
+                if (numbers.includes(inputs[i].trim().toUpperCase())) {
+                    conteoInputs++;
+                }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+            if (conteo == respuestas.length && conteoInputs == (respuestasInputs.length + 8)) {
+                var libro = 7;
+                document.getElementById('idcliente21').value = users.value;
+                document.getElementById('points21').value = valorActividad;
+                document.getElementById('idlibro21').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act21', 'modal');
+                sweetAlert(1, 'Good job!', null);
+                $('#ModalUnit1Act21').modal('hide');
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / (respuestas.length + respuestasInputs.length + 8);
+                let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
+                var libro = 7;
+                document.getElementById('idcliente21').value = users.value;
+                document.getElementById('points21').value = points;
+                document.getElementById('idlibro21').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit1-act21', 'modal');
+                sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length + 8) + ' answers right', null);
+                $('#ModalUnit1Act21').modal('hide');
+                return true;
+            }
+    }
+
+});
