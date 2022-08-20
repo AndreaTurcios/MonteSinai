@@ -905,7 +905,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act6-s1">
+									<select id="act6-q1">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Is an offer to come or go somewhere, especially one promising pleasure</option>
 										<option value="2">Is a social gathering, as of invited guests at private home, for conversation</option>
@@ -920,7 +920,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act6-s2">
+									<select id="act6-q2">
 									<option value="0" selected disabled>Choose</option>
 										<option value="1">Is an offer to come or go somewhere, especially one promising pleasure</option><!-- correcto -->
 										<option value="2">Is a social gathering, as of invited guests at private home, for conversation</option>
@@ -938,7 +938,7 @@
 								</div>
 								<div class="col-md-12">
 									1. Mark
-									<select id="act6-q1">
+									<select id="act6-q3">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">are going to</option>
 										<option value="2">is going to</option><!-- correcto -->
@@ -947,7 +947,7 @@
 								</div>
 								<div class="col-md-12">
 									2. My friends
-									<select id="act6-q1">
+									<select id="act6-q4">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">are going to</option><!-- correcto -->
 										<option value="2">is going to</option>
@@ -956,7 +956,7 @@
 								</div>
 								<div class="col-md-12">
 									3. We are going to
-									<select id="act6-q1">
+									<select id="act6-q5">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">having</option>
 										<option value="2">had</option>
@@ -965,7 +965,7 @@
 								</div>
 								<div class="col-md-12">
 									4. He is going to
-									<select id="act6-q1">
+									<select id="act6-q6">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">to take</option>
 										<option value="2">take</option><!-- correcto -->
@@ -981,7 +981,7 @@
 								
 								<div class="col-md-12">
 									1. My little cousin
-									<select id="act6-q1">
+									<select id="act6-q7">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is going to listen</option><!-- correcto -->
 										<option value="2">is going to</option>
@@ -990,7 +990,7 @@
 								</div>
 								<div class="col-md-12">
 									2. He
-									<select id="act6-q1">
+									<select id="act6-q8">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is going to swim</option>
 										<option value="2">are going to swim</option>
@@ -999,7 +999,7 @@
 								</div>
 								<div class="col-md-12">
 									3. Louis
-									<select id="act6-q1">
+									<select id="act6-q9">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is going to</option><!-- correcto -->
 										<option value="2">are going to</option>
@@ -1008,7 +1008,7 @@
 								</div>
 								<div class="col-md-12">
 									4. My sister
-									<select id="act6-q1">
+									<select id="act6-q10">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">is going to</option><!-- correcto -->
 										<option value="2">are going to</option>
@@ -1026,7 +1026,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act6-s7">
+									<select id="act6-q11">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">A nice atmosphere where a group of people gathers together for pleasure</option>
 										<option value="2">By acting with manners, and to be generous and helpful with others</option>
@@ -1041,7 +1041,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act6-s8">
+									<select id="act6-q12">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">A nice atmosphere where a group of people gathers together for pleasure</option>
 										<option value="2">By acting with manners, and to be generous and helpful with others</option><!-- correcto -->
@@ -1055,16 +1055,45 @@
 							<!-- pregunta7 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VII-Are you able to make a mental map about your future plans?</strong>
+									<strong>VII-Use the correct from of 'going to' and the verbs in brackets. 
+										Use contractions where possible.</strong>
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act6-s9">
+									1. I 
+									<select id="act6-q13">
 										<option value="0" selected disabled>Choose</option>
-										<option value="1"></option>
-										<option value="2"></option><!-- correcto -->
-										<option value="3"></option>
-									</select>
+										<option value="1">'m going to take</option><!-- correcto -->
+										<option value="2">'re going to order</option>
+										<option value="3">isn't going to get</option>
+									</select> some photos at the weekend.
+								</div>
+								<div class="col-md-12">
+									2. They
+									<select id="act6-q14">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">'m going to take</option>
+										<option value="2">'re going to order</option><!-- correcto -->
+										<option value="3">isn't going to get</option>
+									</select> a pizza for dinner.
+								</div>
+								<div class="col-md-12">
+									3. We
+									<select id="act6-q15">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">'re not going to play</option><!-- correcto -->
+										<option value="2">'re going to order</option>
+										<option value="3">isn't going to get</option>
+									</select> football tomorrow.
+								</div>
+								<div class="col-md-12">
+									4. Paul
+									<select id="act6-q16">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">'m going to take</option>
+										<option value="2">'re not going to play</option>
+										<option value="3">isn't going to get</option><!-- correcto -->
+									</select> a summer job.
 								</div>
 							</div>
 
@@ -1075,7 +1104,7 @@
 								</div>
 								<div class="col-md-12">
 									1. They 
-									<select id="act6-q1">
+									<select id="act6-q17">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">will</option>
 										<option value="2">will be</option><!-- correcto -->
@@ -1084,7 +1113,7 @@
 								</div>
 								<div class="col-md-12">
 									2.  
-									<select id="act6-q1">
+									<select id="act6-q18">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">will</option><!-- correcto -->
 										<option value="2">will be</option>
@@ -1093,7 +1122,7 @@
 								</div>
 								<div class="col-md-12">
 									3. When
-									<select id="act6-q1">
+									<select id="act6-q19">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">will</option><!-- correcto -->
 										<option value="2">will be</option>
@@ -1102,7 +1131,7 @@
 								</div>
 								<div class="col-md-12">
 									4. His parents
-									<select id="act6-q1">
+									<select id="act6-q20">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">not punish</option>
 										<option value="2">will punish</option>
