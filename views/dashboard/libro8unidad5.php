@@ -1157,6 +1157,351 @@
 <!-- fin Region 8-->
 <!-- fin Actividad 6-->
 
+<!-- Actividad 7 Pendiente agregar ejercicios-->
+<!-- Region 9-->
+<div id="ModalLibroOcho9" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Act..7</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act7">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<h6>Complete the sentences</h6>
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points7" name="points7">
+                                <input type="text"  class="d-none" id="idlibro7" name="idlibro7">
+								<input type="text"  class="d-none" id="idcliente7" name="idcliente7">
+							</div>
+						</div>
+                        <div class="row">
+							<div class="col-md-12">
+							1. example
+								<select id="act7-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is</option>
+									<option value="2">are</option>
+									<option value="3">am</option><!-- correcto -->
+								</select> ...
+							</div>
+							
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							2. example
+								<select id="act5-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">are not</option>
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							3. example
+								<select id="act5-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option>
+									<option value="2">is not</option>
+									<option value="3">is</option><!-- correcto -->
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							4. example
+								<select id="act5-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">am</option>
+								</select> ...
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 9-->
+<!-- fin Actividad 7-->
+
+<!-- Actividad 8 pendiente agregar ejercicios-->
+<!-- Region 10-->
+<div id="ModalLibroOcho10" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Act..8</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act8">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<h6>Complete the sentences</h6>
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points8" name="points8">
+                                <input type="text"  class="d-none" id="idlibro8" name="idlibro8">
+								<input type="text"  class="d-none" id="idcliente8" name="idcliente8">
+							</div>
+						</div>
+                        <div class="row">
+							<div class="col-md-12">
+							1. example
+								<select id="act7-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is</option>
+									<option value="2">are</option>
+									<option value="3">am</option><!-- correcto -->
+								</select> ...
+							</div>
+							
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							2. example
+								<select id="act5-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">are not</option>
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							3. example
+								<select id="act5-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option>
+									<option value="2">is not</option>
+									<option value="3">is</option><!-- correcto -->
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							4. example
+								<select id="act5-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">am</option>
+								</select> ...
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 10-->
+<!-- fin Actividad 8-->
+
+<!-- Actividad 9 pendiente agregar ejercicios-->
+<!-- Region 11-->
+<div id="ModalLibroOcho11" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Act..9</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act9">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<h6>Complete the sentences</h6>
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points9" name="points9">
+                                <input type="text"  class="d-none" id="idlibro9" name="idlibro9">
+								<input type="text"  class="d-none" id="idcliente9" name="idcliente9">
+							</div>
+						</div>
+                        <div class="row">
+							<div class="col-md-12">
+							1. example
+								<select id="act7-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is</option>
+									<option value="2">are</option>
+									<option value="3">am</option><!-- correcto -->
+								</select> ...
+							</div>
+							
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							2. example
+								<select id="act5-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">are not</option>
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							3. example
+								<select id="act5-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option>
+									<option value="2">is not</option>
+									<option value="3">is</option><!-- correcto -->
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							4. example
+								<select id="act5-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">am</option>
+								</select> ...
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 11-->
+<!-- fin Actividad 9-->
+
+<!-- Actividad 10 pendiente agregar ejercicios-->
+<!-- Region 12-->
+<div id="ModalLibroOcho12" class="modal fade" tabindex="-4">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Act..10</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="unit5-act10">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+							<div class="col-md-8 align-items-center">
+								<h6>Complete the sentences</h6>
+								<!-- class="d-none" -->
+								<input type="text"  class="d-none" id="points10" name="points10">
+                                <input type="text"  class="d-none" id="idlibro10" name="idlibro10">
+								<input type="text"  class="d-none" id="idcliente10" name="idcliente10">
+							</div>
+						</div>
+                        <div class="row">
+							<div class="col-md-12">
+							1. example
+								<select id="act7-q1">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">is</option>
+									<option value="2">are</option>
+									<option value="3">am</option><!-- correcto -->
+								</select> ...
+							</div>
+							
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							2. example
+								<select id="act5-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">are not</option>
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							3. example
+								<select id="act5-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option>
+									<option value="2">is not</option>
+									<option value="3">is</option><!-- correcto -->
+								</select> ...
+							</div>
+
+							<div class="col-12"><br></div>
+
+							<div class="col-md-12">
+							4. example
+								<select id="act5-q4">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">are</option><!-- correcto -->
+									<option value="2">is</option>
+									<option value="3">am</option>
+								</select> ...
+							</div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped"
+                            data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- fin Region 11-->
+<!-- fin Actividad 10-->
+
+
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 	// Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
