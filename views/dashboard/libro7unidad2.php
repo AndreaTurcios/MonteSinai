@@ -814,14 +814,14 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
-<div id="ModalUnit1Act4" class="modal fade" tabindex="-4">
+<div id="ModalUnit2Act4" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act4">
+			<form method="post" id="unit2-act4">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -829,27 +829,88 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write sentences using the verb "to be"</p>
+											<p class="fs-5 fw-bold">Select the correct answer</p>
 											<input type="text" class="d-none" id="points4" name="points">
 											<input type="text" class="d-none" id="idcliente4" name="idcliente">
 											<input type="text" class="d-none" id="idlibro4" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="row p-3">
-									<input type="text" autocomplete="off" class="form-control" id="input-act4-1" placeholder="1...">
+								<div class="row row-cols-2 p-3">
+									<div class="col d-flex align-items-center">
+										<label>What is </label>
+                                        <select id="select-act4-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">this</option>
+                                            <option value="2">these</option>
+                                        </select>
+										<label>?</label>
+									</div>
+									<div class="col d-flex align-items-center">
+										<label>What are </label>
+                                        <select id="select-act4-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">this</option>
+                                            <option value="2">these</option>
+                                        </select>
+										<label>?</label>
+									</div>
 								</div>
-								<div class="row p-3">
-									<input type="text" autocomplete="off" class="form-control" id="input-act4-2" placeholder="2...">
+								<div class="row row-cols-2 p-3">
+									<div class="col d-flex align-items-center">
+										<label>What is </label>
+                                        <select id="select-act4-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">that</option>
+                                            <option value="2">those</option>
+                                        </select>
+										<label>?</label>
+									</div>
+									<div class="col d-flex align-items-center">
+										<label>What are </label>
+                                        <select id="select-act4-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">that</option>
+                                            <option value="2">those</option>
+                                        </select>
+										<label>?</label>
+									</div>
 								</div>
-								<div class="row p-3">
-									<input type="text" autocomplete="off" class="form-control" id="input-act4-3" placeholder="3...">
+								<div class="row row-cols-2 p-3">
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act4-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">That</option>
+                                            <option value="2">Those</option>
+                                        </select>
+										<label>horse is really big.</label>
+									</div>
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act4-6" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">This</option>
+                                            <option value="2">These</option>
+                                        </select>
+										<label>food is delicious.</label>
+									</div>
 								</div>
-								<div class="row p-3">
-									<input type="text" autocomplete="off" class="form-control" id="input-act4-4" placeholder="4...">
-								</div>
-								<div class="row p-3">
-									<input type="text" autocomplete="off" class="form-control" id="input-act4-5" placeholder="5...">
+								<div class="row row-cols-2 p-3">
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act4-7" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">That</option>
+                                            <option value="2">Those</option>
+                                        </select>
+										<label>shoes are really nice.</label>
+									</div>
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act4-8" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">These</option>
+                                            <option value="2">This</option>
+                                        </select>
+										<label>are my books.</label>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -869,14 +930,14 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
-<div id="ModalUnit1Act5" class="modal fade" tabindex="-4">
+<div id="ModalUnit2Act5" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act5">
+			<form method="post" id="unit2-act5">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -884,7 +945,7 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the most aproppiate answer</p>
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
 											<input type="text" class="d-none" id="points5" name="points">
 											<input type="text" class="d-none" id="idcliente5" name="idcliente">
 											<input type="text" class="d-none" id="idlibro5" name="idlibro">
@@ -893,1911 +954,109 @@ Book_Page::headerTemplate('Unidad 2');
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p>Select an example of being polite:</p>
+                                        <p><b>I. What is a classroom command?</b></p>
                                         <select id="select-act5-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Ignore my teachers when they ask me a question.</option>
-                                            <option value="2">Greeting my teachers and classmates everyday.</option>
-                                            <option value="3">Not saying please when asking for a favor.</option>
+                                            <option value="1">Sentences or expression in the imperative form that are used in the classroom frequently.</option>
+                                            <option value="2">Words that indicate which entities a speaker refers to.</option>
+                                            <option value="3">Words used to clarify a specific place.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p>How could we verify that you are respecting people?</p>
+                                        <p><b>II. What is a preposition of place?</b></p>
                                         <select id="select-act5-2" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Checking if I treat others the way i'd like to be treated.</option>
-                                            <option value="2">Knowing that I dislike and mistreat people.</option>
-                                            <option value="3">When I make fun of other people.</option>
+                                            <option value="1">Sentences or expression in the imperative form that are used in the classroom frequently.</option>
+                                            <option value="2">Words that indicate which entities a speaker refers to.</option>
+                                            <option value="3">Words used to clarify a specific place.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p>What is to respect people's dignity?</p>
+                                        <p><b>III. Select the classroom commands</b></p>
                                         <select id="select-act5-3" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">To judge people without knowing them.</option>
-                                            <option value="2">To accept people the way they are and treat them equally.</option>
-                                            <option value="3">To make fun of and mistreat other people.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p>How could you respect people's rights?</p>
-                                        <select id="select-act5-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Ignoring and treating them badly.</option>
-                                            <option value="2">Making fun of their opinion because it's different from mine.</option>
-                                            <option value="3">Listening to what they have to say and tolerating them.</option>
-                                        </select>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act6" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act6">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
-											<input type="text" class="d-none" id="points6" name="points">
-											<input type="text" class="d-none" id="idcliente6" name="idcliente">
-											<input type="text" class="d-none" id="idlibro6" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. What is an introduction?</b></p>
-                                        <select id="select-act6-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">It is a presentation of one person to another or others.</option>
-                                            <option value="2">It is being gentle, not forceful or insistent.</option>
-                                            <option value="3">It is a word used as subject in a sentence.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>II. Select the introduction</b></p>
-                                        <select id="select-act6-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Respecting other people's opinions.</option>
-                                            <option value="2">Nice to meet you, I'm Mario.</option>
-                                            <option value="3">I really appreciate your help.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Write the missing questions</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act6-1">
-										<p>I'm fine, thank you.</p>
-										<br>
-										<input type="text" autocomplete="off" class="form-control" id="input-act6-2">
-										<p>Not bad, thank you.</p>
-										<br>
-										<input type="text" autocomplete="off" class="form-control" id="input-act6-3">
-										<p>Nice to meet you, I'm Vanessa.</p>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Select the correct answer</b></p>
-										<p>How is your mother?</p>
-                                        <select id="select-act6-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">She is fine.</option>
-                                            <option value="2">He is good.</option>
-                                            <option value="3">I am OK.</option>
+                                            <option value="1">These are my new shoes.</option>
+                                            <option value="2">Take out your book.</option>
+                                            <option value="3">The cat is under the bed.</option>
                                         </select>
 										<br>
-										<p>How are you, my friend?</p>
-                                        <select id="select-act6-4" class="ms-1 me-1 form-select" style="width: auto;">
+										<select id="select-act5-4" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">She is fine.</option>
-                                            <option value="2">He is good.</option>
-                                            <option value="3">I am OK.</option>
+                                            <option value="1">This is my notebook.</option>
+                                            <option value="2">Look at the blackboard.</option>
+                                            <option value="3">This is my new car.</option>
                                         </select>
 										<br>
-										<p>How do you do? I'm Katherine.</p>
-                                        <select id="select-act6-5" class="ms-1 me-1 form-select" style="width: auto;">
+										<select id="select-act5-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Talk to your partner.</option>
+                                            <option value="2">That is my eraser.</option>
+                                            <option value="3">Clean your room.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the sentences that use prepositions of place</b></p>
+                                        <select id="select-act5-6" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">My brother is sleeping.</option>
+                                            <option value="2">The dog is playing with a ball.</option>
+                                            <option value="3">His cat is under the table.</option>
+                                        </select>
+										<br>
+                                        <select id="select-act5-7" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">The ruler is next to the eraser.</option>
+                                            <option value="2">The umbrella is wet.</option>
+                                            <option value="3">This is my new notebook.</option>
+                                        </select>
+										<br>
+                                        <select id="select-act5-8" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
                                             <option value="1">Nice to meet you, I'm Francisco.</option>
-                                            <option value="2">Thank you.</option>
-                                            <option value="3">How is your Father?</option>
+                                            <option value="2">My sister is at the mall.</option>
+                                            <option value="3">That horse is really big.</option>
                                         </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. How can we have a real friendship?</b></p>
-                                        <select id="select-act6-6" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Lying and mistreating each other.</option>
-                                            <option value="2">Respecting and being polite to each other.</option>
-                                            <option value="3">Refusing to help our friends when needed.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VI. What is to respect people's dignity?</b></p>
-                                        <select id="select-act6-7" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">To judge people without knowing them.</option>
-                                            <option value="2">To make fun of and mistreat other people.</option>
-                                            <option value="3">To accept people the way they are and treat them equally.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VII. How can you adapt the sounds of Spanish to the ones of English?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act6-4">
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VIII. Can you explain if you are proactive?
-											Do you anticipate to act with courtesy?
-										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act6-5">
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act1" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act1">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the greetings you hear</p>
-											<input type="text" class="d-none" id="points7" name="points">
-											<input type="text" class="d-none" id="idcliente7" name="idcliente">
-											<input type="text" class="d-none" id="idlibro7" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
-									<source src="../../resources/audio/ingles_septimo/UnitOne/TRACK03.mp3" type="audio/mp3">
-									Tu navegador no soporta audio HTML5.
-								</audio> 
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act1-1" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act1-2" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act1-3" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act1-4" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act1-5" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act1-6" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act1-7" placeholder="...">
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-
-<div id="ModalUnit1Act8" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-md">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act8">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct pronouns</p>
-											<input type="text" class="d-none" id="points8" name="points">
-											<input type="text" class="d-none" id="idcliente8" name="idcliente">
-											<input type="text" class="d-none" id="idlibro8" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act8-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">I</option>
-                                            <option value="2">You</option>
-                                            <option value="3">It</option>
-                                        </select>
-										<label>is a shiny rock.</label>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act8-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">She</option>
-                                            <option value="2">He</option>
-                                            <option value="3">It</option>
-                                        </select>
-										<label>is my mother.</label>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act8-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">I</option>
-                                            <option value="2">They</option>
-                                            <option value="3">It</option>
-                                        </select>
-										<label>are playing soccer.</label>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act8-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">I</option>
-                                            <option value="2">She</option>
-                                            <option value="3">You</option>
-                                        </select>
-										<label>am studying English.</label>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act8-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">He</option>
-                                            <option value="2">She</option>
-                                            <option value="3">You</option>
-                                        </select>
-										<label>is my uncle.</label>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act9" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act9">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct questions and answer to confirm telephone numbers</p>
-											<input type="text" class="d-none" id="points9" name="points">
-											<input type="text" class="d-none" id="idcliente9" name="idcliente">
-											<input type="text" class="d-none" id="idlibro9" name="idlibro">
-										</div>
-									</div>
-								</div>
-								
-								<div class="row row-cols-2 border p-3">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act9-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Which is your telephone number Boris?</option>
-                                            <option value="2">What's your telephone number Boris?</option>
-                                            <option value="3">Is your telephone number Boris?</option>
-                                        </select>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act9-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">My telephone number is 22910347.</option>
-                                            <option value="2">Is my telephone number 22910347.</option>
-                                            <option value="3">His telephone number is 22910347.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row row-cols-2 border p-3">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act9-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">I'm sorry, did you said 22910357?</option>
-                                            <option value="2">I'm sorry, do you said 22910357?</option>
-                                            <option value="3">I'm sorry, did you say 22910357?</option>
-                                        </select>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act9-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">No, my telephone number is 22910347.</option>
-                                            <option value="2">No, is my telephone number 22910347.</option>
-                                            <option value="3">No, his telephone number is 22910347.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row row-cols-2  border mb-3 p-3">
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act9-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Is your mom's cell number?</option>
-                                            <option value="2">Which is your mom's cell number?</option>
-                                            <option value="3">And what's your mom's cell number?</option>
-                                        </select>
-									</div>
-									<div class="col d-flex align-items-center">
-                                        <select id="select-act9-6" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">My cell number is 77895289.</option>
-                                            <option value="2">His cell number is 77895289.</option>
-                                            <option value="3">Her cell number is 77895289.</option>
-                                        </select>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act10" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act10">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct option to complete the conversation</p>
-											<input type="text" class="d-none" id="points10" name="points">
-											<input type="text" class="d-none" id="idcliente10" name="idcliente">
-											<input type="text" class="d-none" id="idlibro10" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <label for="select-act10-1">Good morning, Mario, </label>
-                                        <select id="select-act10-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Did you say 22910347</option>
-                                            <option value="2">How are you?</option>
-                                            <option value="3">What about you?</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <select id="select-act10-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Not bad, thanks.</option>
-                                            <option value="2">How are you?</option>
-                                            <option value="3">Thank you.</option>
-                                        </select>
-                                        <label> By the way, who is he?</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <label >He is Steve Alexander Pérez.</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <label for="select-act10-3">How do you spell his </label>
-                                        <select id="select-act10-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">first</option>
-                                            <option value="2">last</option>
-                                            <option value="3">middle</option>
-                                        </select>
-                                        <label> name?</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                    <label>A-L-E-X-A-N-D-E-R</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <label for="select-act10-4">Could you also spell his </label>
-                                        <select id="select-act10-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">first</option>
-                                            <option value="2">last</option>
-                                            <option value="3">middle</option>
-                                        </select>
-                                        <label> name?</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                    <label for="select-act2-5">P-E-R-E-Z</label>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act11" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act11">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
-											<input type="text" class="d-none" id="points11" name="points">
-											<input type="text" class="d-none" id="idcliente11" name="idcliente">
-											<input type="text" class="d-none" id="idlibro11" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. What is a subject pronoun?</b></p>
-                                        <select id="select-act11-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">It is a presentation of one person to another or others.</option>
-                                            <option value="2">It is a word used with nouns to show possession or ownership.</option>
-                                            <option value="3">It is a word used as subject in a sentence.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>II. What are possessive adjectives?</b></p>
-                                        <select id="select-act11-2" class="ms-1 me-1 form-select" style="width: auto;">
-										<option value="0" selected disabled></option>
-                                            <option value="1">They are presentations of one person to another or others.</option>
-                                            <option value="2">They are words used with nouns to show possession or ownership.</option>
-                                            <option value="3">They are words used as subject in a sentence.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Select the greetings</b></p>
-                                        <div>
-											<input type="checkbox" id="cb11-1"><label for="cb11-1">&nbsp;Good afternoon.</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb11-2"><label for="cb11-2">&nbsp;Not bad, thanks.</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb11-3"><label for="cb11-3">&nbsp;Excuse me</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb11-4"><label for="cb11-4">&nbsp;Good night.</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb11-5"><label for="cb11-5">&nbsp;Hello.</label>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Complete the dialogue</b></p>
-										<div class="d-flex align-items-center mb-3">
-											<label for="select-act11-3">Good morning, Mario, </label>
-											<select id="select-act11-3" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">Did you say 22910347</option>
-												<option value="2">How are you?</option>
-												<option value="3">What about you?</option>
-											</select>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act11-4" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">Not bad, thanks.</option>
-												<option value="2">How are you?</option>
-												<option value="3">Thank you.</option>
-											</select>
-											<label> By the way, who is he?</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label >He is Steve Alexander Pérez.</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label for="select-act11-5">How do you spell his </label>
-											<select id="select-act11-5" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">first</option>
-												<option value="2">last</option>
-												<option value="3">middle</option>
-											</select>
-											<label> name?</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label>A-L-E-X-A-N-D-E-R</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label for="select-act11-6">Hi, Steve, </label>
-											<select id="select-act11-6" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">what's your cell number?</option>
-												<option value="2">which is your cell number?</option>
-												<option value="3">is this his cell number?</option>
-											</select>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label>77895289</label>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. How can we show respect while conversing?</b></p>
-                                        <select id="select-act11-7" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Not letting the other person speak.</option>
-                                            <option value="2">Paying attention and being polite.</option>
-                                            <option value="3">Being forceful or not greeting the other person.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VI. What is to respect people's dignity?</b></p>
-                                        <select id="select-act11-8" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">To accept people the way they are and treat them equally.</option>
-                                            <option value="2">To make fun of and mistreat other people.</option>
-                                            <option value="3">To judge people without knowing them.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VII. How can you use the art of asking questions in a dialogue with friends</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act11-1">
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VIII. Are you able to explore important information in a dialogue</b></p>
-                                        <select id="select-act11-9" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Yes, I am.</option>
-                                            <option value="2">No, I am not.</option>
-                                            <option value="3">I'm not sure.</option>
-                                        </select>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act12" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act12">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct option to complete the dialogue</p>
-											<input type="text" class="d-none" id="points12" name="points">
-											<input type="text" class="d-none" id="idcliente12" name="idcliente">
-											<input type="text" class="d-none" id="idlibro12" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <label for="select-act12-1">Good morning, </label>
-                                        <select id="select-act12-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Give me</option>
-                                            <option value="2">May I have</option>
-                                            <option value="3">How are you</option>
-                                        </select>
-										<label> a glass of water?</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <select id="select-act12-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Sorry.</option>
-                                            <option value="2">Thank you.</option>
-                                            <option value="3">Excuse me.</option>
-                                        </select>
-                                        <label> I only have coffee and lemonade.</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <select id="select-act12-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Sorry.</option>
-                                            <option value="2">Excuse me.</option>
-                                            <option value="3">Thank you.</option>
-                                        </select>
-                                        <label> May I have a lemonade?</label>
-									</div>
-								</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                        <label for="select-act12-4">Sure, </label>
-                                        <select id="select-act12-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">excuse me,</option>
-                                            <option value="2">thank you,</option>
-                                            <option value="3">good-bye,</option>
-                                        </select>
-                                        <label> what's your name?</label>
-									</div>
-								</div>
-								<div class="row p-3">
-									<div class="d-flex align-items-center">
-                                    <label>My name is Francisco.</label>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act13" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act13">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct option to complete the dialogue</p>
-											<input type="text" class="d-none" id="points13" name="points">
-											<input type="text" class="d-none" id="idcliente13" name="idcliente">
-											<input type="text" class="d-none" id="idlibro13" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-3">
-									<table class="table table-bordered" style="border: #8076b2">
-										<tr>
-											<th width="20%" scope="row" class="text-center">0</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-1" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">1</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-2" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">2</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-3" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">3</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-4" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">4</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-5" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">5</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-6" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">6</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-7" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">7</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-8" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">8</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-9" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">9</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-10" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">10</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-11" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">11</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-12" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">12</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-13" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">13</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-14" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">14</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-15" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">15</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-16" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">16</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-17" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">17</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-18" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">18</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-19" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">19</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-20" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">20</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-21" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">21</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-22" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">30</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-23" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">40</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-24" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">50</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-25" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">60</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-26" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">70</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-27" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">80</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-28" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-										<tr>
-											<th width="20%" scope="row" class="text-center">90</th>
-											<td width="80%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act13-29" placeholder="Write the number..." maxlength="13">
-											</td>
-										</tr>
-									</table>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act14" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act14">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the phone numbers that you hear</p>
-											<input type="text" class="d-none" id="points14" name="points">
-											<input type="text" class="d-none" id="idcliente14" name="idcliente">
-											<input type="text" class="d-none" id="idlibro14" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
-									<source src="../../resources/audio/ingles_septimo/UnitOne/TRACK09.mp3" type="audio/mp3">
-									Tu navegador no soporta audio HTML5.
-								</audio> 
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act14-1" placeholder="..." maxlength="8">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act14-2" placeholder="..." maxlength="8">
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act14-3" placeholder="..." maxlength="8">
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act15" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act15">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
-											<input type="text" class="d-none" id="points15" name="points">
-											<input type="text" class="d-none" id="idcliente15" name="idcliente">
-											<input type="text" class="d-none" id="idlibro15" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. What's a courtesy expression?</b></p>
-                                        <select id="select-act15-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">It is the means or system by which groups of individuals or things are counted.</option>
-                                            <option value="2">It is an address, similar to the IP address of a computer or the street address of your home.</option>
-                                            <option value="3">It is a polite way to express kindness and show good manners.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>II. What is basically the telephone number?</b></p>
-                                        <select id="select-act15-2" class="ms-1 me-1 form-select" style="width: auto;">
-										<option value="0" selected disabled></option>
-											<option value="0" selected disabled></option>
-                                            <option value="1">The means or system by which groups of individuals or things are counted.</option>
-                                            <option value="2">An address, similar to the IP address of a computer or the street address of your home.</option>
-                                            <option value="3">A polite way to express kindness and show good manners.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Complete the dialogue using courtesy expressions</b></p>
-                                        <div class="row p-2">
-											<div class="d-flex align-items-center">
-												<label for="select-act15-3">Good morning, </label>
-												<select id="select-act15-3" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Give me</option>
-													<option value="2">May I have</option>
-													<option value="3">How are you</option>
-												</select>
-												<label> a glass of milk?</label>
-											</div>
-										</div>
-										<div class="row p-2">
-											<div class="d-flex align-items-center">
-												<select id="select-act15-4" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Sorry.</option>
-													<option value="2">Thank you.</option>
-													<option value="3">Excuse me.</option>
-												</select>
-												<label> I only have coffee and orange juice.</label>
-											</div>
-										</div>
-										<div class="row p-2">
-											<div class="d-flex align-items-center">
-												<select id="select-act15-5" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Sorry.</option>
-													<option value="2">Excuse me.</option>
-													<option value="3">Thank you.</option>
-												</select>
-												<label> May I have an orange juice?</label>
-											</div>
-										</div>
-										</div>
-										<div class="row p-2">
-											<div class="d-flex align-items-center">
-												<label for="select-act15-6">Sure. </label>
-												<select id="select-act15-6" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Excuse me,</option>
-													<option value="2">Hey,</option>
-													<option value="3">Hello,</option>
-												</select>
-												<label> what's your name?</label>
-											</div>
-										</div>
-										<div class="row p-2">
-											<div class="d-flex align-items-center">
-											<label>My name is Francisco.</label>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Write the numbers from 0 to 90 accurately</b></p>
-										<div class="row row-cols-2 p-3">
-											<div class="col">													
-												<table class="table table-bordered" style="border: #8076b2">
-													<tr>
-														<th width="20%" scope="row" class="text-center">0</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-1" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">1</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-2" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">2</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-3" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">3</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-4" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">4</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-5" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">5</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-6" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">6</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-7" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">7</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-8" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">8</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-9" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">9</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-10" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">10</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-11" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">11</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-12" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">12</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-13" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">13</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-14" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">14</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-15" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-												</table>
-											</div>
-											<div class="col">
-												<table class="table col table-bordered" style="border: #8076b2">
-													<tr>
-														<th width="20%" scope="row" class="text-center">15</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-16" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">16</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-17" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">17</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-18" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">18</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-19" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">19</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-20" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">20</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-21" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">21</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-22" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">30</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-23" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">40</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-24" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">50</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-25" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">60</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-26" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">70</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-27" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">80</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-28" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-													<tr>
-														<th width="20%" scope="row" class="text-center">90</th>
-														<td width="80%">
-															<input autocomplete="off" type="text" class="form-control" id="input-act15-29" placeholder="Write the number..." maxlength="13">
-														</td>
-													</tr>
-												</table>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. How can we show interest in people?</b></p>
-                                        <select id="select-act15-7" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Ignoring their opinion.</option>
-                                            <option value="2">Asking about their name and paying attention to them.</option>
-                                            <option value="3">Lying and being forceful.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VI. What is to accept and tolerate people?</b></p>
-                                        <select id="select-act15-8" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">To accept their mistakes and helping each other.</option>
-                                            <option value="2">To make fun of their mistakes.</option>
-                                            <option value="3">To treat them badly.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VII. How can you use the technique "to create in dreams" to solve problems while you sleep?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act15-1">
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VIII. Are you able to Identify tendencies in the tastes of people?</b></p>
-                                        <select id="select-act15-9" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Yes, I am.</option>
-                                            <option value="2">No, I am not.</option>
-                                            <option value="3">I'm not sure.</option>
-                                        </select>
-									</div>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act16" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act16">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the letters of the alphabet in order and pronounce them at the time</p>
-											<input type="text" class="d-none" id="points16" name="points">
-											<input type="text" class="d-none" id="idcliente16" name="idcliente">
-											<input type="text" class="d-none" id="idlibro16" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-3">
-									<table class="table">
-										<tr>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-1" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-2" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-3" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-4" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-5" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-6" maxlength="1">
-											</td>
-										</tr>
-										<tr>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-7" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-8" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-9" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-10" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-11" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-12" maxlength="1">
-											</td>
-										</tr>
-										<tr>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-13" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-14" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-15" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-16" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-17" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-18" maxlength="1">
-											</td>
-										</tr>
-										<tr>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-19" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-20" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-21" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-22" maxlength="1">
-											</td>
-											<td width="16%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-23" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-24" maxlength="1">
-											</td>
-										</tr>
-										<tr>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-25" maxlength="1">
-											</td>
-											<td width="17%">
-												<input autocomplete="off" type="text" class="form-control" id="input-act16-26" maxlength="1">
-											</td>
-										</tr>
-									</table>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act17" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act17">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the expressions that you hear</p>
-											<input type="text" class="d-none" id="points17" name="points">
-											<input type="text" class="d-none" id="idcliente17" name="idcliente">
-											<input type="text" class="d-none" id="idlibro17" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
-									<source src="../../resources/audio/ingles_septimo/UnitOne/TRACK11.mp3" type="audio/mp3">
-									Tu navegador no soporta audio HTML5.
-								</audio> 
-								<br>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act17-1" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>My name's Douglas Aguilar.</label>
-								</div>
-								<br>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act17-2" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>A-G-U-I-L-A-R.</label>
-								</div>
-								<br>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act17-3" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>It's 78598259.</label>
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act17-4" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>Yes, it is 22623597</label>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act18" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act18">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the useful expressions that you hear</p>
-											<input type="text" class="d-none" id="points18" name="points">
-											<input type="text" class="d-none" id="idcliente18" name="idcliente">
-											<input type="text" class="d-none" id="idlibro18" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
-									<source src="../../resources/audio/ingles_septimo/UnitOne/TRACK12.mp3" type="audio/mp3">
-									Tu navegador no soporta audio HTML5.
-								</audio> 
-								<br>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act18-1" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>F-A-B-R-I-C-I-O</label>
-								</div>
-								<br>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act18-2" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>I say book.</label>
-								</div>
-								<br>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act18-3" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>R-O-D-R-I-G-U-E-Z</label>
-								</div>
-								<div class="row p-2">
-									<input type="text" autocomplete="off" class="form-control" id="input-act18-4" placeholder="...">
-								</div>
-								<div class="row p-2">
-									<label>No, I said Rogríguez</label>
-								</div>
-							</div>
-						</div>
-						<br>
-					</div>
-					<br>
-					<!-- Botones de Control -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-						<button type="submit" class="btn waves-effect blue tooltipped"
-							data-tooltip="Guardar">Submit</button>
-						<br>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-
-<div id="ModalUnit1Act19" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-			</div>
-			<form method="post" id="unit1-act19">
-				<div class="modal-body">
-					<div class="container-fluid">
-						<div class="form-group">
-							<div class="container-fluid">
-								<div class="row align-items-center">
-									<div class="row mb-4">
-										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
-											<input type="text" class="d-none" id="points19" name="points">
-											<input type="text" class="d-none" id="idcliente19" name="idcliente">
-											<input type="text" class="d-none" id="idlibro19" name="idlibro">
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. What is the alphabet?</b></p>
-                                        <select id="select-act19-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">The act of expressing, conveying, or representing in words, a manifestation.</option>
-                                            <option value="2">A set of letters used in writing and printing a language.</option>
-                                            <option value="3">A simple way of showing interest in the person.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>II. What is an expression?</b></p>
-                                        <select id="select-act19-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">The act of expressing, conveying, or representing in words, a manifestation.</option>
-                                            <option value="2">A set of letters used in writing and printing a language.</option>
-                                            <option value="3">A simple way of showing interest in the person.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Select the useful expressions</b></p>
-										<div>
-											<input type="checkbox" id="cb19-1"><label for="cb19-1">&nbsp;How do you spell your name?</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb19-2"><label for="cb19-2">&nbsp;Good morning, how are you?</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb19-3"><label for="cb19-3">&nbsp;They are playing the guitar.</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb19-4"><label for="cb19-4">&nbsp;How do you say "manzana" in English?</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb19-5"><label for="cb19-5">&nbsp;I think his phone number is 22620875.</label>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Write the letters of the alphabet</b></p>
-										<table class="table">
-											<tr>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-1" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-2" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-3" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-4" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-5" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-6" maxlength="1">
-												</td>
-											</tr>
-											<tr>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-7" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-8" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-9" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-10" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-11" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-12" maxlength="1">
-												</td>
-											</tr>
-											<tr>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-13" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-14" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-15" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-16" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-17" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-18" maxlength="1">
-												</td>
-											</tr>
-											<tr>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-19" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-20" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-21" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-22" maxlength="1">
-												</td>
-												<td width="16%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-23" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-24" maxlength="1">
-												</td>
-											</tr>
-											<tr>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-25" maxlength="1">
-												</td>
-												<td width="17%">
-													<input autocomplete="off" type="text" class="form-control" id="input-act19-26" maxlength="1">
-												</td>
-											</tr>
-										</table>                                        
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
                                         <p><b>V. How can you show acceptance of errors?</b></p>
-                                        <select id="select-act19-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <select id="select-act5-9" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Making fun of other people's mistakes.</option>
-                                            <option value="2">Tolerating them and encouraging my partners.</option>
-                                            <option value="3">Refusing to help our friends when needed.</option>
+                                            <option value="1">Ignoring other people's mistakes.</option>
+                                            <option value="2">Helping my partners when they need it.</option>
+                                            <option value="3">Laughing at the errors my partners make.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
                                         <p><b>VI. How can we begin a nice friendship?</b></p>
-                                        <select id="select-act19-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <select id="select-act5-10" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Avoiding talking to other people.</option>
-                                            <option value="2">Being impolite when talking to peers.</option>
-                                            <option value="3">Finding out peer's names and last names.</option>
+                                            <option value="1">By not cooperating with our peers.</option>
+                                            <option value="2">By making fun of and mistreat them.</option>
+                                            <option value="3">By being polite and cooperating with out classmates.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VII. What similarity do you find between the alphabet in English with the one of Spanish?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act19-27">
+                                        <p><b>VII. What similarity do you find between a command in English with the one of Spanish?</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act5-1">
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VIII. Do you try to work in teams in order to learn from the others?
+                                        <p><b>VIII. How could you demonstrate that you are responsible against assumed duties?
 										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act19-28">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act5-2">
 									</div>
 								</div>
 							</div>
@@ -2818,14 +1077,14 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
-<div id="ModalUnit1Act21" class="modal fade" tabindex="-4">
+<div id="ModalUnit2Act6" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act21">
+			<form method="post" id="unit2-act6">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -2833,155 +1092,155 @@ Book_Page::headerTemplate('Unidad 2');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
-											<input type="text" class="d-none" id="points21" name="points">
-											<input type="text" class="d-none" id="idcliente21" name="idcliente">
-											<input type="text" class="d-none" id="idlibro21" name="idlibro">
+											<p class="fs-5 fw-bold">Complete the sentences using the correct personal item</p>
+											<input type="text" class="d-none" id="points6" name="points">
+											<input type="text" class="d-none" id="idcliente6" name="idcliente">
+											<input type="text" class="d-none" id="idlibro6" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. Select the courtesy expression</b></p>
-                                        <select id="select-act21-1" class="ms-1 me-1 form-select" style="width: auto;">
+								<table class="table">
+									<tr>
+										<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-1.jpg" alt="Shirt"></td>
+										<td>
+											<div class="d-flex align-items-center">
+												<label>This is Kevin's</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act6-1" style="width: 100px;">
+											</div>
+										</td>									
+									</tr>
+									<tr>
+										<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-2.jpg" alt="Umbrella"></td>
+										<td>
+											<div class="d-flex align-items-center">
+												<label>Did you bring an </label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act6-2" style="width: 100px;">
+												<label>? </label>
+											</div>
+										</td>									
+									</tr>
+									<tr>
+										<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-3.jpg" alt="Shoes"></td>
+										<td>
+											<div class="d-flex align-items-center">
+												<label>Look at my new </label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act6-3" style="width: 100px;">
+											</div>
+										</td>									
+									</tr>
+									<tr>
+										<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-4.jpg" alt="Calculator"></td>
+										<td>
+											<div class="d-flex align-items-center">
+												<label>This is my father's</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act6-4" style="width: 100px;">
+											</div>
+										</td>									
+									</tr>
+									<tr>
+										<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-5.jpg" alt="Keys"></td>
+										<td>
+											<div class="d-flex align-items-center">
+												<label>I can't find my</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act6-5" style="width: 100px;">
+											</div>
+										</td>									
+									</tr>
+								</table>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalUnit2Act7" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act7">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct use of possessive adjectives</p>
+											<input type="text" class="d-none" id="points7" name="points">
+											<input type="text" class="d-none" id="idcliente7" name="idcliente">
+											<input type="text" class="d-none" id="idlibro7" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2 p-4">
+									<div class="col d-flex align-items-center">
+										<label>This is </label>
+                                        <select id="select-act7-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Give me a cup of coffee.</option>
-                                            <option value="2">May I have a cup of coffee?</option>
-                                            <option value="3">How do you do? I'm Elizabeth.</option>
+                                            <option value="1">my</option>
+                                            <option value="2">me</option>
+                                            <option value="3">I</option>
                                         </select>
+										<label>brother.</label>
 									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>II. Could you write the possessive adjectives?</b></p>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act21-1" maxlength="5">
-											</div>
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act21-2" maxlength="5">
-											</div>
-										</div>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act21-3" maxlength="5">
-											</div>
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act21-4" maxlength="5">
-											</div>
-										</div>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act21-5" maxlength="5">
-											</div>
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act21-6" maxlength="5">
-											</div>
-										</div>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act21-7" maxlength="5">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Write 8 numbers from 0 to 90 correctly</b></p>
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-8" maxlength="13">
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-9"  maxlength="13">
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-10"  maxlength="13">
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-11" maxlength="13">
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-12" maxlength="13">
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-13" maxlength="13">
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-14" maxlength="13">
-										<input autocomplete="off" type="text" class="form-control" id="input-act21-15" maxlength="13">
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Complete the dialogue using personal information</b></p>
-										<div class="d-flex align-items-center mb-3">
-											<label for="select-act21-2">Good morning, Mario, </label>
-											<select id="select-act21-2" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">Did you say 22910347</option>
-												<option value="2">How are you?</option>
-												<option value="3">What about you?</option>
-											</select>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act21-3" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">Not bad, thanks.</option>
-												<option value="2">How are you?</option>
-												<option value="3">Thank you.</option>
-											</select>
-											<label> By the way, who is he?</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label >He is Steve Alexander Pérez.</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label for="select-act21-4">How do you spell his </label>
-											<select id="select-act21-4" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">first</option>
-												<option value="2">last</option>
-												<option value="3">middle</option>
-											</select>
-											<label> name?</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label>A-L-E-X-A-N-D-E-R</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label for="select-act21-5">Hi, Steve, </label>
-											<select id="select-act21-5" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">what's your cell number?</option>
-												<option value="2">which is your cell number?</option>
-												<option value="3">is this his cell number?</option>
-											</select>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label>77895289</label>
-										</div>                                  
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. How can you show acceptance of errors?</b></p>
-										<select id="select-act21-6" class="ms-1 me-1 form-select" style="width: auto;">
+									<div class="col d-flex align-items-center">
+										<label>Is this </label>
+                                        <select id="select-act7-2" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Making fun of other people's mistakes.</option>
-                                            <option value="2">Refusing to help my friends.</option>
-                                            <option value="3">Helping my friends when needed.</option>
+                                            <option value="1">they're</option>
+                                            <option value="2">their</option>
+                                            <option value="3">these</option>
                                         </select>
+										<label>pool.</label>
 									</div>
 								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VI. How can you show politeness and respect?</b></p>
-                                        <select id="select-act21-7" class="ms-1 me-1 form-select" style="width: auto;">
+								<div class="row row-cols-2 p-4">
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act7-3" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Greeting and paying attention other people.</option>
-                                            <option value="2">Ignoring other people.</option>
-                                            <option value="3">Being forceful and insistent.</option>
+                                            <option value="1">This</option>
+                                            <option value="2">He's</option>
+                                            <option value="3">His</option>
                                         </select>
+										<label>cat is small.</label>
+									</div>
+									<div class="col d-flex align-items-center">
+										<label>It is </label>
+                                        <select id="select-act7-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">she</option>
+                                            <option value="2">her</option>
+                                            <option value="3">there</option>
+                                        </select>
+										<label>dress.</label>
 									</div>
 								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VII. What could inspire you to use courtesy expressions?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-16">
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VIII. How could you keep good relations with other people?
-										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-17">
+								<div class="row row-cols-2 p-4">
+									<div class="col d-flex align-items-center">
+										<label>He is</label>
+                                        <select id="select-act7-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">you're</option>
+                                            <option value="2">your</option>
+                                            <option value="3">you</option>
+                                        </select>
+										<label> uncle.</label>
 									</div>
 								</div>
 							</div>
@@ -3002,14 +1261,267 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
-<div id="ModalUnit1Act20" class="modal fade" tabindex="-4">
+<div id="ModalUnit2Act8" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
-			<form method="post" id="unit1-act20">
+			<form method="post" id="unit2-act8">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct answer to complete the questions</p>
+											<input type="text" class="d-none" id="points8" name="points">
+											<input type="text" class="d-none" id="idcliente8" name="idcliente">
+											<input type="text" class="d-none" id="idlibro8" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2 p-4">
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act8-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Where</option>
+                                            <option value="2">Why</option>
+                                            <option value="3">What</option>
+                                        </select>
+										<label>is your book?</label>
+									</div>
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act8-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Who</option>
+                                            <option value="2">When</option>
+                                            <option value="3">How</option>
+                                        </select>
+										<label>is your birthday?</label>
+									</div>
+								</div>
+								<div class="row row-cols-2 p-4">
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act8-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Who</option>
+                                            <option value="2">When</option>
+                                            <option value="3">How</option>
+                                        </select>
+										<label>did you work with?</label>
+									</div>
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act8-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Where</option>
+                                            <option value="2">Why</option>
+                                            <option value="3">What</option>
+                                        </select>
+										<label>is your name?</label>
+									</div>
+								</div>
+								<div class="row row-cols-2 p-4">
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act8-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Why</option>
+                                            <option value="2">When</option>
+                                            <option value="3">How</option>
+                                        </select>
+										<label> is your brother?</label>
+									</div>
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act8-6" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Are</option>
+                                            <option value="2">Is</option>
+                                            <option value="3">Am</option>
+                                        </select>
+										<label> this your eraser?</label>
+									</div>
+								</div>
+								<div class="row row-cols-2 p-4">
+									<div class="col d-flex align-items-center">
+                                        <select id="select-act8-7" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Are</option>
+                                            <option value="2">Is</option>
+                                            <option value="3">Am</option>
+                                        </select>
+										<label> those shoes new?</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act9" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act9">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the missing vocabulary</p>
+											<input type="text" class="d-none" id="points9" name="points">
+											<input type="text" class="d-none" id="idcliente9" name="idcliente">
+											<input type="text" class="d-none" id="idlibro9" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitTwo/TRACK20.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio> 
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Eraser" maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Pen" maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-12" placeholder="..." maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Map" maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-11" placeholder="..." maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Ruler" maxlength="16">
+									</div>
+								</div>
+								
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Pencil" maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-1" placeholder="..." maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Book" maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-2" placeholder="..." maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Table" maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Chair" maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Chalk" maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-3" placeholder="..." maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-4" placeholder="..." maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-5" placeholder="..." maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-6" placeholder="..." maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-7" placeholder="..." maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Liquid paper" maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Notebook" maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-8" placeholder="..." maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" disabled value="Dictionary" maxlength="16">
+									</div>
+								</div>
+								<div class="row row-cols-2 p-2">
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-9" placeholder="..." maxlength="16">
+									</div>
+									<div class="col">
+										<input type="text" autocomplete="off" class="form-control" id="input-act9-10" placeholder="..." maxlength="16">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalUnit2Act10" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act10">
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
@@ -3018,316 +1530,277 @@ Book_Page::headerTemplate('Unidad 2');
 									<div class="row mb-4">
 										<div class="col align-items-center">
 											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
-											<input type="text" class="d-none" id="points20" name="points">
-											<input type="text" class="d-none" id="idcliente20" name="idcliente">
-											<input type="text" class="d-none" id="idlibro20" name="idlibro">
+											<input type="text" class="d-none" id="points10" name="points">
+											<input type="text" class="d-none" id="idcliente10" name="idcliente">
+											<input type="text" class="d-none" id="idlibro10" name="idlibro">
 										</div>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>I. Select the introduction</b></p>
-                                        <select id="select-act20-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <p><b>I. What is a Wh- Question?</b></p>
+                                        <select id="select-act10-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">He is playing guitar.</option>
-                                            <option value="2">I really appreciate your help.</option>
-                                            <option value="3">How do you do? I'm Elizabeth.</option>
+                                            <option value="1">An object used by students and teachers to interact using this material.</option>
+                                            <option value="2">A word used to allow a speaker find out more information about topics.</option>
+                                            <option value="3">A part of speech that modifies a noun by attributing possession to someone or something.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>II. Could you write the subject pronouns?</b></p>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act20-1" maxlength="4">
-											</div>
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act20-2" maxlength="4">
-											</div>
-										</div>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act20-3" maxlength="4">
-											</div>
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act20-4" maxlength="4">
-											</div>
-										</div>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act20-5" maxlength="4">
-											</div>
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act20-6" maxlength="4">
-											</div>
-										</div>
-										<div class="row row-cols-2">
-											<div class="col">
-												<input autocomplete="off" type="text" class="form-control" id="input-act20-7" maxlength="4">
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Complete the questions and answers</b></p>
-										<div class="row row-cols-2 border p-3">
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-2" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Hi, How</option>
-													<option value="2">Hi, why</option>
-													<option value="3">Hi, where</option>
-												</select>
-												<label> are you?</label>
-											</div>
-											<div class="col d-flex align-items-center">
-												<label for="select-act20-3">I'm </label>
-												<select id="select-act20-3" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">my name is</option>
-													<option value="2">hello</option>
-													<option value="3">fine</option>
-												</select>
-												<label>, thanks.</label>
-											</div>
-										</div>
-										<div class="row row-cols-2 border p-3">
-											<div class="col d-flex align-items-center">
-												<label>How</label>
-												<select id="select-act20-4" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">is it</option>
-													<option value="2">are you</option>
-													<option value="3">is she</option>
-												</select>
-												<label>doing?</label>
-											</div>
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-5" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Not bad</option>
-													<option value="2">Good afternoon</option>
-													<option value="3">What's your name?</option>
-												</select>
-												<label>, thank you.</label>
-											</div>
-										</div>
-										<div class="row row-cols-2 border p-3">
-											<div class="col d-flex align-items-center">
-												<label>How is your</label>
-												<select id="select-act20-6" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1"> name</option>
-													<option value="2"> mother</option>
-													<option value="3"> phone number</option>
-												</select>
-												<label>?</label>
-											</div>
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-7" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Good.</option>
-													<option value="2">Good afternoon.</option>
-													<option value="3">She is.</option>
-												</select>
-											</div>
-										</div>
-										<div class="row row-cols-2 border p-3">
-											<div class="col d-flex align-items-center">
-												<label>How is</label>
-												<select id="select-act20-8" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1"> you doing</option>
-													<option value="2"> his name</option>
-													<option value="3"> Mario</option>
-												</select>
-												<label>?</label>
-											</div>
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-9" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">The alphabet.</option>
-													<option value="2">Good-bye.</option>
-													<option value="3">OK.</option>
-												</select>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Complete the conversations</b></p>
-										<div class="row row-cols-2 border p-3">
-											<div class="col d-flex align-items-center">
-												<label>What's your telephone</label>
-												<select id="select-act20-10" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">number</option>
-													<option value="2">letter</option>
-													<option value="3">greeting</option>
-												</select>
-												<label>?</label>
-											</div>
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-11" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">His</option>
-													<option value="2">My</option>
-													<option value="3">Your</option>
-												</select>
-												<label>telephone</label>
-												<select id="select-act20-12" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">number is 22623597</option>
-													<option value="2">number are 22623597</option>
-													<option value="3">number am 22623597</option>
-												</select>
-											</div>
-										</div>
-										<div class="row row-cols-2 border p-3">
-											<div class="col d-flex align-items-center">
-												<label>Did you</label>
-												<select id="select-act20-13" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">say Rodríguez</option>
-													<option value="2">said 22623596</option>
-													<option value="3">speak good-bye</option>
-												</select>
-												<label>?</label>
-											</div>
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-14" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Yes</option>
-													<option value="2">Fine</option>
-													<option value="3">No</option>
-												</select>
-												<label>, but I said</label>
-												<select id="select-act20-15" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">22623597.</option>
-													<option value="2">Rodrigo.</option>
-													<option value="3">I'm fine.</option>
-												</select>
-											</div>
-										</div>
-										<div class="row border p-3">
-											<div class=" d-flex align-items-center">
-												<label>What's your</label>
-												<select id="select-act20-16" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1"> name</option>
-													<option value="2"> last</option>
-													<option value="3"> initial</option>
-												</select>
-												<label>name?</label>
-											</div>
-											<br>
-											<br>
-											<br>
-											<div class=" d-flex align-items-center">
-												<select id="select-act20-17" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">My last</option>
-													<option value="2">His last</option>
-													<option value="3">His middle</option>
-												</select>
-												<label>name is</label>
-												<select id="select-act20-18" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">is my name.</option>
-													<option value="2">it's Pérez. </option>
-													<option value="3">Pérez.</option>
-												</select>
-											</div>
-										</div>
-										<div class="row border p-3">
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-19" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1"> Do</option>
-													<option value="2"> Does</option>
-													<option value="3"> Have</option>
-												</select>
-												<label>you know</label>
-												<select id="select-act20-20" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1"> you sister's</option>
-													<option value="2"> your sister's</option>
-													<option value="3"> her sister is</option>
-												</select>
-												<label>cell</label>
-												<select id="select-act20-21" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1"> number?</option>
-													<option value="2"> name?</option>
-													<option value="3"> telephone</option>
-												</select>
-											</div>
-											<br>
-											<br>
-											<br>
-											<div class="col d-flex align-items-center">
-												<select id="select-act20-22" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">Your</option>
-													<option value="2">His</option>
-													<option value="3">Her</option>
-												</select>
-												<label>cell</label>
-												<select id="select-act20-23" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1">name</option>
-													<option value="2">number</option>
-													<option value="3">telephone</option>
-												</select>
-												<label>is</label>
-												<select id="select-act20-24" class="ms-1 me-1 form-select" style="width: auto;">
-													<option value="0" selected disabled></option>
-													<option value="1"> thanks.</option>
-													<option value="2"> Elizabeth.</option>
-													<option value="3"> 78958745.</option>
-												</select>
-											</div>
-										</div>                                      
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. What is to respect people's dignity?</b></p>
-										<select id="select-act20-25" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <p><b>II. What is a possessive adjective?</b></p>
+                                        <select id="select-act10-2" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">To judge people without knowing them.</option>
-                                            <option value="2">To accept people the way they are and treat them equally.</option>
-                                            <option value="3">To make fun of and mistreat other people.</option>
+                                            <option value="1">An object used by students and teachers to interact using this material.</option>
+                                            <option value="2">A word used to allow a speaker find out more information about topics.</option>
+                                            <option value="3">A part of speech that modifies a noun by attributing possession to someone or something.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VI. How could you respect people's rights?</b></p>
-                                        <select id="select-act20-26" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <p><b>III. Select the correct Wh- question</b></p>
+                                        <div class="row row-cols-2 p-4">
+											<div class="col d-flex align-items-center">
+												<select id="select-act10-3" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">Where</option>
+													<option value="2">Why</option>
+													<option value="3">What</option>
+												</select>
+												<label>did you close the window?</label>
+											</div>
+											<div class="col d-flex align-items-center">
+												<select id="select-act10-4" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">Who</option>
+													<option value="2">What</option>
+													<option value="3">How</option>
+												</select>
+												<label>did you do that?</label>
+											</div>
+										</div>
+										<div class="row row-cols-2 p-4">
+											<div class="col d-flex align-items-center">
+												<select id="select-act10-5" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">How</option>
+													<option value="2">What</option>
+													<option value="3">Who</option>
+												</select>
+												<label>was today's class?</label>
+											</div>
+											<div class="col d-flex align-items-center">
+												<select id="select-act10-6" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">Where</option>
+													<option value="2">Why</option>
+													<option value="3">What</option>
+												</select>
+												<label>is your house?</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Write the name of the personal items</b></p>
+										<table class="table">
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-1.jpg" alt="Shirt"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act10-1">
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-2.jpg" alt="Umbrella"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act10-2" >
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-3.jpg" alt="Shoes"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act10-3" >
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-4.jpg" alt="Calculator"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act10-4">
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-5.jpg" alt="Keys"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act10-5">
+													</div>
+												</td>									
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show respect when talking?</b></p>
+                                        <select id="select-act10-7" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Ignoring and treating them badly.</option>
-                                            <option value="2">Making fun of their opinion because it's different from mine.</option>
-                                            <option value="3">Listening to what they have to say and tolerating them.</option>
+                                            <option value="1">Ignoring the other person.</option>
+                                            <option value="2">Paying attention to the other person.</option>
+                                            <option value="3">Looking away from the person we are talking to.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VII. How can you verify that you respect the rights of people?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act20-8">
+                                        <p><b>VI. How can you follow the class behavior code?</b></p>
+                                        <select id="select-act10-8" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Not cooperating with our peers.</option>
+                                            <option value="2">Being disrespectful and unpunctual.</option>
+                                            <option value="3">Dressing correctly, being punctual, prepared and respectful.</option>
+                                        </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VIII. How could you generate cooperation and commitment in the others?
+                                        <p><b>VII. How could you use Wh- question brainstorming to solve problems?</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act10-6">
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How would you establish mechanisms of verification of results using Wh- Questions?
 										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act20-9">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act10-7">
 									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act11" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act11">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using the colors</p>
+											<input type="text" class="d-none" id="points11" name="points">
+											<input type="text" class="d-none" id="idcliente11" name="idcliente">
+											<input type="text" class="d-none" id="idlibro11" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/12.jpg" alt="Colors">
+								<div class="row p-2">
+									<input type="text" autocomplete="off" class="form-control" id="input-act11-1" placeholder="...">
+								</div>
+								<div class="row p-2">
+									<input type="text" autocomplete="off" class="form-control" id="input-act11-2" placeholder="...">
+								</div>
+								<div class="row p-2">
+									<input type="text" autocomplete="off" class="form-control" id="input-act11-3" placeholder="...">
+								</div>
+								<div class="row p-2">
+									<input type="text" autocomplete="off" class="form-control" id="input-act11-4" placeholder="...">
+								</div>
+								<div class="row p-2">
+									<input type="text" autocomplete="off" class="form-control" id="input-act11-5" placeholder="...">
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act12" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act12">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the expressions of thanks and useful expressions</p>
+											<input type="text" class="d-none" id="points12" name="points">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div>
+									<input type="checkbox" id="cb12-1"><label for="cb12-1">&nbsp;Good afternoon.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb12-2"><label for="cb12-2">&nbsp;Thanks a lot.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb12-3"><label for="cb12-3">&nbsp;Turn on the computer.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb12-4"><label for="cb12-4">&nbsp;He is my father.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb12-5"><label for="cb12-5">&nbsp;You're welcome.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb12-6"><label for="cb12-6">&nbsp;His umbrella is red.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb12-7"><label for="cb12-7">&nbsp;Close the windows.</label>
 								</div>
 							</div>
 						</div>
