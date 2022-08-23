@@ -2581,8 +2581,74 @@ Book_Page::headerTemplate('Unidad 2');
             </div>
             <form method="post" id="game-34">
                 <div class="modal-body">
-                    <div class="container-fluid">
+                <div class="container-fluid">
+                        <!-- -->
+                        <div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">									
+									<div class="row">
+										<div class="col-md-12 align-items-center">
+											<p class=" ">Read again and search the following information:</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points34" name="points34">
+											<input type="text" class="d-none" id="idcliente34" name="idcliente34">
+											<input type="text" class="d-none" id="idlibro34" name="idlibro34">
+										</div>
+									</div>
 
+									<div class="col-6">
+										<div class="col">
+                                            <label for=""> Find a person: </label>
+											<input type="text" id="game-34-1" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off" 
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<div class="col">
+                                            <label for="">Find an animal: </label>
+											<input type="text" id="game-34-2" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off"
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<div class="col">
+                                            <label for="">Find his name: </label>
+											<input type="text" id="game-34-3" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off"
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<div class="col">
+                                            <label for="">Find the spelling</label>
+											<input type="text" id="game-34-4" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off"
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+                        <!-- -->
                     </div>
                     <br>
                     <!-- Botones de Control -->
@@ -2610,7 +2676,346 @@ Book_Page::headerTemplate('Unidad 2');
             <form method="post" id="game-35">
                 <div class="modal-body">
                     <div class="container-fluid">
+                        <!-- -->
+                        <div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">									
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 ">Find each word and write it on the line below</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points35" name="points35">
+											<input type="text" class="d-none" id="idcliente35" name="idcliente35">
+											<input type="text" class="d-none" id="idlibro35" name="idlibro35">
+										</div>
+									</div>
 
+									<div class="col-6">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-35/35-1.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="game-35-1" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off" 
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-35/35-2.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="game-35-2" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off"
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-35/35-3.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="game-35-3" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off"
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+									<div class="col-6">
+										<div class="col">
+											<img src="../../resources/img/BOOKS/SixthGrade/UnitOne/game/game-35/35-4.png"
+											class="rounded mx-auto d-block">
+											<input type="text" id="game-35-4" class="form-control"
+												aria-label="Sizing example input" maxlength="100"
+												placeholder=""
+												style="margin-bottom: 25px; margin-top: 25px;"
+												autocomplete="off"
+                                                onkeyup="javascript:this.value=this.value.toUpperCase();">
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+                        <!-- -->
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 35-->
+<!-- Region   44-regions.json-->
+<!-- Ejercicio 2 -->
+<div id="ModalLibroSeis35-2" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Let's Review Places, Subject Pronouns And Verbs</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-35-e2">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <!-- -->
+                        <div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">									
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="">Complete sentences in simple present, with personal pronouns and the words in the cloud.</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points35-e2" name="points35-e2">
+											<input type="text" class="d-none" id="idcliente35-e2" name="idcliente35-e2">
+											<input type="text" class="d-none" id="idlibro35-e2" name="idlibro35-e2">
+										</div>
+									</div>
+                                    <br>
+                                    <div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            1. I like to go to the mountains.
+										</div>
+									</div>
+                                    <br>
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            2.
+											    <select id="game-35-e2-1" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">I</option>
+													<option value="2">He</option>
+													<option value="3">We</option>
+												</select>
+                                                <label> have visited many</label> 
+                                                <select id="game-35-e2-2" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">places</option>
+													<option value="2">lake</option>
+													<option value="3">water</option>
+												</select>
+                                                <label>.</label> 
+										</div>
+									</div>
+                                    <br>
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            3.
+											    <select id="game-35-e2-3" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">I</option>
+													<option value="2">He</option>
+													<option value="3">We</option>
+												</select>
+                                                <label> like to</label> 
+                                                <select id="game-35-e2-4" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">places</option>
+													<option value="2">read</option>
+													<option value="3">go</option>
+												</select>
+                                                <label>.</label> 
+										</div>
+									</div>
+                                    <br>  
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            4.
+											    <select id="game-35-e2-5" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">I</option>
+													<option value="2">He</option>
+													<option value="3">We</option>
+												</select>
+                                                <label> doesn't</label> 
+                                                <select id="game-35-e2-6" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">beach</option>
+													<option value="2">like</option>
+													<option value="3">lake</option>
+												</select>
+                                                <label>sports.</label> 
+										</div>
+									</div>
+                                    <br>
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            5.
+											    <select id="game-35-e2-7" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">I</option>
+													<option value="2">He</option>
+													<option value="3">We</option>
+												</select>
+                                                <label> enjoy</label> 
+                                                <select id="game-35-e2-8" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">drive</option>
+													<option value="2">like</option>
+													<option value="3">movies</option>
+												</select>
+                                                <label>.</label> 
+										</div>
+									</div>
+                                     <br>
+                                    <div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            6.
+											    <select id="game-35-e2-9" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">They</option>
+													<option value="2">He</option>
+													<option value="3">We</option>
+												</select>
+                                                <label> are on </label> 
+                                                <select id="game-35-e2-10" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">places</option>
+													<option value="2">lake</option>
+													<option value="3">vacations</option>
+												</select>
+                                                <label>.</label> 
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                        <!-- -->
+                    </div>
+                    <br>
+                    <!-- Botones de Control -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn waves-effect blue tooltipped" data-tooltip="Guardar">Submit</button>
+                        <br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Pagina Libro 35-->
+<!-- Region   44-regions.json-->
+<!-- Ejercicio 3 -->
+<div id="ModalLibroSeis35-3" class="modal fade" tabindex="-2">
+    <!-- <div class="container-fluid"> -->
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Let's Review Places, Subject Pronouns And Verbs</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" id="game-35-e3">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <!-- -->
+                        <div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">									
+									<div class="row">
+										<div class="col-md-12 align-items-center">
+											<p class="">Complete sentences using the forms of the verb TO BE.</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points35-e3" name="points35-e3">
+											<input type="text" class="d-none" id="idcliente35-e3" name="idcliente35-e3">
+											<input type="text" class="d-none" id="idlibro35-e3" name="idlibro35-e3">
+										</div>
+									</div>
+                                    <br>
+                                    <div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            1. It's a computer.
+										</div>
+									</div>
+                                    <br>
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            2. I
+											    <select id="game-35-e3-1" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">'m</option>
+													<option value="2">are</option>
+													<option value="3">was</option>
+												</select>
+                                                <label> a good student.</label> 
+										</div>
+									</div>
+                                    <br>
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            3. They
+											    <select id="game-35-e3-2" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">am</option>
+													<option value="2">are</option>
+													<option value="3">is</option>
+												</select>
+                                                <label> my friends.</label> 
+										</div>
+									</div>
+                                    <br>  
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            4. We
+											    <select id="game-35-e3-3" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">am</option>
+													<option value="2">was</option>
+													<option value="3">were</option>
+												</select>
+                                                <label> at school yesterday.</label> 
+										</div>
+									</div>
+                                    <br>
+									<div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            5. He
+											    <select id="game-35-e3-4" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">are</option>
+													<option value="2">am</option>
+													<option value="3">was</option>
+												</select>
+                                                <label> in class.</label> 
+										</div>
+									</div>
+                                     <br>
+                                    <div class="col-6">
+										<div class="col d-flex  align-items-center">
+                                            6. She
+											    <select id="game-35-e3-5" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">'s</option>
+													<option value="2">are</option>
+													<option value="3">were</option>
+												</select>
+                                                <label> my English teacher. </label> 
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                        <!-- -->
                     </div>
                     <br>
                     <!-- Botones de Control -->

@@ -2308,6 +2308,268 @@ document.getElementById("game-20").addEventListener("submit", function (event) {
   return true;
 });
 /**************************************************
+ ******************** GAME 34 **********************
+ **************************************************/
+ document.getElementById('game-34').addEventListener('submit', function (event) {
+  //Se asignan los puntos que vale la actividad
+  let valorActividad = 1/4;
+
+  //Se evita recargar la página al enviar el formulario
+  event.preventDefault();
+
+  //Arreglos para guardar las respuestas y los datos ingresados
+  let respuestas = ["FARMER", "DOG", "BINGO", "B-I-N-G-O"];
+  let inputs = [];
+
+  //Se obtienen los datos ingresados y se ingresan en inputs[]
+  for (let i = 0; i < respuestas.length; i++) {
+      inputs[i] = document.getElementById('game-34-' + (i + 1)).value;
+  }
+
+  // declaración de condicionales 
+  if (inputs.includes("0")  || inputs.length != 4 ) {
+      sweetAlert(2, 'Complete the missing fields', null);
+      return false;
+  } else {
+      //variable para obtener la cantidad de respuestas correctas
+      var conteo = 0;
+
+      //Se comparan las respuestas con los datos ingresados
+      for (let i = 0; i < respuestas.length; i++) {
+          if (respuestas[i] == inputs[i]) {
+              conteo++;
+          }
+
+      }
+
+      //Se revisa si todas las respuestas son correctas
+      if (conteo == respuestas.length) {
+          var libro = 6;
+          document.getElementById('idcliente34').value = users.value;
+          document.getElementById('points34').value = valorActividad;
+          document.getElementById('idlibro34').value = libro;
+
+          action = 'create35';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(1, 'Good job!', null);
+          //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      } else {
+          //Se asigna el puntaje basado en las respuestas correctas
+          let puntaje = valorActividad / respuestas.length;
+          let points = (puntaje * conteo).toFixed(2);
+          var libro = 6;
+          document.getElementById('idcliente34').value = users.value;
+          document.getElementById('points34').value = points;
+          document.getElementById('idlibro34').value = libro;
+          action = 'create';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+         //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      }
+  }
+
+});
+
+
+/**************************************************
+ ******************** GAME 35 **********************
+ **************************************************/
+ document.getElementById('game-35').addEventListener('submit', function (event) {
+  //Se asignan los puntos que vale la actividad
+  let valorActividad = 1/4;
+
+  //Se evita recargar la página al enviar el formulario
+  event.preventDefault();
+
+  //Arreglos para guardar las respuestas y los datos ingresados
+  let respuestas = ["BEACHES", "SURFERS", "VOLCANOES", "HONESTY"];
+  let inputs = [];
+
+  //Se obtienen los datos ingresados y se ingresan en inputs[]
+  for (let i = 0; i < respuestas.length; i++) {
+      inputs[i] = document.getElementById('game-35-' + (i + 1)).value;
+  }
+
+  // declaración de condicionales 
+  if (inputs.includes("0")  || inputs.length != 4 ) {
+      sweetAlert(2, 'Complete the missing fields', null);
+      return false;
+  } else {
+      //variable para obtener la cantidad de respuestas correctas
+      var conteo = 0;
+
+      //Se comparan las respuestas con los datos ingresados
+      for (let i = 0; i < respuestas.length; i++) {
+          if (respuestas[i] == inputs[i]) {
+              conteo++;
+          }
+
+      }
+
+      //Se revisa si todas las respuestas son correctas
+      if (conteo == respuestas.length) {
+          var libro = 6;
+          document.getElementById('idcliente35').value = users.value;
+          document.getElementById('points35').value = valorActividad;
+          document.getElementById('idlibro35').value = libro;
+
+          action = 'create35';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(1, 'Good job!', null);
+          //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      } else {
+          //Se asigna el puntaje basado en las respuestas correctas
+          let puntaje = valorActividad / respuestas.length;
+          let points = (puntaje * conteo).toFixed(2);
+          var libro = 6;
+          document.getElementById('idcliente35').value = users.value;
+          document.getElementById('points35').value = points;
+          document.getElementById('idlibro35').value = libro;
+          action = 'create';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+         //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      }
+  }
+
+});
+ /**************************************************
+ ******************** GAME 35-e2 **********************
+ **************************************************/
+ document.getElementById('game-35-e2').addEventListener('submit', function (event) {
+  //Se asignan los puntos que vale la actividad
+  let valorActividad = 1/10;
+
+  //Se evita recargar la página al enviar el formulario
+  event.preventDefault();
+
+  //Arreglos para guardar las respuestas y los datos ingresados
+  let respuestas = ["1", "1",  "1","2",  "2", "2" , "3","3",  "1", "3" ];
+  let inputs = [];
+
+  //Se obtienen los datos ingresados y se ingresan en inputs[]
+  for (let i = 0; i < respuestas.length; i++) {
+      inputs[i] = document.getElementById('game-35-e2-' + (i + 1)).value;
+     // console.log(inputs[i]);
+  }
+
+  // declaración de condicionales 
+  if (inputs.includes("0")  ) {
+      sweetAlert(2, 'Complete the missing fields', null);
+      return false;
+  } else {
+      //variable para obtener la cantidad de respuestas correctas
+      var conteo = 0;
+
+      //Se comparan las respuestas con los datos ingresados
+      for (let i = 0; i < respuestas.length; i++) {
+          if (respuestas[i] == inputs[i]) {
+              conteo++;
+          }
+
+      }
+
+      //Se revisa si todas las respuestas son correctas
+      if (conteo == respuestas.length) {
+          var libro = 6;
+          document.getElementById('idcliente35-e2').value = users.value;
+          document.getElementById('points35-e2').value = valorActividad;
+          document.getElementById('idlibro35-e2').value = libro;
+
+          action = 'create35-e2';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(1, 'Good job!', null);
+          //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      } else {
+          //Se asigna el puntaje basado en las respuestas correctas
+          let puntaje = valorActividad / respuestas.length;
+          let points = (puntaje * conteo).toFixed(2);
+          var libro = 6;
+          document.getElementById('idcliente35-e2').value = users.value;
+          document.getElementById('points35-e2').value = points;
+          document.getElementById('idlibro35-e2').value = libro;
+          action = 'create';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+         //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      }
+  }
+
+});
+
+ /**************************************************
+ ******************** GAME 35-e3 **********************
+ **************************************************/
+ document.getElementById('game-35-e3').addEventListener('submit', function (event) {
+  //Se asignan los puntos que vale la actividad
+  let valorActividad = 1/5;
+
+  //Se evita recargar la página al enviar el formulario
+  event.preventDefault();
+
+  //Arreglos para guardar las respuestas y los datos ingresados
+  let respuestas = ["1", "2",  "3","3",  "1"];
+  let inputs = [];
+
+  //Se obtienen los datos ingresados y se ingresan en inputs[]
+  for (let i = 0; i < respuestas.length; i++) {
+      inputs[i] = document.getElementById('game-35-e3-' + (i + 1)).value;
+     // console.log(inputs[i]);
+  }
+
+  // declaración de condicionales 
+  if (inputs.includes("0")  ) {
+      sweetAlert(2, 'Complete the missing fields', null);
+      return false;
+  } else {
+      //variable para obtener la cantidad de respuestas correctas
+      var conteo = 0;
+
+      //Se comparan las respuestas con los datos ingresados
+      for (let i = 0; i < respuestas.length; i++) {
+          if (respuestas[i] == inputs[i]) {
+              conteo++;
+          }
+
+      }
+
+      //Se revisa si todas las respuestas son correctas
+      if (conteo == respuestas.length) {
+          var libro = 6;
+          document.getElementById('idcliente35-e3').value = users.value;
+          document.getElementById('points35-e3').value = valorActividad;
+          document.getElementById('idlibro35-e3').value = libro;
+
+          action = 'create35-e2';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(1, 'Good job!', null);
+          //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      } else {
+          //Se asigna el puntaje basado en las respuestas correctas
+          let puntaje = valorActividad / respuestas.length;
+          let points = (puntaje * conteo).toFixed(2);
+          var libro = 6;
+          document.getElementById('idcliente35-e3').value = users.value;
+          document.getElementById('points35-e3').value = points;
+          document.getElementById('idlibro35-e3').value = libro;
+          action = 'create';
+          //saveRowActivity(API_ACTIVIDADES, action, 'unit1-act1', 'modal');
+          sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+         //$('#ModalUnit1Act1').modal('hide');
+          return true;
+      }
+  }
+
+});
+
+/**************************************************
  ******************** GAME 36 **********************
  **************************************************/
 /**
