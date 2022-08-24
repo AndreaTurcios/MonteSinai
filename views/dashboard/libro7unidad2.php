@@ -151,7 +151,7 @@ Book_Page::headerTemplate('Unidad 2');
 
 			// The number of pages,
 
-			pages: 32,
+			pages: 19,
 
 			// Events
 
@@ -1513,7 +1513,6 @@ Book_Page::headerTemplate('Unidad 2');
 	</div>
 </div>
 
-
 <div id="ModalUnit2Act10" class="modal fade" tabindex="-4">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
@@ -1801,6 +1800,1017 @@ Book_Page::headerTemplate('Unidad 2');
 								</div>
 								<div>
 									<input type="checkbox" id="cb12-7"><label for="cb12-7">&nbsp;Close the windows.</label>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act13" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act13">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the indefinite articles: A, An</p>
+											<input type="text" class="d-none" id="points13" name="points">
+											<input type="text" class="d-none" id="idcliente13" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">There is </p>
+												<select id="select-act13-1" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> bird on the window.</p>
+										</div>
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;"> This is</p>
+												<select id="select-act13-2" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> green notebook.</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">Can you go buy</p>
+												<select id="select-act13-3" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> avocado?</p>
+										</div>
+										<div class="col-6 pe-3">
+												<select id="select-act13-4" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">A</option>
+													<option value="2">An</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> dog is barking.</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;"> I have</p>
+												<select id="select-act13-5" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> orange shirt.</p>
+										</div>
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;"> Chop</p>
+												<select id="select-act13-6" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> onion.</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">I found</p>
+												<select id="select-act13-7" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;">ruler on my desk.</p>
+										</div>
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">This is</p>
+												<select id="select-act13-8" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> amazing day.</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;"> Remember to bring</p>
+												<select id="select-act13-9" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> umbrella.</p>
+										</div>
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;"> I want to eat </p>
+												<select id="select-act13-10" class="form-select" style="width:auto; display: inline-block;" >
+													<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+													<option value="1">a</option>
+													<option value="2">an</option>
+												</select> 
+											<p class="text-justify" style="display: inline;"> pizza.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act14" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act14">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the correct plural of the word in parenthesis</p>
+											<input type="text" class="d-none" id="points14" name="points">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">I can't find my </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act14-1" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">. (key)</p>
+										</div>
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">Look at my new</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act14-2" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">. (pencil)</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">I have three</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act14-3" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">. (cat)</p>
+										</div>
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">The </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act14-4" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">are playing in the park. (child)</p>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">She has two</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act14-5" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">. (bunny)</p>
+										</div>
+										<div class="col-6 pe-3">
+											<p class="text-justify" style="display: inline;">There are ten </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act14-6" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">in the classroom. (desk)</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalUnit2Act15" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act15">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points15" name="points">
+											<input type="text" class="d-none" id="idcliente15" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<style type="text/css">
+									/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+									/* Reset defaults */
+									* {
+										margin: 0;
+										padding: 0;
+										border: 0;
+										outline: 0;
+										font-size: 100%;
+										vertical-align: baseline;
+									}
+									html {
+									font-family: "Roboto";
+									}
+									header {
+									margin: auto;
+									padding-top: 15px;
+									padding-bottom: 50px;
+									}
+									.grid {
+									display: grid;
+									grid-template-columns: 30% 30% 30%;
+									justify-content: center;	
+									margin-top: 30px;
+									}
+									h1 {
+									color: rgba(0, 0, 0, 0.7.5);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									text-align: center;
+									}
+
+									header p {
+									color: rgba(0, 0, 0, 0.6);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.2px;
+									text-align: center;
+									margin-bottom: 30px;
+									}
+
+									.colorPickerWrapper, .strokeWidthPickerWrapper {
+									text-align: center;
+									}
+									.colorPickerWrapper input {
+									width: 75px;
+									}
+									.container {
+									width: 100%;
+									margin: auto;
+									text-align: center;
+									}
+
+									#canvas2 {
+									background-color: #F8F8F8;
+									}
+
+									.color, .stroke, .clear {
+									justify-self: center;
+									}
+
+									#clearBtn {
+									color: white;
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									padding: 10px 50px;
+									background-color: #55D0ED;
+									border-radius: 10px;
+									text-decoration: none;
+									}
+								</style>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What are colors?</b></p>
+                                        <select id="select-act15-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Forms of non-verbal communication that have symbolism and meanings that go beyond ink.</option>
+                                            <option value="2">Words used before singular nouns that refer to any member of a group.</option>
+                                            <option value="3">Sentences used in order to show appreciation to classmates.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is an indefinite article?</b></p>
+                                        <select id="select-act15-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">A form of non-verbal communication that have symbolism and meanings that go beyond ink.</option>
+                                            <option value="2">A word used before singular nouns that refer to any member of a group.</option>
+                                            <option value="3">A sentence used in order to show appreciation to classmates.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Write the correct plural for the word in parenthesis</b></p>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">Who are your </p>
+													<input type="text" autocomplete="off" class="form-control" id="input-act15-1" placeholder="..." style="width:100px; display: inline-block;"> 
+												<p class="text-justify" style="display: inline;">? (teacher)</p>
+											</div>
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">I bought three</p>
+													<input type="text" autocomplete="off" class="form-control" id="input-act15-2" placeholder="..." style="width:100px; display: inline-block;"> 
+												<p class="text-justify" style="display: inline;">. (apple)</p>
+											</div>
+										</div>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">There are two new</p>
+													<input type="text" autocomplete="off" class="form-control" id="input-act15-3" placeholder="..." style="width:100px; display: inline-block;"> 
+												<p class="text-justify" style="display: inline;"> in the city. (library)</p>
+											</div>
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">The </p>
+													<input type="text" autocomplete="off" class="form-control" id="input-act15-4" placeholder="..." style="width:100px; display: inline-block;"> 
+												<p class="text-justify" style="display: inline;">are eating cake. (child)</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Write sentences using the color indicated</b></p>
+										<div class="row row-cols-2" >
+											<div class="col">
+												<div class="row">
+													<div class="col-2" style="border-radius:100%; background-color: red; height:30px; width: 35px;"></div>
+													<div style="display: inline-block;" class="col-10">
+														<input  type="text" autocomplete="off" class="form-control" id="input-act15-5" placeholder="...">
+													</div>
+												</div>
+											</div>
+											<div class="col">
+												<div class="row">
+													<div class="col-2" style="border-radius:100%; background-color: blue; height:30px; width: 35px;"></div>
+													<div style="display: inline-block;" class="col-10">
+														<input  type="text" autocomplete="off" class="form-control" id="input-act15-6" placeholder="...">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row row-cols-2" >
+											<div class="col">
+												<div class="row">
+													<div class="col-2" style="border-radius:100%; background-color: orange; height:30px; width: 35px;"></div>
+													<div style="display: inline-block;" class="col-10">
+														<input  type="text" autocomplete="off" class="form-control" id="input-act15-7" placeholder="...">
+													</div>
+												</div>
+											</div>
+											<div class="col">
+												<div class="row">
+													<div class="col-2" style="border-radius:100%; background-color: green; height:30px; width: 35px;"></div>
+													<div style="display: inline-block;" class="col-10">
+														<input  type="text" autocomplete="off" class="form-control" id="input-act15-8" placeholder="...">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show gratitude to someone?</b></p>
+                                        <select id="select-act15-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">By not saying anything when someone offers their help.</option>
+                                            <option value="2">Thanking someone when they help me.</option>
+                                            <option value="3">Looking away from the person we are talking to.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How can we begin a nice friendship?</b></p>
+                                        <select id="select-act15-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">By laughing at other people's mistakes.</option>
+                                            <option value="2">By not saying thanks.</option>
+                                            <option value="3">By being polite and showing gratitude.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Could you create a mental map of the colors reflected in a rainbow?</b></p>
+                                        <header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<input type="number" value="0" id="verify-canvas" class="d-none">
+												<canvas id="canvas2" width="500" height="500">
+
+												</canvas>
+											</div>
+										</header>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. Could you explore in a garden: the names of different flowers, their colors and write them?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act15-9">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Librerias para el Canvas -->
+					<script src="https://s.cdpn.io/6859/paper.js"></script>
+        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+					<!-- contenido  -->
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act16" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act16">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is a possessive adjectives?</b></p>
+                                        <select id="select-act16-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">An object used by students and teachers to interact using this material.</option>
+                                            <option value="2">A sentence used in order to show appreciation to classmates.</option>
+                                            <option value="3">A part of speech that modifies a noun by attributing possession to someone or something.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is an expression of thanks?</b></p>
+                                        <select id="select-act16-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">An object used by students and teachers to interact using this material.</option>
+                                            <option value="2">A sentence used in order to show appreciation to classmates.</option>
+                                            <option value="3">A part of speech that modifies a noun by attributing possession to someone or something.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Select the classroom commands</b></p>
+										<select id="select-act16-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">I have two dogs.</option>
+                                            <option value="2">Turn off the lights.</option>
+                                            <option value="3">Who is your teacher?</option>
+                                        </select>
+										<br>
+										<select id="select-act16-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Draw a line under the word.</option>
+                                            <option value="2">That is her eraser.</option>
+                                            <option value="3">This is my new car.</option>
+                                        </select>
+										<br>
+										<select id="select-act16-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Her dress is orange.</option>
+                                            <option value="2">Thank you very much.</option>
+                                            <option value="3">Take out your book.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Complete the sentences using "a" or "an"</b></p>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">That is </p>
+													<select id="select-act16-6" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">a</option>
+														<option value="2">an</option>
+													</select> 
+												<p class="text-justify" style="display: inline;"> red heart.</p>
+											</div>
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;"> This is</p>
+													<select id="select-act16-7" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">a</option>
+														<option value="2">an</option>
+													</select> 
+												<p class="text-justify" style="display: inline;"> delicious apple.</p>
+											</div>
+										</div>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+													<select id="select-act16-8" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">A</option>
+														<option value="2">An</option>
+													</select> 
+												<p class="text-justify" style="display: inline;"> student is running.</p>
+											</div>
+											<div class="col-6 pe-3">
+													<select id="select-act16-9" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">A</option>
+														<option value="2">An</option>
+													</select> 
+												<p class="text-justify" style="display: inline;"> old man is praying.</p>
+											</div>
+										</div>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+													<select id="select-act16-10" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">A</option>
+														<option value="2">An</option>
+													</select> 
+												<p class="text-justify" style="display: inline;"> eraser is on the table.</p>
+											</div>
+											<div class="col-6 pe-3">
+													<select id="select-act16-11" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">A</option>
+														<option value="2">An</option>
+													</select> 
+												<p class="text-justify" style="display: inline;"> teacher is talking.</p>
+											</div>
+										</div>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">Those girls read</p>
+													<select id="select-act16-12" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">a</option>
+														<option value="2">an</option>
+													</select> 
+												<p class="text-justify" style="display: inline;">magazine.</p>
+											</div>
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">The boy has</p>
+													<select id="select-act16-13" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">a</option>
+														<option value="2">an</option>
+													</select> 
+												<p class="text-justify" style="display: inline;">orange.</p>
+											</div>
+										</div>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;"> This is </p>
+													<select id="select-act16-14" class="form-select" style="width:auto; display: inline-block;" >
+														<option value="0" selected disabled class="text-muted" style="color: white;"></option>
+														<option value="1">a</option>
+														<option value="2">an</option>
+													</select> 
+												<p class="text-justify" style="display: inline;"> orange notebook.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show respect when talking?</b></p>
+                                        <select id="select-act16-15" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Ignoring the other person.</option>
+                                            <option value="2">Paying attention to the other person.</option>
+                                            <option value="3">Looking away from the person we are talking to.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How can you follow the class behavior code?</b></p>
+                                        <select id="select-act16-16" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Not cooperating with our peers.</option>
+                                            <option value="2">Being disrespectful and unpunctual.</option>
+                                            <option value="3">Dressing correctly, being punctual, prepared and respectful.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. How could you generate ideas to improve the class behaviour code?</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act16-1">
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How could you work in the class behaviour code to fortify the respect by the diversity?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act16-2">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit2Act17" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit2-act17">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points17" name="points">
+											<input type="text" class="d-none" id="idcliente17" name="idcliente">
+											<input type="text" class="d-none" id="idlibro17" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<style type="text/css">
+									/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+									/* Reset defaults */
+									* {
+										margin: 0;
+										padding: 0;
+										border: 0;
+										outline: 0;
+										font-size: 100%;
+										vertical-align: baseline;
+									}
+									html {
+									font-family: "Roboto";
+									}
+									header {
+									margin: auto;
+									padding-top: 15px;
+									padding-bottom: 50px;
+									}
+									.grid {
+									display: grid;
+									grid-template-columns: 30% 30% 30%;
+									justify-content: center;	
+									margin-top: 30px;
+									}
+									h1 {
+									color: rgba(0, 0, 0, 0.7.5);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									text-align: center;
+									}
+
+									header p {
+									color: rgba(0, 0, 0, 0.6);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.2px;
+									text-align: center;
+									margin-bottom: 30px;
+									}
+
+									.colorPickerWrapper, .strokeWidthPickerWrapper {
+									text-align: center;
+									}
+									.colorPickerWrapper input {
+									width: 75px;
+									}
+									.container {
+									width: 100%;
+									margin: auto;
+									text-align: center;
+									}
+
+									#canvas3 {
+									background-color: #F8F8F8;
+									}
+
+									.color, .stroke, .clear {
+									justify-self: center;
+									}
+
+									#clearBtn2 {
+									color: white;
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									padding: 10px 50px;
+									background-color: #55D0ED;
+									border-radius: 10px;
+									text-decoration: none;
+									}
+								</style>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is the difference between singular or plural nouns?</b></p>
+                                        <select id="select-act17-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">The plural nouns are formed when we refer to more than one.</option>
+                                            <option value="2">The singular nouns are formed when we refer to more than one.</option>
+                                            <option value="3">The plural nouns are formred when we refer to only one.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. Write the plural of the following nouns</b></p>
+                                        <div class="row mb-4">
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">Teacher: </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act17-1" placeholder="..." style="width:100px; display: inline-block;"> 
+											</div>
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">Child: </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act17-2" placeholder="..." style="width:100px; display: inline-block;"> 
+											</div>
+										</div>
+										<div class="row mb-4">
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">Apple:</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act17-3" placeholder="..." style="width:100px; display: inline-block;"> 
+											</div>
+											<div class="col-6 pe-3">
+												<p class="text-justify" style="display: inline;">Library: </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act17-4" placeholder="..." style="width:100px; display: inline-block;"> 
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Write the names of the personal items</b></p>
+										<table class="table">
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-1.jpg" alt="Shirt"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act17-5">
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-2.jpg" alt="Umbrella"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act17-6" >
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-3.jpg" alt="Shoes"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act17-7" >
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-4.jpg" alt="Calculator"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act17-8">
+													</div>
+												</td>									
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitTwo/activities/7-5.jpg" alt="Keys"></td>
+												<td>
+													<div class="d-flex align-items-center">
+														<input type="text" autocomplete="off" class="form-control" id="input-act17-9">
+													</div>
+												</td>									
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the correct wh- question</b></p>
+										<div class="row row-cols-2 p-4">
+											<div class="col d-flex align-items-center">
+												<select id="select-act17-2" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">Where</option>
+													<option value="2">Why</option>
+													<option value="3">What</option>
+												</select>
+												<label>is your new book about?</label>
+											</div>
+											<div class="col d-flex align-items-center">
+												<select id="select-act17-3" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">Who</option>
+													<option value="2">When</option>
+													<option value="3">How</option>
+												</select>
+												<label>are you playing with?</label>
+											</div>
+										</div>
+										<div class="row row-cols-2 p-4">
+											<div class="col d-flex align-items-center">
+												<select id="select-act17-4" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">Who</option>
+													<option value="2">When</option>
+													<option value="3">How</option>
+												</select>
+												<label>are you going on vacation?</label>
+											</div>
+											<div class="col d-flex align-items-center">
+												<select id="select-act17-5" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">Where</option>
+													<option value="2">Why</option>
+													<option value="3">What</option>
+												</select>
+												<label>is your name?</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show respect when talking?</b></p>
+                                        <select id="select-act17-6" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Ignoring the other person.</option>
+                                            <option value="2">By being polite and not forceful.</option>
+                                            <option value="3">Looking away from the person we are talking to.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How can you follow the class behavior code?</b></p>
+                                        <select id="select-act17-7" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Not cooperating with our peers.</option>
+                                            <option value="2">Being disrespectful and unpunctual.</option>
+                                            <option value="3">Paying attention to my teacher and being responsible.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Are you able to create a mental map of the singular and plural of nouns?</b></p>
+										<header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker2" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn2">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<canvas id="canvas3" width="500" height="500">
+
+												</canvas>
+											</div>
+										</header>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How could you behave in order to take care of your classmates' personal items?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act17-10">
+									</div>
 								</div>
 							</div>
 						</div>
