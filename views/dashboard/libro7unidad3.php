@@ -1137,7 +1137,7 @@ Book_Page::headerTemplate('Unidad 3');
 									text-align: center;
 									}
 
-									#canvas2 {
+									#canvas2, #canvas3 {
 									background-color: #F8F8F8;
 									}
 
@@ -1145,7 +1145,7 @@ Book_Page::headerTemplate('Unidad 3');
 									justify-self: center;
 									}
 
-									#clearBtn {
+									#clearBtn, #clearBtn2 {
 									color: white;
 									font-size: 16px;
 									font-weight: 700;
@@ -1326,6 +1326,773 @@ Book_Page::headerTemplate('Unidad 3');
 								<div>
 									<input type="checkbox" id="cb9-7"><label for="cb9-7">&nbsp;Melvin's shoes are green.</label>
 								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act10" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act10">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct answer</p>
+											<input type="text" class="d-none" id="points10" name="points">
+											<input type="text" class="d-none" id="idcliente10" name="idcliente">
+											<input type="text" class="d-none" id="idlibro10" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label> My dad is dark</label>
+									<select id="select-act10-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">wavy</option>
+                                        <option value="2">skin</option>
+                                        <option value="3">tall</option>
+                                    </select>
+									<label>.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>My mother's hair is</label>
+									<select id="select-act10-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">wavy</option>
+                                        <option value="2">skin</option>
+                                        <option value="3">tall</option>
+                                    </select>
+									<label>.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>My brother is </label>
+									<select id="select-act10-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">elegant</option>
+                                        <option value="2">strong</option>
+                                        <option value="3">eyes</option>
+                                    </select>
+									<label>, he can lift heavy things.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>My sister has blue</label>
+									<select id="select-act10-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">elegant</option>
+                                        <option value="2">strong</option>
+                                        <option value="3">eyes</option>
+                                    </select>
+									<label>.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>Katherine has an</label>
+									<select id="select-act10-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">elegant</option>
+                                        <option value="2">strong</option>
+                                        <option value="3">eyes</option>
+                                    </select>
+									<label>nose.</label>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act11" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act11">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points11" name="points">
+											<input type="text" class="d-none" id="idcliente11" name="idcliente">
+											<input type="text" class="d-none" id="idlibro11" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is a physical description?</b></p>
+                                        <select id="select-act11-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">It shows possession.</option>
+                                            <option value="2">It expresses main physical characteristics of a person.</option>
+                                            <option value="3">It is the length of time a person has existed.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is the genitive case 's?</b></p>
+                                        <select id="select-act11-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">It shows possession.</option>
+                                            <option value="2">It expresses main physical characteristics of a person.</option>
+                                            <option value="3">It is the length of time a person has existed.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Write sentences with your family ties</b></p>
+										<div class="d-flex align-items-center mb-3">
+											<input type="text" autocomplete="off" class="form-control me-1" id="input-act11-1" placeholder="...">
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<input type="text" autocomplete="off" class="form-control me-1" id="input-act11-2" placeholder="...">
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<input type="text" autocomplete="off" class="form-control me-1" id="input-act11-3" placeholder="...">
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Draw your family tree</b></p>
+										<header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker2" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn2">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<input type="number" value="0" id="verify-canvas" class="d-none">
+												<canvas id="canvas3" width="500" height="500">
+												</canvas>
+											</div>
+										</header>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you be loyal to your family members?</b></p>
+                                        <select id="select-act11-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Talking bad about them.</option>
+                                            <option value="2">Refusing to help when they need it.</option>
+                                            <option value="3">Showing a commitment of an obligation in benefit of them.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How do you prevent the use of pejorative language?</b></p>
+                                        <select id="select-act11-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Helping them and understanding their point of view.</option>
+                                            <option value="2">Avoiding talking bad about other people.</option>
+                                            <option value="3">Behaving rudely.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. How could you create a mental map of your family tree?</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act11-4">
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How can you apply justice and prevent the use of pejorative language with your family?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act11-5">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Librerias para el Canvas -->
+					<script src="https://s.cdpn.io/6859/paper.js"></script>
+        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act12" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act12">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the physical descriptions and adjectives to describe emotions</p>
+											<input type="text" class="d-none" id="points12" name="points">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-3">
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb12-1"><label for="cb12-1">&nbsp;Green</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-2"><label for="cb12-2">&nbsp;Upset</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-3"><label for="cb12-3">&nbsp;Fatigue</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-4"><label for="cb12-4">&nbsp;Eyes</label>
+										</div>
+									</div>
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb12-8"><label for="cb12-8">&nbsp;Lack of appetite</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-9"><label for="cb12-9">&nbsp;Short</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-10"><label for="cb12-10">&nbsp;Excitement</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-11"><label for="cb12-11">&nbsp;Hair</label>
+										</div>
+									</div>
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb12-5"><label for="cb12-5">&nbsp;Tense</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-6"><label for="cb12-6">&nbsp;Elegant</label>
+										</div>
+										<div>
+											<input type="checkbox" id="cb12-7"><label for="cb12-7">&nbsp;Enthusiasm</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act13" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act13">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct use of the past tense of the verb "to be"</p>
+											<input type="text" class="d-none" id="points13" name="points">
+											<input type="text" class="d-none" id="idcliente13" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>She</label>
+									<select id="select-act13-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">was</option>
+                                        <option value="2">were</option>
+                                    </select>
+									<label>cleaning her room.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>My mother</label>
+									<select id="select-act13-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">was</option>
+                                        <option value="2">were</option>
+                                    </select>
+									<label> in the mall an hour ago.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>The children  </label>
+									<select id="select-act13-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">was</option>
+                                        <option value="2">were</option>
+                                    </select>
+									<label> playing in the park.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>The teachers </label>
+									<select id="select-act13-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">was</option>
+                                        <option value="2">were</option>
+                                    </select>
+									<label>preparing their classes.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>Katherine </label>
+									<select id="select-act13-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">was</option>
+                                        <option value="2">were</option>
+                                    </select>
+									<label>playing marbles at recess.</label>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act14" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act14">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct answer</p>
+											<input type="text" class="d-none" id="points14" name="points">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>What</label>
+									<select id="select-act14-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">does</option>
+                                        <option value="2">do</option>
+                                    </select>
+									<label>your father do? He works as a lawyer.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<select id="select-act14-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">Does</option>
+                                        <option value="2">Do</option>
+                                    </select>
+									<label> you know the answer for question 1? Yes, it's letter c.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<select id="select-act14-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">Does</option>
+                                        <option value="2">Do</option>
+                                    </select>
+									<label> your siblings watch the news? No, they don't.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<select id="select-act14-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">Does</option>
+                                        <option value="2">Do</option>
+                                    </select>
+									<label>Victor eat meat? No, he doesn't.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<select id="select-act14-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">Does</option>
+                                        <option value="2">Do</option>
+                                    </select>
+									<label>they play soccer? Yes, they do.</label>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act15" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act15">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write sentences using the adjectives</p>
+											<input type="text" class="d-none" id="points15" name="points">
+											<input type="text" class="d-none" id="idcliente15" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<img src="../../resources/img/BOOKS/SeventhGrade/UnitThree/activities/16.jpg">
+								<div class="d-flex align-items-center mb-3">
+									<input type="text" autocomplete="off" class="form-control me-1" id="input-act15-1" placeholder="...">
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<input type="text" autocomplete="off" class="form-control me-1" id="input-act15-2" placeholder="...">
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<input type="text" autocomplete="off" class="form-control me-1" id="input-act15-3" placeholder="...">
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<input type="text" autocomplete="off" class="form-control me-1" id="input-act15-4" placeholder="...">
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<input type="text" autocomplete="off" class="form-control me-1" id="input-act15-5" placeholder="...">
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<input type="text" autocomplete="off" class="form-control me-1" id="input-act15-6" placeholder="...">
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act16" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act16">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is an adjective?</b></p>
+                                        <select id="select-act16-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">A tense that describes something that happened in the past.</option>
+                                            <option value="2">An emotion that lasts longer.</option>
+                                            <option value="3">A word used to to describe nouns.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is a mood?</b></p>
+                                        <select id="select-act16-2" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">A tense that describes something that happened in the past.</option>
+                                            <option value="2">An emotion that lasts longer.</option>
+                                            <option value="3">A word used to to describe nouns.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Write sentences of family members</b></p>
+										<div class="col-4">
+											<img src="../../resources/img/BOOKS/SeventhGrade/UnitThree/activities/16.jpg">
+										</div>
+										<div class="col-8">
+											<div class="d-flex align-items-center mb-3">
+												<input type="text" autocomplete="off" class="form-control me-1" id="input-act16-1" placeholder="...">
+											</div>
+											<div class="d-flex align-items-center mb-3">
+												<input type="text" autocomplete="off" class="form-control me-1" id="input-act16-2" placeholder="...">
+											</div>
+											<div class="d-flex align-items-center mb-3">
+												<input type="text" autocomplete="off" class="form-control me-1" id="input-act16-3" placeholder="...">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the correct past tense of the verb "to be"</b></p>
+										<div class="d-flex align-items-center mb-3">
+											<label>What</label>
+											<select id="select-act16-3" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">does</option>
+												<option value="2">do</option>
+											</select>
+											<label>you do on weekends? I go to the mall.</label>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<select id="select-act16-4" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">Does</option>
+												<option value="2">Do</option>
+											</select>
+											<label> your mother know you are here? Yes, she knows.</label>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<select id="select-act16-5" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">Does</option>
+												<option value="2">Do</option>
+											</select>
+											<label> you study English? Yes, I do.</label>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show interest in the information of family members?</b></p>
+                                        <select id="select-act16-6" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Showing respect for the essential humanity in every person.</option>
+                                            <option value="2">Maintaining eye contact and smiling.</option>
+                                            <option value="3">Showing a commitment of an obligation in benefit of them.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How can you show tolerance to others' reactions?</b></p>
+                                        <select id="select-act16-7" class="ms-1 me-1 form-select" style="width: auto;">
+										<option value="0" selected disabled></option>
+                                            <option value="1">Showing respect for the essential humanity in every person.</option>
+                                            <option value="2">Maintaining eye contact and smiling.</option>
+                                            <option value="3">Showing a commitment of an obligation in benefit of them.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Are you able to use words of inspiration to increase self esteem in family members?</b></p>
+                                        <select class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected >Yes, I do.</option>
+                                            <option value="1">No, I don't.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How can you apply your exploring capacity to search the mood in your family members?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act16-4">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act17" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act17">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the table</p>
+											<input type="text" class="d-none" id="points17" name="points">
+											<input type="text" class="d-none" id="idcliente17" name="idcliente">
+											<input type="text" class="d-none" id="idlibro17" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<table class="table">
+									<tr>
+										<th>Age</th>
+										<th>Country</th>
+										<th>Language</th>
+										<th>Nationality</th>
+										<th>Sentences</th>
+									</tr>
+									<tr>
+										<td>25</td>
+										<td>Costa Rica</td>
+										<td>Spanish</td>
+										<td><input type="text" autocomplete="off" class="form-control" id="input-act17-1"></td>
+										<td>He is from Costa Rica</td>
+									</tr>
+									<tr>
+										<td><input type="text" autocomplete="off" class="form-control" id="input-act17-2"></td>
+										<td>Russia</td>
+										<td>Russian</td>
+										<td>Russian</td>
+										<td>He is sixteen years old</td>
+									</tr>
+									<tr>
+										<td>17</td>
+										<td><input type="text" autocomplete="off" class="form-control" id="input-act17-3"></td>
+										<td>Portuguese</td>
+										<td>Brazilian</td>
+										<td>He is from <input type="text" autocomplete="off" class="form-control" id="input-act17-4"></td>
+									</tr>
+									<tr>
+										<td>19</td>
+										<td>United States</td>
+										<td><input type="text" autocomplete="off" class="form-control" id="input-act17-5"></td>
+										<td>American</td>
+										<td>My father is from the United States</td>
+									</tr>
+								</table>
 							</div>
 						</div>
 						<br>
