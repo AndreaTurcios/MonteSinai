@@ -1137,7 +1137,7 @@ Book_Page::headerTemplate('Unidad 3');
 									text-align: center;
 									}
 
-									#canvas2, #canvas3 {
+									#canvas2, #canvas3, #canvas4, #canvas5 {
 									background-color: #F8F8F8;
 									}
 
@@ -1145,7 +1145,7 @@ Book_Page::headerTemplate('Unidad 3');
 									justify-self: center;
 									}
 
-									#clearBtn, #clearBtn2 {
+									#clearBtn, #clearBtn2, #clearBtn3, #clearBtn4 {
 									color: white;
 									font-size: 16px;
 									font-weight: 700;
@@ -2097,6 +2097,839 @@ Book_Page::headerTemplate('Unidad 3');
 						</div>
 						<br>
 					</div>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalUnit3Act18" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act18">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the occupations you hear</p>
+											<input type="text" class="d-none" id="points18" name="points">
+											<input type="text" class="d-none" id="idcliente18" name="idcliente">
+											<input type="text" class="d-none" id="idlibro18" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitThree/TRACK39.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio> 
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-1" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-2" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-3" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-4" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-5" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-6" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-7" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act18-8" placeholder="...">
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act19" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act19">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the yes-no questions</p>
+											<input type="text" class="d-none" id="points19" name="points">
+											<input type="text" class="d-none" id="idcliente19" name="idcliente">
+											<input type="text" class="d-none" id="idlibro19" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div>
+									<input type="checkbox" id="cb19-1"><label for="cb19-1">&nbsp;Are you from Costa Rica? Yes, I am.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb19-2"><label for="cb19-2">&nbsp;What color is your car? It is red.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb19-3"><label for="cb19-3">&nbsp;Who are they? They are my friends.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb19-4"><label for="cb19-4">&nbsp;Is your father an accountant? No, he is a lawyer.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb19-5"><label for="cb19-5">&nbsp;Are you doing your homework? Yes, I am.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb19-6"><label for="cb19-6">&nbsp;What's his name? His name is Steve.</label>
+								</div>
+								<div>
+									<input type="checkbox" id="cb19-7"><label for="cb19-7">&nbsp;Does Katherine have a cat? Yes, she does.</label>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act20" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act20">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct subject pronoun</p>
+											<input type="text" class="d-none" id="points20" name="points">
+											<input type="text" class="d-none" id="idcliente20" name="idcliente">
+											<input type="text" class="d-none" id="idlibro20" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<select id="select-act20-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">I</option>
+                                        <option value="2">She</option>
+                                        <option value="3">It</option>
+                                    </select>
+									<label>study English.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>Are</label>
+									<select id="select-act20-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">I</option>
+                                        <option value="2">he</option>
+                                        <option value="3">you</option>
+                                    </select>
+									<label> going to the park? Yes, I am.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<select id="select-act20-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">She</option>
+                                        <option value="2">We</option>
+                                        <option value="3">I</option>
+                                    </select>
+									<label> are going to the movies.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>My father is not a lawyer, </label>
+									<select id="select-act20-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">she</option>
+                                        <option value="2">he</option>
+                                        <option value="3">they</option>
+                                    </select>
+									<label>is an accountant.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<select id="select-act20-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">She</option>
+                                        <option value="2">They</option>
+                                        <option value="2">You</option>
+                                    </select>
+									<label>works as a teacher.</label>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act21" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act21">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the nationalities and countries you hear</p>
+											<input type="text" class="d-none" id="points21" name="points">
+											<input type="text" class="d-none" id="idcliente21" name="idcliente">
+											<input type="text" class="d-none" id="idlibro21" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitThree/TRACK42.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio> 
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-1" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-2" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-3" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-4" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-5" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-6" placeholder="...">
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-7" placeholder="...">
+                                    </div>
+                                    <div class="col p-2">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act21-8" placeholder="...">
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act22" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act22">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points22" name="points">
+											<input type="text" class="d-none" id="idcliente22" name="idcliente">
+											<input type="text" class="d-none" id="idlibro22" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is a subject pronoun?</b></p>
+                                        <select id="select-act22-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">The status of belonging to a particular nation.</option>
+                                            <option value="2">A word referring to the person or thing that performs an action.</option>
+                                            <option value="3">A question that can be answered with yes or no.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is a nationality?</b></p>
+                                        <select id="select-act22-2" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">The status of belonging to a particular nation.</option>
+                                            <option value="2">A word referring to the person or thing that performs an action.</option>
+                                            <option value="3">A question that can be answered with yes or no.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Write the missing country, language or nationality</b></p>
+										<table class="table">
+											<tr>
+												<th>Country</th>
+												<th>Language</th>
+												<th>Nationality</th>
+											</tr>
+											<tr>
+												<td>France</td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act22-1"></td>
+												<td>French</td>
+											</tr>
+											<tr>
+												<td>Spain</td>
+												<td>Spanish</td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act22-2"></td>
+											</tr>
+											<tr>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act22-3"></td>
+												<td>Spanish</td>
+												<td>Mexican</td>
+											</tr>
+											<tr>
+												<td>USA</td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act22-4"></td>
+												<td>American</td>
+											</tr>
+											<tr>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act22-5"></td>
+												<td>Arabic</td>
+												<td>Egyptian</td>
+											</tr>
+											<tr>
+												<td>Japan</td>
+												<td>Japanese</td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act22-6"></td>
+											</tr>
+											<tr>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act22-7"></td>
+												<td>Spanish</td>
+												<td>Salvadoran</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the correct subject pronouns</b></p>
+										<div class="d-flex align-items-center mb-3">
+											<label>What are</label>
+											<select id="select-act22-3" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">you</option>
+												<option value="2">I</option>
+												<option value="3">he</option>
+											</select>
+											<label>doing after class? I am going to the mall.</label>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<select id="select-act22-4" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">He</option>
+												<option value="2">They</option>
+												<option value="3">It</option>
+											</select>
+											<label> are in a band.</label>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<select id="select-act22-5" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">He</option>
+												<option value="2">They</option>
+												<option value="3">You</option>
+											</select>
+											<label>speaks german.</label>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show respect toward classmates?</b></p>
+                                        <select id="select-act22-6" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Ignoring them when they are talking.</option>
+                                            <option value="2">Talking over them.</option>
+                                            <option value="3">Giving them time to say whatever they want to say.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How can you show respect toward family members' occupations?</b></p>
+                                        <select id="select-act22-7" class="ms-1 me-1 form-select" style="width: auto;">
+										<option value="0" selected disabled></option>
+                                            <option value="1">Giving them time to say whatever they want to say.</option>
+                                            <option value="2">Recognizing that they are working hard.</option>
+                                            <option value="3">Making fun of their job.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Are you able to create a mental map of some countries, languages and nationalities?</b></p>
+										<header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker3" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker3">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn3">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<input type="number" value="0" id="verify-canvas" class="d-none">
+												<canvas id="canvas4" width="500" height="500">
+												</canvas>
+											</div>
+										</header>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How can you apply your exploring capacity to search more countries and nationalities?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act22-8">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act23" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act23">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points23" name="points">
+											<input type="text" class="d-none" id="idcliente23" name="idcliente">
+											<input type="text" class="d-none" id="idlibro23" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+										<p><b>I. What is the genitive case 's?</b></p>
+                                        <select id="select-act23-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">It shows possession.</option>
+                                            <option value="2">It expresses main physical characteristics of a person.</option>
+                                            <option value="3">It is the length of time a person has existed.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is age?</b></p>
+                                        <select id="select-act23-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">It shows possession.</option>
+                                            <option value="2">It expresses main physical characteristics of a person.</option>
+                                            <option value="3">It is the length of time a person has existed.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Write the following numbers in english</b></p>
+										<div class=" row row-cols-2 mb-3">
+											<div class="col d-flex align-items-center">
+												<label class="me-2">93.</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-1" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>
+											<div class="col d-flex align-items-center">
+												<label class="me-2">102.</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-2" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>
+										</div>
+										<div class=" row row-cols-2 mb-3">
+											<div class="col d-flex align-items-center">
+												<label class="me-2">105. </label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-3" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>
+											<div class="col d-flex align-items-center">
+												<label class="me-2">170. </label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-4" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>
+										</div>
+										<div class="row row-cols-2 mb-3">
+											<div class="col d-flex align-items-center">
+												<label class="me-2">200. </label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-5" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>
+											<div class="col d-flex align-items-center">
+												<label class="me-2">97.</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-6" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>										
+										</div>
+										<div class="row row-cols-2 mb-3">
+											<div class="col d-flex align-items-center">
+												<label class="me-2">180.</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-7" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>                                    
+											<div class="col d-flex align-items-center">
+												<label class="me-2">175.</label>
+												<input type="text" autocomplete="off" class="form-control" id="input-act23-8" placeholder="..." max-length="30" style="width:300px;"> 
+											</div>                                    
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Draw your family tree</b></p>
+										<header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker4" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker4">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn4">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<input type="number" value="0" id="verify-canvas" class="d-none">
+												<canvas id="canvas5" width="500" height="500">
+												</canvas>
+											</div>
+										</header>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you be loyal to your family members?</b></p>
+                                        <select id="select-act23-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Talking bad about them.</option>
+                                            <option value="2">Refusing to help when they need it.</option>
+                                            <option value="3">Showing a commitment of an obligation in benefit of them.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How could you demonstrate empathy to others?</b></p>
+                                        <select id="select-act23-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Helping them and understanding their point of view.</option>
+                                            <option value="2">Avoiding critizicing them.</option>
+                                            <option value="3">Using pejorative language when talking to them.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. How could you create a mental map of your family tree?</b></p>
+										<input type="text" autocomplete="off" class="form-control" id="input-act23-9">
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How can you apply justice and empathy to others?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act23-10">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit3Act24" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit3-act24">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points24" name="points">
+											<input type="text" class="d-none" id="idcliente24" name="idcliente">
+											<input type="text" class="d-none" id="idlibro24" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+										<p><b>I. What is a subject pronoun?</b></p>
+                                        <select id="select-act24-1" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">The status of belonging to a particular nation.</option>
+                                            <option value="2">A word referring to the person or thing that performs an action.</option>
+                                            <option value="3">A question that can be answered with yes or no.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What do adjectives describe?</b></p>
+                                        <select id="select-act24-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">They describe a noun.</option>
+                                            <option value="2">They describe an action.</option>
+                                            <option value="3">They describe what happened in the past.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Write sentences of family members</b></p>
+										<div class="col-4">
+											<img src="../../resources/img/BOOKS/SeventhGrade/UnitThree/activities/16.jpg">
+										</div>
+										<div class="col-8">
+											<div class="d-flex align-items-center mb-3">
+												<input type="text" autocomplete="off" class="form-control me-1" id="input-act24-1" placeholder="...">
+											</div>
+											<div class="d-flex align-items-center mb-3">
+												<input type="text" autocomplete="off" class="form-control me-1" id="input-act24-2" placeholder="...">
+											</div>
+											<div class="d-flex align-items-center mb-3">
+												<input type="text" autocomplete="off" class="form-control me-1" id="input-act24-3" placeholder="...">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the correct use of the past tense of the verb "to be"</b></p>
+										<div class="d-flex align-items-center mb-3">
+											<label>Sorry, I</label>
+											<select id="select-act24-3" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">was</option>
+												<option value="2">were</option>
+											</select>
+											<label>sleeping.</label>
+											</div>
+											<div class="d-flex align-items-center mb-3">
+												<label>My father</label>
+												<select id="select-act24-4" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">was</option>
+													<option value="2">were</option>
+												</select>
+												<label> painting the room.</label>
+											</div>
+											<div class="d-flex align-items-center mb-3">
+												<label>The students  </label>
+												<select id="select-act24-5" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">was</option>
+													<option value="2">were</option>
+												</select>
+												<label> writing an essay.</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show interest in the information of family members?</b></p>
+                                        <select id="select-act24-6" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">Showing respect for the essential humanity in every person.</option>
+                                            <option value="2">Maintaining eye contact and smiling.</option>
+                                            <option value="3">Showing a commitment of an obligation in benefit of them.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How do you show respect toward family members' occupations?</b></p>
+                                        <select id="select-act24-7" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+											<option value="1">Giving them time to say whatever they want to say.</option>
+                                            <option value="2">Making fun of their job.</option>
+                                            <option value="3">Recognizing that they are working hard.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Are you able to use words of inspiration to increase the self steem in family members?</b></p>
+										<select id="select-act24-8" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="1">Yes, I am.</option>
+                                            <option value="2">No, I am not.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How can you apply your exploring capacity to search the mood in your family members?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act24-4">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>

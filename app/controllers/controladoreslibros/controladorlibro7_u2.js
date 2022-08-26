@@ -1030,7 +1030,7 @@ document.getElementById('unit2-act15').addEventListener('submit', function (even
                 document.getElementById('idlibro15').value = libro;
                 action = 'create';
                 saveRowActivity(API_ACTIVIDADES, action, 'unit2-act15', 'modal');
-                sweetAlert(4, conteo + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
+                sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
                 $('#ModalUnit2Act15').modal('hide');
                 return true;
             }
@@ -1203,7 +1203,7 @@ document.getElementById('unit2-act17').addEventListener('submit', function (even
                 document.getElementById('idlibro17').value = libro;
                 action = 'create';
                 saveRowActivity(API_ACTIVIDADES, action, 'unit2-act17', 'modal');
-                sweetAlert(4, conteo + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
+                sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
                 $('#ModalUnit2Act17').modal('hide');
                 return true;
             }
