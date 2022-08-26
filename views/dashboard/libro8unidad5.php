@@ -1591,10 +1591,10 @@
 <!-- Region 14-->
 <div id="ModalLibroOcho14" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Act..12</h5>
+                <h5 class="modal-title" id="modal-title">Complete these activities and measure your archievements!</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act12">
@@ -1602,58 +1602,123 @@
                     <div class="container-fluid">
                         <div class="row">
 							<div class="col-md-8 align-items-center">
-								<h6>Complete the sentences</h6>
 								<!-- class="d-none" -->
-								<input type="text"  class="d-none" id="points11" name="points11">
-                                <input type="text"  class="d-none" id="idlibro11" name="idlibro11">
-								<input type="text"  class="d-none" id="idcliente11" name="idcliente11">
+								<input type="text"  class="d-none" id="points12" name="points12">
+                                <input type="text"  class="d-none" id="idlibro12" name="idlibro12">
+								<input type="text"  class="d-none" id="idcliente12" name="idcliente12">
 							</div>
 						</div>
                         <div class="row">
-							<div class="col-md-12">
-							1. example
-								<select id="act7-q1">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">is</option>
-									<option value="2">are</option>
-									<option value="3">am</option><!-- correcto -->
-								</select> ...
+							<!-- pregunta1 -->
+                            <div class="col-6">
+								<div class="col-12">
+									<strong>I-What's an invitation?</strong>
+								</div>
+
+								<div class="col-md-12">
+									<select id="act6-q1">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option>
+										<option value="2">Is an offer to come or go somewhere, especially one promising hospitality</option><!-- correcto -->
+										<option value="3">Involves thinking ahead and anticipating information and events</option>
+									</select>
+								</div>
 							</div>
-							
-							<div class="col-12"><br></div>
+							<!-- pregunta2 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>II-What is a request?</strong>
+								</div>
 
-							<div class="col-md-12">
-							2. example
-								<select id="act5-q2">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">are</option><!-- correcto -->
-									<option value="2">is</option>
-									<option value="3">are not</option>
-								</select> ...
-							</div>
-
-							<div class="col-12"><br></div>
-
-							<div class="col-md-12">
-							3. example
-								<select id="act5-q3">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">are</option>
-									<option value="2">is not</option>
-									<option value="3">is</option><!-- correcto -->
-								</select> ...
+								<div class="col-md-12">
+									<select id="act6-q2">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Is to express a desire for; ask for</option><!-- correcto -->
+										<option value="2">Is an offer to come or go somewhere, especially one promising hospitality</option>
+										<option value="3">Involves thinking ahead and anticipating information and events</option>
+									</select>
+								</div>
 							</div>
 
-							<div class="col-12"><br></div>
+							<div class="col-12"><br></div> <!-- espacio -->
 
-							<div class="col-md-12">
-							4. example
-								<select id="act5-q4">
-									<option value="0" selected disabled>Choose</option>
-									<option value="1">are</option><!-- correcto -->
-									<option value="2">is</option>
-									<option value="3">am</option>
-								</select> ...
+							<!-- pregunta3 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>III-Write expressions of agreement and disagreement</strong>
+								</div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;I have come to the same conclusion</label><!-- correcto -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb3-2"><label for="cb3-2">&nbsp;Do you want to play soccer with us? Yes, I do</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb3-3"><label for="cb3-3">&nbsp;Do you want to go to the movies? No, I don't. Thanks</label>
+                                </div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cb3-4"><label for="cb3-4">&nbsp;I take a different view</label><!-- correcto -->
+                                </div>
+							</div>
+							<!-- pregunta4 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>IV-Write invitations and accept or decline them</strong>
+								</div>
+								
+								<div class = oracion>
+                                    <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;Would you like to have lunch with us? Sure, I will</label><!-- correcto -->
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb3-2"><label for="cb3-2">&nbsp;I don't think you're right</label>
+                                </div>
+                                <div class = oracion>
+                                    <input type="checkbox" id="cb3-3"><label for="cb3-3">&nbsp;Do you want to play basketball with us? Yes, I do</label><!-- correcto -->
+                                </div>
+								<div class = oracion>
+                                    <input type="checkbox" id="cb3-4"><label for="cb3-4">&nbsp;I was just going to say that</label>
+                                </div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta5 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>V-How can you be polite when making requests?</strong>
+								</div>
+								
+								<div class="col-md-12">
+									<select id="act6-q11">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">A nice atmosphere where a group of people gathers together for pleasure</option>
+										<option value="2">It's to be gentle, not forceful or insistent</option><!-- correcto -->
+										<option value="3">Is to be persuading when request</option>
+									</select>
+								</div>
+							</div>
+							<!-- pregunta6 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VI-...</strong>
+								</div>
+							</div>
+
+							<div class="col-12"><br></div> <!-- espacio -->
+
+							<!-- pregunta7 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VII-. 
+										Use contractions where possible.</strong>
+								</div>
+							</div>
+
+							<!-- pregunta8 -->
+							<div class="col-6">
+								<div class="col-12">
+									<strong>VIII-</strong>
+								</div>
 							</div>
                         </div>
                     </div>
