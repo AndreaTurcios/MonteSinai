@@ -1587,7 +1587,7 @@
 <!-- fin Region 13-->
 <!-- fin Actividad 11-->
 
-<!-- Actividad 12 pendiente agregar ejercicios-->
+<!-- Actividad 12-->
 <!-- Region 14-->
 <div id="ModalLibroOcho14" class="modal fade" tabindex="-4">
     <!-- <div class="container-fluid"> -->
@@ -1616,7 +1616,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act6-q1">
+									<select id="act12-q1">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Is to express a desire for; ask for</option>
 										<option value="2">Is an offer to come or go somewhere, especially one promising hospitality</option><!-- correcto -->
@@ -1631,7 +1631,7 @@
 								</div>
 
 								<div class="col-md-12">
-									<select id="act6-q2">
+									<select id="act12-q2">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">Is to express a desire for; ask for</option><!-- correcto -->
 										<option value="2">Is an offer to come or go somewhere, especially one promising hospitality</option>
@@ -1645,7 +1645,7 @@
 							<!-- pregunta3 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>III-Write expressions of agreement and disagreement</strong>
+									<strong>III-Select expressions of agreement and disagreement</strong>
 								</div>
 								<div class = oracion>
                                     <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;I have come to the same conclusion</label><!-- correcto -->
@@ -1663,20 +1663,20 @@
 							<!-- pregunta4 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>IV-Write invitations and accept or decline them</strong>
+									<strong>IV-Select invitations and accept or decline them</strong>
 								</div>
 								
 								<div class = oracion>
-                                    <input type="checkbox" id="cb3-1"><label for="cb3-1">&nbsp;Would you like to have lunch with us? Sure, I will</label><!-- correcto -->
+                                    <input type="checkbox" id="cb4-1"><label for="cb4-1">&nbsp;Would you like to have lunch with us? Sure, I will</label><!-- correcto -->
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cb3-2"><label for="cb3-2">&nbsp;I don't think you're right</label>
+                                    <input type="checkbox" id="cb4-2"><label for="cb4-2">&nbsp;I don't think you're right</label>
                                 </div>
                                 <div class = oracion>
-                                    <input type="checkbox" id="cb3-3"><label for="cb3-3">&nbsp;Do you want to play basketball with us? Yes, I do</label><!-- correcto -->
+                                    <input type="checkbox" id="cb4-3"><label for="cb4-3">&nbsp;Do you want to play basketball with us? Yes, I do</label><!-- correcto -->
                                 </div>
 								<div class = oracion>
-                                    <input type="checkbox" id="cb3-4"><label for="cb3-4">&nbsp;I was just going to say that</label>
+                                    <input type="checkbox" id="cb4-4"><label for="cb4-4">&nbsp;I was just going to say that</label>
                                 </div>
 							</div>
 
@@ -1689,7 +1689,7 @@
 								</div>
 								
 								<div class="col-md-12">
-									<select id="act6-q11">
+									<select id="act12-q3">
 										<option value="0" selected disabled>Choose</option>
 										<option value="1">A nice atmosphere where a group of people gathers together for pleasure</option>
 										<option value="2">It's to be gentle, not forceful or insistent</option><!-- correcto -->
@@ -1700,7 +1700,13 @@
 							<!-- pregunta6 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VI-...</strong>
+									<strong>VI-What is considered rude if you're having a conversation?</strong>
+									<select id="act12-q4">
+										<option value="0" selected disabled>Choose</option>
+										<option value="1">Arrive by phone, in person or by email</option>
+										<option value="2">Arrive by post and can be in the form of a letter or a printed invitation</option>
+										<option value="3">It's rude to push the matter when someone has expressed discomfort</option><!-- correcto -->
+									</select>
 								</div>
 							</div>
 
@@ -1709,15 +1715,134 @@
 							<!-- pregunta7 -->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VII-. 
-										Use contractions where possible.</strong>
+									<strong>VII-Put the following words in the right order to make correct request</strong>
+									<div class="col-md-12">
+										1.
+										<select id="act12-q5">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">some</option>
+											<option value="2">would</option><!-- correcto -->
+											<option value="3">mind</option>
+										</select> you
+										<select id="act12-q6">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">some</option>
+											<option value="2">would</option>
+											<option value="3">mind</option><!-- correcto -->
+										</select> sending me 
+										<select id="act12-q7">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">some</option><!-- correcto -->
+											<option value="2">would</option>
+											<option value="3">mind</option>
+										</select> money?
+									</div>
+									<div class="col-md-12">
+										2.
+										<select id="act12-q8">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">do</option>
+											<option value="2">help</option>
+											<option value="3">could</option><!-- correcto -->
+										</select> you 
+										<select id="act12-q9">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">do</option>
+											<option value="2">help</option><!-- correcto -->
+											<option value="3">could</option>
+										</select> me 
+										<select id="act12-q10">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">do</option><!-- correcto -->
+											<option value="2">help</option>
+											<option value="3">could</option>
+										</select> this homework?
+									</div>
+									<div class="col-md-12">
+										3. I 
+										<select id="act12-q11">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">wonder</option><!-- correcto -->
+											<option value="2">borrow</option>
+											<option value="3">if</option>
+										</select> 
+										<select id="act12-q12">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">wonder</option>
+											<option value="2">borrow</option>
+											<option value="3">if</option><!-- correcto -->
+										</select> I could
+										<select id="act12-q13">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">wonder</option>
+											<option value="2">borrow</option><!-- correcto -->
+											<option value="3">if</option>
+										</select> your car?
+									</div>
+									<div class="col-md-12">
+										4. Could
+										<select id="act12-q14">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">me</option>
+											<option value="2">hand</option>
+											<option value="3">you</option><!-- correcto -->
+										</select> give
+										<select id="act12-q15">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">me</option><!-- correcto -->
+											<option value="2">hand</option>
+											<option value="3">you</option>
+										</select> a 
+										<select id="act12-q16">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">me</option>
+											<option value="2">hand</option><!-- correcto -->
+											<option value="3">you</option>
+										</select>?
+									</div>
 								</div>
 							</div>
 
-							<!-- pregunta8 -->
+							<!-- pregunta8 pendiente asignar respuestas correctas-->
 							<div class="col-6">
 								<div class="col-12">
-									<strong>VIII-</strong>
+									<strong>VIII-Complete these formal and informal requests with the best option</strong>
+									<div class="col-md-12">
+										1. Can you
+										<select id="act12-q17">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">pass</option><!-- correcto -->
+											<option value="2">passing</option>
+											<option value="3">to pass</option>
+										</select> the salt, please?
+									</div>	
+									<div class="col-md-12">
+										2. Would you mind
+										<select id="act12-q18">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">lend</option>
+											<option value="2">to lend</option>
+											<option value="3">lending</option><!-- correcto -->
+										</select> me some money?
+									</div>
+									<div class="col-md-12">
+										3. Will you
+										<select id="act12-q19">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">help</option><!-- correcto -->
+											<option value="2">to help</option>
+											<option value="3">helping</option>
+										</select> me with these heavy bags, please?
+									</div>
+									<div class="col-md-12">
+										4. Do you mind if I
+										<select id="act12-q20">
+											<option value="0" selected disabled>Choose</option>
+											<option value="1">opening</option>
+											<option value="2">opened</option>
+											<option value="3">open</option><!-- correcto -->
+										</select> the window? It's hot in here
+									</div>
 								</div>
 							</div>
                         </div>
