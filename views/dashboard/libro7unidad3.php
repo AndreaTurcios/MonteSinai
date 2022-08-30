@@ -1518,7 +1518,6 @@ Book_Page::headerTemplate('Unidad 3');
 											<br>
 											<br>
 											<div class="container">
-												<input type="number" value="0" id="verify-canvas" class="d-none">
 												<canvas id="canvas3" width="500" height="500">
 												</canvas>
 											</div>
@@ -2583,7 +2582,6 @@ Book_Page::headerTemplate('Unidad 3');
 											<br>
 											<br>
 											<div class="container">
-												<input type="number" value="0" id="verify-canvas" class="d-none">
 												<canvas id="canvas4" width="500" height="500">
 												</canvas>
 											</div>
@@ -2731,7 +2729,6 @@ Book_Page::headerTemplate('Unidad 3');
 											<br>
 											<br>
 											<div class="container">
-												<input type="number" value="0" id="verify-canvas" class="d-none">
 												<canvas id="canvas5" width="500" height="500">
 												</canvas>
 											</div>

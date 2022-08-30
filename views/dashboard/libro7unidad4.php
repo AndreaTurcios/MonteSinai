@@ -1550,6 +1550,807 @@ Book_Page::headerTemplate('Unidad 4');
 	</div>
 </div>
 
+
+<div id="ModalUnit4Act11" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act11">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points11" name="points">
+											<input type="text" class="d-none" id="idcliente11" name="idcliente">
+											<input type="text" class="d-none" id="idlibro11" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<style type="text/css">
+									/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+									/* Reset defaults */
+									* {
+										margin: 0;
+										padding: 0;
+										border: 0;
+										outline: 0;
+										font-size: 100%;
+										vertical-align: baseline;
+									}
+									html {
+									font-family: "Roboto";
+									}
+									header {
+									margin: auto;
+									padding-top: 15px;
+									padding-bottom: 50px;
+									}
+									.grid {
+									display: grid;
+									grid-template-columns: 30% 30% 30%;
+									justify-content: center;	
+									margin-top: 30px;
+									}
+									h1 {
+									color: rgba(0, 0, 0, 0.7.5);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									text-align: center;
+									}
+
+									header p {
+									color: rgba(0, 0, 0, 0.6);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.2px;
+									text-align: center;
+									margin-bottom: 30px;
+									}
+
+									.colorPickerWrapper, .strokeWidthPickerWrapper {
+									text-align: center;
+									}
+									.colorPickerWrapper input {
+									width: 75px;
+									}
+									.container {
+									width: 100%;
+									margin: auto;
+									text-align: center;
+									}
+
+									#canvas2, #canvas3, #canvas4, #canvas5 {
+									background-color: #F8F8F8;
+									}
+
+									.color, .stroke, .clear {
+									justify-self: center;
+									}
+
+									#clearBtn, #clearBtn2, #clearBtn3, #clearBtn4 {
+									color: white;
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									padding: 10px 50px;
+									background-color: #55D0ED;
+									border-radius: 10px;
+									text-decoration: none;
+									}
+								</style>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is furniture?</b></p>
+                                        <select id="select-act11-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">An object or device not essential in itself but adding to the beauty, convenience or effectiveness.</option>
+                                            <option value="2">Movable articles in a room or an establishment that make it fit for living or working.</option>
+                                            <option value="3">Products that satisfy a market need.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is an accesory?</b></p>
+                                        <select id="select-act11-2" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">An object or device not essential in itself but adding to the beauty, convenience or effectiveness.</option>
+                                            <option value="2">Movable articles in a room or an establishment that make it fit for living or working.</option>
+                                            <option value="3">Products that satisfy a market need.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Complete the questions with the correct answer</b></p>
+										<div class="d-flex align-items-center mb-3">
+											<label> How much is</label>
+											<select id="select-act11-3" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">this shirt?</option>
+												<option value="2">those pants?</option>
+											</select>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<label> How much are</label>
+											<select id="select-act11-4" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">this tomato?</option>
+												<option value="2">these tomatoes?</option>
+											</select>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<label>How much is</label>
+											<select id="select-act11-5" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">the microwaves?</option>
+												<option value="2">the microwave?</option>
+											</select>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<label>How much are</label>
+											<select id="select-act11-6" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">those shoes?</option>
+												<option value="2">this shoes?</option>
+											</select>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<select id="select-act11-7" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">How much are</option>
+												<option value="2">How much is</option>
+											</select>
+											<label>the avocados?</label>
+										</div>
+										<div class="d-flex align-items-center mb-3">
+											<select id="select-act11-8" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">How much are</option>
+												<option value="2">How much is</option>
+											</select>
+											<label> this table?</label>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Write the clothing items and accessories </b></p>
+										<table class="table">
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_1.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-1" placeholder="..."></td>
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_2.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-2" placeholder="..."></td>
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_3.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-3" placeholder="..."></td>
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_4.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-4" placeholder="..."></td>
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_5.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-5" placeholder="..."></td>
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_6.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-6" placeholder="..."></td>
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_7.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-7" placeholder="..."></td>
+											</tr>
+											<tr>
+												<td><img src="../../resources/img/BOOKS/SeventhGrade/UnitFour/activities/7_8.jpg" ></td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act11-8" placeholder="..."></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you show confidence when taking compliments?</b></p>
+                                        <select id="select-act11-9" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Not thanking them.</option>
+                                            <option value="2">Shrinking back and acting timid.</option>
+                                            <option value="3">Sitting or standing straight.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How would you compliment your family's preferences for furniture?</b></p>
+                                        <select id="select-act11-10" class="ms-1 me-1 form-select" style="width: auto;">
+										<option value="0" selected disabled></option>
+                                            <option value="1">Saying thanks to them.</option>
+                                            <option value="2">Saying that the colors look wrong.</option>
+                                            <option value="3">Saying they look nice in the room.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Make a mental map about what to use when raining</b></p>
+                                        <header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<input type="number" value="0" id="verify-canvas" class="d-none">
+												<canvas id="canvas2" width="500" height="500">
+												</canvas>
+											</div>
+										</header>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How would you apply proactivity and choose what you need when it is snowing?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act11-9">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Librerias para el Canvas -->
+					<script src="https://s.cdpn.io/6859/paper.js"></script>
+        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit4Act12" class="modal fade" tabindex="-4">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act12">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Choose and drag</p>
+											<input type="text" class="d-none" id="points12" name="points">
+											<input type="text" class="d-none" id="idcliente12" name="idcliente">
+											<input type="text" class="d-none" id="idlibro12" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center">Drinks</th>
+												<tr>
+													<td id="box-act12-1"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center">Foods</th>
+												<tr>
+													<td id="box-act12-2" ></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row d-flex justify-content-between" id="container-act10-1">
+												<div id="option-act12-2" class="col d-table" draggable="true">Coke</div>
+												<div id="option-act12-4" class="col d-table" draggable="true">Bottled water</div>
+												<div id="option-act12-18" class="col d-table" draggable="true">Coconut</div>
+												<div id="option-act12-6" class="col d-table" draggable="true">Tea</div>
+												<div id="option-act12-16" class="col d-table" draggable="true">Papaya</div>
+												<div id="option-act12-10" class="col d-table" draggable="true">Hamburger</div>
+											</div>
+											<div class="row d-flex justify-content-between" id="container-act10-1">
+												<div id="option-act12-7" class="col d-table" draggable="true">Meat</div>
+												<div id="option-act12-22" class="col d-table" draggable="true">Cucumber</div>
+												<div id="option-act12-8" class="col d-table" draggable="true">Shrimp</div>
+												<div id="option-act12-1" class="col d-table" draggable="true">Milk</div>
+												<div id="option-act12-19" class="col d-table" draggable="true">Lettuce</div>
+												<div id="option-act12-11" class="col d-table" draggable="true">Chicken</div>
+											</div>
+											<div class="row d-flex justify-content-between" id="container-act10-1">
+												<div id="option-act12-20" class="col d-table" draggable="true">Cabbage</div>
+												<div id="option-act12-14" class="col d-table" draggable="true">Pear</div>
+												<div id="option-act12-15" class="col d-table" draggable="true">Banana</div>
+												<div id="option-act12-9" class="col d-table" draggable="true">Tuna</div>
+												<div id="option-act12-3" class="col d-table" draggable="true">Diet soda</div>
+												<div id="option-act12-17" class="col d-table" draggable="true">Mango</div>
+											</div>
+											<div class="row d-flex justify-content-between" id="container-act10-1">
+												<div id="option-act12-21" class="col d-table" draggable="true">Tomato</div>
+												<div id="option-act12-12" class="col d-table" draggable="true">Pizza</div>
+												<div id="option-act12-23" class="col d-table" draggable="true">Carrot</div>
+												<div id="option-act12-5" class="col d-table" draggable="true">Coffee</div>
+												<div id="option-act12-13" class="col d-table" draggable="true">Apple</div>
+												<div id="option-act12-24" class="col d-table" draggable="true">Radishes</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center">Fruits</th>
+												<tr>
+													<td id="box-act12-3"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center ">Vegetables</th>
+												<tr>
+													<td id="box-act12-4"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit4Act13" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act13">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct answer</p>
+											<input type="text" class="d-none" id="points13" name="points">
+											<input type="text" class="d-none" id="idcliente13" name="idcliente">
+											<input type="text" class="d-none" id="idlibro13" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>In </label>
+									<select id="select-act13-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">summer</option>
+                                        <option value="2">winter</option>
+                                        <option value="3">fall</option>
+                                        <option value="4">spring</option>
+                                    </select>
+									<label>the weather is sunny.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>During </label>
+									<select id="select-act13-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">summer</option>
+                                        <option value="2">winter</option>
+                                        <option value="3">fall</option>
+                                        <option value="4">spring</option>
+                                    </select>
+									<label>the leaves fall from the trees.</label>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>The flowers bloom during</label>
+									<select id="select-act13-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <option value="0" selected disabled></option>
+                                        <option value="1">summer.</option>
+                                        <option value="2">winter.</option>
+                                        <option value="3">fall.</option>
+                                        <option value="4">spring.</option>
+                                    </select>
+								</div>
+								<div class="d-flex align-items-center mb-3">
+									<label>When it's </label>
+									<select id="select-act13-4" class="ms-1 me-1 form-select" style="width: auto;">
+										<option value="0" selected disabled></option>
+                                        <option value="1">summer</option>
+                                        <option value="2">winter</option>
+                                        <option value="3">fall</option>
+                                        <option value="4">spring</option>
+                                    </select>
+									<label> the weather gets very rainy</label>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalUnit4Act14" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act14">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the money denominations you hear</p>
+											<input type="text" class="d-none" id="points14" name="points">
+											<input type="text" class="d-none" id="idcliente14" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitFour/TRACK54.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio> 
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-1" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>Yes, I need a belt.</p>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-2" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>Do you have hats.</p>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-3" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>That's expensive.</p>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-4" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>They are cheap.</p>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-5" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>That's OK.</p>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-6" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>That'll be all, thanks.</p>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-7" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>Yes, I do.</p>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-2">
+                                    <div class="col p-2 d-flex align-items">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act14-8" placeholder="...">
+										<label>?</label>
+                                    </div>
+                                    <div class="col p-2">
+                                        <p>Thank you, sir.</p>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit4Act15" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act15">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Choose and drag</p>
+											<input type="text" class="d-none" id="points15" name="points">
+											<input type="text" class="d-none" id="idcliente15" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15" name="idlibro">
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center">Dairy products</th>
+												<tr>
+													<td id="box-act15-1"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center">Snacks</th>
+												<tr>
+													<td id="box-act15-2" ></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+									<div class="row mb-4">
+										<div class="col">
+											<div class="row d-flex justify-content-between" id="container-act15-1">
+												<div id="option-act15-2" class="col d-table" draggable="true">Chesse</div>
+												<div id="option-act15-4" class="col d-table" draggable="true">Yogurt</div>
+												<div id="option-act15-6" class="col d-table" draggable="true">Peanuts</div>
+												<div id="option-act15-16" class="col d-table" draggable="true">Apple juice</div>
+												<div id="option-act15-10" class="col d-table" draggable="true">Pretzels</div>
+											</div>
+											<div class="row d-flex justify-content-between" id="container-act10-1">
+												<div id="option-act15-7" class="col d-table" draggable="true">Popcorn</div>
+												<div id="option-act15-8" class="col d-table" draggable="true">Nuts</div>
+												<div id="option-act15-1" class="col d-table" draggable="true">Milk</div>
+												<div id="option-act15-19" class="col d-table" draggable="true">Fruit punch</div>
+												<div id="option-act15-11" class="col d-table" draggable="true">Steak</div>
+											</div>
+											<div class="row d-flex justify-content-between" id="container-act10-1">
+												<div id="option-act15-20" class="col d-table" draggable="true">Pineapple juice</div>
+												<div id="option-act15-14" class="col d-table" draggable="true">Bacon</div>
+												<div id="option-act15-15" class="col d-table" draggable="true">Sausages</div>
+												<div id="option-act15-3" class="col d-table" draggable="true">Butter</div>
+												<div id="option-act15-17" class="col d-table" draggable="true">Tomato juice</div>
+											</div>
+											<div class="row d-flex justify-content-between" id="container-act10-1">
+												<div id="option-act15-12" class="col d-table" draggable="true">Pork</div>
+												<div id="option-act15-5" class="col d-table" draggable="true">Cottage cheese</div>
+												<div id="option-act15-13" class="col d-table" draggable="true">Ham</div>
+												<div id="option-act15-9" class="col d-table" draggable="true">Corn chips</div>
+												<div id="option-act15-18" class="col d-table" draggable="true">Grape juice</div>
+											</div>
+										</div>
+									</div>
+									<div class="row mb-4 row-cols-2">
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center">Meat</th>
+												<tr>
+													<td id="box-act15-3"></td>
+												</tr>
+											</table>
+										</div>
+										<div class="col">
+											<table class="table table-bordered" style="border: #8076b2">
+												<th class="text-center ">Juice</th>
+												<tr>
+													<td id="box-act15-4"></td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit4Act16" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit4-act16">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the vegetables, drinks, fruits and food that you hear</p>
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+									<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitFour/TRACK56.mp3" type="audio/mp3">
+										Tu navegador no soporta audio HTML5.
+									</audio>
+									<table class="table">
+										<tr>
+											<th>Vegetables</th>
+											<th>Fruits</th>
+											<th>Drinks</th>
+											<th>Food</th>
+										</tr>
+										<!--1 al final = vegetables, 2 al final = fruits, 3 al final = drinks, 4 al final = foods-->
+										<tr>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-1-1" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-1-2" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-1-3" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-1-4" placeholder="..."></td>
+										</tr>
+										<tr>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-2-1" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-2-2" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-2-3" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-2-4" placeholder="..."></td>
+										</tr>
+										<tr>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-3-1" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-3-2" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-3-3" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-3-4" placeholder="..."></td>
+										</tr>
+										<tr>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-4-1" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-4-2" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-4-3" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-4-4" placeholder="..."></td>
+										</tr>
+										<tr>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-5-1" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-5-2" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-5-3" placeholder="..."></td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act16-5-4" placeholder="..."></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
 Book_Page::footerTemplate('controladorlibro7_u4.js');
