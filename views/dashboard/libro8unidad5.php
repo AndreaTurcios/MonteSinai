@@ -1164,7 +1164,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Act..7</h5>
+                <h5 class="modal-title" id="modal-title">Write the questions by putting the words in the correct order</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form method="post" id="unit5-act7">
@@ -1181,49 +1181,103 @@
 						</div>
                         <div class="row">
 							<div class="col-md-12">
-							1. example
+								1. 
 								<select id="act7-q1">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">is</option>
-									<option value="2">are</option>
-									<option value="3">am</option><!-- correcto -->
-								</select> ...
+									<option value="1">Sally</option>
+									<option value="2">can</option><!-- correcto -->
+									<option value="3">volleyball</option>
+								</select>
+								<select id="act7-q2">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Sally</option><!-- correcto -->
+									<option value="2">can</option>
+									<option value="3">volleyball</option>
+								</select>
+								play 
+								<select id="act7-q3">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">Sally</option>
+									<option value="2">can</option>
+									<option value="3">volleyball</option><!-- correcto -->
+								</select>
+								 with us?
 							</div>
 							
 							<div class="col-12"><br></div>
 
 							<div class="col-md-12">
-							2. example
-								<select id="act5-q2">
+								2. 
+								<select id="act7-q4">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">are</option><!-- correcto -->
-									<option value="2">is</option>
-									<option value="3">are not</option>
-								</select> ...
+									<option value="1">I</option>
+									<option value="2">can</option><!-- correcto -->
+									<option value="3">please</option>
+								</select>
+								<select id="act7-q5">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">I</option><!-- correcto -->
+									<option value="2">can</option>
+									<option value="3">please</option>
+								</select>
+								use your phone,
+								<select id="act7-q6">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">I</option>
+									<option value="2">can</option>
+									<option value="3">please</option><!-- correcto -->
+								</select>?
 							</div>
 
 							<div class="col-12"><br></div>
 
 							<div class="col-md-12">
-							3. example
-								<select id="act5-q3">
+							3. 
+								<select id="act7-q7">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">are</option>
-									<option value="2">is not</option>
-									<option value="3">is</option><!-- correcto -->
-								</select> ...
+									<option value="1">door</option>
+									<option value="2">can</option><!-- correcto -->
+									<option value="3">you</option>
+								</select>
+								<select id="act7-q8">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">door</option>
+									<option value="2">can</option>
+									<option value="3">you</option><!-- correcto -->
+								</select>
+								close that
+								<select id="act7-q9">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">door</option><!-- correcto -->
+									<option value="2">can</option>
+									<option value="3">you</option>
+								</select>, please?
 							</div>
 
 							<div class="col-12"><br></div>
 
 							<div class="col-md-12">
-							4. example
-								<select id="act5-q4">
+								4. 
+								<select id="act7-q10">
 									<option value="0" selected disabled>Choose</option>
-									<option value="1">are</option><!-- correcto -->
-									<option value="2">is</option>
-									<option value="3">am</option>
-								</select> ...
+									<option value="1">all</option>
+									<option value="2">can</option><!-- correcto -->
+									<option value="3">game</option>
+								</select>
+								we 
+								<select id="act7-q11">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">all</option><!-- correcto -->
+									<option value="2">can</option>
+									<option value="3">game</option>
+								</select> 
+								go to the 
+								<select id="act7-q12">
+									<option value="0" selected disabled>Choose</option>
+									<option value="1">all</option>
+									<option value="2">can</option>
+									<option value="3">game</option><!-- correcto -->
+								</select>?
 							</div>
                         </div>
                     </div>
