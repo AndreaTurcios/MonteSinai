@@ -1,0 +1,43 @@
+[{
+    "x":152,
+	"y":380,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act3_1",
+			"form":"game-three_1"
+		}	
+	
+}
+,
+{
+	"x":152,
+	"y":568,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act3_2",
+			"form":"game-three_2"
+		}	
+	
+}
+,
+{
+	"x":50,
+	"y":40,	
+	"width":130,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit1AudioPag5",
+			"form":"audio5"
+		}
+}
+]

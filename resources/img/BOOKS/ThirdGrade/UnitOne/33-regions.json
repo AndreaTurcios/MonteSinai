@@ -1,0 +1,43 @@
+[{
+    "x":152,
+	"y":445,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act23_1",
+			"form":"game-twentythree_1"
+		}	
+	
+}
+,
+{
+	"x":152,
+	"y":545,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act23_2",
+			"form":"game-twentythree_2"
+		}	
+	
+}
+,
+{
+	"x":320,
+	"y":30,	
+	"width":80,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit1AudioPag26",
+			"form":"audio26"
+		}
+}
+]

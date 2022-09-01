@@ -1,0 +1,43 @@
+[{
+    "x":140,
+	"y":420,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act28_1",
+			"form":"game-twentyeight_1"
+		}	
+	
+}
+,
+{
+	"x":152,
+	"y":570,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act28_2",
+			"form":"game-twentyeight_2"
+		}	
+	
+}
+,
+{
+	"x":40,
+	"y":30,	
+	"width":80,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit1AudioPag31",
+			"form":"audio31"
+		}
+}
+]

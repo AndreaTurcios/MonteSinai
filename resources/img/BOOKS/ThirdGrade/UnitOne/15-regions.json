@@ -1,0 +1,43 @@
+[{
+    "x":152,
+	"y":440,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act6_1",
+			"form":"game-six_1"
+		}	
+	
+}
+,
+{
+	"x":152,
+	"y":568,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act6_2",
+			"form":"game-six_2"
+		}	
+	
+}
+,
+{
+	"x":360,
+	"y":30,	
+	"width":80,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit1AudioPag8",
+			"form":"audio8"
+		}
+}
+]

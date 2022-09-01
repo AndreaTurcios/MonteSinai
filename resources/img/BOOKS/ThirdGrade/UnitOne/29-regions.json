@@ -1,0 +1,43 @@
+[{
+    "x":152,
+	"y":435,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act19_1",
+			"form":"game-nineteen_1"
+		}	
+	
+}
+,
+{
+	"x":152,
+	"y":545,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act19_2",
+			"form":"game-nineteen_2"
+		}	
+	
+}
+,
+{
+	"x":350,
+	"y":30,	
+	"width":50,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit1AudioPag22",
+			"form":"audio22"
+		}
+}
+]

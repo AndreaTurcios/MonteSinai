@@ -1,0 +1,43 @@
+[{
+    "x":152,
+	"y":455,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act8_1",
+			"form":"game-eight_1"
+		}	
+	
+}
+,
+{
+	"x":152,
+	"y":568,
+	"width":120,
+	"height":12,
+	"class":"html",
+	"data":
+	
+        {
+			"modal":"ModalUnit1Act8_2",
+			"form":"game-eight_2"
+		}	
+	
+}
+,
+{
+	"x":30,
+	"y":40,	
+	"width":90,
+	"height":12,
+	"class":"html",
+	"data":
+		{
+			"modal":"ModalUnit1AudioPag10",
+			"form":"audio10"
+		}
+}
+]
