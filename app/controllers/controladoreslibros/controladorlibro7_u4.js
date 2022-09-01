@@ -764,7 +764,7 @@ document.getElementById('unit4-act11').addEventListener('submit', function (even
     let selects = [];
 
     //Se obtienen los datos ingresados y se ingresan en selects[]
-    for (let i = 0; i < respuestas.length ; i++) {
+    for (let i = 0; i < respuestas.length; i++) {
         selects[i] = document.getElementById('select-act11-' + (i + 1)).value;
     }
     //Se obtienen los datos ingresados y se guardan en inputs[]
@@ -796,31 +796,31 @@ document.getElementById('unit4-act11').addEventListener('submit', function (even
         }
 
         //Se revisa si todas las respuestas son correctas
-            if (conteo == respuestas.length && conteoInputs == respuestasInputs.length) {
-                var libro = 7;
-                document.getElementById('idcliente11').value = users.value;
-                document.getElementById('points11').value = valorActividad;
-                document.getElementById('idlibro11').value = libro;
+        if (conteo == respuestas.length && conteoInputs == respuestasInputs.length) {
+            var libro = 7;
+            document.getElementById('idcliente11').value = users.value;
+            document.getElementById('points11').value = valorActividad;
+            document.getElementById('idlibro11').value = libro;
 
-                action = 'create';
-                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act11', 'modal');
-                sweetAlert(1, 'Good job!', null);
-                $('#ModalUnit4Act11').modal('hide');
-                return true;
-            } else {
-                //Se asigna el puntaje basado en las respuestas correctas
-                let puntaje = valorActividad / (respuestas.length + respuestasInputs.length);
-                let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
-                var libro = 7;
-                document.getElementById('idcliente11').value = users.value;
-                document.getElementById('points11').value = points;
-                document.getElementById('idlibro11').value = libro;
-                action = 'create';
-                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act11', 'modal');
-                sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
-                $('#ModalUnit4Act11').modal('hide');
-                return true;
-            }
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act11', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act11').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length + respuestasInputs.length);
+            let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente11').value = users.value;
+            document.getElementById('points11').value = points;
+            document.getElementById('idlibro11').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act11', 'modal');
+            sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
+            $('#ModalUnit4Act11').modal('hide');
+            return true;
+        }
     }
 
 });
@@ -1189,7 +1189,7 @@ document.getElementById('unit4-act16').addEventListener('submit', function (even
 
     //Se obtienen los datos ingresados y se ingresan en inputs[]
     for (let i = 0; i < 4; i++) {
-        for (let j = 0; j < 5 ;j++) {
+        for (let j = 0; j < 5; j++) {
             let input = document.getElementById('input-act16-' + (j + 1) + "-" + (i + 1)).value.trim();
             switch (i) {
                 case 0:
@@ -1262,4 +1262,742 @@ document.getElementById('unit4-act16').addEventListener('submit', function (even
             return true;
         }
     }
+});
+
+$('#ModalUnit4Act17').on('shown.bs.modal', function (e) {
+    // Set it up
+    paper.setup('canvas3');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var color2Picker = document.getElementById("colorPicker2");
+    var widthStrokePicker = document.getElementById("strokeWidthPicker2");
+    var clear2Button = document.getElementById("clearBtn2");
+
+    // Clear event listener
+    clear2Button.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        color2Stroke = color2Picker.value;
+        widthStroke = widthStrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('unit4-act17').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["3", "2", "1", "3", "1", "3", "2", "2"];
+    let vacio
+    let boxes = [];
+    let inputs = document.getElementById('input-act17-1').value.trim();
+    let selects = [];
+    //variable para obtener la cantidad de respuestas correctas
+    var conteo = 0;
+
+    //Se obtienen los boxes y se guardan en boxes[]
+    for (let i = 0; i < 4; i++) {
+        boxes[i] = document.getElementById('box-act17-' + (i + 1));
+
+        if (!(boxes[i].children.length > 0)) {
+            vacio = true;
+        }
+    }
+
+    //Verificar drinks
+    for (let i = 1; i < 7; i++) {
+        if (boxes[0].querySelector('#option-act17-' + (i)) !== null) {
+            conteo++;
+        }
+    }
+
+    //Verificar foods
+    for (let i = 7; i < 13; i++) {
+        if (boxes[1].querySelector('#option-act17-' + (i)) !== null) {
+            conteo++;
+        }
+    }
+
+    //Verificar fruits
+    for (let i = 13; i < 19; i++) {
+        if (boxes[2].querySelector('#option-act17-' + (i)) !== null) {
+            conteo++;
+        }
+    }
+
+    //Verificar vegetables
+    for (let i = 19; i < 25; i++) {
+        if (boxes[3].querySelector('#option-act17-' + (i)) !== null) {
+            conteo++;
+        }
+
+    }
+
+
+
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act17-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs == "" || document.getElementById("verify-canvas").value == 0 || vacio) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == (respuestas.length + 24)) {
+            var libro = 7;
+            document.getElementById('idcliente17').value = users.value;
+            document.getElementById('points17').value = valorActividad;
+            document.getElementById('idlibro17').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act17', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act17').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length + 241);
+            let points = (puntaje * (conteo)).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente17').value = users.value;
+            document.getElementById('points17').value = points;
+            document.getElementById('idlibro17').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act17', 'modal');
+            sweetAlert(4, (conteo) + '/' + (respuestas.length + 24) + ' answers right', null);
+            $('#ModalUnit4Act17').modal('hide');
+            return true;
+        }
+    }
+});
+
+//Elementos arrastrables act17
+for (let i = 0; i < 24; i++) {
+    document.getElementById('option-act17-' + (i + 1)).addEventListener("dragstart", (e) => {
+        e.dataTransfer.setData("id", e.target.id);
+    });
+};
+
+//Elementos que reciben el arrastrable act17
+for (let i = 0; i < 4; i++) {
+    document.getElementById('box-act17-' + (i + 1)).addEventListener("drop", (e) => {
+        //Id del espacio que recibe el texto
+        let box = document.getElementById('box-act17-' + (i + 1));
+
+        //Se verifica que sea el espacio para el texto.
+        if ((e.target.id == ('box-act17-' + (1 + i)))) {
+
+            e.target.classList.remove("hover");
+            const id = e.dataTransfer.getData("id");
+            e.target.appendChild(document.getElementById(id));
+
+        }
+
+    });
+
+    document.getElementById('box-act17-' + (i + 1)).addEventListener("dragover", (e) => {
+        e.preventDefault();
+    });
+};
+
+document.getElementById('unit4-act18').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["1", "3", "2", "2", "1", "2"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('select-act18-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("0")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == inputs[i]) {
+                conteo++;
+            }
+
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente18').value = users.value;
+            document.getElementById('points18').value = valorActividad;
+            document.getElementById('idlibro18').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act18', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act18').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente18').value = users.value;
+            document.getElementById('points18').value = points;
+            document.getElementById('idlibro18').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act18', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit4Act18').modal('hide');
+            return true;
+        }
+    }
+});
+
+document.getElementById('unit4-act19').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2", "1", "1", "2", "1", "3"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('select-act19-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("0")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == inputs[i]) {
+                conteo++;
+            }
+
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente19').value = users.value;
+            document.getElementById('points19').value = valorActividad;
+            document.getElementById('idlibro19').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act19', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act19').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente19').value = users.value;
+            document.getElementById('points19').value = points;
+            document.getElementById('idlibro19').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act19', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit4Act19').modal('hide');
+            return true;
+        }
+    }
+});
+
+document.getElementById('unit4-act20').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    //arreglos para guardar las respuestas y los datos ingresados.
+    let respuestas = ["SHOES", "CATS", "ROOMS", "WATCHES", "DRESSES", "HORSES"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se ingresan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+        inputs[i] = document.getElementById('input-act20-' + (i + 1)).value.trim();
+    }
+
+    // declaración de condicionales 
+    if (inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        let conteo = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (inputs[i].toUpperCase().includes(respuestas[i])) {
+                conteo++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente20').value = users.value;
+            document.getElementById('points20').value = valorActividad;
+            document.getElementById('idlibro20').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act20', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act20').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente20').value = users.value;
+            document.getElementById('points20').value = points;
+            document.getElementById('idlibro20').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act20', 'modal');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit4Act20').modal('hide');
+            return true;
+        }
+    }
+});
+
+document.getElementById('unit4-act21').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 0.09;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    let conteocb = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+    let respuestas = ["1", "3", "4", "6", "7", "9", "10", "12"];
+
+    //Se obtienen los checkbox y se guardan en checks[]
+    for (let i = 0; i < 12; i++) {
+        inputs[i] = document.getElementById('cb21-' + (i + 1)).checked;
+        if (inputs[i]) {
+            conteocb++;
+        }
+        for (let j = 0; j < respuestas.length; j++) {
+            if (respuestas[j] == (i + 1) && inputs[i]) {
+                conteo++;
+            }
+        }
+    }
+
+    if (conteocb == 0) {
+        sweetAlert(2, 'Select at least one option', null);
+        return false;
+    } else {
+        if (conteocb > 8) {
+            sweetAlert(2, 'Select only eight options', null);
+            return false;
+        } else {
+            //Se revisa si todas las respuestas son correctas
+            if (conteo == respuestas.length) {
+                var libro = 7;
+                document.getElementById('idcliente21').value = users.value;
+                document.getElementById('points21').value = valorActividad;
+                document.getElementById('idlibro21').value = libro;
+
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act21', 'modal');
+                sweetAlert(1, 'Good job!', null);
+                $('#ModalUnit4Act21').modal('hide');
+                return true;
+            } else {
+                //Se asigna el puntaje basado en las respuestas correctas
+                let puntaje = valorActividad / (respuestas.length);
+                let points = (puntaje * conteo).toFixed(2);
+                var libro = 7;
+                document.getElementById('idcliente21').value = users.value;
+                document.getElementById('points21').value = points;
+                document.getElementById('idlibro21').value = libro;
+                action = 'create';
+                saveRowActivity(API_ACTIVIDADES, action, 'unit4-act21', 'modal');
+                sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+                $('#ModalUnit4Act21').modal('hide');
+                return true;
+            }
+        }
+
+    }
+
+});
+
+document.getElementById('unit4-act22').addEventListener('submit', function (event) {
+
+    //valor de la actividad
+    let valorActividad = 0.09;
+
+    //Se evita que se recargue la página al enviar el formulario
+    event.preventDefault();
+
+    if (document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'Write your shopping list', null);
+        return false;
+    }
+    else {
+        let points = valorActividad;
+        let libro = 4;
+        document.getElementById('idcliente22').value = users.value;
+        document.getElementById('points22').value = points;
+        document.getElementById('idlibro22').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'unit4-act22', 'modal');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalUnit4Act22').modal('hide');
+        return true;
+    }
+});
+
+$('#ModalUnit4Act22').on('shown.bs.modal', function (e) {
+    // Set it up
+    paper.setup('canvas4');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var color2Picker = document.getElementById("colorPicker3");
+    var widthStrokePicker = document.getElementById("strokeWidthPicker3");
+    var clear2Button = document.getElementById("clearBtn3");
+
+    // Clear event listener
+    clear2Button.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        color2Stroke = color2Picker.value;
+        widthStroke = widthStrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('unit4-act23').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["2", "2", "2", "3", "1", "3", "1", "2"];
+    let respuestasInputs = ["SOCKS", "CAKES", "CLOTHES", "PEACHES"];
+    let inputs = [];
+    let selects = [];
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act23-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < respuestasInputs.length + 1; i++) {
+        inputs[i] = document.getElementById('input-act23-' + (i + 1)).value.trim().toUpperCase();
+
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        var conteoInputs = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+        for (let i = 0; i < respuestasInputs.length; i++) {
+            if (inputs[i].includes(respuestasInputs[i])) {
+                conteoInputs++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length && conteoInputs == respuestasInputs.length) {
+            var libro = 7;
+            document.getElementById('idcliente23').value = users.value;
+            document.getElementById('points23').value = valorActividad;
+            document.getElementById('idlibro23').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act23', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act23').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length + respuestasInputs.length);
+            let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente23').value = users.value;
+            document.getElementById('points23').value = points;
+            document.getElementById('idlibro23').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act23', 'modal');
+            sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
+            $('#ModalUnit4Act23').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+document.getElementById('unit4-act24').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["3", "3", "2", "2"];
+    let respuestasInputs = ["TEN DOLLARS", "PENNY", "FIVE DOLLARS", "DIME", "HUNDRED DOLLARS", "NICKEL", "QUARTER", "ONE DOLLAR", "SEVEN HUNDRED", "FIVE HUNDRED", "EIGHT HUNDRED", "THOUSAND", "SIX HUNDRED", "TWO HUNDRED", "FOUR HUNDRED", "NINE HUNDRED"];
+    let inputs = [];
+    let selects = [];
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act24-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < respuestasInputs.length + 1; i++) {
+        inputs[i] = document.getElementById('input-act24-' + (i + 1)).value.trim().toUpperCase();
+
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("") || document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        var conteoInputs = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+        for (let i = 0; i < respuestasInputs.length; i++) {
+            if (inputs[i].includes(respuestasInputs[i])) {
+                conteoInputs++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length && conteoInputs == respuestasInputs.length) {
+            var libro = 7;
+            document.getElementById('idcliente24').value = users.value;
+            document.getElementById('points24').value = valorActividad;
+            document.getElementById('idlibro24').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act24', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act24').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length + respuestasInputs.length);
+            let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente24').value = users.value;
+            document.getElementById('points24').value = points;
+            document.getElementById('idlibro24').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act24', 'modal');
+            sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
+            $('#ModalUnit4Act24').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+$('#ModalUnit4Act24').on('shown.bs.modal', function (e) {
+    // Set it up
+    paper.setup('canvas5');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var color2Picker = document.getElementById("colorPicker4");
+    var widthStrokePicker = document.getElementById("strokeWidthPicker4");
+    var clear2Button = document.getElementById("clearBtn4");
+
+    // Clear event listener
+    clear2Button.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        color2Stroke = color2Picker.value;
+        widthStroke = widthStrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
+});
+
+document.getElementById('unit4-act25').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["1", "3", "2", "1", "1", "2", "2", "3", "3", "1", "2", "1"];
+    let inputs = document.getElementById('input-act25-1').value.trim();
+    let selects = [];
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act25-' + (i + 1)).value;
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs == "" || document.getElementById("verify-canvas").value == 0) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        var conteoInputs = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 7;
+            document.getElementById('idcliente25').value = users.value;
+            document.getElementById('points25').value = valorActividad;
+            document.getElementById('idlibro25').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act25', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit4Act25').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length);
+            let points = (puntaje * (conteo)).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente25').value = users.value;
+            document.getElementById('points25').value = points;
+            document.getElementById('idlibro25').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit4-act25', 'modal');
+            sweetAlert(4, (conteo) + '/' + (respuestas.length) + ' answers right', null);
+            $('#ModalUnit4Act25').modal('hide');
+            return true;
+        }
+    }
+
+});
+
+$('#ModalUnit4Act25').on('shown.bs.modal', function (e) {
+    // Set it up
+    paper.setup('canvas6');
+    if (intervalo) {
+        clearInterval(intervalo);
+    }
+    // Get elements from DOM and define properties
+    var color2Picker = document.getElementById("colorPicker5");
+    var widthStrokePicker = document.getElementById("strokeWidthPicker5");
+    var clear2Button = document.getElementById("clearBtn5");
+
+    // Clear event listener
+    clear2Button.addEventListener("click", function () {
+        // Clear canvas2
+        paper.project.activeLayer.removeChildren();
+        paper.view.draw();
+        document.getElementById("verify-canvas").value = 0;
+    });
+
+    // Update 
+    function update() {
+        color2Stroke = color2Picker.value;
+        widthStroke = widthStrokePicker.value;
+    }
+
+    // Check for new color2 value each second
+    intervalo = setInterval(update, 1000);
 });
