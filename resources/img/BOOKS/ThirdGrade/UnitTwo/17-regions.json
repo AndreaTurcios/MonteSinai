@@ -1,0 +1,31 @@
+[
+    {
+        "x":152,
+        "y":390,
+        "width":120,
+        "height":12,
+        "class":"html",
+        "data":
+        
+            {
+                "modal":"ModalUnit2Act8_1",
+                "form":"game-eight_1"
+            }	
+        
+    }
+    ,
+    {
+        "x":152,
+        "y":568,
+        "width":120,
+        "height":12,
+        "class":"html",
+        "data":
+        
+            {
+                "modal":"ModalUnit2Act8_2",
+                "form":"game-eight_2"
+            }	
+        
+    }
+    ]

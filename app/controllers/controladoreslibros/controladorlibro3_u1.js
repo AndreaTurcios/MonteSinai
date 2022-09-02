@@ -1272,7 +1272,7 @@ document.getElementById('game-twelve_1').addEventListener('submit', function (ev
     
 });
 
-//Elementos arrastrables act4
+//Elementos arrastrables act12_2
 
 for (let i = 0; i < 4; i++) {
     document.getElementById('img-act12-' + (i + 1)).addEventListener("dragstart", (e) => {
@@ -1280,7 +1280,7 @@ for (let i = 0; i < 4; i++) {
     });
 };
 
-//Elementos que reciben el arrastrable act4
+//Elementos que reciben el arrastrable act12_2
 
 for (let i = 0; i < 4; i++) {
     document.getElementById('box-act12-' + (i + 1)).addEventListener("drop", (e) => {

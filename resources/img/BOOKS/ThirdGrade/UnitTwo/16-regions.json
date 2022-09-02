@@ -1,15 +1,15 @@
 [
 {
     "x":152,
-    "y":390,
+    "y":220,
     "width":120,
     "height":12,
     "class":"html",
     "data":
     
         {
-            "modal":"ModalUnit2Act4_1",
-            "form":"game-four_1"
+            "modal":"ModalUnit2Act7_1",
+            "form":"game-seven_1"
         }	
     
 }
@@ -23,8 +23,8 @@
     "data":
     
         {
-            "modal":"ModalUnit2Act4_2",
-            "form":"game-four_2"
+            "modal":"ModalUnit2Act7_2",
+            "form":"game-seven_2"
         }	
     
 }

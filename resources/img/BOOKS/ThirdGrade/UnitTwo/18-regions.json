@@ -1,0 +1,31 @@
+[
+    {
+        "x":152,
+        "y":410,
+        "width":120,
+        "height":12,
+        "class":"html",
+        "data":
+        
+            {
+                "modal":"ModalUnit2Act9_1",
+                "form":"game-nine_1"
+            }	
+        
+    }
+    ,
+    {
+        "x":152,
+        "y":568,
+        "width":120,
+        "height":12,
+        "class":"html",
+        "data":
+        
+            {
+                "modal":"ModalUnit2Act9_2",
+                "form":"game-nine_2"
+            }	
+        
+    }
+    ]
