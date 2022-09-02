@@ -1,0 +1,31 @@
+[
+{
+    "x":152,
+    "y":500,
+    "width":120,
+    "height":12,
+    "class":"html",
+    "data":
+    
+        {
+            "modal":"ModalUnit2Act4_1",
+            "form":"game-four_1"
+        }	
+    
+}
+,
+{
+    "x":152,
+    "y":568,
+    "width":120,
+    "height":12,
+    "class":"html",
+    "data":
+    
+        {
+            "modal":"ModalUnit2Act4_2",
+            "form":"game-four_2"
+        }	
+    
+}
+]
