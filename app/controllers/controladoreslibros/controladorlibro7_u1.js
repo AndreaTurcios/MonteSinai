@@ -648,6 +648,7 @@ document.getElementById('unit1-act11').addEventListener('submit', function (even
     let checks = [];
     //variable para llevar el conteo de checkbox seleccionados
     let conteocb = 0;
+    let checked = 0;
 
     //Se obtienen los datos ingresados y se ingresan en selects[]
     for (let i = 0; i < respuestas.length; i++) {
@@ -661,6 +662,9 @@ document.getElementById('unit1-act11').addEventListener('submit', function (even
     //Se obtienen los checkbox y se guardan en checks[]
     for (let i = 0; i < 5; i++) {
         checks[i] = document.getElementById('cb11-' + (i + 1)).checked;
+        if (checks[i]) {
+            checked++;
+        }
         for (let j = 0; j < respuestascb.length; j++) {
             if (respuestascb[j] == (i + 1) && checks[i]) {
                 conteocb++;
@@ -669,7 +673,7 @@ document.getElementById('unit1-act11').addEventListener('submit', function (even
     }
 
     // declaración de condicionales 
-    if (selects.includes("0") || inputs.includes("") || conteocb < 1) {
+    if (selects.includes("0") || inputs.includes("") || checked < 1) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     } else {
@@ -1167,7 +1171,7 @@ document.getElementById('unit1-act19').addEventListener('submit', function (even
     let checks = [];
     //variable para llevar el conteo de checkbox seleccionados
     let conteocb = 0;
-
+    let checked = 0;
     //Se obtienen los datos ingresados y se ingresan en selects[]
     for (let i = 0; i < respuestas.length; i++) {
         selects[i] = document.getElementById('select-act19-' + (i + 1)).value;
@@ -1180,6 +1184,9 @@ document.getElementById('unit1-act19').addEventListener('submit', function (even
     //Se obtienen los checkbox y se guardan en checks[]
     for (let i = 0; i < 5; i++) {
         checks[i] = document.getElementById('cb19-' + (i + 1)).checked;
+        if (checks[i]) {
+            checked++;
+        }
         for (let j = 0; j < respuestascb.length; j++) {
             if (respuestascb[j] == (i + 1) && checks[i]) {
                 conteocb++;
@@ -1188,7 +1195,7 @@ document.getElementById('unit1-act19').addEventListener('submit', function (even
     }
 
     // declaración de condicionales 
-    if (selects.includes("0") || inputs.includes("") || conteocb < 1) {
+    if (selects.includes("0") || inputs.includes("") || checked < 1) {
         sweetAlert(2, 'Complete the missing fields', null);
         return false;
     } else {

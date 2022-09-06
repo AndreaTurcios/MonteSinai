@@ -1766,9 +1766,6 @@ Book_Page::headerTemplate('Unidad 5');
 						<br>
 					</div>
 					<br>
-					<!-- Librerias para el Canvas -->
-					<script src="https://s.cdpn.io/6859/paper.js"></script>
-        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -2185,218 +2182,128 @@ Book_Page::headerTemplate('Unidad 5');
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>I. What is a supermarket?</b></p>
+                                        <p><b>I. What is a preposition?</b></p>
                                         <select id="select-act17-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">One of the most healthy and natural foods in existence.</option>
-                                            <option value="2">The state of the atmosphere with respect to cold or heat.</option>
-                                            <option value="3">A large self-service retail store selling food and other goods.</option>
+                                            <option value="1">A very important holiday in El Salvador, celebrated on September 15th.</option>
+                                            <option value="2">It describes a relationship between other words in a sentence.</option>
+                                            <option value="3">A day set apart in honor of some person or in commemoration of some event.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>II. What is the weather?</b></p>
+                                        <p><b>II. What is a holiday?</b></p>
                                         <select id="select-act17-2" class="ms-1 me-1 form-select" style="width: auto;">
 											<option value="0" selected disabled></option>
-                                            <option value="1">One of the most healthy and natural foods in existence.</option>
-                                            <option value="2">The state of the atmosphere with respect to cold or heat.</option>
-                                            <option value="3">A large self-service retail store selling food and other goods.</option>
+                                            <option value="1">A very important holiday in El Salvador, celebrated on September 15th.</option>
+                                            <option value="2">It describes a relationship between other words in a sentence.</option>
+                                            <option value="3">A day set apart in honor of some person or in commemoration of some event.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>III. Identify the fruits, vegetables, drinks and foods:</b></p>
-										<div class="row mb-4 row-cols-2">
-											<div class="col">
-												<table class="table table-bordered" style="border: #8076b2">
-													<th class="text-center">Drinks</th>
-													<tr>
-														<td id="box-act17-1"></td>
-													</tr>
-												</table>
-											</div>
-											<div class="col">
-												<table class="table table-bordered" style="border: #8076b2">
-													<th class="text-center">Foods</th>
-													<tr>
-														<td id="box-act17-2" ></td>
-													</tr>
-												</table>
-											</div>
-										</div>
-										<div class="row mb-4">
-											<div class="col">
-												<div class="row d-flex justify-content-between" id="container-act10-1">
-													<div id="option-act17-2" class="col d-table" draggable="true">Coke</div>
-													<div id="option-act17-4" class="col d-table" draggable="true">Bottled water</div>
-													<div id="option-act17-18" class="col d-table" draggable="true">Coconut</div>
-													<div id="option-act17-6" class="col d-table" draggable="true">Tea</div>
-													<div id="option-act17-16" class="col d-table" draggable="true">Papaya</div>
-													<div id="option-act17-10" class="col d-table" draggable="true">Hamburger</div>
-												</div>
-												<div class="row d-flex justify-content-between" id="container-act10-1">
-													<div id="option-act17-7" class="col d-table" draggable="true">Meat</div>
-													<div id="option-act17-22" class="col d-table" draggable="true">Cucumber</div>
-													<div id="option-act17-8" class="col d-table" draggable="true">Shrimp</div>
-													<div id="option-act17-1" class="col d-table" draggable="true">Milk</div>
-													<div id="option-act17-19" class="col d-table" draggable="true">Lettuce</div>
-													<div id="option-act17-11" class="col d-table" draggable="true">Chicken</div>
-												</div>
-												<div class="row d-flex justify-content-between" id="container-act10-1">
-													<div id="option-act17-20" class="col d-table" draggable="true">Cabbage</div>
-													<div id="option-act17-14" class="col d-table" draggable="true">Pear</div>
-													<div id="option-act17-15" class="col d-table" draggable="true">Banana</div>
-													<div id="option-act17-9" class="col d-table" draggable="true">Tuna</div>
-													<div id="option-act17-3" class="col d-table" draggable="true">Diet soda</div>
-													<div id="option-act17-17" class="col d-table" draggable="true">Mango</div>
-												</div>
-												<div class="row d-flex justify-content-between" id="container-act10-1">
-													<div id="option-act17-21" class="col d-table" draggable="true">Tomato</div>
-													<div id="option-act17-12" class="col d-table" draggable="true">Pizza</div>
-													<div id="option-act17-23" class="col d-table" draggable="true">Carrot</div>
-													<div id="option-act17-5" class="col d-table" draggable="true">Coffee</div>
-													<div id="option-act17-13" class="col d-table" draggable="true">Apple</div>
-													<div id="option-act17-24" class="col d-table" draggable="true">Radishes</div>
-												</div>
-											</div>
-										</div>
-										<div class="row mb-4 row-cols-2">
-											<div class="col">
-												<table class="table table-bordered" style="border: #8076b2">
-													<th class="text-center">Fruits</th>
-													<tr>
-														<td id="box-act17-3"></td>
-													</tr>
-												</table>
-											</div>
-											<div class="col">
-												<table class="table table-bordered" style="border: #8076b2">
-													<th class="text-center ">Vegetables</th>
-													<tr>
-														<td id="box-act17-4"></td>
-													</tr>
-												</table>
-											</div>
+                                        <p><b>III. Write a paragraph describing what you do in Mother's Day:</b></p>
+										<div class="d-flex align-items-center mb-3">
+											<textarea class="form-control" rows="5" id="input-act17-1"></textarea>
 										</div>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>IV. Complete the sentences using the correct season or weather</b></p>
-										<div class="d-flex align-items-center mb-3">
-											<label>When it's </label>
-											<select id="select-act17-3" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">summer</option>
-												<option value="2">winter</option>
-												<option value="3">fall</option>
-											</select>
-											<label>the weather is hot.</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label>During winter it</label>
-											<select id="select-act17-4" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">sunny</option>
-												<option value="2">clear</option>
-												<option value="3">rains</option>
-											</select>
-											<label> a lot.</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label>It is </label>
-											<select id="select-act17-5" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">sunny</option>
-												<option value="2">cloudy</option>
-												<option value="3">lightning</option>
-											</select>
-											<label> everyday during summer.</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label>During </label>
-											<select id="select-act17-6" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">summer</option>
-												<option value="2">winter</option>
-												<option value="3">fall</option>
-											</select>
-											<label> the leaves fall from the trees.</label>
-										</div>
+                                        <p><b>IV. Select the correct holiday and dates</b></p>
+										<table class="table">
+											<tr>
+												<th>Holiday</th>
+												<th>Date</th>
+											</tr>
+											<tr>
+												<td>Independence day</td>
+												<td>
+													<select id="select-act17-3" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">May 10th</option>
+														<option value="2">November 2nd</option>
+														<option value="3">September 15th</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td>Teacher's day</td>
+												<td>
+													<select id="select-act17-4" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">In March or April</option>
+														<option value="2">June 22nd</option>
+														<option value="3">February 14th</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<select id="select-act17-5" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">Mother's day</option>
+														<option value="2">Christmas eve</option>
+														<option value="3">Independence day</option>
+													</select>
+												</td>
+												<td>December 24th</td>
+											</tr>
+											<tr>
+												<td>
+													<select id="select-act17-6" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">August festivals</option>
+														<option value="2">Teacher's day</option>
+														<option value="3">Valentine's day</option>
+													</select>
+												</td>
+												<td>February 14th</td>
+											</tr>
+										</table>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>V. How can you listen to what your classmates say?</b></p>
+                                        <p><b>V. How can you show respect when greeting people?</b></p>
                                         <select id="select-act17-7" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Talking over them.</option>
-                                            <option value="2">Paying attention to them.</option>
-                                            <option value="3">Giving them compliments.</option>
+                                            <option value="1">Saying sentences like "please", "thank you".</option>
+                                            <option value="2">Holding the door open for someone who needs help.</option>
+                                            <option value="3">Greeting them in a proper and friendly manner.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VI. How would you be able to add value to a conversation?</b></p>
+                                        <p><b>VI. How would you show respect with nice phrases to people?</b></p>
                                         <select id="select-act17-8" class="ms-1 me-1 form-select" style="width: auto;">
-										<option value="0" selected disabled></option>
-                                            <option value="1">Sitting or standing up straight and not acting timid.</option>
-                                            <option value="2">Adding a piece of information or a question that keeps the topic alive.</option>
-                                            <option value="3">Saying they look nice in the room.</option>
+											<option value="0" selected disabled></option>
+                                            <option value="1">Saying sentences like "please", "thank you".</option>
+                                            <option value="2">Holding the door open for someone who needs help.</option>
+                                            <option value="3">Greeting them in a proper and friendly manner.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VII. Make a mental map about the healthy benefits of fruits</b></p>
-                                        <header>
-											<div class="grid ">
-												<div class="color">
-													<p>Pick a color:</p>
-													<div class="colorPickerWrapper">
-														<input type="color" id="colorPicker2" value="#55D0ED">
-													</div>
-												</div>
-												<div class="stroke">
-													<p>Change the stroke's width:</p>
-													<div class="strokeWidthPickerWrapper">
-														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
-													</div>
-												</div>
-												<div class="clear">
-													<p>clear the canvas:</p>
-													<div class="clearBtnWrapper">
-														<a href="#" id="clearBtn2">Clear canvas</a>
-													</div>
-												</div>
-											</div>
-											<br>
-											<br>
-											<div class="container">
-												<canvas id="canvas3" width="500" height="500">
-												</canvas>
-											</div>
-										</header>
+                                        <p><b>VII. Are you able to use your inspiration and express positive thoughts about your mother?</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act17-2">
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VIII. How can you apply your exploring capacity to find new healthy benefits of fruits?
+                                        <p><b>VIII. How would you apply proactivity and show your mother how much you love her?
 										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act17-1">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act17-3">
 									</div>
 								</div>
 							</div>
 						</div>
 						<br>
 					</div>
-					<br>
-					<!-- Librerias para el Canvas -->
-					<script src="https://s.cdpn.io/6859/paper.js"></script>
-        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -2425,68 +2332,85 @@ Book_Page::headerTemplate('Unidad 5');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct subject pronoun</p>
+											<p class="fs-5 fw-bold">Select the correct answer</p>
 											<input type="text" class="d-none" id="points18" name="points">
 											<input type="text" class="d-none" id="idcliente18" name="idcliente">
 											<input type="text" class="d-none" id="idlibro18" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act18-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">I</option>
-                                        <option value="2">She</option>
-                                        <option value="3">It</option>
-                                    </select>
-									<label>go to the park every saturday.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<label>Are</label>
-									<select id="select-act18-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">I</option>
-                                        <option value="2">he</option>
-                                        <option value="3">you</option>
-                                    </select>
-									<label> washing the dishes? Yes, I am.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act18-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">She</option>
-                                        <option value="2">We</option>
-                                        <option value="3">I</option>
-                                    </select>
-									<label> are going to the mall after school.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act18-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">You</option>
-                                        <option value="2">He</option>
-                                        <option value="3">They</option>
-                                    </select>
-									<label>is studying german.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act18-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">She</option>
-                                        <option value="2">They</option>
-                                        <option value="3">You</option>
-                                    </select>
-									<label>is the new teacher.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act18-6" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">He</option>
-                                        <option value="2">It</option>
-                                        <option value="3">I</option>
-                                    </select>
-									<label>is raining, bring your umbrella.</label>
-								</div>
+								<table class="table">
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>What </label>
+                                            <select id="select-act18-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">does</option>
+                                                <option value="2">do</option>
+                                            </select>
+                                            <label>Katherine do on weekends?</label>
+                                        </td>
+										<td>
+                                            She goes to the library.
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>Where </label>
+                                            <select id="select-act18-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">does</option>
+                                                <option value="2">do</option>
+                                            </select>
+                                            <label>they live?</label>
+                                        </td>
+										<td>
+                                            <label>They live in Mexico.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>Why</label>
+                                            <select id="select-act18-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">does</option>
+                                                <option value="2">do</option>
+                                            </select>
+                                            <label>your brother study german?</label>
+                                        </td>
+										<td>
+                                            <label>Because he wants to travel to Germany.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>When </label>
+                                            <select id="select-act18-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">does</option>
+                                                <option value="2">do</option>
+                                            </select>
+                                            <label>this class end?</label>
+                                        </td>
+										<td>
+											<label>It ends at 11 o'clock.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>How many siblings </label>
+                                            <select id="select-act18-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">does</option>
+                                                <option value="2">do</option>
+                                            </select>
+                                            <label>you have?</label>
+                                        </td>
+										<td>
+											<label>I have two siblings, a brother and a sister.</label>
+                                        </td>
+									</tr>
+								</table>
 							</div>
 						</div>
 						<br>
@@ -2516,66 +2440,65 @@ Book_Page::headerTemplate('Unidad 5');
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
+							<!-- columna -->
 							<div class="container-fluid">
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct demonstrative pronouns</p>
+											<p class="fs-5 fw-bold">Check the activities done during labor day</p>
 											<input type="text" class="d-none" id="points19" name="points">
 											<input type="text" class="d-none" id="idcliente19" name="idcliente">
 											<input type="text" class="d-none" id="idlibro19" name="idlibro">
 										</div>
 									</div>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act19-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">That</option>
-                                        <option value="2">Those</option>
-                                    </select>
-									<label>oranges are really cheap.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act19-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">That</option>
-                                        <option value="2">Those</option>
-                                    </select>
-									<label> car is red.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act19-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">This</option>
-                                        <option value="2">These</option>
-                                    </select>
-									<label> is Steve, he is our classmate.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act19-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">This</option>
-                                        <option value="2">These</option>
-                                    </select>
-									<label>are my new socks.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act19-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">That</option>
-                                        <option value="2">Those</option>
-                                        <option value="3">This</option>
-                                    </select>
-									<label>backpack over there is mine.</label>
-								</div>
-								<div class="d-flex align-items-center mb-3">
-									<select id="select-act19-6" class="ms-1 me-1 form-select" style="width: auto;">
-                                        <option value="0" selected disabled></option>
-                                        <option value="1">These</option>
-                                        <option value="2">Those</option>
-                                        <option value="3">This</option>
-                                    </select>
-									<label>is my father, he is a lawyer.</label>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-1"><label for="cb19-1">&nbsp;People put flowes on graves</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-5"><label for="cb19-5">&nbsp;People go to church processions</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-2"><label for="cb19-2">&nbsp;Workers march on the streets</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-6"><label for="cb19-6">&nbsp;Cheerleaders get ready to dance</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2 mb-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-3"><label for="cb19-3">&nbsp;Students get ready to march</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-7"><label for="cb19-7">Trade unions make a parade </label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-4"><label for="cb19-4">&nbsp;Couple exchange gifts</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb19-8"><label for="cb19-8">&nbsp;Suspension of bussines</label>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -2612,47 +2535,33 @@ Book_Page::headerTemplate('Unidad 5');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the correct plural of the word in parenthesis</p>
+											<p class="fs-5 fw-bold">Complete the text</p>
 											<input type="text" class="d-none" id="points20" name="points">
 											<input type="text" class="d-none" id="idcliente20" name="idcliente">
 											<input type="text" class="d-none" id="idlibro20" name="idlibro">
 										</div>
 									</div>
-									<div class="row mb-4">
-										<div class="col-6 pe-3">
-											<p class="text-justify" style="display: inline;">I like those </p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-1" placeholder="..." style="width:100px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">. (shoe)</p>
-										</div>
-										<div class="col-6 pe-3">
-											<p class="text-justify" style="display: inline;">My brother has two</p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-2" placeholder="..." style="width:100px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">. (cat)</p>
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-6 pe-3">
-											<p class="text-justify" style="display: inline;">My house has three</p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-3" placeholder="..." style="width:100px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">. (room)</p>
-										</div>
-										<div class="col-6 pe-3">
-											<p class="text-justify" style="display: inline;">In that store they sell </p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-4" placeholder="..." style="width:100px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">. (watch)</p>
-										</div>
-									</div>
-									<div class="row mb-4">
-										<div class="col-6 pe-3">
-											<p class="text-justify" style="display: inline;">Katherine has three</p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-5" placeholder="..." style="width:100px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">. (dress)</p>
-										</div>
-										<div class="col-6 pe-3">
-											<p class="text-justify" style="display: inline;">Look! There are</p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-6" placeholder="..." style="width:100px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;"> over there. (horse)</p>
-										</div>
+									<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+										<source src="../../resources/audio/ingles_septimo/UnitFive/TRACK78.mp3" type="audio/mp3">
+										Tu navegador no soporta audio HTML5.
+									</audio>
+									<div>
+											<p class="text-justify" style="display: inline;">We celebrate </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act20-1" placeholder="..." style="width:200px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">on December 24th. Our tradition is to eat </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act20-2" placeholder="..." style="width:200px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">, delicious food like beef, or chicken. Our desserts are delicious. But the most important is the birth of Jesus at </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act20-3" placeholder="..." style="width:200px; display: inline-block;"> 
+											<br>
+											<br>
+											<p class="text-justify" style="display: inline;">On October 31 is </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act20-4" placeholder="..." style="width:200px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">, some teenagers wear different clothes and scare many people. On</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act20-5" placeholder="..." style="width:200px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">in the U.S., people enjoy reading the messages found on tiny pastel-colored</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act20-6" placeholder="..." style="width:200px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">. These candies have been popular for a hundred years for a hundred years. Traditional messages such as "be mine"
+												or "thank you" are printed on the candies.</p>
 									</div>
 								</div>
 							</div>
@@ -2688,62 +2597,71 @@ Book_Page::headerTemplate('Unidad 5');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the vocabulary you hear</p>
+											<p class="fs-5 fw-bold">Select the correct verb in present tense</p>
 											<input type="text" class="d-none" id="points21" name="points">
 											<input type="text" class="d-none" id="idcliente21" name="idcliente">
 											<input type="text" class="d-none" id="idlibro21" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<audio controls style="margin-top: 10px; margin-bottom: 10px;">
-									<source src="../../resources/audio/ingles_septimo/UnitFive/TRACK60.mp3" type="audio/mp3">
-									Tu navegador no soporta audio HTML5.
-								</audio>
-								<br>
-								<div class="row row-cols-3">
-									<div class="col">
-										<div>
-											<input type="checkbox" id="cb15-1"><label for="cb15-1">&nbsp;Blouse</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-2"><label for="cb15-2">&nbsp;Earrings</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-3"><label for="cb15-3">&nbsp;T-shirt</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-4"><label for="cb15-4">&nbsp;Skirt</label>
-										</div>
-									</div>
-									<div class="col">
-										<div>
-											<input type="checkbox" id="cb15-5"><label for="cb15-5">&nbsp;Cabinet</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-6"><label for="cb15-6">&nbsp;Lamp</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-7"><label for="cb15-7">&nbsp;Cereal</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-8"><label for="cb15-8">&nbsp;Sausages</label>
-										</div>
-									</div>
-									<div class="col">
-										<div>
-											<input type="checkbox" id="cb15-9"><label for="cb15-9">&nbsp;Summer</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-10"><label for="cb15-10">&nbsp;Winter</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-11"><label for="cb15-11">&nbsp;Lightning</label>
-										</div>
-										<div>
-											<input type="checkbox" id="cb15-12"><label for="cb15-12">&nbsp;Prefer</label>
-										</div>
-									</div>
-								</div>
+								
+								<table class="table">
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>My father </label>
+                                            <select id="select-act21-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">eat</option>
+                                                <option value="2">eats</option>
+                                            </select>
+                                            <label>meat.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>They </label>
+                                            <select id="select-act21-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">play</option>
+                                                <option value="2">plays</option>
+                                            </select>
+                                            <label>basketball on sundays.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>Mario</label>
+                                            <select id="select-act21-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">take</option>
+                                                <option value="2">takes</option>
+                                            </select>
+                                            <label>the bus every morning.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>She never </label>
+                                            <select id="select-act21-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">wear</option>
+                                                <option value="2">wears</option>
+                                            </select>
+                                            <label>earrings.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>You  </label>
+                                            <select id="select-act21-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">has</option>
+                                                <option value="2">have</option>
+                                            </select>
+                                            <label>to play this new game.</label>
+                                        </td>
+									</tr>
+								</table>
 							</div>
 						</div>
 						<br>
@@ -2772,49 +2690,26 @@ Book_Page::headerTemplate('Unidad 5');
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
+							<!-- columna -->
 							<div class="container-fluid">
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write a shopping list with more objects and colors.</p>
+											<p class="fs-5 fw-bold">Write a descriptive paragraph about any holiday</p>
 											<input type="text" class="d-none" id="points22" name="points">
 											<input type="text" class="d-none" id="idcliente22" name="idcliente">
 											<input type="text" class="d-none" id="idlibro22" name="idlibro">
 										</div>
 									</div>
+									<div class="d-flex align-items-center mb-3">
+										<textarea class="form-control" rows="5" id="input-act22-1"></textarea>
+									</div>	
 								</div>
-								<header>
-									<div class="grid ">
-										<div class="color">
-											<p>Pick a color:</p>
-											<div class="colorPickerWrapper">
-												<input type="color" id="colorPicker3" value="#55D0ED">
-											</div>
-										</div>
-										<div class="stroke">
-											<p>Change the stroke's width:</p>
-											<div class="strokeWidthPickerWrapper">
-												<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker3">
-											</div>
-										</div>
-										<div class="clear">
-											<p>clear the canvas:</p>
-											<div class="clearBtnWrapper">
-												<a href="#" id="clearBtn3">Clear canvas</a>
-											</div>
-										</div>
-									</div>
-									<br>
-									<br>
-									<div class="container">
-										<canvas id="canvas4" width="500" height="500">
-										</canvas>
-									</div>
-								</header>
 							</div>
 						</div>
 						<br>
 					</div>
+					<br>
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -2852,129 +2747,179 @@ Book_Page::headerTemplate('Unidad 5');
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>I. How can you expand your vocabulary?</b></p>
+                                        <p><b>I. What is the present tense?</b></p>
                                         <select id="select-act23-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Using the same words we know.</option>
+                                            <option value="1">It expresses an unchanging, repeated or reocurring action.</option>
                                             <option value="2">Writing the new words we hear and reading new texts.</option>
-                                            <option value="3">Reading the same text over and over.</option>
+                                            <option value="3">A word that describes an action that is happening now.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>II. What is a subject pronoun?</b></p>
+                                        <p><b>II. What is an action verb?</b></p>
                                         <select id="select-act23-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">The status of belonging to a particular nation.</option>
-                                            <option value="2">A word referring to the person or thing that performs an action.</option>
-                                            <option value="3">A question that can be answered with yes or no.</option>
+										<option value="0" selected disabled></option>
+                                            <option value="1">It expresses an unchanging, repeated or reocurring action.</option>
+                                            <option value="2">Writing the new words we hear and reading new texts.</option>
+                                            <option value="3">A word that describes an action that is happening now.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>III. Select the correct subject pronoun</b></p>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act23-3" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">I</option>
-												<option value="2">She</option>
-												<option value="3">It</option>
-											</select>
-											<label>works as a teacher on sundays.</label>
+                                        <p><b>III. Select the correct action verb in present tense</b></p>
+										<table class="table">
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>I </label>
+													<select id="select-act23-3" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">listen</option>
+														<option value="2">listens</option>
+													</select>
+													<label>to music.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>The children </label>
+													<select id="select-act23-4" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">draw</option>
+														<option value="2">draws</option>
+													</select>
+													<label>on their notebooks.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>Katherine</label>
+													<select id="select-act23-5" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">swim</option>
+														<option value="2">swims</option>
+													</select>
+													<label>on Sunday.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>My father </label>
+													<select id="select-act23-6" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">runs</option>
+														<option value="2">run</option>
+													</select>
+													<label>on weekends.</label>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the activities done during Labor Day</b></p>
+										<div class="row row-cols-2 mb-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb23-1"><label for="cb23-1">&nbsp;People put flowes on graves</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb23-5"><label for="cb23-5">&nbsp;People go to church processions</label>
+												</div>
+											</div>
 										</div>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act23-4" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">I</option>
-												<option value="2">He</option>
-												<option value="3">You</option>
-											</select>
-											<label> are my best friend.</label>
+										<div class="row row-cols-2 mb-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb23-2"><label for="cb23-2">&nbsp;Workers march on the streets</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb23-6"><label for="cb23-6">&nbsp;Cheerleaders get ready to dance</label>
+												</div>
+											</div>
 										</div>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act23-5" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">He</option>
-												<option value="2">We</option>
-												<option value="3">I</option>
-											</select>
-											<label> is doing his homework.</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act23-6" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">It</option>
-												<option value="2">He</option>
-												<option value="3">They</option>
-											</select>
-											<label>are studying italian.</label>
+										<div class="row row-cols-2 mb-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb23-3"><label for="cb23-3">&nbsp;Students get ready to march</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb23-4"><label for="cb23-4">Trade unions make a parade</label>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>IV. Complete the sentences using the plural of the noun in parenthesis</b></p>
-										<div class="row mb-4">
-											<div class="col-6 pe-3">
-												<p class="text-justify" style="display: inline;">I like these </p>
-													<input type="text" autocomplete="off" class="form-control" id="input-act23-1" placeholder="..." style="width:100px; display: inline-block;"> 
-												<p class="text-justify" style="display: inline;">. (sock)</p>
-											</div>
-											<div class="col-6 pe-3">
-												<p class="text-justify" style="display: inline;">I made two</p>
-													<input type="text" autocomplete="off" class="form-control" id="input-act23-2" placeholder="..." style="width:100px; display: inline-block;"> 
-												<p class="text-justify" style="display: inline;">. (cake)</p>
-											</div>
-										</div>
-										<div class="row mb-4">
-											<div class="col-6 pe-3">
-												<p class="text-justify" style="display: inline;">My mother bought new</p>
-													<input type="text" autocomplete="off" class="form-control" id="input-act23-3" placeholder="..." style="width:100px; display: inline-block;"> 
-												<p class="text-justify" style="display: inline;">. (cloth)</p>
-											</div>
-											<div class="col-6 pe-3">
-												<p class="text-justify" style="display: inline;">That supermarket sell </p>
-													<input type="text" autocomplete="off" class="form-control" id="input-act23-4" placeholder="..." style="width:100px; display: inline-block;"> 
-												<p class="text-justify" style="display: inline;">. (peach)</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. How can you show appreciation for your classmates' remarks?</b></p>
+                                        <p><b>V. How can we tolerate classmates and treat them with respect?</b></p>
                                         <select id="select-act23-7" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Being true and letting them know that we appreciate their remarks.</option>
+                                            <option value="1">Being true and letting them know that we appreciate their compliments.</option>
                                             <option value="2">Ignoring their remarkes.</option>
-                                            <option value="3">Saying that their remark was not necessary.</option>
+                                            <option value="3">Listening when they participate.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VI. Can you explain why you have the right to be treated with courtesy and respect?</b></p>
+                                        <p><b>VI. Can you cooperate in a group and smile at the same time?</b></p>
                                         <select id="select-act23-8" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Because I am better than other people.</option>
-                                            <option value="2">Because every person deserves to be treated that way.</option>
+                                            <option value="1">Yes, and it helps us grow and enjoy being with them.</option>
+                                            <option value="2">No, because it is pointless.</option>
                                             <option value="3">Using pejorative language when talking to them.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VII. Could you produce a list of your clothing and accessories with other colors?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act23-5">
+                                        <p><b>VII. Create a mental map about how Christmas is celebrated in other countries?</b></p>
+										<header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker2" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn2">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<input type="number" value="0" id="verify-canvas" class="d-none">
+												<canvas id="canvas3" width="500" height="500">
+												</canvas>
+											</div>
+										</header>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VIII. How can you paint in a creative way your clothing and accessories?
+                                        <p><b>VIII. Can you explore other ways how Christmas is celebrated in other parts of the world?
 										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act23-6">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act23-1">
 									</div>
 								</div>
 							</div>
@@ -3019,176 +2964,75 @@ Book_Page::headerTemplate('Unidad 5');
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>I. When do we use "How much" for questions?</b></p>
+                                        <p><b>I. Why is Independence Day very important?</b></p>
                                         <select id="select-act24-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">When we want to ask about actions that happened in the past.</option>
-                                            <option value="2">To be polite with costumers.</option>
-                                            <option value="3">For questions using a non-countable or singular object.</option>
+                                            <option value="1">Because the students prepare to march.</option>
+                                            <option value="2">Because it was the day El Salvador got its freedom from Spain.</option>
+                                            <option value="3">Because people eat donuts.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>II. What determines the price of a good?</b></p>
+                                        <p><b>II. What is a preposition?</b></p>
                                         <select id="select-act24-2" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
                                             <option value="1">The status of belonging to a particular nation.</option>
                                             <option value="2">A word referring to the person or thing that performs an action.</option>
-                                            <option value="3">The supply and demand model.</option>
+                                            <option value="3">It describes a relationship between other words in a sentence.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>III. Write the following money denominations</b></p>
-										<div class=" row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">$10</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-1" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-											<div class="col d-flex align-items-center">
-												<label class="me-2">1 cent</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-2" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-										</div>
-										<div class=" row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">$5 </label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-3" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-											<div class="col d-flex align-items-center">
-												<label class="me-2">10 cents </label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-4" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-										</div>
-										<div class="row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">$100 </label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-5" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-											<div class="col d-flex align-items-center">
-												<label class="me-2">5 cents</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-6" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>										
-										</div>
-										<div class="row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">25 cents</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-7" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>                                    
-											<div class="col d-flex align-items-center">
-												<label class="me-2">$1</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-8" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>                                    
-										</div>
+                                        <p><b>III. Write a paragraph describing what your family does in holidays</b></p>
+										<div class="d-flex align-items-center">
+											<textarea class="form-control" rows="4" id="input-act24-1"></textarea>
+										</div>	
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-										<p><b>IV. Write the following number in English</b></p>
-										<div class=" row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">700</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-9" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-											<div class="col d-flex align-items-center">
-												<label class="me-2">500</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-10" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-										</div>
-										<div class=" row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">800</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-11" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-											<div class="col d-flex align-items-center">
-												<label class="me-2">1000 </label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-12" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-										</div>
-										<div class="row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">600</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-13" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>
-											<div class="col d-flex align-items-center">
-												<label class="me-2">200</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-14" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>										
-										</div>
-										<div class="row row-cols-2 mb-3">
-											<div class="col d-flex align-items-center">
-												<label class="me-2">400</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-15" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>                                    
-											<div class="col d-flex align-items-center">
-												<label class="me-2">900</label>
-												<input type="text" autocomplete="off" class="form-control" id="input-act24-16" placeholder="..." max-length="30" style="width:300px;"> 
-											</div>                                    
-										</div>
+										<p><b>IV. Write a paragraph describing what you do in Mother's Day</b></p>
+										<div class="d-flex align-items-center">
+											<textarea class="form-control" rows="4" id="input-act24-2"></textarea>
+										</div>	
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>V. How can you show acceptance when receiving compliments?</b></p>
+                                        <p><b>V. How can you cooperate with others and feel better inside?</b></p>
                                         <select id="select-act24-3" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Ignoring them.</option>
-                                            <option value="2">Thanking them.</option>
-                                            <option value="3">Acting like we don't believe.</option>
+                                            <option value="1">Ignoring my classmates when working together.</option>
+                                            <option value="2">By talking about a problem and helping them.</option>
+                                            <option value="3">Acting like we don't believe in them.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VI. How would you develop awareness of the value money?</b></p>
+                                        <p><b>VI. How would you tolerate classmates' language skills weaknesses?</b></p>
                                         <select id="select-act24-4" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Buying things I don't need.</option>
+                                            <option value="1">Celebrating holidays together.</option>
                                             <option value="2">Saving money and calculating our resources.</option>
-                                            <option value="3">Using pejorative language when talking to other people.</option>
+                                            <option value="3">Helping them because they are learning a new language.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VII. Create a mental map about money denominations</b></p>
-                                        <header>
-											<div class="grid ">
-												<div class="color">
-													<p>Pick a color:</p>
-													<div class="colorPickerWrapper">
-														<input type="color" id="colorPicker4" value="#55D0ED">
-													</div>
-												</div>
-												<div class="stroke">
-													<p>Change the stroke's width:</p>
-													<div class="strokeWidthPickerWrapper">
-														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker4">
-													</div>
-												</div>
-												<div class="clear">
-													<p>clear the canvas:</p>
-													<div class="clearBtnWrapper">
-														<a href="#" id="clearBtn4">Clear canvas</a>
-													</div>
-												</div>
-											</div>
-											<br>
-											<br>
-											<div class="container">
-												<canvas id="canvas5" width="500" height="500">
-												</canvas>
-											</div>
-										</header>
+                                        <p><b>VII. Are you able to use your inspiration and say good thoughts about Independence Day?</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act24-3">
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VIII. How would you work with your family to generate ideas on how to save money?
+                                        <p><b>VIII. Would you explore why Independence Day became an important holiday?
 										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act24-17">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act24-4">
 									</div>
 								</div>
 							</div>

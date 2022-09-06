@@ -3137,7 +3137,7 @@ Book_Page::headerTemplate('Unidad 4');
                                         <select id="select-act23-7" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
                                             <option value="1">Being true and letting them know that we appreciate their remarks.</option>
-                                            <option value="2">Ignoring their remarkes.</option>
+                                            <option value="2">Ignoring their remarks.</option>
                                             <option value="3">Saying that their remark was not necessary.</option>
                                         </select>
 									</div>
