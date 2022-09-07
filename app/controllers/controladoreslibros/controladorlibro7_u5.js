@@ -1629,3 +1629,78 @@ document.getElementById('unit5-act24').addEventListener('submit', function (even
     }
 
 });
+
+document.getElementById('unit5-act25').addEventListener('submit', function (event) {
+    //Se asignan los puntos que vale la actividad
+    let valorActividad = 0.09;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar las respuestas y los datos ingresados
+    let respuestas = ["3", "1", "1", "1", "3", "2", "2", "1"];
+    let respuestasInputs = ["FIRST", "SECOND", "THIRD", "FOURTH", "FIFTH", "SIXTH", "SEVENTH", "EIGHTH", "NINTH", "TENTH", "ELEVENTH", "TWELFTH", "THIRTEENTH", "FOURTEENTH", "FIFTEENTH", "SIXTEENTH", "SEVENTEENTH", "EIGHTEENTH", "NINETEENTH", "TWENTIETH", "TWENTY-FIRST", "TWENTY-SECOND", "TWENTY-THIRD", "TWENTY-FOURTH", "TWENTY-FIFTH", "TWENTY-SIXTH", "TWENTY-SEVENTH", "TWENTY-EIGHTH", "TWENTY-NINTH", "THIRTIETH", "THIRTY-FIRST"];
+    let inputs = [];
+    let selects = [];
+
+    //Se obtienen los datos ingresados y se ingresan en selects[]
+    for (let i = 0; i < respuestas.length; i++) {
+        selects[i] = document.getElementById('select-act25-' + (i + 1)).value;
+    }
+    //Se obtienen los datos ingresados y se guardan en inputs[]
+    for (let i = 0; i < respuestasInputs.length + 2; i++) {
+        inputs[i] = document.getElementById('input-act25-' + (i + 1)).value.trim().toUpperCase();
+
+    }
+
+    // declaración de condicionales 
+    if (selects.includes("0") || inputs.includes("")) {
+        sweetAlert(2, 'Complete the missing fields', null);
+        return false;
+    } else {
+        //variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+        var conteoInputs = 0;
+
+        //Se comparan las respuestas con los datos ingresados
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i] == selects[i]) {
+                conteo++;
+            }
+
+        }
+        for (let i = 0; i < respuestasInputs.length; i++) {
+            if (inputs[i].includes(respuestasInputs[i])) {
+                conteoInputs++;
+            }
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length && conteoInputs == respuestasInputs.length) {
+            var libro = 7;
+            document.getElementById('idcliente25').value = users.value;
+            document.getElementById('points25').value = valorActividad;
+            document.getElementById('idlibro25').value = libro;
+
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit5-act25', 'modal');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit5Act25').modal('hide');
+            return true;
+        } else {
+            //Se asigna el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / (respuestas.length + respuestasInputs.length);
+            let points = (puntaje * (conteo + conteoInputs)).toFixed(2);
+            var libro = 7;
+            document.getElementById('idcliente25').value = users.value;
+            document.getElementById('points25').value = points;
+            document.getElementById('idlibro25').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'unit5-act25', 'modal');
+            sweetAlert(4, (conteo + conteoInputs) + '/' + (respuestas.length + respuestasInputs.length) + ' answers right', null);
+            $('#ModalUnit5Act25').modal('hide');
+            return true;
+        }
+    }
+
+});
