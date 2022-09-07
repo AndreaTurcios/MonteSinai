@@ -2038,3 +2038,749 @@ document.getElementById('game-nineteen').addEventListener('submit', function (ev
     }
     
 });
+
+document.getElementById('game-twenty_1').addEventListener('submit', function (event){
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["HOW DO YOU COME TO SCHOOL, TONY?", "I COME TO SCHOOL BY BUS", "HOW DO YOU GO TO CLASS, MELVIN?", "I ALWAYS GO RIDING MY BIKE", "HOW DO YOU GO TO THE UNIVERSITY?", "I GO TO THE UNIVERSITY BY CAR"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act20_1-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points20_1').value = valorActividad;
+            document.getElementById('idlibro20_1').value = libro;
+            document.getElementById('idcliente20_1').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twenty_1', 'ModalUnit2Act20_1');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act20_1').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente20_1').value = users.value;
+            document.getElementById('points20_1').value = points;
+            document.getElementById('idlibro20_1').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twenty_1', 'ModalUnit2Act20_1');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act20_1').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twenty_2').addEventListener('submit', function (event){
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["DO", "GO", "SCHOOL", "BUS", "HOW", "UNIVERSITY", "CAR", "YOU", "CLASS", "ALWAYS", "RIDING"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act20_2-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points20_2').value = valorActividad;
+            document.getElementById('idlibro20_2').value = libro;
+            document.getElementById('idcliente20_2').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twenty_2', 'ModalUnit2Act20_2');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act20_2').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente20_2').value = users.value;
+            document.getElementById('points20_2').value = points;
+            document.getElementById('idlibro20_2').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twenty_2', 'ModalUnit2Act20_2');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act20_2').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentyone').addEventListener('submit', function (event){
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["FABRICIO", "MARITZA", "YOU", "MARITZA", "FINE FABRICIO", "YOU", "FABRICIO", "DO", "BIKE", "MARITZA", "I DO"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act21-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points21').value = valorActividad;
+            document.getElementById('idlibro21').value = libro;
+            document.getElementById('idcliente21').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyone', 'ModalUnit2Act21');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act21').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente21').value = users.value;
+            document.getElementById('points21').value = points;
+            document.getElementById('idlibro21').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyone', 'ModalUnit2Act21');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act21').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentytwo_1').addEventListener('submit', function (event){
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["I AM IN THIRD GRADE THIS YEAR", "MY SISTER, ALICIA IS IN SEVENTH GRADE", "HE STUDIES TENTH GRADE", "MY BROTHER, RAFAEL IS IN NINTH GRADE"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act22_1-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points22_1').value = valorActividad;
+            document.getElementById('idlibro22_1').value = libro;
+            document.getElementById('idcliente22_1').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentytwo_1', 'ModalUnit2Act22_1');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act22_1').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente22_1').value = users.value;
+            document.getElementById('points22_1').value = points;
+            document.getElementById('idlibro22_1').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentytwo_1', 'ModalUnit2Act22_1');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act22_1').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentytwo_2').addEventListener('submit', function (event){
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["THIRD", "SISTER", "SEVENTH", "HE", "TENTH", "MY", "NINTH"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act22_2-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points22_2').value = valorActividad;
+            document.getElementById('idlibro22_2').value = libro;
+            document.getElementById('idcliente22_2').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentytwo_2', 'ModalUnit2Act22_2');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act22_2').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente22_2').value = users.value;
+            document.getElementById('points22_2').value = points;
+            document.getElementById('idlibro22_2').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentytwo_2', 'ModalUnit2Act22_2');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act22_2').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentythree').addEventListener('submit', function (event){
+
+    var name1, name2, name3, name4, name5, name5, name6, name7;
+
+    name1 = document.getElementById('input-act23-1n').value;
+    name2 = document.getElementById('input-act23-2n').value;
+    name3 = document.getElementById('input-act23-3n').value;
+    name4 = document.getElementById('input-act23-4n').value;
+    name5 = document.getElementById('input-act23-5n').value;
+    name6 = document.getElementById('input-act23-6n').value;
+    name7 = document.getElementById('input-act23-7n').value;
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["TEACHER", "MEET YOU", "TO MEET YOU", "TO SCHOOL", "TO SCHOOL ON FOOT"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act23-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("") || name1 == "" || name2 == "" || name3 == "" || name4 == "" || name5 == "" || name6 == "" || name7 == "") {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else if ((name1 != name3 && name1 != name6 && name3 != name6 ) 
+            || (name2 != name4 && name2 != name5 && name2 != name7 && name4 != name5 && name4 != name7 && name5 != name7))
+    {
+        sweetAlert(2, "Please, be aware with the orden of the names");
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points23').value = valorActividad;
+            document.getElementById('idlibro23').value = libro;
+            document.getElementById('idcliente23').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentythree', 'ModalUnit2Act23');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act23').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente23').value = users.value;
+            document.getElementById('points23').value = points;
+            document.getElementById('idlibro23').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentythree', 'ModalUnit2Act23');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act23').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentyfour').addEventListener('submit', function (event){
+
+    var name1, name2, name3, name4;
+
+    name1 = document.getElementById('input-act24-1n').value;
+    name2 = document.getElementById('input-act24-2n').value;
+    name3 = document.getElementById('input-act24-3n').value;
+    name4 = document.getElementById('input-act24-4n').value;
+
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["TEACHER", "ARE YOU", "FINE", "TEACHER", "TEACHER", "OK", "THANKS", "ARE"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act24-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("") || name1 == "" || name2 == "" || name3 == "" || name4 == "") {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else if ((name1 != name2 || name1 != name3 || name3 != name2))
+    {
+        sweetAlert(2, "Please, be aware with the orden of the names");
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points24').value = valorActividad;
+            document.getElementById('idlibro24').value = libro;
+            document.getElementById('idcliente24').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfour', 'ModalUnit2Act24');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act24').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente24').value = users.value;
+            document.getElementById('points24').value = points;
+            document.getElementById('idlibro24').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfour', 'ModalUnit2Act24');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act24').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentyfive').addEventListener('submit', function (event){
+    
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["I", "NEED", "YOU", "NEED", "HE, SHE, IT", "NEEDS", "WE", "NEED", "YOU", "NEED", "THEY", "NEED",
+                    "I", "NEEDED", "YOU", "NEEDED", "HE, SHE, IT", "NEEDED", "WE", "NEEDED", "YOU", "NEEDED", "THEY", "NEEDED",
+                    "I", "DRIVE", "YOU", "DRIVE", "HE, SHE, IT", "DRIVES", "WE", "DRIVE", "YOU", "DRIVE", "THEY", "DRIVE",
+                    "I", "DROVE", "YOU", "DROVE", "HE, SHE, IT", "DROVE", "WE", "DROVE", "YOU", "DROVE", "THEY", "DROVE"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act25-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points25').value = valorActividad;
+            document.getElementById('idlibro25').value = libro;
+            document.getElementById('idcliente25').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfive', 'ModalUnit2Act25');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act25').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente25').value = users.value;
+            document.getElementById('points25').value = points;
+            document.getElementById('idlibro25').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfive', 'ModalUnit2Act25');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act25').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentysix').addEventListener('submit', function (event){
+    
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["I", "RIDE", "YOU", "RIDE", "HE, SHE, IT", "RIDES", "WE", "RIDE", "YOU", "RIDE", "THEY", "RIDE",
+                    "I", "RODE", "YOU", "RODE", "HE, SHE, IT", "RODE", "WE", "RODE", "YOU", "RODE", "THEY", "RODE",
+                    "I", "TAKE", "YOU", "TAKE", "HE, SHE, IT", "TAKES", "WE", "TAKE", "YOU", "TAKE", "THEY", "TAKE",
+                    "I", "TOOK", "YOU", "TOOK", "HE, SHE, IT", "TOOK", "WE", "TOOK", "YOU", "TOOK", "THEY", "TOOK"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act26-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points26').value = valorActividad;
+            document.getElementById('idlibro26').value = libro;
+            document.getElementById('idcliente26').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalUnit2Act26');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act26').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente26').value = users.value;
+            document.getElementById('points26').value = points;
+            document.getElementById('idlibro26').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalUnit2Act26');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act26').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentyseven_1').addEventListener('submit', function (event){
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["ROBERTO NEEDS A NEW PICK UP", "I RIDE MY BIKE TO SCHOOL", "MY FATHER DRIVES A MINIVAN", "I STUDY THIRD GRADE", "RAFAEL STUDIES EVERY DAY", "I WAS IN NICARAGUA YESTERDAY"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act27_1-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points27_1').value = valorActividad;
+            document.getElementById('idlibro27_1').value = libro;
+            document.getElementById('idcliente27_1').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyseven_1', 'ModalUnit2Act27_1');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act27_1').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente27_1').value = users.value;
+            document.getElementById('points27_1').value = points;
+            document.getElementById('idlibro27_1').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyseven_1', 'ModalUnit2Act27_1');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act27_1').modal('hide');
+            return true;
+        }
+    }
+    
+});
+
+document.getElementById('game-twentyseven_2').addEventListener('submit', function (event){
+
+    //Puntos equivalentes de la actividad
+    let valorActividad = 1;
+
+    //Se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Arreglos para guardar respuestas y datos ingresados
+    let respuestas = ["NEEDS", "DRIVES", "RIDE", "STUDIES", "STUDY", "WAS"];
+    let inputs = [];
+
+    //Se obtienen los datos ingresados y se colocan en inputs[]
+    for (let i = 0; i < respuestas.length; i++) {
+       inputs[i] = document.getElementById('input-act27_2-' + (i + 1)).value;        
+    }
+    
+    if (inputs.includes("")) {
+        sweetAlert(2, "Complete the missing fields", null);
+        return false;
+    } else {
+        //Variable para obtener la cantidad de respuestas correctas
+        var conteo = 0;
+
+        for (let i = 0; i < respuestas.length; i++) {
+            if (respuestas[i].toUpperCase() == inputs[i].toUpperCase()) {
+                conteo++;
+            }            
+        }
+
+        //Se revisa si todas las respuestas son correctas
+        if (conteo == respuestas.length) {
+            var libro = 3;
+            document.getElementById('points27_2').value = valorActividad;
+            document.getElementById('idlibro27_2').value = libro;
+            document.getElementById('idcliente27_2').value = users.value;                       
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyseven_2', 'ModalUnit2Act27_2');
+            sweetAlert(1, 'Good job!', null);
+            $('#ModalUnit2Act27_1').modal('hide');
+            return true;
+        } else {
+            //Se asgina el puntaje basado en las respuestas correctas
+            let puntaje = valorActividad / respuestas.length;
+            let points = (puntaje * conteo).toFixed(2);
+            var libro = 3;
+            console.log(users.value);
+            console.log(valorActividad);
+            console.log(libro);
+            document.getElementById('idcliente27_2').value = users.value;
+            document.getElementById('points27_2').value = points;
+            document.getElementById('idlibro27_2').value = libro;
+            action = 'create';
+            saveRowActivity(API_ACTIVIDADES, action, 'game-twentyseven_2', 'ModalUnit2Act27_2');
+            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            $('#ModalUnit2Act27_2').modal('hide');
+            return true;
+        }
+    }
+    
+});
