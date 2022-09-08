@@ -1968,26 +1968,252 @@ Book_Page::headerTemplate('Unidad 6');
 				<div class="modal-body">
 					<div class="container-fluid">
 						<div class="form-group">
-							<!-- columna -->
 							<div class="container-fluid">
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write a 5-line paragraph describing what you do in Mother's day</p>
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
 											<input type="text" class="d-none" id="points16" name="points">
 											<input type="text" class="d-none" id="idcliente16" name="idcliente">
 											<input type="text" class="d-none" id="idlibro16" name="idlibro">
 										</div>
 									</div>
-									<div class="d-flex align-items-center mb-3">
-										<textarea class="form-control" rows="5" id="input-act16-1"></textarea>
-									</div>	
+								</div>
+								<style type="text/css">
+									/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');/
+									/* Reset defaults */
+									* {
+										margin: 0;
+										padding: 0;
+										border: 0;
+										outline: 0;
+										font-size: 100%;
+										vertical-align: baseline;
+									}
+									html {
+									font-family: "Roboto";
+									}
+									header {
+									margin: auto;
+									padding-top: 15px;
+									padding-bottom: 50px;
+									}
+									.grid {
+									display: grid;
+									grid-template-columns: 30% 30% 30%;
+									justify-content: center;	
+									margin-top: 30px;
+									}
+									h1 {
+									color: rgba(0, 0, 0, 0.7.5);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									text-align: center;
+									}
+
+									header p {
+									color: rgba(0, 0, 0, 0.6);
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.2px;
+									text-align: center;
+									margin-bottom: 30px;
+									}
+
+									.colorPickerWrapper, .strokeWidthPickerWrapper {
+									text-align: center;
+									}
+									.colorPickerWrapper input {
+									width: 75px;
+									}
+									.container {
+									width: 100%;
+									margin: auto;
+									text-align: center;
+									}
+
+									#canvas2, #canvas3, #canvas4, #canvas5, #canvas6 {
+									background-color: #F8F8F8;
+									}
+
+									.color, .stroke, .clear {
+									justify-self: center;
+									}
+
+									#clearBtn, #clearBtn2, #clearBtn3, #clearBtn4, #clearBtn5 {
+									color: white;
+									font-size: 16px;
+									font-weight: 700;
+									letter-spacing: 0.5px;
+									padding: 10px 50px;
+									background-color: #55D0ED;
+									border-radius: 10px;
+									text-decoration: none;
+									}
+								</style>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is entertainment?</b></p>
+                                        <select id="select-act16-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Things we normally do in daily living.</option>
+                                            <option value="2">The planning of the day by time and activities.</option>
+                                            <option value="3">An activity designed to give people pleasure or relaxation.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is a daily schedule?</b></p>
+                                        <select id="select-act16-2" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">Things we normally do in daily living.</option>
+                                            <option value="2">The planning of the day by time and activities.</option>
+                                            <option value="3">An activity designed to give people pleasure or relaxation.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Answer the next questions about your daily routine:</b></p>
+											<div class="row row-cols-2 mb-5">
+												<div class="col">
+													<p><b>What time do you get up?</b></p>
+													<p style="display: inline;">I get up at</p>
+													<input type="text" id="input-act16-1" class="time-b4" style="display: inline-block;" autocomplete="off">
+												</div>
+												<div class="col">
+													<p><b>What time do you eat breakfast?</b></p>
+													<p style="display: inline;">I eat breakfast at</p>
+													<input type="text" id="input-act16-2" class="time-b4" style="display: inline-block;" autocomplete="off">
+												</div>
+											</div>
+											<div class="row row-cols-2 mb-5">
+												<div class="col">
+													<p><b>What time do you arrive at school?</b></p>
+													<p style="display: inline;">I arrive at school at</p>
+													<input type="text" id="input-act16-3" class="time-b4" style="display: inline-block;" autocomplete="off">
+												</div>
+												<div class="col">
+													<p><b>What time do you have lunch?</b></p>
+													<p style="display: inline;">I have lunch at</p>
+													<input type="text" id="input-act16-4" class="time-b4" style="display: inline-block;" autocomplete="off">
+												</div>
+											</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the vocabulary about hobbies and entertainment</b></p>
+										<div class="row row-cols-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb16-1"><label for="cb16-1">&nbsp;Eating</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb16-5"><label for="cb16-5">&nbsp;Sleeping</label>
+												</div>
+											</div>
+										</div>
+										<div class="row row-cols-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb16-2"><label for="cb16-2">&nbsp;Cinema</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb16-6"><label for="cb16-6">&nbsp;Take a shower</label>
+												</div>
+											</div>
+										</div>
+										<div class="row row-cols-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb16-3"><label for="cb16-3">&nbsp;Theater</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb16-4"><label for="cb16-4">&nbsp;Gardening</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you benefit from listening attentively to your teacher?</b></p>
+                                        <select id="select-act16-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">By showing enthusiasm to our peers.</option>
+                                            <option value="2">It helps us avoid misunderstandings.</option>
+                                            <option value="3">Watching cartoons and reading comics.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How would you create a good climate in the classroom?</b></p>
+                                        <select id="select-act16-4" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">By showing enthusiasm to our peers.</option>
+                                            <option value="2">It helps us avoid misunderstandings.</option>
+                                            <option value="3">Watching cartoons and reading comics.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Create a mental map of your ideal daily schedule</b></p>
+                                        <header>
+											<div class="grid ">
+												<div class="color">
+													<p>Pick a color:</p>
+													<div class="colorPickerWrapper">
+														<input type="color" id="colorPicker" value="#55D0ED">
+													</div>
+												</div>
+												<div class="stroke">
+													<p>Change the stroke's width:</p>
+													<div class="strokeWidthPickerWrapper">
+														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker">
+													</div>
+												</div>
+												<div class="clear">
+													<p>clear the canvas:</p>
+													<div class="clearBtnWrapper">
+														<a href="#" id="clearBtn">Clear canvas</a>
+													</div>
+												</div>
+											</div>
+											<br>
+											<br>
+											<div class="container">
+												<input type="number" value="0" id="verify-canvas" class="d-none">
+												<canvas id="canvas2" width="500" height="500">
+												</canvas>
+											</div>
+										</header>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How would you use your proactivity and carry out your ideal daily schedule?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act16-5">
+									</div>
 								</div>
 							</div>
 						</div>
 						<br>
 					</div>
-					<br>
+					<!-- Librerias para el Canvas -->
+					<script src="https://s.cdpn.io/6859/paper.js"></script>
+        			<script src="https://s.cdpn.io/6859/tween.min.js"></script>
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
@@ -2016,133 +2242,87 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<p class="fs-5 fw-bold">Select the correct preposition of time</p>
 											<input type="text" class="d-none" id="points17" name="points">
 											<input type="text" class="d-none" id="idcliente17" name="idcliente">
 											<input type="text" class="d-none" id="idlibro17" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. What is a preposition?</b></p>
-                                        <select id="select-act17-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">A very important holiday in El Salvador, celebrated on September 15th.</option>
-                                            <option value="2">It describes a relationship between other words in a sentence.</option>
-                                            <option value="3">A day set apart in honor of some person or in commemoration of some event.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>II. What is a holiday?</b></p>
-                                        <select id="select-act17-2" class="ms-1 me-1 form-select" style="width: auto;">
-											<option value="0" selected disabled></option>
-                                            <option value="1">A very important holiday in El Salvador, celebrated on September 15th.</option>
-                                            <option value="2">It describes a relationship between other words in a sentence.</option>
-                                            <option value="3">A day set apart in honor of some person or in commemoration of some event.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Write a paragraph describing what you do in Mother's Day:</b></p>
-										<div class="d-flex align-items-center mb-3">
-											<textarea class="form-control" rows="5" id="input-act17-1"></textarea>
-										</div>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Select the correct holiday and dates</b></p>
-										<table class="table">
-											<tr>
-												<th>Holiday</th>
-												<th>Date</th>
-											</tr>
-											<tr>
-												<td>Independence day</td>
-												<td>
-													<select id="select-act17-3" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">May 10th</option>
-														<option value="2">November 2nd</option>
-														<option value="3">September 15th</option>
-													</select>
-												</td>
-											</tr>
-											<tr>
-												<td>Teacher's day</td>
-												<td>
-													<select id="select-act17-4" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">In March or April</option>
-														<option value="2">June 22nd</option>
-														<option value="3">February 14th</option>
-													</select>
-												</td>
-											</tr>
-											<tr>
-												<td>
-													<select id="select-act17-5" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">Mother's day</option>
-														<option value="2">Christmas eve</option>
-														<option value="3">Independence day</option>
-													</select>
-												</td>
-												<td>December 24th</td>
-											</tr>
-											<tr>
-												<td>
-													<select id="select-act17-6" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">August festivals</option>
-														<option value="2">Teacher's day</option>
-														<option value="3">Valentine's day</option>
-													</select>
-												</td>
-												<td>February 14th</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. How can you show respect when greeting people?</b></p>
-                                        <select id="select-act17-7" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Saying sentences like "please", "thank you".</option>
-                                            <option value="2">Holding the door open for someone who needs help.</option>
-                                            <option value="3">Greeting them in a proper and friendly manner.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VI. How would you show respect with nice phrases to people?</b></p>
-                                        <select id="select-act17-8" class="ms-1 me-1 form-select" style="width: auto;">
-											<option value="0" selected disabled></option>
-                                            <option value="1">Saying sentences like "please", "thank you".</option>
-                                            <option value="2">Holding the door open for someone who needs help.</option>
-                                            <option value="3">Greeting them in a proper and friendly manner.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VII. Are you able to use your inspiration and express positive thoughts about your mother?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act17-2">
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VIII. How would you apply proactivity and show your mother how much you love her?
-										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act17-3">
-									</div>
-								</div>
+								<table class="table">
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>I wake up </label>
+                                            <select id="select-act17-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">in</option>
+                                                <option value="2">on</option>
+                                                <option value="3">at</option>
+                                            </select>
+                                            <label>5 o'clock.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>I go to the park </label>
+                                            <select id="select-act17-2" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">in</option>
+                                                <option value="2">on</option>
+                                                <option value="2">at</option>
+                                            </select>
+                                            <label>Sundays.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>Christmas is celebrated</label>
+                                            <select id="select-act17-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">in</option>
+                                                <option value="2">on</option>
+                                                <option value="3">at</option>
+                                            </select>
+                                            <label>December.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>I go to bed early </label>
+                                            <select id="select-act17-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">in</option>
+                                                <option value="2">on</option>
+                                                <option value="3">at</option>
+                                            </select>
+                                            <label>night</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>Katherine was born </label>
+                                            <select id="select-act17-5" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">in</option>
+                                                <option value="2">on</option>
+                                                <option value="3">at</option>
+                                            </select>
+                                            <label>September 1ts, 1989.</label>
+                                        </td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<label>I have to visit my grandma </label>
+                                            <select id="select-act17-6" class="ms-1 me-1 form-select" style="width: auto;">
+                                                <option value="0" selected disabled></option>
+                                                <option value="1">in</option>
+                                                <option value="2">on</option>
+                                                <option value="3">at</option>
+                                            </select>
+                                            <label>Monday.</label>
+                                        </td>
+									</tr>
+								</table>
 							</div>
 						</div>
 						<br>
@@ -2175,85 +2355,22 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct answer</p>
+											<p class="fs-5 fw-bold">Read the text and select the main idea</p>
 											<input type="text" class="d-none" id="points18" name="points">
 											<input type="text" class="d-none" id="idcliente18" name="idcliente">
 											<input type="text" class="d-none" id="idlibro18" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<table class="table">
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>What </label>
-                                            <select id="select-act18-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">does</option>
-                                                <option value="2">do</option>
-                                            </select>
-                                            <label>Katherine do on weekends?</label>
-                                        </td>
-										<td>
-                                            She goes to the library.
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>Where </label>
-                                            <select id="select-act18-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">does</option>
-                                                <option value="2">do</option>
-                                            </select>
-                                            <label>they live?</label>
-                                        </td>
-										<td>
-                                            <label>They live in Mexico.</label>
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>Why</label>
-                                            <select id="select-act18-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">does</option>
-                                                <option value="2">do</option>
-                                            </select>
-                                            <label>your brother study german?</label>
-                                        </td>
-										<td>
-                                            <label>Because he wants to travel to Germany.</label>
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>When </label>
-                                            <select id="select-act18-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">does</option>
-                                                <option value="2">do</option>
-                                            </select>
-                                            <label>this class end?</label>
-                                        </td>
-										<td>
-											<label>It ends at 11 o'clock.</label>
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>How many siblings </label>
-                                            <select id="select-act18-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">does</option>
-                                                <option value="2">do</option>
-                                            </select>
-                                            <label>you have?</label>
-                                        </td>
-										<td>
-											<label>I have two siblings, a brother and a sister.</label>
-                                        </td>
-									</tr>
-								</table>
+								<img src="../../resources/img/BOOKS/SeventhGrade/UnitSix/activities/19.jpg" class="img-fluid">
+								<br>
+								<br>
+								<select id="select-act18-1" class="ms-1 me-1 form-select" style="width: 700px;">
+                                    <option value="0" selected disabled></option>
+                                    <option value="1">The main idea of the text is defining what is a leasure time activity and giving examples.</option>
+                                    <option value="2">The text is about the different jobs people have, and the physical activity in them.</option>
+                                    <option value="3">The main idea of the text is describing why people take different aproaches to leisure time activities.</option>
+                                </select>
 							</div>
 						</div>
 						<br>
@@ -2294,53 +2411,20 @@ Book_Page::headerTemplate('Unidad 6');
 											<input type="text" class="d-none" id="idlibro19" name="idlibro">
 										</div>
 									</div>
-									<div class="row row-cols-2 mb-2">
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-1"><label for="cb19-1">&nbsp;People put flowes on graves</label>
-											</div>
-										</div>
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-5"><label for="cb19-5">&nbsp;People go to church processions</label>
-											</div>
-										</div>
-									</div>
-									<div class="row row-cols-2 mb-2">
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-2"><label for="cb19-2">&nbsp;Workers march on the streets</label>
-											</div>
-										</div>
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-6"><label for="cb19-6">&nbsp;Cheerleaders get ready to dance</label>
-											</div>
-										</div>
-									</div>
-									<div class="row row-cols-2 mb-2">
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-3"><label for="cb19-3">&nbsp;Students get ready to march</label>
-											</div>
-										</div>
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-7"><label for="cb19-7">Trade unions make a parade </label>
-											</div>
-										</div>
-									</div>
-									<div class="row row-cols-2">
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-4"><label for="cb19-4">&nbsp;Couple exchange gifts</label>
-											</div>
-										</div>
-										<div class="col">
-											<div>
-												<input type="checkbox" id="cb19-8"><label for="cb19-8">&nbsp;Suspension of bussines</label>
-											</div>
-										</div>
+									<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+										<source src="../../resources/audio/ingles_septimo/UnitSix/TRACK97.mp3" type="audio/mp3">
+										Tu navegador no soporta audio HTML5.
+									</audio>
+									<div>
+										<p class="text-justify" style="display: inline;">The description of my perfect day is to  </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act19-1" placeholder="..." style="width:200px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">, travel far away, cross rivers, and later come back home to stay with my family. Later at night, to watch the </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act19-2" placeholder="..." style="width:200px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">, and talk with my family about important stories, inspired by the silent night, just listening to the birds </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act19-3" placeholder="..." style="width:200px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">and flying around us. When the sunshine appears again, is going to be the  </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act19-4" placeholder="..." style="width:200px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">to feed animals on the farm, without any problem. Then, it will be time to go to the movies with my family to enjoy a romantic movie.</p>
 									</div>
 								</div>
 							</div>
@@ -2378,33 +2462,71 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete the text</p>
+											<p class="fs-5 fw-bold">Select the frequency adverbs</p>
 											<input type="text" class="d-none" id="points20" name="points">
 											<input type="text" class="d-none" id="idcliente20" name="idcliente">
 											<input type="text" class="d-none" id="idlibro20" name="idlibro">
 										</div>
 									</div>
-									<audio controls style="margin-top: 10px; margin-bottom: 10px;">
-										<source src="../../resources/audio/ingles_septimo/UnitSix/TRACK78.mp3" type="audio/mp3">
-										Tu navegador no soporta audio HTML5.
-									</audio>
-									<div>
-											<p class="text-justify" style="display: inline;">We celebrate </p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-1" placeholder="..." style="width:200px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">on December 24th. Our tradition is to eat </p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-2" placeholder="..." style="width:200px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">, delicious food like beef, or chicken. Our desserts are delicious. But the most important is the birth of Jesus at </p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-3" placeholder="..." style="width:200px; display: inline-block;"> 
-											<br>
-											<br>
-											<p class="text-justify" style="display: inline;">On October 31 is </p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-4" placeholder="..." style="width:200px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">, some teenagers wear different clothes and scare many people. On</p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-5" placeholder="..." style="width:200px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">in the U.S., people enjoy reading the messages found on tiny pastel-colored</p>
-												<input type="text" autocomplete="off" class="form-control" id="input-act20-6" placeholder="..." style="width:200px; display: inline-block;"> 
-											<p class="text-justify" style="display: inline;">. These candies have been popular for a hundred years for a hundred years. Traditional messages such as "be mine"
-												or "thank you" are printed on the candies.</p>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-1"><label for="cb20-1">&nbsp;Afternoon</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-5"><label for="cb20-5">&nbsp;Hardly ever</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-6"><label for="cb20-6">&nbsp;Sometimes</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-2"><label for="cb20-2">&nbsp;Night</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-3"><label for="cb20-3">&nbsp;Usually</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-7"><label for="cb20-7">&nbsp;Rarely</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-4"><label for="cb20-4">&nbsp;Free time</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-8"><label for="cb20-8">&nbsp;Lunchtime</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-9"><label for="cb20-9">&nbsp;Halloween</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb20-10"><label for="cb20-10">&nbsp;Never</label>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -2440,71 +2562,75 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct verb in present tense</p>
+											<p class="fs-5 fw-bold">Associate the words with the definition</p>
 											<input type="text" class="d-none" id="points21" name="points">
 											<input type="text" class="d-none" id="idcliente21" name="idcliente">
 											<input type="text" class="d-none" id="idlibro21" name="idlibro">
 										</div>
 									</div>
 								</div>
-								
-								<table class="table">
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>My father </label>
-                                            <select id="select-act21-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">eat</option>
-                                                <option value="2">eats</option>
-                                            </select>
-                                            <label>meat.</label>
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>They </label>
-                                            <select id="select-act21-2" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">play</option>
-                                                <option value="2">plays</option>
-                                            </select>
-                                            <label>basketball on sundays.</label>
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>Mario</label>
-                                            <select id="select-act21-3" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">take</option>
-                                                <option value="2">takes</option>
-                                            </select>
-                                            <label>the bus every morning.</label>
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>She never </label>
-                                            <select id="select-act21-4" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">wear</option>
-                                                <option value="2">wears</option>
-                                            </select>
-                                            <label>earrings.</label>
-                                        </td>
-									</tr>
-									<tr>
-										<td class="d-flex align-items-center">
-											<label>You  </label>
-                                            <select id="select-act21-5" class="ms-1 me-1 form-select" style="width: auto;">
-                                                <option value="0" selected disabled></option>
-                                                <option value="1">has</option>
-                                                <option value="2">have</option>
-                                            </select>
-                                            <label>to play this new game.</label>
-                                        </td>
-									</tr>
-								</table>
+								<div class="row mb-4">
+									<div class="col">
+										<div class="row row-cols-2 container-act16">
+											<div id="option-act21-10" class="col mb-3" draggable="true">A person's place of employement.</div>
+											<div id="option-act21-5" class="col mb-3" draggable="true">The evening meal.</div>
+											<div id="option-act21-2" class="col mb-3" draggable="true">A midday meal.</div>
+											<div id="option-act21-3" class="col mb-3" draggable="true">The first meal of the day.</div>
+											<div id="option-act21-4" class="col mb-3" draggable="true">The main meal of the day.</div>
+											<div id="option-act21-9" class="col mb-3" draggable="true">A schedule showing the times to arrive and depart.</div>
+											<div id="option-act21-8" class="col mb-3" draggable="true">To take into the mouth and swallow for nourishment.</div>
+											<div id="option-act21-7" class="col mb-3" draggable="true">Whatever supplies nourishment to organisms.</div>
+											<div id="option-act21-6" class="col mb-3" draggable="true">The time during which a break is taken.</div>
+											<div id="option-act21-1" class="col mb-3" draggable="true">An institution where instruction is given.</div>
+										</div>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col">
+										<table class="table table-bordered" style="border: #8076b2">
+											<tr>
+												<td width="30%">School</td>
+												<td width="70%" id="box-act21-1"></td>
+											</tr>
+											<tr>
+												<td width="30%">Lunch</td>
+												<td width="70%" id="box-act21-2"></td>
+											</tr>
+											<tr>
+												<td width="30%">Breakfast</td>
+												<td width="70%" id="box-act21-3"></td>
+											</tr>
+											<tr>
+												<td width="30%">Dinner</td>
+												<td width="70%" id="box-act21-4"></td>
+											</tr>
+											<tr>
+												<td width="30%">Supper</td>
+												<td width="70%" id="box-act21-5"></td>
+											</tr>
+											<tr>
+												<td width="30%">Breaktime</td>
+												<td width="70%" id="box-act21-6"></td>
+											</tr>
+											<tr>
+												<td width="30%">Food</td>
+												<td width="70%" id="box-act21-7"></td>
+											</tr>
+											<tr>
+												<td width="30%">Eat</td>
+												<td width="70%" id="box-act21-8"></td>
+											</tr>
+											<tr>
+												<td width="30%">Timetable</td>
+												<td width="70%" id="box-act21-9"></td>
+											</tr>
+											<tr>
+												<td width="30%">Workplace</td>
+												<td width="70%" id="box-act21-10"></td>
+											</tr>
+										</table>
+									</div>
+								</div>
 							</div>
 						</div>
 						<br>
@@ -2523,7 +2649,7 @@ Book_Page::headerTemplate('Unidad 6');
 </div>
 
 <div id="ModalUnit6Act22" class="modal fade" tabindex="-4">
-	<div class="modal-dialog modal-lg">
+	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
 				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
@@ -2538,15 +2664,55 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write a descriptive paragraph about any holiday</p>
+											<p class="fs-5 fw-bold">Complete the timetable information that is missing</p>
 											<input type="text" class="d-none" id="points22" name="points">
 											<input type="text" class="d-none" id="idcliente22" name="idcliente">
 											<input type="text" class="d-none" id="idlibro22" name="idlibro">
 										</div>
 									</div>
-									<div class="d-flex align-items-center mb-3">
-										<textarea class="form-control" rows="5" id="input-act22-1"></textarea>
-									</div>	
+									<div class="text-center mb-3">
+										<img src="../../resources/img/BOOKS/SeventhGrade/UnitSix/activities/23.jpg" class="img-fluid center" style="width: 40%;">
+									</div>
+									<table class="table">
+										<tr>
+											<th colspan="5" class="text-center">Arrivals</th>
+										</tr>
+										<tr>
+											<th>Flight N°</th>
+											<th>Gate N°</th>
+											<th>From</th>
+											<th>Time</th>
+											<th>Status</th>
+										</tr>
+										<tr>
+											<td>LC155</td>
+											<td>12</td>
+											<td>Santiago</td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act22-1" placeholder="..." style="width:200px; display: inline-block;"> </td>
+											<td>On time</td>
+										</tr>
+										<tr>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act22-2" placeholder="..." style="width:200px; display: inline-block;"> </td>
+											<td>15</td>
+											<td>Cancún</td>
+											<td>6:05PM</td>
+											<td>On time</td>
+										</tr>
+										<tr>
+											<td>310/198</td>
+											<td>8</td>
+											<td>Orlando</td>
+											<td>9:15AM</td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act22-3" placeholder="..." style="width:200px; display: inline-block;"> </td>
+										</tr>
+										<tr>
+											<td>UA302</td>
+											<td>4</td>
+											<td><input type="text" autocomplete="off" class="form-control" id="input-act22-4" placeholder="..." style="width:200px; display: inline-block;"> </td>
+											<td>5:50PM</td>
+											<td>Delayed</td>
+										</tr>
+									</table>
 								</div>
 							</div>
 						</div>
@@ -2581,195 +2747,79 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<p class="fs-5 fw-bold">Select the sentences describing habitual activities</p>
 											<input type="text" class="d-none" id="points23" name="points">
 											<input type="text" class="d-none" id="idcliente23" name="idcliente">
 											<input type="text" class="d-none" id="idlibro23" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. What is the present tense?</b></p>
-                                        <select id="select-act23-1" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">It expresses an unchanging, repeated or reocurring action.</option>
-                                            <option value="2">Writing the new words we hear and reading new texts.</option>
-                                            <option value="3">A word that describes an action that is happening now.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>II. What is an action verb?</b></p>
-                                        <select id="select-act23-2" class="ms-1 me-1 form-select" style="width: auto;">
-										<option value="0" selected disabled></option>
-                                            <option value="1">It expresses an unchanging, repeated or reocurring action.</option>
-                                            <option value="2">Writing the new words we hear and reading new texts.</option>
-                                            <option value="3">A word that describes an action that is happening now.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>III. Select the correct action verb in present tense</b></p>
-										<table class="table">
-											<tr>
-												<td class="d-flex align-items-center">
-													<label>I </label>
-													<select id="select-act23-3" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">listen</option>
-														<option value="2">listens</option>
-													</select>
-													<label>to music.</label>
-												</td>
-											</tr>
-											<tr>
-												<td class="d-flex align-items-center">
-													<label>The children </label>
-													<select id="select-act23-4" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">draw</option>
-														<option value="2">draws</option>
-													</select>
-													<label>on their notebooks.</label>
-												</td>
-											</tr>
-											<tr>
-												<td class="d-flex align-items-center">
-													<label>Katherine</label>
-													<select id="select-act23-5" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">swim</option>
-														<option value="2">swims</option>
-													</select>
-													<label>on Sunday.</label>
-												</td>
-											</tr>
-											<tr>
-												<td class="d-flex align-items-center">
-													<label>My father </label>
-													<select id="select-act23-6" class="ms-1 me-1 form-select" style="width: auto;">
-														<option value="0" selected disabled></option>
-														<option value="1">runs</option>
-														<option value="2">run</option>
-													</select>
-													<label>on weekends.</label>
-												</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>IV. Select the activities done during Labor Day</b></p>
-										<div class="row row-cols-2 mb-2">
-											<div class="col">
-												<div>
-													<input type="checkbox" id="cb23-1"><label for="cb23-1">&nbsp;People put flowes on graves</label>
-												</div>
-											</div>
-											<div class="col">
-												<div>
-													<input type="checkbox" id="cb23-5"><label for="cb23-5">&nbsp;People go to church processions</label>
-												</div>
+								<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-1"><label for="cb23-1">&nbsp;My brother always plays the piano at night.</label>
 											</div>
 										</div>
-										<div class="row row-cols-2 mb-2">
-											<div class="col">
-												<div>
-													<input type="checkbox" id="cb23-2"><label for="cb23-2">&nbsp;Workers march on the streets</label>
-												</div>
-											</div>
-											<div class="col">
-												<div>
-													<input type="checkbox" id="cb23-6"><label for="cb23-6">&nbsp;Cheerleaders get ready to dance</label>
-												</div>
-											</div>
-										</div>
-										<div class="row row-cols-2 mb-2">
-											<div class="col">
-												<div>
-													<input type="checkbox" id="cb23-3"><label for="cb23-3">&nbsp;Students get ready to march</label>
-												</div>
-											</div>
-											<div class="col">
-												<div>
-													<input type="checkbox" id="cb23-4"><label for="cb23-4">Trade unions make a parade</label>
-												</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-5"><label for="cb23-5">&nbsp;I am fourteen years old.</label>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>V. How can we tolerate classmates and treat them with respect?</b></p>
-                                        <select id="select-act23-7" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Being true and letting them know that we appreciate their compliments.</option>
-                                            <option value="2">Ignoring their remarkes.</option>
-                                            <option value="3">Listening when they participate.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VI. Can you cooperate in a group and smile at the same time?</b></p>
-                                        <select id="select-act23-8" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">Yes, and it helps us grow and enjoy being with them.</option>
-                                            <option value="2">No, because it is pointless.</option>
-                                            <option value="3">Using pejorative language when talking to them.</option>
-                                        </select>
-									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VII. Create a mental map about how Christmas is celebrated in other countries?</b></p>
-										<header>
-											<div class="grid ">
-												<div class="color">
-													<p>Pick a color:</p>
-													<div class="colorPickerWrapper">
-														<input type="color" id="colorPicker2" value="#55D0ED">
-													</div>
-												</div>
-												<div class="stroke">
-													<p>Change the stroke's width:</p>
-													<div class="strokeWidthPickerWrapper">
-														<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker2">
-													</div>
-												</div>
-												<div class="clear">
-													<p>clear the canvas:</p>
-													<div class="clearBtnWrapper">
-														<a href="#" id="clearBtn2">Clear canvas</a>
-													</div>
-												</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-6"><label for="cb23-6">&nbsp;I sometimes read a book in the afternoon.</label>
 											</div>
-											<br>
-											<br>
-											<div class="container">
-												<input type="number" value="0" id="verify-canvas" class="d-none">
-												<canvas id="canvas3" width="500" height="500">
-												</canvas>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-2"><label for="cb23-2">&nbsp;My uncle always goes to the movies on Sundays.</label>
 											</div>
-										</header>
+										</div>
 									</div>
-								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>VIII. Can you explore other ways how Christmas is celebrated in other parts of the world?
-										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act23-1">
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-3"><label for="cb23-3">&nbsp;The plane arrives at 7 o'clock</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-7"><label for="cb23-7">&nbsp;I got a new notebook.</label>
+											</div>
+										</div>
 									</div>
-								</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-4"><label for="cb23-4">&nbsp;Christmas is on December 25th.</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-8"><label for="cb23-8">&nbsp;I always drink water during dinner.</label>
+											</div>
+										</div>
+									</div>
+									<div class="row row-cols-2">
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-9"><label for="cb23-9">&nbsp;My sister usually sleeps six hours.</label>
+											</div>
+										</div>
+										<div class="col">
+											<div>
+												<input type="checkbox" id="cb23-10"><label for="cb23-10">&nbsp;I will go to the circus tomorrow.</label>
+											</div>
+										</div>
+									</div>
 							</div>
 						</div>
 						<br>
 					</div>
 					<br>
+					
 					<!-- Botones de Control -->
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
