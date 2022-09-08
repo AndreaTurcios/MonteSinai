@@ -482,6 +482,337 @@ Book_Page::headerTemplate('Unidad 2');
 	});
 </script>
 
+<!-- Modales Audios -->
+<div id="ModalUnit1AudioPagWelcome" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audioWelcome">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit1/Welcome.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag35" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio35">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag35.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag36" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio36">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag36.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag38" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio38">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag38.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag40" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio40">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag40.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag42" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio42">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag42.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag44" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio44">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag44.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag45" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio45">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag45.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag46" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio46">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag46.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag48" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio48">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag48.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag49" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio49">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag49.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag50" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio50">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag50.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag51" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio51">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag51.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag52" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio52">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag52.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag53" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio53">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag53.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag54" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio54">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag54.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag55" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio55">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag55.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag56" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio56">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag56.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag57" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio57">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag57.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag58" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio58">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag58.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag59" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio59">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag59.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit1AudioPag62" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-xl">
+		<div class="modal-content">
+        <form class="form" autocomplete="off" method="post" novalidate id="audio62">
+						
+				<audio controls style="margin-right: 100px;">
+					<source src="../../resources/audio/ingles_tercero/Unit2/pag62.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 				
+			                 
+		</form>
+        </div>
+    </div>
+</div>
+
 <!-- Página 35 -->
 <div id="ModalUnit2Act1" class="modal fade" tabindex="-34">
 	<!-- <div class="container-fluid"> -->
