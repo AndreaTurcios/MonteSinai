@@ -2269,7 +2269,7 @@ Book_Page::headerTemplate('Unidad 6');
                                                 <option value="0" selected disabled></option>
                                                 <option value="1">in</option>
                                                 <option value="2">on</option>
-                                                <option value="2">at</option>
+                                                <option value="3">at</option>
                                             </select>
                                             <label>Sundays.</label>
                                         </td>
@@ -2857,75 +2857,160 @@ Book_Page::headerTemplate('Unidad 6');
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>I. Why is Independence Day very important?</b></p>
+                                        <p><b>I. What is a timetable?</b></p>
                                         <select id="select-act24-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Because the students prepare to march.</option>
-                                            <option value="2">Because it was the day El Salvador got its freedom from Spain.</option>
-                                            <option value="3">Because people eat donuts.</option>
+                                            <option value="1">A schedule showing the times at wich railroad trains, airplanes, etc. arrive and depart.</option>
+                                            <option value="2">A word that provides information on how often something happens.</option>
+                                            <option value="3">An activity practiced for interest and enjoyment.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>II. What is a preposition?</b></p>
+                                        <p><b>II. When can we use the preposition of time in?</b></p>
                                         <select id="select-act24-2" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">The status of belonging to a particular nation.</option>
-                                            <option value="2">A word referring to the person or thing that performs an action.</option>
-                                            <option value="3">It describes a relationship between other words in a sentence.</option>
+                                            <option value="1">For a precise time.</option>
+                                            <option value="2">For days and dates.</option>
+                                            <option value="3">For months, years, centuries and long periods.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>III. Write a paragraph describing what your family does in holidays</b></p>
-										<div class="d-flex align-items-center">
-											<textarea class="form-control" rows="4" id="input-act24-1"></textarea>
-										</div>	
+                                        <p><b>III. Select the correct preposition of time</b></p>
+										<table class="table">
+										<tr>
+											<td class="d-flex align-items-center">
+												<label>I play soccer  </label>
+												<select id="select-act24-3" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">in</option>
+													<option value="2">on</option>
+													<option value="3">at</option>
+												</select>
+												<label>Sundays.</label>
+											</td>
+										</tr>
+										<tr>
+											<td class="d-flex align-items-center">
+												<label>You have to leave </label>
+												<select id="select-act24-4" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">in</option>
+													<option value="2">on</option>
+													<option value="3">at</option>
+												</select>
+												<label>8 o'clock to arrive early.</label>
+											</td>
+										</tr>
+										<tr>
+											<td class="d-flex align-items-center">
+												<label>Independence day is celebrated</label>
+												<select id="select-act24-5" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">in</option>
+													<option value="2">on</option>
+													<option value="3">at</option>
+												</select>
+												<label>September.</label>
+											</td>
+										</tr>
+										<tr>
+											<td class="d-flex align-items-center">
+												<label>I eat breakfast </label>
+												<select id="select-act24-6" class="ms-1 me-1 form-select" style="width: auto;">
+													<option value="0" selected disabled></option>
+													<option value="1">in</option>
+													<option value="2">on</option>
+													<option value="3">at</option>
+												</select>
+												<label>7:30 a.m.</label>
+											</td>
+										</tr>
+										</table>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-										<p><b>IV. Write a paragraph describing what you do in Mother's Day</b></p>
-										<div class="d-flex align-items-center">
-											<textarea class="form-control" rows="4" id="input-act24-2"></textarea>
-										</div>	
+										<p><b>IV. Select the frequency adverbs</b></p>
+										<div class="row row-cols-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb24-1"><label for="cb24-1">&nbsp;Afternoon</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb24-5"><label for="cb24-5">&nbsp;Hardly ever</label>
+												</div>
+											</div>
+										</div>
+										<div class="row row-cols-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb24-6"><label for="cb24-6">&nbsp;Sometimes</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb24-2"><label for="cb24-2">&nbsp;Night</label>
+												</div>
+											</div>
+										</div>
+										<div class="row row-cols-2">
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb24-3"><label for="cb24-3">&nbsp;Usually</label>
+												</div>
+											</div>
+											<div class="col">
+												<div>
+													<input type="checkbox" id="cb24-4"><label for="cb24-4">&nbsp;Rarely</label>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>V. How can you cooperate with others and feel better inside?</b></p>
-                                        <select id="select-act24-3" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <p><b>V. How could you answer questions politely?</b></p>
+                                        <select id="select-act24-7" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Ignoring my classmates when working together.</option>
-                                            <option value="2">By talking about a problem and helping them.</option>
-                                            <option value="3">Acting like we don't believe in them.</option>
+                                            <option value="1">Ignoring people when they ask me something.</option>
+                                            <option value="2">Using polite phrases like "Thank you", or "You're welcome".</option>
+                                            <option value="3">Giving a direct answer.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VI. How would you tolerate classmates' language skills weaknesses?</b></p>
-                                        <select id="select-act24-4" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <p><b>VI. How would you feel confidence while speaking?</b></p>
+                                        <select id="select-act24-8" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">Celebrating holidays together.</option>
-                                            <option value="2">Saving money and calculating our resources.</option>
-                                            <option value="3">Helping them because they are learning a new language.</option>
+                                            <option value="1">Visualizing that I can do it.</option>
+                                            <option value="2">By playing, sharing and being polite with others.</option>
+                                            <option value="3">Saying polite phrases like "Thank you".</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VII. Are you able to use your inspiration and say good thoughts about Independence Day?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act24-3">
+                                        <p><b>VII. Are you able to use analogy and use a timetable for a bus arrival?</b></p>
+                                        <select id="select-act24-9" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Yes, I am.</option>
+                                            <option value="2">No, I am not.</option>
+                                            <option value="3">Maybe.</option>
+                                        </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VIII. Would you explore why Independence Day became an important holiday?
+                                        <p><b>VIII. How can you apply exploration and find a timetable for a bus arrival?
 										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act24-4">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act24-1">
 									</div>
 								</div>
 							</div>
@@ -2961,228 +3046,677 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<p class="fs-5 fw-bold">Complete the sentences with the correct past tense of the verb in parenthesis</p>
 											<input type="text" class="d-none" id="points25" name="points">
 											<input type="text" class="d-none" id="idcliente25" name="idcliente">
 											<input type="text" class="d-none" id="idlibro25" name="idlibro">
 										</div>
 									</div>
 								</div>
-								<div class="row p-4">
-									<div class="col">
-                                        <p><b>I. What is a month of the year?</b></p>
-                                        <select id="select-act25-1" class="ms-1 me-1 form-select" style="width: auto;">
-											<option value="0" selected disabled></option>
-                                            <option value="1">A word that expresses the location of an item in an ordered sequence.</option>
-                                            <option value="2">A sentence used when referring to holidays or birthdays.</option>
-                                            <option value="3">Any part of the twelve parts into which the calendar year is divided.</option>
-                                        </select>
+								<div class="row mb-4">
+									<div class="col-6 pe-3">
+										<p class="text-justify" style="display: inline;">I  </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act25-1" placeholder="..." style="width:100px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">my sister two minutes ago. (call)</p>
+									</div>
+									<div class="col-6 pe-3">
+										<p class="text-justify" style="display: inline;">She</p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act25-2" placeholder="..." style="width:100px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">a loaf of bread yesterday. (bake)</p>
 									</div>
 								</div>
-								<div class="row p-4">
+								<div class="row mb-4">
+									<div class="col-6 pe-3">
+										<p class="text-justify" style="display: inline;">My car just</p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act25-3" placeholder="..." style="width:100px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;"> working. (stop)</p>
+									</div>
+									<div class="col-6 pe-3">
+										<p class="text-justify" style="display: inline;">We </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act25-4" placeholder="..." style="width:100px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">board games all night. (play)</p>
+									</div>
+								</div>
+								<div class="row mb-4">
+									<div class="col-6 pe-3">
+										<p class="text-justify" style="display: inline;">She just </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act25-5" placeholder="..." style="width:100px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;"> her homework. (finish)</p>
+									</div>
+									<div class="col-6 pe-3">
+										<p class="text-justify" style="display: inline;">They </p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act25-6" placeholder="..." style="width:100px; display: inline-block;"> 
+										<p class="text-justify" style="display: inline;">their house last week. (paint)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit6Act26" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act26">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the correct answer</p>
+											<input type="text" class="d-none" id="points26" name="points">
+											<input type="text" class="d-none" id="idcliente26" name="idcliente">
+											<input type="text" class="d-none" id="idlibro26" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<table class="table">
+									<tr>
+										<td class="d-flex align-items-center">
+											<select id="select-act26-1" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">What</option>
+												<option value="2">Where</option>
+											</select>
+											<label>did you go yesterday?</label>
+										</td>
+										<td>
+											<label>I went to the movies.</label>
+										</td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<select id="select-act26-2" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">What</option>
+												<option value="2">Where</option>
+											</select>
+											<label>did she leave her umbrella?</label>
+										</td>
+										<td>
+											<label>She left it on the table.</label>
+										</td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<select id="select-act26-3" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">What</option>
+												<option value="2">Where</option>
+											</select>
+											<label>are you eating?</label>
+										</td>
+										<td>
+											<label>I'm eating soup.</label>
+										</td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<select id="select-act26-4" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">What</option>
+												<option value="2">Where</option>
+											</select>
+											<label>are you eating?</label>
+										</td>
+										<td>
+											<label>I'm eating at my mom's.</label>
+										</td>
+									</tr>
+									<tr>
+										<td class="d-flex align-items-center">
+											<select id="select-act26-5" class="ms-1 me-1 form-select" style="width: auto;">
+												<option value="0" selected disabled></option>
+												<option value="1">What</option>
+												<option value="2">Where</option>
+											</select>
+											<label>did you buy that shirt?</label>
+										</td>
+										<td>
+											<label>I bought it at the mall.</label>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit6Act27" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act27">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete the sentences with the correct verb</p>
+											<input type="text" class="d-none" id="points27" name="points">
+											<input type="text" class="d-none" id="idcliente27" name="idcliente">
+											<input type="text" class="d-none" id="idlibro27" name="idlibro">
+										</div>
+									</div>
+								</div>
+								<table class="table">
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Why</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act27-1" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">you answer my calls?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">I was busy at work.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Did you play the piano yesterday?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">No, I</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act27-2" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">the guitar.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">When did you </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act27-3" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">your new book?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">I bought it last Monday.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Why </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act27-4" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">your brother play with us?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">Because he was cleaning his room.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Where did you plant the flowers?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">I </p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act27-5" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">them in the yard.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">What</p>
+												<input type="text" autocomplete="off" class="form-control" id="input-act27-6" placeholder="..." style="width:100px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">you eat for lunch yesterday?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">I ate pizza for lunch.</p>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<div id="ModalUnit6Act28" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act28">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the questions and answers you hear</p>
+											<input type="text" class="d-none" id="points28" name="points">
+											<input type="text" class="d-none" id="idcliente28" name="idcliente">
+											<input type="text" class="d-none" id="idlibro28" name="idlibro">
+										</div>
+									</div>
+								</div>
+                                <audio controls style="margin-top: 10px; margin-bottom: 10px;">
+									<source src="../../resources/audio/ingles_septimo/UnitSix/TRACK104.mp3" type="audio/mp3">
+									Tu navegador no soporta audio HTML5.
+								</audio>
+                                <table class="table">
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Where did you go on Saturday?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">I went to Las Vegas.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-1" placeholder="..." style="width:275px; display: inline-block;" > 
+											<p class="text-justify" style="display: inline;">?</p>
+										</td>
+										<td>												
+											<p class="text-justify" style="display: inline;">At the Venetian Hotel and Casino.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Where did you visit?</p>
+										</td>
+										<td>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-2" placeholder="..." style="width:275px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-3" placeholder="..." style="width:275px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;"> I think that New York.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-4" placeholder="..." style="width:275px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">With my brother Rafael.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-5" placeholder="..." style="width:275px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">Only for 10 days.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">How did you get to Las Vegas?</p>
+										</td>
+										<td>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-6" placeholder="..." style="width:275px; display: inline-block;"> 
+											<p class="text-justify" style="display: inline;">Los Angeles</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Did you travel by plane to Los Angeles?</p>
+										</td>
+										<td> 
+											<p class="text-justify" style="display: inline;">Yes,</p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-7" placeholder="..." style="width:275px; display: inline-block;">
+										</td>
+									</tr>
+									<tr>
+										<td> 
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-8" placeholder="..." style="width:275px; display: inline-block;">
+											<p class="text-justify" style="display: inline;">to get there?</p>
+										</td>
+										<td>
+											<p class="text-justify" style="display: inline;">About five hours.</p>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<p class="text-justify" style="display: inline;">Did you have a nice view from your plane?</p>
+										</td>
+										<td> 
+											<p class="text-justify" style="display: inline;">Yes,</p>
+											<input type="text" autocomplete="off" class="form-control" id="input-act28-9" placeholder="..." style="width:275px; display: inline-block;">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit6Act29" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act29">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Select the past actions in a park</p>
+											<input type="text" class="d-none" id="points29" name="points">
+											<input type="text" class="d-none" id="idcliente29" name="idcliente">
+											<input type="text" class="d-none" id="idlibro29" name="idlibro">
+										</div>
+									</div>
+								</div>
+                                <div class="row row-cols-2">
 									<div class="col">
-                                        <p><b>II. What is an ordinal number?</b></p>
-                                        <select id="select-act25-2" class="ms-1 me-1 form-select" style="width: auto;">
+										<div>
+											<input type="checkbox" id="cb29-1"><label for="cb29-1">&nbsp;We watched the birds fly.</label>
+										</div>
+									</div>
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb29-5"><label for="cb29-5">&nbsp;I took a shower and ate breakfast.</label>
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2">
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb29-6"><label for="cb29-6">&nbsp;She baked chocolate chips cookies.</label>
+										</div>
+									</div>
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb29-2"><label for="cb29-2">&nbsp;I played soccer with my friends.</label>
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2">
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb29-3"><label for="cb29-3">&nbsp;My sister walked her dog for an hour.</label>
+										</div>
+									</div>
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb29-7"><label for="cb29-7">&nbsp;Some children were playing basketball.</label>
+										</div>
+									</div>
+								</div>
+								<div class="row row-cols-2">
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb29-4"><label for="cb29-4">&nbsp;I visited the hotel and played in the casino.</label>
+										</div>
+									</div>
+									<div class="col">
+										<div>
+											<input type="checkbox" id="cb29-8"><label for="cb29-8">&nbsp;My father went to Italy.</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit6Act30" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act30">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points30" name="points">
+											<input type="text" class="d-none" id="idcliente30" name="idcliente">
+											<input type="text" class="d-none" id="idlibro30" name="idlibro">
+										</div>
+									</div>
+								</div>
+                                <div class="row p-4">
+									<div class="col">
+                                        <p><b>I. How do we use "did" in the simple past tense?</b></p>
+                                        <select id="select-act30-1" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">A word that expresses the location of an item in an ordered sequence.</option>
-                                            <option value="2">A sentence used when referring to holidays or birthdays.</option>
-                                            <option value="3">Any part of the twelve parts into which the calendar year is divided.</option>
+                                            <option value="1">We use it by adding ed to the main verb.</option>
+                                            <option value="2">In negative and question forms, followed by the simple form of the main verb.</option>
+                                            <option value="3">In negative and question forms, followed by the past tense of the main verb.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>III. Select the correct answer about people's age, date and place of birth</b></p>
-										<div class="d-flex align-items-center mb-3">
-											<label>How old is boris?</label>
-											<select id="select-act25-3" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">He's sixteen year old.</option>
-												<option value="2">On December 14th, 2006.</option>
-												<option value="3">He was born in Mexico.</option>
-											</select>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act25-4" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">When was he born?</option>
-												<option value="2">How old is Mario?</option>
-												<option value="3">Is his birthday coming?</option>
-											</select>
-											<label>On September 28th, 2002.</label>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<label> Where was Elizabeth born?.</label>
-											<select id="select-act25-5" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">On June 26th, 2005.</option>
-												<option value="2">She is seventeen years old</option>
-												<option value="3">She was born in Germany</option>
-											</select>
-										</div>
-										<div class="d-flex align-items-center mb-3">
-											<select id="select-act25-6" class="ms-1 me-1 form-select" style="width: auto;">
-												<option value="0" selected disabled></option>
-												<option value="1">How old is Jessica?</option>
-												<option value="2">When was Jessica born?</option>
-												<option value="3">When was Oscar born</option>
-											</select>
-											<label>She was born on October 30th.</label>
-										</div>
+                                        <p><b>II. When is simple past used?</b></p>
+                                        <select id="select-act30-2" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">When expressing an action that started and finished in the past.</option>
+                                            <option value="2">When we want to talk about reocurring actions.</option>
+                                            <option value="3">When expressing the location of an item in an ordered sequence.</option>
+                                        </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-										<p><b>IV. Write the ordinal numbers from 1st to 31st</b></p>
-										<table class="table">
+                                        <p><b>III. Select the past actions in a park</b></p>
+                                        <div class="row row-cols-2">
+                                            <div class="col">
+                                                <div>
+                                                    <input type="checkbox" id="cb30-1"><label for="cb30-1">&nbsp;I played tennis with my friends.</label>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div>
+                                                    <input type="checkbox" id="cb30-5"><label for="cb30-5">&nbsp;My sister traveled by plane.</label>
+                                                </div>
+                                            </div>
+										</div>
+                                        <div class="row row-cols-2">
+                                            <div class="col">
+                                                <div>
+                                                    <input type="checkbox" id="cb30-6"><label for="cb30-6">&nbsp;You slept for eight hours.</label>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div>
+                                                    <input type="checkbox" id="cb30-2"><label for="cb30-2">&nbsp;My friends and I had a picnic.</label>
+                                                </div>
+                                            </div>
+										</div>
+                                        <div class="row row-cols-2">
+                                            <div class="col">
+                                                <div>
+                                                    <input type="checkbox" id="cb30-3"><label for="cb30-3">&nbsp;I had my breaktime an hour ago.</label>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div>
+                                                    <input type="checkbox" id="cb30-4"><label for="cb30-4">&nbsp;My father walked his dog around the park.</label>
+                                                </div>
+                                            </div>
+                                        </div>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select "Where" or "What" </b></p>
+                                        <table class="table">
 											<tr>
-												<td>1st</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-1" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>2nd</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-2" placeholder="..."></td>
+												<td class="d-flex align-items-center">
+													<select id="select-act30-3" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">What</option>
+														<option value="2">Where</option>
+													</select>
+													<label>were you doing yesterday?</label>
+												</td>
+												<td>
+													<label>I was doing my homework.</label>
+												</td>
 											</tr>
 											<tr>
-												<td>3rd</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-3" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>4th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-4" placeholder="..."></td>
+												<td class="d-flex align-items-center">
+													<select id="select-act30-4" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">What</option>
+														<option value="2">Where</option>
+													</select>
+													<label>did you leave your keys?</label>
+												</td>
+												<td>
+													<label>I left them on my bed.</label>
+												</td>
 											</tr>
 											<tr>
-												<td>5th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-5" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>6th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-6" placeholder="..."></td>
+												<td class="d-flex align-items-center">
+													<select id="select-act30-5" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">What</option>
+														<option value="2">Where</option>
+													</select>
+													<label>did you go yesterday?</label>
+												</td>
+												<td>
+													<label>I went to the park.</label>
+												</td>
 											</tr>
 											<tr>
-												<td>7th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-7" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>8th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-8" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>9th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-9" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>10th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-10" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>11th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-11" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>12th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-12" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>13th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-13" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>14th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-14" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>15th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-15" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>16th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-16" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>17th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-17" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>18th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-18" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>19th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-19" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>20th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-20" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>21st</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-21" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>22nd</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-22" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>23rd</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-23" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>24th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-24" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>25th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-25" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>26th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-26" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>27th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-27" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>28th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-28" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>29th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-29" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>30th</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-30" placeholder="..."></td>
-											</tr>
-											<tr>
-												<td>31st</td>
-												<td><input type="text" autocomplete="off" class="form-control" id="input-act25-31" placeholder="..."></td>
-												<td>&nbsp;</td>
-												<td>&nbsp;</td>
-												<td>&nbsp;</td>
+												<td class="d-flex align-items-center">
+													<select id="select-act30-6" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">What</option>
+														<option value="2">Where</option>
+													</select>
+													<label>are you reading?</label>
+												</td>
+												<td>
+													<label>A mistery book.</label>
+												</td>
 											</tr>
 										</table>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>V. How can you be interested in helping your partners?</b></p>
-                                        <select id="select-act25-7" class="ms-1 me-1 form-select" style="width: auto;">
+                                        <p><b>V. How can mistakes be viewed as a part of the learning process?</b></p>
+                                        <select id="select-act30-7" class="ms-1 me-1 form-select" style="width: auto;">
                                             <option value="0" selected disabled></option>
-                                            <option value="1">By using polite words and showing respect.</option>
-                                            <option value="2">By not bringing my personal problems to the classroom.</option>
-                                            <option value="3">By reading new texts to learn new vocabulary.</option>
+                                            <option value="1">They help by discouraging us.</option>
+                                            <option value="2">Mistakes do not help us at all.</option>
+                                            <option value="3">They help us improve when we fail.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VI. How could you be polite when talking to classmates?</b></p>
-                                        <select id="select-act25-8" class="ms-1 me-1 form-select" style="width: auto;">
-                                            <option value="0" selected disabled></option>
-                                            <option value="1">By using polite words and showing respect.</option>
-                                            <option value="2">By not bringing my personal problems to the classroom.</option>
-                                            <option value="3">By reading new texts to learn new vocabulary.</option>
+                                        <p><b>VI. How would you learn from mistakes by using self control?</b></p>
+                                        <select id="select-act30-8" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">By sleeping.</option>
+                                            <option value="2">Practicing, cooperating and using my empathy.</option>
+                                            <option value="3">Self control does not help.</option>
                                         </select>
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VII. How could you use brainstorming with your family and get ideas to celebrate Christmas?</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act25-32">
+                                        <p><b>VII. How could you apply your personal style and modify the past actions that you did in a park?</b></p>
+										<input type="text" autocomplete="off" class="form-control" id="input-act30-1">
 									</div>
 								</div>
 								<div class="row p-4">
 									<div class="col">
-                                        <p><b>VIII. How can you use your leadership and carry out a Christmas celebration with your family?
+                                        <p><b>VIII. Can you use management thought and convert your ideal actions in a park to reality?
 										</b></p>
-                                        <input type="text" autocomplete="off" class="form-control" id="input-act25-33">
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act30-2">
 									</div>
 								</div>
 							</div>
