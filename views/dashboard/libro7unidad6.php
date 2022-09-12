@@ -3737,6 +3737,546 @@ Book_Page::headerTemplate('Unidad 6');
 	</div>
 </div>
 
+<div id="ModalUnit6Act31" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act31">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points31" name="points">
+											<input type="text" class="d-none" id="idcliente31" name="idcliente">
+											<input type="text" class="d-none" id="idlibro31" name="idlibro">
+										</div>
+									</div>
+								</div>
+                                <div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is a timetable?</b></p>
+                                        <select id="select-act31-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">A schedule showing the times at which railroad trains, airplanes, etc. arrive and depart.</option>
+                                            <option value="2">A schedule showing the planning of the day by time and activities.</option>
+                                            <option value="3">It provides information on how often something happens.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. What is a park?</b></p>
+                                        <select id="select-act31-2" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">Any activity that causes your body to work harder than normal.</option>
+                                            <option value="2">An institution where instruction is given.</option>
+                                            <option value="3">An area of land set aside for public use.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Complete the timetable</b></p>
+                                        <div class="text-center mb-3">
+											<img src="../../resources/img/BOOKS/SeventhGrade/UnitSix/activities/23.jpg" class="img-fluid center" style="width: 40%;">
+										</div>
+										<table class="table">
+											<tr>
+												<th colspan="5" class="text-center">Arrivals</th>
+											</tr>
+											<tr>
+												<th>Flight N°</th>
+												<th>Gate N°</th>
+												<th>From</th>
+												<th>Time</th>
+												<th>Status</th>
+											</tr>
+											<tr>
+												<td>923/195</td>
+												<td>7</td>
+												<td>Los Angeles</td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act31-1" placeholder="..." style="width:200px; display: inline-block;"> </td>
+												<td>Delayed</td>
+											</tr>
+											<tr>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act31-2" placeholder="..." style="width:200px; display: inline-block;"> </td>
+												<td>11</td>
+												<td>Paris</td>
+												<td>4:30PM</td>
+												<td>On time</td>
+											</tr>
+											<tr>
+												<td>AC 34</td>
+												<td>14</td>
+												<td>Ottawa</td>
+												<td>4:50PM</td>
+												<td><input type="text" autocomplete="off" class="form-control" id="input-act31-3" placeholder="..." style="width:200px; display: inline-block;"> </td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the correct preposition </b></p>
+                                        <table class="table">
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>I watch movies</label>
+													<select id="select-act31-3" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">in</option>
+														<option value="2">on</option>
+														<option value="3">at</option>
+													</select>
+													<label>night.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>She goes to the mall </label>
+													<select id="select-act31-4" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">in</option>
+														<option value="2">on</option>
+														<option value="3">at</option>
+													</select>
+													<label>Tuesdays.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>My mother comes to El Salvador</label>
+													<select id="select-act31-5" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">in</option>
+														<option value="2">on</option>
+														<option value="3">at</option>
+													</select>
+													<label>November.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>She wakes up </label>
+													<select id="select-act31-6" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">in</option>
+														<option value="2">on</option>
+														<option value="3">at</option>
+													</select>
+													<label>5 o'clock.</label>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How can you ask and answer questions politely?</b></p>
+                                        <select id="select-act31-7" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Asking it like it's an order.</option>
+                                            <option value="2">Saying phrases like "Please" and "Thanking" when doing it.</option>
+                                            <option value="3">Shouting when we ask them.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How could you help yourself to feel confident while speaking?</b></p>
+                                        <select id="select-act31-8" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">Visualizing that I can do it.</option>
+                                            <option value="2">By playing, sharing and being polite with others.</option>
+                                            <option value="3">Not making eye contact.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. Are you able to use your imagination and create a perfect day for you?</b></p>
+										<input type="text" autocomplete="off" class="form-control" id="input-act31-4">
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. Can you use management thought and convert your ideal actions in a park to reality?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act31-5">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit6Act32" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act32">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Complete these activities and measure your achievements</p>
+											<input type="text" class="d-none" id="points32" name="points">
+											<input type="text" class="d-none" id="idcliente32" name="idcliente">
+											<input type="text" class="d-none" id="idlibro32" name="idlibro">
+										</div>
+									</div>
+								</div>
+                                <div class="row p-4">
+									<div class="col">
+                                        <p><b>I. What is called exam anxiety or stress?</b></p>
+                                        <select id="select-act32-1" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">The stress we feel when we are about to talk in public.</option>
+                                            <option value="2">The worry we feel before or when taking an exam.</option>
+                                            <option value="3">Felling stressed when we are eating.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>II. How can a hobby help people?</b></p>
+                                        <select id="select-act32-2" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">In different ways such as providing physical activity or learning new things.</option>
+                                            <option value="2">They cannot help at all.</option>
+                                            <option value="3">Hobbies help by making people waste time.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>III. Complete the table with the different forms to tell the time</b></p>
+                                        <table class="table">
+											<tr>
+												<th>&nbsp;</th>
+												<th>Telling time</th>
+												<th>What time is it?</th>
+											</tr>
+											<tr>
+												<td>2:30</td>
+												<td>It's two thirty</td>
+												<td>
+													<select id="select-act32-3" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">It's thirty and two.</option>
+														<option value="2">It's half past two.</option>
+														<option value="3">It's half to two.</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<select id="select-act32-4" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">11:15</option>
+														<option value="2">10:15</option>
+														<option value="3">10:45</option>
+													</select>
+												</td>
+												<td>It's ten forty-five</td>
+												<td>It's a quarter to eleven</td>
+											</tr>
+											<tr>
+												<td>9:00</td>
+												<td>
+													<select id="select-act32-5" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">It's nine o'clock</option>
+														<option value="2">It's nine zero</option>
+														<option value="3">It's nine ten</option>
+													</select>
+												</td>
+												<td>It's nine a.m. / p.m.</td>
+											</tr>
+											<tr>
+												<td>11:15</td>
+												<td>It's eleven fifteen</td>
+												<td>
+													<select id="select-act32-6" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">It's eleven to fifteen.</option>
+														<option value="2">It's a quarter past eleven.</option>
+														<option value="3">It's half to eleven.</option>
+													</select>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>IV. Select the correct answer </b></p>
+                                        <table class="table">
+											<tr>
+												<td class="d-flex align-items-center">
+													<select id="select-act32-7" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">What time do you wake up?</option>
+														<option value="2">Do you take a shower before leaving?</option>
+														<option value="3">What do you have for breakfast?</option>
+													</select>
+													<label>At 5 o'clock.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>What time do you eat breakfast?</label>
+													<select id="select-act32-8" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">I eat breakfast at 6:00.</option>
+														<option value="2">In the afternoon.</option>
+														<option value="3">Yes, I do.</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<select id="select-act32-9" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">What time do you brush your teeth?</option>
+														<option value="2">Do you brush your teeth every morning? </option>
+														<option value="3">Are you brushing your teeth?</option>
+													</select>
+													<label>Yes, I do.</label>
+												</td>
+											</tr>
+											<tr>
+												<td class="d-flex align-items-center">
+													<label>Do you wake up early in the morning?</label>
+													<select id="select-act32-10" class="ms-1 me-1 form-select" style="width: auto;">
+														<option value="0" selected disabled></option>
+														<option value="1">Yes, I am.</option>
+														<option value="2">Yes, I do, at around 5:00 a.m.</option>
+														<option value="3">Yes, I do, at around 5:00 p.m.</option>
+													</select>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>V. How could you explain that your imagination should be exercised regularly?</b></p>
+                                        <select id="select-act32-11" class="ms-1 me-1 form-select" style="width: auto;">
+                                            <option value="0" selected disabled></option>
+                                            <option value="1">Because it performs better if I keep it in good shape.</option>
+                                            <option value="2">Our imagination is not a muscle, it doesn't need exercise.</option>
+                                            <option value="3">Because exercising our imagination keeps us healthy.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VI. How can you create a good climate by showing enthusiasm?</b></p>
+                                        <select id="select-act32-12" class="ms-1 me-1 form-select" style="width: auto;">
+											<option value="0" selected disabled></option>
+                                            <option value="1">Not being interested in listening what my peers say.</option>
+                                            <option value="2">By playing, sharing and being polite with others.</option>
+                                            <option value="3">Showing enthusiasm while our peer is speaking.</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VII. How could you adapt an important hobby to help you in your life?</b></p>
+										<input type="text" autocomplete="off" class="form-control" id="input-act32-1">
+									</div>
+								</div>
+								<div class="row p-4">
+									<div class="col">
+                                        <p><b>VIII. How can you use your personal ability and develop a hobby to help you in your life?
+										</b></p>
+                                        <input type="text" autocomplete="off" class="form-control" id="input-act32-2">
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div id="ModalUnit6Act33" class="modal fade" tabindex="-4">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">Complete the Activity</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="unit6-act33">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">I prepare myself for the proficiency test</p>
+											<input type="text" class="d-none" id="points33" name="points">
+											<input type="text" class="d-none" id="idcliente33" name="idcliente">
+											<input type="text" class="d-none" id="idlibro33" name="idlibro">
+										</div>
+									</div>
+								</div>
+                                <div class="row p-4 row-cols-2">
+									<div class="col">
+                                        <p><b>1. Using prepositions:</b></p>
+                                        <p>A) We eat dinner on six o'clock</p>
+                                        <p>B) We eat dinner at the six o'clock</p>
+                                        <p>C) We eat dinner at six o'clock</p>
+                                        <p>D) We eat dinner to the six o'clock</p>
+									</div>
+									<div class="col">
+                                        <p><b>2. Using plurals:</b></p>
+                                        <p>A) How much are these watches?</p>
+                                        <p>B) How much are this watches?</p>
+                                        <p>C) How much is these watches?</p>
+                                        <p>D) How much are these watchs?</p>
+									</div>
+								</div>
+                                <div class="row p-4 row-cols-2">
+									<div class="col">
+                                        <p><b>3. Using the present tense:</b></p>
+                                        <p>A) She don't work on New Year's Eve.</p>
+                                        <p>B) She doesn't work on New Year's Eve.</p>
+                                        <p>C) She doesn't works on New Year's Eve.</p>
+                                        <p>D) She doesn't work on Now Year's Eve</p>
+									</div>
+									<div class="col">
+                                        <p><b>4. Introduction to the past of be:</b></p>
+                                        <p>A) My friends was here yesterday.</p>
+                                        <p>B) My friends are here yesterday.</p>
+                                        <p>C) My friend were here yesterday.</p>
+                                        <p>D) My friends were here yesterday.</p>
+									</div>
+								</div>
+                                <div class="row p-4 row-cols-2">
+									<div class="col">
+                                        <p><b>5. Yes/no questions with be:</b></p>
+                                        <p>A) Is your shirt expensive? Yes, it's not.</p>
+                                        <p>B) Is your shirt expensive? No, it's not.</p>
+                                        <p>C) Is your shirt expensive? No, it not.</p>
+                                        <p>D) Is your shirt expensiv? No, it's not.</p>
+									</div>
+									<div class="col">
+                                        <p><b>6. Using possessive adjectives:</b></p>
+                                        <p>A) What's your telephone number?</p>
+                                        <p>B) Whats your telephone number?</p>
+                                        <p>C) What's you telephone number?</p>
+                                        <p>D) What's yur telephone number?</p>
+									</div>
+								</div>
+								<table class="table">
+									<tr>
+										<th>&nbsp;</th>
+										<th>A</th>
+										<th>B</th>
+										<th>C</th>
+										<th>D</th>
+									</tr>
+									<tr>
+										<th>1)</th>
+										<td><input type="radio" name="question1" id="cb33-1" class="form-check-input"></td>
+										<td><input type="radio" name="question1" id="cb33-2" class="form-check-input"></td>
+										<td><input type="radio" name="question1" id="cb33-3" class="form-check-input"></td>
+										<td><input type="radio" name="question1" id="cb33-4" class="form-check-input"></td>
+									</tr>
+									<tr>
+										<th>2)</th>
+										<td><input type="radio" name="question2" id="cb33-5" class="form-check-input"></td>
+										<td><input type="radio" name="question2" id="cb33-6" class="form-check-input"></td>
+										<td><input type="radio" name="question2" id="cb33-7" class="form-check-input"></td>
+										<td><input type="radio" name="question2" id="cb33-8" class="form-check-input"></td>
+									</tr>
+									<tr>
+										<th>3)</th>
+										<td><input type="radio" name="question3" id="cb33-9" class="form-check-input"></td>
+										<td><input type="radio" name="question3" id="cb33-10" class="form-check-input"></td>
+										<td><input type="radio" name="question3" id="cb33-11" class="form-check-input"></td>
+										<td><input type="radio" name="question3" id="cb33-12" class="form-check-input"></td>
+									</tr>
+									<tr>
+										<th>4)</th>
+										<td><input type="radio" name="question4" id="cb33-13" class="form-check-input"></td>
+										<td><input type="radio" name="question4" id="cb33-14" class="form-check-input"></td>
+										<td><input type="radio" name="question4" id="cb33-15" class="form-check-input"></td>
+										<td><input type="radio" name="question4" id="cb33-16" class="form-check-input"></td>
+									</tr>
+									<tr>
+										<th>5)</th>
+										<td><input type="radio" name="question5" id="cb33-17" class="form-check-input"></td>
+										<td><input type="radio" name="question5" id="cb33-18" class="form-check-input"></td>
+										<td><input type="radio" name="question5" id="cb33-19" class="form-check-input"></td>
+										<td><input type="radio" name="question5" id="cb33-20" class="form-check-input"></td>
+									</tr>
+									<tr>
+										<th>6)</th>
+										<td><input type="radio" name="question6" id="cb33-21" class="form-check-input"></td>
+										<td><input type="radio" name="question6" id="cb33-22" class="form-check-input"></td>
+										<td><input type="radio" name="question6" id="cb33-23" class="form-check-input"></td>
+										<td><input type="radio" name="question6" id="cb33-24" class="form-check-input"></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
 Book_Page::footerTemplate('controladorlibro7_u6.js');
