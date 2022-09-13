@@ -1,0 +1,42 @@
+[
+{
+    "x":152,
+    "y":440,
+    "width":120,
+    "height":12,
+    "class":"html",
+    "data":
+        {
+            "modal":"ModalUnit3Act7_1",
+            "form":"game-seven_1"
+        }	
+
+}
+,
+{
+    "x":152,
+    "y":568,
+    "width":120,
+    "height":12,
+    "class":"html",
+    "data":
+        {
+            "modal":"ModalUnit3Act7_2",
+            "form":"game-seven_2"
+        }	
+
+}
+,
+{
+    "x":20,
+    "y":25,	
+    "width":100,
+    "height":12,
+    "class":"html",
+    "data":
+        {
+            "modal":"ModalUnit3AudioPag71",
+            "form":"audio71"
+        }
+}
+]
