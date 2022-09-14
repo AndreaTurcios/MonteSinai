@@ -3145,7 +3145,7 @@ Book_Page::headerTemplate('Unidad 2');
 													<div class="col-2">
 														<select class="form-select form-select-md" id="input-act9_2-1y" name="input-act9_2-1y">
 
-															<option disabled selected>Select an option</option>
+															<option disabled selected></option>
 															<option value="Five">Five</option>
 															<option value="Six">Six</option>
 															<option value="Seven">Seven</option>
@@ -3211,7 +3211,7 @@ Book_Page::headerTemplate('Unidad 2');
 													<div class="col-2">
 														<select class="form-select form-select-md" id="input-act9_2-2y" name="input-act9_2-2y">
 
-															<option disabled selected>Select an option</option>
+															<option disabled selected></option>
 															<option value="Five">Five</option>
 															<option value="Six">Six</option>
 															<option value="Seven">Seven</option>

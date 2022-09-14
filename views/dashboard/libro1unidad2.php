@@ -1501,7 +1501,7 @@ Book_Page::headerTemplate('Unidad 2');
 													<div class="col-4">
 														<select class="form-select form-select-md" id="select-act5-1" name="select-act5-1">
 
-															<option disabled selected>Select an option</option>
+															<option disabled selected></option>
 															<option value="Water">Water</option>
 															<option value="Milk shake">Milk shake</option>
 															<option value="Orange juice">Orange juice</option>
@@ -1524,7 +1524,7 @@ Book_Page::headerTemplate('Unidad 2');
 													<div class="col-3">
 														<select class="form-select form-select-md" id="select-act5-2" name="select-act5-2">
 
-															<option disabled selected>Select an option</option>
+															<option disabled selected></option>
 															<option value="Mother">Mother</option>
 															<option value="Sister">Sister</option>
 															<option value="Father">Father</option>
@@ -1545,7 +1545,7 @@ Book_Page::headerTemplate('Unidad 2');
 													<div class="col-3">
 														<select class="form-select form-select-md" id="select-act5-3" name="select-act5-3">
 
-															<option disabled selected>Select an option</option>
+															<option disabled selected></option>
 															<option value="Drink">Drink</option>
 															<option value="Eat">Eat</option>											
 
@@ -1563,7 +1563,7 @@ Book_Page::headerTemplate('Unidad 2');
 													<div class="col-4">
 														<select class="form-select form-select-md" id="select-act5-4" name="select-act5-4">
 
-														<option disabled selected>Select an option</option>
+														<option disabled selected></option>
 															<option value="Water">Water</option>
 															<option value="Milk shake">Milk shake</option>
 															<option value="Orange juice">Orange juice</option>
