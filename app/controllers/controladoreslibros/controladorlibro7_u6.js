@@ -69,7 +69,7 @@ $(document).ready(function () {
 
 document.getElementById('unit6-act1').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -128,7 +128,7 @@ document.getElementById('unit6-act1').addEventListener('submit', function (event
 
 document.getElementById('unit6-act2').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.02;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -193,7 +193,7 @@ document.getElementById('unit6-act3').addEventListener('submit', function (event
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -259,7 +259,7 @@ document.getElementById('unit6-act4').addEventListener('submit', function (event
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -322,7 +322,7 @@ document.getElementById('unit6-act4').addEventListener('submit', function (event
 
 document.getElementById('unit6-act5').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -428,7 +428,7 @@ for (let i = 0; i < 3; i++) {
 
 document.getElementById('unit6-act6').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.02;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -490,7 +490,7 @@ document.getElementById('unit6-act7').addEventListener('submit', function (event
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -553,7 +553,7 @@ document.getElementById('unit6-act7').addEventListener('submit', function (event
 
 document.getElementById('unit6-act8').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -646,7 +646,7 @@ document.getElementById('unit6-act8').addEventListener('submit', function (event
 
 document.getElementById('unit6-act9').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.02;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -711,7 +711,7 @@ document.getElementById('unit6-act10').addEventListener('submit', function (even
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -774,7 +774,7 @@ document.getElementById('unit6-act10').addEventListener('submit', function (even
 
 document.getElementById('unit6-act11').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -806,7 +806,7 @@ document.getElementById('unit6-act11').addEventListener('submit', function (even
 
 document.getElementById('unit6-act12').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -865,7 +865,7 @@ document.getElementById('unit6-act12').addEventListener('submit', function (even
 
 document.getElementById('unit6-act13').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -940,7 +940,7 @@ document.getElementById('unit6-act14').addEventListener('submit', function (even
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -1003,7 +1003,7 @@ document.getElementById('unit6-act14').addEventListener('submit', function (even
 
 document.getElementById('unit6-act15').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -1109,7 +1109,7 @@ for (let i = 0; i < 3; i++) {
 
 document.getElementById('unit6-act16').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -1223,7 +1223,7 @@ $('#ModalUnit6Act16').on('shown.bs.modal', function (e) {
 
 document.getElementById('unit6-act17').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -1285,7 +1285,7 @@ document.getElementById('unit6-act17').addEventListener('submit', function (even
 
 document.getElementById('unit6-act18').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -1347,7 +1347,7 @@ document.getElementById('unit6-act18').addEventListener('submit', function (even
 
 document.getElementById('unit6-act19').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1409,7 +1409,7 @@ document.getElementById('unit6-act20').addEventListener('submit', function (even
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -1472,7 +1472,7 @@ document.getElementById('unit6-act20').addEventListener('submit', function (even
 
 document.getElementById('unit6-act21').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     let conteo = 0;
     let vacio = false;
     // Se evita recargar la página web después de enviar el formulario.
@@ -1567,7 +1567,7 @@ for (let i = 0; i < 10; i++) {
 
 document.getElementById('unit6-act22').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1629,7 +1629,7 @@ document.getElementById('unit6-act23').addEventListener('submit', function (even
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -1692,7 +1692,7 @@ document.getElementById('unit6-act23').addEventListener('submit', function (even
 
 document.getElementById('unit6-act24').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -1778,7 +1778,7 @@ document.getElementById('unit6-act24').addEventListener('submit', function (even
 
 document.getElementById('unit6-act25').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1837,7 +1837,7 @@ document.getElementById('unit6-act25').addEventListener('submit', function (even
 
 document.getElementById('unit6-act26').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -1899,7 +1899,7 @@ document.getElementById('unit6-act26').addEventListener('submit', function (even
 
 document.getElementById('unit6-act27').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -1958,7 +1958,7 @@ document.getElementById('unit6-act27').addEventListener('submit', function (even
 
 document.getElementById('unit6-act28').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     // Se evita recargar la página web después de enviar el formulario.
     event.preventDefault();
 
@@ -2020,7 +2020,7 @@ document.getElementById('unit6-act29').addEventListener('submit', function (even
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;
@@ -2083,7 +2083,7 @@ document.getElementById('unit6-act29').addEventListener('submit', function (even
 
 document.getElementById('unit6-act30').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -2169,7 +2169,7 @@ document.getElementById('unit6-act30').addEventListener('submit', function (even
 
 document.getElementById('unit6-act31').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -2243,7 +2243,7 @@ document.getElementById('unit6-act31').addEventListener('submit', function (even
 
 document.getElementById('unit6-act32').addEventListener('submit', function (event) {
     //Se asignan los puntos que vale la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
 
     //Se evita recargar la página al enviar el formulario
     event.preventDefault();
@@ -2313,7 +2313,7 @@ document.getElementById('unit6-act33').addEventListener('submit', function (even
     event.preventDefault();
 
     //Se asigna el valor de la actividad
-    let valorActividad = 0.09;
+    let valorActividad = 0.07;
     //Variable para mantener las respuestas correctas
     let conteo = 0;
     let conteocb = 0;

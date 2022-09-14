@@ -3310,6 +3310,256 @@ Book_Page::headerTemplate('Unidad 5');
 	</div>
 </div>
 
+<!-- Audios -->
+
+<div id="ModalUnit5Audio1" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio1">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track62.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio2" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio2">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track63.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio3" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio3">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track64.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio4" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio4">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track65.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio5" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio5">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track66.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio6" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio6">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track67.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio7" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio7">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track68.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio8" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio8">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track69.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio9" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio9">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track70.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio10" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio10">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track71.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio11" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio11">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track72.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio12" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio12">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track73.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio13" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio13">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track74.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio14" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio14">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track75.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio15" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio15">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track76.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio16" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio16">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track77.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio17" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio17">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track78.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio18" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio18">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track79.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+<div id="ModalUnit5Audio19" class="modal fade" tabindex="-2">	
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<form class="form d-flex justify-content-center" autocomplete="off" method="post" novalidate id="unit5-audio19">			
+				<audio controls style="margin-top: 10px; margin-bottom: 10px;">
+					<source src="../../resources/audio/ingles_septimo/UnitFive/Track80.mp3" type="audio/mp3">
+					Tu navegador no soporta audio HTML5.
+				</audio> 								
+			</form>
+        </div>
+    </div>
+</div>
+
+
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
 Book_Page::footerTemplate('controladorlibro7_u5.js');
