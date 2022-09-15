@@ -848,7 +848,7 @@ document.getElementById('unit1-act14').addEventListener('submit', function (even
     event.preventDefault();
 
     //arreglos para guardar las respuestas y los datos ingresados.
-    let respuestas = ["22958745", "78958675", "22620875"];
+    let respuestas = [["22958745", "78958675", "22620875"], ["2295-8745", "7895-8675", "2262-0875"]];
     let inputs = [];
 
     //Se obtienen los datos ingresados y se ingresan en inputs[]
@@ -867,15 +867,16 @@ document.getElementById('unit1-act14').addEventListener('submit', function (even
         //Se comparan las respuestas con los datos ingresados
         for (let i = 0; i < 3; i++) {
             for (let j = 0; j < respuestas.length; j++) {
-                if (inputs[i].trim().toUpperCase().includes(respuestas[j])) {
+                if (inputs[i].trim().toUpperCase().includes(respuestas[0][j]) || inputs[i].trim().toUpperCase().includes(respuestas[1][j])) {
                     conteo++;
-                    respuestas[j] = "~";
+                    respuestas[0][j] = "~";
+                    respuestas[1][j] = "~";
                 }
             }
         }
 
         //Se revisa si todas las respuestas son correctas
-        if (conteo == respuestas.length) {
+        if (conteo == 3) {
             var libro = 7;
             document.getElementById('idcliente14').value = users.value;
             document.getElementById('points14').value = valorActividad;
@@ -888,7 +889,7 @@ document.getElementById('unit1-act14').addEventListener('submit', function (even
             return true;
         } else {
             //Se asigna el puntaje basado en las respuestas correctas
-            let puntaje = valorActividad / respuestas.length;
+            let puntaje = valorActividad / 3;
             let points = (puntaje * conteo).toFixed(2);
             var libro = 7;
             document.getElementById('idcliente14').value = users.value;
@@ -896,7 +897,7 @@ document.getElementById('unit1-act14').addEventListener('submit', function (even
             document.getElementById('idlibro14').value = libro;
             action = 'create';
             saveRowActivity(API_ACTIVIDADES, action, 'unit1-act14', 'modal');
-            sweetAlert(4, conteo + '/' + respuestas.length + ' answers right', null);
+            sweetAlert(4, conteo + '/3' + ' answers right', null);
             $('#ModalUnit1Act14').modal('hide');
             return true;
         }

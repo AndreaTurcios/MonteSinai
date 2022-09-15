@@ -1612,7 +1612,7 @@ Book_Page::headerTemplate('Unidad 6');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct answer</p>
+											<p class="fs-5 fw-bold">Write the missing sentences</p>
 											<input type="text" class="d-none" id="points12" name="points">
 											<input type="text" class="d-none" id="idcliente12" name="idcliente">
 											<input type="text" class="d-none" id="idlibro12" name="idlibro">

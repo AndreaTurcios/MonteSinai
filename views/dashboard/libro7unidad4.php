@@ -2056,7 +2056,7 @@ Book_Page::headerTemplate('Unidad 4');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Write the money denominations you hear</p>
+											<p class="fs-5 fw-bold">Write the useful expressions you hear</p>
 											<input type="text" class="d-none" id="points14" name="points">
 											<input type="text" class="d-none" id="idcliente14" name="idcliente">
 											<input type="text" class="d-none" id="idlibro14" name="idlibro">

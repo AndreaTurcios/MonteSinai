@@ -1722,7 +1722,7 @@ Book_Page::headerTemplate('Unidad 1');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Select the correct option to complete the dialogue</p>
+											<p class="fs-5 fw-bold">Write the following numbers</p>
 											<input type="text" class="d-none" id="points13" name="points">
 											<input type="text" class="d-none" id="idcliente13" name="idcliente">
 											<input type="text" class="d-none" id="idlibro13" name="idlibro">
