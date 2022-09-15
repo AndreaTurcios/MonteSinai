@@ -3885,18 +3885,14 @@ Book_Page::headerTemplate('Unidad 3');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Rewrite the sentences</p>
+											<p class="fs-5 fw-bold">Answer the questions</p>
 											<input type="text" class="d-none" id="points11_2" name="points">
 											<input type="text" class="d-none" id="idcliente11_2" name="idcliente">
 											<input type="text" class="d-none" id="idlibro11_2" name="idlibro">
 										</div>
 									</div>
 									
-									<div class="row justify-content-md-center justify-content-sm-center">																																							
-										
-										<div class="col-md-12 col-sm-12 col-xs-12">
-											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag75/img75_2.png">
-										</div>
+									<div class="row justify-content-md-center justify-content-sm-center">																																															
 
 										<div class="col-md-12 col-sm-12 col-xs-12">
 
@@ -3986,7 +3982,7 @@ Book_Page::headerTemplate('Unidad 3');
 								<div class="row align-items-center">
 									<div class="row mb-4">
 										<div class="col align-items-center">
-											<p class="fs-5 fw-bold">Rewrite the sentences</p>
+											<p class="fs-5 fw-bold">Complete the table</p>
 											<input type="text" class="d-none" id="points12" name="points">
 											<input type="text" class="d-none" id="idcliente12" name="idcliente">
 											<input type="text" class="d-none" id="idlibro12" name="idlibro">
@@ -4361,7 +4357,7 @@ Book_Page::headerTemplate('Unidad 3');
 								<div class="row align-items-center">
 									<div class="row">
 										<div class="col-md-8 align-items-center">
-											<p class="fs-1 fw-bold">Rewrite the sentences</p>
+											<p class="fs-1 fw-bold">Match the sentences</p>
 											<!-- class="d-none" -->
 											<input type="text" class="d-none" id="points13_2" name="points">
 											<input type="text" class="d-none" id="idcliente13_2" name="idcliente">
@@ -4747,6 +4743,3142 @@ Book_Page::headerTemplate('Unidad 3');
 	</div>
 </div>
 
+<!-- Página 79, actividad 14.2  -->
+<div id="ModalUnit3Act14_2" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">WH... QUESTIONS: WHERE, WHEN, WHY</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fourteen_2">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the dialogue</p>
+											<input type="text" class="d-none" id="points14_2" name="points">
+											<input type="text" class="d-none" id="idcliente14_2" name="idcliente">
+											<input type="text" class="d-none" id="idlibro14_2" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag79/img79_2.png">
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<input type="text" id="input-act14_2-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-3">
+														<p class="fst-normal">you have lunch, Melissa?</p> 
+													</div>																					
+												</div>																								
+												
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-1">
+														<p class="fst-normal">I</p> 
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act14_2-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-3">
+														<p class="fst-normal">lunch at a good restaurant</p> 
+													</div>																																																                                                   
+												</div>
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																						
+													<div class="col-2">
+														<input type="text" id="input-act14_2-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-3">
+														<p class="fst-normal">you go to Europe, Brayina?</p> 
+													</div>												                                   																							
+												</div>											
+
+                                               	<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+												   <div class="col-1">
+														<p class="fst-normal">I</p> 
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act14_2-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">to Europe on August</p> 
+													</div>													                                      																							
+												</div>		
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																						
+													<div class="col-2">
+														<input type="text" id="input-act14_2-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-3">
+														<p class="fst-normal">Franciso so happy today?</p> 
+													</div>												                                   																							
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+												   <div class="col-2">
+														<p class="fst-normal">Because he</p> 
+													</div>
+													<div class="col-2">
+														<input type="text" id="input-act14_2-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">a pretty girl.</p> 
+													</div>													                                      																							
+												</div>	
+
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 80, actividad 15.1 -->
+<div id="ModalUnit3Act15_1" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">DAYS OF THE WEEK</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fifteen_1">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Rewrite the sentences and write the days of the week</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points15_1" name="points">
+											<input type="text" class="d-none" id="idcliente15_1" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15_1" name="idlibro">
+										</div>
+									</div>
+
+
+
+									<div class="row justify-content-md-center justify-content-sm-center">															
+
+                                        <div class="col-md-6 col-sm-12">
+												
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_1-1.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-1" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentences"
+														autocomplete="off">													
+											</div>											
+																					 
+										</div>											
+										
+                                        <div class="col-md-6 col-sm-12">
+													                                        
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_1-2.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-2" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">													
+											</div>
+                                                                                        
+                                        </div>	
+
+									    <div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_1-3.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-3" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					 
+										</div>	    
+										
+										<div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_1-4.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-4" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					 
+										</div>
+
+										<div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_1-5.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-5" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>	
+										
+										</div>
+
+										<div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_1-6.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-6" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					
+										</div>
+
+										<div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_1-7.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-7" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					
+										</div>
+
+										<hr>
+
+										<div class="col-md-2 col-sm-12">
+																							
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-8" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="SUNDAY"
+														autocomplete="off">											
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-9" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="MONDAY"
+														autocomplete="off">											
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-10" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="TUESDAY"
+														autocomplete="off">											
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-11" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="WEDNESDAY"
+														autocomplete="off">											
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-12" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="THURSDAY"
+														autocomplete="off">											
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-13" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="FRIDAY"
+														autocomplete="off">											
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act15_1-14" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="SATURDAY"
+														autocomplete="off">											
+											</div>
+																					
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 80, actividad 15.2  -->
+<div id="ModalUnit3Act15_2" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">DAYS OF THE WEEK</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-fifteen_2">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the dialogue</p>
+											<input type="text" class="d-none" id="points15_2" name="points">
+											<input type="text" class="d-none" id="idcliente15_2" name="idcliente">
+											<input type="text" class="d-none" id="idlibro15_2" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag80/img80_2.png">
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">I go to church on</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>																								
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-3">
+														<p class="fst-normal">You begin to study on</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-3">
+														<p class="fst-normal">She goes to the movies on</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>	
+												
+												<hr>												
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-3">
+														<p class="fst-normal">I clean my bedroom on</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>			
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">We go swimming on</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-3">
+														<p class="fst-normal">They play basketball on</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">Students enjoy every</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-7" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>	
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 81 -->
+<div id="ModalUnit3Act16" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">CONJUGATION OF THE VERBS: TO BRUSH, TO WATCH</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-sixteen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<input type="text" class="d-none" id="points16" name="points">
+											<input type="text" class="d-none" id="idcliente16" name="idcliente">
+											<input type="text" class="d-none" id="idlibro16" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">										
+																			
+										
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<p class="fs-5 fw-bold">Conjugate the verb "to brush"</p>
+
+											<div class="row justify-content-md-center justify-content-sm-center">									
+
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 15px;">PRESENT</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-1" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-2" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-3" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-4" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-5" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-6" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-7" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-8" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-9" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-10" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-actact269-11" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-12" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>
+												
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 25px;">PAST</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-13" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-14" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-15" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-16" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-17" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-18" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-19" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-20" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-21" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-22" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-23" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-24" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>																																	
+										
+											</div>								
+
+										</div>	
+										
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<p class="fs-5 fw-bold" style="margin-top: 35px;">Conjugate the verb "to watch"</p>
+
+											<div class="row justify-content-md-center justify-content-sm-center">									
+
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 15px;">PRESENT</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-25" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-26" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-27" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-28" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-29" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-30" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-31" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-32" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-33" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-34" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-35" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-36" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>
+												
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 25px;">PAST</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-37" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-38" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-39" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-40" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-41" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-42" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-43" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-44" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-45" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-46" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-47" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act16-48" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>																																	
+										
+											</div>								
+
+										</div>	
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 82 -->
+<div id="ModalUnit3Act17" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">CONJUGATION OF THE VERBS: TO WALK, TO HELP</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-seventeen">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<input type="text" class="d-none" id="points17" name="points">
+											<input type="text" class="d-none" id="idcliente17" name="idcliente">
+											<input type="text" class="d-none" id="idlibro17" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">										
+																			
+										
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<p class="fs-5 fw-bold">Conjugate the verb "to walk"</p>
+
+											<div class="row justify-content-md-center justify-content-sm-center">									
+
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 15px;">PRESENT</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-1" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-2" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-3" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-4" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-5" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-6" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-7" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-8" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-9" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-10" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-actact269-11" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-12" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>
+												
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 25px;">PAST</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-13" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-14" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-15" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-16" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-17" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-18" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-19" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-20" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-21" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-22" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-23" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-24" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>																																	
+										
+											</div>								
+
+										</div>	
+										
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<p class="fs-5 fw-bold" style="margin-top: 35px;">Conjugate the verb "to help"</p>
+
+											<div class="row justify-content-md-center justify-content-sm-center">									
+
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 15px;">PRESENT</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-25" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-26" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-27" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-28" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-29" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-30" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-31" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-32" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-33" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-34" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-35" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-36" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>
+												
+												<div class="col-12">
+													<h4 style="text-align: center; margin-top: 25px;">PAST</h4>
+												</div>
+
+												<table style="border: 2px solid #F8F496; background-color: #E3F1EC;">													
+													
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-37" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-38" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-39" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-40" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-41" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-42" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-43" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-44" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-45" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-46" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+													<tr>
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-47" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>	
+														<td align="center" style="border: 2px solid #F8F496">
+															<div class="col-6">
+																<input type="text" id="input-act17-48" class="form-control"
+																	aria-label="Sizing example input" maxlength="100"									
+																	style="margin-bottom: 15px; margin-top: 15px;"
+																	autocomplete="off">
+															</div>
+														</td>													
+													</tr>
+
+												</table>																																	
+										
+											</div>								
+
+										</div>	
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 83, actividad 18.1 -->
+<div id="ModalUnit3Act18_1" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">WRITING AND SAYING SIMPLE SENTENCES ABOUT SCHOOL CHILDREN ACTIVITIES</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-eighteen_1">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Rewrite the sentences.</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points18_1" name="points">
+											<input type="text" class="d-none" id="idcliente18_1" name="idcliente">
+											<input type="text" class="d-none" id="idlibro18_1" name="idlibro">
+										</div>
+									</div>
+
+
+
+									<div class="row justify-content-md-center justify-content-sm-center">															
+
+                                        <div class="col-md-6 col-sm-12">
+												
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag81/img81_1-1.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act18_1-1" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentences"
+														autocomplete="off">													
+											</div>											
+																					 
+										</div>											
+										
+                                        <div class="col-md-6 col-sm-12">
+													                                        
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag81/img81_1-2.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act18_1-2" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">													
+											</div>
+                                                                                        
+                                        </div>	
+
+									    <div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag81/img81_1-3.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act18_1-3" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					 
+										</div>	    
+										
+										<div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag81/img81_1-4.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act18_1-4" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					 
+										</div>
+
+										<div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag81/img81_1-5.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act18_1-5" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>	
+										
+										</div>									
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 83, actividad 18.2  -->
+<div id="ModalUnit3Act18_2" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">WRITING AND SAYING SIMPLE SENTENCES ABOUT SCHOOL CHILDREN ACTIVITIES</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-eighteen_2">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the dialogue</p>
+											<input type="text" class="d-none" id="points18_2" name="points">
+											<input type="text" class="d-none" id="idcliente18_2" name="idcliente">
+											<input type="text" class="d-none" id="idlibro18_2" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag81/img81_2.png">
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">Where do you</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">Maricela?</p> 
+													</div>																		
+												</div>																								
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">When will you</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">with us?</p> 
+													</div>		
+																																	
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-1">
+														<p class="fst-normal">I</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">class</p> 
+													</div>		
+													<div class="col-2">
+														<input type="text" id="input-act15_2-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">the second floor</p> 
+													</div>		
+												</div>	
+												
+												<hr>												
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-1">
+														<p class="fst-normal">I will</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">at 7 p.m.</p> 
+													</div>																			
+												</div>			
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">This cake is</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-2">
+														<p class="fst-normal">the students.</p> 
+													</div>	
+																																	
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-3">
+														<p class="fst-normal">They play basketball on</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">Students enjoy every</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act15_2-7" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+																																	
+												</div>	
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 84, actividad 11.1 -->
+<div id="ModalUnit3Act19_1" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">RECOGNIZING AND WRITING VOCABULARY RELATED WITH CHILDREN ACTIVITIES</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-nineteen_1">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Rewrite the sentences</p>
+											<input type="text" class="d-none" id="points19_1" name="points">
+											<input type="text" class="d-none" id="idcliente19_1" name="idcliente">
+											<input type="text" class="d-none" id="idlibro19_1" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">																																							
+										
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-center">
+												<div class="col-12">
+													<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag84/img84_1-1.png">
+												</div>
+												<div class="col-8">
+													<input type="text" id="input-act19_1-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the question"
+															autocomplete="off">
+													<input type="text" id="input-act19_1-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the answer"
+															autocomplete="off">
+												</div>	
+											</div>							
+
+										</div>		
+										
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-center">
+												<div class="col-12">
+													<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag84/img84_1-2.png">
+												</div>
+												<div class="col-8">
+													<input type="text" id="input-act19_1-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the question"
+															autocomplete="off">
+													<input type="text" id="input-act19_1-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the answer"
+															autocomplete="off">
+												</div>	
+											</div>							
+
+										</div>	
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-center">
+												<div class="col-12">
+													<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag84/img84_1-3.png">
+												</div>
+												<div class="col-8">
+													<input type="text" id="input-act19_1-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the question"
+															autocomplete="off">
+													<input type="text" id="input-act19_1-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the answer"
+															autocomplete="off">
+												</div>	
+											</div>							
+
+										</div>	
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-center">
+												<div class="col-12">
+													<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag84/img84_1-4.png">
+												</div>
+												<div class="col-8">
+													<input type="text" id="input-act19_1-7" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the question"
+															autocomplete="off">
+													<input type="text" id="input-act19_1-8" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 25px; margin-top: 25px;"
+															placeholder="Rewrite the answer"
+															autocomplete="off">
+												</div>	
+											</div>							
+
+										</div>	
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 84, actividad 11.1 -->
+<div id="ModalUnit3Act19_2" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">RECOGNIZING AND WRITING VOCABULARY RELATED WITH CHILDREN ACTIVITIES</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-nineteen_2">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Answer the questions</p>
+											<input type="text" class="d-none" id="points19_2" name="points">
+											<input type="text" class="d-none" id="idcliente19_2" name="idcliente">
+											<input type="text" class="d-none" id="idlibro19_2" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">																																																
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-6">
+														<p class="fst-normal text-end">Do you walk to school, Maricela?</p> 
+													</div>
+													<div class="col-6">
+														<input type="text" id="input-act19_2-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															placeholder="Answer the question"
+															autocomplete="off">
+													</div>																																		
+												</div>																								
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-6">
+														<p class="fst-normal text-end">Do you buy tortillas for lunch?</p> 
+													</div>
+													<div class="col-6">
+														<input type="text" id="input-act19_2-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															placeholder="Answer the question"
+															autocomplete="off">
+													</div>																																		
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-6">
+														<p class="fst-normal text-end">What time do you get up, José?</p> 
+													</div>
+													<div class="col-6">
+														<input type="text" id="input-act19_2-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															placeholder="Answer the question"
+															autocomplete="off">
+													</div>																																		
+												</div>	
+												
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-6">
+														<p class="fst-normal text-end">Can you help me with my homework?</p> 
+													</div>
+													<div class="col-6">
+														<input type="text" id="input-act19_2-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															placeholder="Answer the question"
+															autocomplete="off">
+													</div>																																		
+												</div>	
+
+											</div>	
+
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 85 -->
+<div id="ModalUnit3Act20" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">INTERACTING IN SHORT DIALOGUE ABOUT SCHOOL CHILDREN ACTIVITIES</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twenty">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row mb-4">
+										<div class="col align-items-center">
+											<p class="fs-5 fw-bold">Write the correct question</p>
+											<input type="text" class="d-none" id="points20" name="points">
+											<input type="text" class="d-none" id="idcliente20" name="idcliente">
+											<input type="text" class="d-none" id="idlibro20" name="idlibro">
+										</div>
+									</div>
+									
+									<div class="row justify-content-md-center justify-content-sm-center">																																																
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="col-12">
+													<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag85/img85.png" style="margin-bottom: 20px;">
+												</div>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-6">
+														<input type="text" id="input-act20-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															placeholder="Write the question"
+															autocomplete="off">
+													</div>		
+													<div class="col-6">
+														<p class="fst-normal text-end">?  I do my homework on Saturday.</p> 
+													</div>																																
+												</div>																								
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-6">
+														<input type="text" id="input-act20-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															placeholder="Write the question"
+															autocomplete="off">
+													</div>		
+													<div class="col-6">
+														<p class="fst-normal text-end">?  My sister plays jumping rope at recess time.</p> 
+													</div>																																		
+												</div>	
+
+												<hr>
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
+													<div class="col-6">
+														<input type="text" id="input-act20-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															placeholder="Write the question"
+															autocomplete="off">
+													</div>		
+													<div class="col-6">
+														<p class="fst-normal text-end">?  I play soccer with my classmates at the playground</p> 
+													</div>																																	
+												</div>																																				
+
+											</div>	
+
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 86  -->
+<div id="ModalUnit3Act21" class="modal fade"  tabindex="-5">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">RIDDLES</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyone">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Who Am I?</p>
+											<!-- class="d-none" -->
+											<input type="text" class="d-none" id="points21" name="points">
+											<input type="text" class="d-none" id="idcliente21" name="idcliente">
+											<input type="text" class="d-none" id="idlibro21" name="idlibro">
+										</div>
+									</div>
+
+
+
+									<div class="row justify-content-md-center justify-content-sm-center">															
+
+                                        <div class="col-md-6 col-sm-12">
+												
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag86/img86-1.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act21-1" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentences"
+														autocomplete="off">													
+											</div>											
+																					 
+										</div>											
+										
+                                        <div class="col-md-6 col-sm-12">
+													                                        
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag86/img86-2.png">
+											</div>
+											<div class="col justify-content-center">
+												<input type="text" id="input-act21-2" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">													
+											</div>
+                                                                                        
+                                        </div>	
+
+									    <div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag86/img86-3.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act21-3" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					 
+										</div>	    
+										
+										<div class="col-md-6 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag86/img86-4.png">
+											</div>
+
+											<div class="col justify-content-center">
+												<input type="text" id="input-act21-4" class="form-control"
+														aria-label="Sizing example input" maxlength="100"
+														style="margin-bottom: 25px; margin-top: 25px;"
+														placeholder="Rewrite the sentence"
+														autocomplete="off">											
+											</div>
+																					 
+										</div>
+
+										<div class="col-md-12 col-sm-12">
+													
+											<div class="col">
+												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag86/img86-5.png">
+											</div>
+											
+										
+										</div>									
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<br>
+					</div>
+					<br>
+					<!-- Botones de Control -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+						<button type="submit" class="btn waves-effect blue tooltipped"
+							data-tooltip="Guardar">Submit</button>
+						<br>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 87  -->
+<div id="ModalUnit3Act22" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">SAN VICENTE'S DONKEY</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentytwo">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Complete the poem</p>
+											<input type="text" class="d-none" id="points22" name="points">
+											<input type="text" class="d-none" id="idcliente22" name="idcliente">
+											<input type="text" class="d-none" id="idlibro22" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag87/img87.png">
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">"San Vicente's</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act22-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">carries</p> 
+													</div>																		
+												</div>																								
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<input type="text" id="input-act22-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-2">
+														<p class="fst-normal">load and doesn't</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act22-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">it"</p> 
+													</div>		
+																																	
+												</div>	
+									
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-1">
+														<p class="fst-normal">Would</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act22-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">like to</p> 
+													</div>		
+													<div class="col-2">
+														<input type="text" id="input-act22-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">the fairies?</p> 
+													</div>		
+												</div>	
+											
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<input type="text" id="input-act22-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">will lend</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act22-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">my lens</p> 
+													</div>																			
+												</div>																											
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 88  -->
+<div id="ModalUnit3Act23" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">LITTLE SNOW WHITE</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentythree">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points23" name="points">
+											<input type="text" class="d-none" id="idcliente23" name="idcliente">
+											<input type="text" class="d-none" id="idlibro23" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag88/img88.png">
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-2">
+														<p class="fst-normal">Soon afterwards</p> 
+													</div>	
+													<div class="col-1">
+														<input type="text" id="input-act23-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">little</p> 
+													</div>		
+													<div class="col-2">
+														<input type="text" id="input-act23-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-4">
+														<p class="fst-normal">came, to her, who was</p> 
+													</div>																
+												</div>																								
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													<div class="col-1">
+														<input type="text" id="input-act23-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">as</p> 
+													</div>	
+													<div class="col-1">
+														<input type="text" id="input-act23-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">, rosy as</p> 
+													</div>	
+													<div class="col-1">
+														<input type="text" id="input-act23-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">blood, and whose</p> 
+													</div>		
+													<div class="col-1">
+														<input type="text" id="input-act23-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal">was as</p> 
+													</div>																		
+												</div>	
+									
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<input type="text" id="input-act23-7" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-2">
+														<p class="fst-normal">as ebony - so</p> 
+													</div>		
+													<div class="col-1">
+														<input type="text" id="input-act23-8" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">was called</p> 
+													</div>		
+													<div class="col-2">
+														<input type="text" id="input-act23-9" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+												</div>																																							
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<!-- Página 89  -->
+
+<!-- Página 90  -->
+
+<!-- Página 91  -->
+
+<!-- Página 92  -->
+<div id="ModalUnit3Act27" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">MONSTERS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyseven">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Draw the monsters</p>
+											<input type="text" class="d-none" id="points27" name="points">
+											<input type="text" class="d-none" id="idcliente27" name="idcliente">
+											<input type="text" class="d-none" id="idlibro27" name="idlibro">
+										</div>
+									</div>									
+
+									<style type="text/css">
+										/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');*/
+
+										/* Reset defaults */
+										* {
+											margin: 0;
+											padding: 0;
+											border: 0;
+											outline: 0;
+											font-size: 100%;
+											vertical-align: baseline;
+										}
+
+										html {
+										font-family: "Roboto";
+										}
+
+										header {
+										width: 85%;
+										margin: auto;
+										padding-top: 50px;
+										padding-bottom: 50px;
+										}
+
+										.grid {
+										display: grid;
+										grid-template-columns: 25% 25% 25%;
+										justify-content: center;	
+										margin-top: 30px;
+										}
+
+										h1 {
+										color: rgba(0, 0, 0, 0.7.5);
+										font-size: 56px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										text-align: center;
+										}
+
+										header p {
+										color: rgba(0, 0, 0, 0.6);
+										font-size: 22px;
+										font-weight: 700;
+										letter-spacing: 0.2px;
+										text-align: center;
+										margin-bottom: 30px;
+										}
+
+										.colorPickerWrapper, .strokeWidthPickerWrapper {
+										text-align: center;
+										}
+
+										.colorPickerWrapper input {
+										width: 75px;
+										}
+
+										.container {
+										width: 100%;
+										margin: auto;
+										height: 500px;
+										text-align: center;
+										}
+
+										canvas11 {
+										background-color: #F8F8F8;
+										}
+
+										.color, .stroke, .clear {
+										justify-self: center;
+										}
+
+										#clearBtn27 {
+										color: white;
+										font-size: 20px;
+										font-weight: 700;
+										letter-spacing: 0.5px;
+										padding: 10px 50px;
+										background-color: #55D0ED;
+										border-radius: 10px;
+										text-decoration: none;
+										}
+									</style>
+
+									<header>
+										<h1>Draw with your mouse</h1>
+										<div class="grid">
+											<div class="color">
+												<p>Choose a color:</p>
+												<div class="colorPickerWrapper">
+													<input type="color" id="colorPicker27" value="#55D0ED">
+												</div>
+											</div>
+											<div class="stroke">
+												<p>Change the stroke's width:</p>
+												<div class="strokeWidthPickerWrapper">
+													<input type="range" min="1" max="20" value="2.5" id="strokeWidthPicker27">
+												</div>
+											</div>
+											<div class="clear">
+													<p>Clear the canvas</p>
+												<div class="clearBtnWrapper">
+													<a href="#" id="clearBtn27">Clear the canvas</a>
+												</div>
+											</div>
+										</div>
+									</header>
+
+									<div class="col-12">
+										<div class="container mt-3">
+											<input type="number" value="0" id="verify-canvas" class="d-none">
+											<canvas id="canvas27" style="background: url('../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag92/img92.png')"
+											width="390" height="450">
+
+											</canvas>
+										</div>
+									</div>
+									<!-- Librerias para el Canvas -->
+									<script src="https://s.cdpn.io/6859/paper.js"></script>
+        							<script src="https://s.cdpn.io/6859/tween.min.js"></script>
+									
+								</div>
+
+								<div class="row justify-content-md-center justify-content-sm-center">		
+									
+									<div class="col-md-12 col-sm-12 col-xs-12">
+
+										<div class="row justify-content-md-center justify-content-sm-center">
+											
+											<div class="col-12">
+												<p class="fst-normal fw-bold">POLLY</p> 
+											</div>	
+
+										</div>	
+										
+										<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+										
+											<div class="col-3">
+												<p class="fst-normal text-end">Polly has got two green</p> 
+											</div>		
+											<div class="col-1">
+												<input type="text" id="input-act27-1" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>
+											<div class="col-3">
+												<p class="fst-normal">, one yellow nose and one blue</p> 
+											</div>	
+											<div class="col-1">
+												<input type="text" id="input-act27-2" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>	
+											<div class="col-1">
+												<p class="fst-normal">he's got</p> 
+											</div>	
+											<div class="col-1">
+												<input type="text" id="input-act27-3" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>		
+											<div class="col-2">
+												<p class="fst-normal">brown ears.</p> 
+											</div>											
+										</div>	
+
+										<div class="row justify-content-md-center justify-content-sm-center">
+											
+											<div class="col-12">
+												<p class="fst-normal fw-bold">FIGGY</p> 
+											</div>	
+
+										</div>	
+
+										<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+										
+											<div class="col-2">
+												<p class="fst-normal text-end">Figgy has got</p> 
+											</div>		
+											<div class="col-1">
+												<input type="text" id="input-act27-4" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>
+											<div class="col-2">
+												<p class="fst-normal">blue eyes, three red</p> 
+											</div>	
+											<div class="col-1">
+												<input type="text" id="input-act27-5" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>	
+											<div class="col-4">
+												<p class="fst-normal">, two big yellow mouths and four people</p> 
+											</div>																						
+										</div>	
+
+										<div class="row justify-content-md-center justify-content-sm-center">
+											
+											<div class="col-12">
+												<p class="fst-normal fw-bold">HENRY</p> 
+											</div>	
+
+										</div>	
+
+										<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+										
+											<div class="col-2">
+												<p class="fst-normal text-end">Henry's got</p> 
+											</div>		
+											<div class="col-1">
+												<input type="text" id="input-act27-6" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>
+											<div class="col-3">
+												<p class="fst-normal">pink eyes and two orange</p> 
+											</div>	
+											<div class="col-1">
+												<input type="text" id="input-act27-7" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>	
+											<div class="col-2">
+												<p class="fst-normal">He's got three purple</p> 
+											</div>	
+											<div class="col-1">
+												<input type="text" id="input-act27-8" class="form-control"
+													aria-label="Sizing example input" maxlength="100"
+													style="margin-bottom: 5px;"
+													autocomplete="off">
+											</div>	
+											<div class="col-2">
+												<p class="fst-normal">and his hair is brown.</p> 
+											</div>																						
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Página 93  -->
+<div id="ModalUnit3Act28" class="modal fade" tabindex="-34">
+	<!-- <div class="container-fluid"> -->
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modal-title">IT ALREADY RAINS, IT ALREADY RAINS</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<form method="post" id="game-twentyeight">
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="form-group">
+							<!-- columna -->
+							<div class="container-fluid">
+								<div class="row align-items-center">
+									<div class="row">
+										<div class="col-md-8 align-items-center">
+											<p class="fs-1 fw-bold">Write the missing words</p>
+											<input type="text" class="d-none" id="points28" name="points">
+											<input type="text" class="d-none" id="idcliente28" name="idcliente">
+											<input type="text" class="d-none" id="idlibro28" name="idlibro">
+										</div>
+									</div>
+
+									<div class="row align-items-center">
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitThree/Pag93/img93.png">
+										</div>
+
+										<div class="col-md-12 col-sm-12 col-xs-12">
+
+											<div class="row justify-content-md-center justify-content-sm-center">
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
+													
+													<div class="col-1">
+														<input type="text" id="input-act28-1" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">already</p> 
+													</div>		
+													<div class="col-1">
+														<input type="text" id="input-act28-2" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">, it</p> 
+													</div>	
+													<div class="col-2">
+														<input type="text" id="input-act28-3" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-1">
+														<p class="fst-normal">rains, it</p> 
+													</div>													
+												</div>																								
+
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">																																							
+													<div class="col-2">
+														<p class="fst-normal">begins to</p> 
+													</div>	
+													<div class="col-1">
+														<input type="text" id="input-act28-4" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">and</p> 
+													</div>	
+													<div class="col-1">
+														<input type="text" id="input-act28-5" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>	
+													<div class="col-2">
+														<p class="fst-normal">strong cloudburst</p> 
+													</div>																															
+												</div>	
+									
+												<div class="row justify-content-md-center justify-content-sm-center mb-2">
+													<div class="col-1">
+														<p class="fst-normal">I</p> 
+													</div>	
+													<div class="col-1">
+														<input type="text" id="input-act28-6" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>
+													<div class="col-1">
+														<p class="fst-normal">to</p> 
+													</div>		
+													<div class="col-1">
+														<input type="text" id="input-act28-7" class="form-control"
+															aria-label="Sizing example input" maxlength="100"
+															style="margin-bottom: 5px;"
+															autocomplete="off">
+													</div>														
+												</div>																																							
+
+											</div>	
+
+										</div>
+
+									</div>									
+								</div>
+							</div>
+							<br>
+						</div>
+						<br>
+						<!-- Botones de Control -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn waves-effect blue tooltipped"
+								data-tooltip="Guardar">Submit</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 <!-- --------------------------------- inicio plantilla footer  ---------------------------------	 -->
 <?php
 // Se imprime la plantilla del pie enviando el nombre del controlador para la página web.
