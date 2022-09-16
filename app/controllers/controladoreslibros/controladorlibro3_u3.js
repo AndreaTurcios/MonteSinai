@@ -2181,13 +2181,82 @@ document.getElementById('game-twentythree').addEventListener('submit', function 
     
 });
 
-//24
 
-//25
+document.getElementById('game-twentyfour').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
 
-//26
+    promedio = 1;
+    var libro = 3;
+    document.getElementById('idcliente24').value = users.value;
+    document.getElementById('points24').value = promedio;
+    document.getElementById('idlibro24').value = libro;
 
-//27
+    action = 'create';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfour', 'ModalUnit3Act24');
+    sweetAlert(1, 'Good job', null);
+    $('#ModalUnit3Act24').modal('hide');
+    return true;
+
+});
+
+document.getElementById('game-twentyfive').addEventListener('submit', function (event) {
+    // Se evita recargar la página web después de enviar el formulario.
+    event.preventDefault();
+
+    promedio = 1;
+    var libro = 3;
+    document.getElementById('idcliente25').value = users.value;
+    document.getElementById('points25').value = promedio;
+    document.getElementById('idlibro25').value = libro;
+
+    action = 'create';
+    saveRowActivity(API_ACTIVIDADES, action, 'game-twentyfive', 'ModalUnit3Act25');
+    sweetAlert(1, 'Good job', null);
+    $('#ModalUnit3Act25').modal('hide');
+    return true;
+
+});
+
+function checkCells(id) {
+    document.getElementById(id).style.backgroundColor = "#c293c7";
+}
+
+document.getElementById('game-twentysix').addEventListener('submit', function (event) {
+    //se evita recargar la página al enviar el formulario
+    event.preventDefault();
+
+    //Se asigna el valor de la actividad
+    let valorActividad = 1;
+    //Variable para mantener las respuestas correctas
+    let conteo = 0;
+    //Arreglo para guardar los datos ingresados
+    let inputs = [];
+  
+    //Se verifica que las celdas necesarias se hayan seleccionado
+    for (let i = 0; i < 59; i++) {
+        if (document.getElementById('act26-' + (i + 1)).style.backgroundColor == 'rgb(194, 147, 199)') {
+            conteo++;
+        }
+
+    }
+
+    if (conteo < 59) {
+        sweetAlert(2, 'Find the missing words', null);
+        return false;
+    } else {
+
+        var libro = 3;
+        document.getElementById('idcliente26').value = users.value;
+        document.getElementById('points26').value = valorActividad;
+        document.getElementById('idlibro26').value = libro;
+        action = 'create';
+        saveRowActivity(API_ACTIVIDADES, action, 'game-twentysix', 'ModalUnit3Act26');
+        sweetAlert(1, 'Good job!', null);
+        $('#ModalUnit3Act26').modal('hide');
+    }
+
+});
 
 paper.install(window);
 
