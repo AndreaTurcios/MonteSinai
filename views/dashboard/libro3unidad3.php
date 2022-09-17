@@ -6801,7 +6801,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">Where do you</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act15_2-1" class="form-control"
+														<input type="text" id="input-act18_2-1" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -6818,7 +6818,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">When will you</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act15_2-2" class="form-control"
+														<input type="text" id="input-act18_2-2" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -6836,7 +6836,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">I</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act15_2-3" class="form-control"
+														<input type="text" id="input-act18_2-3" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -6845,7 +6845,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">class</p> 
 													</div>		
 													<div class="col-2">
-														<input type="text" id="input-act15_2-3" class="form-control"
+														<input type="text" id="input-act18_2-3" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -6862,7 +6862,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">I will</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act15_2-4" class="form-control"
+														<input type="text" id="input-act18_2-4" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -6879,7 +6879,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">This cake is</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act15_2-5" class="form-control"
+														<input type="text" id="input-act18_2-5" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -6897,7 +6897,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">They play basketball on</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act15_2-6" class="form-control"
+														<input type="text" id="input-act18_2-6" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -6912,7 +6912,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">Students enjoy every</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act15_2-7" class="form-control"
+														<input type="text" id="input-act18_2-7" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -7331,7 +7331,7 @@ Book_Page::headerTemplate('Unidad 3');
 												<input type="text" id="input-act21-1" class="form-control"
 														aria-label="Sizing example input" maxlength="100"
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Rewrite the sentences"
+														placeholder="RWho Am I?"
 														autocomplete="off">													
 											</div>											
 																					 
@@ -7346,7 +7346,7 @@ Book_Page::headerTemplate('Unidad 3');
 												<input type="text" id="input-act21-2" class="form-control"
 														aria-label="Sizing example input" maxlength="100"
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Rewrite the sentence"
+														placeholder="Who Am I?"
 														autocomplete="off">													
 											</div>
                                                                                         
@@ -7362,7 +7362,7 @@ Book_Page::headerTemplate('Unidad 3');
 												<input type="text" id="input-act21-3" class="form-control"
 														aria-label="Sizing example input" maxlength="100"
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Rewrite the sentence"
+														placeholder="Who Am I?"
 														autocomplete="off">											
 											</div>
 																					 
@@ -7378,7 +7378,7 @@ Book_Page::headerTemplate('Unidad 3');
 												<input type="text" id="input-act21-4" class="form-control"
 														aria-label="Sizing example input" maxlength="100"
 														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Rewrite the sentence"
+														placeholder="Who Am I?"
 														autocomplete="off">											
 											</div>
 																					 
@@ -7475,7 +7475,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">load and doesn't</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act22-2" class="form-control"
+														<input type="text" id="input-act22-3" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -7491,7 +7491,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">Would</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act22-3" class="form-control"
+														<input type="text" id="input-act22-4" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -7500,7 +7500,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">like to</p> 
 													</div>		
 													<div class="col-2">
-														<input type="text" id="input-act22-3" class="form-control"
+														<input type="text" id="input-act22-5" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -7512,7 +7512,7 @@ Book_Page::headerTemplate('Unidad 3');
 											
 												<div class="row justify-content-md-center justify-content-sm-center mb-2">																										
 													<div class="col-2">
-														<input type="text" id="input-act22-4" class="form-control"
+														<input type="text" id="input-act22-6" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -7521,7 +7521,7 @@ Book_Page::headerTemplate('Unidad 3');
 														<p class="fst-normal">will lend</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act22-4" class="form-control"
+														<input type="text" id="input-act22-7" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">

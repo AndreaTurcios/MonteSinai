@@ -5084,7 +5084,7 @@ Book_Page::headerTemplate('Unidad 2');
 														<p class="fst-normal">I go to school</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act16_2-1" class="form-control"
+														<input type="text" id="input-act17_2-1" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5098,7 +5098,7 @@ Book_Page::headerTemplate('Unidad 2');
 														<p class="fst-normal">You go to class</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act16_2-2" class="form-control"
+														<input type="text" id="input-act17_2-2" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5112,7 +5112,7 @@ Book_Page::headerTemplate('Unidad 2');
 														<p class="fst-normal">My teacher goes to</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act16_2-3" class="form-control"
+														<input type="text" id="input-act17_2-3" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5121,7 +5121,7 @@ Book_Page::headerTemplate('Unidad 2');
 														<p class="fst-normal">by</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act16_2-4" class="form-control"
+														<input type="text" id="input-act17_2-4" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5132,7 +5132,7 @@ Book_Page::headerTemplate('Unidad 2');
 
 												<div class="row justify-content-md-center justify-content-sm-center mb-2">																																								
 													<div class="col-2">
-														<input type="text" id="input-act16_2-5" class="form-control"
+														<input type="text" id="input-act17_2-5" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5141,7 +5141,7 @@ Book_Page::headerTemplate('Unidad 2');
 														<p class="fst-normal">goes to school on</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act16_2-6" class="form-control"
+														<input type="text" id="input-act17_2-6" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5155,7 +5155,7 @@ Book_Page::headerTemplate('Unidad 2');
 														<p class="fst-normal">The</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act16_2-7" class="form-control"
+														<input type="text" id="input-act17_2-7" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5164,7 +5164,7 @@ Book_Page::headerTemplate('Unidad 2');
 														<p class="fst-normal">lot is</p> 
 													</div>	
 													<div class="col-2">
-														<input type="text" id="input-act16_2-8" class="form-control"
+														<input type="text" id="input-act17_2-8" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -8023,11 +8023,7 @@ Book_Page::headerTemplate('Unidad 2');
 									</div>
 
 									<div class="row align-items-center">
-
-										<div class="col-md-12 col-sm-12 col-xs-12">
-											<img class="img-fluid rounded mx-auto d-block" style="margin-bottom: 25px;" src="../../resources/img/BOOKS/ThirdGrade/UnitTwo/Pag62/img62_1.png">
-										</div>
-
+										
 										<div class="col-md-12 col-sm-12 col-xs-12">
 
 											<div class="row justify-content-md-center justify-content-sm-center">
