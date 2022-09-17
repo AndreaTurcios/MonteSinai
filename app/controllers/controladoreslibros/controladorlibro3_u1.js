@@ -1921,8 +1921,8 @@ document.getElementById('game-twenty_1').addEventListener('submit', function (ev
     let respuestas = ["HOW ARE YOU, CLAUDIA?",
                     "NOT TO BAD, THANKS.",
                     "HOW DO YOU DO MRS. CHACÓN?",
-                    "I’M FINE, THANK YOU.",
-                    "WHAT’S NEW, DAVID?",
+                    "I'M FINE, THANK YOU.",
+                    "WHAT'S NEW, DAVID?",
                     "NOT MUCH, JAMES.",
                     "SEE YOU LATER, HÉCTOR.",
                     "SEE YOU, MY FRIEND."

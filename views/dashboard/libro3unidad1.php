@@ -3141,52 +3141,7 @@ Book_Page::headerTemplate('Unidad 1');
 														autocomplete="off">
 											</div>
 																					 
-										</div>	
-
-										<div class="col-md-6 col-sm-6">
-																																			
-											<div class="col">
-												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitOne/Pag10/img9-8.png">
-											</div>
-											<div class="col justify-content-center">
-												<input type="text" id="input-act8_1-8" class="form-control"
-														aria-label="Sizing example input" maxlength="100"
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Rewrite the sentence"
-														autocomplete="off">
-											</div>
-																					 
-										</div>	
-
-										<div class="col-md-6 col-sm-6">
-																																			
-											<div class="col">
-												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitOne/Pag10/img9-9.png">
-											</div>
-											<div class="col justify-content-center">
-												<input type="text" id="input-act8_1-9" class="form-control"
-														aria-label="Sizing example input" maxlength="100"
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Rewrite the sentence"
-														autocomplete="off">
-											</div>
-																					 
-										</div>	
-
-										<div class="col-md-6 col-sm-6">
-																																			
-											<div class="col">
-												<img class="rounded mx-auto d-block" src="../../resources/img/BOOKS/ThirdGrade/UnitOne/Pag10/img9-10.png">
-											</div>
-											<div class="col justify-content-center">
-												<input type="text" id="input-act8_1-10" class="form-control"
-														aria-label="Sizing example input" maxlength="100"
-														style="margin-bottom: 25px; margin-top: 25px;"
-														placeholder="Rewrite the sentence"
-														autocomplete="off">
-											</div>
-																					 
-										</div>	
+										</div>		
 
 									</div>
 
@@ -4972,7 +4927,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">DRINKS</h5>
+				<h5 class="modal-title" id="exampleModalLabel">NOUNS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-twelve_2">
@@ -5269,7 +5224,7 @@ Book_Page::headerTemplate('Unidad 1');
 														<p class="fst-normal">I am a</p> 
 													</div>
 													<div class="col-2">
-														<input type="text" id="input-act12_2-1" class="form-control"
+														<input type="text" id="input-act13_2-1" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5286,7 +5241,7 @@ Book_Page::headerTemplate('Unidad 1');
 														<p class="fst-normal">My breakfast is</p> 
 													</div>
 													<div class="col-2">
-														<input type="text" id="input-act12_2-2" class="form-control"
+														<input type="text" id="input-act13_2-2" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5300,7 +5255,7 @@ Book_Page::headerTemplate('Unidad 1');
 														<p class="fst-normal">This shirt</p> 
 													</div>
 													<div class="col-2">
-														<input type="text" id="input-act12_2-3" class="form-control"
+														<input type="text" id="input-act13_2-3" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5311,7 +5266,7 @@ Book_Page::headerTemplate('Unidad 1');
 												
 												<div class="row justify-content-md-center justify-content-sm-center mb-2">													
 													<div class="col-2">
-														<input type="text" id="input-act12_2-4" class="form-control"
+														<input type="text" id="input-act13_2-4" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5329,7 +5284,7 @@ Book_Page::headerTemplate('Unidad 1');
 														<p class="fst-normal">Her</p> 
 													</div>
 													<div class="col-2">
-														<input type="text" id="input-act11_2-5" class="form-control"
+														<input type="text" id="input-act13_2-5" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5338,7 +5293,7 @@ Book_Page::headerTemplate('Unidad 1');
 														<p class="fst-normal">is</p> 
 													</div>
 													<div class="col-2">
-														<input type="text" id="input-act11_2-6" class="form-control"
+														<input type="text" id="input-act13_2-6" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -5352,7 +5307,7 @@ Book_Page::headerTemplate('Unidad 1');
 														<p class="fst-normal">His dog is</p> 
 													</div>
 													<div class="col-2">
-														<input type="text" id="input-act11_2-7" class="form-control"
+														<input type="text" id="input-act13_2-7" class="form-control"
 															aria-label="Sizing example input" maxlength="100"
 															style="margin-bottom: 5px;"
 															autocomplete="off">
@@ -9035,7 +8990,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="col">
 												<input type="text" id="input-act22_1-2" class="form-control"
 														aria-label="Sizing example input" maxlength="100"
-														style="margin-bottom: 25px; margin-top: 25px;"												
+														style="margin-bottom: 25px; margin-top: 25px;"		
+														placeholder="Rewrite the sentence"												
 														autocomplete="off">												
 											</div>												
 																																										 
@@ -9366,7 +9322,8 @@ Book_Page::headerTemplate('Unidad 1');
 											<div class="col">
 												<input type="text" id="input-act23_1-2" class="form-control"
 														aria-label="Sizing example input" maxlength="100"
-														style="margin-bottom: 25px; margin-top: 25px;"												
+														style="margin-bottom: 25px; margin-top: 25px;"	
+														placeholder="Rewrite the sentence"												
 														autocomplete="off">												
 											</div>												
 																																										 
@@ -9489,7 +9446,7 @@ Book_Page::headerTemplate('Unidad 1');
 	<div class="modal-dialog modal-xl">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="modal-title">MY FAMILY</h5>
+				<h5 class="modal-title" id="modal-title">PROFESSIONS/OCCUPATIONS</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<form method="post" id="game-twentythree_2">
